@@ -10,7 +10,7 @@ API Occupation Forecasts (API Vägledning) contains 1 and 5 years forecasts for 
 
 The forecasts are based on the standard SSYK (Swedish standard occupation classification)
 
-Readmore about [SSYK](http://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/)
+Read more about [SSYK](http://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/)
 
 With API Occupation Forecasts (API Vägledning) it is possible to integrate Arbetsförmedlingen (the Employment Agency) forecasts into in custom built applications.
 

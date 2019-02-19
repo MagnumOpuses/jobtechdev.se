@@ -22,11 +22,10 @@ LastModifierDisplayName: ""
 LastModifierEmail: ""
 ---
   <hr>
-{{< FAQ     
-    "1"="Am I allowed to chache and store data in my own backend?| Yes, you are allowed to cache and store data from our open API's to your own backend "
-    "2"="Can I add an application of my own as a Sample?|Yes, we´d love to show what you´ve done! To add a sample, it needs to be open source. Please email us at contact@jobtechdev.se if you would like to publish a sample of your own."
-    "3"="What's the difference between SSYK and Yrkesid?|In short, SSYK is the standard for the Swedish Standard Classification of Occupations. SSYK also refers to the whole occupation classification structure. Yrkesid represents a specific occupation." 
+{{< FAQ
+    "1"="Am I allowed to cache and store data in my own backend?| Yes, you are allowed to cache and store data from our open APIs to your own backend "
+    "2"="Can I add an application of my own as a Sample?|Yes, we'd love to show what you've done! To add a sample, it needs to be open source. Please email us at contact@jobtechdev.se if you would like to publish a sample of your own."
+    "3"="What's the difference between SSYK and Yrkesid?|In short, SSYK is the standard for the Swedish Standard Classification of Occupations. SSYK also refers to the whole occupation classification structure. Yrkesid represents a specific occupation."
     "4"="How can I access all the jobs from Arbetsförmedlingen Platsbanken?|Find it here: http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?landid=199"
     "5"="How can I get in touch with JobTech?|If you would like to contact us, please e-mail us at contact@jobtechdev.se "
 >}}
-

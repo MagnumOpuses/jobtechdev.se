@@ -23,6 +23,6 @@ LastModifierEmail: ""
 ---
 # APIs
 <hr>
-### Open resources for developersgitr b
+### Open resources for developers
 
 Get started **quickly**
