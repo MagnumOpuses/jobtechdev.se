@@ -40,14 +40,20 @@ home = [ "HTML", "RSS", "JSON"]
 
 
   [[menu.shortcuts]]
-  name = "<i class='fab fa-github'></i> Github repo"
+  name = "<i class='fab fa-github'></i> Github repo - Jobtechswe"
   identifier = "ds"
-  url = "https://github.com/jobtechswe"
+  url = "https://github.com/MagnumOpuses/jobtechdev.se/tree/develop"
   weight = 10
+
+  [[menu.shortcuts]]
+    name = "<i class='fab fa-github'></i> Github repo - MagnumOpuses"
+    identifier = "ds1"
+    url = "https://github.com/jobtechswe"
+    weight = 20
 
   [[menu.shortcuts]]
   name = "<i class='fas fa-bookmark'></i> Jobtechdev.se"
   identifier = "hugodoc"
   url = "https://www.jobtechdev.se/"
-  weight = 20
+  weight = 30
 
