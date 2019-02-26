@@ -17,6 +17,7 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F"
   },
   "dependencies": {
+    "counterup2": "^1.0.4",
     "cpx": "^1.5.0"
   },
   "devDependencies": {

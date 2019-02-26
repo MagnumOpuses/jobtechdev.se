@@ -23,3 +23,5 @@ http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/
 ````
 
 [Occupation forecast API](http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/)
+
+
