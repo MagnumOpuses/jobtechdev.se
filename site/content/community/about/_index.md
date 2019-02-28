@@ -6,30 +6,33 @@ menuTitle: "JobTech - Community"
 disableToc: true
 weight: 10
 ---
-#### JobTech Community - the analog version
+#### The JobTech Community 
 
-Find opportunities for co-working around innovation, development and improvments of the Swedish labourmarket.  
-We share and recieve data, experiences och knowledge. 
-This is an area where co-working and building relationships through open source is made reality.  
-Regardless if you are a developer, an innovator, an investor, a student …or something else. 
+Find opportunities for collaboration and innovation, develop and improve the Swedish labour market. We share and recieve knowledge, experience and data.
+This is an arena where collaboration and relationship building through open source and open data is made reality, 
+regardless if you're a developer, innovator, CEO, student - or something else
 
-##### What’s in it for me? 
+##### How to join? 
 
-•	You’ll get invited to our meetups  
-•	You’ll get access to our forum where innovation and development take place.   
-    you'll also be able to contribute with thoughts, ideas and suggestions on developments
-•	You'll be able to initiate contacts and build relations  
-•	You can network and get access to others with similar interests 
-•   You will be able to ask questions and get answers from us and the community
+Meet us - We're available if you want to meet us and talk about ideas or potential collaborations, just send us an email <josefin@jobtechdev.se>  
+Network - You'll get invited to our regular Meetups, check out the next one here [JobTech CommunityMorning](http://gantrack.com/t/pm/1813725696977/)   
+Open source - You can contribute directly to our actual development [projects](https://github.com/jobtechswe) 
 
 
-##### Nothings is for free! 
-•   We belive open source is the way to go regarding digital innovation of the Swedish labour market.  
-We would like for you to agree 
-on that  but also to contribute, share and improve the labour market
 
-##### Get in touch right now?
-Please do - to <community@jobtechdev.se>
+##### Everything in life is give and take - even JobTech 
+We believe that open source is the way to go regarding digital innovation in the Swedish labour market. 
+We're happy to provide you with whatever we can to make your ideas a reality, but we also expect you to give back in some form. 
+There are many ways to share your ideas and expertise in our ecosystem in order to give back.  
+Share code, share knowledge, share data, every contribution counts! 
+Let's talk and find something that fits and feels good.
+
+
+
+##### Do you want to keep up with what's happening in JobTech?
+[Sign up for our News & Event letter!](https://gansub.com/s/oeGL7cn4Km/)
+
+
 
 
 
