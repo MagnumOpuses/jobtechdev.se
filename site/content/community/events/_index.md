@@ -11,3 +11,8 @@ weight: 10
 
 ##### 21 Mars 2019
 Welcome to <a href="http://gantrack.com/t/pm/1813725696977/">JobTechCommunity Morning!</a>
+
+
+{{<twitter >}}
+
+<img class=" src="/doc/comevent.jpg">
