@@ -78,6 +78,9 @@ a:hover {
 #header {
     left:35px;
     position: relative;
+    img {
+
+    }
 }
 #sidebar .searchbox {
 	border-color: var(--MENU-SEARCH-BOX-color);
