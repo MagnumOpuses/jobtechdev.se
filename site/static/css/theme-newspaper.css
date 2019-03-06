@@ -19,8 +19,9 @@
   width: 100%;
   max-width: 1460px;
   margin: 0 auto;
-  padding: 0 20px
+  padding: 0px;
 }
+
 #logo-api {
   margin-left: 3rem !important;
 }
