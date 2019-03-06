@@ -6,11 +6,9 @@
         let fullUrlLink = location.href;
 
         if (fullUrlLink.search("/work") >= 0) {
+            window.location.port.replace(80);
             window.location.replace("/work/");
-            console.log(window.location)
-            window.location.port = 443;
-            window.location.replace("/work/");
-            console.log(window.location)
+
         }
 
 	</script>
