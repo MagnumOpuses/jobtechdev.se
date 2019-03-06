@@ -415,6 +415,15 @@ dl {
 dl dd {
     margin-bottom: 10px;
 }
+
+#img {
+    transition:transform 0.25s ease;
+}
+
+#img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
 /*---------------------------------------------------------------
 5. BOX SPACING (inner & outer)
 	>padding
