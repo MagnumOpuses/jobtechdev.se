@@ -5,7 +5,8 @@
 	<script>
         let fullUrlLink = location.href;
 
-        if (fullUrlLink === "\"/work\"") {
+        if (fullUrlLink.search("/work") >= 0) {
+            window.location.replace("/work/");
             console.log(window.location)
             window.location.port = 443;
             window.location.replace("/work/");
