@@ -17,7 +17,7 @@ Welcome! [Join here] (http://gantrack.com/t/pm/1813725696977/)
 
 * ##### Improved recruitmentsystems to your morning coffee?  
 Listen to and participate in a dialog with Erik Sandström (AF), Gregory Golding (JobtechDevelopment) and Jonas Södergren (JobtechDevelopment).  
-Welcome! [Join here] (länk till inbjudan)
+Welcome! [Join here] (http://gantrack.com/t/pm/1819314381169/)
 
 
   
