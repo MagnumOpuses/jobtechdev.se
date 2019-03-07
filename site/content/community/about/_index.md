@@ -16,8 +16,7 @@ regardless if you're a developer, innovator, CEO, student - or something else
 
 ##### How to join? 
 
-Meet us - We're available if you want to meet us and talk about ideas or potential collaborations, just send us an email <josefin@jobtechdev.se>  
-Network - You'll get invited to our regular Meetups, check out the next one here [JobTech CommunityMorning](http://gantrack.com/t/pm/1813725696977/)   
+Meet us - We're available if you want to meet us and talk about ideas or potential collaborations, just send us an email <josefin.berndtson@jobtechdev.se>     
 Open source - You can contribute directly to our actual development [projects](https://github.com/jobtechswe) 
 
 
@@ -35,7 +34,7 @@ Let's talk and find something that fits and feels good.
 
 
 ##### Do you want to keep up with what's happening in JobTech?
-[Sign up for our News & Event letter!](https://gansub.com/s/oeGL7cn4Km/)
+[Sign up for our Event letter!](https://gansub.com/s/oeGL7cn4Km/)
 
 
 
