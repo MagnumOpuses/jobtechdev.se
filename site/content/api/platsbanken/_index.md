@@ -29,9 +29,9 @@ If you are looking for a "bagare" (baker), you also get hits for "Konditor" (con
 See the technical description for details requests.
 
 ## Endpoint
-{{< highlight bash >}}
+````
 https://jobtechdev.se/swagger/index.html
-{{< /highlight >}}
+````
 
 
 Learn more about the Platsbanken API or start use the API right away
