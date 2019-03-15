@@ -1,7 +1,7 @@
 ---
 title: "Occupation Forecast"
 disableToc: true
-menuTitle: "Occupation - Forecast"
+menuTitle: "Forecast"
 weight: 30
 date: 2019-01-19T20:06:16+01:00
 ---
