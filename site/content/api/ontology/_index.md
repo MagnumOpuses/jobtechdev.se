@@ -20,8 +20,9 @@ The state of the Ontology is beta and it is changing to continuously and is impr
 
 ## Road map
 
-The Jobmarket Ontology will be merged with the JobTech Taxonomy.
-See the [Taxonomy documentation](https://jobtechdev.se/doc/projects/common/) for more information.
+The Jobmarket Ontology will be merged with the JobTech Taxonomy, and all identifiers will be replaced.
+
+See the [Taxonomy documentation]({{< ref "/projects/common/_index.md" >}}) for more information.
 
 
 ## Endpoint
