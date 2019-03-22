@@ -18,6 +18,12 @@ What does your skills relates to? The first version of the Job market Ontology c
 
 The state of the Ontology is beta and it is changing to continuously and is improved upon everyday.
 
+## Road map
+
+The Jobmarket Ontology will be merged with the JobTech Taxonomy.
+See the [Taxonomy documentation](https://jobtechdev.se/doc/projects/common/) for more information.
+
+
 ## Endpoint
 ```
 http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json
