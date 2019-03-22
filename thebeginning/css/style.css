@@ -105,6 +105,8 @@
 
 30. ONE-PAGE-LAYOUT
 
+31. Uptimerobot status
+
 ======================================
   * END TABLE CONTENT *  
 ======================================
@@ -7671,9 +7673,12 @@ footer .widget_getintuch i {
     background-repeat: repeat-x;
 }
 .footer-bottom {
+    position: relative;
+    z-index: 100;
     background-color:#292929;
     padding: 25px 0;
     color: #fff;
+    bottom: 0px;
     font-size: 15px;
 	border-top:1px solid #313131;
 }
@@ -7859,6 +7864,7 @@ footer.footer-white .footer-bottom a {
     background: #f7f8fa;
 }
 .page-content {
+    background-color: #000;
     margin-top: 0;
     padding-bottom: 50px;
 }
@@ -8781,3 +8787,36 @@ ol.commentlist li .star-rating {
 	bottom: 130px !important;
 }
 /* Support and Buy Button END */
+
+
+/*Uptimerobot status*/
+
+
+
+.status2 {
+    white-space: nowrap;
+    color:green;
+    margin-top: 20px;
+
+}
+.status2::after {
+    color: #fff;
+    white-space: pre;
+    content: "\A \A All good!";
+}
+.status9 {
+    white-space: nowrap;
+    color:red;
+    margin-top: 20px;
+
+}
+.status9::after {
+    color: #fff;
+    white-space: pre;
+    content: "\A \A Down!";
+}
+.status {
+    white-space: nowrap;
+    color:white;
+    margin-top: 20px;
+}
