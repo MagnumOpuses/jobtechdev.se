@@ -31,3 +31,7 @@ http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json
 ```
 
 [Ontology API](http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json)
+
+## Ontology files
+
+A file dump of the Ontology can be downloaded here: [Ontology Files] (https://github.com/JobtechSwe/ontology-files)
