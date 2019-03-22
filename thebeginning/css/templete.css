@@ -550,10 +550,18 @@
     transform: skewY(3deg);
 }
 .w3-stats-2 .stats{
-	text-align:left;
-}
+	 text-align:left;
+ }
 .w3-stats-2 .stats span{
 	font-size:24px;
+	font-weight: 800;
+	color:#fff;
+}
+.w3-stats-2 .status{
+	text-align:left;
+}
+.w3-stats-2 .status div{
+	font-size:20px;
 	font-weight: 800;
 	color:#fff;
 }
