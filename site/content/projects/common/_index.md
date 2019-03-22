@@ -23,3 +23,13 @@ We believe that optimal results are achieved when a data driven approach meets a
 * [Occupations and skills in Sweden](/doc/occupations_skills_Sweden.pdf)
 * [Taxonomy API]({{< ref "/api/taxonomy/_index.md" >}})
 * [Ontology API]({{< ref "/api/ontology/_index.md" >}})
+
+## Road Map
+
+* Migrate the Jobtech Taxonomy into a new database and create new identifiers for all values in the Taxonomy
+* Release a new API for the Jobtech Taxonomy 
+* Release a new synchronizing mechanism to allow consumers to stay updated with the Jobtech Taxonomy
+* Merge the Jobtech Ontology with the Jobtech Taxonomy and create new identifiers for all values in the Ontology
+
+
+
