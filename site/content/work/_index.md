@@ -4,7 +4,7 @@ date: 2019-03-22T15:01:34+01:00
 #anchor: "work"
 menuTitle: "Work with us"
 disableToc: true
-weight: 10
+weight: 201
 ---
 
 ##### This will be the place to look if you are interested in getting a job or collaborate within Jobtech!  
