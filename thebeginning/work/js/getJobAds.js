@@ -1,5 +1,5 @@
 $.ajax({
-    url: 'http://api.arbetsformedlingen.se/af/v0/platsannonser/8206102',
+    url: 'https://api.arbetsformedlingen.se/af/v0/platsannonser/8206102',
     type: 'GET',
     dataType: 'json',
     headers: {
