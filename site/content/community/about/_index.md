@@ -9,7 +9,7 @@ weight: 10
 #### The JobTech Community 
 
 Find opportunities for collaboration and innovation, develop and improve the Swedish labour market.  
-We share and recieve knowledge, experience and data.
+We share and receive knowledge, experience and data.
 This is an arena where collaboration and relationship  
 building through open source and open data is made reality, 
 regardless if you're a developer, innovator, CEO, student - or something else
