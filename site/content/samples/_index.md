@@ -48,7 +48,7 @@ Source code:
 <a name="jobsuggestions"></a>
 #### 3. Widget - Job
 
-*This widget suggests jobs based on the personal data already avaliable in the context in which the widget is placed.*
+*This widget suggests jobs based on the personal data already available in the context in which the widget is placed.*
 
 Source code:
 <https://github.com/JobtechSwe/jobwidget>
@@ -91,13 +91,13 @@ Source code:
 
 ---
 <a name="store"></a>
-#### 7. Application - Jobtech Store
+#### 7. Application - JobTech Store
 
-*Jobtech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide. Everyone, from students to seniors, who want to take on work and assignments, to people having work needed to be done, and need someone to do it for them, whether it is an employment or some kind of short on-demand job or other “gig”.
-Jobtech Store will help both end user groups to find digital services that are relevant to their situation and needs and at the same time help the service suppliers to drive relevant traffic to their digital services.*
+*JobTech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide. Everyone, from students to seniors, who want to take on work and assignments, to people having work needed to be done, and need someone to do it for them, whether it is an employment or some kind of short on-demand job or other “gig”.
+JobTech Store will help both end user groups to find digital services that are relevant to their situation and needs and at the same time help the service suppliers to drive relevant traffic to their digital services.*
 
 Preview:
-[Jobtech store](http://www.jobtechstore.se)
+[JobTech Store](http://www.jobtechstore.se)
 
 Source code:
 <https://bitbucket.org/af-ekosystem/job-store>
