@@ -9,7 +9,7 @@ $('#apiStatusLoding').remove();
     let monitors = data.monitors;
 $.each(monitors, function (index, value ) {
 
-    if (this.friendly_name != 'www.jobtechdev.se' && this.friendly_name != 'jobtechdev.se') {
+    if (this.friendly_name != 'www.jobtechdev.se' && this.friendly_name != 'jobtechdev.se' && this.friendly_name != 'backend.jobtechdev.se') {
         $('#apiStatus').append('<div class="col-lg-2 col-sm-12 mx-auto">\n' +
             '                        <div class="status text-black text-center wow fadeInUp" >\n' +
             '                            <div>'+this.friendly_name+'</div>\n' +
