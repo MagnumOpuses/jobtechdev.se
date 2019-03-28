@@ -110,7 +110,9 @@
       </a>
       {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
       {{ if ne $numberOfPages 0 }}
-        <ul>
+      <ul class="
+       {{if .IsAncestor $currentNode }}parent{{end}}
+        ">
           {{ $currentNode.Scratch.Set "pages" .Pages }}
           {{ if .Sections}}
             {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
