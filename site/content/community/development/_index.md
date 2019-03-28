@@ -16,11 +16,11 @@ to and build upon what already exists, both within your company and beyond it.
 That’s why we want to create a development platform that prioritize interoperability, and openness. 
 
 ##### Projects
-[Our ongoing Projects](/doc/samples)  
+[Our ongoing Projects](/doc/samples/)  
 [How to start a project:](https://github.com/MagnumOpuses/project-meta)  
 
 Do you have some questions, please 
-check out the [FAQ](/doc/FAQ) or
+check out the [FAQ](/doc/faq/) or
 send a mail to <developer@jobtechdev.se>
 
 
