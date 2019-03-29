@@ -26,10 +26,17 @@ We believe that optimal results are achieved when a data driven approach meets a
 
 ## Road Map
 
+<<<<<<< HEAD
 * Migrate the JobTech Taxonomy into a new database and create new identifiers for all values in the Taxonomy
 * Release a new API for the JobTech Taxonomy 
 * Release a new synchronizing mechanism to allow consumers to stay updated with the JobTech Taxonomy
 * Merge the JobTech Ontology with the JobTech Taxonomy and create new identifiers for all values in the Ontology
+=======
+* Migrate the Jobtech Taxonomy into a new database and create new identifiers for all values in the Taxonomy
+* Release a new API for the Jobtech Taxonomy 
+* Release a new synchronizing mechanism to allow consumers to stay updated with the Jobtech Taxonomy
+* Merge the Jobtech Ontology with the Jobtech Taxonomy and create new identifiers for all values in the Ontology
+>>>>>>> hugo_menu
 
 
 
