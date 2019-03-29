@@ -8797,7 +8797,6 @@ ol.commentlist li .star-rating {
 
 
 .status2 {
-
     white-space: nowrap;
     color:#00ff99;
     margin-top: 20px;
@@ -8812,13 +8811,13 @@ ol.commentlist li .star-rating {
     content: "\A \A All good!";
 }
 .status9 {
-
     white-space: nowrap;
     color:#ff4d4d;
     margin-top: 20px;
 
 }
 .status9::after {
+
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -8827,6 +8826,7 @@ ol.commentlist li .star-rating {
     content: "\A \A Down!";
 }
 .status {
+
 
     white-space: nowrap;
     color:white;

@@ -1,8 +1,8 @@
 ---
-title: "APIs"
+title: "Terms"
 date: 2018-01-28T21:58:09+01:00
-#anchor: "API"
-weight: 13
+#anchor: "occupations"
+weight: 12
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc: "false"
@@ -21,7 +21,7 @@ LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
 ---
-# APIs
+# Terms
 <hr>
 ### Open resources for developers
 
