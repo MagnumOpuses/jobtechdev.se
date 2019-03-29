@@ -36,4 +36,4 @@ https://jobtechdev.se/swagger/index.html
 
 Learn more about the Platsbanken API or start use the API right away
 
-[Open Jobs API (Platsbanken)](/swagger/index.html)
+[Open Jobs API (Platsbanken)](/https://jobtechdev.se/doc/api/apiconsole/?urls.primaryName=Jobs%20-%20Online%20Jobs%20-%20Deprecated#/platsannonser)

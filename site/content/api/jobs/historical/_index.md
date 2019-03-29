@@ -1,9 +1,10 @@
 ---
 title: "Historical Jobs"
-disableToc: true
+disableToc: false
 menuTitle: "Jobs - Historical Jobs"
 weight: 20
 date: 2019-01-19T20:06:16+01:00
+
 ---
 
 This dataset consists of 4.2M job postings (7.7M job positions) published on Platsbanken from the year 2006 up to and including 2017. Texts have been anonymized with sentences including names, telephone numbers and email addresses removed.

@@ -38,6 +38,8 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "mine"
 
+  [[menu.main]]
+
 
   [[menu.shortcuts]]
   name = "<i class='fab fa-github'></i> Github repo - Jobtechswe"
