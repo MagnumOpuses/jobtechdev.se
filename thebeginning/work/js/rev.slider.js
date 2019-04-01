@@ -27,7 +27,7 @@ function dz_rev_slider_4(){
 					},
 					arrows: {
 						style: "erinyen",
-						enable: true,
+						enable: false,
 						hide_onmobile: false,
 						hide_onleave: false,
 						tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div>    <div class="tp-arr-img-over"></div>	<span class="tp-arr-titleholder">{{title}}</span> </div>',
@@ -108,7 +108,7 @@ function dz_rev_slider_1(){
 				,
 				arrows: {
 					style:"uranus",
-					enable:true,
+					enable:false,
 					hide_onmobile:true,
 					hide_under:768,
 					hide_onleave:false,
@@ -142,7 +142,7 @@ function dz_rev_slider_1(){
 			shadow:0,
 			spinner:"off",
 			stopLoop:"on",
-			stopAfterLoops:0,
+			stopAfteFrLoops:0,
 			stopAtSlide:1,
 			shuffle:"off",
 			autoHeight:"off",
@@ -236,7 +236,7 @@ function dz_rev_slider_3(){
 				}
 				,
 				bullets: {
-					enable:true,
+					enable:false,
 					hide_onmobile:true,
 					hide_under:960,
 					style:"zeus",
