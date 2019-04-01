@@ -1,6 +1,6 @@
 ---
 title: "Work Ability"
-menuTitle: "Occupation - Work Ability"
+menuTitle: "Work Ability"
 disableToc: true
 weight: 34
 date: 2019-01-19T20:06:16+01:00
