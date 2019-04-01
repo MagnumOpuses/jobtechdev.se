@@ -129,6 +129,7 @@ a {
     color: #fff;
     outline: 0 none;
     text-decoration: none;
+    font-family: "Open Sans", sans-serif;
 }
 a:hover,
 a:focus {
@@ -5055,6 +5056,7 @@ a,
 
 .site-button.text-uppercase {
     text-transform: uppercase;
+
 }
 /* button size */
 
