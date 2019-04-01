@@ -1,7 +1,7 @@
 ---
 title: "Taxonomy"
 disableToc: true'
-menuTitle: "Occupation - Taxonomy"
+menuTitle: "Taxonomy"
 weight: 33
 date: 2019-01-19T20:06:16+01:00
 ---
