@@ -29,8 +29,8 @@ The best way to reach there is to be transparent, open and accessible to anyone 
 
 In order to make this happen, we believe it’s time to embrace open source as a baseline strategy. Why reinvent the wheel? We want you to be able to focus on creating the best solutions to the real problems instead. Ease of integration and migration is an easy argument, as is the diversity of ideas created around community-shared challenges. The list can be made very long.
 
-### Where to start and how to contribute?
+#### Where to start and how to contribute?
 We want - and need - input from the community on this one! How do we create the best possible platform and community in order to make our vision come true? What do you want, and need?
 
-### Want to get in touch?
+#### Want to get in touch?
 <contact@jobtechdev.se>

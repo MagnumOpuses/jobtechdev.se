@@ -16,7 +16,7 @@ With API Occupation Forecasts (API Vägledning) it is possible to integrate Arbe
 
 The API is an open interface without contract or registration requirements.
 
-## Endpoint
+#### Endpoint
 
 ````
 http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/

@@ -13,7 +13,7 @@ For example you can find all occupation names, all Unemployment Benefit Societie
 You need to use the language code 502 (Swedish) to get the results of the requests.
 {{% /notice %}}
 
-## Endpoint
+#### Endpoint
 ```
 http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?
 ```

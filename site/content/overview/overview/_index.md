@@ -11,15 +11,15 @@ weight: 10
 
 {{< figure src="../../jobtech_platform.png" title="JobTech vision" >}}
 
-## Roles in a ecosystem
+#### Roles in a ecosystem
 Infrastructure builders, developers/organisations, and end-users, have unique needs and motivations for participating in an ecosystem.
 
-### Better matching
+#### Better matching
 
 For infrastructure builders (The Swedish Public Employment Service acts as one), building a digital infrastructure increases the efficiency in matching and stimulates the creation of more digital services.  
 All actors in the labour market can share data and collaborate. The more actors who contribute, private as well as from the public sector, the better matching. Therefore, we would like to see more players in the labour market join.
 
-### Low barrier to entry
+#### Low barrier to entry
 
 For developers, a digital infrastructure lower entry barriers by providing a shared foundation to use as a starting point for their own work. They also provide access to a prospective customer pool, which can find and transact with the app developers more easily through the platform than they could without it.
 
@@ -33,6 +33,6 @@ For developers, a digital infrastructure lower entry barriers by providing a sha
 ```
 
 
-### Variety of services for end-users
+#### Variety of services for end-users
 
 For end-users, a digital infrastructure can allow extreme levels of customization to their unique needs by enabling them to themselves mix-and-match apps that increase their personal utility of the platform.
