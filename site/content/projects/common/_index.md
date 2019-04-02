@@ -24,7 +24,7 @@ We believe that optimal results are achieved when a data driven approach meets a
 * [Taxonomy API]({{< ref "/api/terms/taxonomy/_index.md" >}})
 * [Ontology API]({{< ref "/api/terms/ontology/_index.md" >}})
 
-#### Road Map
+#### RoadMap
 
 
 * Migrate the JobTech Taxonomy into a new database and create new identifiers for all values in the Taxonomy

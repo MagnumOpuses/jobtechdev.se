@@ -17,9 +17,9 @@ JobTech jobs is a cooperation project with the Lund based company Auranest.
 #### Paradigm of the Future
 
 ##### Usage
-The information about all jobs are used in [Jobtech Search]({{< ref "projects/search/_index.md" >}}).
+The information about all jobs are used in [JobTech Search]({{< ref "projects/search/_index.md" >}}).
 To show how this information can be used the application [Jobscanner]({{< ref "samples/_index.md/#scanner" >}}) was created.
-The continues improvement of the [Jobtech Taxonomy]({{< ref "projects/common/_index.md" >}}) is done with help of JobTech Jobs.
+The continues improvement of the [JobTech Taxonomy]({{< ref "projects/common/_index.md" >}}) is done with help of JobTech Jobs.
 
 ##### Current APIs
 * [Open Jobs]({{< ref "api/platsbanken/_index.md" >}}) from Swedish Public Employment Service

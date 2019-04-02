@@ -42,7 +42,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 
   [[menu.shortcuts]]
-  name = "<i class='fab fa-github'></i> Jobtechswe"
+  name = "<i class='fab fa-github'></i> JobTechswe"
   identifier = "ds"
   url = "https://github.com/jobtechswe"
   weight = 10
@@ -60,7 +60,7 @@ home = [ "HTML", "RSS", "JSON"]
     weight = 25
 
   [[menu.shortcuts]]
-  name = "<i class='fas fa-bookmark'></i> Jobtechdev.se"
+  name = "<i class='fas fa-bookmark'></i> JobTechdev.se"
   identifier = "hugodoc"
   url = "https://www.jobtechdev.se/"
   weight = 30

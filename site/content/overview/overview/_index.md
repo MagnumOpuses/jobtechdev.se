@@ -25,11 +25,11 @@ For developers, a digital infrastructure lower entry barriers by providing a sha
 
 ```Components:
 
-1. Jobtech dev    - Sharing assets that is hard to find, build or buy.
-2. Jobtech store  - A app store for the labour market end-users
-3. Jobtech search - Opensource search service
-4. Jobtech jobs   - All jobs aggregated in one place
-5. Jobtech myData - Making labour market competences available
+1. JobTech dev    - Sharing assets that is hard to find, build or buy.
+2. JobTech store  - A app store for the labour market end-users
+3. JobTech search - Opensource search service
+4. JobTech jobs   - All jobs aggregated in one place
+5. JobTech myData - Making labour market competences available
 ```
 
 
