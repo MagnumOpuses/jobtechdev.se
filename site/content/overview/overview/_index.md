@@ -11,7 +11,7 @@ weight: 10
 
 {{< figure src="../../jobtech_platform.png" title="JobTech vision" >}}
 
-#### Roles in a ecosystem
+#### Roles in an ecosystem
 Infrastructure builders, developers/organisations, and end-users, have unique needs and motivations for participating in an ecosystem.
 
 #### Better matching
