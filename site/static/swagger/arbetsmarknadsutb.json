@@ -17,6 +17,7 @@
 				"parameters": [
 					{
 						"name": "client_id",
+						"value": "c86ff7120e1c4297808b8333c6aacf9b",
 						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
 						"required": true,
 						"in": "query",
@@ -24,6 +25,7 @@
 					},
 					{
 						"name": "client_secret",
+						"value":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -49,7 +51,8 @@
 						"required": false,
 						"in": "header",
 						"type": "string"
-					}
+					},
+
 				],
 				"responses": {
 					"200": {
@@ -130,6 +133,7 @@
 				"parameters": [
 					{
 						"name": "client_id",
+						"value":"c86ff7120e1c4297808b8333c6aacf9b",
 						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
 						"required": true,
 						"in": "query",
@@ -137,6 +141,7 @@
 					},
 					{
 						"name": "client_secret",
+						"value":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -571,6 +576,7 @@
 				"parameters": [
 					{
 						"name": "client_id",
+						"value":"c86ff7120e1c4297808b8333c6aacf9b",
 						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
 						"required": true,
 						"in": "query",
@@ -578,6 +584,7 @@
 					},
 					{
 						"name": "client_secret",
+						"value":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -1002,6 +1009,7 @@
 				"parameters": [
 					{
 						"name": "client_id",
+						"value":"c86ff7120e1c4297808b8333c6aacf9b",
 						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
 						"required": true,
 						"in": "query",
@@ -1009,6 +1017,7 @@
 					},
 					{
 						"name": "client_secret",
+						"value":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -1440,6 +1449,7 @@
 				"parameters": [
 					{
 						"name": "client_id",
+						"value":"c86ff7120e1c4297808b8333c6aacf9b",
 						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
 						"required": true,
 						"in": "query",
@@ -1447,6 +1457,7 @@
 					},
 					{
 						"name": "client_secret",
+						"value":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",

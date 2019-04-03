@@ -11,8 +11,7 @@ weight: 25
 
 
 
-Labour market training, arbetsmarknadsutbildning, makes job seekers more attractive on the relevant labour market. The training is often tailor made together with a specific employer and often leads directly to a job. 
-The training programme is provided by various training companies around the country, on our behalf. 
+At Arbetsförmedlingen we offer selected job seekers Labour market training, “arbetsmarknadsutbildning”, which is aimed at making job seekers more attractive on the relevant labour market. The training is often tailor made together with a specific employer and often leads directly to a job. The training programme is provided by various training companies around the country, on our behalf. 
 
 ### What    
 Arbetsmarknadsutbildning is a short vocational training programme for occupations where there is a shortage of trained people. 
@@ -35,9 +34,9 @@ The job seeker need to be registered as a jobseeker with us and also need to sat
 •	Participation in the the jobbgarantin för unga or in the jobb- och utvecklingsgarantin  
 •	Or participation in the etableringsprogrammet or have an etableringsplan, or have participated for the maximum time in one of these.  
 
-About Open Data for Hack for Sweden  
-To make this part of this data available, we have an API for Hack for Sweden. This API contains information about ongoing training programmes. In detail you find information about the content of the training programme, number of participants, training company and address.
-The names for professional areas and SSYK codes are found in the Taxonomy Service, see https://jobtechdev.se/doc/api/terms/taxonomy/ (countryid = 199, languageid = 502).
+### About Open Data for Hack for Sweden  
+To make this part of this data available, we at Arbetsförmedlingen have an API for Hack for Sweden. This API contains information about ongoing training programmes. In detail you find information about the content of the training programme, number of participants, training company and address.
 
 
-[Arbetsmarknadsutbildningar API](/..s)
+
+{{<consoleutb>}}
