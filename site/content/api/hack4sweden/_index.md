@@ -23,4 +23,4 @@ LastModifierEmail: ""
 ---
 # Jobs
 <hr>
-### Temporary resources avaiable during Hack4Sweden
+### Temporary resources available during Hack4Sweden
