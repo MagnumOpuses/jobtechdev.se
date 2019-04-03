@@ -51,7 +51,7 @@
 						"required": false,
 						"in": "header",
 						"type": "string"
-					},
+					}
 
 				],
 				"responses": {
