@@ -27,4 +27,4 @@ and for us to reaching out to you in case of scheduled downtime, bug reporting e
 
 
 
-[Getting started](https://github.com/JobtechSwe/sokannonser-api/blob/develop/GETTINGSTARTED.md)
+[Getting started](https://github.com/JobtechSwe/sokannonser-api/blob/H4S-documentation/H4S-GETTINGSTARTED.md)
