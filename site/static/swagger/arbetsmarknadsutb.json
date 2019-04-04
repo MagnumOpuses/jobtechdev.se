@@ -25,7 +25,7 @@
 					},
 					{
 						"name": "client_secret",
-						"value":"e4cc167723F24386B9AF0FE912C2E547",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -141,7 +141,7 @@
 					},
 					{
 						"name": "client_secret",
-						"value":"e4cc167723F24386B9AF0FE912C2E547",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -584,7 +584,7 @@
 					},
 					{
 						"name": "client_secret",
-						"value":"e4cc167723F24386B9AF0FE912C2E547",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -1017,7 +1017,7 @@
 					},
 					{
 						"name": "client_secret",
-						"value":"e4cc167723F24386B9AF0FE912C2E547",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
@@ -1457,7 +1457,7 @@
 					},
 					{
 						"name": "client_secret",
-						"value":"e4cc167723F24386B9AF0FE912C2E547",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
 						"description": "The client seceret authenticating that the calling client is whom it say it is.",
 						"required": true,
 						"in": "query",
