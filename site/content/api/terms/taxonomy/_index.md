@@ -18,3 +18,10 @@ You need to use the language code 502 (Swedish) to get the results of the reques
 http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?
 ```
 [Taxonomy webservice](http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?)
+
+
+#### Taxonomy Occupations CSV - OccupationField, SSYK, OccupationName
+
+If you need an easy way to connect SSYK to occupationNameId (yrkeid), or occupationFieldId you can use this csv.
+
+[Taxonomy Occupations CSV](https://github.com/JobtechSwe/taxonomy-dump)
