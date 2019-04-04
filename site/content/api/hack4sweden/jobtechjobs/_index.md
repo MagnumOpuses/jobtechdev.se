@@ -3,7 +3,7 @@ title: "JobTech search"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 menuTitle: "JobTech Search"
-weight: 25
+weight: 26
 ---
 #### JobTech Search - API for job ads 
 Search API for job adds - getting started
