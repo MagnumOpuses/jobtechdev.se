@@ -17,7 +17,7 @@
 				"parameters": [
 					{
 						"name": "client_id",
-						"value": "c86ff7120e1c4297808b8333c6aacf9b",
+						"default": "c86ff7120e1c4297808b8333c6aacf9b",
 						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
 						"required": true,
 						"in": "query",
