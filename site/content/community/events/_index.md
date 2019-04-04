@@ -7,15 +7,23 @@ disableToc: true
 weight: 10
 ---
 
-### Happening in JobTech !
+### Happening in JobTech ! ###
 
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
-* ##### JTCommunity Morning - listen to our vision  
+* Meet us at Hack for Sweden!  
+Want to get to know us and hang out? Meet us at Hack for Sweden 4th-6th of April at Stockholmsmässan.
+
+
+
+ 
+##### Previous events 
+
+* JTCommunity Morning - listen to our vision  
 Our developments and participate in creating our community.  
 Welcome! [Join here] (http://gantrack.com/t/pm/1813725696977/)
 
-* ##### Improved recruitmentsystems to your morning coffee?  
+* Improved recruitmentsystems to your morning coffee?  
 Listen to and participate in a dialog with Erik Sandström (AF), Gregory Golding (JobTechDevelopment) and Jonas Södergren (JobTechDevelopment).  
 Welcome! [Join here] (http://gantrack.com/t/pm/1819314381169/)
 

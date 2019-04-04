@@ -7,10 +7,12 @@ weight: 200
 ---
 # Community
 <hr>
-### Join our community
+### Everything in life is give and take - even JobTech
 
- A network and community for actors in the labour market arena.  
- Share knowledge, engagement and find new opportunities
+ We believe that open source is the way to go regarding digital innovation in the Swedish labour market. We’re happy to provide you with whatever we can to make your ideas a reality, but we also expect you to give back in some form. 
+ There are many ways to share your ideas and expertise in our ecosystem in order to give back.
+ 
+ Share code, share knowledge, share data, every contribution counts! Let’s talk and find something that fits and feels good.
 
 
 
