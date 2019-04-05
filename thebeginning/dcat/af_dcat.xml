@@ -42,8 +42,8 @@
     <dcterms:modified>2019-03-04</dcterms:modified>
     <dcat:accessURL rdf:resource="http://api.arbetsformedlingen.se/af/v0/Occupation/wsoccupation.asmx"/>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/platsbanken/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/doc/api/platsbanken/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/jobs/platsbanken/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/doc/api/jobs/platsbanken/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
@@ -58,12 +58,12 @@
     <dcat:keyword>job descriptions</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/doc/api/occupations/"/>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/doc/api/occupation/occupations/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
     <dcterms:modified>2019-03-04</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/occupations/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/doc/api/occupations/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/occupation/occupations/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/doc/api/occupation/occupations/"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
@@ -88,8 +88,8 @@
     <dcterms:modified>2019-03-04</dcterms:modified>
     <dcat:accessURL rdf:resource="http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json"/>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/ontology/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/doc/api/ontology/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/terms/ontology/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/doc/api/terms/ontology/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
@@ -140,7 +140,7 @@
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcat:accessURL rdf:resource="http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/forecasts/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/doc/api/occupation/forecasts/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
     <dcterms:modified>2019-03-04</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
