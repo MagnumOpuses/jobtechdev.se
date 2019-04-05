@@ -1125,3 +1125,9 @@ pre .copy-to-clipboard:hover {
 #searchResults {
     text-align: left;
 }
+.fa-slack-hash {
+    padding-left: 25px;
+    text-align: right;
+
+}
+
