@@ -17,7 +17,7 @@ regardless if you're a developer, innovator, CEO, student - or something else
 ##### How to join? 
 
 Meet us - We're available if you want to meet us and talk about ideas or potential collaborations, just send us an email <josefin.berndtson@jobtechdev.se>   
-Send us a note and get invited to our Slack channel!    [<i class="fab fa-slack fa-2x" ></i>](mailto:josefin.berndtsson@jobtechdev.se)
+Send us a note and get invited to our Slack channel!  [<i class="fab fa-slack-hash fa-2x"></i>](mailto:josefin@jobtechdev.se)
 
     
 Open source - You can contribute directly to our actual development [projects](https://github.com/jobtechswe) 
