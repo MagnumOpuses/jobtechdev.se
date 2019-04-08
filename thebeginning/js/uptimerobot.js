@@ -15,7 +15,7 @@ $.each(monitors, function (index, value ) {
         $('#apiStatus').append('<div class="col-lg-2 col-sm-12 mx-auto">\n' +
             '                        <div class="status text-black text-center wow fadeInUp" >\n' +
             '                            <div>'+this.friendly_name+'</div>\n' +
-            '                            <i id="status'+this.status+'" class="status'+this.status+'fas fa-circle"></i>\n' +
+            '                            <i id="status'+this.status+'" class="status'+this.status+' fas fa-circle"></i>\n' +
             '                        </div>\n' +
             '                   </div>')
 
