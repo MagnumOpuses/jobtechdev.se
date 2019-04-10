@@ -59,9 +59,5 @@ home = [ "HTML", "RSS", "JSON"]
     url = "https://jobtechdev.se/work/#vacancies"
     weight = 25
 
-  [[menu.shortcuts]]
-  name = "<i class='fas fa-bookmark'></i> JobTechdev.se"
-  identifier = "hugodoc"
-  url = "https://www.jobtechdev.se/"
-  weight = 30
+
 
