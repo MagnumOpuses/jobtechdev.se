@@ -1,6 +1,6 @@
 ---
-title: "Work Ability"
-menuTitle: "Work Ability"
+title: "AF Work Ability"
+menuTitle: "Af Work Ability"
 disableToc: true
 weight: 34
 date: 2019-01-19T20:06:16+01:00
@@ -16,5 +16,5 @@ RAF is a documentation that can be used as support and guidance in assessing wor
 https://jobtechdev.se/raml_vagledning/index.html#docs/summary/summary
 ```
 
-[Work ability API](/raml_vagledning/index.html#docs/summary/summary)
+[Af Work ability API](/raml_vagledning/index.html#docs/summary/summary)
 
