@@ -15,20 +15,32 @@ section: false
 - **Tools:** Utilities for developers
 
 <hr>
+1. [ Widget - AllJobAds - Search all jobs ](#alljobads)
+2. [ Widget - Jobskills - Search candidates ](#jobskills)
+3. [ Widget - Vacancies - Show candidates by location ](#vacancies)
+4. [ Widget - Job - List job suggestions ](#jobsuggestions)
+5. [ Application - aJob - Profiling chat bot ](#profiling)
+6. [ Application - Data Universe - Browse Job in VR ](#universe)
+7. [ Application - Historical Data analysis - Historical data analysis ](#historical)
+8. [ Application - JobTech Store - Market place for digital services ](#store)
+9. [ Application - JobScanner - Search on all jobs ](#scanner)
+10. [ Tools - GIG API - Gig job integration ](#gig)
+11. [ Tools - Post Job Ads - Job posting integration ](#postads)
 
-1. [ Widget - Jobskills - Search candidates ](#jobskills)
-2. [ Widget - Vacancies - Show candidates by location ](#vacancies)
-3. [ Widget - Job - List job suggestions ](#jobsuggestions)
-4. [ Application - aJob - Profiling chat bot ](#profiling)
-5. [ Application - Data Universe - Browse Job in VR ](#universe)
-6. [ Application - Historical Data analysis - Historical data analysis ](#historical)
-7. [ Application - JobTech Store - Market place for digital services ](#store)
-8. [ Application - JobScanner - Search on all jobs ](#scanner)
-9. [ Tools - GIG API - Gig job integration ](#gig)
-10. [ Tools - Post Job Ads - Job posting integration ](#postads)
 
+<a name="alljobads"></a>
+#### 1. Widget - AllJobAds
+
+*A widget that gives access to job ads from Swedish Employment Agency. It allows you to filter on occupation and/or area.*
+
+Demo: [AllJobAds](https://widgets.jobtechdev.se/alljobads/)  
+
+Source code:
+<https://github.com/MagnumOpuses/allJobAdsWidget>
+
+---
 <a name="jobskills"></a>
-#### 1. Widget - Jobskills
+#### 2. Widget - Jobskills
 
 *A widget that shows potential candidates from the Jobskills API based from the site in which the widget is placed.*
 
@@ -37,7 +49,7 @@ Source code:
 
 ---
 <a name="vacancies"></a>
-#### 2. Widget - Vacancies
+#### 3. Widget - Vacancies
 
 *Showing the candidates by location.*
 
@@ -46,7 +58,7 @@ Source code:
 
 ---
 <a name="jobsuggestions"></a>
-#### 3. Widget - Job
+#### 4. Widget - Job
 
 *This widget suggests jobs based on the personal data already available in the context in which the widget is placed.*
 
@@ -55,7 +67,7 @@ Source code:
 
 ---
 <a name="profiling"></a>
-#### 4. Application - aJob
+#### 5. Application - aJob
 
 *This is a prototype of a dialog based user interface that helps to find the a collection of suitable services.*
 
@@ -64,7 +76,7 @@ Demo:
 
 ---
 <a name="universe"></a>
-#### 5. Application - Data Universe
+#### 6. Application - Data Universe
 
 *Data Universe makes your data accessible and understandable by enabling dynamic exploration and visualization in a Virtual Reality space.*
 
@@ -76,7 +88,7 @@ Source code:
 
 ---
 <a name="historical"></a>
-#### 6. Application - Historical Data analysis
+#### 7. Application - Historical Data analysis
 
 *Repository for the statistics API and a example app on real data*
 
@@ -91,7 +103,7 @@ Source code:
 
 ---
 <a name="store"></a>
-#### 7. Application - JobTech Store
+#### 8. Application - JobTech Store
 
 *JobTech Store intends to gather and present thousands of digital labour market services, all in one place. The target audience is wide. Everyone, from students to seniors, who want to take on work and assignments, to people having work needed to be done, and need someone to do it for them, whether it is an employment or some kind of short on-demand job or other “gig”.
 JobTech Store will help both end user groups to find digital services that are relevant to their situation and needs and at the same time help the service suppliers to drive relevant traffic to their digital services.*
@@ -104,7 +116,7 @@ Source code:
 
 ---
 <a name="scanner"></a>
-#### 8. Application - JobScanner
+#### 9. Application - JobScanner
 
 *The JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place.*
 
@@ -116,7 +128,7 @@ Source code:
 
 ---
 <a name="gig"></a>
-#### 9. Tools - GIG API
+#### 10. Tools - GIG API
 
 *Arbetsförmedlingen and Länsstyrelsen Stockholm invite you to participate in a pilot to supply gig jobs! Apply or show your interest by clicking on the link below.*
 
@@ -125,7 +137,7 @@ Source code:
 
 ---
 <a name="postads"></a>
-#### 10. Tools - Post Job Ads
+#### 11. Tools - Post Job Ads
 
 *A SDK written in Ruby to validate and send job ads, developed by JustArrived.se.*
 
