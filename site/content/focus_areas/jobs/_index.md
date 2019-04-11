@@ -23,8 +23,8 @@ To show how this information can be used the application [Jobscanner]({{< ref "s
 The continues improvement of the [JobTech Taxonomy]({{< ref "projects/common/_index.md" >}}) is done with help of JobTech Jobs.
 
 ##### Current APIs
-* [Open Jobs]({{< ref "api/platsbanken/_index.md" >}}) from Swedish Public Employment Service
-* [Historical Job ads]({{< ref "api/historical/_index.md" >}})
+* [Open Jobs]({{< ref "api/jobs/platsbanken/_index.md" >}}) from Swedish Public Employment Service
+* [Historical Job ads]({{< ref "api/jobs/historical/_index.md" >}})
 
 ##### Coming API
 * Open Jobs aggregated from all job posting sites
