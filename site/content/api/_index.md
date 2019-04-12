@@ -25,8 +25,6 @@ LastModifierEmail: ""
 <hr>
 ### Open resources for developers
 
-
 Get started quickly
-
 
 {{% children style="p" %}}
