@@ -1,6 +1,6 @@
 ---
-title: "Samples and projects"
-menuTitle: "Projects"
+title: "Showcases"
+menuTitle: "Showcases"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 chapter: false
@@ -12,7 +12,7 @@ section: false
 
 - **Widgets:** Applications made for you to integrate into your own thing
 - **Application:** Stand-alone end-user applications
-- **Tools:** Utilities for developers
+
 
 <hr>
 1. [ Widget - AllJobAds - Search all jobs ](#alljobads)
@@ -24,8 +24,7 @@ section: false
 7. [ Application - Historical Data analysis - Historical data analysis ](#historical)
 8. [ Application - JobTech Store - Market place for digital services ](#store)
 9. [ Application - JobScanner - Search on all jobs ](#scanner)
-10. [ Tools - GIG API - Gig job integration ](#gig)
-11. [ Tools - Post Job Ads - Job posting integration ](#postads)
+10. [Application - Ontologiutforskaren ](#ontologi)
 
 
 <a name="alljobads"></a>
@@ -127,21 +126,19 @@ Source code:
 <https://github.com/MagnumOpuses/JobScanning>
 
 ---
-<a name="gig"></a>
-#### 10. Tools - GIG API
 
-*Arbetsförmedlingen and Länsstyrelsen Stockholm invite you to participate in a pilot to supply gig jobs! Apply or show your interest by clicking on the link below.*
+<a name="ontologi"></a>
+#### 10. Application - Ontologiutforskaren
 
-Source code:
-<https://github.com/JobtechSwe/gig-api>
 
----
-<a name="postads"></a>
-#### 11. Tools - Post Job Ads
+*An example on how to use our Ontology API*
 
-*A SDK written in Ruby to validate and send job ads, developed by JustArrived.se.*
+Preview:
+[Ontologiutforskaren](http://pilot.arbetsformedlingen.se/kompetensutforskaren/#!/)
+
 
 Source code:
-<https://github.com/buren/arbetsformedlingen>
+<https://github.com/JobtechSwe/ontologiutforskaren>
 
 ---
+

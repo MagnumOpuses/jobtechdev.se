@@ -1,12 +1,12 @@
 ---
-title: "Open Jobs"
+title: "Af Jobs"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
-menuTitle: "Open Jobs"
+menuTitle: "Af Jobs"
 weight: 25
 ---
 
-The Open Job API contains all current job ads from Swedish Public Employment Service. Somewhere around 100000 job ads, about 3000 new ads are submitted daily by employers, 5 million accesses to the job posting database daily.
+The Af Job API contains all current job ads from Swedish Public Employment Service. Somewhere around 100000 job ads, about 3000 new ads are submitted daily by employers, 5 million accesses to the job posting database daily.
 
 [//]: #{{% notice tip %}}
 A API-key i necessary. Get it here.
@@ -36,4 +36,4 @@ https://jobtechdev.se/swagger/index.html
 
 Learn more about the Platsbanken API or start use the API right away
 
-[Open Jobs API (Platsbanken)](https://jobtechdev.se/swagger/index.html)
+[Af Jobs API (Platsbanken)](https://jobtechdev.se/swagger/index.html)

@@ -2,6 +2,7 @@
 title: "Jobs"
 disableToc: true
 date: 2019-01-19T20:06:16+01:00
+weight: 2
 ---
 
  JobTech jobs collect and provide information about all job postings in Sweden by two methods:

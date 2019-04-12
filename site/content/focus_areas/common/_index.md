@@ -2,6 +2,7 @@
 title: "Taxonomy"
 disableToc: true
 date: 2018-01-28T21:58:09+01:00
+weight: 4
 ---
 
 The purpose of JobTech Taxonomy is to provide a relevant vocabulary for important elements in the language for the labour market.

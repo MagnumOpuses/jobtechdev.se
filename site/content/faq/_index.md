@@ -2,7 +2,7 @@
 title: "FAQ"
 date: 2018-01-28T21:58:09+01:00
 #anchor: "FAQ"
-weight: 101
+weight: 6
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc: "false"

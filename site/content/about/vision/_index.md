@@ -4,7 +4,7 @@ date: 2018-01-28T21:58:09+01:00
 anchor: "Introduction"
 menuTitle: "Our vision"
 disableToc: true
-weight: 10
+weight: 2
 ---
 
 *An open digital infrastructure that enables people to meet. All actors can easily contribute with their data and code - as well as take part of others'.*
