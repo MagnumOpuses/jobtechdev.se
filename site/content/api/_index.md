@@ -26,7 +26,7 @@ LastModifierEmail: ""
 ### Open resources for developers
 
 
-Get started **quickly**
+Get started quickly
 
 
 {{% children style="p" %}}
