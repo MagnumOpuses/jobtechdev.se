@@ -1,0 +1,4 @@
+{{ $res := getJSON (.Get 0) }}
+{{ $res.content | base64Decode | markdownify }}
+
+
