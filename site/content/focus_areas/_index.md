@@ -9,3 +9,5 @@ weight: 2
 <hr>
 
 {{< figure src="/doc/Components.png" title="Core components in the ecosystem" >}}
+
+{{% children style="p" %}}
