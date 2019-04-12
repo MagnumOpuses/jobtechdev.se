@@ -1,5 +1,5 @@
 ---
-title: "Console"
+title: "API Console"
 disableToc: true
 menuTitle: "API console"
 weight: 10

@@ -1,6 +1,6 @@
 ---
 title: "Showcases"
-menuTitle: "Showcase"
+menuTitle: "Showcases"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 chapter: false
@@ -24,7 +24,7 @@ section: false
 6. [ Application - Historical Data analysis - Historical data analysis ](#historical)
 7. [ Application - JobTech Store - Market place for digital services ](#store)
 8. [ Application - JobScanner - Search on all jobs ](#scanner)
-
+9. [Application - Ontologiutforskaren ](#ontologi)
 
 <a name="jobskills"></a>
 #### 1. Widget - Jobskills
@@ -114,6 +114,16 @@ Source code:
 <https://github.com/MagnumOpuses/JobScanning>
 
 ---
+<a name="ontologi"></a>
+#### 9. Application - Ontologiutforskaren
 
+*An example on how to use our Ontology API*
+
+Preview:
+[Ontologiutforskaren](http://pilot.arbetsformedlingen.se/kompetensutforskaren/#!/)
+
+Source code:
+<https://github.com/JobtechSwe/ontologiutforskaren>
 
 ---
+

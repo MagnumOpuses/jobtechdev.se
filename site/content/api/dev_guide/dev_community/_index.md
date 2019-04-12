@@ -16,7 +16,7 @@ to and build upon what already exists, both within your company and beyond it.
 That’s why we want to create a development platform that prioritize interoperability, and openness.
 
 ##### Projects
-[Our ongoing Projects](/doc/samples/)  
+[Our ongoing Projects](/doc/open_source/projects)  
 [How to start a project:](https://github.com/MagnumOpuses/project-meta)  
 
 Do you have some questions, please 
