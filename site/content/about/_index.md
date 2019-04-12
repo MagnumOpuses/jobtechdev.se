@@ -5,7 +5,7 @@ chapter: true
 weight: 1
 
 ---
-# Introduction
+# About us
 <hr>
 ### An open digital infrastructure that enables people to meet. 
 All actors can easily contribute with their data and code - as well as take part of others’.
