@@ -48,13 +48,19 @@ home = [ "HTML", "RSS", "JSON"]
   weight = 10
 
   [[menu.shortcuts]]
-    name = "<i class='fab fa-github'></i> MagnumOpuses"
+   name = "<i class='fab fa-github'></i> MagnumOpuses"
     identifier = "ds1"
     url = "https://github.com/magnumopuses"
     weight = 20
 
   [[menu.shortcuts]]
-    name = "<i class='fas fa-code'></i> Vacancies"
+   name = "<i class='fas fa-code'></i> Jobtech GIG"
+    identifier = "ds3"
+    url = "https://jobtechgig.se/"
+    weight = 35
+
+  [[menu.shortcuts]]
+   name = "<i class='fas fa-code'></i> Vacancies"
     identifier = "ds2"
     url = "https://jobtechdev.se/work/#vacancies"
     weight = 25
