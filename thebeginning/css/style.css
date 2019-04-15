@@ -2579,6 +2579,12 @@ blockquote:before {
 	
 	
 }
+.powered {
+    margin-right: 50px;
+
+
+
+}
 /*---------------------------------------------------------------
 17. MAIN BAR ( place logo & main-navigation )
 ---------------------------------------------------------------*/
@@ -7686,6 +7692,7 @@ footer .widget_getintuch i {
     bottom: 0px;
     font-size: 15px;
 	border-top:1px solid #313131;
+
 }
 .footer-bottom ul {
     margin: 0;
@@ -7724,7 +7731,7 @@ button.scroltop {
     height: 40px;
     line-height: 26px;
     margin: 0;
-    position: fixed;
+    position: relative;
     right: 15px;
     text-align: center;
     width: 40px;
@@ -8839,4 +8846,8 @@ ol.commentlist li .star-rating {
     white-space: nowrap;
     color:white;
     margin-top: 20px;
+}
+.pil {
+
+    background-color: black;
 }
