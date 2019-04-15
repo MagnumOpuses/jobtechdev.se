@@ -7876,6 +7876,11 @@ footer.footer-white .footer-bottom a {
 .content-area {
     padding-top: 60px;
 }
+.section-full:first-child {
+    padding-top: 100px;
+
+}
+
 .section-full {
     position: relative;
 }
@@ -7885,6 +7890,7 @@ footer.footer-white .footer-bottom a {
 /*= Section Head Part =*/
 
 .section-head {
+    margin-top: 75px;
     margin-bottom: 50px;
 }
 .section-head.no-margin {
