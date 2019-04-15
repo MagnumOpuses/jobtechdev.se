@@ -41,5 +41,5 @@ Welcome! [Join here] (http://gantrack.com/t/pm/1819314381169/)
 ##### Do you want to keep up with what's happening in JobTech?
 [Sign up for our Event letter!](https://gansub.com/s/oeGL7cn4Km/)
 
-{{<twitter >}}
+
 
