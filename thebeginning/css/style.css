@@ -8840,3 +8840,6 @@ ol.commentlist li .star-rating {
     color:white;
     margin-top: 20px;
 }
+.tp-bullets {
+    display: none !important;
+}
