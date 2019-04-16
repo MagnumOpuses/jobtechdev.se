@@ -11,10 +11,17 @@ weight: 10
 
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
+* Meetup in Malmö
+Welcome to a hands-on, demo-driven run through of JobTech Developments digital infrastructure.  
+Friday, April 26th 2019, 8am-9.30am
+Media Evolution City, Stora Varvsgatan 6a, 211 19 Malmö  
+Sign up at [Facebook](https://www.facebook.com/events/2840552519503280/?active_tab=about)
+
 * Meet us at Framtidens arbetsmarknad – en minimässa  14 maj 11-13 , Hälsningegatan 45  
 Ta del av morgondagens digitala lösningar för de utmaningar som arbetsmarknaden står inför. 
 Lyssna till en framtidsspaning av Saeid Esmaeilzadeh en av Sveriges mest framgångsrika entreprenörer. 
-Föreningen Swedish JobTech bjuder in till en inspirationsföreläsning och mini-mässa för att visa upp de produkter som finns för att lösa framtidens matchning.
+Föreningen Swedish JobTech bjuder in till en inspirationsföreläsning och mini-mässa för att visa upp de produkter som finns för att lösa framtidens matchning.  
+
 
 
 
