@@ -25,6 +25,7 @@ section: false
 8. [ Application - JobTech Store - Market place for digital services ](#store)
 9. [ Application - JobScanner - Search on all jobs ](#scanner)
 10. [Application - Ontologiutforskaren ](#ontologi)
+11. [Infrastructure - JobTech GIG] (#Gig)
 
 
 <a name="alljobads"></a>
@@ -141,4 +142,19 @@ Source code:
 <https://github.com/JobtechSwe/ontologiutforskaren>
 
 ---
+
+<a name="gig"></a>
+#### 10. Infrastructure - JobTech Gig
+
+
+*Digital infrastructure*
+
+Preview:
+[JobTech Gig](https://jobtechgig.se/digital-infrastruktur/ )
+
+
+
+
+---
+
 
