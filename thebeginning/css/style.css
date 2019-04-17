@@ -8843,3 +8843,10 @@ ol.commentlist li .star-rating {
 .tp-bullet {
     display: none !important;
 }
+.af {
+    max-width: 50%;
+
+}
+#af {
+    max-width: 25%;
+}
