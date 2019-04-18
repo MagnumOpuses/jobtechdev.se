@@ -11,17 +11,19 @@ weight: 10
 
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
-* Meetup in Malmö  
+* ##### Meetup in Malmö 
 Welcome to a hands-on, demo-driven run through of JobTech Developments digital infrastructure.  
 Friday, April 26th 2019, 8am-9.30am
 Media Evolution City, Stora Varvsgatan 6a, 211 19 Malmö  
-Sign up at [Facebook](https://www.facebook.com/events/2840552519503280/?active_tab=about)
+Sign up at [Facebook](https://www.facebook.com/events/2840552519503280/?active_tab=about)  
+See the [invitation](../../MEC.png)
 
-* Meet us at Framtidens arbetsmarknad – en minimässa  14 maj 11-13 , Hälsningegatan 45  
+* ##### Meet us at Framtidens arbetsmarknad – en minimässa
+14 maj 11-13 , Hälsningegatan 45  
 Take part in tomorrow's digital solutions for the challenges facing the labor market. 
 Listen to Saeid Esmaeilzadeh one of Sweden's most successful entrepreneurs.  
 The Swedish JobTech Association invites you to an inspirational lecture and mini-show to showcase the products available to solve the future's match.  
-
+See the [invitation](../../minimassa.pdf)
 
 
 
@@ -29,16 +31,16 @@ The Swedish JobTech Association invites you to an inspirational lecture and mini
  
 ##### Previous events 
 
-* Meet us at Hack for Sweden!  
+* ##### Meet us at Hack for Sweden!  
 Want to get to know us and hang out? Meet us at Hack for Sweden 4th-6th of April at Stockholmsmässan.
 
-* JTCommunity Morning - listen to our vision  
+* ##### JTCommunity Morning - listen to our vision  
 Our developments and participate in creating our community.  
-Welcome! [Join here] (http://gantrack.com/t/pm/1813725696977/)
+Welcome! 
 
-* Improved recruitmentsystems to your morning coffee?  
+* ##### Improved recruitmentsystems to your morning coffee?  
 Listen to and participate in a dialog with Erik Sandström (AF), Gregory Golding (JobTechDevelopment) and Jonas Södergren (JobTechDevelopment).  
-Welcome! [Join here] (http://gantrack.com/t/pm/1819314381169/)
+Welcome! 
 
 
   
