@@ -18,7 +18,7 @@ The JobTech platform enables ecosystem members to collaborate and co-create, pot
 The lead researcher, Johan Linåker, has earlier focused on how software-intensive companies can make decisions on what to share as open source software, and how to engage with the communities developing the software, that is in line with the organizations' business objectives. 
 In the Jobtech Research project, Johan will, for example, investigate how to create incentives for joining and collaborating within the ecosystem, how SPES should orchestrate and facilitate the collaboration, and how the ecosystem's health may be measured and sustained. The goal of the research project is both to contribute to a successful realization of the Jobtech platform, and to generalize practices that can be used by other organization within the public sector to exploit the benefits of open innovation in any ongoing or future digital transformations.
 
-Read more about the [research project](/doc/)
+Read more about the [research project](/doc/Open_Governement_Platforms(1).pdf)
 
 Get in touch with Johan Linåker, Ph.D. Student
  
