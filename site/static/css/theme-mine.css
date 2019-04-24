@@ -82,6 +82,10 @@ a:hover {
 
     }
 }
+.menu-arrow{
+    position: absolute;
+    right: 20px;
+}
 #sidebar .searchbox {
 	border-color: var(--MENU-SEARCH-BOX-color);
     background: var(--MENU-SEARCH-BG-color);
