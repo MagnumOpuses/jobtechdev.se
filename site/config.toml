@@ -8,6 +8,7 @@ googleAnalytics = "UA-114390036-1"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+
 [params]
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
