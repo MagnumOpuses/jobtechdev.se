@@ -1,6 +1,6 @@
 ---
-title: "JobTech research"
-menuTitle: "JobTech research"
+title: "Research"
+menuTitle: "Research"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 chapter: false
@@ -8,7 +8,7 @@ weight: 101
 section: false
 ---
 
-#### JobTech collaborates with Lund University!
+#### JobTech collaborates with Lund University
 
 Through the Jobtech Research initiative, researchers from Lund University will study the Swedish Public Employment Service (SPES) and the realization of the JobTech platform, and thereby their move from being a service provider to becoming a service enabler.  
 
@@ -22,7 +22,7 @@ Read more about the [research project](/doc/Research_Project_Description.pdf)
 
 Get in touch with Johan Linåker, Ph.D. Student
  
-Skype: johan.ac.linaker  
+ 
 Website: http://cs.lth.se/johan_linaker   
 Twitter/LinkedIn/Github: @johanlinaker
 
