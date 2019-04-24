@@ -16,12 +16,12 @@ section: false
 <hr>
 
 
-9. [ Tools - GIG API - Gig job integration ](#gig)
-10. [ Tools - Post Job Ads - Job posting integration ](#postads)
+1. [ GIG API - Gig job integration ](#gig)
+2. [ Post Job Ads - Job posting integration ](#postads)
 
 
 <a name="gig"></a>
-#### 9. Tools - GIG API
+#### 1. GIG API
 
 *Arbetsförmedlingen and Länsstyrelsen Stockholm invite you to participate in a pilot to supply gig jobs! Apply or show your interest by clicking on the link below.*
 
@@ -30,7 +30,7 @@ Source code:
 
 ---
 <a name="postads"></a>
-#### 10. Tools - Post Job Ads
+#### 2. Post Job Ads
 
 *A SDK written in Ruby to validate and send job ads, developed by JustArrived.se.*
 

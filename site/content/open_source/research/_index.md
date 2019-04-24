@@ -8,7 +8,7 @@ weight: 101
 section: false
 ---
 
-#### JobTech collaborates with Lund University
+#### JobTech development collaborates with Lund University
 
 Through the Jobtech Research initiative, researchers from Lund University will study the Swedish Public Employment Service (SPES) and the realization of the JobTech platform, and thereby their move from being a service provider to becoming a service enabler.  
 
