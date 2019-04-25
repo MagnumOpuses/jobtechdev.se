@@ -21,8 +21,9 @@ The lead researcher, Johan Linåker, has earlier focused on how software-intensi
 In the Jobtech Research project, Johan will, for example, investigate how to create incentives for joining and collaborating within the ecosystem, how SPES should orchestrate and facilitate the collaboration, and how the ecosystem's health may be measured and sustained. The goal of the research project is both to contribute to a successful realization of the Jobtech platform, and to generalize practices that can be used by other organization within the public sector to exploit the benefits of open innovation in any ongoing or future digital transformations.  
   
 ##### Want to know more?
+ 
 
-- **[The research project](/doc/Open_Governement_Platforms(1).pdf)**
+- **<a href="/doc/pdfjs/web/viewer.html?file=/doc/Open_Governement_Platforms(1).pdf" target="_blank" >The research project</a>**
 - **[Johan Linåker website](http://cs.lth.se/johan_linaker)**
 - **Twitter/LinkedIn/Github: @johanlinaker**
 
