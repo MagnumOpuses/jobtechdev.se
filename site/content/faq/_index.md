@@ -31,3 +31,4 @@ LastModifierEmail: ""
     "4"="How can I access all the jobs from Arbetsförmedlingen Platsbanken?|Find it here: http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?landid=199"
     "5"="How can I get in touch with JobTech?|If you would like to contact us, please e-mail us at contact@jobtechdev.se "
 >}}
+<a href="/web/viewer.html?file=%2Fyourpdf.pdf">Open yourpdf.pdf with PDF.js</a>
