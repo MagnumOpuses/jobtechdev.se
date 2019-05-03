@@ -121,7 +121,7 @@ Source code:
 *The JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place.*
 
 Preview:
-[JobScanner application](http://jobscanner.dev.services.jtech.se/)
+[JobScanner application](https://jobscanner.jobtechdev.se)
 
 Source code:
 <https://github.com/MagnumOpuses/JobScanning>
