@@ -1,0 +1,214 @@
+{
+  "start": {
+    "header": {
+      "sv": "JOBTECH DEV",
+      "en": "JOBTECH DEV"
+    },
+    "text1": {
+      "sv": "Stärk ujhfudsghdriurgy",
+      "en": "Empower people with freedom of choice through an open source infrastructure."
+    },
+    "button": {
+      "sv": "Gå till API",
+      "en": "GO TO API"
+    }
+  },
+  "apis": {
+    "header": {
+      "sv": "APIS AND DATASETS",
+      "en": "APIS AND DATASETS"
+    },
+    "text2": {
+      "sv": "Vi erbjuder en mängd APIer och dataset som är relevanta för applikationer byggda mot arbetsmarknaden. Läs mer på JobTech docs. ",
+      "en": "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
+    },
+    "buttonAPI": {
+      "sv": "Gå till API",
+      "en": "Browse the APIs"
+    },
+    "cards": [
+      {
+        "sv": {
+          "name": "JobTech Ontology",
+          "text": "En AI-genererad ordlista över kompetenser baserad på över 6 miljoner jobbannonser ",
+          "button": {
+            "name": "Utforska API",
+            "url": "/doc/api/terms/ontology/"
+          }
+        }
+      },
+      {
+        "sv": {
+          "name": "Af Job Postings",
+          "text": "Aktuella jobbannonser (ca 150 000 jobb) från Arbetsförmedlingen  ",
+          "button": {
+            "name": "Utforska API",
+            "url": "doc/api/jobs/platsbanken/"
+          }
+        }
+      },
+      {
+        "sv": {
+          "name": "Historiska Jobbannonser",
+          "text": "Historiska jobbannonser från Platsbanken under 2006-2017 (ca 3GB)",
+          "button": {
+            "name": "Utforska API",
+            "url": "doc/api/jobs/historical/"
+          }
+        }
+      }
+    ]
+  },
+  "status": {
+    "header": {
+      "sv": "STATUS",
+      "en": "STATUS"
+    },
+    "text1": {
+      "sv": "Vi gör vårt bästa för att hålla allting uppe och fungerande, men vi kan inte garantera fullständig tillgänglighet hela tiden. ",
+      "en": "This is a development site, which means that we are doing our best to keep everything up and running but cannot guarantee full availability at all times.."
+    },
+    "button": {
+      "sv": "Gå till API",
+      "en": "GO TO API"
+    }
+  },
+  "opensource": {
+    "header": {
+      "sv": "OPEN SOURCE",
+      "en": "OPEN SOURCE"
+    },
+    "text3": {
+      "sv": "Utforska ett stort utbud av material att låna, kopiera, paketera, utveckla, förbättra och modifiera efter behag!",
+      "en": "Explore a wide range of stuff to borrow, copy, redistribute, package, develop, reinvent and modify as you wish - enjoy!."
+    },
+    "buttonproj": {
+      "sv": "Utforska alla projekt",
+      "en": "Explore all projects"
+    },
+    "projcards": [
+      {
+        "sv": {
+          "name": "Historisk dataanalys ",
+          "text": "Ta smartare beslut med data om jobbtrender i olika industrisektorer  ",
+          "button": {
+            "name": "Prova",
+            "url": "http://historik.azurewebsites.net/"
+          },
+          "button2": {
+            "name": "Läs mer",
+            "url": "https://jobtechdev.se/doc/open_source/showcases/#historical/"
+          }
+        }
+      },
+      {
+        "sv": {
+          "name": "JobScanner ",
+          "text": "Se potentialen och kraften hos data över alla nutida rekryteringsbehov på arbetsmarknaden på ett och samma ställe  ",
+          "button": {
+            "name": "Prova",
+            "url": "doc/api/jobs/platsbanken/"
+          },
+          "button2": {
+            "name": "Läs mer",
+            "url": "https://jobtechdev.se/doc/open_source/showcases/#historical/"
+          }
+        }
+      },
+      {
+        "sv": {
+          "name": "Ontologiutforskaren ",
+          "text": "Ett exempel på hur man kan använda vårt ontologi-API ",
+          "button": {
+            "name": "Prova",
+            "url": "doc/api/jobs/historical/"
+          },
+          "button2": {
+            "name": "Läs mer",
+            "url": "https://jobtechdev.se/doc/open_source/showcases/#historical/"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "header": {
+      "sv": "NYCKELTAL ",
+      "en": "METRICS"
+    },
+    "text4": {
+      "sv": "Den mjuka infrastrukturen i siffror",
+      "en": "The open source infrastructure in numbers."
+    },
+    "array": [
+    ]
+  },
+  "dev": {
+    "header": {
+      "sv": "JOBTECH DEVELOPMENT",
+      "en": "JOBTECH DEVELOPMENT"
+    },
+    "text": {
+      "sv": "JobTech (job technology) är en paraplyterm för teknisk innovation i arbetsmarknadssektorn. JobTech development är ett initiativ från Arbetsförmedlingen, och styrs av samarbete mellan flera olika aktörer på arbetsmarknadsarenan. Vi tror på att delandet av gemensamma resurser som data ger bättre förutsättningar för att skapa och erbjuda bättre sluttjänster.",
+      "en": "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
+    },
+    "buttonAPI": {
+      "sv": "Läs mer",
+      "en": "Read more"
+    }
+  },
+  "prop": {
+    "header": {
+      "sv": "JOBTECHS ERBJUDANDE",
+      "en": "JOBTECH proposition"
+    },
+    "text": {
+      "sv": "Vi verkar för bättre matchning genom att skapa förutsättningar för en enklare utveckling. JobTech dev erbjuder en infrastruktur, APIer och data, allt i form av öppen källkod och öppen data, så det ska gå lätt och snabbt att skapa nya applikationer för arbetsmarknaden. ",
+      "en": "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
+    },
+    "text2": {
+      "sv": "JobTech dev satsar just nu på fyra strategiska områden",
+      "en": "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
+    },
+    "text3": {
+      "sv": "Det är öppet, alla kan vara med, och när du bidrar får du själv inflytande. ",
+      "en": "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
+    },
+    "buttonAPI": {
+      "sv": "Läs mer",
+      "en": "Read more"
+    }
+  },
+  "budget": {
+    "header": {
+      "sv": "JOBTECHS EKONOMI ",
+      "en": "JOBTECH FINANCE"
+    },
+    "text": {
+      "sv": "Arbetsförmedlingens finansiella investering i JobTech dev. Budgeten reflekterar de uppskattade kostnaderna för personal och tekniska resurser som behövs för leverans inom varje område. ",
+      "en": "The Swedish Public Employment Service’s financial investment in JobTech Dev. The budget reflects the estimated costs for personnel and technical resources required for each delivery."
+    }
+  },
+  "community": {
+    "header": {
+      "sv": "JOBTECH COMMUNITY  ",
+      "en": "JOBTECH COMMUNITY "
+    },
+    "text": {
+      "sv": "Hitta möjligheter för samarbete kring innovation, utveckling och förbättring av den svenska arbetsmarknaden. Vi delar och tar emot data, erfarenheter och kunskap.  ",
+      "en": "Find opportunities for collaboration around innovation, development and improvement of the Swedish labour market. We share and recieve data, experiences and knowledge."
+    },
+    "text2": {
+      "sv": "Det här är ett område där samarbete och relationsbyggande genom öppen källkod ger frukt. Oavsett om du är en utvecklare, en innovatör, en investerare, en student…. eller något annat. ",
+      "en": "This is an area where collaboration and building relationships through open source is made reality. Regardless if you are a developer, an innovator, an investor, a student...or something else."
+    },
+    "text3": {
+      "sv": "Kortfattat - det är här vi skapar värde för Sverige!  ",
+      "en": "In short - here is where we create value for Sweden!"
+    },
+    "buttonCOM": {
+      "sv": "Läs mer",
+      "en": "Read more"
+    }
+  }
+}
