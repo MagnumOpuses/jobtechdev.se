@@ -1,5 +1,5 @@
 ---
-title: "Beta"
+title: "APIs in beta versions "
 date: 2018-01-28T21:58:09+01:00
 #anchor: "beta"
 weight: 11
@@ -25,6 +25,6 @@ LastModifierEmail: ""
 <hr>
 ### Beta versions of APIs
 
-Start using it on your own risk
+Start using it, be prepared for changes.
 
 {{% children style="p" %}}
