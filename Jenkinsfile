@@ -4,7 +4,6 @@ pipeline {
         version = "1"
         buildTag = "${version}.${BUILD_NUMBER}"
         openshiftProject = 'jobtechdev'
-        buildName = 'jobtechdevse'
     }
     stages{
         stage('Build and Tag Openshift Image'){
