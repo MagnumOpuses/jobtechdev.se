@@ -8834,8 +8834,6 @@ ol.commentlist li .star-rating {
     content: "\A \A Down!";
 }
 .status {
-
-
     white-space: nowrap;
     color:white;
     margin-top: 20px;
@@ -8852,4 +8850,8 @@ ol.commentlist li .star-rating {
 }
 .lang {
     width:50%;
+}
+.langside {
+    width:15%;
+    margin-left: 20px;
 }
