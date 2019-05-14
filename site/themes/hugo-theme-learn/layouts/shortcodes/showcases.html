@@ -1,0 +1,250 @@
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+<style>
+    body {
+        background-color: #191919;
+        --MAIN-TITLES-TEXT-color: #fff;
+
+    }
+    #top-bar {
+        display: none;
+    }
+    h1 {
+        color: #BDBDBD;
+    }
+
+    .grid {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+    }
+    h4 {
+        color: #BDBDBD;
+        margin-bottom: 5px;
+    }
+    .grid > article {
+        color: #BDBDBD;
+        display: grid;
+        grid-template-rows: 1fr 110px;
+
+        width: 100%;
+        border: 2px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    }
+    .grid > article:hover {
+        text-decoration: none;
+        --MAIN-LINK-HOVER-color: none;
+        --MAIN-ANCHOR-color: none;
+        --MAIN-LINK-color: none;
+        color:#fff;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #733ACA;
+    }
+    .grid > article img {
+        max-width: 100%;
+    }
+    .text {
+        padding: 0 20px 20px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer > a {
+        color: #BDBDBD;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+
+        border-radius: 1px;
+        -webkit-border-radius: 1px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #eee;
+        border-width: 2px;
+        color: #BDBDBD;
+        padding: 5px 10px;
+        border-color: #4A4A4A;
+        --MAIN-LINK-HOVER-color: none;
+        --MAIN-ANCHOR-color: none;
+        --MAIN-LINK-color: none;
+
+
+    }
+    a:hover {
+        text-decoration: none;
+        --MAIN-LINK-HOVER-color: none;
+        --MAIN-ANCHOR-color: none;
+        --MAIN-LINK-color: none;
+        color: #fff;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #733ACA;
+    }
+    .separator {
+        background-color: #733ACA;
+        width: 30px;
+        height: 2px;
+    }
+    footer > a:first-of-type {
+
+        margin-top: 15px;
+
+    }
+    footer > a:last-of-type() {
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+
+/*    h1 {
+        color: #BDBDBD;
+    }
+    #top-bar {
+        display: none;
+    }
+    body{
+        background-color: #191919;
+    }
+    .card-title {
+        --MAIN-TITLES-TEXT-color:#BDBDBD;
+    }
+    .card {
+        border-radius: 0px;
+        color:#BDBDBD;
+        border: 2px solid #dadada;
+        transition: 0.2s;
+        width: 50%;
+        background-color: #191919;
+
+
+    }
+    .card:hover {
+        text-decoration: none;
+        --MAIN-LINK-HOVER-color: none;
+        --MAIN-ANCHOR-color: none;
+        --MAIN-LINK-color: none;
+
+        border-width: 2px;
+        border-style: solid;
+        border-color: #733ACA;
+    }
+
+    .card h3 {
+        color:#BDBDBD;
+        padding: 2px;
+        margin: 8px 0;
+        !*   line-height: 20px !important;
+          font-size: 18px !important;
+          font-weight: 500 !important; *!
+    }
+
+    .card .container {
+        padding: 2px 14px;
+    }
+
+    .card p {
+        margin: 14px 0;
+    }*/
+/*.showcasebtn {
+    color: #fff;
+    width: 100%;
+
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eee;
+    border-width: 2px;
+    color: #BDBDBD;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-color: #4A4A4A;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+
+}
+    .showcasebtn:hover {
+        text-decoration: none;
+        --MAIN-LINK-HOVER-color: none;
+        --MAIN-ANCHOR-color: none;
+        --MAIN-LINK-color: none;
+        color: #fff;
+        border-radius: 2px;
+        -webkit-border-radius: 1px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #733ACA;
+    }
+    .separator {
+        background-color: #733ACA;
+        width: 30px;
+        height: 2px;
+    }
+    .card-type {
+        font-size: 12px;
+    }*/
+
+
+
+
+</style>
+
+
+
+
+<br>
+
+<!--<div class="row mx-auto">
+    {{range $index,$val := $.Page.Params.showcases }}
+        <div class="card" style="width: 200px;">
+            <div class="card-body d-flex flex-column" style="display: flex;flex-direction: column">
+                <h5 class="card-title">{{ $val.name}}</h5>
+                <div class="w3-separator  separator"></div>
+                    <p class="card-type" >{{ $val.type }}</p>
+                    <p class="card-text">{{ $val.description}}</p>
+                <div style="margin-top: auto">
+                    {{range $index,$val := $val.links}}
+
+                        <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
+
+                    {{ end }}
+                </div>
+
+            </div>
+        </div>
+    {{ end }}
+</div>-->
+
+
+
+<main class="grid">
+    {{range $index,$val := $.Page.Params.showcases }}
+    <article>
+        <div class="text" >
+            <h4>{{ $val.name}}</h4>
+            <div class="w3-separator  separator"></div>
+            <p style="font-size: 12px;color: #fff">{{ $val.type }}</p>
+            <p>{{ $val.description}}</p>
+
+
+        </div>
+        <footer>
+            {{range $index,$val := $val.links}}
+
+            <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
+
+            {{ end }}
+        </footer>
+    </article>
+    {{ end }}
+</main>
