@@ -63,11 +63,7 @@ home = [ "HTML", "RSS", "JSON"]
     url = "https://jobtechgig.se/"
     weight = 35
 
-  [[menu.shortcuts]]
-   name = "<i class='fas fa-code'></i> Vacancies"
-    identifier = "ds2"
-    url = "https://jobtechdev.se/work/#vacancies"
-    weight = 25
+
 
 
 
