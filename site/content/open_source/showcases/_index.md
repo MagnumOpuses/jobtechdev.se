@@ -1,5 +1,7 @@
 {
     "title": "Showcases",
+    "menuTitle": "Showcases",
+    "disableToc":"false",
     "showcases": [ 
         {
           "type": "Widget",
