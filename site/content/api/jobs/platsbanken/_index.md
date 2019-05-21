@@ -7,7 +7,8 @@ weight: 25
 ---
 
 {{% notice info %}}
-The open API "Af Jobs " for job advertisements will be replaced in 2019 with a new version, the suspension will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June.  
+The open API "Af Jobs " for job advertisements will be replaced in 2019 with a new version, 
+the closure will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June.  
 A beta version is available already.  
 Information on how to access the beta version is available at https://jobtechdev.se/doc/api/beta/jobsearch/
 {{% /notice %}}
