@@ -6,11 +6,14 @@ menuTitle: "Af Jobs"
 weight: 25
 ---
 
+{{% notice info %}}
+The open API "Af Jobs " for job advertisements will be replaced in 2019 with a new version, the suspension will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June.  
+A beta version is available already.  
+Information on how to access the beta version is available at https://jobtechdev.se/doc/api/beta/jobsearch/
+{{% /notice %}}
 The Af Job API contains all current job ads from Swedish Public Employment Service. Somewhere around 100000 job ads, about 3000 new ads are submitted daily by employers, 5 million accesses to the job posting database daily.
 
-[//]: #{{% notice tip %}}
-A API-key i necessary. Get it here.
-{{% /notice %}}
+ 
 
 <!--
 {{< oai-spec url="http://develop.sokapi.platsbanka.nu/swagger.json" api_key="special-key" >}}
