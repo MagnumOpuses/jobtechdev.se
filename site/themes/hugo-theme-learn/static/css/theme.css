@@ -98,9 +98,9 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #8451a1;
+
     color: #fff;
-    border-bottom: 4px solid #9c6fb6;
+
     padding: 1rem;
 }
 #header a {
