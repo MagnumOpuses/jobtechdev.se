@@ -15,8 +15,9 @@ h1 {
     border: 2px solid #BDBDBD;
     height: 100% !important;
     padding: 16px;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
+
 
 .showcase-item:hover {
     text-decoration: none;
@@ -35,7 +36,7 @@ h1 {
 
 footer {
     text-align: center;
-
+    height: 130px;
     position:absolute;
     bottom:0px;
     left:0px;
