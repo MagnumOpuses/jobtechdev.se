@@ -18,6 +18,7 @@ section: false
 4. [ Värdeförrådskomponenter ](#vardeforradskomponenter)
 5. [ Uppdatering värdeförrådskomponenter ](#uppdateringavvardeforradskomponenter)
 6. [ Värdeförrådskomponenter genom åren ](#vardeforradskomponentergenomaren)
+7. [ Pilot Project with Tobii and Finn Brewery ](#pilot_project_with_tobii_and_finn_brewery)
 
 
 <a name="digital_frontrunners_web"></a>
@@ -71,3 +72,14 @@ section: false
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
 [ <i class="fas fa-file-pdf"></i> Download "Värdeförrådskomponenter genom åren" ](/doc/pdf/vardeforradskomponentergenomaren.pdf)
+
+---
+
+<a name="pilot_project_with_tobii_and_finn_brewery"></a>
+#### 7. Pilot Project with Tobii and Finn Brewery
+
+*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+
+[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Summary (Jobtech)" ](/doc/pdf/Pilot%20Project%20Summary%20(Jobtech).pdf)
+
+[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Report (Tobii)" ](/doc/pdf/Pilot%20Project%20Report%20(Tobii).pdf)
