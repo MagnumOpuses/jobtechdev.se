@@ -2,6 +2,7 @@
     "title": "Showcases",
     "menuTitle": "Showcases",
     "disableToc":"false",
+    "weight": 102,
     "showcases": [ 
         {
           "type": "Widget",
