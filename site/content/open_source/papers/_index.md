@@ -25,7 +25,7 @@ section: false
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
-[ Digital Frontrunners Web (PDF) ](/doc/pdf/Digital_Frontrunners_Web.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Digital Frontrunners Web" ](/doc/pdf/Digital_Frontrunners_Web.pdf)
 
 ---
 
@@ -34,7 +34,7 @@ section: false
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
-[ Jobtech Forum 2018 (PDF) ](/doc/pdf/Jobtech_forum18.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Jobtech Forum 2018" ](/doc/pdf/Jobtech_forum18.pdf)
 
 ---
 
@@ -43,7 +43,7 @@ section: false
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
-[ SSYK and ESCO (PDF) ](/doc/pdf/SSYK%20och%20Esco.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "SSYK and ESCO" ](/doc/pdf/SSYK%20och%20Esco.pdf)
 
 ---
 
@@ -52,7 +52,7 @@ section: false
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
-[ Värdeförrådskomponenter (PDF) ](/doc/pdf/Vardeforradskomponenter.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Värdeförrådskomponenter" ](/doc/pdf/Vardeforradskomponenter.pdf)
 
 ---
 
@@ -61,7 +61,7 @@ section: false
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
-[ Uppdatering av värdeförrådskomponenter (PDF) ](/doc/pdf/uppdateringavvardeforradskomponenter.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Uppdatering av värdeförrådskomponenter" ](/doc/pdf/uppdateringavvardeforradskomponenter.pdf)
 
 ---
 
@@ -70,4 +70,4 @@ section: false
 
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
-[ Värdeförrådskomponenter genom åren (PDF) ](/doc/pdf/vardeforradskomponentergenomaren.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Värdeförrådskomponenter genom åren" ](/doc/pdf/vardeforradskomponentergenomaren.pdf)
