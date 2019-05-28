@@ -100,6 +100,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #header-wrapper {
     color: #fff;
     padding: 1rem;
+    background-color: #000;
 }
 #header a {
     display: inline-block;
