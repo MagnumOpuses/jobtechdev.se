@@ -6,6 +6,10 @@ menuTitle: "Af Jobs"
 weight: 25
 ---
 
+{{% notice warning %}}
+We’re currently experiencing some problems with the API AF Jobs, but we are working diligently to get it up and running again as soon as possible!
+{{% /notice %}}
+
 {{% notice info %}}
 The open API "Af Jobs " for job advertisements will be replaced in 2019 with a new version, 
 the closure will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June.   
