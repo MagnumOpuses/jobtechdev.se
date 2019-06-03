@@ -19,15 +19,14 @@ module.exports = {
         extensions: ['.js', '.scss', '.css']
     },
 
-    entry: {
-        main: path.resolve(process.cwd(), 'themes', theme, 'assets', 'js', 'main'),
-    },
+    entry: ["./thebeginning/index.html"],
 
     mode: "development",
 
     devServer: {
-        port: process.env.PORT || 3000,
-        contentBase: [path.join(process.cwd(), "./thebeginning"), path.join(process.cwd(), "./dist")],
+        host: "localhost",
+        port: 3000,
+        contentBase: [path.join(process.cwd(), "./thebeginning"), path.join(process.cwd(), "./dist"), path.join(process.cwd(), "./site")],
         watchContentBase: true,
         stats: "none",
         quiet: false,

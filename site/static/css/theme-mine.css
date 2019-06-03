@@ -1,7 +1,7 @@
 :root{
-
-    --MAIN-TEXT-color:#323232; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-BACKGROUND-color:#191919;
+    --MAIN-TEXT-color:#ccc; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #ccc; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#1C90F3; /* Color of links */
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
@@ -27,18 +27,22 @@
 
 body {
     color: var(--MAIN-TEXT-color) !important;
+    background-color:var(--MAIN-BACKGROUND-color) ;
 }
-
+strong {
+    color: var(--MAIN-TITLES-TEXT-color) !important;
+}
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
     border-color: none;
     box-shadow: none;
 }
 
-h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
 a {
+    font-weight: 400;
     color: var(--MAIN-LINK-color);
 }
 

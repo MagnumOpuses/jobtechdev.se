@@ -427,7 +427,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #chapter h1 {
     font-size: 5rem;
-    border-bottom: 4px solid #F0F2F4;
+    /*border-bottom: 4px solid #F0F2F4;*/
 }
 #chapter p {
     text-align: center;
@@ -655,7 +655,8 @@ pre code {
     font-size: 15px;
 }
 hr {
-    border-bottom: 4px solid #F0F2F4;
+    border-color: #BDBDBD;
+    /*border-bottom: 4px solid #F0F2F4;*/
 }
 .page-title {
     margin-top: -25px;
@@ -982,7 +983,7 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
+    background: #000;
     border-radius: 2px;
     padding: 0 1rem;
     height: 0;

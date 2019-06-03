@@ -10,7 +10,7 @@ disableToc: "false"
 menuTitle: ""
 # The title of the page in menu will be prefixed by this HTML content
 pre: ""
-# The title of the page in menu will be postfixed by this HTML content
+# The title of the page in menu will be postfixed by this HTML contet
 post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false

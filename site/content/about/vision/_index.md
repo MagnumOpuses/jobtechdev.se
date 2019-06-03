@@ -9,7 +9,7 @@ weight: 2
 
 *An open digital infrastructure that enables people to meet. All actors can easily contribute with their data and code - as well as take part of others'.*
 
-{{< figure src="../../jobtech_platform.png" title="JobTech vision" >}}
+{{< figure src="../../platform_white.png" title="JobTech vision" >}}
 
 #### Roles in an ecosystem
 Infrastructure builders, developers/organisations, and end-users, have unique needs and motivations for participating in an ecosystem.
