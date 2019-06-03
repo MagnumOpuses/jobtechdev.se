@@ -154,17 +154,28 @@
 
 
     for (i = 0; i < document.getElementsByClassName("collapsible").length; i++) {
-        document.getElementsByClassName("collapsible")[i].addEventListener("click", function() {
+        let elements = document.getElementsByClassName("collapsible")
+        console.log(elements)
+        if (document.getElementsByClassName("collapsible")[i].hasAttribute("done")) {
+
+        }else{
+            document.getElementsByClassName("collapsible")[i].setAttribute("done", "done");
+            elements[i].addEventListener("click", function() {
+
             this.classList.toggle("active");
             let content = this.nextElementSibling;
             if (content.style.display != "block") {
                 content.style.display = "block";
+
             } else {
                 content.style.display = "none";
+
             }
+
         });
     }
         for (let cards = document.getElementsByClassName("card"),i=0; i<cards.length;i++) {
             cards[i].classList.remove("hidden")
         }
+    }
 </script>
