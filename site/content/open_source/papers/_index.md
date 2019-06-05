@@ -13,73 +13,66 @@ section: false
 <hr>
 
 1. [ Digital Frontrunners Web ](#digital_frontrunners_web)
-2. [ Jobtech Forum 2018 ](#jobtech_forum_2018)
-3. [ SSYK & ESCO ](#ssyk_and_esco)
-4. [ Värdeförrådskomponenter ](#vardeforradskomponenter)
-5. [ Uppdatering värdeförrådskomponenter ](#uppdateringavvardeforradskomponenter)
-6. [ Värdeförrådskomponenter genom åren ](#vardeforradskomponentergenomaren)
-7. [ Pilot Project with Tobii and Finn Brewery ](#pilot_project_with_tobii_and_finn_brewery)
-
-
+1. [ SSYK & ESCO ](#ssyk_and_esco)
+1. [ Uppdatering värdeförrådskomponenter ](#uppdateringavvardeforradskomponenter)
+1. [ Occupations and skills in Sweden ](#occupations_and_skills_in_sweden)
+1. [ Pilot Project with Tobii and Finn Brewery ](#pilot_project_with_tobii_and_finn_brewery)
+1. [ The JobTech Platform - A Research Project Description ](#the_jobtech_platform_a_research_project_description)
+ 
 <a name="digital_frontrunners_web"></a>
 #### 1. Digital Frontrunners Web
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+Explains how the Digital Frontrunners programme equips participants with new competencies for designing effective policy in the digital age.<br>
+Highlights innovative methods that governments are using to solve four key challenges for the creation of skills policy to foster workforces that are fit for the future.<br>
+Presents a ‘policy blueprint’ that policymakers and other stakeholders can follow to make more inclusive and responsive skills policy.
 
-[ <i class="fas fa-file-pdf"></i> Download "Digital Frontrunners Web" ](/doc/pdf/Digital_Frontrunners_Web.pdf)
-
----
-
-<a name="jobtech_forum_2018"></a>
-#### 2. Jobtech Forum 2018
-
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
-
-[ <i class="fas fa-file-pdf"></i> Download "Jobtech Forum 2018" ](/doc/pdf/Jobtech_forum18.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Digital Frontrunners Web" (English) (2318 kb) ](/doc/pdf/Digital_Frontrunners_Web.pdf)
 
 ---
 
 <a name="ssyk_and_esco"></a>
-#### 3. SSYK & ESCO
+#### 2. SSYK & ESCO
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+The SSYK (Standard för svensk yrkesklassificering) classification identifies what occupations exists in the job market and works as the structure for international reporting.<br>
+The ESCO (European Skills/Competenses, qualifications and Occupations) classification identifies and categorises skills, competences, qualifications and occupations relevant for the EU labour market
 
-[ <i class="fas fa-file-pdf"></i> Download "SSYK and ESCO" ](/doc/pdf/SSYK%20och%20Esco.pdf)
-
----
-
-<a name="vardeforradskomponenter"></a>
-#### 4. Värdeförrådskomponenter
-
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
-
-[ <i class="fas fa-file-pdf"></i> Download "Värdeförrådskomponenter" ](/doc/pdf/Vardeforradskomponenter.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "SSYK and ESCO" (Swedish) (420 kb) ](/doc/pdf/SSYK%20och%20Esco.pdf)
 
 ---
 
 <a name="uppdateringavvardeforradskomponenter"></a>
-#### 5. Uppdatering av värdeförrådskomponenter
+#### 3. Uppdatering av värdeförrådskomponenter
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+Jobtech Taxonomy forms the basis of several central functions for the Swedish labour market. The terminology is updated in consultation with Statistics Sweden (SCB), the Swedish Standards Institute (SIS) and other stakeholders on the labour market.
 
-[ <i class="fas fa-file-pdf"></i> Download "Uppdatering av värdeförrådskomponenter" ](/doc/pdf/uppdateringavvardeforradskomponenter.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Uppdatering av värdeförrådskomponenter" (Swedish) (144 kb) ](/doc/pdf/uppdateringavvardeforradskomponenter.pdf)
 
 ---
 
-<a name="vardeforradskomponentergenomaren"></a>
-#### 6. Värdeförrådskomponenter genom åren
+<a name="occupations_and_skills_in_sweden"></a>
+#### 4. Occupations and skills in Sweden
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+The Swedish Standard Classification of Occupations 2012 (SSYK 2012) is a system for classifying and aggregating data about occupations in administrative registers or statistical surveys.<br>
+The skills concept in JobTech Taxonomy consists of approximately 5500 key words for skills structured under some 60 skill headlines.
 
-[ <i class="fas fa-file-pdf"></i> Download "Värdeförrådskomponenter genom åren" ](/doc/pdf/vardeforradskomponentergenomaren.pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Occupations and skills in Sweden" (English) (188 kb) ](/doc/occupations_skills_Sweden.pdf)
 
 ---
 
 <a name="pilot_project_with_tobii_and_finn_brewery"></a>
-#### 7. Pilot Project with Tobii and Finn Brewery
+#### 5. Pilot Project with Tobii and Finn Brewery
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
+Tobii is the world leader in eye tracking, providing conditions for new insights into human behaviour and technology more adapted to humans, using eye tracking as their core. As they recently released Tobii Pro Glasses 2, we teamed up with Tobii Pro for a pilot project in order to explore what kind of data that can be collected through these kinds of devices and what value it can bring.
 
-[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Summary (Jobtech)" ](/doc/pdf/Pilot%20Project%20Summary%20(Jobtech).pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Summary (Jobtech)" (English) (124 kb) ](/doc/pdf/Pilot%20Project%20Summary%20(Jobtech).pdf)
 
-[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Report (Tobii)" ](/doc/pdf/Pilot%20Project%20Report%20(Tobii).pdf)
+[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Report (Tobii)" (Swedish) (765 kb) ](/doc/pdf/Pilot%20Project%20Report%20(Tobii).pdf)
+
+---
+
+<a name="the_jobtech_platform_a_research_project_description"></a>
+#### 6. The JobTech Platform - A Research Project Description
+
+This document proposes a two-year research project funded by the Swedish Public Employment Service (SPES) and Lund University. In the project, two researchers from Lund University will study SPES and the realization of their JobTech platform
+
+[ <i class="fas fa-file-pdf"></i> Download "The JobTech Platform - A Research Project Description" (English) (212 kb) ](/doc/Open_Governement_Platforms(1).pdf)
