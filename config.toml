@@ -1,4 +1,4 @@
-baseURL = "/doc"
+baseURL = "/"
 languageCode = "en-us"
 title = "JobTech Dev"
 theme = "hugo-theme-learn"
