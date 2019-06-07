@@ -26,7 +26,9 @@ Explains how the Digital Frontrunners programme equips participants with new com
 Highlights innovative methods that governments are using to solve four key challenges for the creation of skills policy to foster workforces that are fit for the future.<br>
 Presents a ‘policy blueprint’ that policymakers and other stakeholders can follow to make more inclusive and responsive skills policy.
 
-[ <i class="fas fa-file-pdf"></i> Download "Digital Frontrunners Web" (English) (2318 kb) ](/doc/pdf/Digital_Frontrunners_Web.pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/Digital_Frontrunners_Web.pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "Digital Frontrunners Web" (English) (2318 kb)
+</a>
 
 ---
 
@@ -36,7 +38,9 @@ Presents a ‘policy blueprint’ that policymakers and other stakeholders can f
 The SSYK (Standard för svensk yrkesklassificering) classification identifies what occupations exists in the job market and works as the structure for international reporting.<br>
 The ESCO (European Skills/Competenses, qualifications and Occupations) classification identifies and categorises skills, competences, qualifications and occupations relevant for the EU labour market
 
-[ <i class="fas fa-file-pdf"></i> Download "SSYK and ESCO" (Swedish) (420 kb) ](/doc/pdf/SSYK%20och%20Esco.pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/SSYK%20och%20Esco.pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "SSYK and ESCO" (Swedish) (420 kb)
+</a>
 
 ---
 
@@ -45,7 +49,9 @@ The ESCO (European Skills/Competenses, qualifications and Occupations) classific
 
 Jobtech Taxonomy forms the basis of several central functions for the Swedish labour market. The terminology is updated in consultation with Statistics Sweden (SCB), the Swedish Standards Institute (SIS) and other stakeholders on the labour market.
 
-[ <i class="fas fa-file-pdf"></i> Download "Uppdatering av värdeförrådskomponenter" (Swedish) (144 kb) ](/doc/pdf/uppdateringavvardeforradskomponenter.pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/uppdateringavvardeforradskomponenter.pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "Uppdatering av värdeförrådskomponenter" (Swedish) (144 kb)
+</a>
 
 ---
 
@@ -55,7 +61,9 @@ Jobtech Taxonomy forms the basis of several central functions for the Swedish l
 The Swedish Standard Classification of Occupations 2012 (SSYK 2012) is a system for classifying and aggregating data about occupations in administrative registers or statistical surveys.<br>
 The skills concept in JobTech Taxonomy consists of approximately 5500 key words for skills structured under some 60 skill headlines.
 
-[ <i class="fas fa-file-pdf"></i> Download "Occupations and skills in Sweden" (English) (188 kb) ](/doc/occupations_skills_Sweden.pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/occupations_skills_Sweden.pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "Occupations and skills in Sweden" (English) (188 kb)
+</a>
 
 ---
 
@@ -64,9 +72,13 @@ The skills concept in JobTech Taxonomy consists of approximately 5500 key words 
 
 Tobii is the world leader in eye tracking, providing conditions for new insights into human behaviour and technology more adapted to humans, using eye tracking as their core. As they recently released Tobii Pro Glasses 2, we teamed up with Tobii Pro for a pilot project in order to explore what kind of data that can be collected through these kinds of devices and what value it can bring.
 
-[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Summary (Jobtech)" (English) (124 kb) ](/doc/pdf/Pilot%20Project%20Summary%20(Jobtech).pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/Pilot%20Project%20Summary%20(Jobtech).pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "Pilot Project Summary (Jobtech)" (English) (124 kb)
+</a>
 
-[ <i class="fas fa-file-pdf"></i> Download "Pilot Project Report (Tobii)" (Swedish) (765 kb) ](/doc/pdf/Pilot%20Project%20Report%20(Tobii).pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/Pilot%20Project%20Report%20(Tobii).pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "Pilot Project Report (Tobii)" (Swedish) (765 kb)
+</a>
 
 ---
 
@@ -75,4 +87,6 @@ Tobii is the world leader in eye tracking, providing conditions for new insights
 
 This document proposes a two-year research project funded by the Swedish Public Employment Service (SPES) and Lund University. In the project, two researchers from Lund University will study SPES and the realization of their JobTech platform
 
-[ <i class="fas fa-file-pdf"></i> Download "The JobTech Platform - A Research Project Description" (English) (212 kb) ](/doc/Open_Governement_Platforms(1).pdf)
+<a href="/pdfjs/web/viewer.html?file=/pdf/Open_Governement_Platforms(1).pdf" target="_blank" >
+    <i class="fas fa-file-pdf"></i> View "The JobTech Platform - A Research Project Description" (English) (212 kb)
+</a>

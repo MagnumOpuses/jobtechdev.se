@@ -27,7 +27,7 @@ LastModifierEmail: ""
 
 
 The open API “Af Jobs” for job advertisements will be replaced in 2019 with a new version, the closure will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June. <b> A beta version is available already.
-Information on how to access the beta version is available at </b> https://jobtechdev.se/doc/api/beta/jobsearch/ 
+Information on how to access the beta version is available at </b> [ https://jobtechdev.se/api/beta/jobsearch/ ](/api/beta/jobsearch/)
  
 
 The new advertisement API is built in cooperation with our developer and UX designers at Platsbanken, but input from external users has also been the basis for how the API looks from the start.

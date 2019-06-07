@@ -10,4 +10,4 @@ For the labour market, this feature brings many benefits:
 
 <!--- JobTech search is an [open API](http://develop.sokapi.platsbanka.nu/)-->
 - JobTech search is open source and based on [Elastic search](https://www.elastic.co/products/elasticsearch)
-- All searchable job postings are [open data](/doc/api/)
+- All searchable job postings are [open data](/api/)

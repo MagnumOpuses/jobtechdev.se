@@ -13,15 +13,12 @@ which can be used for example as a basis for matching. The content is continuous
 
 
 
-{{< figure src="/doc/Vardeforradskomponenter.jpg" title="Components" width="85%" >}}
+{{< figure src="/img/Vardeforradskomponenter.jpg" title="Components" width="85%" >}}
 #### Paradigm of the Future
 Our aim is for the labour market terminology observed via text analysis and data collection to help enrich the content of JobTech Taxonomy - but not without quality assurance. 
 We believe that optimal results are achieved when a data driven approach meets an expert driven.
 
-
- 
-
-* [Occupations and skills in Sweden](/doc/occupations_skills_Sweden.pdf)
+* [Occupations and skills in Sweden](/pdfjs/web/viewer.html?file=/pdf/occupations_skills_Sweden.pdf)
 * [Taxonomy API]({{< ref "/api/terms/taxonomy/_index.md" >}})
 * [Ontology API]({{< ref "/api/terms/ontology/_index.md" >}})
 

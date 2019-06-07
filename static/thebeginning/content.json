@@ -33,7 +33,7 @@
           "text": "En AI-genererad ordlista över kompetenser baserad på över 6 miljoner jobbannonser ",
           "button": {
             "name": "Utforska API",
-            "url": "/doc/api/terms/ontology/"
+            "url": "/api/terms/ontology/"
           }
         }
       },
@@ -97,7 +97,7 @@
           },
           "button2": {
             "name": "Läs mer",
-            "url": "https://jobtechdev.se/doc/open_source/showcases/#historical/"
+            "url": "https://jobtechdev.se/open_source/showcases/#historical/"
           }
         }
       },
@@ -111,7 +111,7 @@
           },
           "button2": {
             "name": "Läs mer",
-            "url": "https://jobtechdev.se/doc/open_source/showcases/#historical/"
+            "url": "https://jobtechdev.se/open_source/showcases/#historical/"
           }
         }
       },
@@ -125,7 +125,7 @@
           },
           "button2": {
             "name": "Läs mer",
-            "url": "https://jobtechdev.se/doc/open_source/showcases/#historical/"
+            "url": "https://jobtechdev.se/open_source/showcases/#historical/"
           }
         }
       }

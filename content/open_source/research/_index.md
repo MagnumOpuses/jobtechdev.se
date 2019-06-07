@@ -23,7 +23,7 @@ In the Jobtech Research project, Johan will, for example, investigate how to cre
 ##### Want to know more?
  
 
-- **<a href="/doc/pdfjs/web/viewer.html?file=/doc/Open_Governement_Platforms(1).pdf" target="_blank" >The research project</a>**
+- **<a href="/pdfjs/web/viewer.html?file=/pdf/Open_Governement_Platforms(1).pdf" target="_blank" >The research project</a>**
 - **[Johan Linåker website](http://cs.lth.se/johan_linaker)**
 - **Twitter/LinkedIn/Github: @johanlinaker**
 

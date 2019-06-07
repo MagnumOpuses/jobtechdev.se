@@ -68,7 +68,7 @@ a:hover {
 }
 #sidebar {
 /**	background-color: var(--MENU-SECTIONS-BG-color);  **/
-  background-image: url("../slide4.jpg");
+  background-image: url("/img/slide4.jpg");
 }
 #sidebar #header-wrapper {
     background: var(--MENU-HEADER-BG-color);

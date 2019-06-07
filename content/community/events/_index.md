@@ -29,14 +29,14 @@ http://offentligarummet.se/
 Take part in tomorrow's digital solutions for the challenges facing the labor market. 
 Listen to Saeid Esmaeilzadeh one of Sweden's most successful entrepreneurs.  
 The Swedish JobTech Association invites you to an inspirational lecture and mini-show to showcase the products available to solve the future's match.  
-See the [invitation](../../minimassa.pdf)
+See the <a href="/pdfjs/web/viewer.html?file=/pdf/minimassa.pdf" target="_blank" >invitation</a>
 
 - **Meetup in Malmö**   
 Welcome to a hands-on, demo-driven run through of JobTech Developments digital infrastructure.  
 Friday, April 26th 2019, 8am-9.30am
 Media Evolution City, Stora Varvsgatan 6a, 211 19 Malmö  
 Sign up at [Facebook](https://www.facebook.com/events/2840552519503280/?active_tab=about)  
-See the [invitation](../../MEC.png)
+See the [invitation](/img/MEC.png)
 
 
 - **Meet us at Hack for Sweden!** 

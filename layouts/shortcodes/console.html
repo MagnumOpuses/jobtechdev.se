@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Jobtech UI</title>
-    <!--    <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >   -->
-    <link rel="stylesheet" type="text/css" href="/doc/css/theme-newspaper.css">
-    <link rel="icon" type="image/png" href="/doc/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/doc/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" type="text/css" href="/css/theme-newspaper.css">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
     <style>
         html
         {
@@ -32,30 +31,17 @@
 </head>
 
 <body>
-<!--
-<div style="background-color: #000000;padding: 0 !important; margin: 0px 0px 0px 0px">
-  <h1>Test</h1>
-
-</div>
--->
 <div id="swagger-ui"></div>
 
-<script src="/doc/swagger/swagger-ui-bundle.js"> </script>
-<script src="/doc/swagger/swagger-ui-standalone-preset.js"> </script>
+<script src="/swagger/swagger-ui-bundle.js"> </script>
+<script src="/swagger/swagger-ui-standalone-preset.js"> </script>
 <script>
     window.onload = function() {
         // Begin Swagger UI call region
         const ui = SwaggerUIBundle({
             urls: [
-                /*{url:"/doc/sokannonser/swagger.json", name:"Jobs - Online Jobs"},*/
-                /*{url:"https://sokannonser.dev.services.jtech.se/swagger.json", name:"Jobs - Online Jobs"},*/
-                /*{url:"http://ontologi.arbetsformedlingen.se/ontology/v1/swagger.json", name:"Occupations - Job market language"},  fungerar ej pga av att den bara nås via http och itne https*/
-                {url:"/doc/ontology/swagger.json", name:"Occupations - Job market language"},
-                /*{url:"http://api.arbetsformedlingen.se/af/v2/forecasts/api-docs", name:"Occupations - forecats"},*/
+                {url:"/ontology/swagger.json", name:"Occupations - Job market language"},
                 {url:"/swagger/af_swagger.json", name:"Jobs - Online Jobs - Deprecated"},
-
-
-
             ],
             dom_id: '#swagger-ui',
             docExpansion : "none",
@@ -70,11 +56,7 @@
             //layout: "StandaloneLayout"
             layout: "StandaloneLayout"
         })
-
-
-
     }
-
 </script>
 </body>
 </html>

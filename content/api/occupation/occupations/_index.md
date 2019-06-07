@@ -29,7 +29,7 @@ Please include following in your request:
 {{% /notice %}}
 #### Endpoint
 ````
-https://jobtechdev.se/raml_vagledning/index.html#docs/summary/summary
+https://jobtechdev.se/thebeginning/raml_vagledning/index.html#docs/summary/summary
 ````
 
-[AF Occupations info ](/raml_vagledning/index.html#docs/summary/summary)
+[AF Occupations info ](/thebeginning/raml_vagledning/index.html#docs/summary/summary)

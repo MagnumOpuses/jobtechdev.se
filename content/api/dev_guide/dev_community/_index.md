@@ -20,7 +20,7 @@ That’s why we want to create a development platform that prioritize interopera
 [How to start a project:](https://github.com/MagnumOpuses/project-meta)  
 
 If you have some questions, please 
-check out the [FAQ](/doc/faq/) or
+check out the [FAQ](/faq/) or
 send a mail to <developer@jobtechdev.se>
 
 
