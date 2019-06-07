@@ -8,7 +8,12 @@ googleAnalytics = "UA-139048426-1"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-
+[languages.en]
+    title = "English"
+    weight = 1
+  [languages.sv]
+    title = "Swedish"
+    weight = 2
 
 
 [params]
