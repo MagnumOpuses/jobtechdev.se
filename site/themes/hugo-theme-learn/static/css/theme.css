@@ -915,6 +915,10 @@ td {
 }
 .featherlight img {
     margin: 0 !important;
+
+}
+.featherlight-content {
+    background-color: #000;
 }
 .lifecycle #body-inner ul {
     list-style: none;

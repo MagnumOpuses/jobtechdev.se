@@ -14,7 +14,7 @@ weight: 2
 JobTech jobs is a cooperation project with the Lund based company Auranest.
 {{% /notice %}}
 
-{{< figure src="/doc/jt webbjobtech_jobs.png" title="JobTech Jobs" height="90%" width="90%">}}
+
 #### Paradigm of the Future
 
 ##### Usage
