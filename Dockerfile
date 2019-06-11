@@ -5,7 +5,7 @@ WORKDIR /var/www/hugo
 RUN hugo
 
 FROM bitnami/nginx
-COPY --from=builder /var/www/hugo/dist /opt/bitnami/nginx/html
+COPY --from=builder /var/www/hugo/public /opt/bitnami/nginx/html
 USER 1001
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "/run.sh" ]
