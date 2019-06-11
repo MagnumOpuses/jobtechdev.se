@@ -133,6 +133,7 @@
 </style>
 {{range $key,$val := .Params}}
 {{$items := split $val "|"}}
+
 <div class="card hidden">
 <div class="collapsible q-bubble">Q: {{index $items 0}}</div>
 <div class="card-content a-bubble">
@@ -150,7 +151,6 @@
 
 
 <script>
-
 
 
     for (i = 0; i < document.getElementsByClassName("collapsible").length; i++) {

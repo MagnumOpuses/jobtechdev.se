@@ -1,3 +1,19 @@
+{
+"title":"FAQ"
+"date":"2018-01-28T21:58:09+01:00"
+"weight":"6"
+"disableToc":"false"
+"menuTitle":"""
+"pre":""
+"post":""
+"chapter":"false"
+"hidden": "false"
+"LastModifierDisplayName":""
+"faq":[
+
+
+]
+}
 ---
 title: "FAQ"
 date: 2018-01-28T21:58:09+01:00
@@ -42,8 +58,7 @@ LastModifierEmail: ""
 
 {{< FAQ
     "1"="Is it possible to only show ads outside Sweden| Yes, you could do a negative query for Sweden, search?country=-199 then you will receive all ads not containing the Swedish country code. "
-    "2"="Can I get a list of
-     yrkesområde/yrkesgrupper/yrken| Yes, you could get a list using the taxonomy endpoint "
+    "2"="Can I get a list of yrkesområde/yrkesgrupper/yrken| Yes, you could get a list using the taxonomy endpoint "
 >}}
 
 {{% /expand%}}
