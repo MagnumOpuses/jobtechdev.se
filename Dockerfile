@@ -5,11 +5,11 @@ WORKDIR /var/www/hugo
 RUN hugo
 ###
 FROM alpine:latest
-ARG ARG_BUILD_NAME
+ARG ARG_BUILDNAME
 ARG ARG_USER=default
 ARG ARG_PASSWD=default
 
-ENV buildName=$ARG_BUILD_NAME
+ENV buildName=$ARG_BUILDNAME
 ENV USER=$ARG_USER
 ENV PASSWD=$ARG_PASSWD
 RUN echo 'kolla:' ${USER} ${ARG_PASSWD} ' buildName:'${buildName}
