@@ -1,6 +1,7 @@
 FROM rprakashg/hugo-docker as builder
 RUN mkdir -p /var/www/hugo
 COPY . /var/www/hugo
+RUN ls -la;
 WORKDIR /var/www/hugo
 RUN hugo
 ###
@@ -36,6 +37,8 @@ COPY stage-nginx.conf /tmp/conf
 #Cretae Document root
 RUN mkdir /opt/nginx
 RUN mkdir /opt/nginx/www
+#Copy content do http server
+COPY --from=builder /var/www/hugo/dist /opt/nginx/www
 #Determinate which configuration we should use
 RUN if [ "$buildName" = stage ];\
  then echo "Doing a Stage build" ;\
@@ -45,8 +48,6 @@ RUN if [ "$buildName" = stage ];\
      rm -f /tmp/conf/stage-nginx.conf;\
      mv /tmp/conf/prod-nginx.conf /etc/nginx/nginx.conf ;\
  fi
-#Copy content do http server
-COPY --from=builder /var/www/hugo/dist /opt/nginx/www
 ########
 RUN rm /etc/nginx/conf.d/default.conf
 COPY ./supervisord.conf /etc/supervisord.conf
