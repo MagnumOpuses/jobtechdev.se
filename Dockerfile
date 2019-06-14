@@ -22,7 +22,7 @@ RUN mkdir /opt/nginx
 RUN mkdir /opt/nginx/www
 
 #Copy content do http server
-COPY --from=builder /var/tmp/hugo/dist /opt/nginx/www/
+COPY --from=builder /tmp/hugo/dist /opt/nginx/www/
 RUN ls -la /opt/nginx/www;
 
 RUN apk update && apk upgrade
