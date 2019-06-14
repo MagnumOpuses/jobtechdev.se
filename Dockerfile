@@ -1,8 +1,6 @@
 FROM rprakashg/hugo-docker as builder
 RUN mkdir -p /var/tmp/hugo
-RUN ls -la;
-COPY . /var/tmp/hugo/
-RUN ls -la;
+COPY . /var/tmp/hugo
 WORKDIR /var/tmp/hugo
 RUN hugo
 RUN ls -la /var/tmp/hugo/dist
