@@ -1,9 +1,11 @@
 FROM rprakashg/hugo-docker as builder
-RUN mkdir -p /var/www/hugo
-COPY . /var/www/hugo
+RUN mkdir -p /var/tmp/hugo
 RUN ls -la;
-WORKDIR /var/www/hugo
+COPY . /var/tmp/hugo/
+RUN ls -la;
+WORKDIR /var/tmp/hugo
 RUN hugo
+RUN ls -la /var/tmp/hugo/dist
 
 ###
 FROM alpine:latest
@@ -20,9 +22,10 @@ EXPOSE 8080
 #Create Document root
 RUN mkdir /opt/nginx
 RUN mkdir /opt/nginx/www
-RUN ls -la /var/www/hugo/dist
+
 #Copy content do http server
-COPY --from=builder /var/www/hugo/dist/ /opt/nginx/www/
+COPY --from=builder /var/tmp/hugo/dist /opt/nginx/www/
+RUN ls -la /opt/nginx/www;
 
 RUN apk update && apk upgrade
 
