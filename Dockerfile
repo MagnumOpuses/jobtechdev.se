@@ -1,9 +1,9 @@
 FROM rprakashg/hugo-docker as builder
-RUN mkdir -p /var/tmp/hugo
-COPY . /var/tmp/hugo
-WORKDIR /var/tmp/hugo
+RUN mkdir -p /tmp/hugo
+COPY . /tmp/hugo
+WORKDIR /tmp/hugo
 RUN hugo
-RUN ls -la /var/tmp/hugo/dist
+RUN ls -la /tmp/hugo/dist
 
 ###
 FROM alpine:latest
