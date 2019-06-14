@@ -17,6 +17,12 @@ ENV PASSWD=$ARG_PASSWD
 RUN echo 'kolla:' ${USER} ${ARG_PASSWD} ' buildName:'${buildName}
 
 EXPOSE 8080
+#Create Document root
+RUN mkdir /opt/nginx
+RUN mkdir /opt/nginx/www
+RUN ls -la /var/www/hugo/dist
+#Copy content do http server
+COPY --from=builder /var/www/hugo/dist/ /opt/nginx/www/
 
 RUN apk update && apk upgrade
 
@@ -35,11 +41,7 @@ RUN apk add -q apache2-utils && htpasswd -dbc /etc/nginx/htpasswd $USER $PASSWD
 RUN mkdir /tmp/conf
 COPY prod-nginx.conf /tmp/conf
 COPY stage-nginx.conf /tmp/conf
-#Cretae Document root
-RUN mkdir /opt/nginx
-RUN mkdir /opt/nginx/www
-#Copy content do http server
-COPY --from=builder /var/www/hugo/dist/ /opt/nginx/www/
+
 #Determinate which configuration we should use
 RUN if [ "$buildName" = stage ];\
  then echo "Doing a Stage build" ;\
