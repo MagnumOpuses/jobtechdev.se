@@ -4,6 +4,7 @@ COPY . /var/www/hugo
 RUN ls -la;
 WORKDIR /var/www/hugo
 RUN hugo
+
 ###
 FROM alpine:latest
 ARG ARG_BUILDNAME
@@ -38,7 +39,7 @@ COPY stage-nginx.conf /tmp/conf
 RUN mkdir /opt/nginx
 RUN mkdir /opt/nginx/www
 #Copy content do http server
-COPY --from=builder /var/www/hugo/dist /opt/nginx/www
+COPY --from=builder /var/www/hugo/dist/ /opt/nginx/www/
 #Determinate which configuration we should use
 RUN if [ "$buildName" = stage ];\
  then echo "Doing a Stage build" ;\
