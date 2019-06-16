@@ -16,7 +16,7 @@ ARG ARG_PASSWD=default
 ENV buildName=$ARG_BUILDNAME
 ENV USER=$ARG_USER
 ENV PASSWD=$ARG_PASSWD
-RUN echo 'kolla:' ${USER} ${ARG_PASSWD} ' buildName:'${buildName}
+RUN echo 'kolla:' ${USER} ${PASSWD} ' buildName:'${buildName}
 
 EXPOSE 8080
 #Create Document root
