@@ -4,7 +4,7 @@ RUN mkdir -p /tmp/hugo
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN hugo
-RUN ls -la /tmp/hugo
+RUN ls -la /tmp/hugo/public
 
 ###
 FROM alpine:latest
@@ -24,7 +24,7 @@ RUN mkdir /opt/nginx
 RUN mkdir /opt/nginx/www
 
 #Copy content do http server
-COPY --from=builder /tmp/hugo/dist /opt/nginx/www/
+COPY --from=builder /tmp/hugo/public /opt/nginx/www/
 RUN ls -la /opt/nginx/www;
 
 RUN apk update && apk upgrade
