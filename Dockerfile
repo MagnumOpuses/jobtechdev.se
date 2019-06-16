@@ -16,6 +16,7 @@ ENV USER=$ARG_USER
 ENV PASSWD=$ARG_PASSWD
 RUN echo 'kolla:' ${USER} ${ARG_PASSWD} ' buildName:'${buildName}
 
+
 EXPOSE 8080
 #Create Document root
 RUN mkdir /opt/nginx
