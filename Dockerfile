@@ -1,4 +1,5 @@
 FROM rprakashg/hugo-docker as builder
+USER root
 RUN mkdir -p /tmp/hugo
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
@@ -7,6 +8,7 @@ RUN ls -la /tmp/hugo/dist
 
 ###
 FROM alpine:latest
+USER root
 ARG ARG_BUILDNAME
 ARG ARG_USER=default
 ARG ARG_PASSWD=default
@@ -15,7 +17,6 @@ ENV buildName=$ARG_BUILDNAME
 ENV USER=$ARG_USER
 ENV PASSWD=$ARG_PASSWD
 RUN echo 'kolla:' ${USER} ${ARG_PASSWD} ' buildName:'${buildName}
-
 
 EXPOSE 8080
 #Create Document root
