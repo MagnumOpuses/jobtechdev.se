@@ -4,7 +4,7 @@ RUN mkdir -p /tmp/hugo
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN hugo
-RUN ls -la /tmp/hugo/dist
+RUN ls -la /tmp/hugo
 
 ###
 FROM alpine:latest
