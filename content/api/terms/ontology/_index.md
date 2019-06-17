@@ -22,7 +22,7 @@ The state of the Ontology is beta and it is changing to continuously and is impr
 
 The Jobmarket Ontology will be merged with the JobTech Taxonomy, and all identifiers will be replaced.
 
-See the [Taxonomy documentation]({{< ref "/projects/common/_index.md" >}}) for more information.
+See the [Taxonomy documentation]({{< ref "/focus_areas/common/_index.md" >}}) for more information.
 
 
 #### Endpoint
