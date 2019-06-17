@@ -1,0 +1,281 @@
+[
+{
+	"uri": "/doc/focus_areas/mydata/",
+	"title": "MyData",
+	"tags": [],
+	"description": "",
+	"content": " MyData aims for individuals to have control over their own data.The JobTech MyData goal is a distributed and decentralized data storage for the labour market. Take CV data as an example: It should be accessible for those who have an interest in reading or writing in the data but on the basis that the individual always has control of the information. Massive data sets collected by companies and authorities creates possibility to see patterns in the behavior of people, and create new products and services to create a new value. The data can also be used for other purposes for example monitoring or affect opinions in politics. To control a lot of individual data could mean a risk.\nPurpose  Protect the individual\u0026rsquo;s right to his data Empower the individual with control of his data  Accelerate innovation Our second goal is to enable innovation. To be able to in a better way collaborate and develop as powerful digital services as private startups. The private and the public sector should be able to collaborate in both development and with common infrastructure/ standards for increasing the public benefit. By enabling a “digital bureaucracy”, i.e. traceability and standardized communication, new more transparent and effective forms of governance can be established. This is about competitiveness for Sweden and EU, but basically it is primary about increased social benefits for the entire humanity. Opens source is a global movement and has the power to improve, both for small and large countries and organizations. Simplify and increase the efficiency of career work by catalyzing the ecosystem around JobTech. New and better services for jobseekers and employers. Free and efficient cross-border mobility, reducing the cost of employers and an easier user experience.\nTransparency and collaboration Our goal is to be 100% transparent and we will put all code and documentation on Github. The meaning is to consolidate knowledge and increase collaboration with other initiatives working on the same thought. We would be very happy to get in contact with you and we will support you with our knowledge but also learn from yours.\nThe code By visualizing and practically show how ownership of your own data could work, it will become easier for others to take stand on the concept. We strive to reuse as much as possible for not inventing the wheel again. The project in influenced by Mydata.org\nThe architecture is divided into four subsystem:\n mydata-app: An app were the individuals handles their data.\n mydata-operator: A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.\n mydata-cv: a sample service that reads /writes to the individual’s data after being allowed to. (Data Source and Data Sink)\n mydata-pds: secure data storage, only available for the individual. PDS stands for Personal Data Storage.\n  "
+},
+{
+	"uri": "/doc/about/",
+	"title": "About us",
+	"tags": [],
+	"description": "",
+	"content": " About us  An open digital infrastructure that enables people to meet. All actors can easily contribute with their data and code - as well as take part of others’.\n\rWho we are\r\rOur vision\r\rOpen by default\r\rWork with us\r\r"
+},
+{
+	"uri": "/doc/about/whoweare/",
+	"title": "Who we are",
+	"tags": [],
+	"description": "",
+	"content": " This site is powered and financed by The Swedish Public Employment Service (Arbetsförmedlingen).\nThe goal is to serve the labour market by creating a open digital infrastructure.\nDefinition JobTech (job technology) is a collective term for technical innovation in the labour market sector. JobTech is characterized by collaboration between several actors in the labour market arena. The sharing of common resources such as data provides better prerequisites to create and offer better end services.\n"
+},
+{
+	"uri": "/doc/focus_areas/jobs/",
+	"title": "Jobs",
+	"tags": [],
+	"description": "",
+	"content": " JobTech jobs collect and provide information about all job postings in Sweden by two methods:\n Open data - the Swedish Public Employment Service deliver approximate 35% of all jobpostings. Aggregation - Auranest scan 285 different job sites to get meta-information about 90% of all jobs.  JobTech jobs is a cooperation project with the Lund based company Auranest.\n\r  JobTech Jobs   Paradigm of the Future Usage The information about all jobs are used in JobTech Search. To show how this information can be used the application Jobscanner was created. The continues improvement of the JobTech Taxonomy is done with help of JobTech Jobs.\nCurrent APIs  Open Jobs from Swedish Public Employment Service Historical Job ads  Coming API  Open Jobs aggregated from all job posting sites  "
+},
+{
+	"uri": "/doc/focus_areas/",
+	"title": "Focus areas",
+	"tags": [],
+	"description": "",
+	"content": " Components    Core components in the ecosystem   \rMyData\r\rJobs\r\rSearch\r\rTaxonomy\r\r"
+},
+{
+	"uri": "/doc/about/vision/",
+	"title": "Our vision",
+	"tags": [],
+	"description": "",
+	"content": " An open digital infrastructure that enables people to meet. All actors can easily contribute with their data and code - as well as take part of others\u0026rsquo;.\n  JobTech vision   Roles in an ecosystem Infrastructure builders, developers/organisations, and end-users, have unique needs and motivations for participating in an ecosystem.\nBetter matching For infrastructure builders (The Swedish Public Employment Service acts as one), building a digital infrastructure increases the efficiency in matching and stimulates the creation of more digital services.\nAll actors in the labour market can share data and collaborate. The more actors who contribute, private as well as from the public sector, the better matching. Therefore, we would like to see more players in the labour market join.\nLow barrier to entry For developers, a digital infrastructure lower entry barriers by providing a shared foundation to use as a starting point for their own work. They also provide access to a prospective customer pool, which can find and transact with the app developers more easily through the platform than they could without it.\n1. JobTech dev - Sharing assets that is hard to find, build or buy. 2. JobTech store - A app store for the labour market end-users 3. JobTech search - Opensource search service 4. JobTech jobs - All jobs aggregated in one place 5. JobTech myData - Making labour market competences available  Variety of services for end-users For end-users, a digital infrastructure can allow extreme levels of customization to their unique needs by enabling them to themselves mix-and-match apps that increase their personal utility of the platform.\n"
+},
+{
+	"uri": "/doc/focus_areas/search/",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "You can improve your job seeking service by using JobTech search as your search engine. Integrating JobTech search means that you don\u0026rsquo;t need to develop search technology anymore. For the labour market, this feature brings many benefits:\n JobTech search is open source and based on Elastic search All searchable job postings are open data  "
+},
+{
+	"uri": "/doc/api/",
+	"title": "APIs",
+	"tags": [],
+	"description": "",
+	"content": " API Noticeboard  The open API “Af Jobs” for job advertisements will be replaced in 2019 with a new version, the closure will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June.  A beta version is available already. Information on how to access the beta version is available at  https://jobtechdev.se/doc/api/beta/jobsearch/\nThe new advertisement API is built in cooperation with our developer and UX designers at Platsbanken, but input from external users has also been the basis for how the API looks from the start. The replacement system will initially consist of a purely a classified search API for job ads and an API for retrieving all ads based on time intervals.\nDo you have questions or want to get in touch with us?\ncontact@jobtechdev.se\n\rDev guide\r\rBeta versions\r\rJobs\r\rOccupations\r\rTerminology\r\r"
+},
+{
+	"uri": "/doc/about/openbydefault/",
+	"title": "Open by default",
+	"tags": [],
+	"description": "",
+	"content": " We think reusing and sharing assets is a catalyst for community, innovation and acceleration of Sweden\u0026rsquo;s democratic value-system, in all its forms.\nThe goal is to promote the development of products and services that increase user empowerment, matching accuracy and effectiveness, and is a prerequisite for the users lifelong development.\nThe best way to reach there is to be transparent, open and accessible to anyone who wants to promote and develop matching. In order to make this happen, we believe it’s time to embrace open source as a baseline strategy. Why reinvent the wheel? We want you to be able to focus on creating the best solutions to the real problems instead. Ease of integration and migration is an easy argument, as is the diversity of ideas created around community-shared challenges. The list can be made very long.\nWhere to start and how to contribute? We want - and need - input from the community on this one! How do we create the best possible platform and community in order to make our vision come true? What do you want, and need?\nWant to get in touch? contact@jobtechdev.se\n"
+},
+{
+	"uri": "/doc/open_source/",
+	"title": "Open Source",
+	"tags": [],
+	"description": "",
+	"content": " Open Source  Open resources for developers Get started quickly \rTools\r\rResearch\r\rShowcases\r\r"
+},
+{
+	"uri": "/doc/focus_areas/common/",
+	"title": "Taxonomy",
+	"tags": [],
+	"description": "",
+	"content": " The purpose of JobTech Taxonomy is to provide a relevant vocabulary for important elements in the language for the labour market.\nJobTech Taxonomy contains concepts that describe, among other things, occupations, skills and relationships between them, which can be used for example as a basis for matching. The content is continuously updated in consultation with actors in the labour market.\n  Components   Paradigm of the Future Our aim is for the labour market terminology observed via text analysis and data collection to help enrich the content of JobTech Taxonomy - but not without quality assurance. We believe that optimal results are achieved when a data driven approach meets an expert driven.\n Occupations and skills in Sweden Taxonomy API Ontology API  RoadMap  Migrate the JobTech Taxonomy into a new database and create new identifiers for all values in the Taxonomy Release a new API for the JobTech Taxonomy Release a new synchronizing mechanism to allow consumers to stay updated with the JobTech Taxonomy Merge the JobTech Ontology with the JobTech Taxonomy and create new identifiers for all values in the Ontology  "
+},
+{
+	"uri": "/doc/about/work/",
+	"title": "Work with us",
+	"tags": [],
+	"description": "",
+	"content": " A NEW ERA Within JobTech we\u0026rsquo;re constantly challenging old ways of working and old techniques. We\u0026rsquo;re focusing on using all the opportunities new technology can offer to create new, innovative, valuable solutions and assets for the labour market.\nTALENT SCOUTING In order for this to happen we need to find the right people to join us - and now we’re coming to find new teammates in Norrbotten! We want to find people who are passionate to work together with others and make a difference, and we’re convinced that we’ll find our next competent colleagues outside Stockholm.\nWE CARE We believe that work/life balance is key to a good team performance. Providing possibilities for remote working, flex time and a flat organization is something we feel very strongly about. “Skills speaks louder than titles” is a guiding star we’re extra happy to live by. But, we plan to make the new office in Piteå into something special, and a place you want to go.\nOPEN BY DEFAULT Empowering the citizens of Sweden by working in a transparent way is a big thing for us. We want to engage and invite to collaboration and co-creation in several ways - and a prerequisite for that is to provide open projects, open data and open source to the best of our abilities.\n1 + 1 = 3 A knowledge sharing mentality, curiosity, a hunger for learning and willingness to try, test and fail are all traits we value. Combined with working with small, quick releases based in the iterative design thinking process we think we have a recipe for magic!\nLIKE WHAT YOU SEE? Don’t hesitate, become a part of our team! Come back soon - we post all ads here when available.\n"
+},
+{
+	"uri": "/doc/community/",
+	"title": "Community",
+	"tags": [],
+	"description": "",
+	"content": " Community  Everything in life is give and take - even JobTech We believe that open source is the way to go regarding digital innovation in the Swedish labour market. We’re happy to provide you with whatever we can to make your ideas a reality, but we also expect you to give back in some form. There are many ways to share your ideas and expertise in our ecosystem in order to give back.\nShare code, share knowledge, share data, every contribution counts! Let’s talk and find something that fits and feels good.\n\rCommunity\r\rEvents\r\r"
+},
+{
+	"uri": "/doc/faq/",
+	"title": "FAQ",
+	"tags": [],
+	"description": "",
+	"content": " \nFAQ Categories \r\rGeneral questions\r\r\r .hidden { display: none; } .collapsible { background-color: #777; color: white; cursor: pointer; margin: 2px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px; } .active, .collapsible:hover { } .card-content { border:1px solid; display: none; border-radius: .2em; background-color: #f1f1f1; } .card { max-width: 700px; margin: auto; } .q-bubble { margin: auto; margin-bottom: 0px; margin-top: 8px; position: relative; background: #4A4A4A; -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); padding: 10px; } .a-bubble { position: relative; background: #E8DFF6; -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); padding: 10px; }  Q: Am I allowed to cache and store data in my own backend? Answer: Yes, you are allowed to cache and store data from our open APIs to your own backend   Q: Can I add an application of my own as a showcase? Answer: Yes, we\u0026#39;d love to show what you\u0026#39;ve done! To add a showcase, it needs to be open source. Please email us at contact@jobtechdev.se if you would like to publish a sample of your own.\n  Q: What\u0026#39;s the difference between SSYK and Yrkesid? Answer: In short, SSYK is the standard for the Swedish Standard Classification of Occupations. SSYK also refers to the whole occupation classification structure. Yrkesid represents a specific occupation.\n  Q: How can I get in touch with JobTech? Answer: If you would like to contact us, please e-mail us at contact@jobtechdev.se    for (i = 0; i \r \r\rAPI Job Search\r\r\r .hidden { display: none; } .collapsible { background-color: #777; color: white; cursor: pointer; margin: 2px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px; } .active, .collapsible:hover { } .card-content { border:1px solid; display: none; border-radius: .2em; background-color: #f1f1f1; } .card { max-width: 700px; margin: auto; } .q-bubble { margin: auto; margin-bottom: 0px; margin-top: 8px; position: relative; background: #4A4A4A; -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); padding: 10px; } .a-bubble { position: relative; background: #E8DFF6; -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); padding: 10px; }  Q: Is it possible to only show ads outside Sweden Answer: Yes, you could do a negative query for Sweden, search?country=-199 then you will receive all ads not containing the Swedish country code.   Q: Can I get a list of yrkesområde/yrkesgrupper/yrken Answer: Yes, you could get a list using the taxonomy endpoint    for (i = 0; i \r \r\rAPI Af Jobs\r\r\r .hidden { display: none; } .collapsible { background-color: #777; color: white; cursor: pointer; margin: 2px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px; } .active, .collapsible:hover { } .card-content { border:1px solid; display: none; border-radius: .2em; background-color: #f1f1f1; } .card { max-width: 700px; margin: auto; } .q-bubble { margin: auto; margin-bottom: 0px; margin-top: 8px; position: relative; background: #4A4A4A; -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); padding: 10px; } .a-bubble { position: relative; background: #E8DFF6; -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26); padding: 10px; }  Q: How can I access all the jobs from Arbetsförmedlingen Platsbanken? Answer: Find it here: http://api.arbetsformedlingen.se/af/v0/platsannonser/matchning?landid=199\n   for (i = 0; i \r "
+},
+{
+	"uri": "/doc/community/about/",
+	"title": "Community",
+	"tags": [],
+	"description": "",
+	"content": " The JobTech Community Find opportunities for collaboration and innovation, develop and improve the Swedish labour market. We share and receive knowledge, experience and data. This is an arena where collaboration and relationship building through open source and open data is made reality, regardless if you\u0026rsquo;re a developer, innovator, CEO, student - or something else\nHow to join? Meet us - We\u0026rsquo;re available if you want to meet us and talk about ideas or potential collaborations, just send us an email josefin.berndtson@jobtechdev.se\nSend us a note and get invited to our Slack channel!\u0026nbsp;\u0026nbsp;\u0026nbsp; \nOpen source - You can contribute directly to our actual development projects\n"
+},
+{
+	"uri": "/doc/community/events/",
+	"title": "Events",
+	"tags": [],
+	"description": "",
+	"content": " Happening in JobTech ! Network - You\u0026rsquo;ll get invited to our regular Meetups, check out the next once here:\n Offentliga Rummet 10-12 juni, Västerås\nWealth by digitalisation – Offentliga Rummet is a meeting point which enables prerequisities for smarter sollutions. During the Days you will be able to listen to Anders Ygeman, Minister of Energy- and Digitalization and Anna Eriksson, Director-General DIGG. You will be able to listen to lectures, participate in workshops and visit an exhibition. You will, at the exhibition, meet JobTech Development together with the Swedish Public Employment Service.\nTo participate, sign in on: http://offentligarummet.se/  Previous events  Meet us at Framtidens arbetsmarknad – en minimässa\n14 maj 11-13 , Hälsningegatan 45\nTake part in tomorrow\u0026rsquo;s digital solutions for the challenges facing the labor market. Listen to Saeid Esmaeilzadeh one of Sweden\u0026rsquo;s most successful entrepreneurs.\nThe Swedish JobTech Association invites you to an inspirational lecture and mini-show to showcase the products available to solve the future\u0026rsquo;s match.\nSee the invitation\n Meetup in Malmö\nWelcome to a hands-on, demo-driven run through of JobTech Developments digital infrastructure.\nFriday, April 26th 2019, 8am-9.30am Media Evolution City, Stora Varvsgatan 6a, 211 19 Malmö\nSign up at Facebook\nSee the invitation\n Meet us at Hack for Sweden! Want to get to know us and hang out? Meet us at Hack for Sweden 4th-6th of April at Stockholmsmässan.\n JTCommunity Morning - listen to our vision\nOur developments and participate in creating our community.\nWelcome!\n Improved recruitmentsystems to your morning coffee? Listen to and participate in a dialog with Erik Sandström (AF), Gregory Golding (JobTechDevelopment) and Jonas Södergren (JobTechDevelopment).\nWelcome!\n  Do you want to keep up with what\u0026rsquo;s happening in JobTech? Sign up for our Event letter!\n"
+},
+{
+	"uri": "/doc/api/dev_guide/api-key-registration/",
+	"title": "API key registration",
+	"tags": [],
+	"description": "",
+	"content": " JobTech provides APIs from different sources: • Labour market relevant APIs - Data and functionality created in collaboration between public and private sector for the labour market.\n• Swedish Public Employment Service - APIs from the Swedish Public Employment Service (Arbetsförmedlingen)\nTo access certain APIs you need to request a key, the process will differ depending on the source. Information on how to register for a key will be provided at the API page.\nThe information you provide will be used for statistical purposes and for reaching out to you in case of scheduled downtime, bug reporting etc. In a second phase, we will use this information to create an account where you will be able to manage your keys directly.\nBy requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.\n"
+},
+{
+	"uri": "/doc/api/dev_guide/",
+	"title": "Dev guide",
+	"tags": [],
+	"description": "",
+	"content": " Dev guide  Open resources for developers Get started quickly\n\rAPI key registration\r\rAPI Console\r\rLICENSE\r\rDev community\r\r"
+},
+{
+	"uri": "/doc/",
+	"title": "Open Source",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/doc/api/dev_guide/apiconsole/",
+	"title": "API Console",
+	"tags": [],
+	"description": "",
+	"content": " Give our latest technology a test run right here and now! \rJobtech UI\r\rhtml\r{\rbox-sizing: border-box;\roverflow: -moz-scrollbars-vertical;\roverflow-y: scroll;\r}\r*,\r*:before,\r*:after\r{\rbox-sizing: inherit;\r}\rbody\r{\rmargin:0;\rbackground: #fafafa;\r}\r\r\r\r\r\r\r\rwindow.onload = function() {\rconst ui = SwaggerUIBundle({\rurls: [\r{url:\"/doc/ontology/swagger.json\", name:\"Occupations - Job market language\"},\r{url:\"/swagger/af_swagger.json\", name:\"Jobs - Online Jobs - Deprecated\"},\r],\rdom_id: '#swagger-ui',\rdocExpansion : \"none\",\rdeepLinking: true,\rpresets: [\rSwaggerUIBundle.presets.apis,\rSwaggerUIStandalonePreset\r],\rplugins: [\rSwaggerUIBundle.plugins.DownloadUrl\r],\rlayout: \"StandaloneLayout\"\r})\r}\r\r\r\r"
+},
+{
+	"uri": "/doc/api/beta/",
+	"title": "Beta versions",
+	"tags": [],
+	"description": "",
+	"content": " Beta versions  Beta versions of APIs Start using it, be prepared for changes.\n\rJob search\r\r"
+},
+{
+	"uri": "/doc/api/jobs/",
+	"title": "Jobs",
+	"tags": [],
+	"description": "",
+	"content": " Jobs  Open resources for developers Get started quickly\n\rHistorical Jobs\r\rAf Jobs\r\rJob search\r\r"
+},
+{
+	"uri": "/doc/api/occupation/",
+	"title": "Occupations",
+	"tags": [],
+	"description": "",
+	"content": " Occupations  Open resources for developers Get started quickly\n\rAf Occupation Forecast\r\rAf Occupation info\r\rAf Work Ability\r\r"
+},
+{
+	"uri": "/doc/api/terms/",
+	"title": "Terminology",
+	"tags": [],
+	"description": "",
+	"content": " Terminology  Open resources for developers Get started quickly\n\rOntology\r\rTaxonomy\r\r"
+},
+{
+	"uri": "/doc/api/jobs/historical/",
+	"title": "Historical Jobs",
+	"tags": [],
+	"description": "",
+	"content": " This dataset consists of 4.2M job postings (7.7M job positions) published on Platsbanken from the year 2006 up to and including 2017. Texts have been anonymized with sentences including names, telephone numbers and email addresses removed. Each listing contains metadata on location, dates, employer name, job type and any additional job details.\nOpen Source application utilize this dataset through an API Application creates a visual overview and shows what is possibly to do with the dataset. Go to the application\nSource code for the API with basic statistics We provide a microservice for basic statistics and queries on the dataset.\nExamples A notebook with examples can be found here.\nData format Each line in a file contains a job listing in a simple JSON format\nDownloads 2017, download\n2016, download\n2015, download\n2014, download\n2013, download\n2012, download\n2011, download\n2010, download\n2009, download\n2008, download\n2007, download\n2006, download\n2006-2017, download\n"
+},
+{
+	"uri": "/doc/api/jobs/platsbanken/",
+	"title": "Af Jobs",
+	"tags": [],
+	"description": "",
+	"content": " The open API \u0026ldquo;Af Jobs \u0026rdquo; for job advertisements will be replaced in 2019 with a new version, the closure will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June.\nA beta version is available already.\nInformation on how to access the beta version is available at https://jobtechdev.se/doc/api/beta/jobsearch/\n\rThe Af Job API contains all current job ads from Swedish Public Employment Service. Somewhere around 100000 job ads, about 3000 new ads are submitted daily by employers, 5 million accesses to the job posting database daily.\niframe{width:100%}\r\r\riFrameResize({\rlog : true, checkOrigin : false,\rsizeWidth : true,\rwidthCalculationMethod : 'rightMostElement'\r});\rvar shortcode_url = \"http:\\/\\/develop.sokapi.platsbanka.nu\\/swagger.json\";\rvar shortcode_api_key = \"special-key\";\r\r-- \r\r\r\r\r\r\r\r\r\r\r\r\r\r\rwindow.onload = function() {\rvar url = \"http:\\/\\/develop.sokapi.platsbanka.nu\\/swagger.json\";\rconst ui = SwaggerUIBundle({\rurl: url,\rdom_id: '#swagger-ui',\rdeepLinking: true,\rpresets: [\rSwaggerUIBundle.presets.apis,\rSwaggerUIStandalonePreset\r],\rplugins: [\rSwaggerUIBundle.plugins.DownloadUrl\r],\rlayout: \"StandaloneLayout\"\r})\rwindow.ui = ui\r}\r\rWith the API it is free of charge for everyone to interact with Arbetsförmedlingens job ad database with in custom built services.\nThe API is an open interface without contract or registration requirements. Some of the data returned from the service is of the type of fuzzy matching. This means that the results from a list search results in hits closely related keywords. Soft matching takes place in the professions and municipalities.\n Example of fuzzy matching: If you are looking for a \u0026ldquo;bagare\u0026rdquo; (baker), you also get hits for \u0026ldquo;Konditor\u0026rdquo; (confectioner) because these two occupations are closely related.\n See the technical description for details requests.\nEndpoint https://jobtechdev.se/swagger/index.html  Learn more about the Platsbanken API or start use the API right away\nAf Jobs API (Platsbanken)\n"
+},
+{
+	"uri": "/doc/api/beta/jobsearch/",
+	"title": "Job search",
+	"tags": [],
+	"description": "",
+	"content": "Our job search API is a search engine for all the current job adds from Platsbanken. The aim is to make a simple yet versatile API that should suit anyone building any kind of application involving data from job adds. There is a lot going on under the hood with how we index the adds for relevance but we’re trying to keep the complexity away from the API users.\nIf you would like to test the api, send an email to beta@jobtechdev.se This is an early access but it is most certainly the way the API will look when published. The addresses will be changed. Keep an eye at jobtechdev.se and get registered in the jobtechdevelopment.slack.com to get the latest information.\nThere might be a maximum number of users allowed.\n"
+},
+{
+	"uri": "/doc/api/jobs/jobsearch/",
+	"title": "Job search",
+	"tags": [],
+	"description": "",
+	"content": "Our job search API is a search engine for all the current job adds from Platsbanken. The aim is to make a simple yet versatile API that should suit anyone building any kind of application involving data from job adds. There is a lot going on under the hood with how we index the adds for relevance but we’re trying to keep the complexity away from the API users.\nMore information will come as soon as the APi is released.\n"
+},
+{
+	"uri": "/doc/api/occupation/forecasts/",
+	"title": "Af Occupation Forecast",
+	"tags": [],
+	"description": "",
+	"content": " API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018\nThe forecasts are based on the standard SSYK (Swedish standard occupation classification)\nRead more about SSYK\nWith API AF Occupation Forecasts it is possible to integrate Arbetsförmedlingen (the Employment Agency) forecasts into in custom built applications.\nThe API is an open interface without contract or registration requirements.\nThis API is out of date and will be updated, in the mean time use this excel file\n\rEndpoint http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/  AF Occupation forecast \n"
+},
+{
+	"uri": "/doc/api/occupation/occupations/",
+	"title": "Af Occupation info",
+	"tags": [],
+	"description": "",
+	"content": " AF Occupational info is an API, containing descriptions of nearly 350 different occupations. The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application.\nTo access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. On a second phase, we will use this information to create an account where you will be able to manage your keys directly.\nAuthentication Once the keys are acquired, the authentication to the services is done using two query parameters client_id and client_secret. These are required on all requests. Below is a sample of how query parameters are used:\nhttps://apier.arbetsformedlingen.se/yrkesinfo/publik/raf/v1/yrken?client_id=123\u0026amp;client_secret=123  By requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.\nSwedish Public Employment Service API (Arbetsförmedlingens API)\nYou can request access to this API via email to apirequest@jobtechdev.se\nPlease include following in your request:\nEmail Subject: API request – \u0026ldquo;Name of the API\u0026rdquo;\nEmail Body:Name: Surname: Company name: (if applicable):\nApplication name: Name of your application\nApplication description: (please be short):\n\rEndpoint https://jobtechdev.se/raml_vagledning/index.html#docs/summary/summary  AF Occupations info \n"
+},
+{
+	"uri": "/doc/api/terms/ontology/",
+	"title": "Ontology",
+	"tags": [],
+	"description": "",
+	"content": " The job market is dynamic. There is an ever-changing demand in new jobs and skills.\nTo make matching between employers and job seekers more efficient a common language is needed. A language that lets both people and machines to have meaningful conversations about the job market.\nThe Job market Ontology is a project that aims to accomplish this language with the help of modern technology. It uniquely describes what things exists in the job market and how they relate to each other enabling more effective matching and better user experiences.\nThe Ontology is created by analyzing 6.3 millions job ads extracting demanded job titles, skills and traits. With intelligent algorithms the Ontology knows how these things relates to each other.\nWhat does your skills relates to? The first version of the Job market Ontology consists of a limited set of skills, job titles and traits. Here you can explore them and see how they relates to each other.\nThe state of the Ontology is beta and it is changing to continuously and is improved upon everyday.\nRoad map The Jobmarket Ontology will be merged with the JobTech Taxonomy, and all identifiers will be replaced.\nSee the Taxonomy documentation for more information.\nEndpoint http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json  Ontology API\nOntology files A file dump of the Ontology can be downloaded here: Ontology Files\n"
+},
+{
+	"uri": "/doc/api/terms/taxonomy/",
+	"title": "Taxonomy",
+	"tags": [],
+	"description": "",
+	"content": " Taxonomi Service contains data commonly used by Arbetsförmedlingen. For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK), and much more.\nYou need to use the language code 502 (Swedish) to get the results of the requests.\n\rEndpoint http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?  Taxonomy webservice\nTaxonomy Occupations CSV - OccupationField, SSYK, OccupationName If you need an easy way to connect SSYK to occupationNameId (yrkeid), or occupationFieldId you can use this csv.\nTaxonomy Occupations CSV\n"
+},
+{
+	"uri": "/doc/api/occupation/raf/",
+	"title": "Af Work Ability",
+	"tags": [],
+	"description": "",
+	"content": " Reference material when assessing work ability (RAF) contains groupings of the professions that are expected to make similar demands on ability from a medical perspective. These requirements are called activity requirements and are described on the basis of common tasks within the group.\nRAF is a documentation that can be used as support and guidance in assessing workforce in health insurance. RAF can also be used in other contexts, for example in connection with Försäkringskassans communication with insured, employers and the Employment Service.\nEndpoint https://jobtechdev.se/raml_vagledning/index.html#docs/summary/summary  Af Work ability API\n"
+},
+{
+	"uri": "/doc/api/dev_guide/license/",
+	"title": "LICENSE",
+	"tags": [],
+	"description": "",
+	"content": " We think reusing and sharing assets is a catalyst for community, innovation and acceleration of Sweden\u0026rsquo;s democratic value-system, in all its forms.\nLicense for code  A permissive free software licence is a free software licence for a copyrighted work that offers freedoms such as publishing a work to the public domain.[1] In contrast, copyleft licences like the GNU General Public License require copies and derivatives of the source code to be made available on terms not more restrictive than those of the original licence.\n Apache License 2.0\nYou can do what you like with the software, as long as you include the required notices. This permissive license contains a patent license from the contributors of the code.\nLicense for data Creative Commons CC0\nCreative Commons CC0 licence means that the data is free to use, modify and share without any restriction. This is the default policy if nothing else is explicitly declared.\n"
+},
+{
+	"uri": "/doc/open_source/tools/",
+	"title": "Tools",
+	"tags": [],
+	"description": "",
+	"content": " All JobTech projects - big or small - are open source:  Tools: Utilities for developers    GIG API - Gig job integration  Post Job Ads - Job posting integration   \n1. GIG API Arbetsförmedlingen and Länsstyrelsen Stockholm invite you to participate in a pilot to supply gig jobs! Apply or show your interest by clicking on the link below.\nSource code: https://github.com/JobtechSwe/gig-api\n\n2. Post Job Ads A SDK written in Ruby to validate and send job ads, developed by JustArrived.se.\nSource code: https://github.com/buren/arbetsformedlingen\n"
+},
+{
+	"uri": "/doc/api/dev_guide/dev_community/",
+	"title": "Dev community",
+	"tags": [],
+	"description": "",
+	"content": " The nature of application development has changed. Whether you’re building enterprise applications to manage your most sensitive business data or mobile apps to engage digital-native consumers, it’s not about what your team can build from scratch — it’s about how effectively they can connect to and build upon what already exists, both within your company and beyond it.\nThat’s why we want to create a development platform that prioritize interoperability, and openness.\nProjects How to start a project:\nIf you have some questions, please check out the FAQ or send a mail to developer@jobtechdev.se\n"
+},
+{
+	"uri": "/doc/open_source/research/",
+	"title": "Research",
+	"tags": [],
+	"description": "",
+	"content": " JobTech development collaborates with Lund University  Through the Jobtech Research initiative, researchers from Lund University will study the Swedish Public Employment Service (SPES) and the realization of the JobTech platform, and thereby their move from being a service provider to becoming a service enabler.\nThe JobTech platform provides an infrastructure of open innovation, allowing an ecosystem of third-party organizations and private citizens to create new technologies, products, and services based on resources released by SPES to the platform, such as open source software, data, application programming interfaces, and standards. The JobTech platform enables ecosystem members to collaborate and co-create, potentially resulting in improved job-matching capabilities, accelerated innovation, and new business opportunities, as well as reduced costs through shared maintenance and shorter time-to-market.\nThe lead researcher, Johan Linåker, has earlier focused on how software-intensive companies can make decisions on what to share as open source software, and how to engage with the communities developing the software, that is in line with the organizations\u0026rsquo; business objectives. In the Jobtech Research project, Johan will, for example, investigate how to create incentives for joining and collaborating within the ecosystem, how SPES should orchestrate and facilitate the collaboration, and how the ecosystem\u0026rsquo;s health may be measured and sustained. The goal of the research project is both to contribute to a successful realization of the Jobtech platform, and to generalize practices that can be used by other organization within the public sector to exploit the benefits of open innovation in any ongoing or future digital transformations.\nWant to know more?  The research project Johan Linåker website Twitter/LinkedIn/Github: @johanlinaker  "
+},
+{
+	"uri": "/doc/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/doc/open_source/showcases/",
+	"title": "Showcases",
+	"tags": [],
+	"description": "",
+	"content": "\r\rbody {\rbackground-color: #191919;\r--MAIN-TITLES-TEXT-color: #fff;\r}\r\rAllJobAds\r\rWidget\nA widget that gives access to job ads from Swedish Employment Agency. It allows you to filter on occupation and/or area.\n\rDemo\rSource code\r\r\r\rJobskills\r\rWidget A widget that shows potential candidates from the Jobskills API based from the site in which the widget is placed.\n\rSource code\r\r\r\rVacancies\r\rWidget\nShowing the candidates by location.\n\rSource code\r\r\r\rJob\r\rWidget\nThis widget suggests jobs based on the personal data already available in the context in which the widget is placed.\n\rSource code\r\r\r\raJob\r\rApplication\nThis is a prototype of a dialog based user interface that helps to find the a collection of suitable services.\n\rDemo\r\r\r\rData Universe\r\rApplication\nData Universe makes your data accessible and understandable by enabling dynamic exploration and visualization in a Virtual Reality space.\n\rDemo\rSource code\r\r\r\rJobTech Store\r\rApplication\nJobTech Store intends to gather and present thousands of digital labour market services, all in one place.\n\rPreview\rSource code\r\r\r\rJobScanner\r\rApplication\nThe JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place.\n\rPreview\rSource code\r\r\r\rOntologiutforskaren\r\rApplication\nAn example on how to use our Ontology API\n\rPreview\rSource code\r\r\r\rJobTech Gig\r\rInfrastructure\nDigital infrastructure\n\rPreview\r\r\r\r\r "
+},
+{
+	"uri": "/doc/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

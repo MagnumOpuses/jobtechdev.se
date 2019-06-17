@@ -1,0 +1,94 @@
+h1 {
+    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 3.25rem;
+    margin: 0.85rem 0 1.7rem 0;
+    text-rendering: optimizeLegibility;
+    color: #BDBDBD;
+}
+
+.showcase-item {
+    color: #BDBDBD;
+    width: 100%;
+    border: 2px solid #BDBDBD;
+    height: 100% !important;
+    padding: 16px;
+    margin-bottom: 120px;
+}
+
+
+.showcase-item:hover {
+    text-decoration: none;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+    color:#fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #733ACA;
+}
+
+.showcase-item > footer {
+    bottom: 0;
+}
+
+footer {
+    text-align: center;
+    height: 130px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 32px;
+}
+
+footer > a {
+    color: #BDBDBD;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eee;
+    border-width: 2px;
+    color: #BDBDBD;
+    padding: 5px 10px;
+    border-color: #4A4A4A;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+}
+
+footer > a:hover {
+
+    text-decoration: none;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+
+    color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #733ACA;
+}
+
+.separator {
+    background-color: #733ACA;
+    width: 30px;
+    height: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+footer > a:first-of-type {
+    margin-top: 0px;
+}
+
+footer > a:last-of-type {
+    margin-bottom: 0px;
+}

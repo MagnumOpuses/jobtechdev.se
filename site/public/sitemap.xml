@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/doc/focus_areas/mydata/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/about/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/about/whoweare/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/focus_areas/jobs/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/focus_areas/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/about/vision/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/focus_areas/search/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/about/openbydefault/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/open_source/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/focus_areas/common/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/about/work/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/community/</loc>
+    <lastmod>2019-02-26T14:55:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/faq/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/community/about/</loc>
+    <lastmod>2019-02-26T15:01:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/community/events/</loc>
+    <lastmod>2019-02-26T14:59:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/dev_guide/api-key-registration/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/dev_guide/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/dev_guide/apiconsole/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/api/beta/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/jobs/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/occupation/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/terms/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/jobs/historical/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/jobs/platsbanken/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/beta/jobsearch/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/jobs/jobsearch/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/occupation/forecasts/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/occupation/occupations/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/terms/ontology/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/terms/taxonomy/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/occupation/raf/</loc>
+    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/dev_guide/license/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/open_source/tools/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/api/dev_guide/dev_community/</loc>
+    <lastmod>2019-02-26T15:00:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/open_source/research/</loc>
+    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/doc/open_source/showcases/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -61,13 +61,17 @@
         padding: 10px;
     }
 </style>
-{{range $key,$val := .Params}}
-{{$items := split $val "|"}}
+{{range $val := $.Page.Params.FAQ}}
+<h4 style="text-align: center">{{index $val.title }}</h4>
 <div class="card hidden">
-<div class="collapsible q-bubble">Q: {{index $items 0}}</div>
+    {{range $val := $val.qa}}
+<div class="collapsible q-bubble">Q: {{index $val.q}} </div>
 <div class="card-content a-bubble">
-    <p><b>Answer:</b> {{index $items 1}}</p>
+
+    <p><strong>Answer:</strong> {{index $val.a}} </p>
+
 </div>
+    {{end}}
 </div>
 {{end}}
 
