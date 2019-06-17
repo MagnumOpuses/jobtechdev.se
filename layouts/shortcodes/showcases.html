@@ -1,0 +1,33 @@
+<!-- Using bootstrap for grid behavior (compatible with IE11)-->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/showcases.css">
+
+<style>
+    body {
+        background-color: #191919;
+        --MAIN-TITLES-TEXT-color: #fff;
+    }
+</style>
+
+<br>
+
+<div class="container-fluid">
+    <div class="row">
+        {{range $index,$val := $.Page.Params.showcases }}
+        <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
+            <div class="showcase-item">
+                <h4>{{ $val.name}}</h4>
+                <div class="w3-separator  separator"></div>
+                <p style="font-size: 12px;color: #fff">{{ $val.type }}</p>
+                <p>{{ $val.description}}</p>
+
+                <footer>
+                    {{range $index,$val := $val.links}}
+                    <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
+                    {{ end }}
+                </footer>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
