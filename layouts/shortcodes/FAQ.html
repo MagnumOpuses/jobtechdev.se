@@ -6,7 +6,6 @@
         background-color: #777;
         color: white;
         cursor: pointer;
-
         margin: 2px;
         width: 100%;
         border: none;
@@ -14,76 +13,71 @@
         outline: none;
         font-size: 15px;
     }
-
     .active, .collapsible:hover {
-
-
     }
-
     .card-content {
-
         border:1px solid;
         display: none;
         border-radius: .2em;
-
         background-color: #f1f1f1;
     }
     .card {
-
         max-width: 700px;
         margin: auto;
-
     }
     .q-bubble {
-
         margin: auto;
         margin-bottom: 0px;
         margin-top: 8px;
         position: relative;
-
         background: #4A4A4A;
-
         -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
         -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
         box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
         padding: 10px;
     }
-
     .a-bubble {
-
-
         position: relative;
         background: #000;
-
         -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
         -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
         box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
         padding: 10px;
     }
 </style>
-{{range $key,$val := .Params}}
-{{$items := split $val "|"}}
+{{range $val := $.Page.Params.FAQ}}
+<h4 style="text-align: center">{{index $val.title }}</h4>
 <div class="card hidden">
-<div class="collapsible q-bubble">Q: {{index $items 0}}</div>
-<div class="card-content a-bubble">
-    <p><b>Answer:</b> {{index $items 1}}</p>
-</div>
+    {{range $val := $val.qa}}
+    <div class="collapsible q-bubble">Q: {{index $val.q}} </div>
+    <div class="card-content a-bubble">
+
+        <p><strong>Answer:</strong> {{index $val.a}} </p>
+
+    </div>
+    {{end}}
 </div>
 {{end}}
 
 <script>
     for (i = 0; i < document.getElementsByClassName("collapsible").length; i++) {
-        document.getElementsByClassName("collapsible")[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            let content = this.nextElementSibling;
-            if (content.style.display != "block") {
-                content.style.display = "block";
-            } else {
-                content.style.display = "none";
-            }
-        });
-    }
-    for (let cards = document.getElementsByClassName("card"),i=0; i<cards.length;i++) {
-        cards[i].classList.remove("hidden")
+        let elements = document.getElementsByClassName("collapsible");
+        if (document.getElementsByClassName("collapsible")[i].hasAttribute("done")) {
+        } else {
+            document.getElementsByClassName("collapsible")[i].setAttribute("done", "done");
+            elements[i].addEventListener("click", function () {
+
+                this.classList.toggle("active");
+                let content = this.nextElementSibling;
+                if (content.style.display != "block") {
+                    content.style.display = "block";
+                } else {
+                    content.style.display = "none";
+                }
+            });
+        }
+        for (let cards = document.getElementsByClassName("card"), i = 0; i < cards.length; i++) {
+            cards[i].classList.remove("hidden")
+        }
     }
 </script>
