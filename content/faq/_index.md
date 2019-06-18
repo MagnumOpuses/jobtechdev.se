@@ -6,7 +6,7 @@
     "qa":[
           {
            "q":"Am I allowed to cache and store data in my own backend?",
-           "a":"Yes, you are allowed to cache and store data from our open APIs to your own backend"
+           "a":"Yes, you are allowed to cache and store data from our open APIs to your own backend."
           },
           {
            "q":"Can I add an application of my own as a showcase?",
@@ -27,23 +27,23 @@
          "qa":[
                {
                 "q":"I lost my API key, could I get it back?",
-                "a":"Just register for a new key, with the sam e-mail address and you will get it back"
+                "a":"Just register for a new key, with the same e-mail address and you will get it back."
                },
                {
-                "q":"How can I get all job ads from outside Sweden",
-                "a":"You could do negative query for Sweden, search?country=-199, that will give you every ad that not have Sweden as country"
+                "q":"How can I get all job ads from outside Sweden?",
+                "a":"You could do negative query for Sweden, search?country=-199, that will give you every ad that not have Sweden as country."
                },
                {
-                "q":"Which SLA does the API have??",
+                "q":"Which SLA does the API have?",
                 "a":"We do not have any plans for SLA for this API yet."
                },
                {
-                "q":"What uptime ca we expect?",
-                "a":"This is the same API used by Arbestförmedlingens Platsbank, the expected uptime is 24/7 "
+                "q":"What uptime can we expect?",
+                "a":"This is the same API used by Arbetsförmedlingens Platsbank, the expected uptime is 24/7."
                },
                {
                 "q":"How can I get all job ads?",
-                "a":"If you want all ads we recommend you to use the Bulk API"
+                "a":"If you want all ads we recommend you to use the Bulk API."
                }                   
           ]
     }                 
