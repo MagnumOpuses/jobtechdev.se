@@ -1,4 +1,4 @@
-<<style>
+<style>
     .hidden {
         display: none;
     }
@@ -63,20 +63,21 @@
     for (i = 0; i < document.getElementsByClassName("collapsible").length; i++) {
         let elements = document.getElementsByClassName("collapsible");
         if (document.getElementsByClassName("collapsible")[i].hasAttribute("done")) {
-        }else{
+        } else {
             document.getElementsByClassName("collapsible")[i].setAttribute("done", "done");
-            elements[i].addEventListener("click", function() {
+            elements[i].addEventListener("click", function () {
 
                 this.classList.toggle("active");
-            let content = this.nextElementSibling;
-            if (content.style.display != "block") {
-                content.style.display = "block";
-            } else {
-                content.style.display = "none";
-            }
-        });
-    }
-    for (let cards = document.getElementsByClassName("card"),i=0; i<cards.length;i++) {
-        cards[i].classList.remove("hidden")
+                let content = this.nextElementSibling;
+                if (content.style.display != "block") {
+                    content.style.display = "block";
+                } else {
+                    content.style.display = "none";
+                }
+            });
+        }
+        for (let cards = document.getElementsByClassName("card"), i = 0; i < cards.length; i++) {
+            cards[i].classList.remove("hidden")
+        }
     }
 </script>
