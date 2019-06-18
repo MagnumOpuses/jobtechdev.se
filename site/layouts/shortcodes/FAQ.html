@@ -1,0 +1,180 @@
+<!--<div class="container py-3">
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="accordion" id="faqExample">
+                {{range $key,$val := .Params}}
+                {{$items := split $val "|"}}
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h6 class="mb-0" data-toggle="collapse" data-target="#{{$key}}" aria-expanded="true" aria-controls="collapseOne">
+                                Q: {{index $items 0}}
+                        </h6>
+                    </div>
+                    <div id="{{$key}}" class="collapse" aria-labelledby="headingOne" data-parent="#faqExample">
+                        <div class="card-body">
+                            <b>Answer:</b> {{index $items 1}}
+                        </div>
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+    &lt;!&ndash;/row&ndash;&gt;
+</div>-->
+<style>
+    .hidden {
+        display: none;
+    }
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+
+        margin: 2px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+
+
+    }
+
+    .card-content {
+
+        border:1px solid;
+        display: none;
+        border-radius: .2em;
+
+        background-color: #f1f1f1;
+    }
+    .card {
+
+        max-width: 700px;
+        margin: auto;
+
+    }
+    .q-bubble {
+
+        margin: auto;
+        margin-bottom: 0px;
+        margin-top: 8px;
+        position: relative;
+
+        background: #4A4A4A;
+
+        -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
+        -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
+        padding: 10px;
+    }
+
+    /*    .q-bubble:after {
+            content: '';
+
+            background: transparent;
+            position: absolute;
+            left: 0;
+            top: 70%;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-right-color: #4A4A4A;
+            border-left: 0;
+            border-top: 0;
+            margin-top: -15.5px;
+            margin-left: -15px;
+            -moz-transform: rotate(345deg);
+            -webkit-transform: rotate(345deg);
+            -o-transform: rotate(345deg);
+            -ms-transform: rotate(345deg);
+            transform: rotate(345deg);
+
+
+
+        }*/
+    .a-bubble {
+
+
+        position: relative;
+        background: #E8DFF6;
+
+        -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
+        -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.26);
+        padding: 10px;
+    }
+
+    /*    .a-bubble:after {
+            content: '';
+            background: transparent;
+            position: absolute;
+            right: 0;
+            top: 40%;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-left-color: #E8DFF6;
+            border-right: 0;
+            border-top: 0;
+            margin-top: -15.5px;
+            margin-right: -15px;
+            -moz-transform: rotate(375deg);
+            -webkit-transform: rotate(375deg);
+            -o-transform: rotate(375deg);
+            -ms-transform: rotate(375deg);
+            transform: rotate(375deg);
+
+        }*/
+</style>
+{{range $key,$val := .Params}}
+{{$items := split $val "|"}}
+
+<div class="card hidden">
+<div class="collapsible q-bubble">Q: {{index $items 0}}</div>
+<div class="card-content a-bubble">
+
+    <p><b>Answer:</b> {{index $items 1}}</p>
+
+</div>
+</div>
+{{end}}
+<!--container-->
+<!--<link href="../css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="../css/bootstrap.min.js"></script>-->
+
+<!------ Include the above in your HEAD tag ---------->
+
+
+<script>
+
+
+    for (i = 0; i < document.getElementsByClassName("collapsible").length; i++) {
+        let elements = document.getElementsByClassName("collapsible");
+        if (document.getElementsByClassName("collapsible")[i].hasAttribute("done")) {
+
+        }else{
+            document.getElementsByClassName("collapsible")[i].setAttribute("done", "done");
+            elements[i].addEventListener("click", function() {
+
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display != "block") {
+                content.style.display = "block";
+
+            } else {
+                content.style.display = "none";
+
+            }
+
+        });
+    }
+        for (let cards = document.getElementsByClassName("card"),i=0; i<cards.length;i++) {
+            cards[i].classList.remove("hidden")
+        }
+    }
+</script>

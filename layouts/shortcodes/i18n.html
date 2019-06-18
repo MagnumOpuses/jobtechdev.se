@@ -1,6 +1,0 @@
-<!-- Basic shortcode that extracts texts from i18n translation bundles based upon the provided (id) parameters. -->
-<!-- See bundle files in project folder: /i18n -->
-
-{{range $val := .Params}}
-    {{ i18n $val | safeHTML }}
-{{end}}
