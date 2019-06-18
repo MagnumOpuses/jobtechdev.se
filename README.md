@@ -1,5 +1,4 @@
 ![alt text][logo]
-
 [logo]: https://github.com/MagnumOpuses/project-meta/blob/master/img/jobtechdev_black.png "JobTech dev logo"
 [A JobTech Project]( https://www.jobtechdev.se)
 # Jobtechdev.se (documentation website for developers)
@@ -17,7 +16,6 @@ Next up, install all [Prerequisites](#prerequisites) and follow the [Installatio
 Local compilation and deployment is a breeze with the provided [NPM](https://www.npmjs.com) run scripts and Dockerfile build instructions (please see [Deployment](#deployment) section).
 
 ### Prerequisites
-
  * [Git](https://git-scm.com/)
  * [Hugo](https://gohugo.io/)
  * [Node.js](https://nodejs.org/en/)

@@ -4,7 +4,6 @@ pipeline {
         version = "1"
         buildTag = "${version}.${BUILD_NUMBER}"
         openshiftProject = 'jobtechdev'
-        buildName = 'jobtechdevse'
     }
     stages{
         stage('Build and Tag Openshift Image'){
@@ -13,7 +12,7 @@ pipeline {
                 openshiftTag(namespace:'${openshiftProject}', srcStream: '${buildName}', srcTag: 'latest', destStream: '${buildName}', destTag:'${buildTag}')
             }
         }
-        stage('Deploy to Dev environment'){
+        stage('Deploy to stage or prod'){
             steps{
                 sh "oc set image dc/'${buildName}' '${buildName}'=docker-registry.default.svc:5000/${openshiftProject}/'${buildName}':${buildTag} -n ${openshiftProject}"
                 openshiftDeploy(depCfg: '${buildName}', namespace: '${openshiftProject}', verbose: 'false', waitTime: '', waitUnit: 'sec')
