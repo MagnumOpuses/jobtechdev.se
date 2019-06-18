@@ -27,20 +27,20 @@
          "qa":[
                {
                 "q":"I lost my API key, could I get it back?",
-                "a":"Just register for a new key, with the same e-mail address and you will get it back"
+                "a":"Just register for a new key, with the sam e-mail address and you will get it back"
                },
                {
-                "q":"How can I get all job ads from outside Sweden?",
+                "q":"How can I get all job ads from outside Sweden",
                 "a":"You could do negative query for Sweden, search?country=-199, that will give you every ad that not have Sweden as country"
                },
                {
-                "q":"What uptime can we expect is this API?",
-                "a":"This is the same API that Arbetsförmedlingen Platsbanken uses, we expect to have the api working 24/7"
+                "q":"Which SLA will you have on this API?",
+                "a":"We don´t have any plans SLA for this API yet."
                },
                {
-                "q":"What SLA do you have?",
-                "a":"At the moment we have no plans on SLA"
-               },                            
+                "q":"What uptime can be expected?",
+                "a":" This is the same API that is used for Arbetsförmedlingens Platsbank, and we expect it to work 24/7"
+               }                             
           ]
     } 
                       
