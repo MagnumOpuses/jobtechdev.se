@@ -44,7 +44,21 @@ npm run start
 
 Visit the locally deployed website here: http://localhost:3000
 
-### Deploy as container to local Docker environment
+### Deploy to local Docker environment
+
+#### Stage docker image
+
+```bash
+docker build --build-arg ARG_BUILDNAME=stage -t <image name> -f Dockerfile .
+docker run -it  -p 8080:8080 <image name>
+```
+
+Visit the locally deployed website here: http://localhost:8080
+ * Username: `default`
+ * Password: `default`
+
+#### Production docker image
+
 ```bash
 docker build -t <image name> -f Dockerfile .
 docker run -it  -p 8080:8080 <image name>
