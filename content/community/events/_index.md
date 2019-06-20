@@ -12,7 +12,7 @@ weight: 10
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
 - **Tech for lunch!**  
-JobTech Development is pioneering the digital transformation of the Swedish Labour Market. 
+JobTech Development is pioneering the digital transformation of the Swedish Labour Market.   
 Welcome to a hands-on, demo-driven run through of JobTech development's digital infrastructure.  
 When: 29 August, 11.30-13   
 Where: Creactive  
