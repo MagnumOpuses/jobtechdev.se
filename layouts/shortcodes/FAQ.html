@@ -45,18 +45,17 @@
         padding: 10px;
     }
 </style>
+
 {{range $val := $.Page.Params.FAQ}}
-<h4 style="text-align: center">{{index $val.title }}</h4>
-<div class="card hidden">
-    {{range $val := $val.qa}}
-    <div class="collapsible q-bubble">Q: {{index $val.q}} </div>
-    <div class="card-content a-bubble">
-
-        <p><strong>Answer:</strong> {{index $val.a}} </p>
-
+    <h4 style="text-align: center">{{index $val.title }}</h4>
+    <div class="card hidden">
+        {{range $val := $val.qa}}
+            <div class="collapsible q-bubble">Q: {{index $val.q}} </div>
+            <div class="card-content a-bubble">
+                <p><strong>Answer:</strong> {{index $val.a}} </p>
+            </div>
+        {{end}}
     </div>
-    {{end}}
-</div>
 {{end}}
 
 <script>
