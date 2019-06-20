@@ -14,20 +14,19 @@
 <div class="container-fluid">
     <div class="row">
         {{range $index,$val := $.Page.Params.showcases }}
-        <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
-            <div class="showcase-item">
-                <h4>{{ $val.name}}</h4>
-                <div class="w3-separator  separator"></div>
-                <p style="font-size: 12px;color: #fff">{{ $val.type }}</p>
-                <p>{{ $val.description}}</p>
-
-                <footer>
-                    {{range $index,$val := $val.links}}
-                    <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
-                    {{ end }}
-                </footer>
+            <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
+                <div class="showcase-item">
+                    <h4>{{ $val.name}}</h4>
+                    <div class="w3-separator  separator"></div>
+                    <p style="font-size: 12px;color: #fff">{{ $val.type }}</p>
+                    <p>{{ $val.description}}</p>
+                    <footer>
+                        {{range $index,$val := $val.links}}
+                            <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
+                        {{ end }}
+                    </footer>
+                </div>
             </div>
-        </div>
         {{ end }}
     </div>
 </div>
