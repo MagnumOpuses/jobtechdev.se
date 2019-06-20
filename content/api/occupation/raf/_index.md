@@ -9,9 +9,9 @@ date: 2019-01-19T20:06:16+01:00
 {{% notice info %}}
 The open API "Af Work ability " will be replaced in 2019 with a new version,
 The support of the current version will end at September 1, 2019 and the closure will take place on the last of November.
-The new version is already avaliable. (The new version requires new API keys )   
+The new version is already avaliable (The new version does not requires new API keys, and the content is the same )   
 [Af work ability API](/api/dev_guide/apiconsole/?urls.primaryName=Occupation%20-%20Occupation%20info%20-Work%20ability%20)  
-You can request access to this API via email to <apirequest@jobtechdev.se>  
+
 
 {{% /notice %}}
 
