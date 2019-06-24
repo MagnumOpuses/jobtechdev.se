@@ -14,15 +14,10 @@ Network - You'll get invited to our regular Meetups, check out the next once her
 - **Tech for lunch!**  
 JobTech Development is pioneering the digital transformation of the Swedish Labour Market.   
 Welcome to a hands-on, demo-driven run through of JobTech development's digital infrastructure.  
-When: 29 August, 11.30-13   
+When: 29 August, 11.30-13.00  
 Where: Creactive  
 Read more on our web: https://mjardevi.se/event/lunch-with-jobtech-development/   
-Anmälan https://www.facebook.com/events/476794859755084/
-
-
-
-
- 
+Registration: https://www.facebook.com/events/476794859755084/
 
 ##### **Previous events** 
 
@@ -48,7 +43,6 @@ Media Evolution City, Stora Varvsgatan 6a, 211 19 Malmö
 Sign up at [Facebook](https://www.facebook.com/events/2840552519503280/?active_tab=about)  
 See the [invitation](/img/MEC.png)
 
-
 - **Meet us at Hack for Sweden!** 
 Want to get to know us and hang out? Meet us at Hack for Sweden 4th-6th of April at Stockholmsmässan.
 
@@ -59,11 +53,6 @@ Welcome!
 - **Improved recruitmentsystems to your morning coffee?** 
 Listen to and participate in a dialog with Erik Sandström (AF), Gregory Golding (JobTechDevelopment) and Jonas Södergren (JobTechDevelopment).  
 Welcome! 
-
-
-  
-
-
 
 ##### Do you want to keep up with what's happening in JobTech?
 [Sign up for our Event letter!](https://gansub.com/s/oeGL7cn4Km/)
