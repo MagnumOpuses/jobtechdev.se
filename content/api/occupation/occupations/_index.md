@@ -8,7 +8,7 @@ date: 2019-01-19T20:06:16+01:00
 
 
 {{% notice info %}}
-The open API "Af Occupation info " will be replaced in 2019 with a new version,
+The open API "Af Occupation info" will be replaced in 2019 with a new version,
 The support of the current version will end at September 1, 2019 and the closure will take place on the last of November.
 The new version is already avaliable. (The new version does not require new API keys, and the content is the same )   
 [Af Occupation info API](/api/dev_guide/apiconsole/?urls.primaryName=Occupation%20-%20Occupation%20info%20)  
