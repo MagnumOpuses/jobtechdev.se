@@ -1,0 +1,534 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "YrkesInfo Vagledning DMZ",
+    "description": "Yrkesinfo \u00E4r en webbtj\u00E4nst som beskriver ca 350 yrken.",
+    "version": "v1"
+  },
+  "host": "apier.arbetsformedlingen.se",
+  "basePath": "/yrkesinfo-vagledning/v1",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/yrken": {
+      "get": {
+        "operationId": "H\u00E4mta alla yrken",
+        "description": "H\u00E4mtar alla yrken",
+        "parameters": [
+          {
+            "name": "client_id",
+            "description": "Client ID identifierar den anropande klienten. Anv\u00E4nds f\u00F6r analytics och autentisering.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "client_secret",
+            "description": "Client secret autentiserar den anropande klienten.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "AF-TrackingId",
+            "description": "Anv\u00E4nds f\u00F6r att sp\u00E5ra requests mellan system. Genereras av anv\u00E4ndaren av tj\u00E4nsten. Formatet \u00E4r guid.",
+            "required": false,
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "AF-TrackingId": {
+                "description": "Transaktionsid fr\u00E5n ICC",
+                "type": "string"
+              }
+            },
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "example": [
+                {
+                  "isEjGymnasie": false,
+                  "bildsammanfattning": "En apotekare administrerar ett l\u00E4kemedel i kassan.",
+                  "namn": "Apotekare och receptarie",
+                  "isEftergymn2more": true,
+                  "oneliner": "Kommunikativa l\u00E4kemedelsexperter p\u00E5 apotek och inom l\u00E4kemedelsindustrin.",
+                  "yrkessynonymer": null,
+                  "yrkesomraden": [
+                    "H\u00E4lso- och sjukv\u00E5rd"
+                  ],
+                  "id": 1185,
+                  "bildlank": "https://www.arbetsformedlingen.se/webdav/images/yrkesbeskrivning/AF-Butik-apotek-3-kopia.png",
+                  "isGymnasie": false,
+                  "isEftergymn2less": false
+                },
+                {
+                  "bildsammanfattning": "En tandl\u00E4kare behandlar en patient.",
+                  "isGymnasie": false,
+                  "id": 1113,
+                  "namn": "Tandl\u00E4kare",
+                  "isEftergymn2less": false,
+                  "isEftergymn2more": true,
+                  "yrkesomraden": [
+                    "H\u00E4lso- och sjukv\u00E5rd"
+                  ],
+                  "isEjGymnasie": false,
+                  "bildlank": "https://www.arbetsformedlingen.se/webdav/images/yrkesbeskrivning/Scandinav_LS0F.png",
+                  "oneliner": "F\u00F6rebygger, diagnostiserar och behandlar sjukdomar och skador i munh\u00E5la och k\u00E4ksystem.",
+                  "yrkessynonymer": null
+                },
+                {
+                  "oneliner": "\u00D6gats och synens specialist med kundens behov och \u00F6nskem\u00E5l i fokus.",
+                  "id": 1173,
+                  "yrkesomraden": [
+                    "H\u00E4lso- och sjukv\u00E5rd"
+                  ],
+                  "isGymnasie": false,
+                  "isEftergymn2more": true,
+                  "bildlank": "https://www.arbetsformedlingen.se/webdav/images/yrkesbeskrivning/optiker-04.png",
+                  "yrkessynonymer": null,
+                  "isEftergymn2less": false,
+                  "namn": "Optiker",
+                  "isEjGymnasie": false,
+                  "bildsammanfattning": "En optiker hj\u00E4lper en kund att prova ut b\u00E5gar."
+                }
+              ]
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "description": "This is used by client_id enforcement Policy",
+              "example": {
+                "error": "missing_client_secret",
+                "description": "client_secret is missing"
+              },
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "error",
+                "description"
+              ],
+              "properties": {
+                "error": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/yrken/{id}": {
+      "get": {
+        "operationId": "H\u00E4mta ett yrke",
+        "description": "H\u00E4mtar ett yrke utifr\u00E5n id",
+        "parameters": [
+          {
+            "name": "client_id",
+            "description": "Client ID identifierar den anropande klienten. Anv\u00E4nds f\u00F6r analytics och autentisering.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "client_secret",
+            "description": "Client secret autentiserar den anropande klienten.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "AF-TrackingId",
+            "description": "Anv\u00E4nds f\u00F6r att sp\u00E5ra requests mellan system. Genereras av anv\u00E4ndaren av tj\u00E4nsten. Formatet \u00E4r guid.",
+            "required": false,
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "AF-TrackingId": {
+                "description": "Transaktionsid fr\u00E5n ICC",
+                "type": "string"
+              }
+            },
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "example": {
+                "utbildningar": {
+                  "beskrivning": "Man m\u00E5ste ha fyllt 18 \u00E5r f\u00F6r att arbeta som brevb\u00E4rare. Den som ska k\u00F6ra ut post med bil eller moped beh\u00F6ver k\u00F6rkort.",
+                  "detaljer": [
+                    {
+                      "text": "",
+                      "kategori": "Inga krav p\u00E5 formell utbildning"
+                    }
+                  ]
+                },
+                "sammanfattning": "Brevb\u00E4rare arbetar med att sortera och dela ut post. Det \u00E4r viktigt att posten kommer fram i tid och till r\u00E4tt person. D\u00E4rf\u00F6r m\u00E5ste brevb\u00E4raren vara bra p\u00E5 att hantera sin tid och kunna arbeta sj\u00E4lvst\u00E4ndigt eftersom man ofta arbetar ensam. Utdelningen sker numera oftast i bil eller med moped, men ibland \u00E4ven med cykel eller till fots. D\u00E4rf\u00F6r kan det vara bra att vara r\u00F6rlig i jobbet.",
+                "metadata": {
+                  "version": 1,
+                  "senastUppdaterad": "2018-11-19T14:21:43"
+                },
+                "arbetsmiljo": "Arbetet kan inneb\u00E4ra tunga lyft och man r\u00F6r p\u00E5 sig mycket. Arbetet utf\u00F6rs delvis utomhus.",
+                "formagor": {
+                  "beskrivning": "F\u00F6rm\u00E5gor som brevb\u00E4rare och postsorterare beh\u00F6ver ha eller utveckla",
+                  "detaljer": [
+                    {
+                      "text": "Brevb\u00E4rare kan vara ett r\u00F6rligt arbete, d\u00E4r det kan vara viktigt att ha en normal fysisk f\u00F6rm\u00E5ga.",
+                      "kategori": "God fysik"
+                    },
+                    {
+                      "text": "Det \u00E4r viktigt att kunna h\u00E5lla koncentrationen och vara noggrann \u00E4ven n\u00E4r man arbetar under tidspress.",
+                      "kategori": "Koncentrationsf\u00F6rm\u00E5ga"
+                    },
+                    {
+                      "text": "Det dagliga arbetet sker tidvis i h\u00F6gt tempo eftersom posten m\u00E5ste sorteras f\u00E4rdigt och delas ut i tid.",
+                      "kategori": "Stresst\u00E5lighet"
+                    },
+                    {
+                      "text": "Kunna kombinera olika r\u00F6relser samtidigt \u00E4r viktigt vid till exempel postsortering.",
+                      "kategori": "Koordinationsf\u00F6rm\u00E5ga"
+                    },
+                    {
+                      "text": "Brevb\u00E4rare och postsorterare beh\u00F6ver kunna producera tillfredsst\u00E4llande resultat p\u00E5 kort tid.",
+                      "kategori": "Resultatinriktad"
+                    }
+                  ]
+                },
+                "id": 1345,
+                "arbetsplats": "",
+                "bilder": [
+                  {
+                    "normbrytandeEtnicitet": false,
+                    "primar": true,
+                    "normbrytandeKon": false,
+                    "lank": "https://www.arbetsformedlingen.se/webdav/images/yrkesbeskrivning/3295647-postbil.png ",
+                    "normbrytandeFunktionsnedsattning": false,
+                    "sammanfattning": "En brevb\u00E4rare delar ut post."
+                  }
+                ],
+                "yrkesomraden": [
+                  "Transport"
+                ],
+                "arbetsuppgifter": "Brevb\u00E4rare b\u00F6rjar jobba tidigt p\u00E5 morgonen med att sortera dagens post. D\u00E4refter ger man sig ut p\u00E5 sin postrunda och delar ut posten. N\u00E4r posten fr\u00E5n morgonen \u00E4r utdelad \u00E5terv\u00E4nder man till kontoret f\u00F6r att sortera den del av morgondagens post som redan kommit. \n\nBrevb\u00E4raren delar ut post ensam och \u00E4r ute i alla v\u00E4der. Idag \u00E4r det vanligast att man k\u00F6r n\u00E5gon form av fordon, en bil eller moped n\u00E4r man delar ut posten. D\u00E4rf\u00F6r \u00E4r k\u00F6rkort ofta ett krav n\u00E4r man anst\u00E4lls. Men det \u00E4r ocks\u00E5 vanligt att posten delas ut med hj\u00E4lp av cykel eller genom att g\u00E5 med en k\u00E4rra, s\u00E4rskilt i t\u00E4torternas stadsk\u00E4rna. \n\nTill postterminalerna kommer post som ska sorteras f\u00F6r att forts\u00E4tta till olika delar av landet eller till olika utdelningsomr\u00E5den. Att ta hand om post som ska efters\u00E4ndas ing\u00E5r ocks\u00E5 i arbetet.\n\nPostsorterare organiserar posten f\u00F6re sortering och sk\u00F6ter brevsorteringsmaskinen. Det mesta av posten sorteras med hj\u00E4lp av maskiner, men de brev som maskinen inte klarar av att hantera sorteras manuellt. Postsorterare k\u00F6r truck n\u00E4r de lastar och lossar post.",
+                "kortSammanfattning": "Ser till att posten kommer fram i tid och till r\u00E4tt person, ett yrke f\u00F6r den som gillar h\u00F6gt tempo.",
+                "liknandeYrken": [
+                  {
+                    "id": 1182,
+                    "namn": "Budbilsf\u00F6rare"
+                  },
+                  {
+                    "id": 1278,
+                    "namn": "Tidningsbud"
+                  },
+                  {
+                    "id": 1340,
+                    "namn": "Handpaketerare"
+                  }
+                ],
+                "utbildningsvag": {
+                  "beskrivning": "Yrket har inga formella utbildningskrav, men det kan vara bra att ha g\u00E5tt en gymnasieutbildning.",
+                  "visaValideringstext": false,
+                  "utbildningsvagkategorier": [
+                    {
+                      "kategori": "Gymnasieutbildning",
+                      "kategoriText": "Ibland st\u00E4lls krav p\u00E5 gymnasieutbildning som grund."
+                    },
+                    {
+                      "kategori": "F\u00F6retagsf\u00F6rlagd utbildning",
+                      "kategoriText": "Brevb\u00E4rare utbildas internt i samband med att de anst\u00E4lls."
+                    }
+                  ]
+                },
+                "lankar": [
+                  {
+                    "namn": "Postnord",
+                    "url": "http://www.postnord.com/sv",
+                    "kategori": "Extern information"
+                  },
+                  {
+                    "namn": "Bring",
+                    "url": "http://www.bring.se",
+                    "kategori": "Extern information"
+                  },
+                  {
+                    "namn": "Gymnasieinfo.se",
+                    "url": "http://www.gymnasieinfo.se/",
+                    "kategori": "Gymnasieutbildningar"
+                  }
+                ],
+                "namn": "Brevb\u00E4rare",
+                "amsOccupationId": 303,
+                "arbetstid": "Brevb\u00E4rare har fasta arbetstider. Det mesta sorteringsarbetet p\u00E5g\u00E5r eftermiddagar, kv\u00E4llar och n\u00E4tter. En postsorterare arbetar ofta p\u00E5 schemalagda arbetstider. Inom en del av de postdistributionsf\u00F6retag kan arbetet \u00E4ven g\u00F6ras under helgen.",
+                "intresseprofil": {
+                  "primar": "C",
+                  "sekundar": "R",
+                  "tertiar": null
+                },
+                "yrkesgrupperOchBenamningar": [
+                  {
+                    "ssyk": "4420",
+                    "namn": "Brevb\u00E4rare och postterminalarbetare",
+                    "taxonomiId": 4420,
+                    "taxonomiTyp": "SSYK4"
+                  }
+                ],
+                "internationellaMojligheter": null
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "description": "This is used by client_id enforcement Policy",
+              "example": {
+                "error": "missing_client_secret",
+                "description": "client_secret is missing"
+              },
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "error",
+                "description"
+              ],
+              "properties": {
+                "error": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/yrken/amsOccupationId/{id}": {
+      "get": {
+        "operationId": "getByAmsOccupationId",
+        "description": "H\u00E4mtar ett yrke utifran amsOccupationId (legacy)",
+        "parameters": [
+          {
+            "name": "client_id",
+            "description": "Client ID identifierar den anropande klienten. Anv\u00E4nds f\u00F6r analytics och autentisering.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "client_secret",
+            "description": "Client secret autentiserar den anropande klienten.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "description": "AmsOccupationId for yrket som hamtas",
+            "required": true,
+            "in": "path",
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "AF-TrackingId",
+            "description": "Anv\u00E4nds f\u00F6r att sp\u00E5ra requests mellan system. Genereras av anv\u00E4ndaren av tj\u00E4nsten. Formatet \u00E4r guid.",
+            "required": false,
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "AF-TrackingId": {
+                "description": "Transaktionsid fr\u00E5n ICC",
+                "type": "string"
+              }
+            },
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "example": {
+                "internationellaMojligheter": null,
+                "metadata": {
+                  "version": 1,
+                  "senastUppdaterad": "2018-11-19T14:21:43"
+                },
+                "kortSammanfattning": "Ser till att posten kommer fram i tid och till r\u00E4tt person, ett yrke f\u00F6r den som gillar h\u00F6gt tempo.",
+                "namn": "Brevb\u00E4rare",
+                "utbildningsvag": {
+                  "beskrivning": "Yrket har inga formella utbildningskrav, men det kan vara bra att ha g\u00E5tt en gymnasieutbildning.",
+                  "visaValideringstext": false,
+                  "utbildningsvagkategorier": [
+                    {
+                      "kategori": "Gymnasieutbildning",
+                      "kategoriText": "Ibland st\u00E4lls krav p\u00E5 gymnasieutbildning som grund."
+                    },
+                    {
+                      "kategori": "F\u00F6retagsf\u00F6rlagd utbildning",
+                      "kategoriText": "Brevb\u00E4rare utbildas internt i samband med att de anst\u00E4lls."
+                    }
+                  ]
+                },
+                "yrkesgrupperOchBenamningar": [
+                  {
+                    "ssyk": "4420",
+                    "namn": "Brevb\u00E4rare och postterminalarbetare",
+                    "taxonomiId": 4420,
+                    "taxonomiTyp": "SSYK4"
+                  }
+                ],
+                "amsOccupationId": 303,
+                "bilder": [
+                  {
+                    "lank": "https://www.arbetsformedlingen.se/webdav/images/yrkesbeskrivning/3295647-postbil.png ",
+                    "primar": true,
+                    "normbrytandeKon": false,
+                    "normbrytandeFunktionsnedsattning": false,
+                    "normbrytandeEtnicitet": false,
+                    "sammanfattning": "En brevb\u00E4rare delar ut post."
+                  }
+                ],
+                "arbetsmiljo": "Arbetet kan inneb\u00E4ra tunga lyft och man r\u00F6r p\u00E5 sig mycket. Arbetet utf\u00F6rs delvis utomhus.",
+                "liknandeYrken": [
+                  {
+                    "id": 1182,
+                    "namn": "Budbilsf\u00F6rare"
+                  },
+                  {
+                    "id": 1278,
+                    "namn": "Tidningsbud"
+                  },
+                  {
+                    "id": 1340,
+                    "namn": "Handpaketerare"
+                  }
+                ],
+                "utbildningar": {
+                  "beskrivning": "Man m\u00E5ste ha fyllt 18 \u00E5r f\u00F6r att arbeta som brevb\u00E4rare. Den som ska k\u00F6ra ut post med bil eller moped beh\u00F6ver k\u00F6rkort.",
+                  "detaljer": [
+                    {
+                      "text": "",
+                      "kategori": "Inga krav p\u00E5 formell utbildning"
+                    }
+                  ]
+                },
+                "lankar": [
+                  {
+                    "namn": "Postnord",
+                    "url": "http://www.postnord.com/sv",
+                    "kategori": "Extern information"
+                  },
+                  {
+                    "namn": "Bring",
+                    "url": "http://www.bring.se",
+                    "kategori": "Extern information"
+                  },
+                  {
+                    "namn": "Gymnasieinfo.se",
+                    "url": "http://www.gymnasieinfo.se/",
+                    "kategori": "Gymnasieutbildningar"
+                  }
+                ],
+                "yrkesomraden": [
+                  "Transport"
+                ],
+                "id": 1345,
+                "arbetsplats": "",
+                "formagor": {
+                  "beskrivning": "F\u00F6rm\u00E5gor som brevb\u00E4rare och postsorterare beh\u00F6ver ha eller utveckla",
+                  "detaljer": [
+                    {
+                      "text": "Brevb\u00E4rare kan vara ett r\u00F6rligt arbete, d\u00E4r det kan vara viktigt att ha en normal fysisk f\u00F6rm\u00E5ga.",
+                      "kategori": "God fysik"
+                    },
+                    {
+                      "text": "Det \u00E4r viktigt att kunna h\u00E5lla koncentrationen och vara noggrann \u00E4ven n\u00E4r man arbetar under tidspress.",
+                      "kategori": "Koncentrationsf\u00F6rm\u00E5ga"
+                    },
+                    {
+                      "text": "Det dagliga arbetet sker tidvis i h\u00F6gt tempo eftersom posten m\u00E5ste sorteras f\u00E4rdigt och delas ut i tid.",
+                      "kategori": "Stresst\u00E5lighet"
+                    },
+                    {
+                      "text": "Kunna kombinera olika r\u00F6relser samtidigt \u00E4r viktigt vid till exempel postsortering.",
+                      "kategori": "Koordinationsf\u00F6rm\u00E5ga"
+                    },
+                    {
+                      "text": "Brevb\u00E4rare och postsorterare beh\u00F6ver kunna producera tillfredsst\u00E4llande resultat p\u00E5 kort tid.",
+                      "kategori": "Resultatinriktad"
+                    }
+                  ]
+                },
+                "intresseprofil": {
+                  "primar": "C",
+                  "sekundar": "R",
+                  "tertiar": null
+                },
+                "sammanfattning": "Brevb\u00E4rare arbetar med att sortera och dela ut post. Det \u00E4r viktigt att posten kommer fram i tid och till r\u00E4tt person. D\u00E4rf\u00F6r m\u00E5ste brevb\u00E4raren vara bra p\u00E5 att hantera sin tid och kunna arbeta sj\u00E4lvst\u00E4ndigt eftersom man ofta arbetar ensam. Utdelningen sker numera oftast i bil eller med moped, men ibland \u00E4ven med cykel eller till fots. D\u00E4rf\u00F6r kan det vara bra att vara r\u00F6rlig i jobbet.",
+                "arbetstid": "Brevb\u00E4rare har fasta arbetstider. Det mesta sorteringsarbetet p\u00E5g\u00E5r eftermiddagar, kv\u00E4llar och n\u00E4tter. En postsorterare arbetar ofta p\u00E5 schemalagda arbetstider. Inom en del av de postdistributionsf\u00F6retag kan arbetet \u00E4ven g\u00F6ras under helgen.",
+                "arbetsuppgifter": "Brevb\u00E4rare b\u00F6rjar jobba tidigt p\u00E5 morgonen med att sortera dagens post. D\u00E4refter ger man sig ut p\u00E5 sin postrunda och delar ut posten. N\u00E4r posten fr\u00E5n morgonen \u00E4r utdelad \u00E5terv\u00E4nder man till kontoret f\u00F6r att sortera den del av morgondagens post som redan kommit. \n\nBrevb\u00E4raren delar ut post ensam och \u00E4r ute i alla v\u00E4der. Idag \u00E4r det vanligast att man k\u00F6r n\u00E5gon form av fordon, en bil eller moped n\u00E4r man delar ut posten. D\u00E4rf\u00F6r \u00E4r k\u00F6rkort ofta ett krav n\u00E4r man anst\u00E4lls. Men det \u00E4r ocks\u00E5 vanligt att posten delas ut med hj\u00E4lp av cykel eller genom att g\u00E5 med en k\u00E4rra, s\u00E4rskilt i t\u00E4torternas stadsk\u00E4rna. \n\nTill postterminalerna kommer post som ska sorteras f\u00F6r att forts\u00E4tta till olika delar av landet eller till olika utdelningsomr\u00E5den. Att ta hand om post som ska efters\u00E4ndas ing\u00E5r ocks\u00E5 i arbetet.\n\nPostsorterare organiserar posten f\u00F6re sortering och sk\u00F6ter brevsorteringsmaskinen. Det mesta av posten sorteras med hj\u00E4lp av maskiner, men de brev som maskinen inte klarar av att hantera sorteras manuellt. Postsorterare k\u00F6r truck n\u00E4r de lastar och lossar post."
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "description": "This is used by client_id enforcement Policy",
+              "example": {
+                "error": "missing_client_secret",
+                "description": "client_secret is missing"
+              },
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "error",
+                "description"
+              ],
+              "properties": {
+                "error": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "x-oas-tags-definition": [
+    {
+      "name": "RAF-yrken"
+    },
+    {
+      "name": "Vagledningsyrken"
+    }
+  ]
+}
