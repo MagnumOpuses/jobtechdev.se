@@ -26,8 +26,10 @@
 }
 
 body {
+    color: #ccc !important; /*Fallback for IE*/
+    background-color: #191919; /*Fallback for IE*/
     color: var(--MAIN-TEXT-color) !important;
-    background-color:var(--MAIN-BACKGROUND-color) ;
+    background-color:var(--MAIN-BACKGROUND-color);
 }
 strong {
     color: var(--MAIN-TITLES-TEXT-color) !important;
@@ -38,6 +40,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 h1, h2, h3, h4, h5 {
+    color: #ccc; /*Fallback for IE*/
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
@@ -78,6 +81,7 @@ a:hover {
   /*  background-image: url("../slide4.jpg"); */
 }
 #sidebar #header-wrapper {
+    background: #000; /*Fallback for IE*/
     background: var(--MENU-HEADER-BG-color);
     color: var(--MENU-SEARCH-BOX-color);
     border-color: var(--MENU-HEADER-BORDER-color);
