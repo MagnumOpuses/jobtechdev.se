@@ -50,7 +50,7 @@ Visit the locally deployed website here: http://localhost:3000
 
 ```bash
 docker build --build-arg ARG_BUILDNAME=stage -t <image name> -f Dockerfile .
-docker run -it  -p 8080:8080 <image name>
+docker run -it  -p 8080:8080 -p 80:8080 <image name>
 ```
 
 Visit the locally deployed website here: http://localhost:8080
@@ -61,7 +61,7 @@ Visit the locally deployed website here: http://localhost:8080
 
 ```bash
 docker build -t <image name> -f Dockerfile .
-docker run -it  -p 8080:8080 <image name>
+docker run -it  -p 8080:8080 -p 80:8080 <image name>
 ```
 
 Visit the locally deployed website here: http://localhost:8080
