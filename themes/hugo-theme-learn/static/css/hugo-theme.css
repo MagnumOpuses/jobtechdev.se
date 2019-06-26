@@ -1,15 +1,5 @@
 /* Insert here special css for hugo theme, on top of any other imported css */
 
-/* This selector comes from the parent theme and is overridden here */
-#sidebar ul.topics li.parent ul, #sidebar ul.topics > li.active ul {
-    display: none;
-}
-
-/* This resets display to block for our new ul.parent class */
-#sidebar ul.topics li.parent > ul.parent {
-    display: block;
-}
-
 
 /* Table of contents */
 
@@ -45,7 +35,7 @@
 
 body {
     font-size: 16px !important;
-    color: #ccc !important;
+    color: #323232 !important;
 }
 
 #body a.highlight, #body a.highlight:hover, #body a.highlight:focus {
@@ -164,7 +154,6 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
-  color: #ccc;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
