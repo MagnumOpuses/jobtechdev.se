@@ -1,4 +1,7 @@
-FROM rprakashg/hugo-docker as builder
+#FROM rprakashg/hugo-docker as builder
+FROM jguyomard/hugo-builder as builder
+RUN hugo version
+
 USER root
 RUN mkdir -p /tmp/hugo
 COPY . /tmp/hugo
