@@ -125,11 +125,11 @@
               .css('z-index', '');
           } else {
             s.stickyElement
-/*              .css('position', 'fixed')
+              .css('position', 'fixed')
               .css('top', newTop)
               .css('bottom', '')
               .css('z-index', s.zIndex);
-          }*/
+          }
         }
       }
     },
