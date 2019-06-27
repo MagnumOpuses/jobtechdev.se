@@ -124,6 +124,10 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+.default-animation, #header #logo-svg, #header #logo-svg path, #sidebar, #sidebar ul, #body, #body .padding, #body .nav {
+    transition: none;
+}
+
 #body-inner hr {
     border-bottom-width: 1px;
 }
