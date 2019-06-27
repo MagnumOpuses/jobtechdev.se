@@ -32,17 +32,6 @@
         },
         {
           "type": "Widget",
-          "name": "Vacancies",
-          "description": "Showing the candidates by location.",
-          "links":[
-            {
-              "name":"Source code",
-              "url":"https://github.com/jobtechdev/vacancieswidget"
-            }
-            ]
-        },
-        {
-          "type": "Widget",
           "name": "Job",
           "description": "This widget suggests jobs based on the personal data already available in the context in which the widget is placed.",
           "links":[
