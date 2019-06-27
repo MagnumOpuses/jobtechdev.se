@@ -51,6 +51,29 @@
 	<link rel="stylesheet" type="text/css" href="/thebeginning/plugins/revolution/revolution/css/navigation.css">
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/css/cookieconsent.min.css" />
+    <script src="/js/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#000"
+                    },
+                    "button": {
+                        "background": "#733ACA"
+                    }
+                },
+                "content": {
+                    "dismiss": "Got it!",
+                    "link": "Cookie Policy",
+                    "href": "/cookie_policy"
+                },
+                "position": "bottom-right"
+            })});
+    </script>
+
 </head>
 <body id="bg">
     <div id="loading-area"></div>
