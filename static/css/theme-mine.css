@@ -134,3 +134,8 @@ a:hover {
 #body-inner h1 {
     border-bottom-width: 0px;
 }
+
+.featherlight .featherlight-content {
+    background-color: #222;
+}
+
