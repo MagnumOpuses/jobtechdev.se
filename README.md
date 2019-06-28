@@ -1,6 +1,9 @@
 ![alt text][logo]
+
 [logo]: https://github.com/MagnumOpuses/project-meta/blob/master/img/jobtechdev_black.png "JobTech dev logo"
-[A JobTech Project]( https://www.jobtechdev.se)
+
+[A JobTech Project](https://www.jobtechdev.se)
+
 # Jobtechdev.se (documentation website for developers)
 
 This project's purpose is to serve all necessary details for developers to integrate with Jobtech Dev's open infrastructure. This is the central hub to find information about our infrastructure projects, API specifications, integration guidelines, licenses, contact details and other important notices.
