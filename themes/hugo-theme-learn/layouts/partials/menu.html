@@ -4,7 +4,7 @@
 {{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
   <div id="header-wrapper">
     <div id="header">
-      {{ partial "logo.html" }}
+      {{ partial "logo.html" . }}
     </div>
     {{if not .Site.Params.disableSearch}}
         {{ partial "search.html" . }}
@@ -22,7 +22,7 @@
           {{range .Site.Home.Sections.ByWeight}}
           {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
           {{end}}
-        {{end}}
+        {{end}} 
     </ul>
 
     {{ $disableShortcutsTitle := .Site.Params.DisableShortcutsTitle}}
@@ -31,7 +31,7 @@
         <h3>{{ if not $disableShortcutsTitle}}{{ T "Shortcuts-Title"}}{{ end }}</h3>
         <ul>
           {{ range sort . "Weight"}}
-              <li>
+              <li> 
                   {{.Pre}}<a class="padding" href="{{.URL | absLangURL }}">{{safeHTML .Name}}</a>{{.Post}}
               </li>
           {{end}}
@@ -57,9 +57,9 @@
                   {{ if eq $translation.Lang .Lang }}
                     {{ $selected := false }}
                     {{ if eq $pageLang .Lang}}
-                      <option id="{{ $translation.Language }}" value="{{ $translation.URL }}" selected>{{ .LanguageName }}</option>
+                      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
                     {{ else }}
-                      <option id="{{ $translation.Language }}" value="{{ $translation.URL }}">{{ .LanguageName }}</option>
+                      <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
                     {{ end }}
                   {{ end }}
               {{ end }}
@@ -105,23 +105,12 @@
       <a href="{{.RelPermalink}}">
           {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
           {{ if $showvisitedlinks}}
-            <i class="fas read-icon"></i>
-
+            <i class="fas fa-check read-icon"></i>
           {{ end }}
-        {{if or (and (.Params.chapter) (eq .UniqueID $currentNode.UniqueID)) (and ( .IsAncestor $currentNode) (.Params.chapter)) }}
-        <i class="menu-arrow fa fa-angle-down"></i>
-        {{end}}
-        {{if and (.Params.chapter) (ne .UniqueID $currentNode.UniqueID) (not ( .IsAncestor $currentNode))}}
-
-        <i class="menu-arrow fa fa-angle-right"></i>
-
-        {{end}}
       </a>
       {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
       {{ if ne $numberOfPages 0 }}
-      <ul class="
-       {{if .IsAncestor $currentNode }}parent{{end}}
-        ">
+        <ul>
           {{ $currentNode.Scratch.Set "pages" .Pages }}
           {{ if .Sections}}
             {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}

@@ -1,11 +1,3 @@
----
-name: Pull request
-about: Provide a patch for this project
-title: ''
-labels: ''
-assignees: ''
----
-
 (Thanks for sending a pull request! Please make sure you click the link above to view the [contribution guidelines](CONTRIBUTING.md), then fill out the blanks below.)
 
 ---

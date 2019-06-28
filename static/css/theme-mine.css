@@ -26,18 +26,19 @@
 }
 
 body {
+    color: #ccc !important; /*Fallback for IE*/
+    background-color: #191919; /*Fallback for IE*/
     color: var(--MAIN-TEXT-color) !important;
-    background-color:var(--MAIN-BACKGROUND-color) ;
+    background-color:var(--MAIN-BACKGROUND-color);
 }
-strong {
-    color: var(--MAIN-TITLES-TEXT-color) !important;
-}
+
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
     border-color: none;
     box-shadow: none;
 }
 
 h1, h2, h3, h4, h5 {
+    color: #ccc; /* Fallback for IE */
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
@@ -69,15 +70,20 @@ a:hover {
     transition: width 0.5s ease;
     background-color: var(--MAIN-LINK-HOVER-color);
 }
+#top-bar {
+    background-color: #000000;
+}
 #sidebar {
   background-color: #000000;
   /*	background-color: var(--MENU-SECTIONS-BG-color);  */
   /*  background-image: url("../slide4.jpg"); */
 }
 #sidebar #header-wrapper {
+    background: #000; /*Fallback for IE*/
     background: var(--MENU-HEADER-BG-color);
     color: var(--MENU-SEARCH-BOX-color);
     border-color: var(--MENU-HEADER-BORDER-color);
+    text-align: left;
 }
 #header {
     left:35px;
@@ -118,3 +124,19 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
+
+.default-animation, #header #logo-svg, #header #logo-svg path, #sidebar, #sidebar ul, #body, #body .padding, #body .nav {
+    transition: none;
+}
+
+#body-inner hr {
+    border-bottom-width: 1px;
+}
+#body-inner h1 {
+    border-bottom-width: 0px;
+}
+
+.featherlight .featherlight-content {
+    background-color: #222;
+}
+

@@ -133,7 +133,6 @@ function dz_rev_slider_1(){
 			gridheight:[868,768,960,720],
 			lazyType:"smart",
 			parallax: {
-				type:"scroll",
 				origo:"slidercenter",
 				speed:400,
 				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
@@ -184,7 +183,6 @@ function dz_rev_slider_2(){
 			gridheight:[868,768,500,720],
 			lazyType:"none",
 			parallax: {
-				type:"scroll",
 				origo:"slidercenter",
 				speed:400,
 				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
@@ -256,7 +254,6 @@ function dz_rev_slider_3(){
 			gridheight:[868,768,960,720],
 			lazyType:"none",
 			parallax: {
-				type:"mouse",
 				origo:"slidercenter",
 				speed:2000,
 				levels:[2,3,4,5,6,7,12,16,10,50,46,47,48,49,50,55],
@@ -290,17 +287,17 @@ function dz_rev_slider_3(){
 		cslide;
 
 		newCall.callback = function() { 
-		var proc = revapi1077.revgetparallaxproc(),
+		var proc = dzrevapi.revgetparallaxproc(),
 		fade = 1+proc,
 		scale = 1+(Math.abs(proc)/10);
 
-		punchgs.TweenLite.set(revapi1077.find('.slotholder, .rs-background-video-layer'),{opacity:fade,scale:scale});		
+		punchgs.TweenLite.set(dzrevapi.find('.slotholder, .rs-background-video-layer'),{opacity:fade,scale:scale});
 		}
 		newCall.inmodule = "parallax";
 		newCall.atposition = "start";
 
-		revapi1077.bind("revolution.slide.onloaded",function (e) {
-		revapi1077.revaddcallback(newCall);
-		});				
+		dzrevapi.bind("revolution.slide.onloaded",function (e) {
+		dzrevapi.revaddcallback(newCall);
+		});
 	}
 }
