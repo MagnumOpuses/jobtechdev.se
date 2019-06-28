@@ -1,0 +1,37 @@
+{{ .Page.Scratch.Add "tabset-counter" 1 }}
+{{ $tab_set_id := .Get "name" | default (printf "tabset-%s-%d" (.Page.RelPermalink) (.Page.Scratch.Get "tabset-counter") ) | anchorize }}
+{{ $tabs := .Scratch.Get "tabs" }}
+
+{{ if .Inner }}{{/* We don't use the inner content, but Hugo will complain if we don't reference it. */}}{{ end }}
+
+<div id="{{ $tab_set_id }}" class="tab-set">
+    <div id="{{ $tab_set_id }}-tab-list" class="tab-btn-list">
+        {{ range $i, $e := $tabs }}
+            {{ $id := printf "%s-%d" $tab_set_id $i }}
+
+            {{ $active := (cond (eq $i 0 ) "tab-btn-active" "") }}
+
+            <button id="{{ $id }}-btn" class="tab-btn {{ $active }}" onclick="setDisplayTab({{ $tab_set_id }}, {{ len $tabs }}, {{ $id }});">
+                {{ trim .name " " }}
+            </button>
+        {{ end }}
+    </div>
+
+    {{ range $i, $e := $tabs }}
+        {{ $id := printf "%s-%d" $tab_set_id $i }}
+
+        {{ if eq $i 0 }}
+            <div class="tab-content" id="{{ $id }}">
+                {{ with .content }}
+                    {{ . }}
+                {{ end }}
+            </div>
+        {{ else }}
+            <div class="tab-content" id="{{ $id }}" style="display:none">
+                {{ with .content }}
+                    {{ . }}
+                {{ end }}
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
