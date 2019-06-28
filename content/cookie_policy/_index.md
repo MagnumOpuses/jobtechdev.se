@@ -21,7 +21,7 @@ The following describes how the _Jobtechdev.se_ handles web cookies.
 
 The policy covers all users of the _Jobtechdev.se_ website, regardless of whether the user logs in or not.
 
-## What does it mean that a website uses cookies?
+### What does it mean that a website uses cookies?
 
 Anyone who visits a website that uses cookies must by law receive information that the site contains cookies, what they are used for and how you can opt out of them.
 
@@ -30,19 +30,19 @@ A cookie is a small text file that is stored on the user's computer and contains
 - A permanent cookie that remains on your computer for a pre-determined amount of time.
 - A session-cookie which is temporarily store in memory for a certain duration or until the web browser is closed.
 
-More information about cookies and the new law about electronic communication is available on [Telestyrelsens website](www.pts.se)
+More information about cookies and the new law about electronic communication is available on [Post och Telestyrelsens website](http://www.pts.se).
 
-## Approval of the use of cookies on the _Jobtechdev.se_ website
+### Approval of the use of cookies on the _Jobtechdev.se_ website
 
 The use of cookies on Jobtechdev.se requires the consent of the user. By your explicit consent, you consent to the use of cookies on the website and the processing of personal data saved through the use of cookies. There is no possibility of denying consent to any or any cookies without the use being approved in its entirety.
 
-## What happens if you deny the use of cookies on _Jobtechdev.se_?
+### What happens if you deny the use of cookies on _Jobtechdev.se_?
 
 The Swedish Public Employment Service uses cookies for the website to function properly. If you choose to decline cookies through your browser settings, some services and features on the site may be affected.
 
 If you do not want cookies to be used on your computer, you can change the setting in the browser security settings. Then no cookies are stored, but you will not be able to use certain functions on the site either. Important to keep in mind is that you cannot use the services that require login.
 
-## What cookies are used when you visit _Jobtechdev.se_?
+### What cookies are used when you visit _Jobtechdev.se_?
 
 We use cookies for the following purposes:
 
@@ -54,7 +54,7 @@ In addition, there are a number of cookies when Jobtechdev.se is active, but whi
 1. When using third-party software (Youtube, Minio etc.), so-called third-party cookies are used of both the permanent cookies and session cookies. They are used, for example, to enable storing logos about logged in companies who choose to publish logos at Jobtechdev.se. They are also used for linking to social media if a company chooses to present their service via such media.
 2. For advertising purposes. Google (not _Jobtechdev.se_) use cookies that are usually of a permanent nature.
 
-## More about Google Analytics
+### More about Google Analytics
 
 _Jobtechdev.se_ uses Google Analytics to create a picture of how visitors use the site.
 
@@ -72,20 +72,20 @@ To further safeguard your privacy, IP anonymization will be used in the data col
 
 - [Google Analytics IP Anonymization](https://support.google.com/analytics/answer/2763052?hl=en&&ref_topic=2919631)
 
-### If you do not want to accept the storage of cookies for Google Analytics
+#### If you do not want to accept the storage of cookies for Google Analytics
 
 If you do not want your visits to the _Jobtechdev.se_ website to appear in Google Analytics statistics, you can use so-called opt-out extensions for your browser.
 
 - [Google Analytics "Opt-out" browser add-in](http://tools.google.com/dlpage/gaoptout)
 - [Google Analytics website privacy policy](http://www.google.com/policies/privacy/)
 
-## Processing of personal data in _Jobtechdev.se_
+### Processing of personal data in _Jobtechdev.se_
 
 _Jobtechdev.se_ process the information stored in cookies when you visit _Jobtechdev.se_. It is information such as your IP address.
 
 Your personal data is processed by _Jobtechdev.se_ for the purpose of providing the _Jobtechdev.se_ website in a functional and intended way, and to develop Jobtechdev.se. We process your personal data saved through the use of cookies based on your explicit consent.
 
-## Who is the Data Protection Officer responsible the processing of your personal data when using cookies?
+### Who is the Data Protection Officer responsible the processing of your personal data when using cookies?
 
 Arbetsförmedlingen, organisation number 202100-2114, Hälsingegatan 38, 113 99 Stockholm, is responsible for the processing of your personal data.
 
@@ -108,7 +108,7 @@ En kaka är en liten textfil som lagras på användarens dator och innehåller i
 - En permanent kaka som ligger kvar på din dator under en bestämd tid
 - Sessionskaka som lagras tillfälligt i datorns minne under en viss tid och som försvinner när du stänger webbläsaren
 
-Mer information om kakor och den nya lagen om elektronisk kommunikation finns på [Post och telestyrelsens webbplats](www.pts.se).
+Mer information om kakor och den nya lagen om elektronisk kommunikation finns på [Post och Telestyrelsens website](http://www.pts.se).
 
 ### Godkännande av användandet av kakor på webbplatsen _Jobtechdev.se_
 
