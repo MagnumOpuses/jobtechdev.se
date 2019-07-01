@@ -7,19 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2019-06-27
+## [1.0.0] - 2019-07-01
 
 ### Added
-- Cookie policy and cookie banner on front page and documentation pages (https://github.com/MagnumOpuses/jobtechdev.se/pull/39)
+- Cookie policy and cookie banner on front page and documentation pages (https://github.com/MagnumOpuses/jobtechdev.se/pull/39, https://github.com/MagnumOpuses/jobtechdev.se/pull/49)
 - Readme instructions on how to build/run site in 'stage'-mode (https://github.com/MagnumOpuses/jobtechdev.se/pull/23)
 - New event 'Tech for lunch!' (https://github.com/MagnumOpuses/jobtechdev.se/pull/25)
 - Information about closure of old YrkesInfo & RAF API (https://github.com/MagnumOpuses/jobtechdev.se/pull/24)
 - 'Theos'-styled pull-request template (https://github.com/MagnumOpuses/jobtechdev.se/pull/22, https://github.com/MagnumOpuses/jobtechdev.se/pull/33)
+- Extra information about JobScanner showcase (https://github.com/MagnumOpuses/jobtechdev.se/pull/50)
+- Added new shortcodes to allow tabbed content in markup (https://github.com/MagnumOpuses/jobtechdev.se/pull/49)
 
 ### Fixed
 - Revapi not defined error (https://github.com/MagnumOpuses/jobtechdev.se/pull/38)
 - Menu sliding bug in IE (https://github.com/MagnumOpuses/jobtechdev.se/pull/35)
 - Featherlight popup to be dark themed (https://github.com/MagnumOpuses/jobtechdev.se/pull/44)
+- Jobtech Dev logo in repository README.md (https://github.com/MagnumOpuses/jobtechdev.se/pull/48)
 
 ### Changed
 - Upgraded Hugo to v0.55 (https://github.com/MagnumOpuses/jobtechdev.se/pull/34)
@@ -31,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 - Removed 'Vacancies' showcase (https://github.com/MagnumOpuses/jobtechdev.se/pull/43)
+- Disabled language switching button in Docs pages (https://github.com/MagnumOpuses/jobtechdev.se/pull/49)
 
 ### Security
 - CSP rule to allow image sources from 'online.swagger.io' (https://github.com/MagnumOpuses/jobtechdev.se/pull/32)
