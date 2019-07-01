@@ -15,3 +15,9 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false
 ---
+
+In this example we build a basic application that will perform two subsequent API calls to find all occupation names that are close relatives to any occupation name of our choice.
+
+We will solely utilize the JobTech Dev Taxonomy API to achieve this functional example. Follow along and you will have a working sample within just a couple minutes.
+
+To acquire an API key, please follow guidelines in the [Obtain Keys](obtain_keys) page.

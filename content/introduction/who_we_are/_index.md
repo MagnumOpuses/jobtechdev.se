@@ -15,3 +15,7 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false
 ---
+
+We are **JobTech development**, a department powered and financed by [The Swedish Public Employment Service](https://www.arbetsformedlingen.se).
+
+**JobTech** (job technology) is a collective term for technical innovation in the labour market sector that is characterized by collaboration between several actors in the labour market arena. The sharing of common resources such as data provides better prerequisites to create and offer better end services.

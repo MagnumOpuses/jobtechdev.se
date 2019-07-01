@@ -15,3 +15,5 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false
 ---
+
+To acquire an API key, fill out the [Apply for API key](https://apirequest.dev.services.jtech.se/) form. You will automatically receive an email with a temporary link that will display your generated api-key.

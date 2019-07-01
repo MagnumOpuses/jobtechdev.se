@@ -2,7 +2,7 @@
 title: "Cookie Policy"
 disableToc: true
 date: 2019-01-19T20:06:16+01:00
-weight: 6
+weight: 70
 ---
 Arbetsförmedlingen, organisationsnummer 202100-2114, är ansvarig för webbplatsen _Jobtechdev.se_. Nedan beskrivs hur Arbetsförmedlingen hanterar webbkakor (kakor) på webbplatsen. Policyn omfattar samtliga användare av webbplatsen _Jobtechdev.se_ oavsett om användaren loggar in eller inte.
 

@@ -15,3 +15,9 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false
 ---
+
+We build a new open digital infrastructure that enables everyone to easily consume labour market data.
+
+Our infrastructure and services are completely open-source and we warmly welcome contributions from the public to make our services as good as they can be.
+
+We provide a great foundation for digital services to utilize to increase the efficiency in digital matching.
