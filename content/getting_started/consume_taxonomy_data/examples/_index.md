@@ -128,33 +128,92 @@ req.end();
 {{< tab name="Python" codelang="python" >}}
 
 # Import requests library for request and response handling.
-import requests 
 
+import requests 
+  
 # The URL of the Taxonomy API
+
 URL = 'https://open-api.dev.services.jtech.se/taxonomy/search'
 
 # Define request parameters
+# - 'limit': Number of result rows to fetch.
+# - 'q': Freetext query for fetching a filtered result.
+
 PARAMS = {
-    # Number of result rows to fetch.
     'limit': 3,
-    # Freetext query for fetching a filtered result.
     'q': 'vakt'
 } 
 
 # Define additional information passed along with the http request.
+# - 'accept': The MIME type our client expects as response.
+# - 'api-key': Your API key used to authenticate Taxonomy API HTTP requests.
+
 HEADERS = {
-    # The MIME type our client expects as response.
     'accept': 'application/json',
-    # Your API key used to authenticate Taxonomy API HTTP requests.
     'api-key': 'YOUR_API_KEY'
 }
 
 # sending get request and saving the response as response object 
+
 res = requests.get(url = URL, params = PARAMS, headers = HEADERS) 
 
 # Extract the result rows from the response body and print to console.
+
 data = res.json()['result']
 print(data)
+
+{{< /tab >}}
+{{< tab name="Java" codelang="java" >}}
+
+import javax.net.ssl.HttpsURLConnection;
+import java.io.*;
+import java.net.URL;
+import com.google.gson.*;
+
+public class SampleTaxonomyRequest {
+
+    public static void main(String[] args) {
+
+        BufferedReader bufferedReader = null;
+
+        try {
+            // API url including query parameters
+            final URL url = new URL("https://open-api.dev.services.jtech.se/taxonomy/search?limit=3&q=vakt");
+
+            // Connect to API with with additional headers
+            final HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
+            conn.setRequestMethod("GET");
+            conn.setRequestProperty("Accept", "application/json");
+            conn.setRequestProperty("api-key", "YOUR_API_KEY");
+            conn.connect();
+
+            // Read response to data buffer
+            bufferedReader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+            String inputLine;
+            final StringBuffer data = new StringBuffer();
+            while ((inputLine = bufferedReader.readLine()) != null) {
+                data.append(inputLine);
+            }
+            bufferedReader.close();
+
+            // Parse and print results array from json response
+            final JsonObject jsonObject = new JsonParser().parse(data.toString()).getAsJsonObject();
+            final JsonArray results = jsonObject.getAsJsonArray("result");
+            System.out.println(results);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            // Make sure the buffered reader is closed
+            if (bufferedReader != null) {
+                try {
+                    bufferedReader.close();
+                } catch (IOException e) {
+                    // NOP
+                }
+            }
+        }
+    }
+}
 
 {{< /tab >}}
 {{< /tabs >}}
