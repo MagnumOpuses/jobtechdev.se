@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2019-06-27
+## [1.0.0] - 2019-07-01
 
 ### Added
 - Cookie policy and cookie banner on front page and documentation pages (https://github.com/MagnumOpuses/jobtechdev.se/pull/39, https://github.com/MagnumOpuses/jobtechdev.se/pull/49)
