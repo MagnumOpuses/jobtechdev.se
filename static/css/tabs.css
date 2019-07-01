@@ -5,6 +5,9 @@
 .tab-btn {
     background-color: #333;
     color: #ccc;
+    padding: 0px 16px;
+    font-size: 14pt;
+    font-weight: 400;
 }
 .tab-btn:focus {
     outline:0;
