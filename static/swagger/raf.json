@@ -1,0 +1,498 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "YrkesInfo RAF DMZ",
+    "description": "Yrkesinfo \u00E4r en webbtj\u00E4nst som beskriver ca 350 yrken.",
+    "version": "v1"
+  },
+  "host": "apier.arbetsformedlingen.se",
+  "basePath": "/yrkesinfo-raf/v1/",
+  "schemes": [
+    "HTTPS"
+  ],
+  "paths": {
+    "/yrken": {
+      "get": {
+        "operationId": "H\u00E4mta alla yrken",
+        "description": "H\u00E4mtar alla yrken",
+        "parameters": [
+          {
+            "name": "client_id",
+            "description": "Client ID identifierar den anropande klienten. Anv\u00E4nds f\u00F6r analytics och autentisering.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "client_secret",
+            "description": "Client secret autentiserar den anropande klienten.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "AF-TrackingId",
+            "description": "Anv\u00E4nds f\u00F6r att sp\u00E5ra requests mellan system. Genereras av anv\u00E4ndaren av tj\u00E4nsten. Formatet \u00E4r guid.",
+            "required": false,
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "AF-TrackingId": {
+                "description": "Transaktionsid fr\u00E5n ICC",
+                "type": "string"
+              }
+            },
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "example": [
+                {
+                  "bildlank": null,
+                  "yrkesomraden": null,
+                  "isEjGymnasie": null,
+                  "isEftergymn2less": null,
+                  "oneliner": null,
+                  "yrkessynonymer": null,
+                  "isGymnasie": null,
+                  "namn": "F\u00F6retagss\u00E4ljare, f\u00F6rs\u00E4kringss\u00E4ljare och f\u00F6rs\u00E4kringsr\u00E5dgivare samt evenemangs- och reseproducenter, fastighetsm\u00E4klare, fastighetsf\u00F6rvaltare och \u00F6vriga f\u00F6rmedlare (3.e.)",
+                  "id": 24,
+                  "bildsammanfattning": null,
+                  "isEftergymn2more": null
+                },
+                {
+                  "oneliner": null,
+                  "namn": "Drifttekniker, IT och supporttekniker, IT (3.c.)",
+                  "bildlank": null,
+                  "isEftergymn2less": null,
+                  "id": 22,
+                  "isGymnasie": null,
+                  "isEjGymnasie": null,
+                  "isEftergymn2more": null,
+                  "yrkessynonymer": null,
+                  "yrkesomraden": null,
+                  "bildsammanfattning": null
+                },
+                {
+                  "namn": "Chefsyrken (1.a.)",
+                  "yrkesomraden": null,
+                  "oneliner": null,
+                  "bildsammanfattning": null,
+                  "isEftergymn2more": null,
+                  "bildlank": null,
+                  "isEjGymnasie": null,
+                  "id": 2,
+                  "isEftergymn2less": null,
+                  "isGymnasie": null,
+                  "yrkessynonymer": null
+                },
+                {
+                  "isGymnasie": null,
+                  "yrkessynonymer": null,
+                  "namn": "Mjukvaru- och systemutvecklare, utvecklare inom spel och digitala media, systemtestare och testledare och systemf\u00F6rvaltare (2.h.)",
+                  "yrkesomraden": null,
+                  "isEftergymn2more": null,
+                  "bildlank": null,
+                  "bildsammanfattning": null,
+                  "isEjGymnasie": null,
+                  "id": 11,
+                  "oneliner": null,
+                  "isEftergymn2less": null
+                },
+                {
+                  "yrkesomraden": null,
+                  "isGymnasie": null,
+                  "isEftergymn2more": null,
+                  "oneliner": null,
+                  "isEftergymn2less": null,
+                  "yrkessynonymer": null,
+                  "bildsammanfattning": null,
+                  "id": 26,
+                  "namn": "Ink\u00F6pare, upphandlare och ordersamordnare (3.g.)",
+                  "bildlank": null,
+                  "isEjGymnasie": null
+                },
+                {
+                  "isEjGymnasie": null,
+                  "isGymnasie": null,
+                  "id": 35,
+                  "bildsammanfattning": null,
+                  "namn": "Reses\u00E4ljare, trafikassistenter, kundtj\u00E4nstpersonal, telefonister, kontorsreceptionister och marknadsunders\u00F6kare och Intervjuare samt telefonf\u00F6rs\u00E4ljare m.fl. (4.e.)",
+                  "isEftergymn2less": null,
+                  "oneliner": null,
+                  "yrkessynonymer": null,
+                  "bildlank": null,
+                  "isEftergymn2more": null,
+                  "yrkesomraden": null
+                },
+                {
+                  "oneliner": null,
+                  "bildlank": null,
+                  "bildsammanfattning": null,
+                  "namn": "Fartygsbef\u00E4l och piloter m.fl. (3.d.)",
+                  "yrkessynonymer": null,
+                  "isEjGymnasie": null,
+                  "yrkesomraden": null,
+                  "isEftergymn2less": null,
+                  "isEftergymn2more": null,
+                  "id": 23,
+                  "isGymnasie": null
+                },
+                {
+                  "id": 59,
+                  "oneliner": null,
+                  "isEftergymn2more": null,
+                  "namn": "Maskinoperat\u00F6rer, gummi-, plast- och pappersvaruindustri och maskinoperat\u00F6rer, textil-, tv\u00E4tt- och l\u00E4derindustri m.m. (8.c.)",
+                  "bildsammanfattning": null,
+                  "yrkessynonymer": null,
+                  "isGymnasie": null,
+                  "bildlank": null,
+                  "isEftergymn2less": null,
+                  "yrkesomraden": null,
+                  "isEjGymnasie": null
+                },
+                {
+                  "bildsammanfattning": null,
+                  "isEftergymn2less": null,
+                  "bildlank": null,
+                  "namn": "Hovm\u00E4stare och bartendrar (5.d.)",
+                  "yrkessynonymer": null,
+                  "yrkesomraden": null,
+                  "oneliner": null,
+                  "id": 40,
+                  "isEjGymnasie": null,
+                  "isEftergymn2more": null,
+                  "isGymnasie": null
+                },
+                {
+                  "oneliner": null,
+                  "id": 42,
+                  "isEjGymnasie": null,
+                  "namn": "Kockar och kallsk\u00E4nkor (5.f.)",
+                  "isEftergymn2less": null,
+                  "bildsammanfattning": null,
+                  "isEftergymn2more": null,
+                  "isGymnasie": null,
+                  "bildlank": null,
+                  "yrkesomraden": null,
+                  "yrkessynonymer": null
+                },
+                {
+                  "isEftergymn2less": null,
+                  "yrkesomraden": null,
+                  "isGymnasie": null,
+                  "isEftergymn2more": null,
+                  "bildsammanfattning": null,
+                  "yrkessynonymer": null,
+                  "id": 41,
+                  "namn": "Kassapersonal, bensinstationspersonal, uthyrare, m.fl. (5.e.)",
+                  "oneliner": null,
+                  "isEjGymnasie": null,
+                  "bildlank": null
+                },
+                {
+                  "id": 25,
+                  "isEftergymn2more": null,
+                  "yrkesomraden": null,
+                  "isGymnasie": null,
+                  "bildsammanfattning": null,
+                  "oneliner": null,
+                  "namn": "Ingenj\u00F6rer och tekniker (3.f.)",
+                  "bildlank": null,
+                  "isEftergymn2less": null,
+                  "isEjGymnasie": null,
+                  "yrkessynonymer": null
+                }
+              ]
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "description": "This is used by client_id enforcement Policy",
+              "example": {
+                "error": "missing_client_secret",
+                "description": "client_secret is missing"
+              },
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "error",
+                "description"
+              ],
+              "properties": {
+                "error": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/yrken/{id}": {
+      "get": {
+        "operationId": "H\u00E4mta ett yrke",
+        "description": "H\u00E4mtar ett yrke utifr\u00E5n id",
+        "parameters": [
+          {
+            "name": "client_id",
+            "description": "Client ID identifierar den anropande klienten. Anv\u00E4nds f\u00F6r analytics och autentisering.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "client_secret",
+            "description": "Client secret autentiserar den anropande klienten.",
+            "required": true,
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "AF-TrackingId",
+            "description": "Anv\u00E4nds f\u00F6r att sp\u00E5ra requests mellan system. Genereras av anv\u00E4ndaren av tj\u00E4nsten. Formatet \u00E4r guid.",
+            "required": false,
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "AF-TrackingId": {
+                "description": "Transaktionsid fr\u00E5n ICC",
+                "type": "string"
+              }
+            },
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "example": {
+                "psykiskaFunktioner": {
+                  "beskrivning": "Arbetssjukdomar orsakas oftast av organisatoriska/sociala faktorer som exempelvis h\u00F6gt arbetstempo vilket kan leda till stress.",
+                  "toleranser": [
+                    {
+                      "beskrivning": "Arbetsuppgifterna bygger p\u00E5 att utifr\u00E5n ett givet material eller f\u00F6ruts\u00E4ttningar kunna identifiera och ta fram l\u00F6sningar p\u00E5 problem som existerar inom verksamhetsomr\u00E5det. Yrkesut\u00F6vare m\u00E5ste ha f\u00F6rm\u00E5ga att se detaljer och ha kunskap om hur dessa p\u00E5verkar helheten. Yrkesut\u00F6vare tar ofta fram ritningar och utredningar och det \u00E4r d\u00E4rf\u00F6r av vikt att kunna uttrycka sig p\u00E5 ett s\u00E4tt s\u00E5 att andra kan f\u00F6rst\u00E5 och oms\u00E4tta inneh\u00E5llet till praktiska l\u00F6sningar.",
+                      "min": 1,
+                      "max": 1
+                    },
+                    {
+                      "beskrivning": "Att arbeta som ingenj\u00F6r eller tekniker inneb\u00E4r att yrkesut\u00F6varen driver processer fr\u00E5n konstruktionsskiss till f\u00E4rdigst\u00E4llande. Det g\u00E4ller att utifr\u00E5n givna metoder och regler snabbt kunna skifta fokusomr\u00E5de eller anpassa sig till nya omst\u00E4ndigheter och of\u00F6rutsedda h\u00E4ndelser, t.ex. vid konstruktionsfel.",
+                      "min": 1,
+                      "max": 1
+                    },
+                    {
+                      "beskrivning": "Arbetet inneb\u00E4r att ta fram information till konstruktioner och st\u00E4ller d\u00E4rf\u00F6r stora krav p\u00E5 att yrkesut\u00F6vare kan uttrycka sig v\u00E4l i tal och skrift s\u00E5 att andra f\u00F6rst\u00E5r. Arbetet bedrivs i n\u00E4ra relation med andra yrkesgrupper och st\u00E4ller vissa krav p\u00E5 att yrkesut\u00F6vare kan uppr\u00E4tth\u00E5lla mellanm\u00E4nskliga relationer \u00F6ver tid samt vara emotionellt stabil och kunna samarbeta med andra (vara lyh\u00F6rd f\u00F6r andras synpunkter, viljeyttringar etc.). Ofta handlar det om att ha en expertfunktion som g\u00E5r ut p\u00E5 att skapa l\u00F6sningar efter best\u00E4llningar fr\u00E5n personer som saknar den kompetensen och har sv\u00E5rt att se och f\u00F6rst\u00E5 problem, f\u00F6ruts\u00E4ttningar och m\u00F6jligheter i relation till det m\u00E5l best\u00E4llaren sj\u00E4lv har.",
+                      "min": 1,
+                      "max": 2
+                    },
+                    {
+                      "beskrivning": "Arbetet \u00E4r relativt omv\u00E4xlande och till\u00E5ter regelbundna raster/pauser. Ofta kr\u00E4vs att arbetsuppgifter skall utf\u00F6ras inom en viss deadline och har betydelse f\u00F6r andra yrkesgrupper, vilket g\u00F6r att arbetet ofta sker under tidspress. F\u00F6ljaktligen \u00E4r det av vikt att kunna uppr\u00E4tth\u00E5lla koncentration och fokus under en hel arbetsdag.",
+                      "min": 1,
+                      "max": 1
+                    }
+                  ]
+                },
+                "referenser": [
+                  {
+                    "namn": "Arbetsmilj\u00F6statistik rapport 2016:3, Arbetsorsakade besv\u00E4r 2016, Arbetsmilj\u00F6verket ",
+                    "url": "https://www.av.se/globalassets/filer/statistik/arbetsorsakade-besvar-2016/arbetsmiljostatistik-arbetsorsakade-besvar-2016-rapport-2016-3.pdf"
+                  },
+                  {
+                    "namn": "Arbetsmilj\u00F6statistisk rapport 2017:1, Arbetsskador 2016, Arbetsmilj\u00F6verket ",
+                    "url": "https://www.av.se/globalassets/filer/statistik/arbetsskador-2016/arbetsmiljostatistik-arbetsskador-2016-rapport-2017-1.pdf"
+                  },
+                  {
+                    "namn": "Kunskapsunderlag: \"Beskrivningar av krav p\u00E5 medicinskt relaterade f\u00F6rm\u00E5gor i normalt f\u00F6rekommande arbeten p\u00E5 arbetsmarknaden\", F\u00F6rs\u00E4kringskassan (2013)  ",
+                    "url": "https://www.forsakringskassan.se/wps/wcm/connect/8288c5c8-3524-4a00-b6ce-e45c782bba2e/kunskapsunderlaget_131108.pdf?MOD=AJPERES"
+                  },
+                  {
+                    "namn": "SSYK 2012 Standard f\u00F6r svensk yrkesklassificering ",
+                    "url": "http://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"
+                  },
+                  {
+                    "namn": "Yrkesregistret, SCB (2015) ",
+                    "url": "http://www.scb.se/hitta-statistik/statistik-efter-amne/arbetsmarknad/sysselsattning-forvarvsarbete-och-arbetstider/yrkesregistret-med-yrkesstatistik/"
+                  }
+                ],
+                "externGranskning": "Extern granskning (2017-2018) \n\nUnionen, Julia Tchibrikova, statistiker \n\nKommentar till extern granskning \n\n2018-02-01: Unionen har l\u00E4mnat synpunkt att det inom gruppen ingenj\u00F6rer och tekniker finns underkoder som kan ha en n\u00E5got annorlunda kravbild \u00E4n \u00F6vriga yrken inom grupperingen, t.ex. geologer och geotekniker samt bergtekniker. Detta ger sk\u00E4l till extra f\u00F6rsiktighet vid tolkningen.\n\nFotnot om ICF-koderna   \n\nICF-koden d398: saknas i AFU-manualen men finns i Socialstyrelsens ICF-kodregister \"Koder f\u00F6r funktionstillst\u00E5nd ICF 2017\".",
+                "relateradeICFKoder": [
+                  "d220 Att f\u00F6reta m\u00E5ngfaldiga uppgifter",
+                  "d398 Kommunikation, annan specificerad",
+                  "d399 Kommunikation, ospecificerad"
+                ],
+                "toleransMotAktivitetsbegransning": "Bed\u00F6md tolerans f\u00F6r fysiska funktioner \u00E4r m\u00E5ttlig till stor. Detta inneb\u00E4r inte att individer med stora fysiska besv\u00E4r med sj\u00E4lvklarhet kan antas klara arbetet. Bed\u00F6mningar m\u00E5ste g\u00F6ras bl.a. utifr\u00E5n individens specifika f\u00F6ruts\u00E4ttningar och de anpassningsm\u00F6jligheter som kan antas vara rimliga i ett normalt f\u00F6rekommande arbete.",
+                "karnaktivitet": "Att med utg\u00E5ngspunkt fr\u00E5n givna teoretiska regler och metoder, oms\u00E4tta dessa kunskaper till exempelvis rutiner, metoder och konstruktioner.",
+                "balansKoordinationFinmotoriskKvalitet": {
+                  "beskrivning": "",
+                  "toleranser": [
+                    {
+                      "beskrivning": "Ingenj\u00F6rer och tekniker utf\u00F6r finmotoriskt arbete med framf\u00F6r allt h\u00E4nder och fingrar (t.ex. arbete med dator och penna). Ibland kr\u00E4vs total precision (t.ex. vid arbete med dator eller vid m\u00E4tningar, konstruktionsritningar etc.). I vissa yrkesinriktningar ing\u00E5r f\u00E4ltarbete, ibland i kuperad terr\u00E4ng vilket inbegriper grundl\u00E4ggande kroppsbalans. Att arbeta vid arbetsplatser med m\u00E4tning, provtagning och besiktning f\u00F6rekommer vilket ocks\u00E5 kr\u00E4ver grundl\u00E4ggande kroppsbalans.",
+                      "min": 1,
+                      "max": 2
+                    }
+                  ]
+                },
+                "fysiskaFunktioner": {
+                  "beskrivning": "Vissa individer inom yrkeskategorin kan utveckla besv\u00E4r i nacke och axlar av s\u00E5 kallat repetitivt bildsk\u00E4rmsarbete men yrkeskategorin h\u00F6r, enligt Arbetsmilj\u00F6verket, inte till n\u00E5gon h\u00F6griskgrupp f\u00F6r att drabbas av problem i nacke och axlar.",
+                  "toleranser": [
+                    {
+                      "beskrivning": "Arbetsuppgifterna utf\u00F6rs i huvudsak sittandes eller st\u00E5endes, m\u00F6jlighet till omv\u00E4xlande arbetsst\u00E4llningar finns. Arbetet inneh\u00E5ller b\u00E5de kontorsarbete vid dator eller ritbord d\u00E4r yrkesut\u00F6vare g\u00F6r analyser, utredning m.m. samt arbetsplatsbes\u00F6k som inneh\u00E5ller moment som m\u00E4tning, provtagning o.s.v. Arbetet \u00E4r fysiskt l\u00E4tt och inneh\u00E5ller f\u00E5 tunga lyft.",
+                      "min": 2,
+                      "max": 3
+                    },
+                    {
+                      "beskrivning": "Vissa inriktningar inneh\u00E5ller mer konstruktionsskapande och inneb\u00E4r statiskt arbete vid datorarbetsplats.",
+                      "min": 2,
+                      "max": 3
+                    }
+                  ]
+                },
+                "yrkesomrade": "3 Yrken med krav p\u00E5 h\u00F6gskolekompetens eller motsvarande",
+                "yrkesbeskrivning": "Ingenj\u00F6rer och tekniker utf\u00F6r produktions- och materialplanering. Utf\u00F6r tekniskt arbete i samband med konstruktion, byggande, underh\u00E5ll och reparation av byggnader och anl\u00E4ggningar. Organiserar och \u00F6vervakar processer vid tillverkning och montering av el-, tele- och elektronikutrustning, maskiner och mekaniska installationer m.m. Provar och kontrollerar produkter. Utf\u00F6r annat tekniskt arbete. \n\nTekniker, bilddiagnostik och medicinteknisk utrustning installerar, kontrollerar, \u00F6vervakar och utf\u00F6r service p\u00E5 medicinteknisk utrustning som anv\u00E4nds vid diagnosticering eller behandling av olika sjukdomar. Sk\u00F6ter och \u00F6vervakar t.ex. hj\u00E4rtlungmaskiner. \n\nLaboratorieingenj\u00F6rer utf\u00F6r experiment, analys- och kontrollarbete vid kemisk och fysikaliskt industri- eller forskningslaboratorium. Kontrollerar, testar och analyserar r\u00E5varor och produkter. Assisterar vid utformning och utf\u00F6rande av experiment.\n\nCivilingenj\u00F6rsyrken ing\u00E5r inte i den h\u00E4r yrkesgrupperingen.",
+                "kritiskFaktor": "F\u00F6rm\u00E5gan att, normalt p\u00E5 egen hand, driva analytiskt kr\u00E4vande tekniska processer samt \u00F6ver tid uppr\u00E4tta h\u00E5lla engagemanget f\u00F6r detta, \u00E4r avg\u00F6rande krav.",
+                "yrkesgrupperOchBenamningar": [
+                  {
+                    "ssyk": "3111",
+                    "namn": "Ingenj\u00F6rer o tekniker, industri o prod.planering",
+                    "taxonomiId": 3111,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3112",
+                    "namn": "Ingenj\u00F6rer och tekniker inom bygg och anl\u00E4ggning",
+                    "taxonomiId": 3112,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3113",
+                    "namn": "Ingenj\u00F6rer och tekniker inom elektroteknik",
+                    "taxonomiId": 3113,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3114",
+                    "namn": "Ingenj\u00F6rer och tekniker inom maskinteknik",
+                    "taxonomiId": 3114,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3115",
+                    "namn": "Ingenj\u00F6rer och tekniker inom kemi och kemiteknik",
+                    "taxonomiId": 3115,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3116",
+                    "namn": "Ingenj\u00F6rer o tekniker i gruvteknik o metallurgi",
+                    "taxonomiId": 3116,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3117",
+                    "namn": "GIS- och kartingenj\u00F6rer",
+                    "taxonomiId": 3117,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3119",
+                    "namn": "\u00D6vriga ingenj\u00F6rer och tekniker",
+                    "taxonomiId": 3119,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3211",
+                    "namn": "Tekniker, bilddiagnostik o medicintekn. utrustn.",
+                    "taxonomiId": 3211,
+                    "taxonomiTyp": "SSYK4"
+                  },
+                  {
+                    "ssyk": "3215",
+                    "namn": "Laboratorieingenj\u00F6rer",
+                    "taxonomiId": 3215,
+                    "taxonomiTyp": "SSYK4"
+                  }
+                ],
+                "namn": "Ingenj\u00F6rer och tekniker (3.f.)",
+                "statistik": "Gruppen omfattar cirka 105 000 f\u00F6rv\u00E4rvsarbetande varav 20 % \u00E4r kvinnor och 80 % \u00E4r m\u00E4n.",
+                "id": 25,
+                "metadata": {
+                  "version": 1,
+                  "senastUppdaterad": "2018-04-07T08:34:24"
+                },
+                "synHorselTal": {
+                  "beskrivning": "",
+                  "toleranser": [
+                    {
+                      "beskrivning": "Syn, fr\u00E4mst p\u00E5 n\u00E4ra h\u00E5ll, \u00E4r av betydelse vid t.ex. datorarbete och liknande. Att se, b\u00E5de p\u00E5 n\u00E4ra och l\u00E5ngt h\u00E5ll \u00E4r av vikt, dels vid datorarbete och f\u00F6r att uppt\u00E4cka detaljer och dels ute p\u00E5 en arbetsplats n\u00E4r yrkesut\u00F6vare genomf\u00F6r m\u00E4tningar o.s.v. M\u00E5nga av de arbetsredskap som finns att tillg\u00E5 kr\u00E4ver ocks\u00E5 avl\u00E4sning p\u00E5 display.",
+                      "min": 1,
+                      "max": 1
+                    },
+                    {
+                      "beskrivning": "De flesta arbetsuppgifterna inneb\u00E4r kontakt med kunder och inneb\u00E4r att yrkesut\u00F6vare m\u00E5ste kunna skilja ljud fr\u00E5n varandra, h\u00F6ra vad kollegor och kunder s\u00E4ger.",
+                      "min": 1,
+                      "max": 1
+                    },
+                    {
+                      "beskrivning": "Arbetet sker ofta i samarbete med andra yrkesgrupper och f\u00F6ruts\u00E4tter god kommunikativ f\u00F6rm\u00E5ga. Det \u00E4r viktigt att kunna tala klart och tydligt s\u00E5 att andra h\u00F6r och f\u00F6rst\u00E5r vad som s\u00E4gs.",
+                      "min": 1,
+                      "max": 1
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "description": "This is used by client_id enforcement Policy",
+              "example": {
+                "error": "missing_client_secret",
+                "description": "client_secret is missing"
+              },
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "error",
+                "description"
+              ],
+              "properties": {
+                "error": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-oas-tags-definition": [
+    {
+      "name": "RAF-yrken"
+    },
+    {
+      "name": "Vagledningsyrken"
+    }
+  ]
+}

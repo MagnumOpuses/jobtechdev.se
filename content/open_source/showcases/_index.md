@@ -32,17 +32,6 @@
         },
         {
           "type": "Widget",
-          "name": "Vacancies",
-          "description": "Showing the candidates by location.",
-          "links":[
-            {
-              "name":"Source code",
-              "url":"https://github.com/jobtechdev/vacancieswidget"
-            }
-            ]
-        },
-        {
-          "type": "Widget",
           "name": "Job",
           "description": "This widget suggests jobs based on the personal data already available in the context in which the widget is placed.",
           "links":[
@@ -96,7 +85,7 @@
         {
           "type": "Application",
           "name": "JobScanner",
-          "description": "The JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place.",
+          "description": "The JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place. Please note that it's current in demo and operates on historical data. We plan to populate it with live data early fall 2019.",
           "links":[
             {
               "name":"Preview",
