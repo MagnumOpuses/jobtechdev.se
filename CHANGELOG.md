@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+# Changelog
+
+## [1.0.1] - 2019-07-02
+
+### Removed
+
+- JobScanner preview links due to service being temporarily unavailable (https://github.com/MagnumOpuses/jobtechdev.se/pull/53)
+
 ## [1.0.0] - 2019-07-01
 
 ### Added
