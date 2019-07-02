@@ -88,10 +88,6 @@
           "description": "The JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place. Please note that it's current in demo and operates on historical data. We plan to populate it with live data early fall 2019.",
           "links":[
             {
-              "name":"Preview",
-              "url":"https://jobscanner.jobtechdev.se/"
-            },
-            {
               "name":"Source code",
               "url":"https://github.com/MagnumOpuses/JobScanning"
             }
