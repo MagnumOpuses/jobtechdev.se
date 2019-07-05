@@ -42,4 +42,4 @@ https://jobtechdev.se/swagger/index.html
 
 Learn more about the Platsbanken API or start use the API right away
 
-[Af Jobs API (Platsbanken)](https://jobtechdev.se/swagger/index.html)
+[Af Jobs API (Platsbanken)](/swagger/index.html)
