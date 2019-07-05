@@ -24,10 +24,10 @@ We strive to reuse as much as possible for not inventing the wheel again. The pr
 
 The architecture is divided into four subsystem:
 
-- [mydata-app](https://github.com/JobtechSwe/mydata-app): An app were the individuals handles their data.
+- [mydata-app](https://github.com/JobtechSwe/mydata/tree/master/app): An app were the individuals handles their data.
 
-- [mydata-operator](https://github.com/JobtechSwe/mydata-operator): A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.
+- [mydata-operator](https://github.com/JobtechSwe/mydata/tree/master/operator): A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.
 
-- [mydata-cv](https://github.com/JobtechSwe/mydata-cv): a sample service that reads /writes to the individual’s data after being allowed to. (Data Source and Data Sink)
+- [mydata-cv](https://github.com/JobtechSwe/mydata/tree/master/examples/cv): a sample service that reads /writes to the individual’s data after being allowed to. (Data Source and Data Sink)
 
 - [mydata-pds](https://github.com/JobtechSwe/mydata-pds): secure data storage, only available for the individual. PDS stands for Personal Data Storage.
