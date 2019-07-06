@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Mydata github links pointed to old repo fixed
 - Broken link to AF Jobs Swagger UI (https://github.com/MagnumOpuses/jobtechdev.se/pull/56)
+- Weights on most pages to avoid page order ambiguity in left-hand menu.
 
 ### Removed
 - Unnecessary/Duplicated Swagger files (https://github.com/MagnumOpuses/jobtechdev.se/pull/56)

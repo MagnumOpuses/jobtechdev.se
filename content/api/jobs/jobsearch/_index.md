@@ -3,7 +3,7 @@ title: "Job search"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 menuTitle: "Job Search"
-weight: 27
+weight: 10
 ---
 
 Our job search API is a search engine for all the current job ads from Platsbanken. 

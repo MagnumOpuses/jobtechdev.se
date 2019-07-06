@@ -2,7 +2,7 @@
 title: "Cookie Policy (Swedish)"
 disableToc: true
 date: 2019-01-19T20:06:16+01:00
-weight: 6
+weight: 20
 menuTitle: "Swedish"
 ---
 

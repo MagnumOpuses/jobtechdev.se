@@ -2,7 +2,7 @@
 title: "MyData"
 disableToc: true
 date: 2019-01-19T20:06:16+01:00
-weight: 1
+weight: 10
 ---
 
 MyData aims for individuals to have control over their own data.The JobTech MyData goal is a distributed and decentralized data storage for the labour market. Take CV data as an example: It should be accessible for those who have an interest in reading or writing in the data but on the basis that the individual always has control of the information. Massive data sets collected by companies and authorities creates possibility to see patterns in the behavior of people, and create new products and services to create a new value. The data can also be used for other purposes for example monitoring or affect opinions in politics. To control a lot of individual data could mean a risk.

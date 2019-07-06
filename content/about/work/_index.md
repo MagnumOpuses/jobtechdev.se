@@ -4,7 +4,7 @@ title: "Work with us"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 menuTitle: "Work with us"
-weight: 4
+weight: 40
 ---
 ##### A NEW ERA  
 Within JobTech we're constantly challenging old ways of working and old techniques. We're focusing on using all the opportunities new technology can offer to create new, innovative, valuable solutions and assets for the labour market.

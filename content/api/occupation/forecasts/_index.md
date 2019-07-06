@@ -2,7 +2,7 @@
 title: "Af Occupation Forecast"
 disableToc: true
 menuTitle: "Af Occupation Forecast"
-weight: 30
+weight: 10
 date: 2019-01-19T20:06:16+01:00
 ---
 

@@ -4,7 +4,7 @@ date: 2019-02-26T15:00:35+01:00
 #anchor: "community"
 menuTitle: "Dev community"
 disableToc: true
-weight: 101
+weight: 30
 ---
 #### The nature of application development has changed. 
 Whether you’re building enterprise applications to manage your most
