@@ -15,3 +15,11 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false
 ---
+
+![Life of a Patch](/img/life-of-a-patch.png)
+
+### Purpose
+The purpose of this diagram is to describe the general workflow on how we at Jobtech Dev handles and accepts contributions from both internal and external developments.
+
+### Other notes
+This diagram is a slightly simplified version of Android's Open-Source Contribution workflow (https://source.android.com/setup/contribute/life-of-a-patch).

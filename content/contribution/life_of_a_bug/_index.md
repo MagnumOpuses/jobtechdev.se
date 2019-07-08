@@ -15,3 +15,5 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: false
 ---
+
+![Life of a Bug](/img/life-of-a-bug.png)
