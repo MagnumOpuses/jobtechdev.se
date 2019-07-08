@@ -3,7 +3,7 @@ title: "Af Jobs"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
 menuTitle: "Af Jobs"
-weight: 25
+weight: 30
 ---
 
 
@@ -42,4 +42,4 @@ https://jobtechdev.se/swagger/index.html
 
 Learn more about the Platsbanken API or start use the API right away
 
-[Af Jobs API (Platsbanken)](https://jobtechdev.se/swagger/index.html)
+[Af Jobs API (Platsbanken)](/swagger/index.html)

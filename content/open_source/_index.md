@@ -3,7 +3,7 @@ title: "Open Source"
 date: 2018-01-28T21:58:09+01:00
 menuTitle: "Open Source"
 #anchor: "Open Source"
-weight: 4
+weight: 40
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc: "false"
