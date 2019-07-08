@@ -2,7 +2,7 @@
 title: "MyData"
 disableToc: true
 date: 2019-01-19T20:06:16+01:00
-weight: 1
+weight: 10
 ---
 
 MyData aims for individuals to have control over their own data.The JobTech MyData goal is a distributed and decentralized data storage for the labour market. Take CV data as an example: It should be accessible for those who have an interest in reading or writing in the data but on the basis that the individual always has control of the information. Massive data sets collected by companies and authorities creates possibility to see patterns in the behavior of people, and create new products and services to create a new value. The data can also be used for other purposes for example monitoring or affect opinions in politics. To control a lot of individual data could mean a risk.
@@ -24,10 +24,10 @@ We strive to reuse as much as possible for not inventing the wheel again. The pr
 
 The architecture is divided into four subsystem:
 
-- [mydata-app](https://github.com/JobtechSwe/mydata-app): An app were the individuals handles their data.
+- [mydata-app](https://github.com/JobtechSwe/mydata/tree/master/app): An app were the individuals handles their data.
 
-- [mydata-operator](https://github.com/JobtechSwe/mydata-operator): A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.
+- [mydata-operator](https://github.com/JobtechSwe/mydata/tree/master/operator): A technical operator who granted an approval from the individual, manages the communication between the individual, the data snd an external service.
 
-- [mydata-cv](https://github.com/JobtechSwe/mydata-cv): a sample service that reads /writes to the individual’s data after being allowed to. (Data Source and Data Sink)
+- [mydata-cv](https://github.com/JobtechSwe/mydata/tree/master/examples/cv): a sample service that reads /writes to the individual’s data after being allowed to. (Data Source and Data Sink)
 
 - [mydata-pds](https://github.com/JobtechSwe/mydata-pds): secure data storage, only available for the individual. PDS stands for Personal Data Storage.

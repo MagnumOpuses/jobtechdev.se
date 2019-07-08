@@ -6,6 +6,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+None
+
+## [1.1.0] - 2019-07-08
+
+### Fixed
+- Mydata github links pointed to old repo fixed (https://github.com/MagnumOpuses/jobtechdev.se/pull/59)
+- Broken link to AF Jobs Swagger UI (https://github.com/MagnumOpuses/jobtechdev.se/pull/56)
+- Weights on most pages to avoid page order ambiguity in left-hand menu (https://github.com/MagnumOpuses/jobtechdev.se/pull/61)
+
+### Removed
+- Unnecessary/Duplicated Swagger files (https://github.com/MagnumOpuses/jobtechdev.se/pull/56)
+
+# Changelog
+
+## [1.0.1] - 2019-07-02
+
+### Removed
+- JobScanner preview links due to service being temporarily unavailable (https://github.com/MagnumOpuses/jobtechdev.se/pull/53)
 
 ## [1.0.0] - 2019-07-01
 
