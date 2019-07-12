@@ -31,17 +31,6 @@
             ]
         },
         {
-          "type": "Widget",
-          "name": "Job",
-          "description": "This widget suggests jobs based on the personal data already available in the context in which the widget is placed.",
-          "links":[
-            {
-              "name":"Source code",
-              "url":"https://github.com/JobtechSwe/jobwidget"
-            }
-            ]
-        },
-        {
           "type": "Application",
           "name": "aJob",
           "description": "This is a prototype of a dialog based user interface that helps to find the a collection of suitable services.",
