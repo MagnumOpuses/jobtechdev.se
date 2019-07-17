@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "JobTech Dev"
 theme = "hugo-theme-learn"
-googleAnalytics = "UA-139048426-1"
+# googleAnalytics = "UA-139048426-1"
 #relativeURLs="false"
 #canonifyURLs="true"
 [outputs]
