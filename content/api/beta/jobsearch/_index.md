@@ -12,6 +12,6 @@ There is a lot going on under the hood with how we index the ads for relevance b
 
 If you would like to test the api, send an email to <beta@jobtechdev.se>
 This is an early access but it is most certainly the way the API will look when published. The addresses will be changed. Keep an eye at jobtechdev.se and 
-get registered in the jobtechdevelopment.slack.com to get the latest information.
+we also have slack, jobtechdevelopment.slack.com to get the latest information.
 
-There might be a maximum number of users allowed.
+
