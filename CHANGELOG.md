@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 None
+## [1.1.2] - 2019-07-15 
+
+### Fixed
+- Seperated Analytics and Tag Mangager accounts.
+- Fixed Content Security spec to support font, analytics and tag manager.  
+
+## [1.1.1] - 2019-07-15 
+
+### Fixed
+- Added Google Tag Manager script and tag
 
 ## [1.1.0] - 2019-07-08
 
