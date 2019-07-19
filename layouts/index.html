@@ -1,29 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Page.Language | default "en" }}">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139048426-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-139048426-1');
-    </script>
-    <!-- end Google Analytics -->
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TSB66FR');</script>
-    <!-- End Google Tag Manager -->
-
 	<!-- META -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="Empower people with freedom of choice through an open source infrastructure." />
-	<meta name="author" content="" />
+	<meta name="author" content="Jobtech" />
 	<meta name="robots" content="" />
 	<meta name="description" content="JobTech Developer " />
 	<meta property="og:title" content="JobTech Developer" />
@@ -31,9 +14,7 @@
 	<meta property="og:image" content="RAMA - One Page Parallax" />
 	<meta name="format-detection" content="telephone=no">
 
-	<!-- FAVICONS ICON -->
-	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    {{ partial "favicon.html" . }}
 
 	<!-- PAGE TITLE HERE -->
 	<title>JobTech Developer</title>
@@ -60,8 +41,8 @@
 	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="/css/cookieconsent.min.css" />
-    <script src="/js/cookieconsent.min.js"></script>
+    {{ partial "custom-header.html" . }}
+
     <script>
         window.addEventListener("load", function(){
             window.cookieconsent.initialise({
@@ -74,14 +55,14 @@
                     }
                 },
                 "content": {
-                    "dismiss": "Got it!",
-                    "link": "Cookie Policy",
-                    "href": "/cookie_policy"
+                    "message" : {{ i18n "cookie-message" }}, 
+                    "dismiss": {{ i18n "cookie-ok" }},
+                    "link": {{ i18n "cookie-href-text" }},
+                    "href": {{ i18n "cookie-href" }}
                 },
                 "position": "bottom-right"
             })});
     </script>
-
 </head>
 <body id="bg">
     <!-- Google Tag Manager (noscript) -->

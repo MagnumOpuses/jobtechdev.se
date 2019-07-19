@@ -36,6 +36,24 @@
         {{ end }}
     </style>
     {{ partial "custom-header.html" . }}
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#000"
+                    },
+                    "button": {
+                        "background": "#733ACA"
+                    }
+                },
+                "content": {
+                    "dismiss": "Got it!",
+                    "link": "Cookie Policy",
+                    "href": "/cookie_policy"
+                }
+            })});
+    </script>
 </head>
 <body class="" data-url="{{ .RelPermalink }}">
 {{ partial "menu.html" . }}
