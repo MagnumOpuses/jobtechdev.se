@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 None
+
+
+## [1.1.3] - 2019
+
+### Fixed
+- nginx points 404 to /404.html
+- Swedish cookie popup
+- Swedish API status
+- Minor cleaning of content
+
 ## [1.1.2] - 2019-07-15 
 
 ### Fixed

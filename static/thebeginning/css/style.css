@@ -8818,6 +8818,10 @@ ol.commentlist li .star-rating {
     white-space: pre;
     content: "\A \A All good!";
 }
+body:lang(sv) .status2::after {
+    content: "\A \A Fungerar !";
+}
+
 .status9 {
     white-space: nowrap;
     color:#ff4d4d;
@@ -8832,6 +8836,10 @@ ol.commentlist li .star-rating {
     color: #fff;
     white-space: pre;
     content: "\A \A Down!";
+}
+body:lang(sv) .status9::after {
+    content: "\A \A Nere!";
+
 }
 .status {
     white-space: nowrap;
