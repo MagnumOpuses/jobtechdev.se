@@ -18,7 +18,7 @@
           },
           {
            "q":"How can I get in touch with JobTech?",
-           "a":"If you would like to contact us, please e-mail us at contact@jobtechdev.se"
+           "a":"If you would like to contact us, please e-mail us at <a href='mailto:contact@jobtechdev.se'>contact@jobtechdev.se</a>"
           }                   
     ]
     },  
