@@ -52,7 +52,7 @@
         {{range $val := $val.qa}}
             <div class="collapsible q-bubble">Q: {{index $val.q}} </div>
             <div class="card-content a-bubble">
-                <p><strong>Answer:</strong> {{index $val.a}} </p>
+                <p><strong>Answer:</strong> {{index $val.a | markdownify }} </p>
             </div>
         {{end}}
     </div>
