@@ -48,7 +48,11 @@
                {
                 "q":"The API deliver to much information, can I filter some how?",
                 "a":"You could use X-files header to decide what information you want. For example: curl -X GET “https://open-api.dev.services.jtech.se/search?offset=0&limit=10” -H “accept: application/json” -H “api-key: XXXXX” -H “X-Fields: {hits{id, headline}}”"
-               }                                
+               },
+               {
+                "q":"Where can I find a full list of possible options for at least employment_type and occupation_field fields?",
+                "a":"You could get a list of possible options for the employment_type and the other fields, by using the Taxonomy API. For example use this curl -X GET “https://open-api.dev.services.jtech.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
+               }                                  
           ]
     }                 
 ]
