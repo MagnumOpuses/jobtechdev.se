@@ -44,7 +44,11 @@
                {
                 "q":"How can I get all job ads?",
                 "a":"If you want all ads we recommend you to use the Bulk API."
-               }                   
+               }, 
+               {
+                "q":"The API deliver to much information, can I filter some how?",
+                "a":"You could use X-files header to decide what information you want. For example: curl -X GET “https://open-api.dev.services.jtech.se/search?offset=0&limit=10” -H “accept: application/json” -H “api-key: XXXXX” -H “X-Fields: {hits{id, headline}}”"
+               }                                
           ]
     }                 
 ]
