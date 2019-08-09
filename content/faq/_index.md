@@ -43,7 +43,7 @@
                },
                {
                 "q":"How can I get all job ads?",
-                "a":"If you want all ads we recommend you to use the Bulk API."
+                "a":"If you want all ads we recommend you to use the <a href='https://bulk-api.dev.services.jtech.se' target='blank'>Bulk API</a>"
                }, 
                {
                 "q":"The API deliver to much information, can I filter some how?",
@@ -51,7 +51,7 @@
                },
                {
                 "q":"Where can I find a full list of possible options for at least employment_type and occupation_field fields?",
-                "a":"You could get a list of possible options for the employment_type and the other fields, by using the Taxonomy API. For example use this curl -X GET “https://open-api.dev.services.jtech.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
+                "a":"You could get a list of possible options for the employment_type and the other fields, by using the <a href='https://open-api.dev.services.jtech.se/' target='blank'>Taxonomy API</a> For example use this curl -X GET “https://open-api.dev.services.jtech.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
                }                                  
           ]
     }                 
