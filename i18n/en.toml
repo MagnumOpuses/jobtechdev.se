@@ -1,6 +1,18 @@
 [try-it]
 other = "Try it"
 
+[cookie-message]
+other = "This website uses cookies to ensure you get the best experience on our website."
+
+[cookie-ok]
+other = "Got it!"
+
+[cookie-href]
+other = "/cookie_policy/english/"
+
+[cookie-href-text]
+other = "Cookie policy"
+
 [read-more]
 other = "Read more"
 
