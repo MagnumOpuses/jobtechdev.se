@@ -10,7 +10,7 @@
           },
           {
            "q":"Can I add an application of my own as a showcase?",
-           "a":"Yes, we'd love to show what you've done! To add a sample, it needs to be open source. Please email us at contact@jobtechdev.se if you would like to publish a sample of your own."
+           "a":"Yes, we'd love to show what you've done! To add a sample, it needs to be open source. Please email us at <a href='mailto:contact@jobtechdev.se'>contact@jobtechdev.se</a> if you would like to publish a sample of your own."
           },
           {
            "q":"What's the difference between SSYK and Yrkesid?",
