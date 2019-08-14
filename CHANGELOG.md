@@ -12,6 +12,7 @@ None
 ## [1.1.3] - 2019
 
 ### Fixed
+- nginx points 404 to /404.html
 - Swedish cookie popup
 - Swedish API status
 - Minor cleaning of content
