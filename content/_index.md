@@ -22,3 +22,13 @@ LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
 ---
+
+
+
+# About us
+<hr>
+### An open digital infrastructure that enables people to meet. 
+All actors can easily contribute with their data and code - as well as take part of others’.
+
+
+{{% children style="p" %}}
