@@ -1,8 +1,9 @@
 ---
-title: "Cookie Policy"
-disableToc: true
+title:
+disableToc: false
 date: 2019-01-19T20:06:16+01:00
-weight: 60
+weight: 
+chapter: true
 # Set the page as a chapter, changing the way it's displayed
 chapter: true
 ---
