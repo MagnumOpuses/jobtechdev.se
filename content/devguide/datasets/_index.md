@@ -1,8 +1,8 @@
 ---
-title: Dev guide
+title: "Data sets"
 date: 2018-01-28T21:58:09+01:00
-
-weight: 1
+#anchor: "devguide"
+weight: 15
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc: "false"
@@ -21,10 +21,14 @@ LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
 ---
-# Dev guide 
+### API Noticeboard
 <hr>
-### Open resources for developers
 
-Get started quickly
+
+
+In this area you will find data sets to develop use for the labour market area
+
+Do you have questions or want  to get in touch with us?  
+<contact@jobtechdev.se>
 
 {{% children style="p" %}}
