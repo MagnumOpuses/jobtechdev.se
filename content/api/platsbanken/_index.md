@@ -16,13 +16,6 @@ Information on how to access the beta version is available at https://jobtechdev
 {{% /notice %}}
 The Af Job API contains all current job ads from Swedish Public Employment Service. Somewhere around 100000 job ads, about 3000 new ads are submitted daily by employers, 5 million accesses to the job posting database daily.
 
- 
-
-<!--
-{{< oai-spec url="http://develop.sokapi.platsbanka.nu/swagger.json" api_key="special-key" >}}
--->
-
-{{< swagger-spec url="http://develop.sokapi.platsbanka.nu/swagger.json" >}}
 
 *With the API it is free of charge for everyone to interact with Arbetsförmedlingens job ad database with in custom built services.*
 
