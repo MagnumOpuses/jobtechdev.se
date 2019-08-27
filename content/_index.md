@@ -30,7 +30,7 @@ LastModifierEmail: ""
 This site is powered and financed by The Swedish Public Employment Service (Arbetsförmedlingen).  
 The goal is to serve the labour market by creating a open digital infrastructure.
 
-We provide relevant data for the labour market.
+We provide relevant data for developers interested in the labour market.
 
 
 
