@@ -4,7 +4,7 @@ date: 2018-01-28T21:58:09+01:00
 weight: 10
 
 ---
-# About us
+
 <hr>
 Jobtech development is a part of the Swedish public employment service (Arbetsförmedlingen)  
 JobTech (job technology)
