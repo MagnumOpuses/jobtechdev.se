@@ -21,12 +21,12 @@ LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
 ---
-### Swedish labour market related APIs
+### Swedish Public Employment Service - labour market related APIs
 <hr>
 
 
 In this area you will find APIs to help you develop use for the labour market.
-At each api site you will find information about Api key requests and so on...
+At each api site you will find information about the API and how to request an Api key.
 
 Do you have questions or want  to get in touch with us?  
 <contact@jobtechdev.se>
