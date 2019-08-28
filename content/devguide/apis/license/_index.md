@@ -1,6 +1,8 @@
 ---
 title: "LICENSE"
 date: 2018-01-28T21:58:09+01:00
+description: "We think reusing and sharing assets is a catalyst for community, innovation and acceleration of Sweden’s democratic value-system, in all its forms."
+url: "/apis/License"
 #anchor: "API"
 weight: 40
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
