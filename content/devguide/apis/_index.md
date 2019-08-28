@@ -1,7 +1,7 @@
 ---
 title: "Apis"
 date: 2018-01-28T21:58:09+01:00
-#anchor: "devguide"
+#anchor: "aapis"
 weight: 15
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
@@ -33,4 +33,7 @@ Do you have questions or want  to get in touch with us?
 
 
 
-{{% children style="p" %}}
+
+
+
+{{< apis >}}
