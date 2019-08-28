@@ -1,5 +1,5 @@
 ---
-title: "Dev Guide"
+title: "Dev Guides"
 date: 2018-01-28T21:58:09+01:00
 #anchor: "devguide"
 weight: 15
@@ -21,17 +21,12 @@ LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
 ---
-### API Noticeboard
+### Dev Guides
 <hr>
+Do you want to develop for the benefit of the Swedish Labour Market? This is the right place to be!  
+In this section you will find open data from the Swedish public empolyment service ( Arbetsförmedlingen)
 
 
-
-The open API “Af Jobs” for job advertisements will be replaced in 2019 with a new version, the closure will take place on the last of November. The support of the current version will end at September 1, 2019 and the new API will be available in June. <b> A beta version is available already.
-Information on how to access the beta version is available at </b> [ https://jobtechdev.se/api/beta/jobsearch/ ](/api/beta/jobsearch/)
- 
-
-The new advertisement API is built in cooperation with our developer and UX designers at Platsbanken, but input from external users has also been the basis for how the API looks from the start.
-The replacement system will initially consist of a purely a classified search API for job ads and an API for retrieving all ads based on time intervals.
 
 Do you have questions or want  to get in touch with us?  
 <contact@jobtechdev.se>
