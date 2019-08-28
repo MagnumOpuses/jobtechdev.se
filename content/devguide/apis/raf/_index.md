@@ -1,9 +1,11 @@
 ---
-title: "Af Work Ability"
-menuTitle: "Af Work Ability"
+title: "Af Work Ability RAF"
+menuTitle: "Af Work Ability RAF"
 disableToc: true
 weight: 30
 date: 2019-01-19T20:06:16+01:00
+description: "RAF is a documentation that can be used as support and guidance in assessing workforce in health insurance. RAF can also be used in other contexts, for example in connection with Försäkringskassans communication with insured, employers and the Employment Service."
+url: "/apis/Af Workability RAF"
 ---
 
 {{% notice info %}}
