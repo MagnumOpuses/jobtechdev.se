@@ -71,4 +71,6 @@ home = [ "HTML", "RSS", "JSON"]
 
 
 
+[[permalinks]]
+   devguides = "/:Apis/:url"
 
