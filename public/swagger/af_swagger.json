@@ -1,0 +1,1244 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.4",
+    "description": "Beskrivande text om API"
+  },
+  "host": "api.arbetsformedlingen.se",
+  "schemes": "http",
+  "basePath": "/af",
+  "tags": [
+    {
+      "name": "arbetsformedlingen"
+    },
+    {
+      "name": "platsannonser"
+    },
+    {
+      "name": "soklista"
+    }
+  ],
+  "paths": {
+    "/v0/arbetsformedling/{afplatsid}": {
+      "get": {
+        "tags": [
+          "arbetsformedlingen"
+        ],
+        "summary": "afplatsid",
+        "description": "Hämta en AF",
+        "operationId": "fetchArbetsformedlingsKontor",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "afplatsid",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "AF kontor hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/arbetsformedling/platser": {
+      "get": {
+        "tags": [
+          "arbetsformedlingen"
+        ],
+        "summary": "platser",
+        "description": "Hämta en AF-platser",
+        "operationId": "listArbetsformedlingsplatser",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "lanid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "AF kontor hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/arbetsformedling/soklista/lan": {
+      "get": {
+        "tags": [
+          "arbetsformedlingen"
+        ],
+        "operationId": "listLan",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [],
+        "responses": {
+          "default": {
+            "description": "successful operation"
+          }
+        }
+      }
+    },
+    "/v0/arbetsformedling/aktivitet": {
+      "get": {
+        "tags": [
+          "arbetsformedlingen"
+        ],
+        "summary": "aktivitet",
+        "description": "Hämta en AF-aktivitet",
+        "operationId": "fetchAktiviteter",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "lanid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "aktivitetstyp",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "default": 1,
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "AF kontor hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/version": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta API-version",
+        "description": "Hämta API:ets version.",
+        "operationId": "getVersion",
+        "produces": [
+          "text/plain",
+          "text/html"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/{annonsid}/typ=html": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta en specifik platsannons i HTML-format",
+        "description": "Hämta en specifik platsannons, i HTML-format, enlig givet annonsid.",
+        "operationId": "fetchHTMLPlatsannons",
+        "consumes": [
+          "text/html"
+        ],
+        "produces": [
+          "text/html"
+        ],
+        "parameters": [
+          {
+            "name": "annonsid",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "default": "SV"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "Platsannons hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/{annonsid}": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta en specifik platsannons",
+        "description": "Hämta en specifik platsannons enlig givet annonsid.",
+        "operationId": "fetchPlatsannons",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "annonsid",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "Platsannons hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/matchning": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta en matchningslista med platsannonser",
+        "description": "Hämta en matchningslista med platsannonser utifrån givna sökparametrar.",
+        "operationId": "listMatchningar",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "lanid",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "default":"1",
+            "description":"Lista över län finns via anropet http://api.arbetsformedlingen.se/af/v0/platsannonser/soklista/lan"
+          },
+          {
+            "name": "landid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "omradeid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "yrkesid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "kommunid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "nyckelord",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "yrkesomradeid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "yrkesgruppid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "varaktighetid",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "organisationsnummer",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "anstallningstyp",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "grupperat",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sokdatum",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sida",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "default": "1"
+          },
+          {
+            "name": "antalrader",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "default": "20"
+          },
+          {
+            "name": "antal",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "Platsannons hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/ssyk/version": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta SSYK-version",
+        "description": "Hämta SSYK-version.",
+        "operationId": "getSsykVersion",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "Platsannons hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/{annonsid}/logotyp": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta logotypbild för en specifik platsannons",
+        "description": "Hämta logotypbild för en specifik platsannons enlig givet annonsid.",
+        "operationId": "fetchLogotyp",
+        "produces": [
+          "image/gif"
+        ],
+        "parameters": [
+          {
+            "name": "annonsid",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "400": {
+            "description": "Ogiltigt anrop"
+          },
+          "404": {
+            "description": "Platsannons hittades ej"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/ssyk/fil": {
+      "get": {
+        "tags": [
+          "platsannonser"
+        ],
+        "summary": "Hämta SSYK-fil",
+        "description": "Hämta SSYK-fil.",
+        "operationId": "fetchSSYKFile",
+        "produces": [
+          "text/plain;charset=UTF-8"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Ok"
+          },
+          "500": {
+            "description": "Tekniskt fel"
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/land": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med länder tillhörande givet område",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla länder tillhörande givet område",
+        "operationId": "listLander",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "omradeid",
+            "in": "query",
+            "description": "Unikt id för område (världsdel)",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/yrkesgrupper": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med yrkesgrupper för givet yrkesomrade",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla yrkesgrupper tillhörande givet yrkesområde.",
+        "operationId": "listYrkesgrupper",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "yrkesomradeid",
+            "in": "query",
+            "description": "Unikt id för yrkesområde",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/yrkesomraden": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med yrkesomraden",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla yrkesområden.",
+        "operationId": "listYrkesomraden",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/yrken": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med yrken för given yrkesgrupp",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla yrken tillhörande given yrkesgrupp.",
+        "operationId": "listYrken",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "yrkesgruppid",
+            "in": "query",
+            "description": "Unikt id för yrkesgrupp",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/yrken/{yrkesbenamning}": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med yrken för givet yrkesnamn i fritext",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla yrken som matchar givet yrkesnamn.",
+        "operationId": "listYrkenFritext",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "yrkesbenamning",
+            "in": "path",
+            "description": "Ett yrkesnamn eller en del av ett yrkesnamn",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/kommuner": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med kommuner för givet län",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla kommuner tillhörande givet län.",
+        "operationId": "listKommuner",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [
+          {
+            "name": "lanid",
+            "in": "query",
+            "description": "Unikt id för län",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/lan2": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med län samt utland",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla län samt utland.",
+        "operationId": "listLan2",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/lan": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med län",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla län.",
+        "operationId": "listLan",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    },
+    "/v0/platsannonser/soklista/omrade": {
+      "get": {
+        "tags": [
+          "soklista"
+        ],
+        "summary": "Hämta en söklista med världsdelar",
+        "description": "Hämta söklista innehållande antal platsannonser och antal lediga jobb för alla världsdelar.",
+        "operationId": "listOmraden",
+        "produces": [
+          "application/json;charset=utf-8; qs=1",
+          "application/xml;charset=utf-8; qs=0.75"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/soklista"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "arbetsformedling": {
+      "type": "object",
+      "properties": {
+        "afplatskod": {
+          "type": "string"
+        },
+        "afplatsnamn": {
+          "type": "string"
+        },
+        "afplatschef": {
+          "type": "string"
+        },
+        "besoksadress": {
+          "type": "string"
+        },
+        "besoksort": {
+          "type": "string"
+        },
+        "postadress": {
+          "type": "string"
+        },
+        "postnummer": {
+          "type": "string"
+        },
+        "postort": {
+          "type": "string"
+        },
+        "epostadress": {
+          "type": "string"
+        },
+        "kontakttelefonnummer": {
+          "type": "string"
+        },
+        "arbetsgivartelefonnummer": {
+          "type": "string"
+        },
+        "faxnummer": {
+          "type": "string"
+        },
+        "telefontid": {
+          "type": "string"
+        },
+        "sjalvservicetid": {
+          "type": "string"
+        },
+        "personligservicetid": {
+          "type": "string"
+        },
+        "latitud": {
+          "type": "string"
+        },
+        "longitud": {
+          "type": "string"
+        },
+        "extra_information": {
+          "type": "string"
+        }
+      },
+      "xml": {
+        "name": "arbetsformedling"
+      }
+    },
+    "Arbetsformedlingplatsdata": {
+      "type": "object",
+      "properties": {
+        "afplatskod": {
+          "type": "string"
+        },
+        "afplatsnamn": {
+          "type": "string"
+        }
+      }
+    },
+    "arbetsformedlingslista": {
+      "type": "object",
+      "properties": {
+        "arbetsformedlingplatsdata": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Arbetsformedlingplatsdata"
+          }
+        }
+      },
+      "xml": {
+        "name": "arbetsformedlingslista"
+      }
+    },
+    "Aktivitetdata": {
+      "type": "object",
+      "properties": {
+        "titel": {
+          "type": "string"
+        },
+        "beskrivning": {
+          "type": "string"
+        },
+        "datum": {
+          "type": "string"
+        },
+        "plats": {
+          "type": "string"
+        },
+        "målgrupp": {
+          "type": "string"
+        },
+        "kontor": {
+          "type": "string"
+        },
+        "anordnare": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "merinfo": {
+          "type": "string"
+        }
+      }
+    },
+    "aktivitetlista": {
+      "type": "object",
+      "properties": {
+        "aktivitetdata": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Aktivitetdata"
+          }
+        },
+        "listnamn": {
+          "type": "string"
+        },
+        "antalAktiviteter": {
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "xml": {
+        "name": "aktivitetlista"
+      }
+    },
+    "Annons": {
+      "type": "object",
+      "properties": {
+        "annonsid": {
+          "type": "string"
+        },
+        "platsannonsUrl": {
+          "type": "string"
+        },
+        "annonsrubrik": {
+          "type": "string"
+        },
+        "annonstext": {
+          "type": "string"
+        },
+        "yrkesbenamning": {
+          "type": "string"
+        },
+        "yrkesid": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "publiceraddatum": {
+          "type": "string"
+        },
+        "antal_platser": {
+          "type": "string"
+        },
+        "kommunnamn": {
+          "type": "string"
+        },
+        "kommunkod": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antalplatserVisa": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "anstallningstyp": {
+          "type": "string"
+        }
+      }
+    },
+    "Ansokan": {
+      "type": "object",
+      "properties": {
+        "referens": {
+          "type": "string"
+        },
+        "webbplats": {
+          "type": "string"
+        },
+        "epostadress": {
+          "type": "string"
+        },
+        "sista_ansokningsdag": {
+          "type": "string"
+        },
+        "ovrigt_om_ansokan": {
+          "type": "string"
+        }
+      }
+    },
+    "Arbetsplats": {
+      "type": "object",
+      "properties": {
+        "arbetsplatsnamn": {
+          "type": "string"
+        },
+        "postnummer": {
+          "type": "string"
+        },
+        "postadress": {
+          "type": "string"
+        },
+        "postort": {
+          "type": "string"
+        },
+        "postland": {
+          "type": "string"
+        },
+        "land": {
+          "type": "string"
+        },
+        "besoksadress": {
+          "type": "string"
+        },
+        "logotypurl": {
+          "type": "string"
+        },
+        "hemsida": {
+          "type": "string"
+        },
+        "kontaktpersonlista": {
+          "$ref": "#/definitions/Kontaktpersonlista"
+        },
+        "organisationsnummer": {
+          "type": "string"
+        },
+        "besoksort": {
+          "type": "string"
+        },
+        "telefonnummer": {
+          "type": "string"
+        },
+        "faxnummer": {
+          "type": "string"
+        },
+        "epostadress": {
+          "type": "string"
+        }
+      }
+    },
+    "Kontaktpersondata": {
+      "type": "object",
+      "properties": {
+        "namn": {
+          "type": "string"
+        },
+        "titel": {
+          "type": "string"
+        },
+        "telefonnummer": {
+          "type": "string"
+        },
+        "epostadress": {
+          "type": "string"
+        },
+        "mobilnummer": {
+          "type": "string"
+        },
+        "telefonnummer2": {
+          "type": "string"
+        },
+        "beskrivning": {
+          "type": "string"
+        },
+        "kontaktpersonertelefon1beskrivning": {
+          "type": "string"
+        },
+        "kontaktpersonertelefon2beskrivning": {
+          "type": "string"
+        }
+      }
+    },
+    "Kontaktpersonlista": {
+      "type": "object",
+      "properties": {
+        "kontaktpersondata": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Kontaktpersondata"
+          }
+        }
+      }
+    },
+    "Korkortslista": {
+      "type": "object",
+      "properties": {
+        "korkortstyp": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Krav": {
+      "type": "object",
+      "properties": {
+        "korkortslista": {
+          "$ref": "#/definitions/Korkortslista"
+        },
+        "egenbil": {
+          "type": "boolean"
+        }
+      }
+    },
+    "Villkor": {
+      "type": "object",
+      "properties": {
+        "varaktighet": {
+          "type": "string"
+        },
+        "arbetstid": {
+          "type": "string"
+        },
+        "arbetstidvaraktighet": {
+          "type": "string"
+        },
+        "tilltrade": {
+          "type": "string"
+        },
+        "lonetyp": {
+          "type": "string"
+        },
+        "loneform": {
+          "type": "string"
+        }
+      }
+    },
+    "platsannons": {
+      "type": "object",
+      "properties": {
+        "annons": {
+          "$ref": "#/definitions/Annons"
+        },
+        "villkor": {
+          "$ref": "#/definitions/Villkor"
+        },
+        "ansokan": {
+          "$ref": "#/definitions/Ansokan"
+        },
+        "arbetsplats": {
+          "$ref": "#/definitions/Arbetsplats"
+        },
+        "krav": {
+          "$ref": "#/definitions/Krav"
+        }
+      },
+      "xml": {
+        "name": "platsannons"
+      }
+    },
+    "Matchningdata": {
+      "type": "object",
+      "required": [
+        "annonsid",
+        "annonsrubrik",
+        "annonsurl",
+        "publiceraddatum",
+        "sista_ansokningsdag"
+      ],
+      "properties": {
+        "annonsid": {
+          "type": "string"
+        },
+        "annonsrubrik": {
+          "type": "string"
+        },
+        "yrkesbenamning": {
+          "type": "string"
+        },
+        "yrkesbenamningId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "arbetsplatsnamn": {
+          "type": "string"
+        },
+        "kommunnamn": {
+          "type": "string"
+        },
+        "kommunkod": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "publiceraddatum": {
+          "type": "string"
+        },
+        "sista_ansokningsdag": {
+          "type": "string"
+        },
+        "annonsurl": {
+          "type": "string"
+        },
+        "relevans": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antalplatser": {
+          "type": "string"
+        },
+        "antalPlatserVisa": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "varaktighetId": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "lanid": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "lan": {
+          "type": "string"
+        },
+        "anstallningstyp": {
+          "type": "string"
+        }
+      }
+    },
+    "matchningslista": {
+      "type": "object",
+      "properties": {
+        "antal_platsannonser": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antal_platsannonser_exakta": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antal_platsannonser_narliggande": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antal_platserTotal": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antal_sidor": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "matchningdata": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Matchningdata"
+          }
+        }
+      },
+      "xml": {
+        "name": "matchningslista"
+      }
+    },
+    "InputStream": {
+      "type": "object"
+    },
+    "Sokdata": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "namn": {
+          "type": "string"
+        },
+        "antal_platsannonser": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "antal_ledigajobb": {
+          "type": "integer",
+          "format": "int32"
+        }
+      },
+      "xml": {
+        "name": "sokldata"
+      }
+    },
+    "soklista": {
+      "type": "object",
+      "properties": {
+        "listnamn": {
+          "type": "string"
+        },
+        "totalt_antal_platsannonser": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "totalt_antal_ledigajobb": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "sokdata": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Sokdata"
+          }
+        }
+      },
+      "xml": {
+        "name": "soklista"
+      }
+    }
+  }
+}

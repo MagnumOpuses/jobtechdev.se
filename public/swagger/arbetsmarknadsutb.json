@@ -1,0 +1,1819 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"title": "Arbetsmarknadsutbildningar",
+		"version": "v1"
+	},
+	"host": "apier.arbetsformedlingen.se",
+	"basePath": "/arbetsmarknadsutbildningar/v1/",
+	"schemes": [
+		"https"
+	],
+	"paths": {
+		"/ipf/health": {
+			"get": {
+				"operationId": "Health",
+				"description": "Returnerar en sträng som anger om servern är uppe.",
+				"parameters": [
+					{
+						"name": "client_id",
+						"default": "c86ff7120e1c4297808b8333c6aacf9b",
+						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "client_secret",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
+						"description": "The client seceret authenticating that the calling client is whom it say it is.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "AF-TrackingId",
+						"description": "Used to track a request beween systems. Must be created by the originating system and forwarde by all parties. The format is a guid.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-SystemId",
+						"description": "Unique identifier for the calling system.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-EndUserId",
+						"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for traceing not autorization.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					}
+
+				],
+				"responses": {
+					"200": {
+						"description": "Successfull execution of request.",
+						"headers": {
+							"AF-TrackingId": {
+								"x-amf-example": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+								"type": "string"
+							},
+							"AF-SystemId": {
+								"description": "Unique identifier for the responding system.",
+								"x-amf-example": "SomeSystemId",
+								"type": "string"
+							},
+							"AF-ResponseTime": {
+								"x-amf-required": false,
+								"description": "The time it took for the system to process the request in miliseconds.",
+								"x-amf-example": 12,
+								"type": "integer"
+							},
+							"AF-EndUserId": {
+								"x-amf-required": false,
+								"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for tracing not autorization.",
+								"type": "string"
+							}
+						},
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"status": "UP",
+								"messageId": "9c3af390-40dd-11e9-be6e-1062e59f16e1"
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"description": "This is used by client_id enforcement Policy",
+							"example": {
+								"error": "missing_client_secret",
+								"description": "client_secret is missing"
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"error",
+								"description"
+							],
+							"properties": {
+								"error": {
+									"type": "string"
+								},
+								"description": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"503": {
+						"description": "",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"status": "DOWN",
+								"messageId": "6bfe9520-40dc-11e9-9298-1062e59f16e1",
+								"reason": "Reason description"
+							}
+						}
+					}
+				}
+			}
+		},
+		"/yrkesomraden": {
+			"get": {
+				"operationId": "Yrkesområden",
+				"description": "Returnerar antal pågående utbildningar och antal bokningar per yrkesområde.",
+				"parameters": [
+					{
+						"name": "client_id",
+						"default":"c86ff7120e1c4297808b8333c6aacf9b",
+						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "client_secret",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
+						"description": "The client seceret authenticating that the calling client is whom it say it is.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "AF-TrackingId",
+						"description": "Used to track a request beween systems. Must be created by the originating system and forwarde by all parties. The format is a guid.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-SystemId",
+						"description": "Unique identifier for the calling system.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-EndUserId",
+						"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for traceing not autorization.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"headers": {
+							"AF-TrackingId": {
+								"x-amf-example": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+								"type": "string"
+							},
+							"AF-SystemId": {
+								"description": "Unique identifier for the responding system.",
+								"x-amf-example": "SomeSystemId",
+								"type": "string"
+							},
+							"AF-ResponseTime": {
+								"x-amf-required": false,
+								"description": "The time it took for the system to process the request in miliseconds.",
+								"x-amf-example": 12,
+								"type": "integer"
+							},
+							"AF-EndUserId": {
+								"x-amf-required": false,
+								"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for tracing not autorization.",
+								"type": "string"
+							}
+						},
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": [
+								{
+									"yrkesomradeId": "3",
+									"antalPagaendeUtbildningstillfallen": 7,
+									"antalBokningar": 35,
+									"utbildningar": []
+								},
+								{
+									"yrkesomradeId": "7",
+									"antalPagaendeUtbildningstillfallen": 4,
+									"antalBokningar": 12,
+									"utbildningar": []
+								}
+							],
+							"type": "array",
+							"items": {
+								"example": {
+									"yrkesomradeId": "3",
+									"antalPagaendeUtbildningstillfallen": 2,
+									"antalBokningar": 3,
+									"utbildningar": [
+										{
+											"namn": "Programmering och projektledning",
+											"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+											"ssykKoder": [
+												"1234"
+											],
+											"id": 123456,
+											"forkunskaper": "Viss förkunskap krävs i programmering.",
+											"utbildningsklass": "AUB",
+											"antalutbildningstillfallen": 2,
+											"sokord": "Programmering",
+											"utbildningstillfallen": [],
+											"utbildningsModuler": []
+										},
+										{
+											"sokord": "Hemkunskap",
+											"namn": "Hemkunskap",
+											"utbildningsModuler": [],
+											"utbildningstillfallen": [],
+											"id": 654321,
+											"beskrivning": "Grundkurs i hemkunskap.",
+											"ssykKoder": [
+												"4321"
+											],
+											"forkunskaper": "Inga",
+											"antalutbildningstillfallen": 3,
+											"utbildningsklass": "AUB"
+										}
+									]
+								},
+								"type": "object",
+								"additionalProperties": true,
+								"required": [
+									"antalBokningar",
+									"antalPagaendeUtbildningstillfallen",
+									"utbildningar",
+									"yrkesomradeId"
+								],
+								"properties": {
+									"antalBokningar": {
+										"type": "integer",
+										"format": "int32"
+									},
+									"antalPagaendeUtbildningstillfallen": {
+										"type": "integer",
+										"format": "int32"
+									},
+									"utbildningar": {
+										"type": "array",
+										"items": {
+											"example": {
+												"namn": "Programmering och projektledning",
+												"utbildningstillfallen": [],
+												"sokord": "Programmering",
+												"antalutbildningstillfallen": 3,
+												"id": 123456,
+												"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+												"forkunskaper": "Viss förkunskap krävs i programmering",
+												"ssykKoder": [
+													"1234"
+												],
+												"utbildningsklass": "AUB",
+												"utbildningsModuler": [
+													{
+														"id": 1234,
+														"riktlangd": 0,
+														"namn": "Prohrammering A",
+														"distans": false,
+														"mal": "Mal",
+														"utbildningsform": "Certifierande",
+														"innehall": "Innehåll"
+													},
+													{
+														"id": 4321,
+														"distans": false,
+														"utbildningsform": "Certifierande",
+														"mal": "Mal",
+														"innehall": "Innehåll",
+														"riktlangd": 0,
+														"namn": "Certifierande projektledningsmodul"
+													}
+												]
+											},
+											"type": "object",
+											"additionalProperties": true,
+											"required": [
+												"antalutbildningstillfallen",
+												"beskrivning",
+												"forkunskaper",
+												"id",
+												"namn",
+												"sokord",
+												"ssykKoder",
+												"utbildningsModuler",
+												"utbildningsklass",
+												"utbildningstillfallen"
+											],
+											"properties": {
+												"antalutbildningstillfallen": {
+													"type": "integer",
+													"format": "int32"
+												},
+												"beskrivning": {
+													"type": "string"
+												},
+												"forkunskaper": {
+													"type": "string"
+												},
+												"id": {
+													"type": "integer",
+													"format": "int64"
+												},
+												"namn": {
+													"type": "string"
+												},
+												"sokord": {
+													"type": "string"
+												},
+												"ssykKoder": {
+													"type": "array",
+													"items": {
+														"type": "string"
+													}
+												},
+												"utbildningsModuler": {
+													"type": "array",
+													"items": {
+														"type": "object",
+														"additionalProperties": true,
+														"required": [
+															"distans",
+															"id",
+															"innehall",
+															"mal",
+															"namn",
+															"riktlangd",
+															"utbildningsform"
+														],
+														"properties": {
+															"distans": {
+																"type": "boolean"
+															},
+															"id": {
+																"type": "integer",
+																"format": "int64"
+															},
+															"innehall": {
+																"type": "string"
+															},
+															"mal": {
+																"type": "string"
+															},
+															"namn": {
+																"type": "string"
+															},
+															"riktlangd": {
+																"type": "integer",
+																"format": "int64"
+															},
+															"utbildningsform": {
+																"type": "string"
+															}
+														}
+													}
+												},
+												"utbildningsklass": {
+													"type": "string"
+												},
+												"utbildningstillfallen": {
+													"type": "array",
+													"items": {
+														"type": "object",
+														"additionalProperties": true,
+														"required": [
+															"adress",
+															"antagningsform",
+															"antalKandidater",
+															"id",
+															"leverantor",
+															"slutdatum",
+															"startdatum",
+															"totalkapacitet",
+															"utbildningstyp",
+															"yrkesomradesId"
+														],
+														"properties": {
+															"adress": {
+																"type": "object",
+																"additionalProperties": true,
+																"required": [
+																	"gatuadress",
+																	"kommunkod",
+																	"lanskod",
+																	"latitud",
+																	"longitud",
+																	"postnummer",
+																	"postort"
+																],
+																"properties": {
+																	"gatuadress": {
+																		"type": "string"
+																	},
+																	"kommunkod": {
+																		"type": "string"
+																	},
+																	"lanskod": {
+																		"type": "string"
+																	},
+																	"latitud": {
+																		"type": "number",
+																		"format": "double"
+																	},
+																	"longitud": {
+																		"type": "number",
+																		"format": "double"
+																	},
+																	"postnummer": {
+																		"type": "string"
+																	},
+																	"postort": {
+																		"type": "string"
+																	}
+																}
+															},
+															"antagningsform": {
+																"type": "string"
+															},
+															"antalKandidater": {
+																"type": "integer",
+																"format": "int32"
+															},
+															"id": {
+																"type": "integer",
+																"format": "int64"
+															},
+															"leverantor": {
+																"type": "object",
+																"additionalProperties": true,
+																"required": [
+																	"namn",
+																	"organisationsnummer"
+																],
+																"properties": {
+																	"namn": {
+																		"type": "string"
+																	},
+																	"organisationsnummer": {
+																		"type": "string"
+																	}
+																}
+															},
+															"slutdatum": {
+																"type": "string",
+																"format": "date-time"
+															},
+															"startdatum": {
+																"type": "string",
+																"format": "date-time"
+															},
+															"totalkapacitet": {
+																"type": "integer",
+																"format": "int32"
+															},
+															"utbildningstyp": {
+																"type": "string"
+															},
+															"yrkesomradesId": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									"yrkesomradeId": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "Bad Request",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Bad request",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"description": "This is used by client_id enforcement Policy",
+							"example": {
+								"error": "missing_client_secret",
+								"description": "client_secret is missing"
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"error",
+								"description"
+							],
+							"properties": {
+								"error": {
+									"type": "string"
+								},
+								"description": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Not found",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Not found",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "Internal error",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Internal error",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/yrkesomrade/{yrkesomradeId}/utbildningar": {
+			"get": {
+				"operationId": "Utbildningar",
+				"description": "Returnerar pågående utbildningar per yrkesområde.",
+				"parameters": [
+					{
+						"name": "client_id",
+						"default":"c86ff7120e1c4297808b8333c6aacf9b",
+						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "client_secret",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
+						"description": "The client seceret authenticating that the calling client is whom it say it is.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "yrkesomradeId",
+						"description": "Yrkesområdets id",
+						"required": true,
+						"in": "path",
+						"type": "string"
+					},
+					{
+						"name": "AF-TrackingId",
+						"description": "Used to track a request beween systems. Must be created by the originating system and forwarde by all parties. The format is a guid.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-SystemId",
+						"description": "Unique identifier for the calling system.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-EndUserId",
+						"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for traceing not autorization.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"headers": {
+							"AF-TrackingId": {
+								"x-amf-example": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+								"type": "string"
+							},
+							"AF-SystemId": {
+								"description": "Unique identifier for the responding system.",
+								"x-amf-example": "SomeSystemId",
+								"type": "string"
+							},
+							"AF-ResponseTime": {
+								"x-amf-required": false,
+								"description": "The time it took for the system to process the request in miliseconds.",
+								"x-amf-example": 12,
+								"type": "integer"
+							},
+							"AF-EndUserId": {
+								"x-amf-required": false,
+								"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for tracing not autorization.",
+								"type": "string"
+							}
+						},
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"yrkesomradeId": "3",
+								"antalPagaendeUtbildningstillfallen": 2,
+								"antalBokningar": 3,
+								"utbildningar": [
+									{
+										"namn": "Programmering och projektledning",
+										"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+										"ssykKoder": [
+											"1234"
+										],
+										"id": 123456,
+										"forkunskaper": "Viss förkunskap krävs i programmering.",
+										"utbildningsklass": "AUB",
+										"antalutbildningstillfallen": 2,
+										"sokord": "Programmering",
+										"utbildningstillfallen": [],
+										"utbildningsModuler": []
+									},
+									{
+										"sokord": "Hemkunskap",
+										"namn": "Hemkunskap",
+										"utbildningsModuler": [],
+										"utbildningstillfallen": [],
+										"id": 654321,
+										"beskrivning": "Grundkurs i hemkunskap.",
+										"ssykKoder": [
+											"4321"
+										],
+										"forkunskaper": "Inga",
+										"antalutbildningstillfallen": 3,
+										"utbildningsklass": "AUB"
+									}
+								]
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"antalBokningar",
+								"antalPagaendeUtbildningstillfallen",
+								"utbildningar",
+								"yrkesomradeId"
+							],
+							"properties": {
+								"antalBokningar": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"antalPagaendeUtbildningstillfallen": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"utbildningar": {
+									"type": "array",
+									"items": {
+										"example": {
+											"namn": "Programmering och projektledning",
+											"utbildningstillfallen": [],
+											"sokord": "Programmering",
+											"antalutbildningstillfallen": 3,
+											"id": 123456,
+											"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+											"forkunskaper": "Viss förkunskap krävs i programmering",
+											"ssykKoder": [
+												"1234"
+											],
+											"utbildningsklass": "AUB",
+											"utbildningsModuler": [
+												{
+													"id": 1234,
+													"riktlangd": 0,
+													"namn": "Prohrammering A",
+													"distans": false,
+													"mal": "Mal",
+													"utbildningsform": "Certifierande",
+													"innehall": "Innehåll"
+												},
+												{
+													"id": 4321,
+													"distans": false,
+													"utbildningsform": "Certifierande",
+													"mal": "Mal",
+													"innehall": "Innehåll",
+													"riktlangd": 0,
+													"namn": "Certifierande projektledningsmodul"
+												}
+											]
+										},
+										"type": "object",
+										"additionalProperties": true,
+										"required": [
+											"antalutbildningstillfallen",
+											"beskrivning",
+											"forkunskaper",
+											"id",
+											"namn",
+											"sokord",
+											"ssykKoder",
+											"utbildningsModuler",
+											"utbildningsklass",
+											"utbildningstillfallen"
+										],
+										"properties": {
+											"antalutbildningstillfallen": {
+												"type": "integer",
+												"format": "int32"
+											},
+											"beskrivning": {
+												"type": "string"
+											},
+											"forkunskaper": {
+												"type": "string"
+											},
+											"id": {
+												"type": "integer",
+												"format": "int64"
+											},
+											"namn": {
+												"type": "string"
+											},
+											"sokord": {
+												"type": "string"
+											},
+											"ssykKoder": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											},
+											"utbildningsModuler": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"additionalProperties": true,
+													"required": [
+														"distans",
+														"id",
+														"innehall",
+														"mal",
+														"namn",
+														"riktlangd",
+														"utbildningsform"
+													],
+													"properties": {
+														"distans": {
+															"type": "boolean"
+														},
+														"id": {
+															"type": "integer",
+															"format": "int64"
+														},
+														"innehall": {
+															"type": "string"
+														},
+														"mal": {
+															"type": "string"
+														},
+														"namn": {
+															"type": "string"
+														},
+														"riktlangd": {
+															"type": "integer",
+															"format": "int64"
+														},
+														"utbildningsform": {
+															"type": "string"
+														}
+													}
+												}
+											},
+											"utbildningsklass": {
+												"type": "string"
+											},
+											"utbildningstillfallen": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"additionalProperties": true,
+													"required": [
+														"adress",
+														"antagningsform",
+														"antalKandidater",
+														"id",
+														"leverantor",
+														"slutdatum",
+														"startdatum",
+														"totalkapacitet",
+														"utbildningstyp",
+														"yrkesomradesId"
+													],
+													"properties": {
+														"adress": {
+															"type": "object",
+															"additionalProperties": true,
+															"required": [
+																"gatuadress",
+																"kommunkod",
+																"lanskod",
+																"latitud",
+																"longitud",
+																"postnummer",
+																"postort"
+															],
+															"properties": {
+																"gatuadress": {
+																	"type": "string"
+																},
+																"kommunkod": {
+																	"type": "string"
+																},
+																"lanskod": {
+																	"type": "string"
+																},
+																"latitud": {
+																	"type": "number",
+																	"format": "double"
+																},
+																"longitud": {
+																	"type": "number",
+																	"format": "double"
+																},
+																"postnummer": {
+																	"type": "string"
+																},
+																"postort": {
+																	"type": "string"
+																}
+															}
+														},
+														"antagningsform": {
+															"type": "string"
+														},
+														"antalKandidater": {
+															"type": "integer",
+															"format": "int32"
+														},
+														"id": {
+															"type": "integer",
+															"format": "int64"
+														},
+														"leverantor": {
+															"type": "object",
+															"additionalProperties": true,
+															"required": [
+																"namn",
+																"organisationsnummer"
+															],
+															"properties": {
+																"namn": {
+																	"type": "string"
+																},
+																"organisationsnummer": {
+																	"type": "string"
+																}
+															}
+														},
+														"slutdatum": {
+															"type": "string",
+															"format": "date-time"
+														},
+														"startdatum": {
+															"type": "string",
+															"format": "date-time"
+														},
+														"totalkapacitet": {
+															"type": "integer",
+															"format": "int32"
+														},
+														"utbildningstyp": {
+															"type": "string"
+														},
+														"yrkesomradesId": {
+															"type": "string"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"yrkesomradeId": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "Bad Request",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Bad request",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"description": "This is used by client_id enforcement Policy",
+							"example": {
+								"error": "missing_client_secret",
+								"description": "client_secret is missing"
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"error",
+								"description"
+							],
+							"properties": {
+								"error": {
+									"type": "string"
+								},
+								"description": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Not found",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Not found",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "Internal error",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Internal error",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/yrkesomrade/{yrkesomradeId}/{lanskod}": {
+			"get": {
+				"operationId": "Länskod",
+				"description": "Returnerar pågående utbildningar per yrkesområde och länskod.",
+				"parameters": [
+					{
+						"name": "client_id",
+						"default":"c86ff7120e1c4297808b8333c6aacf9b",
+						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "client_secret",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
+						"description": "The client seceret authenticating that the calling client is whom it say it is.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "yrkesomradeId",
+						"description": "Yrkesområdets id",
+						"required": true,
+						"in": "path",
+						"type": "string"
+					},
+					{
+						"name": "lanskod",
+						"description": "Länskod (tvåsiffrig kod)",
+						"required": true,
+						"in": "path",
+						"type": "string"
+					},
+					{
+						"name": "AF-TrackingId",
+						"description": "Used to track a request beween systems. Must be created by the originating system and forwarde by all parties. The format is a guid.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-SystemId",
+						"description": "Unique identifier for the calling system.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-EndUserId",
+						"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for traceing not autorization.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"headers": {
+							"AF-TrackingId": {
+								"x-amf-example": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+								"type": "string"
+							},
+							"AF-SystemId": {
+								"description": "Unique identifier for the responding system.",
+								"x-amf-example": "SomeSystemId",
+								"type": "string"
+							},
+							"AF-ResponseTime": {
+								"x-amf-required": false,
+								"description": "The time it took for the system to process the request in miliseconds.",
+								"x-amf-example": 12,
+								"type": "integer"
+							},
+							"AF-EndUserId": {
+								"x-amf-required": false,
+								"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for tracing not autorization.",
+								"type": "string"
+							}
+						},
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"yrkesomradeId": "3",
+								"antalPagaendeUtbildningstillfallen": 2,
+								"antalBokningar": 3,
+								"utbildningar": [
+									{
+										"namn": "Programmering och projektledning",
+										"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+										"ssykKoder": [
+											"1234"
+										],
+										"id": 123456,
+										"forkunskaper": "Viss förkunskap krävs i programmering.",
+										"utbildningsklass": "AUB",
+										"antalutbildningstillfallen": 2,
+										"sokord": "Programmering",
+										"utbildningstillfallen": [],
+										"utbildningsModuler": []
+									},
+									{
+										"sokord": "Hemkunskap",
+										"namn": "Hemkunskap",
+										"utbildningsModuler": [],
+										"utbildningstillfallen": [],
+										"id": 654321,
+										"beskrivning": "Grundkurs i hemkunskap.",
+										"ssykKoder": [
+											"4321"
+										],
+										"forkunskaper": "Inga",
+										"antalutbildningstillfallen": 3,
+										"utbildningsklass": "AUB"
+									}
+								]
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"antalBokningar",
+								"antalPagaendeUtbildningstillfallen",
+								"utbildningar",
+								"yrkesomradeId"
+							],
+							"properties": {
+								"antalBokningar": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"antalPagaendeUtbildningstillfallen": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"utbildningar": {
+									"type": "array",
+									"items": {
+										"example": {
+											"namn": "Programmering och projektledning",
+											"utbildningstillfallen": [],
+											"sokord": "Programmering",
+											"antalutbildningstillfallen": 3,
+											"id": 123456,
+											"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+											"forkunskaper": "Viss förkunskap krävs i programmering",
+											"ssykKoder": [
+												"1234"
+											],
+											"utbildningsklass": "AUB",
+											"utbildningsModuler": [
+												{
+													"id": 1234,
+													"riktlangd": 0,
+													"namn": "Prohrammering A",
+													"distans": false,
+													"mal": "Mal",
+													"utbildningsform": "Certifierande",
+													"innehall": "Innehåll"
+												},
+												{
+													"id": 4321,
+													"distans": false,
+													"utbildningsform": "Certifierande",
+													"mal": "Mal",
+													"innehall": "Innehåll",
+													"riktlangd": 0,
+													"namn": "Certifierande projektledningsmodul"
+												}
+											]
+										},
+										"type": "object",
+										"additionalProperties": true,
+										"required": [
+											"antalutbildningstillfallen",
+											"beskrivning",
+											"forkunskaper",
+											"id",
+											"namn",
+											"sokord",
+											"ssykKoder",
+											"utbildningsModuler",
+											"utbildningsklass",
+											"utbildningstillfallen"
+										],
+										"properties": {
+											"antalutbildningstillfallen": {
+												"type": "integer",
+												"format": "int32"
+											},
+											"beskrivning": {
+												"type": "string"
+											},
+											"forkunskaper": {
+												"type": "string"
+											},
+											"id": {
+												"type": "integer",
+												"format": "int64"
+											},
+											"namn": {
+												"type": "string"
+											},
+											"sokord": {
+												"type": "string"
+											},
+											"ssykKoder": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											},
+											"utbildningsModuler": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"additionalProperties": true,
+													"required": [
+														"distans",
+														"id",
+														"innehall",
+														"mal",
+														"namn",
+														"riktlangd",
+														"utbildningsform"
+													],
+													"properties": {
+														"distans": {
+															"type": "boolean"
+														},
+														"id": {
+															"type": "integer",
+															"format": "int64"
+														},
+														"innehall": {
+															"type": "string"
+														},
+														"mal": {
+															"type": "string"
+														},
+														"namn": {
+															"type": "string"
+														},
+														"riktlangd": {
+															"type": "integer",
+															"format": "int64"
+														},
+														"utbildningsform": {
+															"type": "string"
+														}
+													}
+												}
+											},
+											"utbildningsklass": {
+												"type": "string"
+											},
+											"utbildningstillfallen": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"additionalProperties": true,
+													"required": [
+														"adress",
+														"antagningsform",
+														"antalKandidater",
+														"id",
+														"leverantor",
+														"slutdatum",
+														"startdatum",
+														"totalkapacitet",
+														"utbildningstyp",
+														"yrkesomradesId"
+													],
+													"properties": {
+														"adress": {
+															"type": "object",
+															"additionalProperties": true,
+															"required": [
+																"gatuadress",
+																"kommunkod",
+																"lanskod",
+																"latitud",
+																"longitud",
+																"postnummer",
+																"postort"
+															],
+															"properties": {
+																"gatuadress": {
+																	"type": "string"
+																},
+																"kommunkod": {
+																	"type": "string"
+																},
+																"lanskod": {
+																	"type": "string"
+																},
+																"latitud": {
+																	"type": "number",
+																	"format": "double"
+																},
+																"longitud": {
+																	"type": "number",
+																	"format": "double"
+																},
+																"postnummer": {
+																	"type": "string"
+																},
+																"postort": {
+																	"type": "string"
+																}
+															}
+														},
+														"antagningsform": {
+															"type": "string"
+														},
+														"antalKandidater": {
+															"type": "integer",
+															"format": "int32"
+														},
+														"id": {
+															"type": "integer",
+															"format": "int64"
+														},
+														"leverantor": {
+															"type": "object",
+															"additionalProperties": true,
+															"required": [
+																"namn",
+																"organisationsnummer"
+															],
+															"properties": {
+																"namn": {
+																	"type": "string"
+																},
+																"organisationsnummer": {
+																	"type": "string"
+																}
+															}
+														},
+														"slutdatum": {
+															"type": "string",
+															"format": "date-time"
+														},
+														"startdatum": {
+															"type": "string",
+															"format": "date-time"
+														},
+														"totalkapacitet": {
+															"type": "integer",
+															"format": "int32"
+														},
+														"utbildningstyp": {
+															"type": "string"
+														},
+														"yrkesomradesId": {
+															"type": "string"
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"yrkesomradeId": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "Bad Request",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Bad request",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"description": "This is used by client_id enforcement Policy",
+							"example": {
+								"error": "missing_client_secret",
+								"description": "client_secret is missing"
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"error",
+								"description"
+							],
+							"properties": {
+								"error": {
+									"type": "string"
+								},
+								"description": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Not found",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Not found",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "Internal error",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Internal error",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/utbildning/{id}": {
+			"get": {
+				"operationId": "Utbildning",
+				"description": "Returnerar en utbildning med tillfällen och moduler.",
+				"parameters": [
+					{
+						"name": "client_id",
+						"default":"c86ff7120e1c4297808b8333c6aacf9b",
+						"description": "The client ID identifing the calling client. Used for analytics and authentication.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "client_secret",
+						"default":"e4cc167723F24386B9AF0FE912C2E547",
+						"description": "The client seceret authenticating that the calling client is whom it say it is.",
+						"required": true,
+						"in": "query",
+						"type": "string"
+					},
+					{
+						"name": "id",
+						"description": "Utbildningens id",
+						"required": true,
+						"in": "path",
+						"type": "integer",
+						"format": "int64"
+					},
+					{
+						"name": "AF-TrackingId",
+						"description": "Used to track a request beween systems. Must be created by the originating system and forwarde by all parties. The format is a guid.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-SystemId",
+						"description": "Unique identifier for the calling system.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					},
+					{
+						"name": "AF-EndUserId",
+						"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for traceing not autorization.",
+						"required": false,
+						"in": "header",
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"headers": {
+							"AF-TrackingId": {
+								"x-amf-example": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+								"type": "string"
+							},
+							"AF-SystemId": {
+								"description": "Unique identifier for the responding system.",
+								"x-amf-example": "SomeSystemId",
+								"type": "string"
+							},
+							"AF-ResponseTime": {
+								"x-amf-required": false,
+								"description": "The time it took for the system to process the request in miliseconds.",
+								"x-amf-example": 12,
+								"type": "integer"
+							},
+							"AF-EndUserId": {
+								"x-amf-required": false,
+								"description": "Identifies the calling enduser as autenticated by the calling system. Should only be used for tracing not autorization.",
+								"type": "string"
+							}
+						},
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"namn": "Programmering och projektledning",
+								"utbildningstillfallen": [],
+								"sokord": "Programmering",
+								"antalutbildningstillfallen": 3,
+								"id": 123456,
+								"beskrivning": "Utbildning med två moduler. Programmering och projektledning",
+								"forkunskaper": "Viss förkunskap krävs i programmering",
+								"ssykKoder": [
+									"1234"
+								],
+								"utbildningsklass": "AUB",
+								"utbildningsModuler": [
+									{
+										"id": 1234,
+										"riktlangd": 0,
+										"namn": "Prohrammering A",
+										"distans": false,
+										"mal": "Mal",
+										"utbildningsform": "Certifierande",
+										"innehall": "Innehåll"
+									},
+									{
+										"id": 4321,
+										"distans": false,
+										"utbildningsform": "Certifierande",
+										"mal": "Mal",
+										"innehall": "Innehåll",
+										"riktlangd": 0,
+										"namn": "Certifierande projektledningsmodul"
+									}
+								]
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"antalutbildningstillfallen",
+								"beskrivning",
+								"forkunskaper",
+								"id",
+								"namn",
+								"sokord",
+								"ssykKoder",
+								"utbildningsModuler",
+								"utbildningsklass",
+								"utbildningstillfallen"
+							],
+							"properties": {
+								"antalutbildningstillfallen": {
+									"type": "integer",
+									"format": "int32"
+								},
+								"beskrivning": {
+									"type": "string"
+								},
+								"forkunskaper": {
+									"type": "string"
+								},
+								"id": {
+									"type": "integer",
+									"format": "int64"
+								},
+								"namn": {
+									"type": "string"
+								},
+								"sokord": {
+									"type": "string"
+								},
+								"ssykKoder": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"utbildningsModuler": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"additionalProperties": true,
+										"required": [
+											"distans",
+											"id",
+											"innehall",
+											"mal",
+											"namn",
+											"riktlangd",
+											"utbildningsform"
+										],
+										"properties": {
+											"distans": {
+												"type": "boolean"
+											},
+											"id": {
+												"type": "integer",
+												"format": "int64"
+											},
+											"innehall": {
+												"type": "string"
+											},
+											"mal": {
+												"type": "string"
+											},
+											"namn": {
+												"type": "string"
+											},
+											"riktlangd": {
+												"type": "integer",
+												"format": "int64"
+											},
+											"utbildningsform": {
+												"type": "string"
+											}
+										}
+									}
+								},
+								"utbildningsklass": {
+									"type": "string"
+								},
+								"utbildningstillfallen": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"additionalProperties": true,
+										"required": [
+											"adress",
+											"antagningsform",
+											"antalKandidater",
+											"id",
+											"leverantor",
+											"slutdatum",
+											"startdatum",
+											"totalkapacitet",
+											"utbildningstyp",
+											"yrkesomradesId"
+										],
+										"properties": {
+											"adress": {
+												"type": "object",
+												"additionalProperties": true,
+												"required": [
+													"gatuadress",
+													"kommunkod",
+													"lanskod",
+													"latitud",
+													"longitud",
+													"postnummer",
+													"postort"
+												],
+												"properties": {
+													"gatuadress": {
+														"type": "string"
+													},
+													"kommunkod": {
+														"type": "string"
+													},
+													"lanskod": {
+														"type": "string"
+													},
+													"latitud": {
+														"type": "number",
+														"format": "double"
+													},
+													"longitud": {
+														"type": "number",
+														"format": "double"
+													},
+													"postnummer": {
+														"type": "string"
+													},
+													"postort": {
+														"type": "string"
+													}
+												}
+											},
+											"antagningsform": {
+												"type": "string"
+											},
+											"antalKandidater": {
+												"type": "integer",
+												"format": "int32"
+											},
+											"id": {
+												"type": "integer",
+												"format": "int64"
+											},
+											"leverantor": {
+												"type": "object",
+												"additionalProperties": true,
+												"required": [
+													"namn",
+													"organisationsnummer"
+												],
+												"properties": {
+													"namn": {
+														"type": "string"
+													},
+													"organisationsnummer": {
+														"type": "string"
+													}
+												}
+											},
+											"slutdatum": {
+												"type": "string",
+												"format": "date-time"
+											},
+											"startdatum": {
+												"type": "string",
+												"format": "date-time"
+											},
+											"totalkapacitet": {
+												"type": "integer",
+												"format": "int32"
+											},
+											"utbildningstyp": {
+												"type": "string"
+											},
+											"yrkesomradesId": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"400": {
+						"description": "Bad Request",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Bad request",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"description": "This is used by client_id enforcement Policy",
+							"example": {
+								"error": "missing_client_secret",
+								"description": "client_secret is missing"
+							},
+							"type": "object",
+							"additionalProperties": true,
+							"required": [
+								"error",
+								"description"
+							],
+							"properties": {
+								"error": {
+									"type": "string"
+								},
+								"description": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Not found",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Not found",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					},
+					"500": {
+						"description": "Internal error",
+						"x-amf-mediaType": "application/json",
+						"schema": {
+							"example": {
+								"error_id": "123e4567-e89b-12d3-a456-426655440000",
+								"message": "Internal error",
+								"cause": {
+									"system": "TLR",
+									"message": "Felmeddelande från TLR"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
