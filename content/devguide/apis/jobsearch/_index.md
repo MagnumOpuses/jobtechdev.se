@@ -5,7 +5,7 @@ disableToc: true
 menuTitle: "Job Search (beta)"
 weight: 10
 description: "Our job search API is a search engine for all the current job ads from Platsbanken. The aim is to make a simple yet versatile API that should suit anyone building any kind of application involving data from job ads."
-url: "/apis/Job Search (beta)"
+
 ---
 
 Our job search API is a search engine for all the current job ads from Platsbanken. 

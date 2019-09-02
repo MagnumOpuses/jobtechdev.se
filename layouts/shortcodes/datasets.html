@@ -16,7 +16,7 @@
 
         {{ range where .Site.Pages "Section" "devguide"}}
 
-        {{if eq .Parent.Title "Apis"}}
+        {{if eq .Parent.Title "Data sets"}}
 
 
 
@@ -31,15 +31,10 @@
                 <footer>
                     <a href="{{.RelPermalink}}" class="showcasebtn align-self-end">Read more</a>
 
-                    {{ if isset .Params "consoleurl"  }}
-                    <a href="{{ .Params.consoleurl}}" class="showcasebtn align-self-end">Console</a>
-
-                    {{end}}
-
 
                 </footer>
 
-             </div>
+            </div>
 
 
 
@@ -51,4 +46,3 @@
         {{ end }}{{ end }}
     </div>
 </div>
-

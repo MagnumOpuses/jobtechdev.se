@@ -24,6 +24,9 @@ h4 {
 
 
 }
+.button {
+
+}
 
 
 .showcase-item:hover {
@@ -65,7 +68,6 @@ h4 {
 }
 
 
-
 footer {
     text-align: center;
     height: 130px;
@@ -74,6 +76,39 @@ footer {
     left:0px;
     right:0px;
     padding: 32px;
+}
+
+footer > a {
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eee;
+    border-width: 2px;
+    color: #BDBDBD;
+    padding: 5px 10px;
+    border-color: #4A4A4A;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+}
+
+footer > a:hover {
+
+    text-decoration: none;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+
+    color: #000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #733ACA;
 }
 
 
@@ -92,11 +127,4 @@ footer > a:first-of-type {
 
 footer > a:last-of-type {
     margin-bottom: 0px;
-}
-#body a.highlight:after {
-    height: 0px;
-    display: block;
-}
-#body a.highlight {
-    display: inline;
 }

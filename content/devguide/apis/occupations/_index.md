@@ -6,6 +6,7 @@ weight: 20
 date: 2019-01-19T20:06:16+01:00
 description: "AF Occupation info is an API, containing descriptions of nearly 350 different occupations. The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application."
 url: "/apis/Af Occupation Info"
+consoleurl: "/devguide/apiconsole/?urls.primaryName=Occupation%20-%20Occupation%20info%20"
 ---
 
 

@@ -47,6 +47,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "mine"
 
+
   [[menu.main]]
 
 
@@ -71,6 +72,4 @@ home = [ "HTML", "RSS", "JSON"]
 
 
 
-[[permalinks]]
-   devguides = "/:Apis/:url"
 
