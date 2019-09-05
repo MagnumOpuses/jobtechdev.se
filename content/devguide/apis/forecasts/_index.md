@@ -21,6 +21,7 @@ With API AF Occupation Forecasts it is possible to integrate Arbetsförmedlingen
 The API is an open interface without contract or registration requirements.
 
 
+
 #### Endpoint
 
 ````
