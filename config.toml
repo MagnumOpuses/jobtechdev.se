@@ -51,23 +51,6 @@ home = [ "HTML", "RSS", "JSON"]
   [[menu.main]]
 
 
-  [[menu.shortcuts]]
-  name = "<i class='fab fa-github'></i> JobTechswe"
-  identifier = "ds"
-  url = "https://github.com/jobtechswe"
-  weight = 10
-
-  [[menu.shortcuts]]
-   name = "<i class='fab fa-github'></i> MagnumOpuses"
-    identifier = "ds1"
-    url = "https://github.com/magnumopuses"
-    weight = 20
-
-  [[menu.shortcuts]]
-   name = "<i class='fas fa-code'></i> Jobtech GIG"
-    identifier = "ds3"
-    url = "https://jobtechgig.se/"
-    weight = 35
 
 
 
