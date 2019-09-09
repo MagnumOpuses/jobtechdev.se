@@ -18,4 +18,3 @@ The sharing of common resources such as data provides better prerequisites to cr
 [<i class="fab fa-github fa-2x"></i>](https://github.com/magnumopuses) MagnumOpuses containing Jobtech repos
 
 
-
