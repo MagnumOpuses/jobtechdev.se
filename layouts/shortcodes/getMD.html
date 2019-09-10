@@ -1,0 +1,14 @@
+<head>
+    <style>
+        h2 {
+
+        }
+    </style>
+</head>
+
+{{ $res := getJSON (.Get 0) }}
+{{ $res.content | base64Decode | markdownify  }}
+
+<script>
+    console.log({{$res.content}})
+</script>
