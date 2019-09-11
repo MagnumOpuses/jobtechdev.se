@@ -10,7 +10,7 @@ description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for d
 
 ---
 
-API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018
+API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018.
 
 The forecasts are based on the standard SSYK (Swedish standard occupation classification)
 

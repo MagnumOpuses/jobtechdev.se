@@ -408,6 +408,17 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body-inner {
   margin-bottom: 5rem;
+  max-width: 1200px;
+  margin: auto;
+  padding:45px;
+  margin-top: 10px;
+  border:0px 1px solid #efefef;
+
+  -webkit-box-shadow:5px 6px 20px 1px #e5dddd ;
+  -moz-box-shadow:5px 6px 20px 1px #e5dddd ;
+  box-shadow:5px 6px 20px 1px #e5dddd ;
+  min-height: 1000px;
+  margin-bottom: 10px;
 }
 #chapter {
   display: flex;
@@ -993,7 +1004,9 @@ td {
   border-radius: 2px;
   padding: 0 1rem;
   height: 0;
+
   min-height: 3rem;
+
 }
 #top-github-link {
   position: relative;

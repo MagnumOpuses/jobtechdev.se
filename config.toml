@@ -1,4 +1,6 @@
 baseURL = "/"
+uglyurls = true
+disablePathToLower = false
 languageCode = "en-us"
 title = "JobTech Dev"
 theme = "hugo-theme-learn"
@@ -7,6 +9,7 @@ theme = "hugo-theme-learn"
 #canonifyURLs="true"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
 
 [languages.en]
     title = "English"
@@ -17,6 +20,8 @@ home = [ "HTML", "RSS", "JSON"]
 
 
 [params]
+uglyurls = true
+disablePathToLower = false
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
