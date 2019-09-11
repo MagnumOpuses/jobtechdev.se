@@ -1,14 +1,21 @@
 <head>
-    <style>
-        h2 {
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            let els = document.getElementById("body-inner").getElementsByTagName("a");
+            Array.prototype.forEach.call(els, function(el) {
+                if (el.host == window.location.host) {
+                    el.hash = el.hash.toLowerCase();
+                }
+            })
+        })
 
-        }
-    </style>
+    </script>
 </head>
 
 {{ $res := getJSON (.Get 0) }}
 {{ $res.content | base64Decode | markdownify  }}
 
 <script>
-    console.log({{$res.content}})
+
+
 </script>

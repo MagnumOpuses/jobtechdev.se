@@ -9,8 +9,8 @@ description: "Our job search API is a search engine for all the current job ads 
 ---
 
 
-[Authentication](#Authentication)
-##dsa
-[Authentication](#authentication)
+
 {{< getMD "https://api.github.com/repos/JobtechSwe/sokannonser-api/contents/GETTINGSTARTED.md" >}}
+
+
 
