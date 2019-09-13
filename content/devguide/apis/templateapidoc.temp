@@ -1,16 +1,18 @@
 ---
-title: "Af Occupation Forecast"
+title: "xxxxxx"
 disableToc: true
-menuTitle: "Af Occupation Forecast"
+menuTitle: "xxxxx"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018"
+description: "xxxxxxx"
 type: "github"
 
 
 ---
 
 ## Af Occupation Forecast - Getting started
+
+
 
 PI Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018.
 The forecasts are based on the standard SSYK (Swedish standard occupation classification)
@@ -103,7 +105,8 @@ Get the version of the Api
 
 ### Results
 
-The results of your queries will be in JSON format. 
+The results of your queries will be in JSON format. We won't attempt to explain this attribute by attribute in this document. 
+
 
 ### Errors
 
@@ -113,4 +116,8 @@ The results of your queries will be in JSON format.
 
 
 ### Use cases
+<hr>
+* 
+
+
 

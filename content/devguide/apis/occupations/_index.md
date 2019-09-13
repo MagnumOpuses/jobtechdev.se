@@ -14,24 +14,22 @@ type: "github"
 
 ## Af Occupation Info - Getting started
 
-<hr>
+
 
 AF Occupation info is an API, containing descriptions of nearly 350 different occupations. 
 The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application.
 
 ### Table of Contents
-<hr>
-* Authentication
-* Endpoints
-* Results
-* Errors
-* Use case
-
+* [Authentication](#authentication)
+* [Endpoints](#endpoints)
+* [Results](#results)
+* [Errors](#errors)
+* [Use case](#use case)
 
 
 
 ### Short introduction
-<hr>
+
 The endpoints for Af Occupation forecast API are:
 
 * /yrken
