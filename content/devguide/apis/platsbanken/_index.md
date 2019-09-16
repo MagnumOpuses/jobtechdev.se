@@ -44,11 +44,6 @@ See the technical description for details requests.
 ### Short introduction
 
 
-The endpoints for .....:  
- You will find the endpoints and documentation [here](/pdf/Teknisk_beskrivning_af_jobs)
-
-
-
 ### Authentication
 
 The API is an open interface without contract or registration requirements. 
@@ -57,8 +52,7 @@ The API is an open interface without contract or registration requirements.
 
 
 ### Endpoints
-
-
+You will find the endpoints and some more documentation [here](/pdf/Teknisk_beskrivning_af_jobs.pdf)
 
 
 ### Results
@@ -71,11 +65,7 @@ The results of your queries will be in JSON format. We won't attempt to explain 
 
 ### Errors
 
-400 Invalid call/request  
-404 Prognosis not found  
-500 Internal server error  
+
 
 
 ### Use cases
-<hr>
-* 

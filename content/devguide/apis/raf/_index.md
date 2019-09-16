@@ -31,10 +31,7 @@ for example in connection with Försäkringskassans communication with insured, 
 
 ### Short introduction
 
-The endpoints for Af Occupation forecast API are:
 
-* /yrken  
-* /yrken/{id}
 
 ### Authentication
 
@@ -64,8 +61,6 @@ The endpoints for Af Occupation forecast API are:
 
 
 
-
-
 ### Results
 
 The results of your queries will be in JSON format. We won't attempt to explain this attribute by attribute in this document. 
@@ -73,14 +68,10 @@ The results of your queries will be in JSON format. We won't attempt to explain 
 
 ### Errors
 
-400 Invalid call/request  
-404 Prognosis not found  
-500 Internal server error  
-
+403 Missing client secret
 
 ### Use cases
-<hr>
-* 
+
 
 
 

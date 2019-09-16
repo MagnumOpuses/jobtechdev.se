@@ -30,11 +30,7 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 
 ### Short introduction
 
-The endpoints for Af Occupation forecast API are:
 
-* /yrken
-* /yrken/{id}
-* /yrken/amsOccupationId/{id}
  
 
 
@@ -55,7 +51,11 @@ Once the keys are acquired, the authentication to the services is done using two
 These are required on all requests. Below is a sample of how query parameters are used:
 
 ### Endpoints
-<hr>
+The endpoints for Af Occupation forecast API are:
+
+* /yrken
+* /yrken/{id}
+* /yrken/amsOccupationId/{id}
 
 
 
