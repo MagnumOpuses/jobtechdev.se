@@ -45,7 +45,7 @@ See the technical description for details requests.
 
 
 The endpoints for .....:  
- You will find the endpoints and documentation [here]()
+ You will find the endpoints and documentation [here](/pdf/Teknisk_beskrivning_af_jobs)
 
 
 

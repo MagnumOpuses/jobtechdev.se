@@ -33,7 +33,8 @@ for example in connection with Försäkringskassans communication with insured, 
 
 The endpoints for Af Occupation forecast API are:
 
-* 
+* /yrken  
+* /yrken/{id}
 
 ### Authentication
 
@@ -55,6 +56,11 @@ These are required on all requests. Below is a sample of how query parameters ar
 
 
 ### Endpoints
+The endpoints for Af Occupation forecast API are:
+
+* /yrken  
+* /yrken/{id}
+
 
 
 
