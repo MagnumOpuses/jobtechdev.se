@@ -6,7 +6,7 @@ weight: 10
 date: 2019-01-19T20:06:16+01:00
 description: "RAF is a documentation that can be used as support and guidance in assessing workforce in health insurance. RAF can also be used in other contexts, for example in connection with Försäkringskassans communication with insured, employers and the Employment Service."
 url: "/apis/Af Workability RAF"
-consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20-%20Occupation%20info%20-Work%20ability%20"
+consoleurl: "/devguide/apiconsole.html?urls.primaryName=Work%20ability%20"
 ---
 
 ## Af Occupation Workability - Getting started
