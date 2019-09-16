@@ -134,5 +134,6 @@
                 {{ if isset .Page.Params "consoleurl"}}
                 document.getElementById("api-buttons").innerHTML += '<a href=\"{{.Page.Params.consoleurl}}\" class=\"showcasebtn align-self-end \"> console </a>'
                 {{end}}
+                console.log( {{.Page.Params}})
 
             </script>
