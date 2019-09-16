@@ -7,8 +7,7 @@ date: 2019-01-19T20:06:16+01:00
 type: "github"
 description: "The open API “Af Jobs ” for job advertisements will be replaced in 2019 with a new version, the closure will take place on the last of November. The support of the current version will end at September 1, 2019 "
 url: "/apis/Af Jobs"   
-consoleurl: "/devguide/apiconsole/?urls.primaryName=Jobs%20-%20Online%20Jobs%20-%20Deprecated"       
-
+consoleurl: "/devguide/apiconsole.html?urls.primaryName=Jobs%20-%20Online%20Jobs%20-%20Deprecated"        
 ---
 
 ## Af Jobs

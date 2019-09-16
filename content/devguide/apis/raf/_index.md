@@ -4,10 +4,9 @@ disableToc: true
 menuTitle: "Af Occupation workability"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018"
-type: "github"
-
-
+description: "RAF is a documentation that can be used as support and guidance in assessing workforce in health insurance. RAF can also be used in other contexts, for example in connection with Försäkringskassans communication with insured, employers and the Employment Service."
+url: "/apis/Af Workability RAF"
+consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20-%20Occupation%20info%20-Work%20ability%20"
 ---
 
 ## Af Occupation Workability - Getting started
