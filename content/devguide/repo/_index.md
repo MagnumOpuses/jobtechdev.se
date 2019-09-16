@@ -3,6 +3,7 @@ title: "Github repositories"
 disableToc: true
 menuTitle: "Github repositories"
 weight: 20
+description: " Github repositories for Jobtech dev"
 ---
 
 At Github, you can download our different projects, and be a part of the development, or maybe

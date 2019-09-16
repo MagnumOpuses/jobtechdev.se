@@ -10,7 +10,7 @@ type: "github"
 
 ---
 
-## Af Occupation Forecast - Getting started
+## Rubrik
 
 
 
@@ -23,29 +23,18 @@ The API is an open interface without contract or registration requirements.
 
 ### Table of Contents
 
-* [Authentication](#authentication)
-* [Endpoints](#endpoints)
-* [Results](#results)
-* [Errors](#errors)
-* [Use case](#use case)
-
-
-
+*
+*
+*
 
 ### Short introduction
 
-The endpoints for Af Occupation forecast API are:
+The endpoints for .....:
+ *
+ *
+ *
 
-* [/Description/{ssyk}](#description) 
-* [/getPrognosGeoJson/{ssyk}](#getprognosgeojson) 
-* [/occupationalArea/forcasresRefs/list](#occupationalarea) 
-* [/occupationalArea/forcastsRefs/list/{occupationalAreaId}](#occupationalarea) 
-* [/occupationalArea/longTerm/{occupationalAreaId}](#occupationalarea) 
-* [/occupationalArea/shortTerm/{occupationalAreaId}](#occupationalarea) 
-* [/occupationalGroup/longTerm/{ssyk}](#occupationalgroup)
-* [/occupationalGroup/longTerm/{ssyk}](#occupationalgroup)
-* [/occupationalGroup/shortTerm/{ssyk}](#occupationalgroup)
-* [/version - version Api Version](#version)
+
 
 
 ### Authentication
@@ -56,50 +45,6 @@ This Api does not requier any authentication
 
 ### Endpoints
 
-##### description
-/description/{ssyk}
-Get forecast information about given SSYK
-
-The description endpoint requiers a SSYK code, which could be found at the good to have
-part. Use the request url :https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalName/list
-
-##### getPrognosGeoJson
-/getPrognosGeoJson/{ssyk}
-Get Prognos GeoJson for ssyk
-Requires SSYK code
-Gives you the forecast index based on coordinates.
-
-##### occupationalArea
-
-All this XXXXX requiers an OccupationalAreaId, this Id can be found at
-https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalArea/list
- 
-/occupationalArea/forcastsRefs/list  
-Get references to all available forecasts, listed per occupational area ('yrkesområde')
-
-/occupationalArea/forcastsRefs/list/{occupationalAreaId}  
-Get available forecasts for given occupational area id ('yrkesområde')
-
-/occupationalArea/forcastsRefs/list/{occupationalAreaId}  
-Get available forecasts for given occupational area id ('yrkesområde)
-
-/occupationalArea/longTerm/{occupationalAreaId}  
-Get long term prognosis per Occupational Area ('yrkesområde')
-
-##### occupationalGroup
-/occupationalGroup/longTerm/{ssyk}
-Get short and medium long term prognosis per Occupational Area ('yrkesområde')
-
-/occupationalGroup/longTerm/{ssyk}
-Get long term prognosis per occupational group ('yrkesgrupp')
-
-/occupationalGroup/shortTerm/{ssyk}
-Get short and medium long term prognosis per occupational group ('yrkesgrupp')
-
-##### version
-/version - version Api Version
-
-Get the version of the Api
 
 
 

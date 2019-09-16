@@ -53,24 +53,21 @@ This Api does not requier any authentication
 
 
 ### Endpoints
+All endpoints requires some Id:s or code: these could be found here:  
+SSYK : https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalName/list  
+OccupationalAreaId : https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalArea/list
+
 
 ##### description
-/description/{ssyk}
+/description/{ssyk}  
 Get forecast information about given SSYK
 
-The description endpoint requiers a SSYK code, which could be found at the good to have
-part. Use the request url :https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalName/list
 
 ##### getPrognosGeoJson
-/getPrognosGeoJson/{ssyk}
-Get Prognos GeoJson for ssyk
-Requires SSYK code
+/getPrognosGeoJson/{ssyk}  
 Gives you the forecast index based on coordinates.
 
 ##### occupationalArea
-
-All this XXXXX requiers an OccupationalAreaId, this Id can be found at
-https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalArea/list
  
 /occupationalArea/forcastsRefs/list  
 Get references to all available forecasts, listed per occupational area ('yrkesområde')
