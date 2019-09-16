@@ -1,3 +1,5 @@
+{{ $res := getJSON (.Get 0) }}
+
 <head>
     <script>
         document.addEventListener('DOMContentLoaded', function(event) {
@@ -7,15 +9,108 @@
                     el.hash = el.hash.toLowerCase();
                 }
             })
+            let elems = document.getElementsByClassName("hidden");
+
+            [].forEach.call(elems, function(el) {
+                el.classList.remove("hidden");
+            });
         })
 
     </script>
+    <style>
+        .api-buttons {
+
+            text-align: center;
+            height: 50px;
+
+        }
+        @keyframes fadein {
+            from {
+                opacity:0;
+            }
+            to {
+                opacity:1;
+            }
+        }
+        @-moz-keyframes fadein { /* Firefox */
+            from {
+                opacity:0;
+            }
+            to {
+                opacity:1;
+            }
+        }
+        @-webkit-keyframes fadein { /* Safari and Chrome */
+            from {
+                opacity:0;
+            }
+            to {
+                opacity:1;
+            }
+        }
+        @-o-keyframes fadein { /* Opera */
+            from {
+                opacity:0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .hidden {
+            display: none;
+        }
+
+        .api-buttons > a {
+            color: #000;
+            text-align: center;
+
+            margin-bottom: 5px;
+            max-width: 150px;
+            border-radius: 1px;
+            -webkit-border-radius: 1px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #eee;
+            border-width: 2px;
+            color: #BDBDBD;
+            padding: 5px 10px;
+            border-color: #4A4A4A;
+            --MAIN-LINK-HOVER-color: none;
+            --MAIN-ANCHOR-color: none;
+            --MAIN-LINK-color: none;
+        }
+
+        .api-buttons > a:hover {
+
+            text-decoration: none;
+            --MAIN-LINK-HOVER-color: none;
+            --MAIN-ANCHOR-color: none;
+            --MAIN-LINK-color: none;
+
+            color: #000;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #733ACA;
+        }
+
+
+    </style>
 </head>
 
-{{ $res := getJSON (.Get 0) }}
+<div class="api-buttons">
+
+    <a href="{{$res.html_url}}" class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>
+    <a href="{{$res.html_url}}" class="showcasebtn align-self-end "> console </a>
+</div>
+
+
+
 {{ $res.content | base64Decode | markdownify  }}
 
-<script>
 
+
+
+<script>
+console.log({{$res}})
 
 </script>
