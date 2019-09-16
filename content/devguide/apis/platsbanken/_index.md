@@ -36,17 +36,17 @@ See the technical description for details requests.
 
 ### Table of Contents
 
-*   
-*  
-*  
+* [Authentication](#authentication)
+* [Endpoints](#endpoints)
+* [Results](#results)
+* [Errors](#errors)
+* [Use case](#use case)
 
 ### Short introduction
 
 
 The endpoints for .....:  
- *  
- *  
- *  
+ You will find the endpoints and documation <a href=" here:  
 
 
 
