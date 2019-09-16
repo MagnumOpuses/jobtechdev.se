@@ -110,6 +110,7 @@
         {{ end }}
 
         <div id="body-inner">
+            <div id="api-buttons" class="api-buttons"></div>
             {{if and (not .IsHome) (not .Params.chapter) (not (in .Page.Type "github")) }}
 
                 <h1>{{ .Title}}</h1>
