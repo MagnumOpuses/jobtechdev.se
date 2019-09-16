@@ -9,7 +9,7 @@ description: "Our job search API is a search engine for all the current job ads 
 consoleurl: "consoleurl"
 ---
 
-{{< buttonsHead >}}
+
 
 {{< getMD "https://api.github.com/repos/JobtechSwe/sokannonser-api/contents/GETTINGSTARTED.md?ref=master" >}}
 

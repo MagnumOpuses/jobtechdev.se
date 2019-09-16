@@ -10,7 +10,7 @@ consoleurl: "/devguide/apiconsole/?urls.primaryName=Occupation%20-%20Occupation%
 
 ---
 
-{{< buttonsHead >}}
+
 
 ## Af Occupation Info - Getting started
 
