@@ -13,9 +13,10 @@ h4 {
 }
 
 .showcase-item {
+
     border-radius: 5px;
     color: #20272b;
-    width: 100%;
+    
     border: 2px solid #BDBDBD;
     height: 100% !important;
     padding: 16px;
@@ -24,6 +25,7 @@ h4 {
 
 
 }
+
 .button {
 
 }
