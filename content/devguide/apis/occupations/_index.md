@@ -35,7 +35,6 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 
 
 ### Authentication
-<hr>
 To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. 
 On a second phase, we will use this information to create an account where you will be able to manage your keys directly.  
 
@@ -53,7 +52,8 @@ These are required on all requests. Below is a sample of how query parameters ar
 ### Endpoints
 The endpoints for Af Occupation forecast API are:
 
-* /yrken
+* /yrken  
+
 * /yrken/{id}
 * /yrken/amsOccupationId/{id}
 
@@ -62,16 +62,16 @@ The endpoints for Af Occupation forecast API are:
 
 
 ### Results
-<hr>
+
 
 
 
 ### Errors
-<hr>
+
 403 
 
 ### Use cases
-<hr>
+
 
 
 

@@ -33,6 +33,7 @@ for example in connection with Försäkringskassans communication with insured, 
 
 
 
+
 ### Authentication
 
 To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. 
@@ -53,11 +54,11 @@ These are required on all requests. Below is a sample of how query parameters ar
 
 
 ### Endpoints
-The endpoints for Af Occupation forecast API are:
+ /yrken  
+Get the id of the occupation
 
-* /yrken  
-* /yrken/{id}
-
+/yrken{id}  
+Get activity requirements according to Id
 
 
 

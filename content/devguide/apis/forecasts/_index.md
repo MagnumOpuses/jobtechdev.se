@@ -32,18 +32,6 @@ The API is an open interface without contract or registration requirements.
 
 ### Short introduction
 
-The endpoints for Af Occupation forecast API are:
-
-* [/Description/{ssyk}](#description) 
-* [/getPrognosGeoJson/{ssyk}](#getprognosgeojson) 
-* [/occupationalArea/forcasresRefs/list](#occupationalarea) 
-* [/occupationalArea/forcastsRefs/list/{occupationalAreaId}](#occupationalarea) 
-* [/occupationalArea/longTerm/{occupationalAreaId}](#occupationalarea) 
-* [/occupationalArea/shortTerm/{occupationalAreaId}](#occupationalarea) 
-* [/occupationalGroup/longTerm/{ssyk}](#occupationalgroup)
-* [/occupationalGroup/longTerm/{ssyk}](#occupationalgroup)
-* [/occupationalGroup/shortTerm/{ssyk}](#occupationalgroup)
-* [/version - version Api Version](#version)
 
 
 ### Authentication
@@ -56,6 +44,20 @@ This Api does not requier any authentication
 All endpoints requires some Id:s or code: these could be found here:  
 SSYK : https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalName/list  
 OccupationalAreaId : https://api.arbetsformedlingen.se:443/af/v2/forecasts/good_to_have/occupationalArea/list
+
+
+The endpoints for Af Occupation forecast API are:
+
+* [/Description/{ssyk}](#description) 
+* [/getPrognosGeoJson/{ssyk}](#getprognosgeojson) 
+* [/occupationalArea/forcasresRefs/list](#occupationalarea) 
+* [/occupationalArea/forcastsRefs/list/{occupationalAreaId}](#occupationalarea) 
+* [/occupationalArea/longTerm/{occupationalAreaId}](#occupationalarea) 
+* [/occupationalArea/shortTerm/{occupationalAreaId}](#occupationalarea) 
+* [/occupationalGroup/longTerm/{ssyk}](#occupationalgroup)
+* [/occupationalGroup/longTerm/{ssyk}](#occupationalgroup)
+* [/occupationalGroup/shortTerm/{ssyk}](#occupationalgroup)
+* [/version - version Api Version](#version)
 
 
 ##### description
