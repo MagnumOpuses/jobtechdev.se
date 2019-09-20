@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 #top-github-link, #body #breadcrumbs {
   position: relative;
   top: 50%;
@@ -408,6 +410,53 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body-inner {
   margin-bottom: 5rem;
+  max-width: 1200px;
+  margin: auto;
+  padding:45px;
+  margin-top: 10px;
+  border:0px 1px solid #efefef;
+
+  -webkit-box-shadow:5px 6px 20px 1px #e5dddd ;
+  -moz-box-shadow:5px 6px 20px 1px #e5dddd ;
+  box-shadow:5px 6px 20px 1px #e5dddd ;
+  min-height: 1000px;
+  margin-bottom: 10px;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 #chapter {
   display: flex;
@@ -418,7 +467,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #chapter #body-inner {
   padding-bottom: 3rem;
-  max-width: 80%;
+
 }
 #chapter h3 {
   font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
@@ -437,7 +486,11 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
   padding: 3rem 1rem;
   color: #b3b3b3;
   font-size: 13px;
+
+
+
 }
+
 #footer p {
   margin: 0;
 }
@@ -989,7 +1042,9 @@ td {
   border-radius: 2px;
   padding: 0 1rem;
   height: 0;
+
   min-height: 3rem;
+
 }
 #top-github-link {
   position: relative;

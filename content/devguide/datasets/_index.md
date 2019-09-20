@@ -1,6 +1,8 @@
 ---
 title: "Data sets"
 date: 2018-01-28T21:58:09+01:00
+description: "Taxonomi Service contains data commonly used by Arbetsförmedlingen.
+              For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK), and much more"
 #anchor: "devguide"
 weight: 15
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
@@ -21,8 +23,7 @@ LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
 ---
-### API Noticeboard
-<hr>
+### Data sets
 
 
 
@@ -31,4 +32,4 @@ In this area you will find data sets to develop use for the labour market area
 Do you have questions or want  to get in touch with us?  
 <contact@jobtechdev.se>
 
-{{% children style="p" %}}
+{{< datasets >}}

@@ -7677,7 +7677,8 @@ footer .widget_getintuch i {
     background-position: top;
     background-repeat: repeat-x;
 }
-.footer-bottom {
+.footer-bottom  {
+
     position: relative;
     z-index: 100;
     background-color:#292929;
@@ -7686,6 +7687,7 @@ footer .widget_getintuch i {
     bottom: 0px;
     font-size: 15px;
 	border-top:1px solid #313131;
+
 }
 .footer-bottom ul {
     margin: 0;
@@ -7707,6 +7709,7 @@ footer .widget_getintuch i {
     .footer-bottom [class*="clo-"] {
         width: 100%;
     }
+    {}
 }
 /* scroll top btn css */
 

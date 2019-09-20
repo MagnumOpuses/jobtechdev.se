@@ -1,19 +1,17 @@
 ---
 title: "Job search (beta)"
 date: 2018-01-28T21:58:09+01:00
-disableToc: true
+disableToc: false
 menuTitle: "Job Search (beta)"
 weight: 10
+type: "github"
 description: "Our job search API is a search engine for all the current job ads from Platsbanken. The aim is to make a simple yet versatile API that should suit anyone building any kind of application involving data from job ads."
-url: "/apis/Job Search (beta)"
+consoleurl: "consoleurl"
 ---
 
-Our job search API is a search engine for all the current job ads from Platsbanken. 
-The aim is to make a simple yet versatile API that should suit anyone building any kind of application involving data from job ads. 
-There is a lot going on under the hood with how we index the ads for relevance but we’re trying to keep the complexity away from the API users.
 
-If you would like to test the api, send an email to <beta@jobtechdev.se>
-This is an early access but it is most certainly the way the API will look when published. The addresses will be changed. Keep an eye at jobtechdev.se and 
-we also have slack, jobtechdevelopment.slack.com to get the latest information.
+
+{{< getMD "https://api.github.com/repos/JobtechSwe/sokannonser-api/contents/GETTINGSTARTED.md?ref=master" >}}
+
 
 
