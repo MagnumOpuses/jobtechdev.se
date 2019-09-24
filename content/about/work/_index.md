@@ -6,22 +6,61 @@ disableToc: true
 menuTitle: "Work with us"
 weight: 40
 ---
-##### A NEW ERA  
-Within JobTech we're constantly challenging old ways of working and old techniques. We're focusing on using all the opportunities new technology can offer to create new, innovative, valuable solutions and assets for the labour market.
 
-##### TALENT SCOUTING  
-In order for this to happen we need to find the right people to join us - and now we’re coming to find new teammates in Norrbotten! We want to find people who are passionate to work together with others and make a difference, and we’re convinced that we’ll find our next competent colleagues outside Stockholm.
+##### Clojure developers wanted in Stockholm!
 
-##### WE CARE  
-We believe that work/life balance is key to a good team performance. Providing possibilities for remote working, flex time and a flat organization is something we feel very strongly about. “Skills speaks louder than titles” is a guiding star we’re extra happy to live by. But, we plan to make the new office in Piteå into something special, and a place you want to go.
+##### About JobTech
 
-##### OPEN BY DEFAULT  
-Empowering the citizens of Sweden by working in a transparent way is a big thing for us. We want to engage and invite to collaboration and co-creation in several ways - and a prerequisite for that is to provide open projects, open data and open source to the best of our abilities.
+JobTech is an innovative division within the Swedish Public Employment Service (Arbetsförmedlingen). JobTech is building an open and transparent digital infrastructure that enables the development of an ecosystem of actors who individually and collectively improve and innovate digital matching, guidance, analysis and learning services. This is achieved primarily through open source, open APIs and open data.
 
-##### 1 + 1 = 3  
-A knowledge sharing mentality, curiosity, a hunger for learning and willingness to try, test and fail are all traits we value. Combined with working with small, quick releases based in the iterative design thinking process we think we have a recipe for magic!
 
-##### LIKE WHAT YOU SEE?  
-Don’t hesitate, become a part of our team! 
-Come back soon - we post all ads here when available.
+##### About the team 
+
+The team that you will be a part of has its main focus on classifications and classification-systems, such as taxonomies and ontologies for the labor market. Put in simpler terms; we work with the keywords ​​that are used when matching job-seekers with employers, such as job titles, skills etc.
+
+The classification-systems are created in collaboration with our editorial staff and by mining large amounts of text-data. The classification-systems are made available as container-based  REST-services.
+
+We have a strong focus on making it easy for consumer-systems to continuously update their services in line with changes in the foundational taxonomines. 
+
+We mainly program in Clojure.
+
+Are you curious about how we code?
+
+Everything we do is open source and is available in our public git repos:
+ https: // github.com/JobtechSwe/jobtech-taxonomy-api
+
+##### About you:
+
+##### Required qualifications:
+
+You have a few years of experience in software development
+You can design robust systems that are prone to change
+You know how to process large amounts of data with the help of functional programming.
+You understand the benefits of immutable data when working with distributed systems
+
+
+
+##### Recommended qualifications: 
+
+Clojure, Datomic, Datahike, Scala, Python, NLP/NLU, Spark, Gensim, Spacy, Machine Learning with BiLSTM but also older algorithms such as CRF and HMM. Docker/Kubernetes/OpenShift, Emacs. 
+
+We are looking for someone who enjoys working in a flat organisation. We work according to a collaborative-autonomy model which means that teams have a great deal of autonomy but also a high degree of responsibility. 
+
+You are mature and able to collaborate and communicate with different people. You are committed, humble and result-oriented.
+
+We place a good deal of emphasis on your personal qualities and values.
+
+##### Our offer to you:
+
+As mentioned above, our division is a part of the Swedish Public Employment Service. This means that we embody the values of the governmental agency; such as striving to be an equal-opportunity employer where the value of people is paramount; irrespective of their race, religion, ethnicity, sex, to name a few. For further reading please visit http://www.arbetsformedlingen.se. 
+
+We believe that we offer a highly attractive working environment for people who are curious about and interested in creating a greater value for the society in which we participate. Our work is woven with the principles of value-creation, transparency and a desire to learn. We offer and encourage you to explore and develop your personal and career-related goals. 
+
+The advertised position is a permanent, full-time salaried position with a probationary period of 6 months. Our team is based from our offices in Stockholm.  
+
+##### Application Process
+
+Information how to apply will be provided from September 25th.
+
+
 
