@@ -1,15 +1,16 @@
 ---
 title: "Af Jobs"
-date: 2018-01-28T21:58:09+01:00
 disableToc: true
 menuTitle: "Af Jobs"
-weight: 30
+weight: 10
+date: 2019-01-19T20:06:16+01:00
+type: "github"
 description: "The open API “Af Jobs ” for job advertisements will be replaced in 2019 with a new version, the closure will take place on the last of November. The support of the current version will end at September 1, 2019 "
 url: "/apis/Af Jobs"   
-consoleurl: "/devguide/apiconsole.html?urls.primaryName=Jobs%20-%20Online%20Jobs%20-%20Deprecated"        
+consoleurl: "/devguide/apiconsole.html?urls.primaryName=Jobs-%20Deprecated"        
 ---
 
-
+## Af Jobs
 
 {{% notice info %}}
 The open API "Af Jobs " for job advertisements will be replaced in 2019 with a new version, 
@@ -17,25 +18,54 @@ the closure will take place on the last of November. The support of the current 
 **A beta version is available already.  
 Information on how to access the beta version is available at https://jobtechdev.se/api/beta/jobsearch/**
 {{% /notice %}}
+
+
+
 The Af Job API contains all current job ads from Swedish Public Employment Service. Somewhere around 100000 job ads, about 3000 new ads are submitted daily by employers, 5 million accesses to the job posting database daily.
 
-
-*With the API it is free of charge for everyone to interact with Arbetsförmedlingens job ad database with in custom built services.*
-
-The API is an open interface without contract or registration requirements. Some of the data returned from the service is of the type of fuzzy matching.
-This means that the results from a list search results in hits closely related keywords. Soft matching takes place in the professions and municipalities.
 
 >Example of fuzzy matching:
 If you are looking for a "bagare" (baker), you also get hits for "Konditor" (confectioner) because these two occupations are closely related.
 
 See the technical description for details requests.
 
-#### Endpoint
-````
-https://jobtechdev.se/swagger/index.html
-````
 
 
-Learn more about the Platsbanken API or start use the API right away
 
-[Af Jobs API (Platsbanken)](/swagger/index.html)
+
+### Table of Contents
+
+* [Authentication](#authentication)
+* [Endpoints](#endpoints)
+* [Results](#results)
+* [Errors](#errors)
+* [Use case](#use case)
+
+### Short introduction
+
+
+### Authentication
+
+The API is an open interface without contract or registration requirements. 
+
+
+
+
+### Endpoints
+You will find the endpoints and some more documentation [here](/pdf/Teknisk_beskrivning_af_jobs.pdf)
+
+
+### Results
+Some of the data returned from the service is of the type of fuzzy matching.
+This means that the results from a list search results in hits closely related keywords. 
+Soft matching takes place in the professions and municipalities.
+
+The results of your queries will be in JSON format. We won't attempt to explain this attribute by attribute in this document. 
+
+
+### Errors
+
+
+
+
+### Use cases

@@ -3,11 +3,11 @@ title: "Github repositories"
 disableToc: true
 menuTitle: "Github repositories"
 weight: 20
+description: " Github repositories for Jobtech dev"
 ---
 
-Jobtech development is a part of the Swedish public employment service (Arbetsförmedlingen)
-JobTech (job technology) is a collective term for technical innovation in the labour market sector.JobTech is characterized by collaboration between several actors in the labour market arena. 
-The sharing of common resources such as data provides better prerequisites to create and offer better end services.
+At Github, you can download our different projects, and be a part of the development, or maybe
+find something interesting to continue with.
 
 
 

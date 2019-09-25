@@ -2,11 +2,11 @@
 title: "Af Occupation info"
 disableToc: true
 menuTitle: "Af Occupation Info"
-weight: 20
+weight: 10
 date: 2019-01-19T20:06:16+01:00
 description: "AF Occupation info is an API, containing descriptions of nearly 350 different occupations. The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application."
 url: "/apis/Af Occupation Info"
-consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20-%20Occupation%20info%20"
+consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20info%20"
 
 ---
 
@@ -14,34 +14,27 @@ consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20-%20Occupat
 
 ## Af Occupation Info - Getting started
 
-<hr>
+
 
 AF Occupation info is an API, containing descriptions of nearly 350 different occupations. 
 The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application.
 
 ### Table of Contents
-<hr>
-* Authentication
-* Endpoints
-* Results
-* Errors
-* Use case
-
+* [Authentication](#authentication)
+* [Endpoints](#endpoints)
+* [Results](#results)
+* [Errors](#errors)
+* [Use case](#use case)
 
 
 
 ### Short introduction
-<hr>
-The endpoints for Af Occupation forecast API are:
 
-* /yrken
-* /yrken/{id}
-* /yrken/amsOccupationId/{id}
+
  
 
 
 ### Authentication
-<hr>
 To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. 
 On a second phase, we will use this information to create an account where you will be able to manage your keys directly.  
 
@@ -57,23 +50,27 @@ Once the keys are acquired, the authentication to the services is done using two
 These are required on all requests. Below is a sample of how query parameters are used:
 
 ### Endpoints
-<hr>
+The endpoints for Af Occupation forecast API are:
+
+* /yrken  
+* /yrken/{id}
+* /yrken/amsOccupationId/{id}
 
 
 
 
 
 ### Results
-<hr>
+
 
 
 
 ### Errors
-<hr>
+
 403 
 
 ### Use cases
-<hr>
+
 
 
 
