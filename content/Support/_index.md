@@ -11,14 +11,16 @@ chapter: true
 # Support & Contact
 <hr>
 Find opportunities for collaboration and innovation, develop and improve the Swedish labour market. 
-We share and receive knowledge, experience and data. This is an arena where collaboration and relationship building through open source and open data is made reality, regardless if you’re a developer, innovator, CEO, student - or something else
+We share and receive knowledge, experience and data. This is an arena where collaboration and relationship building through open source and open data is made reality, regardless if you’re a developer, innovator, CEO, student - or something else.
 
 
-Meet us - We’re available if you want to meet us and talk about ideas or potential collaborations, just send us an email <josefin.berndtson@jobtechdev.se>  
-We also like to meet in our slack channel, send us a note and [get invited](mailto:josefin.berndtson@jobtechdev.se)!  
+Meet us - We’re available if you want to meet us and talk about ideas or potential collaborations,   
+send an email to [Josefin](mailto:josefin.berndtson@jobtechdev.se) and we’ll sort something out
+
+There’s a dedicated JobTech Community Slack channel where you can find a lot of interesting discussions and members. Send us a note and get [get invited!](mailto:josefin.berndtson@jobtechdev.se)!  
 
 Do you need support using our data sources?
-send an email to [Support](mailto:support@jobtechdev.se)
+Send an email to our [Support](mailto:support@jobtechdev.se)
 
 
 
