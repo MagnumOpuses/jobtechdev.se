@@ -53,7 +53,6 @@ These are required on all requests. Below is a sample of how query parameters ar
 The endpoints for Af Occupation forecast API are:
 
 * /yrken  
-
 * /yrken/{id}
 * /yrken/amsOccupationId/{id}
 
