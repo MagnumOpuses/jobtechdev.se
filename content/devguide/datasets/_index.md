@@ -4,7 +4,7 @@ date: 2018-01-28T21:58:09+01:00
 description: "Taxonomi Service contains data commonly used by Arbetsförmedlingen.
               For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK), and much more"
 #anchor: "devguide"
-weight: 15
+weight: 20
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc: "false"
