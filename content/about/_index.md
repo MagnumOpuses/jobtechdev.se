@@ -1,6 +1,7 @@
-
+---
+title: "About JobTech"
 #anchor: "aapis"
-weight: 15
+weight: 10
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc: "false"
