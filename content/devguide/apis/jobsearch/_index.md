@@ -9,7 +9,7 @@ description: "Our job search API is a search engine for all the current job ads 
 consoleurl: "/devguide/apiconsole.html?urls.primaryName=Jobsearch"
 ---
 
-
+To request a API key for the beta version please send us an [email](mailto:beta@jobtechdev.se)
 
 {{< getMD "https://api.github.com/repos/JobtechSwe/sokannonser-api/contents/GETTINGSTARTED.md?ref=master" >}}
 
