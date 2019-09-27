@@ -53,7 +53,9 @@
                     "href": "/cookie_policy"
                 }
             })});
+
     </script>
+
 </head>
 <body class="" data-url="{{ .RelPermalink }}">
 {{ partial "menu.html" . }}
@@ -110,8 +112,11 @@
         {{ end }}
 
         <div id="body-inner">
-            {{if and (not .IsHome) (not .Params.chapter) }}
-                <h1>{{.Title}}</h1>
+            <div id="api-buttons" class="api-buttons"></div>
+            {{if and (not .IsHome) (not .Params.chapter) (not (in .Page.Type "github")) }}
+
+                <h1>{{ .Title}}</h1>
+
             {{end}}
 
             {{define "breadcrumb"}}
@@ -123,3 +128,12 @@
                     {{.value|safeHTML}}
                 {{end}}
             {{end}}
+
+            <script>
+
+                {{ if isset .Page.Params "consoleurl"}}
+                document.getElementById("api-buttons").innerHTML += '<a href=\"{{.Page.Params.consoleurl}}\" class=\"showcasebtn align-self-end \"> console </a>'
+                {{end}}
+                console.log( {{.Page.Params}})
+
+            </script>
