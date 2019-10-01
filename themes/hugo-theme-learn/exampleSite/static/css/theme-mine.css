@@ -19,7 +19,7 @@
     --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #f0f0f0; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #599a3e; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #18211c; /* Color of <hr> separator in menu */

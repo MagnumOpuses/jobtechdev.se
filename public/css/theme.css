@@ -424,7 +424,9 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #chapter #body-inner {
     padding-bottom: 3rem;
-    max-width: 80%;
+    -webkit-box-shadow: 9px 10px 8px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 8px -6px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 8px -6px rgba(0,0,0,0.75);
 }
 #chapter h3 {
     font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
