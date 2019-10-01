@@ -27,7 +27,7 @@ LastModifierEmail: ""
 
 # JobTech Dev
 ### An open digital infrastructure that enables people to meet. 
-This site is powered and financed by The Swedish Public Employment Service (Arbetsförmedlingen).  
+This site is a part The Swedish Public Employment Service (Arbetsförmedlingen).  
 The goal is to serve the labour market by creating a open digital infrastructure.
 
 We provide relevant data for developers interested in the labour market.

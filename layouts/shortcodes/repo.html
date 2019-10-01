@@ -1,0 +1,48 @@
+<!-- Using bootstrap for grid behavior (compatible with IE11)-->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/apis.css">
+
+<style>
+    body {
+        background-color: #fff;
+        --MAIN-TITLES-TEXT-color: #000;
+    }
+</style>
+
+
+<div class="container-fluid">
+    <div class="row">
+
+
+        {{ range where .Site.Pages "Section" "devguide"}}
+
+        {{if eq .Parent.Title "Github repositories"}}
+
+
+
+
+
+        <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
+
+            <div class="showcase-item">
+                <h4>{{ .Params.Ptitle}}</h4>
+                <div class="w3-separator  separator"></div>
+                <p>{{ .Description }}</p>
+                <footer>
+                    <a href="{{.Params.link}}" class="fab fa-github fa-2x"> Github</a>
+
+
+                </footer>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        {{ end }}{{ end }}
+    </div>
+</div>
