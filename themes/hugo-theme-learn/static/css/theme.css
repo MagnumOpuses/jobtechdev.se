@@ -745,6 +745,9 @@ hr {
 }
 #body-inner pre {
   white-space: pre-wrap;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  color:#5e5e5e
 }
 .tabs-wrapper pre {
   margin: 1rem 0;
