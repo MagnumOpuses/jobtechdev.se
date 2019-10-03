@@ -9,6 +9,8 @@
 .swagger-ui *, .swagger-ui :after, .swagger-ui :before {
   box-sizing: inherit;
   color: #5e5e5e;
+  font-weight: 400;
+
 }
 
 .swagger-ui body {
