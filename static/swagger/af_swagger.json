@@ -37,7 +37,7 @@
             "name": "afplatsid",
             "in": "path",
             "required": true,
-            "type": "array"
+            "type": ["array"]
           }
         ],
         "responses": {
