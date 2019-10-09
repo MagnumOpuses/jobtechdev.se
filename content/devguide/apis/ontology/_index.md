@@ -33,7 +33,7 @@ See the [Taxonomy documentation]({{< ref "/focus_areas/common/_index.md" >}}) fo
 http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json
 ```
 
-[Ontology API](http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json)
+<a href="http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json" target="_blank">Ontology API</a>
 
 #### Ontology files
 
