@@ -1,5 +1,5 @@
 ---
-title: "Data sets"
+title: "Ongoing projects"
 date: 2018-01-28T21:58:09+01:00
 
 #anchor: "devguide"
@@ -21,14 +21,16 @@ hidden: false
 LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
+draft: true
+hidden: true
 ---
-### Data sets
+### Discover our ongoing projects
 
 
 
-In this area you will find data sets to develop use for the labour market area
 
-Do you have questions or want  to get in touch with us?  
+
+Do you have questions or want  to get in touch with us....
 <contact@jobtechdev.se>
 
-{{< datasets >}}
+{{< projects >}}
