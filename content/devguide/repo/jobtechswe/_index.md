@@ -11,6 +11,7 @@ date: 2019-01-19T20:06:16+01:00
 description: "At Jobtech Swe github organistation, you will find some of our ongoing projects,"
 type: "github"
 link: "https://github.com/jobtechswe"
+hidden: true
 
 
 
