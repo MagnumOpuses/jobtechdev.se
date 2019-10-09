@@ -37,7 +37,7 @@ The swagger interface:
 ### Short introduction
 
 The endpoints for Taxonomy webservice:
-[Taxonomy webservice](http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?)
+<a href="http://api.arbetsformedlingen.se/taxonomi/v0/TaxonomiService.asmx?" target="_blank">Taxonomy webservice</a>
 
 
 
