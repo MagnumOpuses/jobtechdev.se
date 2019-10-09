@@ -1,6 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
+    "title": "Gamla Platsbanks APIet",
     "version": "1.0.4",
     "description": "Beskrivande text om API"
   },
@@ -36,7 +37,7 @@
             "name": "afplatsid",
             "in": "path",
             "required": true,
-            "type": "string"
+            "type": ["array"]
           }
         ],
         "responses": {

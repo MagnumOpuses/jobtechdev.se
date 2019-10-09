@@ -8,7 +8,7 @@
   "host": "apier.arbetsformedlingen.se",
   "basePath": "/yrkesinfo-raf/v1/",
   "schemes": [
-    "HTTPS"
+    "https"
   ],
   "paths": {
     "/yrken": {
