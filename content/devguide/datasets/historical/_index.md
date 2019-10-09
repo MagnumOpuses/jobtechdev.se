@@ -13,14 +13,14 @@ Each listing contains metadata on location, dates, employer name, job type and a
 
 #### Open Source application utilize this dataset through an API
 Application creates a visual overview and shows what is possibly to do with the dataset.
-Go to the [application](http://historik.azurewebsites.net/)
+Go to the <a href="http://historik.azurewebsites.net/" target="_blank">application</a>
 
 
 ##### Source code for the API with basic statistics
 We provide a microservice for basic statistics and queries on the dataset.
 
 ##### Examples
-A notebook with examples can be found [here](https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb).
+A notebook with examples can be found <a href="https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb" target="_blank">here</a>.
 
 ##### Data format
 Each line in a file contains a job listing in a simple JSON format
