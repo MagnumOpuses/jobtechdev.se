@@ -21,6 +21,8 @@ hidden: false
 LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
+draft: true
+hidden: true
 ---
 ### Discover our ongoing projects
 
@@ -28,7 +30,7 @@ LastModifierEmail: ""
 
 
 
-Do you have questions or want  to get in touch with us?  
+Do you have questions or want  to get in touch with us....
 <contact@jobtechdev.se>
 
 {{< projects >}}
