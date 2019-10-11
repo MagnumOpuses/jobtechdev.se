@@ -20,16 +20,17 @@
     <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds6"/>
     <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds7"/>
     <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds8"/>
+    <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds9"/>
     <dcterms:publisher rdf:resource="http://arbetsformedlingen.se/datasets/dcat#agent1"/>
     <dcterms:issued>2018-04-05</dcterms:issued>
     <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/se"/>
     <dcterms:modified>2018-04-05</dcterms:modified>
-    <foaf:homepage>https://jobtechdev.se/doc/api/</foaf:homepage>
+    <foaf:homepage>https://jobtechdev.se/devguide/apis.html</foaf:homepage>
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds1">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Current jobs</dcterms:title>
+    <dcterms:title xml:lang="sv">Af Jobs</dcterms:title>
     <dcterms:description>
       The platsbanken's API contains a list of ca 3000 current job ads submitted daily by employers in Sweden with a total number of ~100 000 ads and about 3000 new ads are submitted daily by employers.
       With this API it is possible to interact with Arbetsförmedlingens job ad database within a custom built applications.
@@ -54,11 +55,10 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Taxonomy</dcterms:title>
     <dcterms:description>
-      Taxonomy is a webservice that contains the descriptions of nearly 450 different occupations.
-      The webservice is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Profession A-Ö application.
+      Taxonomy Service contains data commonly used by Arbetsförmedlingen.
+      For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK), and much more.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>job descriptions</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcat:accessURL rdf:resource="https://jobtechdev.se/devguide/apis/taxonomy.html"/>
@@ -170,6 +170,70 @@
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/apis/jobsearch.html"/>
     <foaf:page rdf:resource="https://jobtechdev.se/devguide/apis/jobsearch.html"/>
+    <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds7">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="sv">Job Stream</dcterms:title>
+    <dcterms:description>
+      JobStream an API for building applications with all job ads stored locally.
+      With API JobStream you can fetch changes in the ads at Platsbanken, once a minute.
+      New, removed or updated ads.
+    </dcterms:description>
+    <adms:contactPoint rdf:nodeID="_n4"/>
+    <dcat:keyword>jobs</dcat:keyword>
+    <dcat:keyword>job ads</dcat:keyword>
+    <dcat:keyword>vacancies</dcat:keyword>
+    <dcat:keyword>platsannonser</dcat:keyword>
+    <dcterms:publisher rdf:nodeID="_n5"/>
+    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
+    <dcterms:issued>2019-03-04</dcterms:issued>
+    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/devguide/apis/jobstream.html"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/apis/jobstream.html"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/devguide/apis/jobstream.html"/>
+    <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="sv">RAF (Occupation workability)</dcterms:title>
+    <dcterms:description>
+      Reference material when assessing work ability (RAF) contains groupings of the professions that are expected to make similar demands on ability from a medical perspective.
+      These requirements are called activity requirements and are described on the basis of common tasks within the group.
+    </dcterms:description>
+    <adms:contactPoint rdf:nodeID="_n4"/>
+    <dcat:keyword>Reference material</dcat:keyword>
+    <dcterms:publisher rdf:nodeID="_n5"/>
+    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
+    <dcterms:issued>2019-03-04</dcterms:issued>
+    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/apis/af-workability-raf/"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/apis/af-workability-raf/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/apis/af-workability-raf/"/>
+    <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="sv">Occupation Info</dcterms:title>
+    <dcterms:description>
+      AF Occupation info is an API, containing descriptions of nearly 350 different occupations.
+      The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application.
+    </dcterms:description>
+    <adms:contactPoint rdf:nodeID="_n4"/>
+    <dcat:keyword>Occupation description</dcat:keyword>
+    <dcterms:publisher rdf:nodeID="_n5"/>
+    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
+    <dcterms:issued>2019-03-04</dcterms:issued>
+    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/apis/af-occupation-info/"/>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/apis/af-occupation-info/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/apis/af-occupation-info/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
