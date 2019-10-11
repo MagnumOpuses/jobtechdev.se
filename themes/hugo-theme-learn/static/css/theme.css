@@ -414,7 +414,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #body-inner {
   background-color: #fff;
   margin-bottom: 5rem;
-  max-width: 1200px;
+  min-width: 90%;
   margin: auto;
   padding:45px;
   margin-top: 10px;
@@ -463,6 +463,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #chapter {
   display: flex;
+  min-width: 1200px;
   align-items: center;
   justify-content: center;
   height: 100%;
