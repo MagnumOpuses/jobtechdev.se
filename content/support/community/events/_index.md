@@ -11,6 +11,12 @@ weight: 20
 
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
+- **Meet us at The Linux Foundation – Open Source Summit in Lyon 28th-30th of October**  
+Johan Linåker (University of Lund) and Jonas Södergren (JobTech Dev, Swedish Public Employment Office) will present an overview of the infrastructure and share a public-sector organization's rationale for sharing software as open source. Attendees will further get insights into the potential value and ways of extending collaboration and co-creation beyond open source software to also include related open data and standards. We will discuss how to incentivize both organizations and citizens to join such cross-sector collaboration, and how a public-sector
+organization should best facilitate and enable the collaboration and development of this kind of infrastructure.
+
+##### **Previous events** 
+
 - **Tech for lunch!**  
 JobTech Development is pioneering the digital transformation of the Swedish Labour Market.   
 Welcome to a hands-on, demo-driven run through of JobTech development's digital infrastructure.  
@@ -18,8 +24,6 @@ When: 29 August, 11.30-13.00
 Where: Creactive  
 Read more on our web: https://mjardevi.se/event/lunch-with-jobtech-development/   
 Registration: https://www.facebook.com/events/476794859755084/
-
-##### **Previous events** 
 
 - **Offentliga Rummet 10-12 juni, Västerås**  
 Wealth by digitalisation – Offentliga Rummet is a meeting point which enables prerequisities for smarter sollutions. 
