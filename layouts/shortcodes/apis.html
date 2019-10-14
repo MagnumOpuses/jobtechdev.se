@@ -1,6 +1,7 @@
 <!-- Using bootstrap for grid behavior (compatible with IE11)-->
 <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/css/apis.css">
+
 <style>
     body {
         background-color: #fff;
@@ -8,12 +9,18 @@
     }
 </style>
 
+
 <div class="container-fluid">
     <div class="row">
+
 
         {{ range where .Site.Pages "Section" "devguide"}}
 
         {{if eq .Parent.Title "Apis"}}
+
+
+
+
 
 
         <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="padding:16px">
