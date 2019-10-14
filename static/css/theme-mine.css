@@ -27,7 +27,7 @@
 }
 
 body {
-    color: #ccc !important; /*Fallback for IE*/
+    color: #323232 !important; /*Fallback for IE*/
     background-color: #f0f0f0; /*Fallback for IE*/
     color: var(--MAIN-TEXT-color) !important;
     background-color:var(--MAIN-BACKGROUND-color);
@@ -39,7 +39,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 h1, h2, h3, h4, h5 {
-    color: #ccc; /* Fallback for IE */
+    color: #323232; /* Fallback for IE */
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
