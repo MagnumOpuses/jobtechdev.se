@@ -476,15 +476,21 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #chapter h3 {
   font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
 }
 #chapter h1 {
   font-size: 5rem;
   border-bottom: 4px solid #F0F2F4;
 }
 #chapter p {
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
+}
+#chapter ul {
+  text-align: center;
+  width: 250px;
+  margin: auto;
+
 }
 #footer {
   padding: 3rem 1rem;
