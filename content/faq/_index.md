@@ -53,7 +53,7 @@
                },
                {
                 "q":"Where can I find a full list of possible options for at least employment_type and occupation_field fields?",
-                "a":"You could get a list of possible options for the employment_type and the other fields, by using the <a href='https://open-api.dev.services.jtech.se/' target='blank'>Taxonomy API</a> For example use this curl -X GET “https://<span></span>open-api.dev.services.jtech.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
+                "a":"You could get a list of possible options for the employment_type and the other fields, by using the <a href='https://jobsearch.api.jobtechdev.se/' target='blank'>Taxonomy API</a> For example use this curl -X GET “https://<span></span>jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
                }                                  
           ]
     }                 
