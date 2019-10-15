@@ -16,14 +16,14 @@ Application creates a visual overview and shows what is possibly to do with the 
 Go to the <a href="http://historik.azurewebsites.net/" target="_blank">application</a>
 
 
-##### Source code for the API with basic statistics
+##### Source code for the API with basic statistics.
 We provide a microservice for basic statistics and queries on the dataset.
 
 ##### Examples
 A notebook with examples can be found <a href="https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb" target="_blank">here</a>.
 
 ##### Data format
-Each line in a file contains a job listing in a simple JSON format
+Each line in a file contains a job listing in a simple JSON format.
 
 ##### Downloads
 2017, [download](https://simonbe.blob.core.windows.net/afhistorik/2017.zip)

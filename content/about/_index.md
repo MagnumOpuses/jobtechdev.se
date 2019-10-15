@@ -32,4 +32,3 @@ This is what we define as an Ecosystem - a mutually dependent network that offer
 
 We are targeting the actors who develop digital services for the labor market area. It may be startups and established actors who want to build better services to help employers find the workforce and skills and job seekers a job.
 
-{{% children style="p" %}}
