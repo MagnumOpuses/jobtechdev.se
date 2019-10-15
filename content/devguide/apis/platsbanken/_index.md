@@ -52,7 +52,7 @@ The API is an open interface without contract or registration requirements.
 
 
 ### Endpoints
-You will find the endpoints and some more documentation [here](/pdf/Teknisk_beskrivning_af_jobs.pdf)
+You will find the endpoints and some more documentation [here](/pdf/Teknisk_beskrivning_af_jobs.pdf).
 
 
 ### Results
