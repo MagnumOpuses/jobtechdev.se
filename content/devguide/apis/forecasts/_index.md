@@ -62,7 +62,7 @@ The endpoints for Af Occupation forecast API are:
 
 ##### description
 /description/{ssyk}  
-Get forecast information about given SSYK
+Get forecast information about given SSYK.
 
 
 ##### getPrognosGeoJson
@@ -72,31 +72,31 @@ Gives you the forecast index based on coordinates.
 ##### occupationalArea
  
 /occupationalArea/forcastsRefs/list  
-Get references to all available forecasts, listed per occupational area ('yrkesområde')
+Get references to all available forecasts, listed per occupational area ('yrkesområde').
 
 /occupationalArea/forcastsRefs/list/{occupationalAreaId}  
-Get available forecasts for given occupational area id ('yrkesområde')
+Get available forecasts for given occupational area id ('yrkesområde').
 
 /occupationalArea/forcastsRefs/list/{occupationalAreaId}  
-Get available forecasts for given occupational area id ('yrkesområde)
+Get available forecasts for given occupational area id ('yrkesområde).
 
 /occupationalArea/longTerm/{occupationalAreaId}  
-Get long term prognosis per Occupational Area ('yrkesområde')
+Get long term prognosis per Occupational Area ('yrkesområde').
 
 ##### occupationalGroup
 /occupationalGroup/longTerm/{ssyk}
-Get short and medium long term prognosis per Occupational Area ('yrkesområde')
+Get short and medium long term prognosis per Occupational Area ('yrkesområde').
 
 /occupationalGroup/longTerm/{ssyk}
-Get long term prognosis per occupational group ('yrkesgrupp')
+Get long term prognosis per occupational group ('yrkesgrupp').
 
 /occupationalGroup/shortTerm/{ssyk}
-Get short and medium long term prognosis per occupational group ('yrkesgrupp')
+Get short and medium long term prognosis per occupational group ('yrkesgrupp').
 
 ##### version
 /version - version Api Version
 
-Get the version of the Api
+Get the version of the Api.
 
 
 

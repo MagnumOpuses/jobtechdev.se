@@ -11,30 +11,9 @@
             })
 
         })
-
     </script>
-    <style>
-
-
-
-    </style>
 </head>
-
-
 <script>
     document.getElementById("api-buttons").innerHTML +='<a href="{{$res.html_url}}" class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
 </script>
-
-
-
-
-
 {{ $res.content | base64Decode | markdownify  }}
-
-
-
-
-<script>
-console.log({{$res}})
-
-</script>
