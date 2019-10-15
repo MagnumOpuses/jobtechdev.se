@@ -28,6 +28,10 @@
          "title":"Job Search",
          "qa":[
                {
+                "q":"How can I get an API key?",
+                "a":"Just register for a <a href='https://apirequest.jobtechdev.se/' target='blank'>key</a>"
+               }, 
+               {
                 "q":"I lost my API key, could I get it back?",
                 "a":"Just register for a new key, with the same e-mail address and you will get it back."
                },
@@ -45,15 +49,15 @@
                },
                {
                 "q":"How can I get all job ads?",
-                "a":"If you want all ads we recommend you to use the <a href='https://bulk-api.dev.services.jtech.se' target='blank'>Bulk API</a>"
+                "a":"If you want all ads we recommend you to use the <a href='http://jobstream.api.jobtechdev.se/' target='blank'>Job Stream API</a>"
                }, 
                {
                 "q":"The API deliver to much information, can I filter some how?",
-                "a":"You could use X-files header to decide what information you want. For example: curl -X GET  “https://<span></span>open-api.dev.services.jtech.se/search?offset=0&limit=10” -H “accept: application/json” -H “api-key: XXXXX” -H “X-Fields: {hits{id, headline}}”"
+                "a":"You could use X-files header to decide what information you want. For example: curl -X GET  “https://<span></span>jobsearch.api.jobtechdev.se/search?offset=0&limit=10” -H “accept: application/json” -H “api-key: XXXXX” -H “X-Fields: {hits{id, headline}}”"
                },
                {
                 "q":"Where can I find a full list of possible options for at least employment_type and occupation_field fields?",
-                "a":"You could get a list of possible options for the employment_type and the other fields, by using the <a href='https://open-api.dev.services.jtech.se/' target='blank'>Taxonomy API</a> For example use this curl -X GET “https://<span></span>open-api.dev.services.jtech.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
+                "a":"You could get a list of possible options for the employment_type and the other fields, by using the <a href='https://jobsearch.api.jobtechdev.se/' target='blank'>Taxonomy API</a> For example use this curl -X GET “https://<span></span>jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
                }                                  
           ]
     }                 
