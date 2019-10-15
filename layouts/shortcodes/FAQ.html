@@ -45,7 +45,6 @@
         padding: 10px;
     }
 </style>
-
 {{range $val := $.Page.Params.FAQ}}
     <h4 style="text-align: center">{{index $val.title }}</h4>
     <div class="card hidden">
@@ -57,7 +56,6 @@
         {{end}}
     </div>
 {{end}}
-
 <script>
     for (i = 0; i < document.getElementsByClassName("collapsible").length; i++) {
         let elements = document.getElementsByClassName("collapsible");
@@ -65,7 +63,6 @@
         } else {
             document.getElementsByClassName("collapsible")[i].setAttribute("done", "done");
             elements[i].addEventListener("click", function () {
-
                 this.classList.toggle("active");
                 let content = this.nextElementSibling;
                 if (content.style.display != "block") {

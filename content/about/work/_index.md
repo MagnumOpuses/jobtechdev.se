@@ -33,10 +33,10 @@ Everything we do is open source and is available in our public git repos:
 
 ##### Required qualifications:
 
-You have a few years of experience in software development
-You can design robust systems that are prone to change
+You have a few years of experience in software development.
+You can design robust systems that are prone to change.
 You know how to process large amounts of data with the help of functional programming.
-You understand the benefits of immutable data when working with distributed systems
+You understand the benefits of immutable data when working with distributed systems.
 
 
 
@@ -52,7 +52,7 @@ We place a good deal of emphasis on your personal qualities and values.
 
 ##### Our offer to you:
 
-As mentioned above, our division is a part of the Swedish Public Employment Service. This means that we embody the values of the governmental agency; such as striving to be an equal-opportunity employer where the value of people is paramount; irrespective of their race, religion, ethnicity, sex, to name a few. For further reading please visit <a href="http://www.arbetsformedlingen.se" target="_blank">www.arbetsformedlingen.se.</a> 
+As mentioned above, our division is a part of the Swedish Public Employment Service. This means that we embody the values of the governmental agency; such as striving to be an equal-opportunity employer where the value of people is paramount; irrespective of their race, religion, ethnicity, sex, to name a few. For further reading please visit <a href="http://www.arbetsformedlingen.se" target="_blank">www.arbetsformedlingen.se</a>. 
 
 We believe that we offer a highly attractive working environment for people who are curious about and interested in creating a greater value for the society in which we participate. Our work is woven with the principles of value-creation, transparency and a desire to learn. We offer and encourage you to explore and develop your personal and career-related goals. 
 
