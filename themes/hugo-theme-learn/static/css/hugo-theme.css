@@ -256,8 +256,10 @@ figcaption h4 {
 
   text-align: center;
   height: 50px;
+  transition: transform .2s;
 
 }
+
 
 
 .api-buttons > a {
@@ -273,16 +275,16 @@ figcaption h4 {
   border-style: solid;
   border-color: #eee;
   border-width: 2px;
-  color: #BDBDBD;
   padding: 5px 10px;
   border-color: #4A4A4A;
   --MAIN-LINK-HOVER-color: none;
   --MAIN-ANCHOR-color: none;
   --MAIN-LINK-color: none;
+  transition: transform .2s;
 }
 
 .api-buttons > a:hover {
-
+  transform: scale(1.05);
   text-decoration: none;
   --MAIN-LINK-HOVER-color: none;
   --MAIN-ANCHOR-color: none;
