@@ -29,21 +29,24 @@
 {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /*Fallback for IE*/
+    background-color: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
 }
 
 ::-webkit-scrollbar
 {
 
-    width: 12px;
-    background-color: #777;
+    width: 15px;
+    background-color: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
+    background-color: #777; /*Fallback for IE*/
 }
 
 ::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /*Fallback for IE*/
+    background-color: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
 }
 
 body {
