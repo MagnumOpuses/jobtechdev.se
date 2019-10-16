@@ -110,11 +110,11 @@
 
     {{ end }}
     {{if or (and (.Params.chapter) (eq .UniqueID $currentNode.UniqueID)) (and ( .IsAncestor $currentNode) (.Params.chapter)) }}
-    <i class="menu-arrow fa fa-chevron-circle-down"></i>
+    
     {{end}}
     {{if and (.Params.chapter) (ne .UniqueID $currentNode.UniqueID) (not ( .IsAncestor $currentNode))}}
 
-    <i class="menu-arrow fa fa-chevron-circle-right"></i>
+    <i class="menu-arrow fa fa-plus-circle"></i>
 
     {{end}}
   </a>
