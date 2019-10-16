@@ -18,10 +18,15 @@
                     <h4>{{ .Title}}</h4>
                     <div class="w3-separator  separator"></div>
                     <p>{{ .Description }}</p>
-                    <footer>
+
+                    <footer class="">
+                        <div class="row">
                         <a href="{{.RelPermalink}}" class="showcasebtn align-self-end">Read more</a>
+                    </div>
                         {{ if isset .Params "consoleurl"  }}
+                    <div class="row">
                         <a href="{{ .Params.consoleurl}}" class="showcasebtn align-self-end">Console</a>
+                    </div>
                         {{end}}
                     </footer>
                 </div>
