@@ -411,7 +411,20 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #body .nav.nav-next {
   right: 0;
 }
+
+@keyframes slide {
+  0% {
+    transform: translateX(-150%);
+  }
+  75% {
+    transform: translateX(1%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 #body-inner {
+  animation: 1s ease slide;
   background-color: #fff;
   margin-bottom: 5rem;
   min-width: 90%;
@@ -424,10 +437,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
   box-shadow: 3px 3px 19px -6px rgba(0,0,0,0.75);
   min-height: 1000px;
   margin-bottom: 10px;
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
+
+
 }
 @keyframes fadein {
   from {
