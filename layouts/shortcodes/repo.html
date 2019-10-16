@@ -12,26 +12,22 @@
 
 <div class="container-fluid">
     <div class="row">
-
-
         {{ range where .Site.Pages "Section" "devguide"}}
-
         {{if eq .Parent.Title "Github repositories"}}
-
-
-
-
-
         <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
 
             <div class="showcase-item">
-                <h4>{{ .Params.Ptitle}}</h4>
-                <div class="w3-separator  separator"></div>
+                <div class="title col-12">
+                    {{ .Params.Ptitle}}
+
+                </div>
+                <div class="description">
                 <p>{{ .Description }}</p>
+                </div>
                 <footer>
+                    <div class="row">
                     <a href="{{.Params.link}}" class="fab fa-github fa-2x"> Github</a>
-
-
+                    </div>
                 </footer>
 
             </div>
