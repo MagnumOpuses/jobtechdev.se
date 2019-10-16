@@ -15,10 +15,14 @@
         {{if eq .Parent.Title ($sect) }}
             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="padding:16px">
                 <div class="showcase-item">
-                    <h4>{{ .Title}}</h4>
-                    <div class="w3-separator  separator"></div>
-                    <p>{{ .Description }}</p>
+                    <div class="title col-12">
+                    {{ .Title}}
 
+                    </div>
+
+                    <div class="description">
+                    <p>{{ .Description }}</p>
+                    </div>
                     <footer class="">
                         <div class="row">
                         <a href="{{.RelPermalink}}" class="showcasebtn align-self-end">Read more</a>
