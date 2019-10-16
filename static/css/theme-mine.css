@@ -115,7 +115,9 @@ a:hover {
     }
 }
 .menu-arrow{
-    position: absolute;
+    float: right;
+    position: relative;
+    margin-top: 5px;
     right: 20px;
 }
 #sidebar .searchbox {
@@ -136,6 +138,14 @@ a:hover {
 #sidebar a:hover {
     color: var(--MENU-SECTIONS-LINK-HOVER-color);
 }
+#sidebar ul li a{
+
+    transition: transform .4s;
+}
+#sidebar ul li a:hover {
+    transform: scale(1.05);
+}
+
 
 #sidebar ul li.active > a {
     background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);

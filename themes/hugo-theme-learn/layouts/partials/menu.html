@@ -110,7 +110,7 @@
 
     {{ end }}
     {{if or (and (.Params.chapter) (eq .UniqueID $currentNode.UniqueID)) (and ( .IsAncestor $currentNode) (.Params.chapter)) }}
-    
+
     {{end}}
     {{if and (.Params.chapter) (ne .UniqueID $currentNode.UniqueID) (not ( .IsAncestor $currentNode))}}
 
