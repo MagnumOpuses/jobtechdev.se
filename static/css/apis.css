@@ -21,7 +21,7 @@ h4 {
     height: 100% !important;
     padding: 16px;
     margin-bottom: 120px;
-    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.3);
 
 
 }
@@ -52,7 +52,7 @@ h4 {
     left: 0;
 
     /* Create the box shadow at expanded size. */
-    box-shadow: 7px 7px 15px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 15px 2px rgba(0, 0, 0, 0.3);
 
     /* Hidden by default. */
     opacity: 0;
@@ -75,7 +75,7 @@ footer {
     padding: 32px;
 }
 
-footer > a {
+footer > div > a {
     text-align: center;
     width: 100%;
     margin-bottom: 5px;
@@ -94,7 +94,7 @@ footer > a {
     --MAIN-LINK-color: none;
 }
 
-footer > a:hover {
+footer > div > a:hover {
 
     text-decoration: none;
     --MAIN-LINK-HOVER-color: none;
