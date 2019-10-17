@@ -4,7 +4,7 @@ disableToc: true
 menuTitle: "Af Occupation Forecast"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018"
+description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018."
 type: "github"
 
 
@@ -31,12 +31,12 @@ The API is an open interface without contract or registration requirements.
 
 
 ### Short introduction
-Test the Occupation Forecast API <a href="https://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/" target="_blank"> https://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/</a>
+Test the Occupation Forecast API <a href="https://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/" target="_blank"> https://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/</a>.
 
 
 ### Authentication
 
-This Api does not requier any authentication
+This Api does not requier any authentication.
 
 
 
