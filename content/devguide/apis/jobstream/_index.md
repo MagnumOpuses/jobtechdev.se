@@ -5,8 +5,9 @@ disableToc: false
 menuTitle: "Job Stream"
 weight: 19
 type: "github"
-description: "Our job search API is a search engine for all the current job ads from Platsbanken. The aim is to make a simple yet versatile API that should suit anyone building any kind of application involving data from job ads."
-consoleurl: "/devguide/apiconsole.html?urls.primaryName=Jobsearch"
+description: "JobStream API for those who are building applications and needs to store all ads locally.
+              With JobStream you can fetch all changes in ads once a minute. nNew, removed or updated ads."
+consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 ---
 
 
@@ -15,3 +16,9 @@ consoleurl: "/devguide/apiconsole.html?urls.primaryName=Jobsearch"
 
 
 
+JobStream Ett API för den som bygger applikationer som behöver ha alla annonser lokalt. 
+Med JobStream kan man upp till en gång i minuten hämta alla förändringar i annonsdatan som finns i Platsbanken. 
+Nya, borttagna eller uppdaterade annonser.
+
+JobStream API for those who are building applications and needs to store all ads locally.
+With JobStream you can fetch all changes in ads once a minute. nNew, removed or updated ads.
