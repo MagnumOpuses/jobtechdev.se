@@ -19,7 +19,7 @@ send an email to [Josefin](mailto:josefin.berndtson@jobtechdev.se) and we’ll s
 
 There’s a dedicated Community Slack channel where you can find a lot of interesting discussions and members.  
   
-{{% buttonimg href="https://join.slack.com/t/jobtechdevelopment/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M" img="/img/slack_logo.png" img-position="right" %}}Join JobTech Development{{% /buttonimg %}}  
+{{< buttonimg href="https://join.slack.com/t/jobtechdevelopment/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M" img="/img/slack_logo.png" img-position="right" >}}Join JobTech Development{{< /buttonimg >}}  
 
 Do you need support using our data sources?
 Send an email to our [Support](mailto:support@jobtechdev.se)
