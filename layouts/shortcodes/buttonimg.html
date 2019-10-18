@@ -1,0 +1,14 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<a  {{ with .Get "href"}} href="{{.}}" target="_blank" {{ end }} class="btn btn-default">
+  {{ $img := .Get "img" }}
+  {{ $imgposition := .Get "img-position" }}
+  {{ if ($img) }}
+    {{ if or (not ($imgposition)) (eq $imgposition "left") }}
+  <img style="width: 40px" src="{{$img}}"></img>
+    {{ end }}
+  {{ end }}
+  {{ .Inner }}
+  {{ if and ($img) (eq $imgposition "right")}}
+  <img style=" height: 20px; display: inline-block; margin: 0px; position: relative; top: 5px; " src="{{$img}}"></img>
+  {{ end }}
+</a>
