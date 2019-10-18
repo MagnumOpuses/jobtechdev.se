@@ -15,7 +15,7 @@ We share and receive knowledge, experience and data. This is an arena where coll
 
 
 Meet us - We’re available if you want to meet us and talk about ideas or potential collaborations,  
-send an email to [Josefin](mailto:josefin.berndtson@jobtechdev.se) and we’ll sort something out
+send an email to [Josefin](mailto:josefin.berndtson@jobtechdev.se) and we’ll sort something out.
 
 There’s a dedicated Community Slack channel where you can find a lot of interesting discussions and members.  
   
