@@ -12,7 +12,7 @@ h4 {
     color: #20272b !important;
 }
 @keyframes inHover {
-    50% {
+    45% {
         transform: scale(1.09);
     }
     100% {
@@ -48,7 +48,7 @@ h4 {
     border: 2px solid #733ACA;
     border-top: 4px solid #733ACA;
     border-bottom: 8px solid #733ACA;
-    animation:inHover 0.5s forwards;
+    animation:inHover 1s forwards;
 
 }
 .showcase-item > .description {
