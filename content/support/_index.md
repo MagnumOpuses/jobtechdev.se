@@ -15,9 +15,11 @@ We share and receive knowledge, experience and data. This is an arena where coll
 
 
 Meet us - We’re available if you want to meet us and talk about ideas or potential collaborations,  
-send an email to [Josefin](mailto:josefin.berndtson@jobtechdev.se) and we’ll sort something out
+send an email to [Josefin](mailto:josefin.berndtson@jobtechdev.se) and we’ll sort something out.
 
-There’s a dedicated JobTech Community Slack channel where you can find a lot of interesting discussions and members. Send us a note and get [get invited!](mailto:josefin.berndtson@jobtechdev.se)!  
+There’s a dedicated Community Slack channel where you can find a lot of interesting discussions and members.  
+  
+{{< buttonimg href="https://join.slack.com/t/jobtechdevelopment/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M" img="/img/slack_logo.png" img-position="right" >}}Join JobTech Development{{< /buttonimg >}}  
 
 Do you need support using our data sources?
 Send an email to our [Support](mailto:support@jobtechdev.se)
