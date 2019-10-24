@@ -24,13 +24,17 @@ LastModifierEmail: ""
 draft: false
 
 ---
-### Discover our projects
+### Collaborate in JobTech projects!  
+
+
+We would love if you'd like to help us build and improve this product for the benefit of everyone. 
+Our projects are intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+
+Any contributions, feedback and suggestions are more than welcome.
 
 
 
 
-
-Do you have questions or want  to get in touch with us....
 <contact@jobtechdev.se>
 
 {{< projects >}}
