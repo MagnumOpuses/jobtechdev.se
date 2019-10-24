@@ -1,5 +1,5 @@
 ---
-title: "Ongoing projects"
+title: "Projects"
 date: 2018-01-28T21:58:09+01:00
 
 #anchor: "devguide"
@@ -16,21 +16,25 @@ post: ""
 # Set the page as a chapter, changing the way it's displayed
 chapter: true
 # Hide a menu entry by setting this to true
-hidden: true
+hidden: false
 # Display name of this page modifier. If set, it will be displayed in the footer.
 LastModifierDisplayName: ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail: ""
-draft: true
+draft: false
 
 ---
-### Discover our ongoing projects
+### Collaborate in JobTech projects!  
+
+
+We would love if you'd like to help us build and improve this product for the benefit of everyone. 
+Our projects are intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+
+Any contributions, feedback and suggestions are more than welcome.
 
 
 
 
-
-Do you have questions or want  to get in touch with us....
 <contact@jobtechdev.se>
 
 {{< projects >}}
