@@ -27,7 +27,7 @@ draft: false
 ### Collaborate in JobTech projects!  
 
 
-We would love if you'd like to help us build and improve this product for the benefit of everyone. 
+We would love if you'd like to help us build and improve our products for the benefit of everyone. 
 Our projects are intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
 Any contributions, feedback and suggestions are more than welcome.
