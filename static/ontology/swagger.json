@@ -6,7 +6,7 @@
     "version": "1.1.2 BETA",
     "title": "Ontology REST API"
   },
-  "schemes": ["http"],
+  "schemes": ["https"],
   "basePath": "/ontology/v1",
   "tags": [
     {
