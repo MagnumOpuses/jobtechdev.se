@@ -11,12 +11,16 @@ theme = "hugo-theme-learn"
 home = [ "HTML", "RSS", "JSON"]
 
 
+[languages]
 [languages.en]
     title = "English"
     weight = 1
-  [languages.sv]
-    title = "Swedish"
+    languageName = "English"
+
+[languages.sv]
+    title = "Svenska"
     weight = 2
+    languageName = "Svenska"
 
 
 [params]
