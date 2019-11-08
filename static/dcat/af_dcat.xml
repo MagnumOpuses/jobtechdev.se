@@ -27,30 +27,7 @@
     <foaf:homepage>https://jobtechdev.se/devguide/apis.html</foaf:homepage>
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds1">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Af Jobs</dcterms:title>
-    <dcterms:description>
-      The platsbanken's API contains a list of ca 3000 current job ads submitted daily by employers in Sweden with a total number of ~100 000 ads and about 3000 new ads are submitted daily by employers.
-      With this API it is possible to interact with Arbetsförmedlingens job ad database within a custom built applications.
-    </dcterms:description>
-    <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>jobs</dcat:keyword>
-    <dcat:keyword>job ads</dcat:keyword>
-    <dcat:keyword>vacancies</dcat:keyword>
-    <dcat:keyword>platsannonser</dcat:keyword>
-    <dcterms:publisher rdf:nodeID="_n5"/>
-    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
-    <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/apis/af-jobs/"/>
-    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/apis/af-jobs/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/apis/af-jobs/"/>
-    <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
-    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
+   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Taxonomy</dcterms:title>
     <dcterms:description>
