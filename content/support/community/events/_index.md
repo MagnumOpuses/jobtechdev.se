@@ -11,7 +11,7 @@ weight: 20
 
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
-- **The change of the Public Sector - Stockholm 4th of December**  
+- **The changing of the Public Sector - Stockholm 4th of December**  
 Social benefit and Digital eco-system with open data and open source.
 How goverment agencies can generate social benefits and why an eco-system is important?  
 Johan Linåker, Post Doc Researcher at  the University of Lund, will on the 4th of December talk about his research on open source, eco-system and Government-as-a-Platform.    
