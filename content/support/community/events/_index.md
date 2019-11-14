@@ -11,11 +11,21 @@ weight: 20
 
 Network - You'll get invited to our regular Meetups, check out the next once here:  
 
-- **Meet us at The Linux Foundation – Open Source Summit in Lyon 28th-30th of October**  
-Johan Linåker (University of Lund) and Jonas Södergren (JobTech Dev, Swedish Public Employment Office) will present an overview of the infrastructure and share a public-sector organization's rationale for sharing software as open source. Attendees will further get insights into the potential value and ways of extending collaboration and co-creation beyond open source software to also include related open data and standards. We will discuss how to incentivize both organizations and citizens to join such cross-sector collaboration, and how a public-sector
-organization should best facilitate and enable the collaboration and development of this kind of infrastructure.
+- **The change of the Public Sector - Stockholm 4th of December**  
+Social benefit and Digital eco-system with open data and open source.
+How goverment agencies can generate social benefits and why an eco-system is important?  
+Johan Linåker, Post Doc Researcher at  the University of Lund, will on the 4th of December talk about his research on open source, eco-system and Government-as-a-Platform.    
+The event is in Swedish  
+https://www.redpill-linpro.com/events/offentlig-sektor-i-forandring
+
 
 ##### **Previous events** 
+
+- **Meet us at The Linux Foundation – Open Source Summit in Lyon 28th-30th of October**  
+Johan Linåker (University of Lund) and Jonas Södergren (JobTech Dev, Swedish Public Employment Office) will present an overview of the infrastructure and share a public-sector organization's rationale for sharing software as open source.  
+Attendees will further get insights into the potential value and ways of extending collaboration and co-creation beyond open source software to also include related open data and standards. We will discuss how to incentivize both organizations and citizens to join such cross-sector collaboration, and how a public-sector
+organization should best facilitate and enable the collaboration and development of this kind of infrastructure.
+
 
 - **Tech for lunch!**  
 JobTech Development is pioneering the digital transformation of the Swedish Labour Market.   

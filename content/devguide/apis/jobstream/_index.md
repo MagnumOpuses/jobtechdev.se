@@ -7,7 +7,7 @@ weight: 19
 type: "github"
 description: "JobStream API for those who are building applications and needs to store all ads locally.
               With JobStream you can fetch all changes in ads once a minute. nNew, removed or updated ads."
-consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
+# consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 ---
 
 
