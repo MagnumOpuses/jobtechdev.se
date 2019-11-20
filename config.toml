@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "JobTech Dev"
 
 enableRobotsTXT = true
 
@@ -53,16 +53,16 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
+title = "JOBTECHDEV"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
+[languages.sv]
+title = "JOBTECHDEV"
+description = "En öppen infrastruktur för arbetsmarknaden"
+languageName ="Svenska"
+contentDir = "content/sv"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 

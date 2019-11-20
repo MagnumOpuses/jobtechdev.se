@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbcd99cb-6420-47bc-b59c-09ad02d54882" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/sv/_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/about/_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/about/featured-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/first-post/featured-sunset-get.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/first-post/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/second-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/releases/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/blog/releases/in-depth-monoliths-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/community/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/in-depth-monoliths-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-inside-of-cryptography-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-inside-of-microservices-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-math-of-java-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-math-of-monographs-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/the-inside-of-java-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/the-math-of-monoliths-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/examples/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/examples/the-math-of-monographs-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/the-math-of-monographs-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/in-depth-go-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-inside-of-cryptography-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-inside-of-java-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-inside-of-microservices-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-math-of-cryptography-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/in-depth-go-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/the-inside-of-monoliths-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/in-depth-go-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/in-depth-monoliths-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/the-inside-of-java-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/in-depth-monographs-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-inside-of-go-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-inside-of-microservices-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-java-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-microservices-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-monographs-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-inside-of-cryptography-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-inside-of-monographs-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-math-of-microservices-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-math-of-monoliths-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/in-depth-microservices-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/the-inside-of-recursion-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/in-depth-java-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/the-inside-of-java-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/the-math-of-go-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/the-math-of-recursion-the-inner-workings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/in-depth-cryptography-detailed-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/the-inside-of-monographs-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/the-inside-of-monoliths-the-core-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/the-inside-of-recursion-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/tutorials/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/tutorials/the-math-of-cryptography-how-does-it-work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/about/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/about/featured-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/featured-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/featured-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/featured-background1.jpg" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1109645669">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="49" />
+          <entry key="jpg" value="22" />
+          <entry key="md" value="21" />
+          <entry key="scss" value="1" />
+          <entry key="toml" value="13" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="49" />
+          <entry key="Image" value="22" />
+          <entry key="Markdown" value="21" />
+          <entry key="SCSS" value="1" />
+          <entry key="TOML" value="13" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="208" />
+          <entry key="md" value="116" />
+          <entry key="toml" value="211" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="208" />
+          <entry key="Markdown" value="116" />
+          <entry key="TOML" value="211" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/sv/about/_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/sv/blog/news/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/sv/blog/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="221">
+                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/en.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/sv.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/de.toml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/sv/search.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/no/search.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/en/search.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>featured-background.jpg</find>
+      <find>navbar</find>
+      <find>GOLDY</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\UTV\jonas\docsy-example</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/content/en/about/_index.html" />
+        <option value="$PROJECT_DIR$/content/en/community/_index.md" />
+        <option value="$PROJECT_DIR$/content/en/_index.html" />
+        <option value="$PROJECT_DIR$/content/sv/docs/_index.md" />
+        <option value="$PROJECT_DIR$/content/en/docs/_index.md" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/sv/_index.html" />
+        <option value="$PROJECT_DIR$/themes/docsy/i18n/sv.toml" />
+        <option value="$PROJECT_DIR$/content/sv/about/_index.html" />
+        <option value="$PROJECT_DIR$/content/sv/blog/_index.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-common-types/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-free/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/fontawesome-svg-core/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-brands-svg-icons/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-regular-svg-icons/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/Font-Awesome/js-packages/@fortawesome/free-solid-svg-icons/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/assets/vendor/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/themes/docsy/userguide/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="870" />
+    <option name="y" value="230" />
+    <option name="width" value="925" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="docsy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="docsy" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="docsy" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574254470453" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jobtechdev/jobtechdev.se" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\UTV\jonas\docsy-example\content\sv" />
+      <recent name="C:\UTV\jonas\docsy-example\content\en\about" />
+      <recent name="C:\UTV\jonas\docsy-example\content" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbcd99cb-6420-47bc-b59c-09ad02d54882" name="Default Changelist" comment="" />
+      <created>1573403793184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573403793184</updated>
+      <workItem from="1573403794721" duration="4368000" />
+      <workItem from="1573456109050" duration="828000" />
+      <workItem from="1573466990116" duration="2600000" />
+      <workItem from="1573637787622" duration="2802000" />
+      <workItem from="1573722120639" duration="682000" />
+      <workItem from="1573728370568" duration="1306000" />
+      <workItem from="1574088300185" duration="944000" />
+      <workItem from="1574154103934" duration="3836000" />
+      <workItem from="1574235884906" duration="5778000" />
+      <workItem from="1574251419822" duration="1142000" />
+      <workItem from="1574253168139" duration="1901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26187000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/big-data/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/no.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/blog/news/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/config.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/assets/scss/_boxes.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/blocks/lead.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/blocks/link-down.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/blocks/section.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background2_hudee53f580a0d9cb9fb457d4a8826aad7_28713_960x540_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background2_hudee53f580a0d9cb9fb457d4a8826aad7_28713_1920x1080_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background6_hu42a3e857af140280ed0828bec060ce5a_250135_960x540_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background6_hu42a3e857af140280ed0828bec060ce5a_250135_1920x1080_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background_hu42a3e857af140280ed0828bec060ce5a_250135_1920x1080_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background_hudee53f580a0d9cb9fb457d4a8826aad7_28713_960x540_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/featured-background1_hu376e1fbab6ce6c455a2b3aa5c258c0d9_496231_1920x1080_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/featured-background_hu3d03a01dcc18bc5be0e67db3d8d209a6_9672610_960x540_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/featured-background_hu376e1fbab6ce6c455a2b3aa5c258c0d9_496231_960x540_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/_gen/images/featured-background_hu376e1fbab6ce6c455a2b3aa5c258c0d9_496231_1920x1080_fill_q75_catmullrom_top.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/_default/content.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/_default/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/_default/list.rss.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/_default/search.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/_default/single.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/partials/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="86" selection-start-line="3" selection-start-column="86" selection-end-line="3" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/partials/feedback.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/docs/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/no/docs/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/partials/navbar-lang-selector.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/partials/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/about/_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/featured-background1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/featured-background2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/featured-background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/no/_index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/no/search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/de.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/en.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/sv.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/about/_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/blog/news/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/blog/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
