@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbcd99cb-6420-47bc-b59c-09ad02d54882" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md" afterDir="false" />
-    </list>
+    <list default="true" id="dbcd99cb-6420-47bc-b59c-09ad02d54882" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
         <counts>
           <entry key="html" value="50" />
           <entry key="jpg" value="22" />
-          <entry key="md" value="32" />
+          <entry key="md" value="33" />
           <entry key="scss" value="1" />
           <entry key="toml" value="13" />
           <entry key="xml" value="1" />
@@ -40,7 +38,7 @@
         <counts>
           <entry key="HTML" value="50" />
           <entry key="Image" value="22" />
-          <entry key="Markdown" value="32" />
+          <entry key="Markdown" value="33" />
           <entry key="SCSS" value="1" />
           <entry key="TOML" value="13" />
           <entry key="XML" value="1" />
@@ -49,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="208" />
-          <entry key="md" value="145" />
+          <entry key="md" value="227" />
           <entry key="toml" value="211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="208" />
-          <entry key="Markdown" value="145" />
+          <entry key="Markdown" value="227" />
           <entry key="TOML" value="211" />
         </counts>
       </usages-collector>
@@ -64,18 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/en/docs/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/sv/docs/Overview/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -92,8 +78,20 @@
         <entry file="file://$PROJECT_DIR$/content/sv/docs/jobstream/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <first_editor relative-caret-position="238">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/apier/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -124,12 +122,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="1" selection-start-line="1" selection-end-line="4" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -206,8 +204,9 @@
         <option value="$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/Overview/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/jobstream/Getting started/_index.md" />
-        <option value="$PROJECT_DIR$/content/sv/docs/jobstream/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md" />
+        <option value="$PROJECT_DIR$/content/sv/docs/jobstream/_index.md" />
+        <option value="$PROJECT_DIR$/content/sv/docs/apier/_index.md" />
       </list>
     </option>
   </component>
@@ -291,7 +290,7 @@
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="sv" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="jobsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="apier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
@@ -299,7 +298,7 @@
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="sv" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="jobstream" type="462c0819:PsiDirectoryNode" />
+              <item name="jobsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +361,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574261633983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574261965584" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jobtechdev/jobtechdev.se" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -414,12 +413,12 @@
       <workItem from="1574154103934" duration="3836000" />
       <workItem from="1574235884906" duration="5778000" />
       <workItem from="1574251419822" duration="1142000" />
-      <workItem from="1574253168139" duration="4891000" />
+      <workItem from="1574253168139" duration="5233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29177000" />
+    <option name="totallyTimeSpent" value="29519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -461,9 +460,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background2_hudee53f580a0d9cb9fb457d4a8826aad7_28713_1920x1080_fill_q75_catmullrom_top.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/_gen/images/feature-background6_hu42a3e857af140280ed0828bec060ce5a_250135_960x540_fill_q75_catmullrom_top.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -732,8 +728,8 @@
     <entry file="file://$PROJECT_DIR$/content/sv/docs/jobstream/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -742,8 +738,18 @@
     <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="1" selection-start-line="1" selection-end-line="4" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/apier/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
