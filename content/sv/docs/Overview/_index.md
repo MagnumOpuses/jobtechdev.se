@@ -1,6 +1,6 @@
 ---
-title: "Overview"
-linkTitle: "Overview"
+title: "Introduktion"
+linkTitle: "Introduktion"
 weight: 1
 description: >
   Nyttan med en gemensan plattform

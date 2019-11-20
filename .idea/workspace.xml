@@ -2,81 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbcd99cb-6420-47bc-b59c-09ad02d54882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/sv/_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/about/_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/about/featured-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/first-post/featured-sunset-get.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/first-post/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/news/second-post.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/releases/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/blog/releases/in-depth-monoliths-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/community/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/in-depth-monoliths-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-inside-of-cryptography-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-inside-of-microservices-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-math-of-java-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/examples/the-math-of-monographs-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/the-inside-of-java-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/api-reference/the-math-of-monoliths-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/examples/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/examples/the-math-of-monographs-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/the-math-of-monographs-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/in-depth-go-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-inside-of-cryptography-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-inside-of-java-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-inside-of-microservices-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/big-data/tutorials/the-math-of-cryptography-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/in-depth-cryptography-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/in-depth-go-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/examples/the-inside-of-monoliths-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/in-depth-go-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/in-depth-monoliths-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/the-inside-of-java-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/in-depth-monographs-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-inside-of-go-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-inside-of-microservices-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-java-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-microservices-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-monographs-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cloud-computing/tutorials/the-math-of-monoliths-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-inside-of-cryptography-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-inside-of-monographs-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-math-of-microservices-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/the-math-of-monoliths-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/in-depth-microservices-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/the-inside-of-cryptography-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/the-inside-of-microservices-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/content-management/tutorials/the-inside-of-recursion-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/in-depth-java-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/the-inside-of-java-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/the-math-of-go-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/examples/the-math-of-recursion-the-inner-workings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/in-depth-cryptography-detailed-spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/the-inside-of-monographs-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/the-inside-of-monoliths-the-core-concepts.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/the-inside-of-recursion-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/tutorials/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/cross-platform/tutorials/the-math-of-cryptography-how-does-it-work.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/search.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/en/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/en/about/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/en/about/featured-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/about/featured-background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/en/featured-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/featured-background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/example-page.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/docs/Overview/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sv/docs/Overview/_index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,9 +31,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="49" />
+          <entry key="html" value="50" />
           <entry key="jpg" value="22" />
-          <entry key="md" value="21" />
+          <entry key="md" value="30" />
           <entry key="scss" value="1" />
           <entry key="toml" value="13" />
           <entry key="xml" value="1" />
@@ -112,9 +41,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="49" />
+          <entry key="HTML" value="50" />
           <entry key="Image" value="22" />
-          <entry key="Markdown" value="21" />
+          <entry key="Markdown" value="30" />
           <entry key="SCSS" value="1" />
           <entry key="TOML" value="13" />
           <entry key="XML" value="1" />
@@ -123,14 +52,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="208" />
-          <entry key="md" value="116" />
+          <entry key="md" value="142" />
           <entry key="toml" value="211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="208" />
-          <entry key="Markdown" value="116" />
+          <entry key="Markdown" value="142" />
           <entry key="TOML" value="211" />
         </counts>
       </usages-collector>
@@ -139,39 +68,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/about/_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/blog/news/_index.md">
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/sv/blog/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -179,30 +80,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/en.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="43" />
+        <entry file="file://$PROJECT_DIR$/content/en/docs/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="187">
+                <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/Overview/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/sv.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/de.toml">
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="10" selection-start-line="13" selection-end-line="13" selection-end-column="109" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/getMD.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/search.md">
+        <entry file="file://$PROJECT_DIR$/content/en/docs/Overview/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -212,7 +143,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/no/search.md">
+        <entry file="file://$PROJECT_DIR$/content/en/docs/Getting started/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="459">
+                <caret line="27" selection-start-line="27" selection-end-line="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/example-page.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -222,10 +165,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/en/search.md">
+        <entry file="file://$PROJECT_DIR$/content/sv/blog/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="221">
+                <caret line="13" selection-start-line="13" selection-end-line="13" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -259,6 +204,10 @@
         <option value="$PROJECT_DIR$/themes/docsy/i18n/sv.toml" />
         <option value="$PROJECT_DIR$/content/sv/about/_index.html" />
         <option value="$PROJECT_DIR$/content/sv/blog/_index.md" />
+        <option value="$PROJECT_DIR$/content/sv/docs/Getting started/_index.md" />
+        <option value="$PROJECT_DIR$/content/sv/docs/jobsearch/jobsearch/Getting started/_index.md" />
+        <option value="$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/_index.md" />
+        <option value="$PROJECT_DIR$/content/sv/docs/Overview/_index.md" />
       </list>
     </option>
   </component>
@@ -320,13 +269,7 @@
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="no" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="no" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,7 +283,32 @@
               <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="sv" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="jobsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="jobsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="Getting started" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Overview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
@@ -377,6 +345,14 @@
               <item name="docsy" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="docsy" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="shortcodes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -387,16 +363,24 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574254470453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574261356870" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jobtechdev/jobtechdev.se" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\UTV\jonas\docsy-example\content\sv\docs\jobsearch" />
+      <recent name="C:\UTV\jonas\docsy-example\content\sv\docs\jobsearch\jobsearch" />
+      <recent name="C:\UTV\jonas\docsy-example\content\sv\docs" />
+      <recent name="C:\UTV\jonas\docsy-example\content\en\docs\jobsearch" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\UTV\jonas\docsy-example\content\sv\docs" />
+      <recent name="C:\UTV\jonas\docsy-example\content\sv\docs\jobsearch" />
+      <recent name="C:\UTV\jonas\docsy-example\themes\docsy\layouts\shortcodes" />
+      <recent name="C:\UTV\jonas\docsy-example\content\en\docs" />
       <recent name="C:\UTV\jonas\docsy-example\content\sv" />
-      <recent name="C:\UTV\jonas\docsy-example\content\en\about" />
-      <recent name="C:\UTV\jonas\docsy-example\content" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,12 +415,12 @@
       <workItem from="1574154103934" duration="3836000" />
       <workItem from="1574235884906" duration="5778000" />
       <workItem from="1574251419822" duration="1142000" />
-      <workItem from="1574253168139" duration="1901000" />
+      <workItem from="1574253168139" duration="4608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26187000" />
+    <option name="totallyTimeSpent" value="28894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -478,40 +462,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/sv/docs/big-data/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/docsy/i18n/no.toml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/en/blog/news/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/docsy/config.toml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/docsy/assets/scss/_boxes.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/blocks/lead.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/blocks/link-down.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/blocks/section.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -575,26 +525,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/partials/feedback.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/sv/docs/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/en/docs/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/no/docs/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -713,7 +643,94 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="221">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/docs/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/docs/Overview/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/docs/Getting started/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="459">
+            <caret line="27" selection-start-line="27" selection-end-line="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/example-page.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/getMD.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/jobsearch/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="10" selection-start-line="13" selection-end-line="13" selection-end-column="109" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/jobsearch/Getting started/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/Overview/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
