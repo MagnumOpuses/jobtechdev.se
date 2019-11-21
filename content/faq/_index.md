@@ -58,8 +58,12 @@
                {
                 "q":"Where can I find a full list of possible options for at least employment_type and occupation_field fields?",
                 "a":"You could get a list of possible options for the employment_type and the other fields, by using the <a href='https://jobsearch.api.jobtechdev.se/' target='blank'>Taxonomy API</a> For example use this curl -X GET “https://<span></span>jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&type=employment-type&show-count=false” -H “accept: application/json” -H “api-key: XXXXX”  Replace XXXXX with your API key"
-               }                                  
-          ]
+               },   
+               {
+                "q":"The api says ”ad not found” but following the link, you’ll se the ad. Why?",
+                "a":"When an ad is unpublished, it is no longer visible in our api’s. The direct link from Platsbanken, however is still showing the ad, as a service if someone has chosen to save the ad at the Platsbanken site."
+               }                            
+              ]
     }                 
 ]
 }
