@@ -1,46 +1,20 @@
 ---
 date: 2018-10-06
-title: "Easy documentation with Docsy"
-linkTitle: "Announcing Docsy"
+title: "The changing of the Public Sector - Stockholm 4th of December"
+linkTitle: "event"
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
-author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
+author: Josefin Berndtsson 
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
   params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
+    byline: ""
 ---
-
-**This is a typical blog post that includes images.**
-
-The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.
-
-## Including images
-
-Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
-
-{{< imgproc sunset Fill "600x300" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
-
-The front matter of this post specifies properties to be assigned to all image resources:
-
-```
-resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
-  params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
-```
-
-To include the image in a page, specify its details like this:
-
-```
-{{< imgproc sunset Fill "600x300" >}}
-Fetch and scale an image in the upcoming Hugo 0.43.
-{{< /imgproc >}}
-```
-
-The image will be rendered at the size and byline specified in the front matter.
+- **The changing of the Public Sector - Stockholm 4th of December**  
+Social benefit and Digital eco-system with open data and open source.
+How goverment agencies can generate social benefits and why an eco-system is important?  
+Johan Linåker, Post Doc Researcher at  the University of Lund, will on the 4th of December talk about his research on open source, eco-system and Government-as-a-Platform.    
+The event is in Swedish  
+https://www.redpill-linpro.com/events/offentlig-sektor-i-forandring
 
 
