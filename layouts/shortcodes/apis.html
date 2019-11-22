@@ -1,0 +1,42 @@
+<!-- Using bootstrap for grid behavior (compatible with IE11)-->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/apis.css">
+<style>
+    body {
+        background-color: #fff;
+        --MAIN-TITLES-TEXT-color: #000;
+    }
+</style>
+
+{{ $sect := .Get "src" }}
+<div class="container-fluid">
+    <div class="row">
+        {{ range where .Site.Pages "Section" "devguide"}}
+        {{if eq .Parent.Title ($sect) }}
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="padding:16px">
+                <div class="showcase-item">
+                    <div class="title col-12">
+                    {{ .Title}}
+
+                    </div>
+
+                    <div class="description">
+                    <p>{{ .Description }}</p>
+                    </div>
+                    <footer class="">
+                        <div class="row">
+                        <a href="{{.RelPermalink}}" class="showcasebtn align-self-end">Read more</a>
+                    </div>
+                        {{ if isset .Params "consoleurl"  }}
+                    <div class="row">
+                        <a href="{{ .Params.consoleurl}}" class="showcasebtn align-self-end">Console</a>
+                    </div>
+                        {{end}}
+                    </footer>
+                </div>
+            </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+

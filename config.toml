@@ -53,13 +53,13 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "JOBTECHDEV"
-description = "A Docsy example site"
+title = "JobTechdev"
+description = "An open infrastructure for ..."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.sv]
-title = "JOBTECHDEV"
+title = "JobTechdev"
 description = "En öppen infrastruktur för arbetsmarknaden"
 languageName ="Svenska"
 contentDir = "content/sv"
@@ -70,7 +70,9 @@ time_format_blog = "02.01.2006"
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
+# Order sections in menu by "weight" or "title". Default to "weight"
+ordersectionsby = "weight"
+copyright = "JobTech dev"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -126,7 +128,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
         desc = "Discussion and help from your fellow users"
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://example.org/twitter"
+	url = "https://twitter.com/jobtechdev"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
@@ -137,14 +139,15 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "https://github.com/jobtechswe"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "https://example.org/slack"
+	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M"
 	icon = "fab fa-slack"
         desc = "Chat with other project developers"
+
 [[params.links.developer]]
 	name = "Developer mailing list"
 	url = "https://example.org/mail"

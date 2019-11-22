@@ -1,0 +1,19 @@
+{{ $res := getJSON (.Get 0) }}
+
+<head>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            let els = document.getElementById("body-inner").getElementsByTagName("a");
+            Array.prototype.forEach.call(els, function(el) {
+                if (el.host == window.location.host) {
+                    el.hash = el.hash.toLowerCase();
+                }
+            })
+
+        })
+    </script>
+</head>
+<script>
+    document.getElementById("api-buttons").innerHTML +='<a href="{{$res.html_url}}" class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
+</script>
+{{ $res.content | base64Decode | markdownify  }}
