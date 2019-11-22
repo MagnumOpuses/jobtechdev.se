@@ -2,78 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbcd99cb-6420-47bc-b59c-09ad02d54882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/en/about/work/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/open_projects/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/open_projects/gravity/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/forecasts/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/forecasts/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/jobstream/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/occupations/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/occupations/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/occupations/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/ontology/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/ontology/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/ontology/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/taxonomy/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/taxonomy/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/taxonomy/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/datasets/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/en/docs/opendata/datasets/historical/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/open_projects/gravity/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/Examples/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/forecasts/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/forecasts/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/forecasts/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/jobsearch/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/jobsearch/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/jobsearch/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/jobstream/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/jobstream/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/jobstream/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/occupations/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/occupations/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/occupations/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/ontology/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/ontology/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/ontology/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/taxonomy/Getting started/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/taxonomy/Getting started/example-page.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/apis/taxonomy/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/datasets/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/sv/docs/opendata/datasets/historical/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/FAQ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/apis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/buttonimg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/console.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/consoleutb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/getMD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/i18n.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/oai-spec.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/repo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/sharing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/showcases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/swagger-spec.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/tabs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/shortcodes/twitter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/apis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/showcases.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/apis.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/docsy/layouts/shortcodes/notice.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/en/docs/Examples/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/Examples/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/about/featured-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sv/docs/open_projects/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/jobsearch/Getting started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/jobsearch/Getting started/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/jobsearch/Getting started/example-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/forecasts/Getting started/example-page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/jobsearch/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/jobsearch/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/jobstream/Getting started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/jobstream/Getting started/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/jobstream/Getting started/example-page.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/jobsearch/Getting started/example-page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sv/docs/apier/jobstream/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/en/docs/opendata/apis/jobstream/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/docsy" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/docsy/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/docsy/config.toml" afterDir="false" />
     </list>
@@ -103,11 +36,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
-          <entry key="html" value="62" />
+          <entry key="css" value="11" />
+          <entry key="html" value="64" />
           <entry key="jpg" value="23" />
           <entry key="js" value="1" />
-          <entry key="md" value="88" />
+          <entry key="md" value="89" />
           <entry key="scss" value="2" />
           <entry key="toml" value="22" />
           <entry key="xml" value="1" />
@@ -115,11 +48,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="62" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="64" />
           <entry key="Image" value="23" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="88" />
+          <entry key="Markdown" value="89" />
           <entry key="SCSS" value="2" />
           <entry key="TOML" value="22" />
           <entry key="XML" value="1" />
@@ -127,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="4" />
           <entry key="html" value="208" />
           <entry key="md" value="1133" />
           <entry key="toml" value="285" />
@@ -135,7 +68,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="4" />
           <entry key="HTML" value="208" />
           <entry key="Markdown" value="1133" />
           <entry key="TOML" value="285" />
@@ -146,57 +79,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/docs/Overview/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/en/docs/opendata/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="68">
                 <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/en/docs/opendata/apis/forecasts/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/Examples/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -215,11 +102,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/en/docs/Tasks/Ponycopters/_index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/shortcodes/apis.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/shortcodes/showcases.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/showcases.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/apis.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1248">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/apis/_index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -242,18 +169,6 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/apis/_index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -302,7 +217,6 @@
         <option value="$PROJECT_DIR$/content/sv/docs/apier/ontology/Getting started/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/apier/occupations/Getting started/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/apier/forecasts/Getting started/_index.md" />
-        <option value="$PROJECT_DIR$/static/css/showcases.css" />
         <option value="$PROJECT_DIR$/content/sv/docs/apis/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/opendata/datasets/_index.md" />
         <option value="$PROJECT_DIR$/themes/docsy/config.toml" />
@@ -316,6 +230,7 @@
         <option value="$PROJECT_DIR$/content/sv/docs/opendata/opendata/Examples/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/opendata/apis/_index.md" />
         <option value="$PROJECT_DIR$/content/sv/docs/opendata/Examples/_index.md" />
+        <option value="$PROJECT_DIR$/static/css/showcases.css" />
       </list>
     </option>
   </component>
@@ -341,7 +256,7 @@
       <path value="$PROJECT_DIR$/themes/docsy/userguide/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="870" />
     <option name="y" value="230" />
     <option name="width" value="925" />
@@ -378,14 +293,20 @@
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="sv" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="opendata" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -393,32 +314,10 @@
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Overview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Ponycopters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="sv" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="opendata" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
@@ -435,6 +334,12 @@
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docsy-example" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docsy-example" type="b2602c69:ProjectViewProjectNode" />
@@ -470,18 +375,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574421211576" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574422487726" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jobtechdev/jobtechdev.se" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\UTV\jonas\docsy-example\static\css" />
       <recent name="C:\UTV\jonas\docsy-example\layouts\shortcodes" />
       <recent name="C:\UTV\jonas\docsy-example\content\sv\docs\opendata" />
       <recent name="C:\UTV\jonas\docsy-example\content\en" />
       <recent name="C:\UTV\jonas\docsy-example\content\sv\docs\opendata\datasets" />
-      <recent name="C:\UTV\jonas\docsy-example\static\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\UTV\jonas\docsy-example\content\sv\docs\opendata" />
@@ -527,12 +432,12 @@
       <workItem from="1574320764545" duration="617000" />
       <workItem from="1574327772516" duration="10893000" />
       <workItem from="1574345472825" duration="1753000" />
-      <workItem from="1574407724117" duration="6837000" />
+      <workItem from="1574407724117" duration="7890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50299000" />
+    <option name="totallyTimeSpent" value="51352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -574,10 +479,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/docsy/static/css/apis.css" />
-    <entry file="file://$PROJECT_DIR$/themes/docsy/layouts/shortcodes/apis.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/docsy/static/css/swagger-ui.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -649,9 +550,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/apis.css" />
     <entry file="file://$PROJECT_DIR$/static/js/tabs.js" />
-    <entry file="file://$PROJECT_DIR$/static/css/showcases.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/apis.css" />
     <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/apis/occupations/Getting started/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -866,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/apis/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/shortcodes/children.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -931,6 +819,39 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/shortcodes/apis.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/shortcodes/showcases.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/showcases.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/apis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1248">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/sv/docs/opendata/apis/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
