@@ -2,7 +2,7 @@
 title: "Introduktion"
 linkTitle: "Introduktion"
 weight: 1
-description: >
+description:  Nyttan med en gemensan plattform.  Vi ser att det finns företag som inte hittar sin arbetskraft och arbetssökande som inte hittar ett jobb. Detta vill vi råda bot på.
 ---
 ## Nyttan med en gemensan plattform
  
@@ -42,11 +42,12 @@ Vår taxonomi är ett API där bland annat yrkesbenämningar, yrkesgrupper, yrke
 
 * Jobtech Search: Återanvänd kostnadsfritt en tjänst som är dimensionerad och används av Sveriges största annonssajt: Platsbanken.
 
-## Where should I go next?
+## Vad är nästa steg?
 
 Vi erbjuder öppna API:er för att kunna skapa eller förbättra era system som hanterar annonser, rekrytering, matchning eller andra delar av arbetsmarknaden. 
 Allt är kostnadsfritt och tillgängligt för alla!
 
-* [Getting Started](/getting-started/): Get started with $project
-* [Examples](/examples/): Check out some example code!
-
+* Kom igång: Läs dokumentationen
+* Få behörighet: Kvittera ut en API-nyckel
+* Exempel: Kolla på några exempeltjänster som byggts på de öppna APierna
+* Träffa oss: Kom i kontakt med teamen.

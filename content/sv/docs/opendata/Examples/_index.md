@@ -3,6 +3,7 @@
 {
     "title": "Exempel Tjänster",
     "menuTitle": "Exempel Tjänster",
+    "description": "Här kan du se applikationer och tjänster byggda på vår Öppna data",
     "disableToc":"false",
     "weight": 8,
     "showcases": [ 

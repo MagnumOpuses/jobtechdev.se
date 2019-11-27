@@ -1,5 +1,5 @@
 ---
-date: 2018-10-06
+date: 2019-11-25
 title: "The changing of the Public Sector - Stockholm 4th of December"
 linkTitle: "event"
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
