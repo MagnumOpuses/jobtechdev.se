@@ -1,0 +1,36 @@
+
+.showcase-item {
+    color: #20272b;
+    width: 100%;
+    border: 2px solid #BDBDBD;
+    height: 100% !important;
+    padding: 16px;
+    margin-bottom: 120px;
+}
+
+
+.showcase-item:hover {
+    text-decoration: none;
+    --MAIN-LINK-HOVER-color: none;
+    --MAIN-ANCHOR-color: none;
+    --MAIN-LINK-color: none;
+    color:#20272b;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #733ACA;
+}
+
+.showcase-item > footer {
+    bottom: 0;
+}
+
+
+
+.separator {
+    background-color: #733ACA;
+    width: 30px;
+    height: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+

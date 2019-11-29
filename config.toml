@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "JobTech Dev"
 
 enableRobotsTXT = true
 
@@ -53,24 +53,28 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "JobTechdev"
+description = "An open infrastructure for ..."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
+[languages.sv]
+title = "JobTechdev"
+description = "En öppen infrastruktur för arbetsmarknaden"
+languageName ="Svenska"
+contentDir = "content/sv"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
+
+
 
 
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
+# Order sections in menu by "weight" or "title". Default to "weight"
+ordersectionsby = "weight"
+copyright = "JobTech dev"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -94,13 +98,10 @@ gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 # Enable Algolia DocSearch
 algolia_docsearch = false
 
-# Enable Lunr.js offline search
-offlineSearch = false
-
 # User interface configuration
 [params.ui]
 # Enable to show the side bar menu in its compact state.
-sidebar_menu_compact = false
+sidebar_menu_compact = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
@@ -129,7 +130,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
         desc = "Discussion and help from your fellow users"
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://example.org/twitter"
+	url = "https://twitter.com/jobtechdev"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
@@ -140,14 +141,15 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "https://github.com/jobtechswe"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "https://example.org/slack"
+	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M"
 	icon = "fab fa-slack"
         desc = "Chat with other project developers"
+
 [[params.links.developer]]
 	name = "Developer mailing list"
 	url = "https://example.org/mail"

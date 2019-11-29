@@ -3,7 +3,14 @@ title: "Overview"
 linkTitle: "Overview"
 weight: 1
 description: >
-  Here's where your user finds out if your project is for them.
+  Nyttan med en gemensan plattform
+  Vi ser att det finns företag som inte hittar sin arbetskraft och arbetssökande som inte hittar ett jobb. Detta vill vi råda bot på.
+  
+  Data och teknik är möjliggörare och därför delar vi med oss av vad vi har; alla arbetsmarknadens digitala annonser, teknik och standarder för att dela CV-information, en ordlista som gör det möjligt för system och människor att matcha kompetenser samt historisk data att bygga prognoser och bättre algoritmer på.
+  
+  Tillsamman är vi starka. Därför pratar vi ekosystem – samverkan mellan privat och offentlig sektor. Vi vet många aktörer därute kan sin bransch, sin region och brinner för att lösa de utmaningar vi idag har för att bättre kunna hjälpa företag med att hitta sin kompetens och individer att utvecklas i sin karriär eller bara få en möjligheter att tjäna sitt uppehälle.
+  
+  JobTech Dev är en del av Arbetsförmedlingen. Tillsammans kan vi göra Sverige rikare genom att låta företag och människor att växa.
 ---
 
 {{% pageinfo %}}
@@ -11,9 +18,8 @@ This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 
 
-The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide). 
+Introduktion
 
-Try answering these questions for your user in this page:
 
 ## What is it?
 
