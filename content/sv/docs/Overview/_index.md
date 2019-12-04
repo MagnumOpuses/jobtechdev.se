@@ -2,7 +2,7 @@
 title: "Introduktion"
 linkTitle: "Introduktion"
 weight: 1
-description:  Nyttan med en gemensan plattform.  Vi ser att det finns företag som inte hittar sin arbetskraft och arbetssökande som inte hittar ett jobb. Detta vill vi råda bot på.
+description: Nyttan med en gemensan plattform.  Vi ser att det finns företag som inte hittar sin arbetskraft och arbetssökande som inte hittar ett jobb. Detta vill vi råda bot på.
 ---
 ## Nyttan med en gemensan plattform
  

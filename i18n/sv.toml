@@ -1,0 +1,83 @@
+
+
+# UI strings. Buttons and similar.
+
+[ui_pager_prev]
+other = "Tillbaka"
+
+[ui_pager_next]
+other = "Nästa"
+
+[ui_read_more]
+other = "Läs mer här"
+
+[ui_search]
+other = "Sök på sidan"
+
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "i"
+
+# Used in community section
+[join]
+other = "Gå med i "
+
+[text_develop]
+other = "Om du vill engagera dig och bidra?"
+
+[how_to_contribute]
+other = "Du kan se hur du kan bidra i"
+
+[guidelines]
+other = "Contribution Guidelines"
+
+[using]
+other = "Använder du, eller vill du använda"
+
+[using_more]
+other = "? Läs mer här:"
+
+[text_community]
+other = "är ett Open source projekt som vem som helst i communityn kan använda och förbättra. Vi välkomnar dig i communityn. Här är några sätt att hålla koll på vad som händer, och hur du kan medverka"
+
+[Learn_and_connect]
+other = "Lär dig mer och kom i kontakt med oss"
+
+[develop_and_contribute]
+other = "Utveckla och Bidra"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "All Rights Reserved"
+
+[footer_privacy_policy]
+other = "Privacy Policy"
+
+
+#Feedback
+[feedback_text]
+other = "Blev du hjälpt av denna sida?"
+
+[yes]
+other = "Ja"
+[no]
+other = "Nej"
+
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "Av"
+[post_created]
+other = "Skapad av"
+[post_last_mod]
+other = "Senast ändrad"
+[post_edit_this]
+other = "Ändra sidan"
+[post_create_issue]
+other = "Create documentation issue"
+[post_create_project_issue]
+other = "Create project issue"
+[post_posts_in]
+other = "Inlägg från"
+

@@ -11,11 +11,6 @@ description: "Our job search API is a search engine for all the current job ads 
 
 
 
-hgfhgdsafsföksgs
-fdsgjkfdhgfdrs
-gfdshgfdhdf
-ahfd
-hfd
 
 
 

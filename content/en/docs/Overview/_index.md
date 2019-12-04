@@ -3,12 +3,7 @@ title: "Overview"
 linkTitle: "Overview"
 weight: 1
 description: >
-  Nyttan med en gemensan plattform
-  Vi ser att det finns företag som inte hittar sin arbetskraft och arbetssökande som inte hittar ett jobb. Detta vill vi råda bot på.
   
-  Data och teknik är möjliggörare och därför delar vi med oss av vad vi har; alla arbetsmarknadens digitala annonser, teknik och standarder för att dela CV-information, en ordlista som gör det möjligt för system och människor att matcha kompetenser samt historisk data att bygga prognoser och bättre algoritmer på.
-  
-  Tillsamman är vi starka. Därför pratar vi ekosystem – samverkan mellan privat och offentlig sektor. Vi vet många aktörer därute kan sin bransch, sin region och brinner för att lösa de utmaningar vi idag har för att bättre kunna hjälpa företag med att hitta sin kompetens och individer att utvecklas i sin karriär eller bara få en möjligheter att tjäna sitt uppehälle.
   
   JobTech Dev är en del av Arbetsförmedlingen. Tillsammans kan vi göra Sverige rikare genom att låta företag och människor att växa.
 ---
@@ -17,27 +12,31 @@ description: >
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
 
+## The benefit of a common platform
 
-Introduktion
+The benefit of a common platform We see that there are companies that cannot find their workforce and job seekers who cannot find a job. We would like to remedy this. Data and technology are possible and therefore we share what we have; all of the labor market's digital ads, technology and standards for sharing CV information, a glossary that allows systems and people to match skills, and historical data to build forecasts and better algorithms.
 
+Together we are strong. That is why we talk about ecosystems - collaboration between the private and public sectors. We know many players out there know their industry, their region and are passionate about solving the challenges we have today to better help companies find their skills and individuals to develop in their careers or just get an opportunity to earn their living. JobTech Dev is part of the Employment Service. Together we can make Sweden richer by allowing companies and people to grow.
 
-## What is it?
+## Open API?
 
-Introduce your project, including what it does or lets you do, why you would use it, and its primary goal (and how it achieves it). This should be similar to your README description, though you can go into a little more detail here if you want.
+We think it is important to give back every invested krone of our tax assets and therefore want to make available source code and data for others to use and further develop. 
+We believe in transparency in our algorithms.
 
-## Why do I want it?
+* Today, there are about 300 different places to advertise for. This makes it extra difficult to find the job you want. We want to solve this by offering an API that allows players to showcase all digital advertising in the labor market. We call the service Jobtech Jobs. 
+Connect your service to our API and you can offer your clients all job ads!
 
-Help your user know if your project will help them. Useful information can include: 
+* There are a couple of hundred sites to register their CV. Imagine if it was possible to register only once in one place and that the systems talk to each other at the same time! 
+We create a decentralized infrastructure to make this possible. Join our venture.
 
-* **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
+* Matching is about finding each other. The challenge lies in understanding each other. Would matching in the labor market be easier if people and systems could understand each other? Would it be easier if we could interpret each other? Our taxonomy is an API where, among other things, professional names, professions, professions, skills words and languages ​​are gathered. 
+Connect to our API and get your system to interpret CVs and ads for a better match.
 
-* **What is it not good for?**: For example, point out situations that might intuitively seem suited for your project, but aren't for some reason. Also mention known limitations, scaling issues, or anything else that might let your users know if the project is not for them.
-
-* **What is it *not yet* good for?**: Highlight any useful features that are coming soon.
-
+* Jobtech Search: Free reuse of a service that is dimensioned and used by Sweden's largest advertising site: Platsbanken.
 ## Where should I go next?
 
-Give your users next steps from the Overview. For example:
+We offer open APIs to create or improve your systems that handle ads, recruitment, matching or other parts of the labor market.
+Everything is free and accessible to everyone!
 
 * [Getting Started](/getting-started/): Get started with $project
 * [Examples](/examples/): Check out some example code!
