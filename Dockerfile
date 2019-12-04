@@ -38,7 +38,7 @@ RUN apk add --no-cache --update -v \
         nginx \
         git \
         curl
-RUN git submodule update --recursive
+git submodule update --recursive
 
 RUN rm -rf /var/cache/apk/*
 
