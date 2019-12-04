@@ -4,14 +4,14 @@ title = "JobTech Dev"
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy" ]
+theme = ["docsy"]
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
 # Language settings
 contentDir = "content/en"
-defaultContentLanguage = "sv"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -57,7 +57,7 @@ title = "JobTechdev"
 description = "An open infrastructure for ..."
 languageName ="English"
 # Weight used for sorting.
-weight = 2
+weight = 1
 [languages.sv]
 title = "JobTechdev"
 description = "En öppen infrastruktur för arbetsmarknaden"
@@ -65,7 +65,6 @@ languageName ="Svenska"
 contentDir = "content/sv"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
-
 
 
 
@@ -119,7 +118,7 @@ footer_about_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 
 [params.links]
