@@ -1,212 +1,83 @@
-[try-it]
-other = "Prova"
 
-[cookie-message]
-other = "Denna sida använder kakor för att ge bästa upplevelse."
 
-[cookie-ok]
-other = "ok"
+# UI strings. Buttons and similar.
 
-[cookie-href]
-other = "/cookie_policy/swedish/"
+[ui_pager_prev]
+other = "Tillbaka"
 
-[cookie-href-text]
-other = "Läs mer om våra kakor här"
+[ui_pager_next]
+other = "Nästa"
 
-[read-more]
-other = "Läs mer"
+[ui_read_more]
+other = "Läs mer här"
 
-[nav-start]
-other = "START"
+[ui_search]
+other = "Sök på sidan"
 
-[nav-apis]
-other = "APIER"
 
-[nav-open-source]
-other = "ÖPPEN KÄLLKOD"
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "i"
 
-[nav-about-us]
-other = "OM OSS"
+# Used in community section
+[join]
+other = "Gå med i "
 
-[nav-contact]
-other = "KONTAKT"
+[text_develop]
+other = "Om du vill engagera dig och bidra?"
 
-[nav-docs]
-other = "DOCS"
+[how_to_contribute]
+other = "Du kan se hur du kan bidra i"
 
-[header-title]
-other = "JOBTECH DEV"
+[guidelines]
+other = "Contribution Guidelines"
 
-[header-subtitle]
-other = "Öppna data och öppen källkod för arbetsmarknaden."
+[using]
+other = "Använder du, eller vill du använda"
 
-[header-button]
-other = "GÅ TILL APIER"
+[using_more]
+other = "? Läs mer här:"
 
-[services-title]
-other = "APIER OCH DATASET"
+[text_community]
+other = "är ett Open source projekt som vem som helst i communityn kan använda och förbättra. Vi välkomnar dig i communityn. Här är några sätt att hålla koll på vad som händer, och hur du kan medverka"
 
-[services-body]
-other = "Vi erbjuder en mängd APIer och dataset som är relevanta för applikationer byggda mot arbetsmarknaden. Läs mer på JobTech docs."
+[Learn_and_connect]
+other = "Lär dig mer och kom i kontakt med oss"
 
-[services-button]
-other = "Utforska APIer"
+[develop_and_contribute]
+other = "Utveckla och Bidra"
 
-[apicards-ontology-title]
-other = "JobTech Ontology"
+# Footer text
+[footer_all_rights_reserved]
+other = "All Rights Reserved"
 
-[apicards-ontology-body]
-other = "En AI-genererad ordlista över kompetenser baserad på över 6 miljoner jobbannonser"
+[footer_privacy_policy]
+other = "Privacy Policy"
 
-[apicards-ontology-button]
-other = "Till API"
 
-[apicards-postings-title]
-other = "Af Job Postings"
+#Feedback
+[feedback_text]
+other = "Blev du hjälpt av denna sida?"
 
-[apicards-postings-body]
-other = "Aktuella jobbannonser (ca 150 000 jobb) från Arbetsförmedlingen"
+[yes]
+other = "Ja"
+[no]
+other = "Nej"
 
-[apicards-postings-button]
-other = "Till API"
 
-[apicards-historicalads-title]
-other = "Historiska jobbannonser"
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "Av"
+[post_created]
+other = "Skapad av"
+[post_last_mod]
+other = "Senast ändrad"
+[post_edit_this]
+other = "Ändra sidan"
+[post_create_issue]
+other = "Create documentation issue"
+[post_create_project_issue]
+other = "Create project issue"
+[post_posts_in]
+other = "Inlägg från"
 
-[apicards-historicalads-body]
-other = "Historiska jobbannonser från Platsbanken under 2006-2017 (ca 3GB)"
-
-[apicards-historicalads-button]
-other = "Till API"
-
-[status-title]
-other = "STATUS"
-
-[status-body]
-other = "Vi gör vårt bästa för att hålla allting uppe och fungerande, men vi kan inte garantera fullständig tillgänglighet hela tiden."
-
-[portfolio-title]
-other = "ÖPPEN KÄLLKOD"
-
-[portfolio-body]
-other = "Utforska ett stort utbud av material att låna, kopiera, paketera, utveckla, förbättra och modifiera efter behag!"
-
-[portfolio-button]
-other = "Utforska alla projekt"
-
-[projcards-historicaldata-title]
-other = "Historisk dataanalys"
-
-[projcards-historicaldata-body]
-other = "Ta smartare beslut med data om jobbtrender i olika industrisektorer"
-
-[projcards-jobscanner-title]
-other = "JobScanner"
-
-[projcards-jobscanner-body]
-other = "Se potentialen och kraften hos data över alla nutida rekryteringsbehov på arbetsmarknaden på ett och samma ställe"
-
-[projcards-ontologyexplorer-title]
-other = "Ontologiutforskaren"
-
-[projcards-ontologyexplorer-body]
-other = "Ett exempel på hur man kan använda vårt ontologi-API"
-
-[metrics-title]
-other = "NYCKELTAL"
-
-[metrics-body]
-other = "Den mjuka infrastrukturen i siffror."
-
-[metrics-repos]
-other = "Github Repositories"
-
-[metrics-requests]
-other = "API förfrågningar/dag"
-
-[metrics-apis]
-other = "Antal APIer"
-
-[about-us-title]
-other = "JobTech development"
-
-[about-us-body]
-other = "JobTech (job technology) är en paraplyterm för teknisk innovation i arbetsmarknadssektorn. JobTech development är ett initiativ från Arbetsförmedlingen, och styrs av samarbete mellan flera olika aktörer på arbetsmarknadsarenan. Vi tror på att delandet av gemensamma resurser som data ger bättre förutsättningar för att skapa och erbjuda bättre sluttjänster."
-
-[focus-areas-title]
-other = "JobTech proposition"
-
-[focus-areas-body-1]
-other = "Vi verkar för bättre matchning genom att skapa förutsättningar för en enklare utveckling. JobTech dev erbjuder en infrastruktur, APIer och data, allt i form av öppen källkod och öppen data, så det ska gå lätt och snabbt att skapa nya applikationer för arbetsmarknaden."
-
-[focus-areas-body-2]
-other = "JobTech dev satsar just nu på fyra strategiska områden."
-
-[focus-areas-body-3]
-other = "Det är öppet, alla kan vara med, och när du bidrar får du själv inflytande."
-
-[focus-areas-check-1]
-other = "Öppen källkod"
-
-[focus-areas-check-2]
-other = "Öppen data"
-
-[focus-areas-check-3]
-other = "Samarbeta"
-
-[focus-areas-button]
-other = "Läs mer om våra fokusområden"
-
-[focus-areas-cards-jobs-title]
-other = "JOBS"
-
-[focus-areas-cards-jobs-body]
-other = "All data man behöver om alla jobben i Sverige samlat på ett ställe"
-
-[focus-areas-cards-mydata-title]
-other = "MY DATA"
-
-[focus-areas-cards-mydata-body]
-other = "Din data, ditt val"
-
-[focus-areas-cards-search-title]
-other = "SEARCH"
-
-[focus-areas-cards-search-body]
-other = "En öppen sökmotor för jobb och jobbsökare"
-
-[focus-areas-cards-taxonomy-title]
-other = "TAXONOMY"
-
-[focus-areas-cards-taxonomy-body]
-other = "Ett gemensamt vokabulär för arbetsmarknaden"
-
-[finance-title]
-other = "JobTechs Ekonomi"
-
-[finance-body]
-other = "Arbetsförmedlingens finansiella investering i JobTech dev. Budgeten reflekterar de uppskattade kostnaderna för personal och tekniska resurser som behövs för leverans inom varje område."
-
-[community-title]
-other = "JobTech Community"
-
-[community-body-1]
-other = "Hitta möjligheter för samarbete kring innovation, utveckling och förbättring av den svenska arbetsmarknaden. Vi delar och tar emot data, erfarenheter och kunskap."
-
-[community-body-2]
-other = "Det här är ett område där samarbete och relationsbyggande genom öppen källkod ger frukt. Oavsett om du är en utvecklare, en innovatör, en investerare, en student…. eller något annat."
-
-[community-body-3]
-other = "Kortfattat - det är här vi skapar värde för Sverige!"
-
-[community-button]
-other = "Läs mer"
-
-[community-cards-involve-title]
-other = "Engagera dig"
-
-[community-cards-involve-body]
-other = "Utforska, samarbeta och bidra"
-
-[community-cards-involve-contact]
-other = "Kontakta Josefin"
