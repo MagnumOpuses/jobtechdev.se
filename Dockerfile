@@ -6,6 +6,7 @@ USER root
 RUN mkdir -p /tmp/hugo
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
+git submodule update --init --recursive
 
 
 RUN hugo
