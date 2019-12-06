@@ -6,8 +6,6 @@ USER root
 RUN mkdir -p /tmp/hugo
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
-
-
 RUN hugo
 
 ###
@@ -38,7 +36,6 @@ RUN apk add --no-cache --update -v \
         nginx \
         git \
         curl
-
 
 RUN rm -rf /var/cache/apk/*
 
