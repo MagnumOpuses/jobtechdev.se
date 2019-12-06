@@ -1,82 +1,212 @@
+[try-it]
+other = "Try it"
 
+[cookie-message]
+other = "This website uses cookies to ensure you get the best experience on our website."
 
-# UI strings. Buttons and similar.
+[cookie-ok]
+other = "Got it!"
 
-[ui_pager_prev]
-other = "Previous"
+[cookie-href]
+other = "/cookie_policy/english/"
 
-[ui_pager_next]
-other = "Next"
+[cookie-href-text]
+other = "Cookie policy"
 
-[ui_read_more]
+[read-more]
 other = "Read more"
 
-[ui_search]
-other = "Search this site…"
+[nav-start]
+other = "START"
 
-# Used in sentences such as "Posted in News"
-[ui_in]
-other = "in"
+[nav-apis]
+other = "APIS"
 
+[nav-open-source]
+other = "OPEN SOURCE"
 
-# Used in community section
-[join]
-other = "Join "
+[nav-about-us]
+other = "ABOUT"
 
-[text_develop]
-other = "If you want to get more involved by contributing to "
+[nav-contact]
+other = "CONTACT"
 
-[how_to_contribute]
-other = "You can find out how to contribute to these docs in our"
+[nav-docs]
+other = "DOCS"
 
-[guidelines]
-other = "Contribution Guidelines"
-[join_us]
-other= "join us here"
+[header-title]
+other = "JOBTECH DEV"
 
-[using]
-other = "Using or want to use"
+[header-subtitle]
+other = "Empower people with freedom of choice through an open source infrastructure."
 
-[using_more]
-other = "? Find out more here:"
-[text_community]
-other = "is an open source project that anyone in the community can use, improve, and enjoy. We'd love you to join us! Here's a few ways to find out what's happening and get involved."
+[header-button]
+other = "GO TO APIs"
 
-[Learn_and_connect]
-other = "Learn and Connect"
+[services-title]
+other = "APIs and Datssets"
 
-[develop_and_contribute]
-other = "Develop & Contribute"
+[services-body]
+other = "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
 
-# Footer text
-[footer_all_rights_reserved]
-other = "All Rights Reserved"
+[services-button]
+other = "Browse the APIs"
 
-[footer_privacy_policy]
-other = "Privacy Policy"
+[apicards-ontology-title]
+other = "JobTech Ontology"
 
-#Feedback
-[feedback_text]
-other = "Was this page helpful?"
+[apicards-ontology-body]
+other = "An AI generated dictionary of competences from 6 million job postings"
 
-[yes]
-other = "yes"
+[apicards-ontology-button]
+other = "Go to API"
 
-[no]
-other = "No"
+[apicards-postings-title]
+other = "Af Job Postings"
 
-# Post (blog, articles etc.)
-[post_byline_by]
-other = "By"
-[post_created]
-other = "Created"
-[post_last_mod]
-other = "Last modified"
-[post_edit_this]
-other = "Edit this page"
-[post_create_issue]
-other = "Create documentation issue"
-[post_create_project_issue]
-other = "Create project issue"
-[post_posts_in]
-other = "Posts in"
+[apicards-postings-body]
+other = "Current job postings (approximately 150 000 jobs) from Swedish Public Employment Service"
+
+[apicards-postings-button]
+other = "Go to API"
+
+[apicards-historicalads-title]
+other = "Historical Job Postings"
+
+[apicards-historicalads-body]
+other = "Historical job postings from 2006-2017 (3GB of data)"
+
+[apicards-historicalads-button]
+other = "Go to API"
+
+[status-title]
+other = "STATUS"
+
+[status-body]
+other = "This is a development site, which means that we are doing our best to keep everything up and running but cannot guarantee full availability at all times."
+
+[portfolio-title]
+other = "OPEN SOURCE"
+
+[portfolio-body]
+other = "Explore a wide range of stuff to borrow, copy, redistribute, package, develop, reinvent and modify as you wish - enjoy!"
+
+[portfolio-button]
+other = "Explore all projects"
+
+[projcards-historicaldata-title]
+other = "Historical Data Analysis"
+
+[projcards-historicaldata-body]
+other = "Make smarter decisions with past data on job trends in various industry sectors"
+
+[projcards-jobscanner-title]
+other = "JobScanner"
+
+[projcards-jobscanner-body]
+other = "The JobScanner shows the potential and power of collecting all the recruitment needs of the labour market in one place"
+
+[projcards-ontologyexplorer-title]
+other = "Ontologiutforskaren"
+
+[projcards-ontologyexplorer-body]
+other = "An example on how to use our Ontology API"
+
+[metrics-title]
+other = "METRICS"
+
+[metrics-body]
+other = "The open source infrastructure in numbers."
+
+[metrics-repos]
+other = "Github Repositories"
+
+[metrics-requests]
+other = "API requests/day"
+
+[metrics-apis]
+other = "Number of APIs"
+
+[about-us-title]
+other = "JobTech development"
+
+[about-us-body]
+other = "JobTech (job technology) is a collective term for technical innovation in the labour market sector. JobTech development is powered by the Swedish Public Employment Service,  and is characterized by collaboration between several actors in the labour market arena. The sharing of common resources such as data provides better prerequisites to create and offer better end services."
+
+[focus-areas-title]
+other = "JobTech proposition"
+
+[focus-areas-body-1]
+other = "We are aiming for better matching by creating easier development. JobTech dev does it by providing an open source infrastructure, APIs and open data for the creations of different job market applications."
+
+[focus-areas-body-2]
+other = "JobTech dev is currently investing in four strategic areas to build a minimal valuable infrastructure."
+
+[focus-areas-body-3]
+other = "It is open, everyone can join, and when you contribute you get influence."
+
+[focus-areas-check-1]
+other = "Open source"
+
+[focus-areas-check-2]
+other = "Open data"
+
+[focus-areas-check-3]
+other = "Collaboration"
+
+[focus-areas-button]
+other = "Learn more about the components"
+
+[focus-areas-cards-jobs-title]
+other = "JOBS"
+
+[focus-areas-cards-jobs-body]
+other = "All the data you need about all the jobs in Sweden, collected in one place"
+
+[focus-areas-cards-mydata-title]
+other = "MY DATA"
+
+[focus-areas-cards-mydata-body]
+other = "Let your data work for you"
+
+[focus-areas-cards-search-title]
+other = "SEARCH"
+
+[focus-areas-cards-search-body]
+other = "An open search engine for jobs and job seekers"
+
+[focus-areas-cards-taxonomy-title]
+other = "TAXONOMY"
+
+[focus-areas-cards-taxonomy-body]
+other = "A common language for the labour market"
+
+[finance-title]
+other = "JobTech finance"
+
+[finance-body]
+other = "The Swedish Public Employment Service’s financial investment in JobTech Dev. The budget reflects the estimated costs for personnel and technical resources required for each delivery."
+
+[community-title]
+other = "JobTech Community"
+
+[community-body-1]
+other = "Find opportunities for collaboration around innovation, development and improvement of the Swedish labour market. We share and recieve data, experiences and knowledge."
+
+[community-body-2]
+other = "This is an area where collaboration and building relationships through open source is made reality. Regardless if you are a developer, an innovator, an investor, a student...or something else."
+
+[community-body-3]
+other = "In short - here is where we create value for Sweden!"
+
+[community-button]
+other = "Explore the community"
+
+[community-cards-involve-title]
+other = "Get involved"
+
+[community-cards-involve-body]
+other = "Explore, team up and contribute"
+
+[community-cards-involve-contact]
+other = "Contact Josefin"
