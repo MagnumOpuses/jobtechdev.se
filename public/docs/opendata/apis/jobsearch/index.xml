@@ -1,0 +1,353 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTechdev – Job Search</title>
+    <link>/docs/opendata/apis/jobsearch/</link>
+    <description>Recent content in Job Search on JobTechdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
+    
+	  <atom:link href="/docs/opendata/apis/jobsearch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Getting Started</title>
+      <link>/docs/opendata/apis/jobsearch/getting-started/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/opendata/apis/jobsearch/getting-started/</guid>
+      <description>
+        
+        
+        
+
+&lt;head&gt;
+    &lt;script&gt;
+        document.addEventListener(&#39;DOMContentLoaded&#39;, function(event) {
+            let els = document.getElementById(&#34;body-inner&#34;).getElementsByTagName(&#34;a&#34;);
+            Array.prototype.forEach.call(els, function(el) {
+                if (el.host == window.location.host) {
+                    el.hash = el.hash.toLowerCase();
+                }
+            })
+
+        })
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;script&gt;
+    document.getElementById(&#34;api-buttons&#34;).innerHTML +=&#39;&lt;a href=&#34;https:\/\/github.com\/JobtechSwe\/sokannonser-api\/blob\/master\/GETTINGSTARTED.md&#34; class=&#34;showcasebtn align-self-end &#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt; Github &lt;/a&gt;&#39;
+&lt;/script&gt;
+&lt;h1 id=&#34;search-api-for-job-ads-getting-started&#34;&gt;Search API for job ads - getting started&lt;/h1&gt;
+
+&lt;p&gt;The aim of this text is to walk you through what you&amp;rsquo;re seeing in the &lt;a href=&#34;https://jobsearch.api.jobtechdev.se&#34; target=&#34;_blank&#34;&gt;Swagger-UI&lt;/a&gt; to give you a bit of orientation on what can be done with the Job Search API. If you are just looking for a way to fetch all the ads please use our &lt;a href=&#34;https://jobstream.api.jobtechdev.se&#34; target=&#34;_blank&#34;&gt;bulk load API&lt;/a&gt;
+The search API is intended for user search not downloading all the job ads. We may invalidate your API Keys if you make excessive amounts of calls that don&amp;rsquo;t fit the intended purpose of this API.&lt;/p&gt;
+
+&lt;p&gt;A bad practice typically means searching for every job of every region every fifth minute.
+A good practice means making lots of varied calls initiated by real users.&lt;/p&gt;
+
+&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Authentication&#34;&gt;Authentication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Endpoints&#34;&gt;Endpoints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Results&#34;&gt;Results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Errors&#34;&gt;Errors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Use-cases&#34;&gt;Use cases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;short-introduction&#34;&gt;Short introduction&lt;/h2&gt;
+
+&lt;p&gt;The endpoints for the ads search API are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Ad-Search&#34;&gt;search&lt;/a&gt; - returning ads matching a search phrase.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Typeahead&#34;&gt;complete&lt;/a&gt; - returning common words matching a search phrase. Useful for autocomplete.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Ad&#34;&gt;ad&lt;/a&gt; - returning the ad matching an id.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Logo&#34;&gt;logo&lt;/a&gt; - returns the logo for an ad.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Easiest way to try out the API is to go to the &lt;a href=&#34;https://jobsearch.api.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;swagger page&lt;/a&gt;.
+But first you need a key which you need to authenticate yourself.&lt;/p&gt;
+
+&lt;p&gt;If you want to get all ads in a bulk, please use our &lt;a href=&#34;https://jobtechdev.se/devguide/apis/jobstream.html&#34; target=&#34;_blank&#34;&gt;Stream API&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;authentication&#34;&gt;Authentication&lt;/h2&gt;
+
+&lt;p&gt;For this API, you will need to register to get your own API key at &lt;a href=&#34;https://apirequest.jobtechdev.se&#34; target=&#34;_blank&#34;&gt;apirequest.jobtechdev.se&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;endpoints&#34;&gt;Endpoints&lt;/h2&gt;
+
+&lt;p&gt;Below we only show the URLs. If you prefer the curl command, you type it like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl &amp;quot;{URL}&amp;quot; -H &amp;quot;accept: application/json&amp;quot; -H &amp;quot;api-key: {proper_key}&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ad-search&#34;&gt;Ad search&lt;/h3&gt;
+
+&lt;p&gt;/search?q={search text}&lt;/p&gt;
+
+&lt;p&gt;The search endpoint in the first section will return job ads that are currently open for applications.
+The API is meant for searching, we want to offer you the possibility to just build your own customized GUI on top of our free text query field &amp;ldquo;q&amp;rdquo; in /search like this &amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?q=Flen&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This means you don&amp;rsquo;t need to worry about how to build an advanced logic to help the users finding the most relevant ads for, let&amp;rsquo;s say, Flen. The search engine will do this for you.
+If you want to narrow down the search result in other ways than the free query offers, you can use the available search filters. Some of the filters need id-keys as input for searching structured data. The id-keys can be found at /taxonomy/search these will help you get sharper hits for structured data. We will always work on improving the hits for free queries hoping you&amp;rsquo;ll have less and less use for filtering.&lt;/p&gt;
+
+&lt;h3 id=&#34;typeahead&#34;&gt;Typeahead&lt;/h3&gt;
+
+&lt;p&gt;/complete?q={typed string}&lt;/p&gt;
+
+&lt;p&gt;If you want to help your end users with term suggestions you can use the typeahead function, which will return common terms found in the job ads. This should work great with an auto complete feature in your search box. If you request &amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/complete?q=stor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;hellip; you&amp;rsquo;ll get storkök, storhushåll, storesupport, and storage as they are the most common terms starting with &amp;ldquo;stor*&amp;rdquo; in ads.&lt;/p&gt;
+
+&lt;p&gt;If you request&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/complete?q=storage%20s
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;hellip; you&amp;rsquo;ll get sverige, stockholms län, stockholm, svenska, and script since they are the most common terms beginning with &amp;ldquo;s&amp;rdquo; for ads that contain the word &amp;ldquo;storage&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;ad&#34;&gt;Ad&lt;/h3&gt;
+
+&lt;p&gt;/ad/{id}&lt;/p&gt;
+
+&lt;p&gt;This endpoint is used for fetching specific job ads with all available meta data, by their ad ID number. The ID number can be found by doing a search query.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/ad/8430129
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;logo&#34;&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;/ad/{id}/logo&lt;/p&gt;
+
+&lt;p&gt;This endpoint returns the logo for a given ad&amp;rsquo;s id number.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/ad/8430129/logo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;jobtech-taxonomy&#34;&gt;Jobtech-Taxonomy&lt;/h3&gt;
+
+&lt;p&gt;If you need help finding the official names for occupations, skills, or geographic place we have temporarily built an endpoint which you will find at &lt;a href=&#34;https://jobsearch.api.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;https://jobsearch.api.jobtechdev.se/&lt;/a&gt;. The real version will be launched during fall 2019. Check out &lt;a href=&#34;https://www.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;jobtechdev.se&lt;/a&gt; for updates.&lt;/p&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;The results of your queries will be in &lt;a href=&#34;https://en.wikipedia.org/wiki/JSON&#34; target=&#34;_blank&#34;&gt;JSON&lt;/a&gt; format. We won&amp;rsquo;t attempt to explain this attribute by attribute in this document. Instead we&amp;rsquo;ve decided to try to include this in the data model which you can find in our &lt;a href=&#34;https://jobsearch.api.jobtechdev.se&#34; target=&#34;_blank&#34;&gt;Swagger GUI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Successful queries will have a response code of 200 and give you a result set that consists of:
+1. Some meta data about your search such as number of hits and the time it took to execute the query and
+2. The ads that matched your search.&lt;/p&gt;
+
+&lt;h2 id=&#34;errors&#34;&gt;Errors&lt;/h2&gt;
+
+&lt;p&gt;Unsuccessful queries will have a response code of:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;HTTP Status code&lt;/th&gt;
+&lt;th&gt;Reason&lt;/th&gt;
+&lt;th&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;400&lt;/td&gt;
+&lt;td&gt;Bad Request&lt;/td&gt;
+&lt;td&gt;Something wrong in the query&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;401&lt;/td&gt;
+&lt;td&gt;Unauthorized&lt;/td&gt;
+&lt;td&gt;You are not using a valid API key&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;404&lt;/td&gt;
+&lt;td&gt;Missing ad&lt;/td&gt;
+&lt;td&gt;The ad you requested is not available&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;429&lt;/td&gt;
+&lt;td&gt;Rate limit exceeded&lt;/td&gt;
+&lt;td&gt;You requested too much during too short time&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;500&lt;/td&gt;
+&lt;td&gt;Internal Server Error&lt;/td&gt;
+&lt;td&gt;Something wrong on the server side&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;use-cases&#34;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;To help you find your way forward, here are some example of use cases:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Searching-for-a-particular-job-title&#34;&gt;Searching for a particular job title&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Searching-only-within-a-specific-field-of-work&#34;&gt;Searching only within a specific field of work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Finding-jobs-near-you&#34;&gt;Finding jobs near you&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Negative-search&#34;&gt;Negative search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Finding-Swedish-speaking-jobs-abroad&#34;&gt;Finding Swedish speaking jobs abroad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Finding-jobs-in-the-public-sector&#34;&gt;Finding jobs in the public sector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Customise-the-result-set&#34;&gt;Customise the result set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Getting-all-the-jobs-since-date-and-time&#34;&gt;Getting all the jobs since date and time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;searching-for-a-particular-job-title&#34;&gt;Searching for a particular job title&lt;/h4&gt;
+
+&lt;p&gt;The easiest way to get the ads that contain a specific word like a job title is to use a free text query (q) with the &lt;em&gt;Open-Search&lt;/em&gt; endpoint. This will give you ads with the specified word in either headline, ad description or place of work.&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?q=souschef&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you want to be certain that the ad is for a &amp;ldquo;souschef&amp;rdquo; - and not just mentions a &amp;ldquo;souschef&amp;rdquo; - you can use the occupation ID in the field &amp;ldquo;occupation&amp;rdquo;. If the ad has been registered by the recruiter with the occupation field set to &amp;ldquo;souschef&amp;rdquo;, the ad will show up in this search. To do this query you use both the &lt;em&gt;Jobtech-Taxonomy&lt;/em&gt; endpoint and the &lt;em&gt;Open-Search&lt;/em&gt; endpoint. First of all, you need to find the occupation ID for &amp;ldquo;souschef&amp;rdquo; by text searching (q) in &lt;em&gt;Jobtech Taxonomy&lt;/em&gt; for the term in the right category (occupation-name).&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&amp;amp;limit=10&amp;amp;q=souschef
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can use the conceptId (iugg_Qq9_QHH) in &lt;em&gt;Open-Search&lt;/em&gt; to fetch the ads registered with the term &amp;ldquo;souschef&amp;rdquo; in the occupation-name field:&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?occupation-name=iugg_Qq9_QHH&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will give a smaller result set with a higher certainty of actually being for a &amp;ldquo;souschef&amp;rdquo;, however the result set will likely miss a few relevant ads since the occupation-name field isn&amp;rsquo;t always set by employers. You should find that a larger set is more useful since there are multiple sorting factors working to show the most relevant hits first. We&amp;rsquo;re also working to always improve the API in regards to unstructured data.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: The taxonomy endpoint is temporary. Please check &lt;a href=&#34;https://www.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;jobtechdev.se&lt;/a&gt; for updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;searching-only-within-a-specific-field-of-work&#34;&gt;Searching only within a specific field of work&lt;/h3&gt;
+
+&lt;p&gt;Firstly, use the &lt;em&gt;Jobtech-Taxonomy&lt;/em&gt; endpoint to get the Id for Data/IT (occupation field). You&amp;rsquo;ll then make a free text search on the term &amp;ldquo;IT&amp;rdquo; narrowing down the search to occupation-field&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&amp;amp;limit=10&amp;amp;q=IT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the response body you’ll find the conceptId (apaJ_2ja_LuF)for the term Data/IT. Use this with the search endpoint to define the field in which you want to get all the open-api. So now I want to combine this with my favorite language without all those snake related jobs ruining my search.&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?occupation-field=apaJ_2ja_LuF&amp;amp;q=python&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note: The taxonomy endpoint is temporary. Please check &lt;a href=&#34;https://www.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;jobtechdev.se&lt;/a&gt; for updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;finding-jobs-near-you&#34;&gt;Finding jobs near you&lt;/h3&gt;
+
+&lt;p&gt;You can filter your search on geographical terms picked up from the Taxonomy just the same way you can with occupation-titles and occupation-fields. (Concept_id doesn&amp;rsquo;t work everywhere at the time of writing but you can use the numeral id&amp;rsquo;s, they are very official and way less likely to change as skills and occupations sometimes do)
+If you want to search for jobs in Norway you may free text query the taxonomy for &amp;ldquo;Norge&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   https://jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&amp;amp;limit=10&amp;amp;q=norge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And add that parameter conceptId (QJgN_Zge_BzJ) to the country field&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?country=QJgN_Zge_BzJ&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If I make a query which includes 2 different geographical filters the most local one will be promoted. As in this case where I&amp;rsquo;m searching for &amp;ldquo;lärare&amp;rdquo; using the municipality code for Haparanda (tfRE_hXa_eq7) and the region code for Norrbottens Län (9hXe_F4g_eTG). The jobs that are in Haparanda will be the first ones in the result set.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?municipality=tfRE_hXa_eq7&amp;amp;region=9hXe_F4g_eTG&amp;amp;q=l%C3%A4rare
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also use longitude latitude coordinates and a radius in kilometers if you want.&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?offset=0&amp;amp;limit=10&amp;amp;position=59.3,17.6&amp;amp;position.radius=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note: The taxonomy endpoint is temporary. Please check &lt;a href=&#34;https://www.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;jobtechdev.se&lt;/a&gt; for updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;negative-search&#34;&gt;Negative search&lt;/h3&gt;
+
+&lt;p&gt;So, this is very simple using our q-field. Let&amp;rsquo;s say you want to find Unix jobs&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?q=unix&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But you find that you get a lot of jobs expecting you to work with which you dont want. All that&amp;rsquo;s needed is to use the minus symbol and the word you want to exclude.&lt;/p&gt;
+
+&lt;p&gt;Request URL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/search?q=unix%20-linux&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;finding-swedish-speaking-jobs-abroad&#34;&gt;Finding Swedish speaking jobs abroad&lt;/h3&gt;
+
+&lt;p&gt;Sometimes a filter can work too broadly and then it&amp;rsquo;s easier to use a negative search to remove specific results you don&amp;rsquo;t want. In this case we will show you how to filter out all the jobs in Sweden. Rather than adding a minus Sweden in the q field &amp;ldquo;-sverige&amp;rdquo; you can use the country code and the country field in the search. So first you get the country code for &amp;ldquo;Sverige&amp;rdquo; from the taxonomy endpoint.&lt;/p&gt;
+
+&lt;p&gt;Request URLs to get conceptId for Sweden and Swedish&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;https://jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&amp;amp;limit=10&amp;amp;q=sverige&amp;amp;type=country
+https://jobsearch.api.jobtechdev.se/taxonomy/search?offset=0&amp;amp;limit=10&amp;amp;q=svenska&amp;amp;type=language
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As return we get id 199 for &amp;ldquo;Sverige&amp;rdquo; and id 502 for &amp;ldquo;Svenska&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Request URL to get jobs in Swedish outside Sweden&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    https://jobsearch.api.jobtechdev.se/search?language=502&amp;amp;country=-199&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note: The taxonomy endpoint is temporary. Please check &lt;a href=&#34;https://www.jobtechdev.se/&#34; target=&#34;_blank&#34;&gt;jobtechdev.se&lt;/a&gt; for updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;finding-jobs-in-the-public-sector&#34;&gt;Finding jobs in the public sector&lt;/h3&gt;
+
+&lt;p&gt;In Sweden, organizations number reflect type of organization. For instance is the first figura a two if the organization is a public organization. This could be used in you search.&lt;/p&gt;
+
+&lt;p&gt;Request URL to get jobs in Swedish public sector&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    https://jobsearch.api.jobtechdev.se/search?employer=2&amp;amp;offset=0&amp;amp;limit=10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;customize-the-result-set&#34;&gt;Customize the result set&lt;/h3&gt;
+
+&lt;p&gt;There&amp;rsquo;s a lot of reasons you might want less fields for your search result set. In this case the idea is a map-based job search that plots needles where the jobs can be found based on a user search. Everything needed is the GPS coordinates for the needle and the id, employer, and headline for the ad so more info can be fetched once the user clicks on the needle. Probably, you also like to know total number of ads.
+In the Swagger GUI it&amp;rsquo;s possible to use the X-fields to define which fields to include in result set. This mask will look like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;total{value}, hits{id, headline, workplace_address{coordinates}, employer{name}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will create an extra header displayed in the curl example in Swagger. So, this example will look like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl &amp;quot;https://jobsearch.api.jobtechdev.se/search?q=skogsarbetare&amp;amp;offset=0&amp;amp;limit=10&amp;quot; -H &amp;quot;accept: application/json&amp;quot; -H &amp;quot;api-key: &amp;lt;proper_key&amp;gt;&amp;quot; -H &amp;quot;X-Fields: total{value}, hits{id, headline, workplace_address{coordinates}, employer{name}}&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;getting-all-the-jobs-since-date-and-time&#34;&gt;Getting all the jobs since date and time&lt;/h3&gt;
+
+&lt;p&gt;A very common use case is COLLECT ALL THE ADS. We don&amp;rsquo;t want you to use the search API for this. It&amp;rsquo;s expensive in terms of bandwidth, CPU cycles and development time and it&amp;rsquo;s not even guaranteed you&amp;rsquo;ll get everything. Instead we&amp;rsquo;d like you to use our &lt;a href=&#34;https://jobtechdev.se/devguide/apis/jobstream.html&#34; target=&#34;_blank&#34;&gt;Stream API&lt;/a&gt;.&lt;/p&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

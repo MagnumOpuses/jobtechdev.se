@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTechdev – Work with us</title>
+    <link>/en/about/work/</link>
+    <description>Recent content in Work with us on JobTechdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
+    
+	  <atom:link href="/en/about/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
