@@ -74,5 +74,7 @@ RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
     chmod -R 777 /var/tmp/nginx
 #######
+RUN rm -rf /tmp
+WORKDIR /opt/nginx/www
 USER 10000
 CMD ["/usr/bin/supervisord", "-n"]
