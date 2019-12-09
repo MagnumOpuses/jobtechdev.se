@@ -1,4 +1,4 @@
-FROM alpine:latest as buildserver
+FROM alpine:latest
 
 ARG ARG_BUILDNAME
 ARG ARG_USER=default
