@@ -1,0 +1,120 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTechdev – Docsy-examples</title>
+    <link>/en/docsy-example/</link>
+    <description>Recent content in Docsy-examples on JobTechdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/en/docsy-example/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docsy-Example: </title>
+      <link>/en/docsy-example/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docsy-example/contributing/</guid>
+      <description>
+        
+        
+        
+
+&lt;h1 id=&#34;how-to-contribute&#34;&gt;How to Contribute&lt;/h1&gt;
+
+&lt;p&gt;We&amp;rsquo;d love to accept your patches and contributions to this project. There are
+just a few small guidelines you need to follow.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributor-license-agreement&#34;&gt;Contributor License Agreement&lt;/h2&gt;
+
+&lt;p&gt;Contributions to this project must be accompanied by a Contributor License
+Agreement. You (or your employer) retain the copyright to your contribution;
+this simply gives us permission to use and redistribute your contributions as
+part of the project. Head over to &lt;a href=&#34;https://cla.developers.google.com/&#34; target=&#34;_blank&#34;&gt;https://cla.developers.google.com/&lt;/a&gt; to see
+your current agreements on file or to sign a new one.&lt;/p&gt;
+
+&lt;p&gt;You generally only need to submit a CLA once, so if you&amp;rsquo;ve already submitted one
+(even if it was for a different project), you probably don&amp;rsquo;t need to do it
+again.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-reviews&#34;&gt;Code reviews&lt;/h2&gt;
+
+&lt;p&gt;All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+&lt;a href=&#34;https://help.github.com/articles/about-pull-requests/&#34; target=&#34;_blank&#34;&gt;GitHub Help&lt;/a&gt; for more
+information on using pull requests.&lt;/p&gt;
+
+&lt;h2 id=&#34;community-guidelines&#34;&gt;Community Guidelines&lt;/h2&gt;
+
+&lt;p&gt;This project follows
+&lt;a href=&#34;https://opensource.google.com/conduct/&#34; target=&#34;_blank&#34;&gt;Google&amp;rsquo;s Open Source Community Guidelines&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docsy-Example: </title>
+      <link>/en/docsy-example/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docsy-example/readme/</guid>
+      <description>
+        
+        
+        
+
+&lt;h1 id=&#34;docsy-example&#34;&gt;Docsy Example&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/google/docsy&#34; target=&#34;_blank&#34;&gt;Docsy&lt;/a&gt; is a Hugo theme for technical documentation sites, providing easy site navigation, structure, and more. This &lt;strong&gt;Docsy Example Project&lt;/strong&gt; uses the Docsy theme, as well as providing a skeleton documentation structure for you to use. You can either copy this project and edit it with your own content, or use the theme in your projects like any other &lt;a href=&#34;https://gohugo.io/themes/installing-and-using-themes/&#34; target=&#34;_blank&#34;&gt;Hugo theme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This Docsy Example Project is hosted at &lt;a href=&#34;https://example.docsy.dev/&#34; target=&#34;_blank&#34;&gt;https://example.docsy.dev/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find detailed theme instructions in the Docsy user guide: &lt;a href=&#34;https://docsy.dev/docs/&#34; target=&#34;_blank&#34;&gt;https://docsy.dev/docs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is not an officially supported Google product. This project is currently maintained.&lt;/p&gt;
+
+&lt;h2 id=&#34;cloning-the-docsy-example-project&#34;&gt;Cloning the Docsy Example Project&lt;/h2&gt;
+
+&lt;p&gt;The following will give you a project that is set up and ready to use (don&amp;rsquo;t forget to use &lt;code&gt;--recurse-submodules&lt;/code&gt; or you won&amp;rsquo;t pull down some of the code you need to generate a working site). The &lt;code&gt;hugo server&lt;/code&gt; command builds and serves the site. If you just want to build the site, run &lt;code&gt;hugo&lt;/code&gt; instead.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone --recurse-submodules --depth &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; https://github.com/google/docsy-example.git
+&lt;span style=&#34;color:#204a87&#34;&gt;cd&lt;/span&gt; docsy-example
+hugo server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The theme is included as a Git submodule:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;▶ git submodule
+ a053131a4ebf6a59e4e8834a42368e248d98c01d themes/docsy &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;heads/master&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you want to do SCSS edits and want to publish these, you need to install &lt;code&gt;PostCSS&lt;/code&gt; (not needed for &lt;code&gt;hugo server&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;npm install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!--### Cloning the Example from the Theme Project
+
+
+```bash
+git clone --recurse-submodules --depth 1 https://github.com/docsy.git
+cd tech-doc-hugo-theme/exampleSite
+HUGO_THEMESDIR=&#34;../..&#34; hugo server
+```
+
+
+Note that the Hugo Theme Site requires the `exampleSite` to live in a subfolder of the theme itself. To avoid recursive duplication, the example site is added as a Git subtree:
+
+```bash
+git subtree add --prefix exampleSite https://github.com/google/docsy.git  master --squash
+```
+
+To pull in changes, see `pull-deps.sh` script in the theme.--&gt;
+
+&lt;h2 id=&#34;running-the-website-locally&#34;&gt;Running the website locally&lt;/h2&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve cloned the site repo, from the repo root folder, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

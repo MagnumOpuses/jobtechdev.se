@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTechdev – Gravity</title>
+    <link>/en/docs/open_projects/gravity/</link>
+    <description>Recent content in Gravity on JobTechdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 19 Jan 2019 20:06:16 +0100</lastBuildDate>
+    
+	  <atom:link href="/en/docs/open_projects/gravity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
