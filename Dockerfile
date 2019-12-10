@@ -17,14 +17,12 @@ RUN apk update && apk upgrade && apk add hugo
 RUN apk add --no-cache --update -v \
         supervisor \
         nginx \
-        git \
         curl
 
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
-RUN ls
 RUN git submodule add https://github.com/google/docsy.git
 RUN git submodule update --init --recursive
 RUN hugo
