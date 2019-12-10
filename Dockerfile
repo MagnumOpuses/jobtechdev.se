@@ -24,11 +24,7 @@ COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
-<<<<<<< HEAD
 RUN git submodule add https://github.com/google/docsy.git
-=======
-#RUN git submodule add https://github.com/google/docsy.git
->>>>>>> 8a33108c8176cef284a64f86170eedfabe6046a7
 RUN git submodule update --init --recursive
 RUN hugo
 #Create Document root
