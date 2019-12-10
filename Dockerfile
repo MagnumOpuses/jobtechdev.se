@@ -24,7 +24,11 @@ COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
+<<<<<<< HEAD
 RUN git submodule add https://github.com/google/docsy.git
+=======
+#RUN git submodule add https://github.com/google/docsy.git
+>>>>>>> 8a33108c8176cef284a64f86170eedfabe6046a7
 RUN git submodule update --init --recursive
 RUN hugo
 #Create Document root
@@ -75,7 +79,7 @@ RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
     chmod -R 777 /var/tmp/nginx
 #######
-RUN rm -rf /tmp
+#RUN rm -rf /tmp
 WORKDIR /opt/nginx/www
 USER 10000
 CMD ["/usr/bin/supervisord", "-n"]
