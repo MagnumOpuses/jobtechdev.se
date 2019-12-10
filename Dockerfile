@@ -19,8 +19,10 @@ RUN apk add --no-cache --update -v \
         nginx \
         git \
         curl
+WORKDIR /stage-jobtechdev-se
 RUN git submodule add https://github.com/google/docsy.git
 RUN git submodule update --init --recursive
+WORKDIR /
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
