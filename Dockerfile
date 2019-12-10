@@ -10,10 +10,7 @@ ENV PASSWD=$ARG_PASSWD
 RUN echo 'kolla:' ${USER} ${PASSWD} ' buildName:'${buildName}
 
 EXPOSE 8080
-WORKDIR /stage-jobtechdev-se
-RUN git submodule add https://github.com/google/docsy.git
-RUN git submodule update --init --recursive
-WORKDIR /
+
 
 RUN apk update && apk upgrade && apk add hugo
 
@@ -21,13 +18,18 @@ RUN apk add --no-cache --update -v \
         supervisor \
         nginx \
         git \
-        curl
+        curl \
+        bash
+
+
+
 
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
-
+RUN git submodule add https://github.com/google/docsy.git && git submodule init
+RUN git submodule update --init --recursive
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
