@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:latest as buildserver
 
 ARG ARG_BUILDNAME
 ARG ARG_USER=default
@@ -24,8 +24,8 @@ COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
-#RUN git submodule add https://github.com/google/docsy.git
-#RUN git submodule update --init --recursive
+RUN git submodule add https://github.com/google/docsy.git
+RUN git submodule update --init --recursive
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
