@@ -25,7 +25,7 @@ RUN apk add --no-cache --update -v \
 
 
 COPY . /tmp/hugo
-WORKDIR /tmp/hugo
+WORKDIR /tmp/hugo/
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN git submodule add https://github.com/google/docsy.git && git submodule init
