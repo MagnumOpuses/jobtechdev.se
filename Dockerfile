@@ -31,7 +31,6 @@ RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN cd /tmp/hugo/ && git init && ls
 RUN git submodule update --init --recursive
 RUN ls
-WORKDIR ../../tmp/hugo
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
