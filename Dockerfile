@@ -33,7 +33,7 @@ RUN git submodule update --init --recursive
 RUN git config --global user.email "you@example.com"
 RUN git config --global user.name "Your Name"
 RUN git add .
-RUN git commit
+RUN git commit -m "."
 RUN ls
 RUN cd ../..
 RUN hugo
