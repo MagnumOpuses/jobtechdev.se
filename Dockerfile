@@ -30,7 +30,7 @@ RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN cd /tmp/hugo/ && git init && git submodule add https://github.com/google/docsy.git /themes
 RUN git submodule update --init --recursive
-WORKDIR ../../../tmp/hugo
+WORKDIR ../../tmp/hugo
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
