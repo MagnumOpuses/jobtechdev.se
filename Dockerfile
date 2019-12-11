@@ -30,6 +30,8 @@ RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN cd /tmp/hugo/ && git init && ls
 RUN git submodule update --init --recursive
+RUN git config --global user.email "you@example.com"
+RUN git config --global user.name "Your Name"
 RUN git add .
 RUN git commit
 RUN ls
