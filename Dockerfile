@@ -18,14 +18,24 @@ RUN apk add --no-cache --update -v \
         supervisor \
         nginx \
         git \
-        curl
+        curl \
+        bash
+
+
+
 
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
-RUN git submodule add https://github.com/google/docsy.git
+RUN cd /tmp/hugo/ && git init && ls
 RUN git submodule update --init --recursive
+RUN git config --global user.email "you@example.com"
+RUN git config --global user.name "Your Name"
+RUN git add .
+RUN git commit -m "."
+RUN ls
+RUN cd ../..
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
@@ -77,5 +87,6 @@ RUN chmod -R 775 /var/lib/nginx && \
 #######
 #RUN rm -rf /tmp
 WORKDIR /opt/nginx/www
+
 USER 10000
 CMD ["/usr/bin/supervisord", "-n"]
