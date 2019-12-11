@@ -31,7 +31,7 @@ RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN cd /tmp/hugo/ && git init && ls
 RUN git submodule update --init --recursive
 RUN git add .
-RUN git commmit -a -m "."
+RUN git commit -a -m "."
 RUN ls
 RUN cd ../..
 RUN hugo
