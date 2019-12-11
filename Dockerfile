@@ -28,7 +28,7 @@ COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
-RUN cd /tmp/hugo/ && git submodule update --init --recursive
+RUN cd /tmp/hugo/ && ls
 RUN git submodule update --init --recursive
 RUN ls
 RUN cd ../..
