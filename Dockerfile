@@ -81,5 +81,6 @@ RUN chmod -R 775 /var/lib/nginx && \
 #######
 #RUN rm -rf /tmp
 WORKDIR /opt/nginx/www
+
 USER 10000
 CMD ["/usr/bin/supervisord", "-n"]
