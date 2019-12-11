@@ -31,6 +31,7 @@ RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN git init
 RUN cd /tmp/hugo && git submodule add https://github.com/google/docsy.git && git submodule init
 RUN git submodule update --init --recursive
+WORKDIR /tmp/hugo
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
