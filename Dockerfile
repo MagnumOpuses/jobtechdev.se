@@ -29,7 +29,7 @@ WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN git init
-RUN cd /tmp/hugo/themes && git submodule add https://github.com/google/docsy.git && git submodule init
+RUN cd /tmp/hugo/themes && git submodule add https://github.com/google/docsy.git
 RUN git submodule update --init --recursive
 WORKDIR ../../../tmp/hugo
 RUN hugo
