@@ -19,7 +19,8 @@ RUN apk add --no-cache --update -v \
         nginx \
         git \
         curl \
-        bash
+        bash \
+        mc
 
 
 
