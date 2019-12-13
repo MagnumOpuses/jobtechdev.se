@@ -19,11 +19,12 @@ RUN apk add --no-cache --update -v \
         nginx \
         git \
         curl \
-        bash
+        bash \
+        mc
 
 
 
-
+RUN ls
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
