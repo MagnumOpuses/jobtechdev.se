@@ -23,7 +23,7 @@ RUN apk add --no-cache --update -v \
 
 
 
-
+RUN ls
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
