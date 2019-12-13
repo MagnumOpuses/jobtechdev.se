@@ -54,6 +54,9 @@ other = "All Rights Reserved"
 [footer_privacy_policy]
 other = "Privacy Policy"
 
+[contact]
+other = "Kontakt"
+
 
 #Feedback
 [feedback_text]
