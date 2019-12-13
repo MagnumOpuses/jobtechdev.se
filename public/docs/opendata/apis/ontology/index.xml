@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTechdev – Ontologi</title>
+    <link>/docs/opendata/apis/ontology/</link>
+    <description>Recent content in Ontologi on JobTechdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
+    
+	  <atom:link href="/docs/opendata/apis/ontology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Getting Started</title>
+      <link>/apis/ontology/</link>
+      <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
+      
+      <guid>/apis/ontology/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;The job market is dynamic. There is an ever-changing demand in new jobs and skills.&lt;/p&gt;
+
+&lt;p&gt;To make matching between employers and job seekers more efficient a common language is needed. A language that lets both people and machines to have meaningful conversations about the job market.&lt;/p&gt;
+
+&lt;p&gt;The Job market Ontology is a project that aims to accomplish this language with the help of modern technology. It uniquely describes what things exists in the job market and how they relate to each other enabling more effective matching and better user experiences.&lt;/p&gt;
+
+&lt;p&gt;The Ontology is created by analyzing 6.3 millions job ads extracting demanded job titles, skills and traits. With intelligent algorithms the Ontology knows how these things relates to each other.&lt;/p&gt;
+
+&lt;p&gt;What does your skills relates to? The first version of the Job market Ontology consists of a limited set of skills, job titles and traits. Here you can explore them and see how they relates to each other.&lt;/p&gt;
+
+&lt;p&gt;The state of the Ontology is beta and it is changing to continuously and is improved upon everyday.&lt;/p&gt;
+
+&lt;h4 id=&#34;road-map&#34;&gt;Road map&lt;/h4&gt;
+
+&lt;p&gt;The Jobmarket Ontology will be merged with the JobTech Taxonomy, and all identifiers will be replaced.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;{{}}&#34; target=&#34;_blank&#34;&gt;Taxonomy documentation&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h4 id=&#34;endpoint&#34;&gt;Endpoint&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json&#34; target=&#34;_blank&#34;&gt;Ontology API&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;ontology-files&#34;&gt;Ontology files&lt;/h4&gt;
+
+&lt;p&gt;A file dump of the Ontology can be downloaded here: &lt;a href=&#34;https://github.com/JobtechSwe/ontology-files&#34; target=&#34;_blank&#34;&gt;Ontology Files&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

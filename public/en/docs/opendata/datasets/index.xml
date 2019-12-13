@@ -1,0 +1,80 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTechdev – Dataset</title>
+    <link>/en/docs/opendata/datasets/</link>
+    <description>Recent content in Dataset on JobTechdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
+    
+	  <atom:link href="/en/docs/opendata/datasets/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Historical Jobs</title>
+      <link>/en/docs/opendata/datasets/historical/</link>
+      <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
+      
+      <guid>/en/docs/opendata/datasets/historical/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;This dataset consists of 4.2M job postings (7.7M job positions) published on Platsbanken from the year 2006 up to and including 2017. Texts have been anonymized with sentences including names, telephone numbers and email addresses removed.
+Each listing contains metadata on location, dates, employer name, job type and any additional job details.&lt;/p&gt;
+
+&lt;h4 id=&#34;open-source-application-utilize-this-dataset-through-an-api&#34;&gt;Open Source application utilize this dataset through an API&lt;/h4&gt;
+
+&lt;p&gt;Application creates a visual overview and shows what is possibly to do with the dataset.
+Go to the &lt;a href=&#34;http://historik.azurewebsites.net/&#34; target=&#34;_blank&#34;&gt;application&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;source-code-for-the-api-with-basic-statistics&#34;&gt;Source code for the API with basic statistics.&lt;/h5&gt;
+
+&lt;p&gt;We provide a microservice for basic statistics and queries on the dataset.&lt;/p&gt;
+
+&lt;h5 id=&#34;examples&#34;&gt;Examples&lt;/h5&gt;
+
+&lt;p&gt;A notebook with examples can be found &lt;a href=&#34;https://github.com/simonbe/afhistorik/blob/master/notebooks/API_description.ipynb&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&#34;data-format&#34;&gt;Data format&lt;/h5&gt;
+
+&lt;p&gt;Each line in a file contains a job listing in a simple JSON format.&lt;/p&gt;
+
+&lt;h5 id=&#34;downloads&#34;&gt;Downloads&lt;/h5&gt;
+
+&lt;p&gt;2017, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2017.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2016.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2015, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2015.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2014, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2014.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2013, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2013.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2012, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2012.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2011, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2011.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2010, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2010.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2009, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2009.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2008, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2008.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2007, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2007.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2006, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/2006.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2006-2017, &lt;a href=&#34;https://simonbe.blob.core.windows.net/afhistorik/pb2006_2017.zip&#34; target=&#34;_blank&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
