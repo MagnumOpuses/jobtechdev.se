@@ -1,6 +1,6 @@
 ---
 title: "Taxonomy"
-disableToc: true'
+disableToc: true
 menuTitle: "Taxonomy"
 weight: 30
 date: 2019-01-19T20:06:16+01:00
