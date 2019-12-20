@@ -736,7 +736,7 @@ pre {
 }
 pre code {
   color: whitesmoke;
-  background: inherit;
+  background: #1d1f21;
   white-space: inherit;
   border: 0;
   padding: 0;
