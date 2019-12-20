@@ -4,7 +4,7 @@ disableToc: true
 menuTitle: "Taxonomy"
 weight: 30
 date: 2019-01-19T20:06:16+01:00
-description: "Taxonomy Service contains data commonly used by Arbetsförmedlingen. For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK)."
+description: "To make matching between employers and job seekers more efficient a common language is needed. A language that lets both people and machines to have meaningful conversations about the job market."
 fhhfhuehfuru: "hjhjshfjsdh"
 ---
 
