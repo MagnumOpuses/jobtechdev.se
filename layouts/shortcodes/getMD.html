@@ -1,19 +1,38 @@
-{{ $res := getJSON (.Get 0) }}
 
-<head>
-    <script>
-        document.addEventListener('DOMContentLoaded', function(event) {
-            let els = document.getElementById("body-inner").getElementsByTagName("a");
-            Array.prototype.forEach.call(els, function(el) {
-                if (el.host == window.location.host) {
-                    el.hash = el.hash.toLowerCase();
-                }
-            })
+<script src="/js/marked.min.js"></script>
 
-        })
-    </script>
-</head>
+<div id="githubcontent" geturl={{.Get 0}} ></div>
+
 <script>
-    document.getElementById("api-buttons").innerHTML +='<a href="{{$res.html_url}}" class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
+
+    function b64DecodeUnicode(str) {
+        // Going backwards: from bytestream, to percent-encoding, to original string.
+        return decodeURIComponent(atob(str).split('').map(function(c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+    }
+
+    var url = document.getElementById("githubcontent").getAttribute("geturl");
+
+    var request = new XMLHttpRequest();
+
+    request.open('GET', url, true);
+
+    request.onload = function() {
+        var data = JSON.parse(this.response);
+        document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
+        document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
+        // Change links to lower case
+        let elements = document.getElementById("body-inner").getElementsByTagName("a");
+        Array.prototype.forEach.call(elements, function(element) {
+            if (element.host == window.location.host) {
+                element.hash = element.hash.toLowerCase();
+            }
+        })
+    }
+
+    request.send()
+
 </script>
-{{ $res.content | base64Decode | markdownify  }}
+
+
