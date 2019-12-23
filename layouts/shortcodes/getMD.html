@@ -1,22 +1,9 @@
-{{ $res := getJSON (.Get 0) }}
+<script src="/js/marked.min.js"></script>
 
-<head>
-    <script src="/js/marked.min.js"></script>
-
-</head>
-
-<!--{{ $res.content | base64Decode | markdownify  }}-->
 <div id="githubcontent" geturl={{.Get 0}} ></div>
 
-
 <script>
-    document.getElementById("api-buttons").innerHTML +='<a href="{{$res.html_url}}" class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
 
-
-
-</script>
-
-<script>
     function b64DecodeUnicode(str) {
         // Going backwards: from bytestream, to percent-encoding, to original string.
         return decodeURIComponent(atob(str).split('').map(function(c) {
@@ -25,23 +12,20 @@
     }
 
     var url = document.getElementById("githubcontent").getAttribute("geturl");
-    console.log(url)
-    var request = new XMLHttpRequest()
 
-    // Open a new connection, using the GET request on the URL endpoint
-    request.open('GET', url, true)
+    var request = new XMLHttpRequest();
+
+    request.open('GET', url, true);
 
     request.onload = function() {
-        var data = JSON.parse(this.response)
-        console.log(data)
-        document.getElementById('githubcontent').innerHTML =
-            marked(b64DecodeUnicode(data.content));
-
+        var data = JSON.parse(this.response);
+        document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
+        document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
 
     }
 
-    // Send request
     request.send()
+
 </script>
 
 
