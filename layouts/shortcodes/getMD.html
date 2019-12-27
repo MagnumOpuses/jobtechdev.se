@@ -25,7 +25,7 @@
         document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
 */
         // Change links to lower case
-        let elements = document.getElementsByTagName("main").getElementsByTagName("a");
+        let elements = document.getElementById("innerMainContent").getElementsByTagName("a");
         Array.prototype.forEach.call(elements, function(element) {
             if (element.host == window.location.host) {
                 element.hash = element.hash.toLowerCase();
