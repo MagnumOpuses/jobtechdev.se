@@ -11,7 +11,7 @@ description: "Our job search API is a search engine for all the current job ads 
 
 
 
-{{< getMD "https://api.github.com/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref=master" >}}
+{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref=master" >}}
 
 
 
