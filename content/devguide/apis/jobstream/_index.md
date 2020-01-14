@@ -12,7 +12,6 @@ description: "JobStream API for those who are building applications and needs to
 
 
 
-{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/sokannonser-api/contents/STREAMGETTINGSTARTED.md?ref=master" >}}
-
+{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref=master" >}}
 
 
