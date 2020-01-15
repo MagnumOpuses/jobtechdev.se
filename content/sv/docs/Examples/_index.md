@@ -1,12 +1,17 @@
+---
+title: "Exempel Tjänster"
+date: 2018-01-28T21:58:09+01:00
+disableToc: false
+menuTitle: "Exempel Tjänster"
+weight: 8,
+description: "Här kan du se applikationer och tjänster byggda på vår Öppna data"
+---
+
+
 
 
 {
-    "title": "Exempel Tjänster",
-    "menuTitle": "Exempel Tjänster",
-    "description": "Här kan du se applikationer och tjänster byggda på vår Öppna data",
-    "disableToc":"false",
-    "weight": 8,
-    "showcases": [ 
+    [ 
         {
           "type": "Widget",
           "name": "AllJobAds",
