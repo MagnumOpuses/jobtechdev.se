@@ -1,9 +1,7 @@
 ---
 title: "JobTech dev"
 linkTitle: "Blogg"
-menu:
-  main:
-    weight: 30
+
 ---
 
 

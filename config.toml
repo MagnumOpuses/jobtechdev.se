@@ -72,6 +72,8 @@ time_format_blog = "02.01.2006"
 
 # Everything below this are Site Params
 
+
+
 [params]
 # Order sections in menu by "weight" or "title". Default to "weight"
 ordersectionsby = "weight"
@@ -86,9 +88,9 @@ privacy_policy = "https://policies.google.com/privacy"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/MagnumOpuses/jobtechdev.se"
+# github_repo = "https://github.com/MagnumOpuses/jobtechdev.se"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/MagnumOpuses/jobtechdev.se"
+# github_project_repo = "https://github.com/MagnumOpuses/jobtechdev.se"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -124,6 +126,12 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
+ [[params.links.user]]
+	name ="Blogg"
+	url = "/blog"
+	icon = "fas fa-blog"
+        desc = "Follow our blog!"
+
 [[params.links.user]]
 	name = 'Email '
 	url = "mailto:community@jobtechdev.se"

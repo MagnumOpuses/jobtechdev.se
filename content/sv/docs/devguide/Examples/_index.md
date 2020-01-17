@@ -1,17 +1,12 @@
----
-title: "Exempel Tjänster"
-date: 2018-01-28T21:58:09+01:00
-disableToc: false
-menuTitle: "Exempel Tjänster"
-weight: 8,
-description: "Här kan du se applikationer och tjänster byggda på vår Öppna data"
----
-
-
 
 
 {
-    [ 
+    "title": "Exempel Tjänster",
+    "menuTitle": "Exempel Tjänster",
+    "description": "Här kan du se applikationer och tjänster byggda på vår Öppna data",
+    "disableToc":"false",
+    "weight": 10,
+    "showcases": [ 
         {
           "type": "Widget",
           "name": "AllJobAds",
@@ -70,7 +65,7 @@ description: "Här kan du se applikationer och tjänster byggda på vår Öppna 
           "description": "JobTech Store intends to gather and present thousands of digital labour market services, all in one place.",
           "links":[
             {
-              "name":"Preview",
+              "name":"Demo",
               "url":"http://www.jobtechstore.se/"
             },
             {
@@ -96,7 +91,7 @@ description: "Här kan du se applikationer och tjänster byggda på vår Öppna 
           "description": "An example on how to use our Ontology API",
           "links":[
             {
-              "name":"Preview",
+              "name":"Demo",
               "url":"http://pilot.arbetsformedlingen.se/kompetensutforskaren/#!/"
             },
             {
@@ -111,7 +106,7 @@ description: "Här kan du se applikationer och tjänster byggda på vår Öppna 
           "description": "Digital infrastructure",
           "links":[
             {
-              "name":"Preview",
+              "name":"Demo",
               "url":"https://jobtechgig.se/digital-infrastruktur/"
             }
             ]
