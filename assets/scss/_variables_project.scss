@@ -1,5 +1,12 @@
 /*
 
+Nothing defined here. The Hugo project that uses this theme can override theme variables by adding a file to:
+
+assets/scss/_variables_project.scss
+
+*/
+/*
+
 Add styles or override variables from the theme here.
 
 */
@@ -68,8 +75,9 @@ $link-hover-decoration: none !default;
 // Fonts
 
 $google_font_name: "IBM Plex Mono" ;
-$google_font_family: "IBM Plex Mono" !default;
-$web-font-path: "https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap";
+$google_font_family: "IBM Plex Mono";
+
+$web-font-path: "https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" ;
 
 $td-fonts-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -94,6 +102,7 @@ $font-weight-body-text: $font-weight-normal !default;
 $headings-font-weight: $font-weight-medium !default;
 
 // Heading sizes
+
 
 $h1-font-size: $font-size-base * 2.25 !default;
 $h2-font-size: $font-size-base * 2 !default;
