@@ -18,18 +18,7 @@
               "url":"https://github.com/MagnumOpuses/allJobAdsWidget"
             }
             ]
-        },
-        {
-          "type": "Application",
-          "name": "aJob",
-          "description": "This is a prototype of a dialog based user interface that helps to find the a collection of suitable services.",
-          "links":[
-            {
-              "name":"Demo",
-              "url":"https://jobby.info/"
-            }
-            ]
-        },
+        },                
         {
           "type": "Application",
           "name": "Data Universe",
