@@ -8,4 +8,4 @@ description: >
   
 ---
 
-{{< getMD "https://api.github.com/repos/JobtechSwe/sokannonser-api/contents/GETTINGSTARTED.md?ref=master" >}}
+{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref=master" >}}

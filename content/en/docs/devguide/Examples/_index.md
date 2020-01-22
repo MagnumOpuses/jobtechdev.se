@@ -1,8 +1,8 @@
 
 
 {
-    "title": "Exempel Tjänster",
-    "menuTitle": "Exempel Tjänster",
+    "title": "Show cases",
+    "menuTitle": "Show cases",
     "description": "Här kan du se applikationer och tjänster byggda på vår Öppna data",
     "disableToc":"false",
     "weight": 10,
