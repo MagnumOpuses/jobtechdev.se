@@ -4,7 +4,7 @@ date: 2018-01-28T21:58:09+01:00
 disableToc: false
 menuTitle: "Licens "
 description: "g"
-url: "/apis/License"
+
 ---
 
 We think reusing and sharing assets is a catalyst for community, innovation and acceleration of Sweden's democratic value-system, in all its forms.
@@ -24,5 +24,5 @@ You can do what you like with the software, as long as you include the required 
 
 Creative Commons CC0 licence means that the data is free to use, modify and share without any restriction. This is the default policy if nothing else is explicitly declared.
 
-{{< apis src="Apis" >}}
+
 

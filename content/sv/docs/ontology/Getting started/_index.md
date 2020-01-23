@@ -1,12 +1,9 @@
 ---
 title: "Getting Started"
-menuTitle: "Ontology"
-disableToc: true
-weight: 20
-date: 2019-01-19T20:06:16+01:00
-description: "To make matching between employers and job seekers more efficient a common language is needed. A language that lets both people and machines to have meaningful conversations about the job market."
-url: "/apis/Ontology"
-consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupations%20-%20Job%20market%20language"
+linkTitle: "Getting Started"
+weight: 2
+description: >
+  What does your user need to know to try your project?
 ---
 
 The job market is dynamic. There is an ever-changing demand in new jobs and skills.
