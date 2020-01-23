@@ -1,6 +1,6 @@
 <!-- Using bootstrap for grid behavior (compatible with IE11)-->
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/css/apis.css">
+<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/static/css/apis.css">
 
 <style>
     body {
@@ -12,8 +12,8 @@
 
 <div class="container-fluid">
     <div class="row">
-        {{ range where .Site.Pages "Section" "devguide"}}
-        {{if eq .Parent.Title "Github repositories"}}
+        {{ range where .Site.Pages "Section" "content"}}
+        {{if eq .Parent.Title "Github Repo"}}
         <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
 
             <div class="showcase-item">
@@ -22,11 +22,11 @@
 
                 </div>
                 <div class="description">
-                <p>{{ .Description }}</p>
+                    <p>{{ .Description }}</p>
                 </div>
                 <footer>
                     <div class="row">
-                    <a href="{{.Params.link}}" class="fab fa-github fa-2x"> Github</a>
+                        <a href="{{.Params.link}}" class="fab fa-github fa-2x"> Github</a>
                     </div>
                 </footer>
 
