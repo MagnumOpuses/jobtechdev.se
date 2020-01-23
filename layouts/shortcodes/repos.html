@@ -12,7 +12,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        {{ range where .Site.Pages "Section" "content"}}
+        {{ range where .Site.Pages "Section" "repo"}}
         {{if eq .Parent.Title "Github Repo"}}
         <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
 
