@@ -1,16 +1,5 @@
-h1 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 3.25rem;
-    margin: 0.85rem 0 1.7rem 0;
-    text-rendering: optimizeLegibility;
-    color: #20272b;
-}
-h4 {
-    color: #20272b ;
-}
+
+
 @keyframes inHover {
     45% {
         transform: scale(1.09);
