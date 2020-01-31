@@ -1,13 +1,4 @@
-h1 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 3.25rem;
-    margin: 0.85rem 0 1.7rem 0;
-    text-rendering: optimizeLegibility;
-    color: #BDBDBD;
-}
+
 
 .showcase-item {
     color: #20272b;
@@ -27,7 +18,7 @@ h1 {
     color:#20272b;
     border-width: 2px;
     border-style: solid;
-    border-color: #733ACA;
+    border-color: #11a386;
 }
 
 .showcase-item > footer {
@@ -54,19 +45,19 @@ footer > a:last-of-type {
 footer {
     text-align: center;
     height: 130px;
-
+    position: relative;
     bottom:0px;
     left:0px;
     right:0px;
     padding: 32px;
 }
 
-footer > a {
+footer >  a {
     color: #000;
     text-align: center;
     width: 100%;
     margin-bottom: 5px;
-
+    position: relative;
     border-radius: 1px;
     -webkit-border-radius: 1px;
     border-width: 2px;
@@ -92,4 +83,8 @@ footer > a:hover {
     border-width: 2px;
     border-style: solid;
     border-color: #733ACA;
+}
+
+.place {
+  margin-top: -150px;
 }

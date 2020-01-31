@@ -17,9 +17,9 @@
     }
 }
 .showcase-item {
-    border: 2px solid #733ACA;
-    border-top: 4px solid #733ACA;
-    border-bottom: 8px solid #733ACA;
+    border: 2px solid #11a386;
+    border-top: 4px solid #11a386;
+    border-bottom: 8px solid #11a386;
     border-radius: 2px;
     animation:outHover 0.5s forwards;
     color: #20272b;
@@ -34,9 +34,9 @@
     --MAIN-ANCHOR-color: none;
     --MAIN-LINK-color: none;
     color:#20272b;
-    border: 2px solid #733ACA;
-    border-top: 4px solid #733ACA;
-    border-bottom: 8px solid #733ACA;
+    border: 2px solid #11a386;
+    border-top: 4px solid #11a386;
+    border-bottom: 8px solid #11a386;
     animation:inHover 1s forwards;
 
 }
@@ -57,10 +57,10 @@
     color: inherit;
     color: #fff;
     background-color: #0A0A0A;
-    border-bottom: 6px solid #8543e9;
+    border-bottom: 6px solid #11a386;
 }
 .showcase-item > .title > h4 {
-    color: #733ACA;
+    color: #11a386;
 }
 .showcase-item {
     position: relative; /* For positioning the pseudo-element */
@@ -94,7 +94,7 @@
 
 
 .separator {
-    background-color: #733ACA;
+    background-color: #11a386;
     width: 30px;
     height: 2px;
     margin-top: 12px;

@@ -1,8 +1,8 @@
 
 
 {
-    "title": "Show cases",
-    "menuTitle": "Show cases",
+    "title": "Showcases",
+    "menuTitle": "Showcases",
     "description": "Här kan du se applikationer och tjänster byggda på vår Öppna data",
     "disableToc":"false",
     "weight": 10,
