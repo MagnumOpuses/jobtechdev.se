@@ -25,6 +25,10 @@
     --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
 
 }
+
+@media (max-width: 978px) {
+
+}
 -webkit-scrollbar-track
 {
 
