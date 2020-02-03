@@ -55,8 +55,8 @@
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
-    color: #fff;
-    background-color: #0A0A0A;
+    color: #222222;
+    background-color: #efefef;
     border-bottom: 6px solid #11a386;
 }
 .showcase-item > .title > h4 {
