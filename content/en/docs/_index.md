@@ -7,9 +7,8 @@ menu:
   main:
     weight: 1
 
-description: "Här presenterar vi all den öppna data som du kan använda. Hör gärna av dig med synpunkter och förslag på information som du vill att vi publicerar som öppna data.               
-              Öppna data är information som finns tillgänglig för vem som helst att använda, återanvända och dela med sig av, så att andra kan utveckla den och skapa nytta för fler. Det går inte att få ut data på individnivå via våra öppna data. Värt att notera att vi arbetar med att låta individen via medgivande hämta sin personliga data från Arbetsförmedlingen.              
-              Vi ställer inga motkrav på användningen men hoppas att ni underlättar för rätt individ och rätt arbetsgivare att träffas!"
+description: "Here we present all the open data you can use. Feel free to contact us with comments and suggestions on information that you would like us to publish as open data. Open data is information that is available to anyone to use, reuse and share, so that others can develop it and create benefits for more. It is not possible to obtain data at the individual level via our open data. It is worth noting that we are working on letting the individual through his / her consent to retrieve his personal data from the Employment Service.
+ We make no demands on use, but hope you make it easier for the right individual and the right employer to meet!"
 ---             
 
 

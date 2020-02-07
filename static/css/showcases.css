@@ -22,13 +22,13 @@
 }
 
 .showcase-item > footer {
-    bottom: 0;
+    bottom: -192px;
 }
 
 
 
 .separator {
-    background-color: #733ACA;
+    background-color: #11a386;
     width: 30px;
     height: 2px;
     margin-top: 12px;
@@ -82,7 +82,7 @@ footer > a:hover {
     color: #000;
     border-width: 2px;
     border-style: solid;
-    border-color: #733ACA;
+    border-color: #11a386;
 }
 
 .place {

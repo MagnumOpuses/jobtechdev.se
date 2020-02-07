@@ -78,7 +78,7 @@ time_format_blog = "02.01.2006"
 # Order sections in menu by "weight" or "title". Default to "weight"
 ordersectionsby = "weight"
 copyright = "JobTech dev"
-privacy_policy = "https://policies.google.com/privacy"
+privacy_policy = ""
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
