@@ -34,7 +34,7 @@
             ]
         },
         {
-          "type": "Application",
+          "type": "Application  ",
           "name": "Data Universe",
           "description": "Data Universe makes your data accessible and understandable by enabling dynamic exploration and visualization in a Virtual Reality space.",
           "links":[
