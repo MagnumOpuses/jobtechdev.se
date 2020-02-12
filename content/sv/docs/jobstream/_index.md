@@ -5,8 +5,8 @@ disableToc: false
 menuTitle: "Job Stream"
 weight: 19
 type: "github"
-description: "JobStream API for those who are building applications and needs to store all ads locally.
-              With JobStream you can fetch all changes in ads once a minute. nNew, removed or updated ads."
+description: "JobStream API för er som bygger applicationer och behöver förvara alla annonser lokalt.
+              Med JobStream kan du hämta alla förändringar i annonserna en gång / minut. Nya, borttagna eller uppdaterade annonser"
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 ---
 
@@ -15,10 +15,3 @@ description: "JobStream API for those who are building applications and needs to
 
 
 
-
-JobStream Ett API för den som bygger applikationer som behöver ha alla annonser lokalt. 
-Med JobStream kan man upp till en gång i minuten hämta alla förändringar i annonsdatan som finns i Platsbanken. 
-Nya, borttagna eller uppdaterade annonser.
-
-JobStream API for those who are building applications and needs to store all ads locally.
-With JobStream you can fetch all changes in ads once a minute. nNew, removed or updated ads.
