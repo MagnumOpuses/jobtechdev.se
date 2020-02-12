@@ -15,7 +15,6 @@ Add styles or override variables from the theme here.
 Bootstrap variables overrides for theme.
 See https://github.com/twbs/bootstrap/pull/23260
 */
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM Plex Mono");
 @fa-font-path :        "../webfonts";
 .position-relative {
@@ -331,7 +330,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Abril Fatface", cursive;
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -12271,8 +12270,8 @@ readers do not read off random characters that represent icons */
       margin-right: -30px; }
     .td-navbar .navbar-brand svg {
       display: inline-block;
-      margin: 0 10px;
-      height: 30px; }
+      margin: 0 0px;
+      height: 50px; }
   .td-navbar .nav-link {
     text-transform: none;
     font-weight: 700; }
@@ -12487,7 +12486,7 @@ readers do not read off random characters that represent icons */
   .td-content > h1 {
     font-weight: 700;
     margin-bottom: 1rem;
-    font: "Abril Fatface", cursive; }
+    font: inherit; }
   .td-content > h2 {
     margin-bottom: 1rem; }
   .td-content > h2:not(:first-child) {

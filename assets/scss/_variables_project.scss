@@ -78,6 +78,7 @@ $google_font_name: "IBM Plex Mono" ;
 $google_font_family: "IBM Plex Mono";
 
 $web-font-path: "https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" ;
+$web-font-path: "https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap";
 
 $td-fonts-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -100,6 +101,10 @@ $font-weight-bold: 700 !default;
 
 $font-weight-body-text: $font-weight-normal !default;
 $headings-font-weight: $font-weight-medium !default;
+
+//Headings
+$h1-font-family:'Abril Fatface', cursive !default;
+$h1-font-name:'Abril Fatface', cursive !default;
 
 // Heading sizes
 

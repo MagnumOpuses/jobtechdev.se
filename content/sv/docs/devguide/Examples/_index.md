@@ -23,17 +23,6 @@
             ]
         },
         {
-          "type": "Widget ",
-          "name": "Jobskills",
-          "description": "A widget that shows potential candidates from the Jobskills API based from the site in which the widget is placed.",
-          "links":[
-            {
-              "name":"Source code",
-              "url":"https://github.com/Jobskills/jobskills-widget"
-            }
-            ]
-        },
-        {
           "type": "Application",
           "name": "aJob",
           "description": "This is a prototype of a dialog based user interface that helps to find the a collection of suitable services.",
