@@ -1,19 +1,30 @@
 
 
-
+<style>
+    .btn-dark {
+        border-radius: 2px;
+        background: #fff;
+        width: 45%;
+    }
+</style>
 <!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
 <div class="card-deck">
     {{range $index,$val := $.Page.Params.showcases }}
     <div class="col-4 mb-4">
         <div class="card " style="height: 100%">
+
+                <div class="card-header">
+                    <h5 class="card-title">{{ $val.name}}</h5>
+                </div>
             <div class="card-body">
-                <h5 class="card-title">{{ $val.name}}</h5>
+
                 <p class="card-text">{{ $val.description}}</p>
-                <p class="card-text">
-                    {{range $index,$val := $val.links}}
-                        <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
-                    {{ end }}</p>
             </div>
+                <div class="card-footer bottom-0 text-center">
+                    {{range $index,$val := $val.links}}
+                        <a href="{{ $val.url }}" class="btn-dark btn  mx-auto  " target="_blank">{{ $val.name }}</a>
+                    {{ end }}</div>
+
         </div>
     </div>
     {{end}}
