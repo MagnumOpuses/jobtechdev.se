@@ -4,7 +4,6 @@
     .btn-dark {
         border-radius: 2px;
         background: #fff;
-        width: 45%;
     }
 </style>
 <!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
@@ -20,7 +19,7 @@
 
                 <p class="card-text">{{ $val.description}}</p>
             </div>
-                <div class="card-footer bottom-0 text-center">
+                <div class="card-footer bottom-0 text-center col-6">
                     {{range $index,$val := $val.links}}
                         <a href="{{ $val.url }}" class="btn-dark btn  mx-auto  " target="_blank">{{ $val.name }}</a>
                     {{ end }}</div>
