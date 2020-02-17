@@ -1,19 +1,34 @@
 
 
-
+<style>
+    .card {
+        -webkit-box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+        -moz-box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+        box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+    }
+    .btn-dark {
+        border-radius: 2px;
+        background: #fff;
+    }
+</style>
 <!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
 <div class="card-deck">
     {{range $index,$val := $.Page.Params.showcases }}
-    <div class="col-4 mb-4">
-        <div class="card " style="height: 100%">
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card " style="height: 100%;max-width: 400px">
+
+                <div class="card-header">
+                    <h5 class="card-title">{{ $val.name}}</h5>
+                </div>
             <div class="card-body">
-                <h5 class="card-title">{{ $val.name}}</h5>
+
                 <p class="card-text">{{ $val.description}}</p>
-                <p class="card-text">
-                    {{range $index,$val := $val.links}}
-                        <a href="{{ $val.url }}" class="showcasebtn align-self-end  " target="_blank">{{ $val.name }}</a>
-                    {{ end }}</p>
             </div>
+                <div class="card-footer  text-center">
+                    {{range $index,$val := $val.links}}
+                        <a href="{{ $val.url }}" class="btn-dark btn mx-auto col-12  " target="_blank">{{ $val.name }}</a>
+                    {{ end }}</div>
+
         </div>
     </div>
     {{end}}
