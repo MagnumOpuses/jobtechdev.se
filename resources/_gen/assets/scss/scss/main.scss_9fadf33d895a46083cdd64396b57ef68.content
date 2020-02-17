@@ -12310,7 +12310,9 @@ readers do not read off random characters that represent icons */
 .td-sidebar-nav {
   padding-right: 0.5rem;
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  margin-top: 30px;
+  position: fixed; }
   @media (min-width: 768px) {
     @supports (position: sticky) {
       .td-sidebar-nav {
@@ -12424,7 +12426,7 @@ readers do not read off random characters that represent icons */
 .breadcrumb {
   background: none;
   padding-left: 0;
-  padding-top: 0; }
+  padding-top: 12px; }
 
 .alert {
   font-weight: 500;
