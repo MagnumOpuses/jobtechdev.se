@@ -1,36 +1,49 @@
 <!-- Using bootstrap for grid behavior (compatible with IE11)-->
 
-<link rel="stylesheet" type="text/css" href="/css/apis.css">
-<link rel="stylesheet" type="text/css" href="/css/showcases.css">
+
+<style>
+    .card {
+        -webkit-box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+        -moz-box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+        box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+    }
+    .btn-dark {
+        border-radius: 2px;
+        background: #fff;
+        border-color: #00aa88;
+    }
+
+</style>
+<!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
 
 
 
 
-<div class="container-fluid">
-    <div class="row">
+<div class="card-deck ">
+
         {{ range where .Site.Pages "Section" "repo"}}
         {{if eq .Parent.Title "Github Repo"}}
-        <div class="col-xl-4 col-lg-6 col-md-12" style="padding:16px">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mx-auto ">
+            <div class="card " style="height: 100%;max-width: 400px">
+                <div class="card-header">
+                    <h5 class="card-title">
+                        {{ .Params.Ptitle}}
 
-            <div class="showcase-item">
-                <div class="title col-12">
-                    {{ .Params.Ptitle}}
+                    </h5>
+                </div>
+
+                    <div class="card-body">
+
+                        <p class="card-text">{{ .Description }}</p>
+                    </div>
+
+                    <div class="card-footer text-center">
+
+                            <a href="{{.Params.link}}" class="fab fa-github fa-2x btn-dark btn mx-auto col-12  " target="_blank"> Github</a>
+
+                    </div>
 
                 </div>
-                <div class="description">
-                    <p>{{ .Description }}</p>
-                </div>
-                <footer>
-
-
-
-
-                        <a href="{{.Params.link}}" class="fab fa-github fa-2x   "> Github</a>
-
-
-                </footer>
-
-            </div>
 
 
 
@@ -39,5 +52,4 @@
 
 
         {{ end }}{{ end }}
-    </div>
 </div>
