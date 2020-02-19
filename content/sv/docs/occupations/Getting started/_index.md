@@ -2,8 +2,8 @@
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
-description: "AF Occupation info is an API, containing descriptions of nearly 350 different occupations. The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application."
-url: "/apis/Af Occupation Info"
+description: "Vad behöver du för att kommaigång? 
+               Läs dokumentationen på vår Getting started."
 consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20info%20"
 
 ---
