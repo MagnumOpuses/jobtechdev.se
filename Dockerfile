@@ -1,5 +1,5 @@
 FROM alpine:latest
-
+USER root
 ARG ARG_BUILDNAME
 ARG ARG_USER=default
 ARG ARG_PASSWD=default
@@ -84,7 +84,7 @@ RUN mkdir -p /var/run/supervisord /var/log/supervisord && \
 RUN apk add --no-cache bash
 RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
-    chmod -R 777 /var/lib/nginx/tmp
+    chmod -R 777 /var/tmp/nginx
 ########
 #RUN rm -rf /tmp
 WORKDIR /opt/nginx/www
