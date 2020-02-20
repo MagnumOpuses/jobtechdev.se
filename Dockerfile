@@ -83,8 +83,8 @@ RUN mkdir -p /var/run/supervisord /var/log/supervisord && \
     chmod -R 777 /var/run/supervisord
 RUN apk add --no-cache bash
 RUN chmod -R 775 /var/lib/nginx && \
-    chmod -R 777 /var/log/* && \
-    chmod -R 777 /var/opt/nginx
+    chmod -R 777 /var/log/*
+    
 ########
 #RUN rm -rf /tmp
 WORKDIR /opt/nginx/www
