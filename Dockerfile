@@ -87,7 +87,7 @@ RUN if [ ! -d /var/tmp/nginx ];\
     fi
 RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
-    chmod -R 777 /var/tmp/nginx \
+    chmod -R 777 /var/tmp/nginx && \
     chmod -R 777 /var/lib/nginx/tmp
 ########
 #RUN rm -rf /tmp
