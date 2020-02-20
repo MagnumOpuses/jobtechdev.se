@@ -17,6 +17,9 @@ See https://github.com/twbs/bootstrap/pull/23260
 */
 @import url("https://fonts.googleapis.com/css?family=IBM Plex Mono");
 @fa-font-path :        "../webfonts";
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Abril Fatface, cursive"; }
+
 .position-relative {
   position: relative;
   margin-top: -231px; }
@@ -327,10 +330,8 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -348,7 +349,7 @@ h4, .h4 {
   font-size: 1.35rem; }
 
 h5, .h5 {
-  font-size: 1.15rem; }
+  font-size: 1.35rem; }
 
 h6, .h6 {
   font-size: 1rem; }
@@ -12309,7 +12310,9 @@ readers do not read off random characters that represent icons */
 .td-sidebar-nav {
   padding-right: 0.5rem;
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  margin-top: 30px;
+  position: fixed; }
   @media (min-width: 768px) {
     @supports (position: sticky) {
       .td-sidebar-nav {
@@ -12423,7 +12426,7 @@ readers do not read off random characters that represent icons */
 .breadcrumb {
   background: none;
   padding-left: 0;
-  padding-top: 0; }
+  padding-top: 12px; }
 
 .alert {
   font-weight: 500;
@@ -12485,8 +12488,7 @@ readers do not read off random characters that represent icons */
     font-weight: 400; }
   .td-content > h1 {
     font-weight: 700;
-    margin-bottom: 1rem;
-    font: inherit; }
+    margin-bottom: 1rem; }
   .td-content > h2 {
     margin-bottom: 1rem; }
   .td-content > h2:not(:first-child) {

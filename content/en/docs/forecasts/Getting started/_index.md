@@ -4,9 +4,8 @@ disableToc: true
 menuTitle: "Getting Started"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations. The Forecasts are made and published in February 2018."
+description: " What do you need to get started? Read our documentation in Getting Started."
 type: "github"
-
 
 ---
 

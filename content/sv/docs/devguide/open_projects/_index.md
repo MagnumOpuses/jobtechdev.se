@@ -5,6 +5,7 @@ disableToc: false
 menuTitle: "Öppna Projekt "
 description: "Open by default, vi välkomnar collaboration"
 ---
-JobTech arbetar med open by default och välkomnar också "collaboration" i våra olika öppna projekt,
-Här kan du se vilka projekt vi jobbar med.
+Här kan du hitta projekt vi jobbar med just nu. Vi är “open by default” och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på.
+
+
 
