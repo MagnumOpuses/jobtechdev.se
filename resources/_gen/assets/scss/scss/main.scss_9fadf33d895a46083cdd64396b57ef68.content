@@ -349,7 +349,7 @@ h4, .h4 {
   font-size: 1.35rem; }
 
 h5, .h5 {
-  font-size: 1.15rem; }
+  font-size: 1.35rem; }
 
 h6, .h6 {
   font-size: 1rem; }
