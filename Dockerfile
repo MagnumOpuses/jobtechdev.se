@@ -54,6 +54,7 @@ RUN apk add --no-cache --update -v \
         curl
 
 
+WORKDIR /
 RUN rm -rf /var/cache/apk/*
 
 ENV TZ=Europe/Paris
