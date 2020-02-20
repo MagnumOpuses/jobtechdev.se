@@ -2,8 +2,7 @@
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
-description: >
-  What does your user need to know to try your project?
+description: "Vad behöver du för att kommaigång?   Läs dokumentationen på vår Getting started."
 ---
 
 The job market is dynamic. There is an ever-changing demand in new jobs and skills.

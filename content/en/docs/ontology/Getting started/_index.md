@@ -3,7 +3,7 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: >
-  What does your user need to know to try your project?
+   What do you need to get started? Read our documentation in Getting Started
 ---
 
 The job market is dynamic. There is an ever-changing demand in new jobs and skills.

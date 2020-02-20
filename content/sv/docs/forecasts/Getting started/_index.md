@@ -4,7 +4,8 @@ disableToc: true
 menuTitle: "Getting Started"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: ""
+description: "Vad behöver du för att kommaigång? 
+                Läs dokumentationen på vår Getting started."
 type: "github"
 
 
