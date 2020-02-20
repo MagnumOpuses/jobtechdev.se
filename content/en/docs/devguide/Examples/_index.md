@@ -3,7 +3,7 @@
 {
     "title": "Showcases",
     "menuTitle": "Showcases",
-    "description": "Här kan du se applikationer och tjänster byggda på vår Öppna data",
+    "description": "Applications build on our Open Data, feel free to use, redevelop. Be aware this is not maintained applications",
     "disableToc":"false",
     "weight": 10,
     "showcases": [ 

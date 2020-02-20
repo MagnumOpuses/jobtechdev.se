@@ -5,8 +5,8 @@ disableToc: false
 menuTitle: "Job Stream"
 weight: 19
 type: "github"
-description: "JobStream API för er som bygger applicationer och behöver förvara alla annonser lokalt.
-              Med JobStream kan du hämta alla förändringar i annonserna en gång / minut. Nya, borttagna eller uppdaterade annonser"
+description: "JobStream API är för er som bygger applikationer och behöver förvara alla annonser lokalt.
+              Med JobStream kan du hämta alla förändringar i annonserna en gång/minut. Nya, borttagna eller uppdaterade annonser"
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 ---
 
