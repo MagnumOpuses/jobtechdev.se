@@ -85,7 +85,7 @@ RUN apk add --no-cache bash
 RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
     chmod -R 777 /var/tmp/nginx
-#######
+########
 #RUN rm -rf /tmp
 WORKDIR /opt/nginx/www
 
