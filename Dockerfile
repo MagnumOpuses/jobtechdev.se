@@ -82,9 +82,9 @@ RUN mkdir -p /var/run/nginx && \
 RUN mkdir -p /var/run/supervisord /var/log/supervisord && \
     chmod -R 777 /var/run/supervisord
 RUN apk add --no-cache bash
-RUN if [ ! -d /var/tmp/nginx ]; then
-    mkdir /var/tmp/nginx
-    mkdir /var/tmp/nginxs
+RUN if [ ! -d /var/tmp/nginx ];\
+        then mkdir /var/tmp/nginx ;\
+        mkdir /var/tmp/nginxs; \
     fi
 RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
