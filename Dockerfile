@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #FROM rprakashg/hugo-docker as builder
 FROM jguyomard/hugo-builder as builder
 RUN hugo version
@@ -9,6 +10,8 @@ WORKDIR /tmp/hugo
 RUN hugo
 
 ###
+=======
+>>>>>>> stage
 FROM alpine:latest
 USER root
 ARG ARG_BUILDNAME
@@ -21,13 +24,39 @@ ENV PASSWD=$ARG_PASSWD
 RUN echo 'kolla:' ${USER} ${PASSWD} ' buildName:'${buildName}
 
 EXPOSE 8080
+
+
+RUN apk update && apk upgrade && apk add hugo
+
+RUN apk add --no-cache --update -v \
+        supervisor \
+        nginx \
+        git \
+        curl \
+        bash \
+        mc
+
+
+
+RUN ls
+COPY . /tmp/hugo
+WORKDIR /tmp/hugo
+RUN apk update && apk add --update nodejs npm
+RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
+RUN cd /tmp/hugo/ && git init && ls
+RUN git submodule update --init --recursive
+RUN git config --global user.email "you@example.com"
+RUN git config --global user.name "Your Name"
+RUN git add .
+RUN git commit -m "."
+RUN ls
+RUN cd ../..
+RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
 RUN mkdir /opt/nginx/www
-
 #Copy content do http server
-COPY --from=builder /tmp/hugo/public /opt/nginx/www/
-RUN ls -la /opt/nginx/www;
+RUN cp -r /tmp/hugo/public/* /opt/nginx/www/ && ls -la /opt/nginx/www;
 
 RUN apk update && apk upgrade
 
@@ -67,7 +96,10 @@ RUN mkdir -p /var/run/supervisord /var/log/supervisord && \
 RUN apk add --no-cache bash
 RUN chmod -R 775 /var/lib/nginx && \
     chmod -R 777 /var/log/* && \
-    chmod -R 777 /var/tmp/nginx
-#######
+    chmod -R 777 /var/lib/nginx/tmp
+########
+#RUN rm -rf /tmp
+
+
 USER 10000
 CMD ["/usr/bin/supervisord", "-n"]

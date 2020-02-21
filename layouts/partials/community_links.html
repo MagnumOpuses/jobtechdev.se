@@ -1,0 +1,30 @@
+{{ $links := .Site.Params.links }}
+
+
+<section  class="row td-box  td-box--gradient td-box--height-auto linkbox ">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ba">
+<h2>{{T "Learn_and_connect"}}</h2>
+<p>{{T "using"}} {{ .Site.Title }} {{T "using_more"}}
+{{ with index $links "user"}}
+{{ template "community-links-list"  . }}
+{{ end }}
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<h2>{{T "develop_and_contribute"}}</h2>
+<p>{{T "text_develop"}} {{T "join"}} {{ .Site.Title }}.
+{{ with index $links "developer"}}
+{{ template "community-links-list"  . }}
+{{ end }}
+<p>{{T "how_to_contribute"}} <a href="https://github.com/MagnumOpuses/project-meta/blob/master/CONTRIBUTING_TEMPLATE.md">{{T "guidelines"}}</a>.
+</div>
+</section>
+
+{{ define "community-links-list" }}
+<ul>
+ {{ range . }}
+ <li title="{{ .name }}">
+   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}</a> <!--{{ .desc }} -->
+ </li>
+  {{ end }}
+</ul>
+{{ end }}

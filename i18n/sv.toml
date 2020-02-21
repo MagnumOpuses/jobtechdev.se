@@ -25,8 +25,15 @@ other = "APIER"
 [nav-open-source]
 other = "ÖPPEN KÄLLKOD"
 
+<<<<<<< HEAD
 [nav-about-us]
 other = "OM OSS"
+=======
+# Used in community section
+
+[join]
+other = "Gå med i "
+>>>>>>> stage
 
 [nav-contact]
 other = "KONTAKT"
@@ -58,8 +65,14 @@ other = "JobTech Ontology"
 [apicards-ontology-body]
 other = "En AI-genererad ordlista över kompetenser baserad på över 6 miljoner jobbannonser"
 
+<<<<<<< HEAD
 [apicards-ontology-button]
 other = "Till API"
+=======
+[contact]
+other = "Kontakt"
+
+>>>>>>> stage
 
 [apicards-postings-title]
 other = "Af Job Postings"

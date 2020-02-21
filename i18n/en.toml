@@ -31,8 +31,13 @@ other = "ABOUT"
 [nav-contact]
 other = "CONTACT"
 
+<<<<<<< HEAD
 [nav-docs]
 other = "DOCS"
+=======
+[how_to_contribute]
+other = "You can find out how to contribute in our"
+>>>>>>> stage
 
 [header-title]
 other = "JOBTECH DEV"
@@ -40,11 +45,21 @@ other = "JOBTECH DEV"
 [header-subtitle]
 other = "Empower people with freedom of choice through an open source infrastructure."
 
+<<<<<<< HEAD
 [header-button]
 other = "GO TO APIs"
 
 [services-title]
 other = "APIs and Datssets"
+=======
+[using_more]
+other = "? Find out more here:"
+[text_community]
+other = "is an open source project that anyone can use, improve, and enjoy. We'd love you to join us! Here's a few ways to find out what's happening and get involved."
+
+[Learn_and_connect]
+other = "Learn & Connect"
+>>>>>>> stage
 
 [services-body]
 other = "We offer a large number of APIs and datasets relevant for labour market applications. Continue to to JobTech dev Docs to read more."
@@ -55,8 +70,18 @@ other = "Browse the APIs"
 [apicards-ontology-title]
 other = "JobTech Ontology"
 
+<<<<<<< HEAD
 [apicards-ontology-body]
 other = "An AI generated dictionary of competences from 6 million job postings"
+=======
+[contact]
+other = "Contact"
+
+
+#Feedback
+[feedback_text]
+other = "Was this page helpful?"
+>>>>>>> stage
 
 [apicards-ontology-button]
 other = "Go to API"
