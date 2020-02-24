@@ -28,7 +28,8 @@ RUN ls
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
-RUN npm install -D --save postcss-cli
+RUN npm install
+RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli
 RUN cd /tmp/hugo/ && git init && ls
 RUN git submodule update --init --recursive
 RUN git config --global user.email "you@example.com"
