@@ -166,11 +166,16 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 	icon = "fab fa-slack"
         desc = "Chat with other project developers"
 
+<<<<<<< HEAD
 
 [markup.goldmark.renderer]
     unsafe = true
 
 
+=======
+#        [markup.goldmark.renderer]
+ #       unsafe=true
+>>>>>>> develop
 
 #[[params.links.developer]]
 #	name = "Developer mailing list"
