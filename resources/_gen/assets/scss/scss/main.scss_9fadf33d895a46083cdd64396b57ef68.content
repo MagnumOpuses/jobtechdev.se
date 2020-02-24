@@ -12482,6 +12482,21 @@ readers do not read off random characters that represent icons */
     .alert-dark .alert-heading {
       color: #efefef; }
 
+.card-columns {
+  column-count: 1; }
+  @media (min-width: 576px) {
+    .card-columns {
+      column-count: 1; } }
+  @media (min-width: 768px) {
+    .card-columns {
+      column-count: 2; } }
+  @media (min-width: 992px) {
+    .card-columns {
+      column-count: 3; } }
+  @media (min-width: 1200px) {
+    .card-columns {
+      column-count: 4; } }
+
 .td-content {
   order: 1; }
   .td-content p, .td-content li, .td-content td {

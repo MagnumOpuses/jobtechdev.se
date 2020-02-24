@@ -12,12 +12,29 @@
         border-color: #888;
         margin: 3px;
     }
+    .card-columns {
+    @include media-breakpoint-up(xs) {
+        column-count: 1;
+    }
+    @include media-breakpoint-up(sm) {
+        column-count: 1;
+    }
+    @include media-breakpoint-up(md) {
+        column-count: 2;
+    }
+    @include media-breakpoint-up(lg) {
+        column-count: 2;
+    }
+    @include media-breakpoint-up(xl) {
+        column-count: 4;
+    }
+    }
 </style>
 <!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
-<div class="card-deck">
+<div class="card-columns mx-auto text-center">
     {{range $index,$val := $.Page.Params.showcases }}
-    <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mx-auto">
-        <div class="card" style="height: 100%;max-width: 400px">
+
+        <div class="card text-left" style="height: 100%;max-width: 500px">
 
                 <div class="card-header animated fadeIn">
                     <h5 class="card-title">{{ $val.name}}</h5>
@@ -32,7 +49,7 @@
                     {{ end }}</div>
 
         </div>
-    </div>
+
     {{end}}
 </div>
 
