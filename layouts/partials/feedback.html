@@ -18,10 +18,10 @@
 <button class="feedback--answer feedback--answer-yes">{{T "yes"}}</button>
 <button class="feedback--answer feedback--answer-no">{{T "no"}}</button>
 <p class="feedback--response feedback--response-yes">
-  {{ .yes | safeHTML }}
+  {{ T "params_ui_feedback_yes"| safeHTML }}
 </p>
 <p class="feedback--response feedback--response-no">
-  {{ .no | safeHTML }}
+  {{ T "params_ui_feedback_no" | safeHTML }}
 </p>
 <script>
   const yesButton = document.querySelector('.feedback--answer-yes');
