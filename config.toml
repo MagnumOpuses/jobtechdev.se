@@ -162,7 +162,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
         desc = "Chat with other project developers"
 
         [markup.goldmark.renderer]
-        unsafe= true
+        unsafe=true
 
 #[[params.links.developer]]
 #	name = "Developer mailing list"
