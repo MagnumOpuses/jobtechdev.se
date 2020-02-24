@@ -2,10 +2,14 @@
     "title": "Showcases",
     "menuTitle": "Showcases",
 <<<<<<< HEAD:content/devguide/showcase/_index.md
+<<<<<<< HEAD:content/devguide/showcase/_index.md
     "disableToc":"false",
     "weight": 30,
 =======
     "description": "Applications build on our Open Data, feel free to use, redevelop. Be aware this is not maintained applications",
+=======
+    "description": "Here you can be inspired and try out our applications and services built as code examples of what you can do with our APIs and open data. Everything is free and open for everyone.",
+>>>>>>> stage:content/en/docs/devguide/Examples/_index.md
     "disableToc":"false",
     "weight": 10,
 >>>>>>> stage:content/docs/devguide/Examples/_index.md

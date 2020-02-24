@@ -4,7 +4,7 @@ disableToc: true
 menuTitle: "Historiska annonser"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: ""
+description: "Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2017"
 
 ---
 
