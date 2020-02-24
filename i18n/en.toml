@@ -69,6 +69,12 @@ other = "yes"
 [no]
 other = "No"
 
+[params_ui_feedback_yes]
+other= 'Glad to hear it! Please <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">tell us how we can improve</a>.'
+
+[params_ui_feedback_no]
+other = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">tell us how we can improve</a>.'
+
 # Post (blog, articles etc.)
 [post_byline_by]
 other = "By"

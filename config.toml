@@ -135,7 +135,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 
 [[params.links.user]]
 	name = 'Email '
-	url = "mailto:community@jobtechdev.se"
+	url = "mailto:jobtechdev@arbetsformedlingen.se"
 	icon = "fa fa-envelope"
         desc = "Send us an email"
 
@@ -157,7 +157,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M"
+	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtODc1MTg3NTc5NjY5LThiNThlMGU4ZTljZTQ3OGQ5ZTA3Mzg1M2JmNzg5ZTdhMjA4YzU3OTRjN2UyY2QzZjBhYTBjMzE4NjUzYzg1YWM"
 	icon = "fab fa-slack"
         desc = "Chat with other project developers"
 

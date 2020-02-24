@@ -5,8 +5,7 @@ disableToc: false
 menuTitle: "Taxonomi "
 weight: 19
 type: "github"
-description: "JobStream API är för er som bygger applicationer och behöver förvara alla annonser lokalt.
-              Med JobStream kan du hämta alla förändringar i annonserna en gång / minut. Nya, borttagna eller uppdaterade annonser"
+description: "JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. Datan består av strukturerade listor, som är relevanta för matchning av lediga jobb och arbetssökande."
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 
