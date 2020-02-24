@@ -5,7 +5,10 @@ disableToc: false
 menuTitle: "Job Search "
 weight: 19
 type: "github"
-description: "JobSearch APIet är ett sökapi för alla annonser som finns på Platsbanken"
+description: "
+Job Search API är en sökmotor för alla nuvarande jobbannonser från Platsbanken. 
+Målet är att skapa ett enkelt men ändå mångsidigt API som ska passa alla som bygger alla slags applikationer som innehåller data från jobbannonser."
+
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 

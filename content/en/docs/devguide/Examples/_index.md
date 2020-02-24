@@ -3,7 +3,7 @@
 {
     "title": "Showcases",
     "menuTitle": "Showcases",
-    "description": "Applications build on our Open Data, feel free to use, redevelop. Be aware this is not maintained applications",
+    "description": "Here you can be inspired and try out our applications and services built as code examples of what you can do with our APIs and open data. Everything is free and open for everyone.",
     "disableToc":"false",
     "weight": 10,
     "showcases": [ 
