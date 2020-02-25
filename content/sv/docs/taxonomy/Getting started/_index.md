@@ -4,7 +4,7 @@ disableToc: true'
 menuTitle: "Getting Started"
 weight: 30
 date: 2019-01-19T20:06:16+01:00
-description: "Vad behöver du för att kommaigång? 
+description: "Vad behöver du för att komma igång? 
                 Läs dokumentationen på vår Getting started."
 ---
 

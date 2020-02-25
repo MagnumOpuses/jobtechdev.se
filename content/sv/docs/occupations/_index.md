@@ -5,7 +5,8 @@ disableToc: false
 menuTitle: "Af Yrkesinfo "
 weight: 19
 type: "github"
-description: ""
+description: "APIiet Yrkesinfo innehåller beskrivningar av cirka 350 olika yrken. "
+              
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 

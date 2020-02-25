@@ -5,17 +5,13 @@ disableToc: false
 menuTitle: "Yrkesprognoser "
 weight: 19
 type: "github"
-description: ""
+description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations."
+
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 
 
 
-hgfhgdsafsföksgs
-fdsgjkfdhgfdrs
-gfdshgfdhdf
-ahfd
-hfd
 
 
 

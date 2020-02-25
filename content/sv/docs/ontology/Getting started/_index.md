@@ -2,7 +2,7 @@
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
-description: "Vad behöver du för att kommaigång?   Läs dokumentationen på vår Getting started."
+description: "Vad behöver du för att komma igång?   Läs dokumentationen på vår Getting started."
 ---
 
 The job market is dynamic. There is an ever-changing demand in new jobs and skills.
