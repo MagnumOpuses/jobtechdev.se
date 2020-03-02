@@ -170,12 +170,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #3176d9;
+  color: #58872b;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #1e53a0;
+    color: #324d18;
     text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
-  font-family: Abril Fatface; }
+  font-family: Abril Fatface, cursive; }
 
 h1, .h1 {
   font-size: 2.25rem; }
@@ -2052,10 +2052,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #3176d9;
+  color: #58872b;
   background-color: transparent; }
   .btn-link:hover {
-    color: #1e53a0;
+    color: #324d18;
     text-decoration: none;
     background-color: transparent;
     border-color: transparent; }
@@ -3371,7 +3371,7 @@ input[type="button"].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.1); }
   .page-link:hover {
     z-index: 2;
-    color: #1e53a0;
+    color: #324d18;
     text-decoration: none;
     background-color: #eee;
     border-color: #dee2e6; }
