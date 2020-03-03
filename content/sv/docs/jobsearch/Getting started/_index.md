@@ -3,7 +3,7 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: 
-  Vad behöver du för att kommaigång? 
+  Vad behöver du för att komma igång? 
   Läs dokumentationen på vår Getting started.
   
 ---

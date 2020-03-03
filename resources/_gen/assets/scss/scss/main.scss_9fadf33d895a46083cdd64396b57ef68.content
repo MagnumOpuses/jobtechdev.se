@@ -170,12 +170,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #3176d9;
+  color: #58872b;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #1e53a0;
+    color: #324d18;
     text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -334,7 +334,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit; }
+  color: inherit;
+  font-family: "Abril Fatface, cursive"; }
 
 h1, .h1 {
   font-size: 2.25rem; }
@@ -349,7 +350,7 @@ h4, .h4 {
   font-size: 1.35rem; }
 
 h5, .h5 {
-  font-size: 1.35rem; }
+  font-size: 1.15rem; }
 
 h6, .h6 {
   font-size: 1rem; }
@@ -2051,10 +2052,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #3176d9;
+  color: #58872b;
   background-color: transparent; }
   .btn-link:hover {
-    color: #1e53a0;
+    color: #324d18;
     text-decoration: none;
     background-color: transparent;
     border-color: transparent; }
@@ -3370,7 +3371,7 @@ input[type="button"].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.1); }
   .page-link:hover {
     z-index: 2;
-    color: #1e53a0;
+    color: #324d18;
     text-decoration: none;
     background-color: #eee;
     border-color: #dee2e6; }
@@ -12345,7 +12346,7 @@ readers do not read off random characters that represent icons */
       color: #495057;
       font-weight: 300; }
   .td-sidebar-nav a:hover {
-    color: #72A1E5;
+    color: #7EC13D;
     text-decoration: none; }
   .td-sidebar-nav a.active {
     font-weight: 700; }

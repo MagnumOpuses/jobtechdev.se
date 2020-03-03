@@ -2,7 +2,7 @@
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
-description: "Vad behöver du för att kommaigång? 
+description: "Vad behöver du för att komma igång? 
                Läs dokumentationen på vår Getting started."
 consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20info%20"
 
