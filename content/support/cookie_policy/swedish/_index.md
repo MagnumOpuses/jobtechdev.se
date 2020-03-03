@@ -39,37 +39,13 @@ Om du inte vill att kakor används på din dator, kan du ändra inställningen i
 Vi använder sig av kakor för följande ändamål:
 
 1.	För att förbättra användandet av jobtechdev.se. Kakor som används för detta ändamål är uteslutande så kallade sessionskakor. Syftet med dessa kakor är för att få applikationen att fungera ändamålsenligt, till exempel för att veta om en användare är inloggad och att hålla sessionen igång eller för att minnas att användaren har godkänt kakanvändningen eller för att möjliggöra en säker inloggning till programvaran. Dessa kakor kan innehålla personuppgifter (t ex för inloggningskakor skrivs användarens användarnamn, normalt dennes e-postadress, ner i den tillfälliga kakan och står där så länge personen är inloggad). 
-1.	För webbanalys med Google Analytics med syfte att studera statistik och trafikflöden. Dessa kakor är i regel av permanent karaktär. Google Analytics sätter också sessionskakor i samband med tillträde till webbplatsen utan inloggning. Vid tillträde sätts en kaka (IP-adress) som avidentifieras i Google Analytics. Användarens identitet blir således inte känd för webbplatsen. Se nedan för ytterligare information om kakor för Google Analytics.
+
 
 Därutöver förekommer är ett antal kakor när jobtechdev.se är aktivt, men som inte vi själva skapar eller använder:
 
 1.	Vid användandet av tredjeparts programvaror (Youtube, Minio etc.) används så kallade tredjepartskakor av både karaktären permanenta kakor och sessionskakor. De används exempelvis för att möjliggöra att lagra logotyper om inloggade företag som väljer att publicera loggor i jobtechdev.se. De används också vid användandet av länkning till sociala medier om ett företag väljer att presentera sin tjänst via en sådan. 
 1.	I annonseringssyfte. Google (inte jobtechdev.se) sätter kakor som i regel är av permanent karaktär.
 
-### Mer om analysverktyg Google Analytics
-
-jobtechdev.se använder Google Analytics för att skapa en bild av hur besökare använder webbplatsen.
-
-Följande kakor skapas i Google Analytics:
-
-- **_ga** -  för att Google Analytics ska kunna bestämma att två separata träffar tillhör samma användare måste en unik identifierare som är associerad med den specifika användaren skickas med varje träff. Biblioteket analytics.js gör detta via fältet Client ID, en unik slumpmässig genererad sträng som lagras i webbläsarens cookies, så att efterföljande besök på samma webbplats kan associeras med samma användare. Som standard använder analytics.js en enda kakan med namnet _ga för att lagra klient-id, men kakans namn, domän och utgångstid kan alla anpassas. Andra cookies skapade av analytics.js inkluderar _gid, AMP_TOKEN, _gat och _gac_ <property-id>. Dessa cookies lagrar andra slumpmässigt genererade ids- och kampanjinformation om användaren.
-- **_gid** - som ovan.
-- **_gat** - som ovan.
-- **_gac** - som ovan.
-- **AMP_TOKEN** - som ovan.
-
-Den information som skapas av dessa kakor genom användarens användning av webbplatsen (inklusive din IP-adress) vidarebefordras till och lagras av Google på servrar i USA. Informationen används för att utvärdera besöksstatistik, till exempel i syfte att förbättra navigation och struktur. Google kan också överföra denna information till tredje part om det krävs enligt lag eller om en tredje part behandlar informationen för Googles räkning. Google kommer inte att koppla samman IP-adresser med andra data.
-
-För att ytterligare värna din integritet kommer IP-anonymisering att användas vid Google Analytics datainsamling. Det betyder att de sista siffrorna i IP-numret maskeras, till exempel 193.188.156.xxx.
-
-- •	[IP-anonymisering i Google Analytics på Googles webbplats](https://support.google.com/analytics/answer/2763052?hl=en&&ref_topic=2919631)
-
-#### Om du inte vill acceptera lagring av kakor för Google Analytics
-
-Om du inte vill att dina besök på Arbetsförmedlingens webbplats ska visas i Google Analytics statistik kan du använda så kallade opt-out tillägg till din webbläsare.
-
-- [Google Analytics "Opt-out" tillägg till webbläsare, på engelska](http://tools.google.com/dlpage/gaoptout)
-- [Sekretesspolicy på Google Analytics webbplats](http://www.google.se/policies/privacy/)
 
 ### Behandling av personuppgifter på jobtechdev.se
 

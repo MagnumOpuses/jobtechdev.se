@@ -45,37 +45,11 @@ If you do not want cookies to be used on your computer, you can change the setti
 We use cookies for the following purposes:
 
 1. To improve the use of Jobtechdev.se. Cookies used for this purpose are exclusively so-called session cookies. The purpose of these cookies is to make the application work properly, for example, to know if a user is logged in and to keep the session running or to remember that the user has approved the cookie use or to enable a secure login to the software. These cookies may contain personal data (for example, for login cookies, the user's user name, normally his e-mail address, is written down in the temporary cookie and stands there as long as the person is logged in).
-2. For web analytics with Google Analytics for the purpose of studying statistics and traffic flows. These cookies are usually of a permanent nature. Google Analytics also use session cookies in conjunction with access to the site without login. Upon access, a cookie (IP address) that is anonymized in Google Analytics is set. The user's identity is thus not known to the website. See below for more information on cookies for Google Analytics.
 
 In addition, there are a number of cookies when Jobtechdev.se is active, but which we do not create or use ourselves:
 
 1. When using third-party software (Youtube, Minio etc.), so-called third-party cookies are used of both the permanent cookies and session cookies. They are used, for example, to enable storing logos about logged in companies who choose to publish logos at Jobtechdev.se. They are also used for linking to social media if a company chooses to present their service via such media.
 2. For advertising purposes. Google (not jobtechdev.se) use cookies that are usually of a permanent nature.
-
-### More about Google Analytics
-
-jobtechdev.se uses Google Analytics to create a picture of how visitors use the site.
-
-The following cookies are created by Google Analytics
-
-- **_ga** - In order for Google Analytics to determine that two separate hits belong to the same user, a unique identifier associated with that particular user must be sent with each hit. The analytics.js library does this via the Client ID field, a unique randomly generated string that is stored in the browser's cookies, so that subsequent visits to the same site can be associated with the same user. By default, analytics.js uses a single cookie named _ga to store client ID, but the cookie name, domain, and runtime can all be customized. Other cookies created by analytics.js include _gid, AMP_TOKEN, _gat and _gac_ <property-id>. These cookies store other randomly generated user ID and campaign information.
-- **_gid** - As above.
-- **_gat** - As above.
-- **_gac** - As above.
-- **AMP_TOKEN** - As above.
-
-The information created by these cookies through the user's use of the site (including your IP address) is forwarded to and stored by Google on servers in the United States. The information is used to evaluate visitor statistics, for example in order to improve navigation and structure. Google may also transmit this information to third parties if required by law or if a third party processes the information on Google's behalf. Google will not associate IP addresses with other data.
-
-To further safeguard your privacy, IP anonymization will be used in the Google Analytics data collection. This means that the last digits of the IP number are masked, for example 193.188.156.xxx.
-
-- [Google Analytics IP Anonymization](https://support.google.com/analytics/answer/2763052?hl=en&&ref_topic=2919631)
-
-#### If you do not want to accept the storage of cookies for Google Analytics
-
-If you do not want your visits to the jobtechdev.se website to appear in Google Analytics statistics, you can use so-called opt-out extensions for your browser.
-
-- [Google Analytics "Opt-out" browser add-in](http://tools.google.com/dlpage/gaoptout)
-- [Google Analytics website privacy policy](http://www.google.com/policies/privacy/)
 
 ### Processing of personal data at jobtechdev.se
 

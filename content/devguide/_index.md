@@ -29,5 +29,5 @@ In this section you will find open data from the Swedish public empolyment servi
 
 
 Do you have questions or want  to get in touch with us?  
-<contact@jobtechdev.se>
+[contact](mailto:jobtechdev@arbetsformedlingen.se)
 
