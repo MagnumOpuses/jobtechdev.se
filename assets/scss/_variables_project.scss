@@ -108,8 +108,8 @@ $headings-font-weight: $font-weight-medium !default;
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Abril Fatface, cursive";
 }
-$h1-font-family:'Abril Fatface', cursive !default;
-$h1-font-name:'Abril Fatface', cursive !default;
+$h1-font-family:'Abril Fatface, cursive' !default;
+$h1-font-name:'Abril Fatface, cursive' !default;
 $headings-font-family: $h1-font-family !default;
 // Heading sizes
 
