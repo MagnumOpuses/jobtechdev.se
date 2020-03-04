@@ -12482,6 +12482,10 @@ readers do not read off random characters that represent icons */
     .alert-dark .alert-heading {
       color: #efefef; }
 
+.col > .row {
+  padding-right: 1rem;
+  padding-left: 1rem; }
+
 .card-columns {
   column-count: 1; }
   @media (min-width: 576px) {
@@ -12637,6 +12641,9 @@ readers do not read off random characters that represent icons */
   .pageinfo-dark {
     border-style: solid;
     border-color: #efefef; }
+
+.td-box.linkbox {
+  padding: 1rem; }
 
 footer {
   min-height: 150px; }
