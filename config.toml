@@ -144,11 +144,19 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 	url = "https://twitter.com/jobtechdev"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
-#[[params.links.user]]
-#	name = "Stack Overflow"
-#	url = "https://example.org/stack"
-#	icon = "fab fa-stack-overflow"
- #       desc = "Practical questions and curated answers"
+[[params.links.user]]
+	name = "LinkedIn"
+	url = "https://www.linkedin.com/company/jobtech-sweden"
+	icon = "fab fa-linkedin-in"
+      desc = "Practical questions and curated answers"
+
+[[params.links.user]]
+	name = "Facebook"
+	url = "https://www.facebook.com/jobtechdevelopment"
+	icon = "fab fa-facebook-f"
+       desc = ""
+
+
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
@@ -159,16 +167,9 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 	name = "Slack"
 	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtODc1MTg3NTc5NjY5LThiNThlMGU4ZTljZTQ3OGQ5ZTA3Mzg1M2JmNzg5ZTdhMjA4YzU3OTRjN2UyY2QzZjBhYTBjMzE4NjUzYzg1YWM"
 	icon = "fab fa-slack"
-        desc = "Chat with other project developers"
+        desc = ""
 
 
      [markup.goldmark.renderer]
       unsafe=true
-
-
-#[[params.links.developer]]
-#	name = "Developer mailing list"
-#	url = "https://example.org/mail"
-#	icon = "fa fa-envelope"
-#       desc = "Discuss development issues around the project"
 

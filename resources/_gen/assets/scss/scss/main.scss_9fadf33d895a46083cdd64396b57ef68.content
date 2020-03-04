@@ -12643,7 +12643,8 @@ readers do not read off random characters that represent icons */
     border-color: #efefef; }
 
 .td-box.linkbox {
-  padding: 1rem; }
+  padding: 1rem;
+  padding-top: 5rem; }
 
 footer {
   min-height: 150px; }
