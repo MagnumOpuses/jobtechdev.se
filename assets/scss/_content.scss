@@ -1,6 +1,12 @@
 //
 // Style Markdown content
 //
+
+.col > .row {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 .card-columns {
     @include media-breakpoint-up(xs) {
         column-count: 1;
