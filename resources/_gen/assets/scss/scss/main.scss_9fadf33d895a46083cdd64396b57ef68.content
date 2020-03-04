@@ -15,11 +15,9 @@ Add styles or override variables from the theme here.
 Bootstrap variables overrides for theme.
 See https://github.com/twbs/bootstrap/pull/23260
 */
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM Plex Mono");
 @fa-font-path :        "../webfonts";
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Abril Fatface, cursive"; }
-
 .position-relative {
   position: relative;
   margin-top: -231px; }
@@ -330,12 +328,13 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
-  font-family: "Abril Fatface, cursive"; }
+  font-family: "Abril Fatface"; }
 
 h1, .h1 {
   font-size: 2.25rem; }
@@ -10853,7 +10852,7 @@ readers do not read off random characters that represent icons */
   background-color: #72A1E5; }
 
 .-bg-blue p > a {
-  color: #a0c0ee; }
+  color: #7EC13D; }
 
 .-text-blue {
   color: #72A1E5; }
@@ -10863,7 +10862,7 @@ readers do not read off random characters that represent icons */
   background-color: #6610f2; }
 
 .-bg-indigo p > a {
-  color: #b8cff2; }
+  color: #7EC13D; }
 
 .-text-indigo {
   color: #6610f2; }
@@ -10873,7 +10872,7 @@ readers do not read off random characters that represent icons */
   background-color: #6f42c1; }
 
 .-bg-purple p > a {
-  color: #b7cff2; }
+  color: #7EC13D; }
 
 .-text-purple {
   color: #6f42c1; }
@@ -10883,7 +10882,7 @@ readers do not read off random characters that represent icons */
   background-color: #e83e8c; }
 
 .-bg-pink p > a {
-  color: #aec9f0; }
+  color: #7EC13D; }
 
 .-text-pink {
   color: #e83e8c; }
@@ -10893,7 +10892,7 @@ readers do not read off random characters that represent icons */
   background-color: #dc3545; }
 
 .-bg-red p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .-text-red {
   color: #dc3545; }
@@ -10903,7 +10902,7 @@ readers do not read off random characters that represent icons */
   background-color: #BA5A31; }
 
 .-bg-orange p > a {
-  color: #bed4f3; }
+  color: #7EC13D; }
 
 .-text-orange {
   color: #BA5A31; }
@@ -10913,7 +10912,7 @@ readers do not read off random characters that represent icons */
   background-color: #ffc107; }
 
 .-bg-yellow p > a {
-  color: #b7cff2; }
+  color: #7EC13D; }
 
 .-text-yellow {
   color: #ffc107; }
@@ -10923,7 +10922,7 @@ readers do not read off random characters that represent icons */
   background-color: #28a745; }
 
 .-bg-green p > a {
-  color: #c6d9f4; }
+  color: #7EC13D; }
 
 .-text-green {
   color: #28a745; }
@@ -10933,7 +10932,7 @@ readers do not read off random characters that represent icons */
   background-color: #20c997; }
 
 .-bg-teal p > a {
-  color: #bfd4f3; }
+  color: #7EC13D; }
 
 .-text-teal {
   color: #20c997; }
@@ -10943,7 +10942,7 @@ readers do not read off random characters that represent icons */
   background-color: #17a2b8; }
 
 .-bg-cyan p > a {
-  color: #c6d9f4; }
+  color: #7EC13D; }
 
 .-text-cyan {
   color: #17a2b8; }
@@ -10953,7 +10952,7 @@ readers do not read off random characters that represent icons */
   background-color: #fff; }
 
 .-bg-white p > a {
-  color: #72a1e5; }
+  color: #7EC13D; }
 
 .-text-white {
   color: #fff; }
@@ -10963,7 +10962,7 @@ readers do not read off random characters that represent icons */
   background-color: #888; }
 
 .-bg-gray p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .-text-gray {
   color: #888; }
@@ -10973,7 +10972,7 @@ readers do not read off random characters that represent icons */
   background-color: #333; }
 
 .-bg-gray-dark p > a {
-  color: #e3ecfa; }
+  color: #7EC13D; }
 
 .-text-gray-dark {
   color: #333; }
@@ -10983,7 +10982,7 @@ readers do not read off random characters that represent icons */
   background-color: #efefef; }
 
 .-bg-primary p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .-text-primary {
   color: #efefef; }
@@ -10993,7 +10992,7 @@ readers do not read off random characters that represent icons */
   background-color: #91ea42; }
 
 .-bg-secondary p > a {
-  color: #acc8f0; }
+  color: #7EC13D; }
 
 .-text-secondary {
   color: #91ea42; }
@@ -11003,7 +11002,7 @@ readers do not read off random characters that represent icons */
   background-color: #3772FF; }
 
 .-bg-success p > a {
-  color: #a9c6ef; }
+  color: #7EC13D; }
 
 .-text-success {
   color: #3772FF; }
@@ -11013,7 +11012,7 @@ readers do not read off random characters that represent icons */
   background-color: #C0E0DE; }
 
 .-bg-info p > a {
-  color: #638ac1; }
+  color: #7EC13D; }
 
 .-text-info {
   color: #C0E0DE; }
@@ -11023,7 +11022,7 @@ readers do not read off random characters that represent icons */
   background-color: #ED6A5A; }
 
 .-bg-warning p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .-text-warning {
   color: #ED6A5A; }
@@ -11033,7 +11032,7 @@ readers do not read off random characters that represent icons */
   background-color: #ED6A5A; }
 
 .-bg-danger p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .-text-danger {
   color: #ED6A5A; }
@@ -11043,7 +11042,7 @@ readers do not read off random characters that represent icons */
   background-color: #D3F3EE; }
 
 .-bg-light p > a {
-  color: #6993d0; }
+  color: #7EC13D; }
 
 .-text-light {
   color: #D3F3EE; }
@@ -11053,7 +11052,7 @@ readers do not read off random characters that represent icons */
   background-color: #efefef; }
 
 .-bg-dark p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .-text-dark {
   color: #efefef; }
@@ -11063,7 +11062,7 @@ readers do not read off random characters that represent icons */
   background-color: #f8f9fa; }
 
 .-bg-100 p > a {
-  color: #709ee0; }
+  color: #7EC13D; }
 
 .-text-100 {
   color: #f8f9fa; }
@@ -11073,7 +11072,7 @@ readers do not read off random characters that represent icons */
   background-color: #eee; }
 
 .-bg-200 p > a {
-  color: #6d99d8; }
+  color: #7EC13D; }
 
 .-text-200 {
   color: #eee; }
@@ -11083,7 +11082,7 @@ readers do not read off random characters that represent icons */
   background-color: #dee2e6; }
 
 .-bg-300 p > a {
-  color: #6993cf; }
+  color: #7EC13D; }
 
 .-text-300 {
   color: #dee2e6; }
@@ -11093,7 +11092,7 @@ readers do not read off random characters that represent icons */
   background-color: #ccc; }
 
 .-bg-400 p > a {
-  color: #6288be; }
+  color: #7EC13D; }
 
 .-text-400 {
   color: #ccc; }
@@ -11103,7 +11102,7 @@ readers do not read off random characters that represent icons */
   background-color: #adb5bd; }
 
 .-bg-500 p > a {
-  color: #9bbced; }
+  color: #7EC13D; }
 
 .-text-500 {
   color: #adb5bd; }
@@ -11113,7 +11112,7 @@ readers do not read off random characters that represent icons */
   background-color: #888; }
 
 .-bg-600 p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .-text-600 {
   color: #888; }
@@ -11123,7 +11122,7 @@ readers do not read off random characters that represent icons */
   background-color: #495057; }
 
 .-bg-700 p > a {
-  color: #d3e2f7; }
+  color: #7EC13D; }
 
 .-text-700 {
   color: #495057; }
@@ -11133,7 +11132,7 @@ readers do not read off random characters that represent icons */
   background-color: #333; }
 
 .-bg-800 p > a {
-  color: #e3ecfa; }
+  color: #7EC13D; }
 
 .-text-800 {
   color: #333; }
@@ -11143,7 +11142,7 @@ readers do not read off random characters that represent icons */
   background-color: #222; }
 
 .-bg-900 p > a {
-  color: #ecf2fc; }
+  color: #7EC13D; }
 
 .-text-900 {
   color: #222; }
@@ -11153,7 +11152,7 @@ readers do not read off random characters that represent icons */
   background-color: #efefef; }
 
 .-bg-0 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .-text-0 {
   color: #efefef; }
@@ -11163,7 +11162,7 @@ readers do not read off random characters that represent icons */
   background-color: #efefef; }
 
 .-bg-1 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .-text-1 {
   color: #efefef; }
@@ -11173,7 +11172,7 @@ readers do not read off random characters that represent icons */
   background-color: #91ea42; }
 
 .-bg-2 p > a {
-  color: #acc8f0; }
+  color: #7EC13D; }
 
 .-text-2 {
   color: #91ea42; }
@@ -11183,7 +11182,7 @@ readers do not read off random characters that represent icons */
   background-color: #C0E0DE; }
 
 .-bg-3 p > a {
-  color: #638ac1; }
+  color: #7EC13D; }
 
 .-text-3 {
   color: #C0E0DE; }
@@ -11193,7 +11192,7 @@ readers do not read off random characters that represent icons */
   background-color: white; }
 
 .-bg-4 p > a {
-  color: #72a1e5; }
+  color: #7EC13D; }
 
 .-text-4 {
   color: white; }
@@ -11203,7 +11202,7 @@ readers do not read off random characters that represent icons */
   background-color: #888; }
 
 .-bg-5 p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .-text-5 {
   color: #888; }
@@ -11213,7 +11212,7 @@ readers do not read off random characters that represent icons */
   background-color: #3772FF; }
 
 .-bg-6 p > a {
-  color: #a9c6ef; }
+  color: #7EC13D; }
 
 .-text-6 {
   color: #3772FF; }
@@ -11223,7 +11222,7 @@ readers do not read off random characters that represent icons */
   background-color: #ED6A5A; }
 
 .-bg-7 p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .-text-7 {
   color: #ED6A5A; }
@@ -11233,7 +11232,7 @@ readers do not read off random characters that represent icons */
   background-color: #efefef; }
 
 .-bg-8 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .-text-8 {
   color: #efefef; }
@@ -11243,7 +11242,7 @@ readers do not read off random characters that represent icons */
   background-color: #ED6A5A; }
 
 .-bg-9 p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .-text-9 {
   color: #ED6A5A; }
@@ -11253,7 +11252,7 @@ readers do not read off random characters that represent icons */
   background-color: #efefef; }
 
 .-bg-10 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .-text-10 {
   color: #efefef; }
@@ -11263,7 +11262,7 @@ readers do not read off random characters that represent icons */
   background-color: #91ea42; }
 
 .-bg-11 p > a {
-  color: #acc8f0; }
+  color: #7EC13D; }
 
 .-text-11 {
   color: #91ea42; }
@@ -11273,7 +11272,7 @@ readers do not read off random characters that represent icons */
   background-color: white; }
 
 .-bg-12 p > a {
-  color: #72a1e5; }
+  color: #7EC13D; }
 
 .-text-12 {
   color: white; }
@@ -11283,7 +11282,7 @@ readers do not read off random characters that represent icons */
   background-color: #C0E0DE; }
 
 .-bg-13 p > a {
-  color: #638ac1; }
+  color: #7EC13D; }
 
 .-text-13 {
   color: #C0E0DE; }
@@ -11336,7 +11335,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--0 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .td-box--10.td-box--gradient {
   background: #efefef linear-gradient(180deg, #f1f1f1, #efefef) repeat-x !important; }
@@ -11356,7 +11355,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--1 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .td-box--11.td-box--gradient {
   background: #efefef linear-gradient(180deg, #f1f1f1, #efefef) repeat-x !important; }
@@ -11376,7 +11375,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--2 p > a {
-  color: #acc8f0; }
+  color: #7EC13D; }
 
 .td-box--12.td-box--gradient {
   background: #91ea42 linear-gradient(180deg, #a2ed5e, #91ea42) repeat-x !important; }
@@ -11396,7 +11395,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--3 p > a {
-  color: #638ac1; }
+  color: #7EC13D; }
 
 .td-box--13.td-box--gradient {
   background: #C0E0DE linear-gradient(180deg, #c9e5e3, #C0E0DE) repeat-x !important; }
@@ -11416,7 +11415,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--4 p > a {
-  color: #72a1e5; }
+  color: #7EC13D; }
 
 .td-box--14.td-box--gradient {
   background: white linear-gradient(180deg, white, white) repeat-x !important; }
@@ -11436,7 +11435,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--5 p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .td-box--15.td-box--gradient {
   background: #888 linear-gradient(180deg, #9a9a9a, #888) repeat-x !important; }
@@ -11456,7 +11455,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--6 p > a {
-  color: #a9c6ef; }
+  color: #7EC13D; }
 
 .td-box--16.td-box--gradient {
   background: #3772FF linear-gradient(180deg, #5587ff, #3772FF) repeat-x !important; }
@@ -11476,7 +11475,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--7 p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .td-box--17.td-box--gradient {
   background: #ED6A5A linear-gradient(180deg, #f08073, #ED6A5A) repeat-x !important; }
@@ -11496,7 +11495,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--8 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .td-box--18.td-box--gradient {
   background: #efefef linear-gradient(180deg, #f1f1f1, #efefef) repeat-x !important; }
@@ -11516,7 +11515,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--9 p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .td-box--19.td-box--gradient {
   background: #ED6A5A linear-gradient(180deg, #f08073, #ED6A5A) repeat-x !important; }
@@ -11536,7 +11535,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--10 p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .td-box--110.td-box--gradient {
   background: #efefef linear-gradient(180deg, #f1f1f1, #efefef) repeat-x !important; }
@@ -11556,7 +11555,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--11 p > a {
-  color: #acc8f0; }
+  color: #7EC13D; }
 
 .td-box--111.td-box--gradient {
   background: #91ea42 linear-gradient(180deg, #a2ed5e, #91ea42) repeat-x !important; }
@@ -11576,7 +11575,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--12 p > a {
-  color: #72a1e5; }
+  color: #7EC13D; }
 
 .td-box--112.td-box--gradient {
   background: white linear-gradient(180deg, white, white) repeat-x !important; }
@@ -11596,7 +11595,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--13 p > a {
-  color: #638ac1; }
+  color: #7EC13D; }
 
 .td-box--113.td-box--gradient {
   background: #C0E0DE linear-gradient(180deg, #c9e5e3, #C0E0DE) repeat-x !important; }
@@ -11616,7 +11615,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--blue p > a {
-  color: #a0c0ee; }
+  color: #7EC13D; }
 
 .td-box--1blue.td-box--gradient {
   background: #72A1E5 linear-gradient(180deg, #87afe9, #72A1E5) repeat-x !important; }
@@ -11636,7 +11635,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--indigo p > a {
-  color: #b8cff2; }
+  color: #7EC13D; }
 
 .td-box--1indigo.td-box--gradient {
   background: #6610f2 linear-gradient(180deg, #7d34f4, #6610f2) repeat-x !important; }
@@ -11656,7 +11655,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--purple p > a {
-  color: #b7cff2; }
+  color: #7EC13D; }
 
 .td-box--1purple.td-box--gradient {
   background: #6f42c1 linear-gradient(180deg, #855eca, #6f42c1) repeat-x !important; }
@@ -11676,7 +11675,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--pink p > a {
-  color: #aec9f0; }
+  color: #7EC13D; }
 
 .td-box--1pink.td-box--gradient {
   background: #e83e8c linear-gradient(180deg, #eb5b9d, #e83e8c) repeat-x !important; }
@@ -11696,7 +11695,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--red p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .td-box--1red.td-box--gradient {
   background: #dc3545 linear-gradient(180deg, #e15361, #dc3545) repeat-x !important; }
@@ -11716,7 +11715,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--orange p > a {
-  color: #bed4f3; }
+  color: #7EC13D; }
 
 .td-box--1orange.td-box--gradient {
   background: #BA5A31 linear-gradient(180deg, #c47350, #BA5A31) repeat-x !important; }
@@ -11736,7 +11735,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--yellow p > a {
-  color: #b7cff2; }
+  color: #7EC13D; }
 
 .td-box--1yellow.td-box--gradient {
   background: #ffc107 linear-gradient(180deg, #ffca2c, #ffc107) repeat-x !important; }
@@ -11756,7 +11755,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--green p > a {
-  color: #c6d9f4; }
+  color: #7EC13D; }
 
 .td-box--1green.td-box--gradient {
   background: #28a745 linear-gradient(180deg, #48b461, #28a745) repeat-x !important; }
@@ -11776,7 +11775,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--teal p > a {
-  color: #bfd4f3; }
+  color: #7EC13D; }
 
 .td-box--1teal.td-box--gradient {
   background: #20c997 linear-gradient(180deg, #41d1a7, #20c997) repeat-x !important; }
@@ -11796,7 +11795,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--cyan p > a {
-  color: #c6d9f4; }
+  color: #7EC13D; }
 
 .td-box--1cyan.td-box--gradient {
   background: #17a2b8 linear-gradient(180deg, #3ab0c3, #17a2b8) repeat-x !important; }
@@ -11816,7 +11815,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--white p > a {
-  color: #72a1e5; }
+  color: #7EC13D; }
 
 .td-box--1white.td-box--gradient {
   background: #fff linear-gradient(180deg, white, #fff) repeat-x !important; }
@@ -11836,7 +11835,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--gray p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .td-box--1gray.td-box--gradient {
   background: #888 linear-gradient(180deg, #9a9a9a, #888) repeat-x !important; }
@@ -11856,7 +11855,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--gray-dark p > a {
-  color: #e3ecfa; }
+  color: #7EC13D; }
 
 .td-box--1gray-dark.td-box--gradient {
   background: #333 linear-gradient(180deg, #525252, #333) repeat-x !important; }
@@ -11876,7 +11875,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--primary p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .td-box--1primary.td-box--gradient {
   background: #efefef linear-gradient(180deg, #f1f1f1, #efefef) repeat-x !important; }
@@ -11896,7 +11895,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--secondary p > a {
-  color: #acc8f0; }
+  color: #7EC13D; }
 
 .td-box--1secondary.td-box--gradient {
   background: #91ea42 linear-gradient(180deg, #a2ed5e, #91ea42) repeat-x !important; }
@@ -11916,7 +11915,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--success p > a {
-  color: #a9c6ef; }
+  color: #7EC13D; }
 
 .td-box--1success.td-box--gradient {
   background: #3772FF linear-gradient(180deg, #5587ff, #3772FF) repeat-x !important; }
@@ -11936,7 +11935,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--info p > a {
-  color: #638ac1; }
+  color: #7EC13D; }
 
 .td-box--1info.td-box--gradient {
   background: #C0E0DE linear-gradient(180deg, #c9e5e3, #C0E0DE) repeat-x !important; }
@@ -11956,7 +11955,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--warning p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .td-box--1warning.td-box--gradient {
   background: #ED6A5A linear-gradient(180deg, #f08073, #ED6A5A) repeat-x !important; }
@@ -11976,7 +11975,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--danger p > a {
-  color: #a5c3ee; }
+  color: #7EC13D; }
 
 .td-box--1danger.td-box--gradient {
   background: #ED6A5A linear-gradient(180deg, #f08073, #ED6A5A) repeat-x !important; }
@@ -11996,7 +11995,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--light p > a {
-  color: #6993d0; }
+  color: #7EC13D; }
 
 .td-box--1light.td-box--gradient {
   background: #D3F3EE linear-gradient(180deg, #daf5f1, #D3F3EE) repeat-x !important; }
@@ -12016,7 +12015,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--dark p > a {
-  color: #6d99d9; }
+  color: #7EC13D; }
 
 .td-box--1dark.td-box--gradient {
   background: #efefef linear-gradient(180deg, #f1f1f1, #efefef) repeat-x !important; }
@@ -12036,7 +12035,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--100 p > a {
-  color: #709ee0; }
+  color: #7EC13D; }
 
 .td-box--1100.td-box--gradient {
   background: #f8f9fa linear-gradient(180deg, #f9fafb, #f8f9fa) repeat-x !important; }
@@ -12056,7 +12055,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--200 p > a {
-  color: #6d99d8; }
+  color: #7EC13D; }
 
 .td-box--1200.td-box--gradient {
   background: #eee linear-gradient(180deg, #f1f1f1, #eee) repeat-x !important; }
@@ -12076,7 +12075,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--300 p > a {
-  color: #6993cf; }
+  color: #7EC13D; }
 
 .td-box--1300.td-box--gradient {
   background: #dee2e6 linear-gradient(180deg, #e3e6ea, #dee2e6) repeat-x !important; }
@@ -12096,7 +12095,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--400 p > a {
-  color: #6288be; }
+  color: #7EC13D; }
 
 .td-box--1400.td-box--gradient {
   background: #ccc linear-gradient(180deg, #d4d4d4, #ccc) repeat-x !important; }
@@ -12116,7 +12115,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--500 p > a {
-  color: #9bbced; }
+  color: #7EC13D; }
 
 .td-box--1500.td-box--gradient {
   background: #adb5bd linear-gradient(180deg, #b9c0c7, #adb5bd) repeat-x !important; }
@@ -12136,7 +12135,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--600 p > a {
-  color: #b4cdf1; }
+  color: #7EC13D; }
 
 .td-box--1600.td-box--gradient {
   background: #888 linear-gradient(180deg, #9a9a9a, #888) repeat-x !important; }
@@ -12156,7 +12155,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--700 p > a {
-  color: #d3e2f7; }
+  color: #7EC13D; }
 
 .td-box--1700.td-box--gradient {
   background: #495057 linear-gradient(180deg, #646a70, #495057) repeat-x !important; }
@@ -12176,7 +12175,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--800 p > a {
-  color: #e3ecfa; }
+  color: #7EC13D; }
 
 .td-box--1800.td-box--gradient {
   background: #333 linear-gradient(180deg, #525252, #333) repeat-x !important; }
@@ -12196,7 +12195,7 @@ readers do not read off random characters that represent icons */
     content: ""; }
 
 .td-box--900 p > a {
-  color: #ecf2fc; }
+  color: #7EC13D; }
 
 .td-box--1900.td-box--gradient {
   background: #222 linear-gradient(180deg, #434343, #222) repeat-x !important; }
