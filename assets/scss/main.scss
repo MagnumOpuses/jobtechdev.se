@@ -33,7 +33,7 @@
 
 @if $td-enable-google-fonts {
     @import url($web-font-path);
-
+}
 .td-box.linkbox {
     padding:1rem;
     padding-top: 5rem;
