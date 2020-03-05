@@ -12646,6 +12646,9 @@ readers do not read off random characters that represent icons */
   padding: 1rem;
   padding-top: 5rem; }
 
+.navbar-toggler {
+  right: 5px; }
+
 footer {
   min-height: 150px; }
   @media (max-width: 991.98px) {
