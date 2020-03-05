@@ -28,9 +28,7 @@
 @import "section-index";
 @import "pageinfo";
 
-.navbar-toggler {
-right:5px
-}
+
 
 
 @if $td-enable-google-fonts {
@@ -39,6 +37,9 @@ right:5px
 .td-box.linkbox {
     padding:1rem;
     padding-top: 5rem;
+}
+.navbar-toggler {
+    right:5px
 }
 footer {
     min-height: 150px;
