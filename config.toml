@@ -127,11 +127,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
- [[params.links.user]]
-	name ="Blogg"
-	url = "/blog"
-	icon = "fas fa-blog"
-        desc = "Follow our blog!"
+ #[[params.links.user]]
+	#name ="Blogg"
+	#url = "/blog"
+	#icon = "fas fa-blog"
+       # desc = "Follow our blog!"
 
 [[params.links.user]]
 	name = 'Email '

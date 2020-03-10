@@ -64,10 +64,10 @@ other = "Kontakt"
 other = "Blev du hjälpt av denna sida?"
 
 [params_ui_feedback_yes]
-other= 'Perfekt! Ge oss gärna feedback på hur vi kan  <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">bli ännu bättre</a>.'
+other= 'Perfekt! Ge oss gärna <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">feedback</a> på hur vi kan bli ännu bättre'
 
 [params_ui_feedback_no]
-other = 'Tråkigt att höra! Ge oss gärna feedback på hur vi kan  <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">bli bättre</a>.'
+other = 'Tråkigt att höra! Ge oss gärna <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">feedback</a> på hur vi kan bli bättre.'
 
 [yes]
 other = "Ja"
