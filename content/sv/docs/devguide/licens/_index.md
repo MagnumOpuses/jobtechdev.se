@@ -3,11 +3,9 @@ title: "Licens"
 date: 2018-01-28T21:58:09+01:00
 disableToc: false
 menuTitle: "Licens "
-description: "gghgyggydgfasfgasei<fuåges"
+description: "Vi har som målsättning att ha frikostiga licenser som apache 2 för kod och CC0 för öppna data. Var noga med att kontrollera på respektive API för vad som gäller just för den produkten"
 
 ---
-
-We think reusing and sharing assets is a catalyst for community, innovation and acceleration of Sweden's democratic value-system, in all its forms.
 
 #### License for code
 
