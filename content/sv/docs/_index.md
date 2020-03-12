@@ -8,7 +8,7 @@ menu:
     weight: 10
 
 description: "Här presenterar vi all den öppna data som du kan använda helt fritt. Öppna data är information som finns tillgänglig för vem som helst att använda, återanvända och dela med sig av, så att andra kan utveckla den och skapa nytta för fler.  
-             Hör gärna av dig med synpunkter och förslag på information som du vill att Arbetsförmedlingen publicerar som öppna data på jobtechdev@arbetsformedlingen.se."
+             Hör gärna av dig med synpunkter och förslag på information som du vill att Arbetsförmedlingen publicerar som öppna data på <a href="mailto:jobtechdev@arbetsformedlingen.se">JobTechdev</a>
 
 ---
 
