@@ -12649,13 +12649,14 @@ readers do not read off random characters that represent icons */
   flex-grow: unset; }
 
 .navbar-toggler {
+  position: fixed;
   z-index: 1;
-  right: 5px; }
+  right: 5px;
+  top: 15px; }
 
 @media (max-width: 991.98px) {
   .navbar-nav-s-s {
     text-align: left;
-    padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     width: 200px;
     float: right;
@@ -12663,7 +12664,8 @@ readers do not read off random characters that represent icons */
     position: fixed;
     right: 5px;
     padding-top: 60px;
-    color: #fff; }
+    color: #fff;
+    padding-left: 15px; }
   .td-navbar-cover .nav-link {
     text-shadow: 1px 1px 2px #333; }
   .navbar-dark .navbar-nav .nav-link {
@@ -12676,7 +12678,6 @@ readers do not read off random characters that represent icons */
 @media (max-width: 767.98px) {
   .navbar-nav-s-s {
     text-align: left;
-    padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     width: 200px;
     float: right;
@@ -12684,7 +12685,8 @@ readers do not read off random characters that represent icons */
     position: fixed;
     right: 5px;
     padding-top: 60px;
-    color: #fff; }
+    color: #fff;
+    padding-left: 15px; }
   .td-navbar-cover .nav-link {
     text-shadow: 1px 1px 2px #333; }
   .navbar-dark .navbar-nav .nav-link {
