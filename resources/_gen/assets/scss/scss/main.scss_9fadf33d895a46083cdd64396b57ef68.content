@@ -12665,7 +12665,7 @@ readers do not read off random characters that represent icons */
     padding-top: 60px;
     color: #fff; }
   .td-navbar-cover .nav-link {
-    text-shadow: unset; }
+    text-shadow: 1px 1px 2px #333; }
   .navbar-dark .navbar-nav .nav-link {
     color: #d9d9d9; }
   .navbar-dark .navbar-nav .nav-link.active {
@@ -12686,7 +12686,7 @@ readers do not read off random characters that represent icons */
     padding-top: 60px;
     color: #fff; }
   .td-navbar-cover .nav-link {
-    text-shadow: unset; }
+    text-shadow: 1px 1px 2px #333; }
   .navbar-dark .navbar-nav .nav-link {
     color: #d9d9d9; }
   .navbar-dark .navbar-nav .nav-link.active {
