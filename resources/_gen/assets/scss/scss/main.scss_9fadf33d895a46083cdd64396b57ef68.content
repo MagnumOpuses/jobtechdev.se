@@ -12654,7 +12654,7 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 991.98px) {
   .navbar-nav-s-s {
-    text-align: right;
+    text-align: left;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     width: 200px;
@@ -12675,7 +12675,7 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 767.98px) {
   .navbar-nav-s-s {
-    text-align: right;
+    text-align: left;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     width: 200px;
