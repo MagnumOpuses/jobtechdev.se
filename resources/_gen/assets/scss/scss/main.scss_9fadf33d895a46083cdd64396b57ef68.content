@@ -12661,7 +12661,6 @@ readers do not read off random characters that represent icons */
     width: 200px;
     float: right;
     top: 15px;
-    position: fixed;
     right: 5px;
     padding-top: 60px;
     color: #fff;
@@ -12673,7 +12672,11 @@ readers do not read off random characters that represent icons */
   .navbar-dark .navbar-nav .nav-link.active {
     color: #fff; }
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: #fff; } }
+    color: #fff; }
+  #main_navbar {
+    position: fixed;
+    top: 11px;
+    right: 5px; } }
 
 @media (max-width: 767.98px) {
   .navbar-nav-s-s {
@@ -12682,7 +12685,6 @@ readers do not read off random characters that represent icons */
     width: 200px;
     float: right;
     top: 15px;
-    position: fixed;
     right: 5px;
     padding-top: 60px;
     color: #fff;
@@ -12692,7 +12694,11 @@ readers do not read off random characters that represent icons */
   .navbar-dark .navbar-nav .nav-link {
     color: #d9d9d9; }
   .navbar-dark .navbar-nav .nav-link.active {
-    color: #fff; } }
+    color: #fff; }
+  #main_navbar {
+    position: fixed;
+    top: 11px;
+    right: 5px; } }
 
 footer {
   min-height: 150px; }
