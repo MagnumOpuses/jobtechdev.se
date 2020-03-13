@@ -12698,7 +12698,9 @@ readers do not read off random characters that represent icons */
   #main_navbar {
     position: fixed;
     top: 11px;
-    right: 5px; } }
+    right: 5px; }
+  #td-cover-block-0 {
+    background-size: auto; } }
 
 footer {
   min-height: 150px; }
