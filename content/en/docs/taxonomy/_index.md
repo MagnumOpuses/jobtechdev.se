@@ -5,7 +5,7 @@ disableToc: false
 menuTitle: "Taxonomi "
 weight: 19
 type: "github"
-description: "Jobtech Taxonomy contains data commonly used by the job market including Arbetsförmedlingen. The data consists of structured lists of concepts that are relevant in the matching of vacant jobs with job seekers."
+description: "JobTech Taxonomy contains data used by the Swedish labour market. The data consists of structured lists of concepts that are relevant when matching vacancies with job seekers."
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 
