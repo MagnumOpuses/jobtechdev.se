@@ -8,6 +8,7 @@
     margin-top: 30px;
     position: fixed;
 
+
     @include media-breakpoint-up(md) {
         @supports (position: sticky) {
             max-height: calc(100vh - 10rem);

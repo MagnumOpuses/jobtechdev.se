@@ -16,6 +16,7 @@ Bootstrap variables overrides for theme.
 See https://github.com/twbs/bootstrap/pull/23260
 */
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM Plex Mono");
 @fa-font-path :        "../webfonts";
 .position-relative {
@@ -12503,7 +12504,8 @@ readers do not read off random characters that represent icons */
 .td-content {
   order: 1; }
   .td-content p, .td-content li, .td-content td {
-    font-weight: 400; }
+    font-weight: 400;
+    font-family: "IBM Plex Sans", sans serif; }
   .td-content > h1 {
     font-weight: 700;
     margin-bottom: 1rem; }
@@ -12529,7 +12531,8 @@ readers do not read off random characters that represent icons */
     margin-top: 2rem;
     margin-bottom: 2rem; }
   .td-content .lead {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    font-family: "IBM Plex Sans", sans serif; }
 
 .td-title {
   margin-top: 1rem;

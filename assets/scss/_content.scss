@@ -29,6 +29,7 @@
 
     p, li, td {
         font-weight: $font-weight-body-text;
+        font-family: $content-font-family;
     }
 
     > h1 {
@@ -93,6 +94,7 @@
 
     .lead {
         margin-bottom: 1.5rem;
+        font-family: $content-font-family;
     }
 }
 
