@@ -29,7 +29,7 @@
 <div class="card-deck col-sm-12 col-md-12 col-lg-12 col-xl-8 mx-auto">
 
         {{ range where .Site.Pages "Section" "repo"}}
-        {{if eq .Parent.Title "Github Repo"}}
+        {{if or (eq .Parent.Title "Källkod") (eq .Parent.Title "Source code")}}
         <div class="col-sm-12 col-md-8 col-lg-6 mb-5 mx-auto">
             <div class="card " style="height: 100%">
                 <div class="card-header">
