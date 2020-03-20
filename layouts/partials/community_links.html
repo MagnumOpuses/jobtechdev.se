@@ -23,7 +23,7 @@
 <ul>
  {{ range . }}
  <li title="{{ .name }}">
-   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}</a> <!--{{ .desc }} -->
+   <a target="_blank" href="{{ .url }}" aria-label=""><em class="{{ .icon }}"></em> {{ .name }}</a> <!--{{ .desc }} -->
  </li>
   {{ end }}
 </ul>
