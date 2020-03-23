@@ -2,7 +2,7 @@
 title: "Historical Jobs"
 disableToc: true
 menuTitle: "Historical Jobs"
-weight: 10
+weight: 6
 date: 2019-01-19T20:06:16+01:00
 description: "This dataset consists of 4.2M job postings (7.7M job positions) published on Platsbanken from the year 2006 up to and including 2017."
 
