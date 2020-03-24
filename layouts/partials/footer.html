@@ -17,7 +17,7 @@
         {{ end }}
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <img src=" {{ .Site.Params.logo_foot }} " style="width: 256px">
+        <img src=" {{ .Site.Params.logo_foot }} " style="width: 256px" alt="Logo Arbetsförmedlingen">
       </div>
     </div>
   </div>
@@ -26,7 +26,7 @@
 <ul class="list-inline mb-0">
   {{ range . }}
   <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="{{ .name }}" aria-label="{{ .name }}">
-    <a class="text-black" target="_blank" href="{{ .url }}">
+    <a class="text-black" target="_blank" href="{{ .url }}" aria-label="{{.name}}">
       <i class="{{ .icon }}"></i>
     </a>
   </li>
