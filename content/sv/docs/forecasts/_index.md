@@ -22,7 +22,7 @@ The API is an open interface without contract or registration requirements.
 * [Endpoints](#endpoints)
 * [Results](#results)
 * [Errors](#errors)
-* [Use case](#use case)
+* [Use case](#use-case)
 
 
 
