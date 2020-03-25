@@ -1,9 +1,9 @@
 ---
-title: "Swagger"
+title: ""
 type: swagger
 menuTitle: "swagger "
 weight: 4
-description: "APIet Yrkesinfo innehåller beskrivningar av cirka 350 olika yrken. "
+description: ""
 toc_hide: true
               
 
