@@ -5,7 +5,7 @@ weight: 4
 description: "AF Occupation info is an API, containing descriptions of nearly 350 different occupations."
 url: "/apis/Af Occupation Info"
 consoleurl: "/devguide/apiconsole.html?urls.primaryName=Occupation%20info%20"
-
+disabletoc: true
 ---
 
 

@@ -23,7 +23,7 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 * [Endpoints](#endpoints)
 * [Results](#results)
 * [Errors](#errors)
-* [Use case](#use case)
+* [Use case](#use-cases)
 
 
 
