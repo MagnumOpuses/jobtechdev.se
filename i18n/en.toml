@@ -1,4 +1,15 @@
+# Cookies
+[cookie-message]
+other = "This website uses cookies to ensure you get the best experience on our website."
 
+[cookie-ok]
+other = "Got it!"
+
+[cookie-href]
+other = "/en/cookie_policy/"
+
+[cookie-href-text]
+other = "Cookie policy"
 
 # UI strings. Buttons and similar.
 
