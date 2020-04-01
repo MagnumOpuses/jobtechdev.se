@@ -1,4 +1,15 @@
+# Cookies
+[cookie-message]
+other = "Denna sida använder kakor för att ge bästa upplevelse."
 
+[cookie-ok]
+other = "ok"
+
+[cookie-href]
+other = "/cookie_policy/swedish/"
+
+[cookie-href-text]
+other = "Läs mer om våra kakor här"
 
 # UI strings. Buttons and similar.
 
