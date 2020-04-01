@@ -7,8 +7,6 @@ toc_hide: true
 ---
 
 
-
-
 Arbetsförmedlingen, The Swedish Public Employment Service, organization number: 202100-2114, is responsible for the jobtechdev.se website.
 
 The following describes how the jobtechdev.se handles web cookies.
