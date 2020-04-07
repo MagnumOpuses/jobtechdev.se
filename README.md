@@ -8,6 +8,7 @@
 
 This project's purpose is to serve all necessary details for developers to integrate with Jobtech Dev's open infrastructure. This is the central hub to find information about our infrastructure projects, API specifications, integration guidelines, licenses, contact details and other important notices.
 
+
 The website is built using the static website generation framework [Hugo](https://gohugo.io/) (see [Hugo documentation](https://gohugo.io/documentation/)).
 
 ## Getting started
