@@ -12709,6 +12709,9 @@ footer {
   @media (max-width: 991.98px) {
     footer {
       min-height: 200px; } }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    footer .flex_fix_for_IE {
+      flex: 1 0 100% !important; } }
 
 @media (min-width: 768px) {
   .td-offset-anchor:target {
