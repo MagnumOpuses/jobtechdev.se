@@ -4,7 +4,7 @@
 <div id="githubcontent" geturl={{.Get 0}} ></div>
 
 <script>
-
+    console.log(window.location.hostname);
     function b64DecodeUnicode(str) {
         // Going backwards: from bytestream, to percent-encoding, to original string.
         return decodeURIComponent(atob(str).split('').map(function(c) {
@@ -16,9 +16,10 @@
 
     var request = new XMLHttpRequest();
 
-    request.open('GET', url, true);
 
-    request.onload = function() {
+    request.open('GET',url, true);
+
+    request.onreadystatechange = function() {
         var data = JSON.parse(this.response);
         document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
 /*
