@@ -11,6 +11,8 @@
 {{ end -}}
 {{ partialCached "favicons.html" . }}
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/google_news.html" . -}}
 {{- template "_internal/schema.html" . -}}
@@ -49,8 +51,10 @@
     }
     {{ end }}
 </style>
+
 {{ partial "custom-header.html" . }}
 {{if in .Permalink "/en/"}}
+
 <script>
     window.addEventListener("load", function(){
         window.cookieconsent.initialise({
