@@ -15,9 +15,9 @@
     var url = document.getElementById("githubcontent").getAttribute("geturl");
 
     var request = new XMLHttpRequest();
-    var hostName = window.location.protocol+window.location.hostname;
 
-    request.open('GET', hostName+url, true);
+
+    request.open('GET',url, true);
 
     request.onreadystatechange = function() {
         var data = JSON.parse(this.response);
