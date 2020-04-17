@@ -7,4 +7,4 @@ description: "JobStream API for those who are building applications and needs to
 weight: 3
 ---
 
-{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref=master" >}}
+{{< getMD "/api/git/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref=master" >}}
