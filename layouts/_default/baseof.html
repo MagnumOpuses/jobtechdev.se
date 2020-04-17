@@ -12,8 +12,9 @@
     <div class="container-fluid td-default td-outer">
       <main role="main" class="td-main">
         {{ block "main" . }}{{ end }}
+        {{ partial "footer.html" . }}
       </main>
-      {{ partial "footer.html" . }}
+
     </div>
     {{ partialCached "scripts.html" . }}
   </body>
