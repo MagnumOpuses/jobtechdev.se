@@ -12748,6 +12748,9 @@ readers do not read off random characters that represent icons */
   right: 5px;
   top: 15px; }
 
+.link-underline {
+  text-decoration: underline; }
+
 @media (max-width: 991.98px) {
   .navbar-nav-s-s {
     text-align: left;
