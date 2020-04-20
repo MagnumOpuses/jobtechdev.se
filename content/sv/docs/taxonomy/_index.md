@@ -6,4 +6,4 @@ description: "JobTech Taxonomy innehåller data som vanligtvis används inom arb
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 
-{{< getMD "/api/github/repos/JobtechSwe/jobtech-taxonomy-api/contents/GETTINGSTARTED.md?ref=develop" >}}
+{{< getMD "/api/gitlab/api/v4/projects/17049723/repository/files/GETTINGSTARTED.md?ref=develop" >}}
