@@ -1,5 +1,5 @@
 ---
-title: "Projekt"
+title: "Project"
 date: 2018-01-28T21:58:09+01:00
 disableToc: false
 menuTitle: "API:er"
@@ -7,7 +7,8 @@ menu:
   main:
     weight: 15
 
-description: "Här kan du hitta projekt vi jobbar med just nu. Vi är “open by default” och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på."
+description: "Here you can find projects we are working on right now. We are “open by default” and all development projects you as an individual or company can help develop or give us feedback on.
+"
 
 
 ---
