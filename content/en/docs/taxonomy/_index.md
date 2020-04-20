@@ -7,5 +7,5 @@ description: "JobTech Taxonomy contains data used by the Swedish labour market. 
 ---
 
 
-{{< getMD "/api/github/repos/JobtechSwe/jobtech-taxonomy-api/contents/GETTINGSTARTED.md?ref=develop" >}}
+{{< getMD "/api/gitlab/api/v4/projects/17049723/repository/files/GETTINGSTARTED.md?ref=develop" >}}
 
