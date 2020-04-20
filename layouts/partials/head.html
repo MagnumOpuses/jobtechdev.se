@@ -1,0 +1,98 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ hugo.Generator }}
+{{ if eq (getenv "HUGO_ENV") "production" }}
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+{{ else }}
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+{{ end }}
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+{{ partialCached "favicons.html" . }}
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/google_news.html" . -}}
+{{- template "_internal/schema.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+{{ if eq (getenv "HUGO_ENV") "production" }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+{{ partialCached "head-css.html" . "asdf" }}
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+{{ if .Site.Params.offlineSearch }}
+<script
+  src="https://unpkg.com/lunr@2.3.8/lunr.min.js"
+  integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY"
+  crossorigin="anonymous"></script>
+{{end}}
+
+
+
+
+
+
+
+<script src="/js/cookieconsent.min.js"></script>
+
+
+<style type="text/css">
+    :root #header + #content > #left > #rlblock_left{
+        display:none !important;
+    }
+    {{ if .Site.Params.disableInlineCopyToClipBoard }}
+    :not(pre) > code + span.copy-to-clipboard {
+        display: none;
+    }
+    {{ end }}
+</style>
+
+{{ partial "custom-header.html" . }}
+{{if in .Permalink "/en/"}}
+
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#ececec"
+                }
+            },
+            "content": {
+                "dismiss": "Got it!",
+                "link": "Cookie Policy",
+                "href": "/en/docs/cookie_policy"
+            }
+        })});
+
+</script>
+{{else}}
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#ececec"
+                }
+            },
+            "content": {
+                "dismiss": "Got it!",
+                "link": "Cookie Policy",
+                "href": "/docs/cookie_policy"
+            }
+        })});
+
+</script>
+{{end}}
+{{ partial "hooks/head-end.html" . }}

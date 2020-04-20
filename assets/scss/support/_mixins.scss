@@ -9,6 +9,7 @@
 @mixin link-variant($parent, $color, $hover-color, $underline: false) {
     #{$parent} {
         color: $jtdlink;
+        text-decoration: underline;
 
         @if $underline {
             text-decoration: underline;
