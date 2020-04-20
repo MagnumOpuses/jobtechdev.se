@@ -7,4 +7,4 @@ description: "JobStream API är för er som bygger applikationer och behöver f�
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 ---
 
-{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref=master" >}}
+{{< getMD "https://backend.jobtechdev.se/github/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref=master" >}}
