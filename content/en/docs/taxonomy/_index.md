@@ -6,4 +6,6 @@ description: "JobTech Taxonomy contains data used by the Swedish labour market. 
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 
-{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/jobtech-taxonomy-api/contents/GETTINGSTARTED.md?ref=develop" >}}
+
+{{< getMD "/api/github/repos/JobtechSwe/jobtech-taxonomy-api/contents/GETTINGSTARTED.md?ref=develop" >}}
+

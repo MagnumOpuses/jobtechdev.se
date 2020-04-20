@@ -10,4 +10,6 @@ Målet är att skapa ett enkelt men ändå mångsidigt API som ska passa alla so
   
 ---
 
-{{< getMD "https://backend.jobtechdev.se/git/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref=master" >}}
+
+{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref=master" >}}
+
