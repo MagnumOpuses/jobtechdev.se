@@ -21,6 +21,7 @@
 
     request.onreadystatechange = function() {
         var data = JSON.parse(this.response);
+
         document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
 /*
         document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
