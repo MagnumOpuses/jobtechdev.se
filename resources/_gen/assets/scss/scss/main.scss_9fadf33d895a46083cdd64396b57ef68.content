@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 
 Nothing defined here. The Hugo project that uses this theme can override theme variables by adding a file to:
@@ -12393,6 +12394,12 @@ readers do not read off random characters that represent icons */
           overflow-x: auto;
           white-space: nowrap;
           -webkit-overflow-scrolling: touch; } }
+
+#td-section-nav > ul > ul > li > ul > li > a:before {
+  content: "• "; }
+
+#td-section-nav > ul > ul > li > ul > ul > li > ul > li > a:before {
+  content: "- "; }
 
 .td-sidebar-nav {
   padding-right: 0.5rem;
