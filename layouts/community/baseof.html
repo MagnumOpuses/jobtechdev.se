@@ -12,14 +12,11 @@
     <div class="container-fluid td-default td-outer">
       <main role="main" class="td-main">
         {{ block "main" . }}{{ end }}
-        {{ partial "footer.html" . }}
+
       </main>
 
     </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 9b00ad938152d555c12d8cdddd76889f56f9c57d
+    {{ partial "footer.html" . }}
     {{ partialCached "scripts.html" . }}
   </body>
 </html>
