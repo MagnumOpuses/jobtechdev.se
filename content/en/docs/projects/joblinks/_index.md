@@ -2,7 +2,7 @@
 title: "Joblinks"
 menuTitle: "Joblinks "
 weight: 7
-description: "Vi driver tillsammans med de största annonssajterna i Sverige i ett pilotprojekt kring att samla alla jobb på ett ställe."
+description: "Together with the largest advertising sites in Sweden, we are running a pilot project to gather all jobs in one place."
 
 ---
 
