@@ -6,4 +6,3 @@ description: "XXXX."
 
 ---
 
-{{< getMD "/api/gitlab/joblinks/wiki/-/wikis/home?ref=develop" >}}
