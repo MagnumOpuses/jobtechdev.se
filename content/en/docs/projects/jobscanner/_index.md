@@ -6,4 +6,4 @@ description: "The JobScanner shows the potential and power of collecting all the
 
 ---
 
-{{< getMD "/api/gitlab/joblinks/wiki/-/wikis/home?ref=develop" >}}
+{{< getMD "/api/github/repos/MagnumOpuses/JobScanning/contents/README.md?ref=master" >}}
