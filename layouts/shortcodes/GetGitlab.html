@@ -1,10 +1,9 @@
-
 <script src="/js/marked.min.js"></script>
 
 <div id="githubcontent" geturl={{.Get 0}} ></div>
 
 <script>
-    console.log(window.location.hostname);
+
     function b64DecodeUnicode(str) {
         // Going backwards: from bytestream, to percent-encoding, to original string.
         return decodeURIComponent(atob(str).split('').map(function(c) {
@@ -19,13 +18,22 @@
 
     request.open('GET',url, true);
 
+
     request.onreadystatechange = function() {
         var data = JSON.parse(this.response);
 
-        document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
-/*
-        document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
-*/
+        if(data.encoding ==="base64") {
+
+            document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
+        }
+        if (data.format === "markdown"){
+            document.getElementById('githubcontent').innerHTML = marked(data.content);
+
+        }
+
+        /*
+                document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
+        */
         // Change links to lower case
         let elements = document.getElementById("innerMainContent").getElementsByTagName("a");
         Array.prototype.forEach.call(elements, function(element) {
@@ -37,6 +45,7 @@
 
     request.send()
 
-</script>
 
+
+</script>
 

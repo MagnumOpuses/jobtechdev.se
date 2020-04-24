@@ -1,6 +1,14 @@
 //
 // Left side navigation
-//
+//#en-docs-apis > ul:nth-child(1) > li   #en-docs > ul:nth-child(1) > li
+
+
+#td-section-nav > ul > ul > li >ul >li > a:before {
+    content: "• ";
+}
+#td-section-nav > ul > ul > li >ul >ul >li > ul> li> a:before {
+    content: "- ";
+}
 .td-sidebar-nav {
     padding-right: 0.5rem;
     margin-right: -15px;
