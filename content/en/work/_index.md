@@ -7,7 +7,7 @@ toc_hide: true
 
 {{< blocks/cover title="Work with us" image_anchor="bottom" height="min" >}}
 
-<h4>JobTech - always looking for competence.</h4>
+<h4>JobTech - Always looking for competence.</h4>
 
 {{< /blocks/cover >}}
 
