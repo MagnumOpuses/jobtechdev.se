@@ -2,7 +2,7 @@
 title: "Af Connect"
 menuTitle: "Af Connect "
 weight: 7
-description: "This API allows individual cv data stored in Arbetsförmedlingen’s MinProfil to be transfer to another service upon user consent"
+description: "Detta API gör det möjligt att överföra individuella cv-data lagrade i Arbetsförmedlingen MinProfil till en annan tjänst efter användarens samtycke"
 
 ---
 {{< getMD "/api/github/repos/MagnumOpuses/af-connect-project/contents/jobtechdev.md?ref=master" >}}
