@@ -12837,6 +12837,6 @@ assets/scss/_styles_project.scss
 */
 .gcontent {
   /*background color github/gitlab documentation*/
-  background-color: #ececec; }
+  background-color: #f7f7f7; }
 
 /*# sourceMappingURL=main.css.map */
