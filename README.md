@@ -1,7 +1,3 @@
----
-url : https://jobtechdev.se
----
-
 ![alt text][logo]
  
 [logo]: https://github.com/MagnumOpuses/project-meta/blob/master/img/jobtechdev_black.png "JobTech dev logo"
