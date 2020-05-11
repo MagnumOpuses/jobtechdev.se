@@ -9,6 +9,7 @@ toc_hide: true
 
 <h4>JobTech - Always looking for competence.</h4>
 
+
 {{< /blocks/cover >}}
 
 
@@ -20,7 +21,7 @@ toc_hide: true
 {{< blocks/section color ="white">}}
 
 <div class="col-12 mx-auto">
-<!--<h1 class="text-center">This is hhhhh section</h1>-->
+<!--<h1 class="text-center"></h1>-->
 
 <h1>Available jobs / spontaneous application </h1>
 <p>We are looking for you who want to help Jobtechdev create the digital ecosystem for the labor market.<br>
