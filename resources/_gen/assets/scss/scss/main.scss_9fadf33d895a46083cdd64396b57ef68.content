@@ -12838,6 +12838,7 @@ assets/scss/_styles_project.scss
 .gcontent {
   /*background color github/gitlab documentation*/
   background-color: #f7f7f7;
+<<<<<<< HEAD
   padding: 50px;
   border: solid 1px #000; }
 
@@ -12855,6 +12856,7 @@ assets/scss/_styles_project.scss
   padding: 2px 25px; }
 
 .projectLink > a:hover {
-  color: #fff !important; }
+  color: #fff !important;
+  padding: 50px; }
 
 /*# sourceMappingURL=main.css.map */
