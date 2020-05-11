@@ -8,6 +8,7 @@ toc_hide: true
 {{< blocks/cover title="Work with us" image_anchor="bottom" height="min" >}}
 
 <h4>JobTech - Always looking for competence.</h4>
+{{< adsen >}} 
 
 
 {{< /blocks/cover >}}
@@ -39,7 +40,7 @@ You can se available jobs here:
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-{{< adsen >}}                                      
+                                   
                                        
                                        
                                        
