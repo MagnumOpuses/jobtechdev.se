@@ -30,7 +30,7 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 ### Short introduction
 
 
-Try out the API [swagger](/docs/occupations/yrkesinfoswagger/)
+Try out the API [swagger](/docs/apis/occupations/yrkesinfoswagger/)
 
 
  
