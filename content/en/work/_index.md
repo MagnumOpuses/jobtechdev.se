@@ -8,6 +8,8 @@ toc_hide: true
 {{< blocks/cover title="Work with us" image_anchor="bottom" height="min" >}}
 
 <h4>JobTech - Always looking for competence.</h4>
+ 
+
 
 {{< /blocks/cover >}}
 
@@ -20,7 +22,7 @@ toc_hide: true
 {{< blocks/section color ="white">}}
 
 <div class="col-12 mx-auto">
-<!--<h1 class="text-center">This is hhhhh section</h1>-->
+<!--<h1 class="text-center"></h1>-->
 
 <h1>Available jobs / spontaneous application </h1>
 <p>We are looking for you who want to help Jobtechdev create the digital ecosystem for the labor market.<br>
@@ -30,7 +32,9 @@ competens that will be useful to the ecosystem.</p>
 <h6>
 You can se available jobs here: 
 </h6>
- 
+
+<br><br>
+ {{< ads >}}
 
 </div>
 
@@ -38,7 +42,7 @@ You can se available jobs here:
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-{{< adsen >}}                                      
+                                   
                                        
                                        
                                        
