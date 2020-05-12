@@ -28,9 +28,8 @@
 */
         const regex = /\[_metadata_:url]:- "\s*(.*)"$/gm;
         let match;
-        match = regex.exec(dataDecoded)
+        match = regex.exec(dataDecoded);
         if (!!match) {
-            console.log(match[1])
             let githubContent = document.getElementById('githubcontent');
             let linkContainer = document.createElement("span");
             let link = document.createElement("a");

@@ -8,7 +8,7 @@ toc_hide: true
 {{< blocks/cover title="Work with us" image_anchor="bottom" height="min" >}}
 
 <h4>JobTech - Always looking for competence.</h4>
-{{< adsen >}} 
+ 
 
 
 {{< /blocks/cover >}}
@@ -32,7 +32,9 @@ competens that will be useful to the ecosystem.</p>
 <h6>
 You can se available jobs here: 
 </h6>
- 
+
+<br><br>
+ {{< ads >}}
 
 </div>
 
