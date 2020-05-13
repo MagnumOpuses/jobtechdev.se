@@ -1,42 +1,9 @@
 
 <script src="/js/marked.min.js"></script>
 
-<div id="githubcontent" geturl={{.Get 0}} ></div>
 
-<script>
-    console.log(window.location.hostname);
-    function b64DecodeUnicode(str) {
-        // Going backwards: from bytestream, to percent-encoding, to original string.
-        return decodeURIComponent(atob(str).split('').map(function(c) {
-            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-        }).join(''));
-    }
-
-    var url = document.getElementById("githubcontent").getAttribute("geturl");
-
-    var request = new XMLHttpRequest();
+<div class="gcontent" id="githubcontent" geturl={{.Get 0}} ></div>
 
 
-    request.open('GET',url, true);
-
-    request.onreadystatechange = function() {
-        var data = JSON.parse(this.response);
-
-        document.getElementById('githubcontent').innerHTML = marked(b64DecodeUnicode(data.content));
-/*
-        document.getElementById("api-buttons").innerHTML +='<a href='+data.html_url+' class="showcasebtn align-self-end "><i class="fab fa-github"></i> Github </a>'
-*/
-        // Change links to lower case
-        let elements = document.getElementById("innerMainContent").getElementsByTagName("a");
-        Array.prototype.forEach.call(elements, function(element) {
-            if (element.host == window.location.host) {
-                element.hash = element.hash.toLowerCase();
-            }
-        })
-    }
-
-    request.send()
-
-</script>
-
+<script src="/js/getMD.js"></script>
 
