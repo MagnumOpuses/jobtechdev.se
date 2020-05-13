@@ -5,6 +5,7 @@ disableToc: false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 menuTitle: "API:er"
 menu:
   main:
@@ -39,5 +40,9 @@ description: "her you can find pen by default” och alla utvecklingsprojekt kan
 ---
 >>>>>>> stage
 =======
+---
+>>>>>>> stage
+=======
+description: "her you can find pen by default och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på."
 ---
 >>>>>>> stage
