@@ -7,7 +7,11 @@ menu:
   main:
     weight: 10
 
+<<<<<<< HEAD
 
+=======
+---
+>>>>>>> stage
 
 
 
