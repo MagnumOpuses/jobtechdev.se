@@ -7,7 +7,7 @@ disableToc: false
 
 
 
-description: "her you can find pen by default” och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på."
+description: "her you can find pen by default och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på."
 
 
 ---
