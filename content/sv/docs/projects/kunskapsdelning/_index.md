@@ -6,4 +6,5 @@ description: "Öppna dataplattformarna Jobtechdev.se och Trafiklab, tillsammans 
               Detta är ett initiativ från Arbetsförmedlingen i samarbete med Digg, Internetstiftelsen och SKR."
 
 ---
-{{< GetGitlab "/api/gitlab/api/v4/projects/18440910/wikis/home?with_content=1 " >}}
+
+{{< getMD "/api/gitlab/api/v4/projects/18440910/wikis/home?with_content=1 " >}}
