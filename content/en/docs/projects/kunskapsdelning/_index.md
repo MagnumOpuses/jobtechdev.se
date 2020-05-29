@@ -1,6 +1,6 @@
 ---
-title: "Kunskapsdelning öppna data"
-menuTitle: "Kunskapsdelning öppna data, öppen källkod och öppna licenser "
+title: "Kunskapsdelning"
+menuTitle: "Kunskapsdelning "
 weight: 7
 description: "Open data platforms Jobtechdev.se and Trafiklab, together with Lund University gather and share knowledge, insights and tools for conducting operational activities around open data, open data platforms and open source code.
                             This is an initiative of the Swedish Employment Service in collaboration with Digg, the Internet Foundation and SKR"
