@@ -36,7 +36,7 @@ Try out the API [swagger](/docs/occupations/yrkesinfoswagger/)
 To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. 
 On a second phase, we will use this information to create an account where you will be able to manage your keys directly.  
 
-You can request access to this API via email to [apirequest@jobtechdev.se](apirequest@jobtechdev.se)
+You can request access to this API via email to [apirequest@jobtechdev.se](mailto:apirequest@jobtechdev.se)
 By requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.  
 Please include following in your request:  
 **Email Subject:** API request – “Name of the API”  
