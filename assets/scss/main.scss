@@ -123,9 +123,11 @@ footer {
          min-height: 200px;
 
     }
+
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         .flex_fix_for_IE {     flex: 1 0 100% !important;  }
     }
+
 }
 
 // Adjust anchors vs the fixed menu.
