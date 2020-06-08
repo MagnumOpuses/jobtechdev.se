@@ -9,5 +9,5 @@ description: "JobAd Enrichments API extraherar relevant arbetsmarknadsdata från
 ---
 
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobAdEnrichments.md?ref=develop" >}}
+{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobAdEnrichments.md?ref=master" >}}
 
