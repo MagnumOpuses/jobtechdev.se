@@ -38,6 +38,11 @@
 .td-box.linkbox {
     padding:1rem;
     padding-top: 5rem;
+    @media only screen and (max-width: 600px) {
+        height: 50%;
+    }
+
+
 }
 .navbar-collapse {
     flex-grow: unset;
@@ -122,6 +127,10 @@ footer {
     @include media-breakpoint-down(md) {
          min-height: 200px;
 
+    }
+    @media only screen and (max-width: 600px) {
+
+    background-color: rgba(242, 38, 211, 0.7);
     }
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
