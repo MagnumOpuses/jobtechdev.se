@@ -12747,7 +12747,7 @@ readers do not read off random characters that represent icons */
   padding-top: 5rem; }
   @media only screen and (max-width: 600px) {
     .td-box.linkbox {
-      height: 1000px; } }
+      height: 50%; } }
 
 .navbar-collapse {
   flex-grow: unset; }
@@ -12814,6 +12814,9 @@ footer {
   @media (max-width: 991.98px) {
     footer {
       min-height: 200px; } }
+  @media only screen and (max-width: 600px) {
+    footer {
+      background-color: rgba(242, 38, 211, 0.7); } }
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     footer .flex_fix_for_IE {
       flex: 1 0 100% !important; } }
