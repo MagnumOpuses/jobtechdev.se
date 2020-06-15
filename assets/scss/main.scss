@@ -123,6 +123,10 @@ footer {
          min-height: 200px;
 
     }
+    @media only screen and (max-width: 600px) {
+
+    background-color: rgba(242, 38, 211, 0.7);
+    }
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         .flex_fix_for_IE {     flex: 1 0 100% !important;  }
