@@ -5,7 +5,7 @@ menuTitle: "Af Yrkesinfo "
 weight: 4
 description: "API:et Yrkesinfo innehåller beskrivningar av cirka 350 olika yrken."
               
-# consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
+
 
 ---
 
@@ -29,8 +29,7 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 
 ### Short introduction
 
-
-Try out the API [swagger](/docs/apis/occupations/yrkesinfoswagger/)
+Try out the API [swagger](/swagger/index.html)
 
 
  
@@ -40,19 +39,21 @@ Try out the API [swagger](/docs/apis/occupations/yrkesinfoswagger/)
 To access this API you need to request the keys via email below. The information you provide will be used for statistical purpose and for reaching out to you in case of scheduled downtime, bug reporting etc. 
 On a second phase, we will use this information to create an account where you will be able to manage your keys directly.  
 
-You can request access to this API via email to **apirequest@jobtechdev.se**
+You can request access to this API via email to [jobtechdev@arbetsformedlingen.se](mailto:jobtechdev@arbetsformedlingen.se)  
 By requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.  
 Please include following in your request:  
 **Email Subject:** API request – “Name of the API”  
-**Email Body:** Name: Surname: Company name: (if applicable):  
-**Application name:** Name of your application  
-**Application description:** (please be short)    
+**Name:**  
+**Surname:**  
+**Application Name:**   
+**Application description:**  
 
 Once the keys are acquired, the authentication to the services is done using two query parameters client_id and client_secret. 
 These are required on all requests. Below is a sample of how query parameters are used:
 
 ### Endpoints
-The endpoints for Af Occupation forecast API are:
+The endpoints for Af Occupation forecast API are:  
+https://apier.arbetsformedlingen.se/yrkesinfo-vagledning/v1/
 
 * /yrken  
 * /yrken/{id}
