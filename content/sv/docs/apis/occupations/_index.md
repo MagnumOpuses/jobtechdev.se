@@ -29,8 +29,7 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 
 ### Short introduction
 
-
-Try out the API [swagger](/docs/apis/occupations/yrkesinfoswagger/)
+Try out the API [swagger](/swagger/index.html)
 
 
  
@@ -44,7 +43,6 @@ You can request access to this API via email to [jobtechdev@arbetsformedlingen.s
 By requesting the API Key, you are authorizing the data you are providing, to be stored for as long as you will have access to this API.  
 Please include following in your request:  
 **Email Subject:** API request – “Name of the API”  
-**Email Body:**   
 **Name:**  
 **Surname:**  
 **Application Name:**   
