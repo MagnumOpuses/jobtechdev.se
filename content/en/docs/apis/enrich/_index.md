@@ -1,9 +1,9 @@
 ---
-title: "JobAd Enrichments"
+title: ""
 menuTitle: "JobAd Enrichments"
 weight: 2
-description: "JobAd Enrichments API extracts relevant labor market data from job ad texts, making it possible to automatically see what the employers need or request from the job seekers."
-
+description: ""
+toc_hide: true
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
   
 ---
