@@ -169,6 +169,12 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 	icon = "fab fa-slack"
         desc = ""
 
+[[params.links.developer]]
+	name = "Discourse"
+	url = "https://discourse.jobtechdev.se/"
+	icon = "fab fa-discourse"
+        desc = ""
+
 
      [markup.goldmark.renderer]
       unsafe=true
