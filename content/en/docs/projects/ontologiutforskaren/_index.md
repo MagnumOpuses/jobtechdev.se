@@ -2,7 +2,7 @@
 title: ""
 menuTitle: ""
 weight: 7
-description: "An example on how to use our Ontology API"
+description: ""
 toc_hide: true
 
 ---
