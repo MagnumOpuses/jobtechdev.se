@@ -11,7 +11,6 @@ type: "github"
 | COVID 19: Covid-19 has changed the labor market situation for some professions. The forecasts that should be interpreted with caution are marked in [Bedömmningar att flagga](/files/covid.csv). New forecasts are published in early 2021.   |
 | --- |
 
-Covid-19 has changed the labor market situation for some professions. The forecasts that should be interpreted with caution are marked in Assessments to flag. New forecasts are published in early 2021.
 
 ## Af Occupation Forecast - Getting started
 
