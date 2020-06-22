@@ -6,7 +6,7 @@ description: "Yrkesprognos APIet innehåller 1 och 5 åriga prognoser."
 
 
 ---
-| COVID 19: Covid-19 har förändrat arbetsmarknadsläget för vissa yrken. De prognoser som ska tolkas med försiktighet har markerats i [Bedömmningar att flagga](/files/covid.csv). Nya prognoser publiceras i början av 2021.   |
+| COVID 19: Covid-19 har förändrat arbetsmarknadsläget för vissa yrken. De prognoser som ska tolkas med försiktighet har markerats i filen [Bedömmningar att flagga](/files/covid.csv). Nya prognoser publiceras i början av 2021.   |
 | --- |
 
 
