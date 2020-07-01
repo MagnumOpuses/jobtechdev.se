@@ -84,3 +84,12 @@
         <div style="text-align: center; font-size: 13px"> jobb inom <strong>JobTech</strong> att söka  </div>
     </div>
 </div>
+<script>
+
+    var row = document.getElementsByClassName("afTableRow");
+
+    if (row.length === 0){
+        document.getElementById("afWidgetContainer").hidden = true;
+        document.getElementById("infoJobs").innerText = "";
+    }
+</script>
