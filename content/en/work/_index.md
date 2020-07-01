@@ -29,7 +29,7 @@ toc_hide: true
 You have knowledge, experience and passion in ex. systems development, programming, data analysis and AI or some other
 competens that will be useful to the ecosystem.</p>
 <p>Send an registration of interest now to <a href="mailto:recruitment-jobtech@arbetsformedlingen.se">recruitment-jobtech</a>, with a brief description of you and what you can do to contribute, and we will contact you when needs exists.</p>
-<h6>
+<h6 id="infoJobs">
 You can se available jobs here: 
 </h6>
 

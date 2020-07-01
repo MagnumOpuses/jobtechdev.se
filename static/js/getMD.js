@@ -19,7 +19,14 @@
 
     request.onreadystatechange = function() {
         var data = JSON.parse(this.response);
-        var dataDecoded = b64DecodeUnicode(data.content);
+
+
+        if (data.encoding === "base64"){
+            var dataDecoded = b64DecodeUnicode(data.content);
+
+        }else {
+            var dataDecoded = data.content;
+        }
 
 
         document.getElementById('githubcontent').innerHTML = marked(dataDecoded);
