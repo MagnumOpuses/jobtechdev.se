@@ -12647,16 +12647,16 @@ readers do not read off random characters that represent icons */
 
 .td-outer {
   display: flex;
-  flex-direction: column;
-  height: 100vh; }
+  flex-direction: column; }
 
 @media (min-width: 768px) {
   .td-default main section:first-of-type {
     padding-top: 8rem; } }
 
 .td-main {
-  height: 100%;
-  flex-grow: 1; }
+  min-height: 100%;
+  flex-grow: 1;
+  min-height: 100vh; }
   .td-main main {
     padding-bottom: 2rem; }
     @media (min-width: 768px) {
