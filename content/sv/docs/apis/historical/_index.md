@@ -2,7 +2,7 @@
 title: "Historical Jobs"
 menuTitle: "Historical Jobs "
 weight: 6
-description: "This dataset consists of job postings published on Platsbanken from the year 2006 up to and including 2019."
+description: "Ett dataset innehållande jobbannonser publicerade på Platsbanken från 2006 till och med 2019"
 
 ---
 
