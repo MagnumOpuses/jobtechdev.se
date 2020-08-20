@@ -175,3 +175,16 @@ footer {
     color: #fff !important;
 
 }
+.feedback--answer {
+    display: inline-block;
+}
+.feedback--answer-no {
+    margin-left: 1em;
+}
+.feedback--response {
+    display: none;
+    margin-top: 1em;
+}
+.feedback--response__visible {
+    display: block;
+}
