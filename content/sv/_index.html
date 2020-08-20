@@ -3,6 +3,30 @@ title = "JobTech Dev"
 linkTitle = "JobTech dev"
 
 +++
+
+<script>
+
+
+    $(window).scroll(function(){
+        $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
+        $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
+
+
+    });
+/*    $(document).ready(function(){
+        let arrow = $('#scrollArrow').height();
+        $(window).scroll(function() {
+          let scroll = $(window).scrollTop();
+/!*          console.log(scroll+"    "+arrow.height());*!/
+            if (arrow >= scroll) {
+                $('#scrollArrow').show();
+            }else{
+                $('#scrollArrow').hide();
+            }
+        });
+    });*/
+</script>
+
 <style>
     .col > .row {
         padding: 0;
@@ -112,28 +136,7 @@ linkTitle = "JobTech dev"
     }
 
 </style>
-<script>
 
-
-    $(window).scroll(function(){
-        $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
-        $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
-
-
-    });
-/*    $(document).ready(function(){
-        let arrow = $('#scrollArrow').height();
-        $(window).scroll(function() {
-          let scroll = $(window).scrollTop();
-/!*          console.log(scroll+"    "+arrow.height());*!/
-            if (arrow >= scroll) {
-                $('#scrollArrow').show();
-            }else{
-                $('#scrollArrow').hide();
-            }
-        });
-    });*/
-</script>
 
 {{< blocks/cover title="" image_anchor="center" height="full" >}}
 <div class="row" style="margin-top: 10%">
@@ -143,7 +146,7 @@ linkTitle = "JobTech dev"
     <div class="col-lg-4 col-md-12 d-flex align-items-center">
         <div class="container d-flex align-items-left" style="text-align: left">
         <p>JobTech Development är en utvecklingsenhet inom Arbetsförmedlingen <br><br>
-            Vi erbjuder öppna data och Open Source-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad.</p>
+            Vi erbjuder öppna data och <span lang="en"> Open Source</span>-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad.</p>
         </div>
     </div>
     <div class="col-lg-4 col-md-12 mx-auto d-none d-lg-block">

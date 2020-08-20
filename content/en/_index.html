@@ -3,6 +3,29 @@ title = "JobTech Dev"
 linkTitle = "JobTech dev"
 
 +++
+
+<script>
+
+
+    $(window).scroll(function(){
+        $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
+        $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
+
+
+    });
+/*    $(document).ready(function(){
+        let arrow = $('#scrollArrow').height();
+        $(window).scroll(function() {
+          let scroll = $(window).scrollTop();
+/!*          console.log(scroll+"    "+arrow.height());*!/
+            if (arrow >= scroll) {
+                $('#scrollArrow').show();
+            }else{
+                $('#scrollArrow').hide();
+            }
+        });
+    });*/
+</script>
 <style>
     .col > .row {
         padding: 0;
@@ -111,28 +134,7 @@ linkTitle = "JobTech dev"
 
     }
 </style>
-<script>
 
-
-    $(window).scroll(function(){
-        $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
-        $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
-
-
-    });
-/*    $(document).ready(function(){
-        let arrow = $('#scrollArrow').height();
-        $(window).scroll(function() {
-          let scroll = $(window).scrollTop();
-/!*          console.log(scroll+"    "+arrow.height());*!/
-            if (arrow >= scroll) {
-                $('#scrollArrow').show();
-            }else{
-                $('#scrollArrow').hide();
-            }
-        });
-    });*/
-</script>
 {{< blocks/cover title="" image_anchor="center" height="full" >}}
 <div class="row" style="margin-top: 10%">
     <div class="col-lg-12 col-md-12 mx-auto d-lg-none mb-5">
@@ -141,7 +143,7 @@ linkTitle = "JobTech dev"
     <div class="col-lg-4 col-md-12 d-flex align-items-center">
         <div class="container d-flex align-items-left" style="text-align: left">
         <p>JobTech Development is a unit at the Swedish Public Employment Service <br><br>
-        We offer open APIs and open source technology for those who, togheter with us, want to contribute to a well-functioning labor market.</p>
+        We offer open APIs and open source technology for those who, together with us, want to contribute to a well-functioning labor market.</p>
         </div>
     </div>
     <div class="col-lg-4 col-md-12 mx-auto d-none d-lg-block">
@@ -194,7 +196,7 @@ linkTitle = "JobTech dev"
     </div>
     <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto">
         <h1 class="display-1" style="font-size: 100px">3</h1>
-        <p class="d-lg-block">Start devloping and create value for the Swedish job market</p>
+        <p class="d-lg-block">Start developing and create value for the Swedish job market</p>
     </div>
     </div>
 </div>
@@ -243,7 +245,7 @@ linkTitle = "JobTech dev"
             <div class="card mx-auto " style="max-width: 30rem;background-color: #0A0A0A;color: #fff;">
                 <div class="card-body">
                     <h5 class="card-title">Personal data</h5>
-                    <p class="card-text"> We create ways for individuals in the labor market to own, use and move their own data easily. <br><br></p>
+                    <p class="card-text"> We create ways for individuals in the labor market to own, use, and move their own data easily. <br><br></p>
                     <!--<a href="/doc/jobstream/" class="">Personal data</a>-->
                 </div>
             </div>
