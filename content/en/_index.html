@@ -3,6 +3,29 @@ title = "JobTech Dev"
 linkTitle = "JobTech dev"
 
 +++
+
+<script>
+
+
+    $(window).scroll(function(){
+        $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
+        $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
+
+
+    });
+/*    $(document).ready(function(){
+        let arrow = $('#scrollArrow').height();
+        $(window).scroll(function() {
+          let scroll = $(window).scrollTop();
+/!*          console.log(scroll+"    "+arrow.height());*!/
+            if (arrow >= scroll) {
+                $('#scrollArrow').show();
+            }else{
+                $('#scrollArrow').hide();
+            }
+        });
+    });*/
+</script>
 <style>
     .col > .row {
         padding: 0;
@@ -111,28 +134,7 @@ linkTitle = "JobTech dev"
 
     }
 </style>
-<script>
 
-
-    $(window).scroll(function(){
-        $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
-        $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
-
-
-    });
-/*    $(document).ready(function(){
-        let arrow = $('#scrollArrow').height();
-        $(window).scroll(function() {
-          let scroll = $(window).scrollTop();
-/!*          console.log(scroll+"    "+arrow.height());*!/
-            if (arrow >= scroll) {
-                $('#scrollArrow').show();
-            }else{
-                $('#scrollArrow').hide();
-            }
-        });
-    });*/
-</script>
 {{< blocks/cover title="" image_anchor="center" height="full" >}}
 <div class="row" style="margin-top: 10%">
     <div class="col-lg-12 col-md-12 mx-auto d-lg-none mb-5">

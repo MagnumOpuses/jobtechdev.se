@@ -12857,4 +12857,17 @@ assets/scss/_styles_project.scss
 .projectLink > a:hover {
   color: #fff !important; }
 
+.feedback--answer {
+  display: inline-block; }
+
+.feedback--answer-no {
+  margin-left: 1em; }
+
+.feedback--response {
+  display: none;
+  margin-top: 1em; }
+
+.feedback--response__visible {
+  display: block; }
+
 /*# sourceMappingURL=main.css.map */
