@@ -11,7 +11,6 @@
   <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
     {{ if  (gt (len .Site.Home.Translations) 0) }}
     <div class="nav-item dropdown d-block d-lg-none">
-      {{ partial "navbar-lang-selector.html" . }}
     </div>
     {{ end }}
     {{ template "section-tree-nav-section" (dict "page" . "section" .FirstSection "delayActive" $shouldDelayActive)  }}
