@@ -12855,7 +12855,8 @@ assets/scss/_styles_project.scss
   padding: 2px 25px; }
 
 .projectLink > a:hover {
-  color: #fff !important; }
+  color: #fff !important;
+  /*partial feedback*/ }
 
 .feedback--answer {
   display: inline-block; }
@@ -12870,6 +12871,7 @@ assets/scss/_styles_project.scss
 .feedback--response__visible {
   display: block; }
 
+/* ***********/
 :root #header + #content > #left > #rlblock_left {
   display: none !important; }
 
