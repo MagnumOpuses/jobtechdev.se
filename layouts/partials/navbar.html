@@ -2,7 +2,7 @@
 <nav class="js-navbar-scroll navbar navbar-expand-lg navbar-dark {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar">
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
 
-		<span class="navbar-logo" aria-describedby="Jobtech logo" >{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span>
+		<span class="navbar-logo" role="img" aria-label="Jobtech logo" >{{ if .Site.Params.ui.navbar_logo }}{{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content | safeHTML }}{{ end }}{{ end }}</span>
 	</a>
 	<button class="navbar-toggler position-fixed" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
