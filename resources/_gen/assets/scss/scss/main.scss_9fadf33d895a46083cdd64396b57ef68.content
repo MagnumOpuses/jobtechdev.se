@@ -12950,4 +12950,12 @@ assets/scss/_styles_project.scss
 .info {
   margin-top: 100px; }
 
+/* Background first page */
+.firstbg {
+  background-image: url(../img/background_large.png); }
+
+@media only screen and (min-width: 1200px) {
+  .firstbg {
+    background-image: url(../img/background_small.png); } }
+
 /*# sourceMappingURL=main.css.map */
