@@ -12395,10 +12395,10 @@ readers do not read off random characters that represent icons */
           white-space: nowrap;
           -webkit-overflow-scrolling: touch; } }
 
-#td-section-nav > ul > ul > li > ul > li > a:before {
+#td-section-nav > ul > li > ul > li > ul > li > a:before {
   content: "• "; }
 
-#td-section-nav > ul > ul > li > ul > ul > li > ul > li > a:before {
+#td-section-nav > ul > li > ul > li > ul > li > ul > li > ul > li > a:before {
   content: "- "; }
 
 .td-sidebar-nav {
