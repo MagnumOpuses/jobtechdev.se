@@ -302,3 +302,32 @@ footer {
     margin-top: 100px;
 
 }
+
+/* Background first page */
+
+.firstbg {
+    background-image: url(../img/background_large.png)
+}
+@media only screen and (min-width: 1200px) {
+    .firstbg {
+        background-image: url(../img/background_small.png) ;
+}
+}
+
+/* partial repos */
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    -webkit-box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+    -moz-box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+    box-shadow: 2px 2px 5px -1px rgba(117,117,117,1);
+}
+.btn-dark {
+    border-radius: 2px;
+    background: #fff;
+    border-width: 1px;
+    border-color: #888;
+    margin: 3px;
+}

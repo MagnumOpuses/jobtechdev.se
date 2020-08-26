@@ -11,9 +11,12 @@
 {{ $promo_image_big := (.Fill (printf "1920x1080 %s" $image_anchor)) }}
 {{ $promo_image_small := (.Fill (printf "960x540 %s" $image_anchor)) }}
 
-
 {{ end }}
-<section id="{{ $blockID }}" class="row td-cover-block td-cover-block--height-{{ $height }} js-td-cover td-overlay td-overlay--dark -bg-{{ $col_id }}">
+
+
+
+
+<section id="{{ $blockID }}" class="row td-cover-block td-cover-block--height-{{ $height }} js-td-cover td-overlay td-overlay--dark -bg-{{ $col_id }} firstbg">
   <div class="container td-overlay__inner">
     <div class="row">
       <div class="col-12">

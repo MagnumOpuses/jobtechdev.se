@@ -12395,10 +12395,10 @@ readers do not read off random characters that represent icons */
           white-space: nowrap;
           -webkit-overflow-scrolling: touch; } }
 
-#td-section-nav > ul > ul > li > ul > li > a:before {
+#td-section-nav > ul > li > ul > li > ul > li > a:before {
   content: "• "; }
 
-#td-section-nav > ul > ul > li > ul > ul > li > ul > li > a:before {
+#td-section-nav > ul > li > ul > li > ul > li > ul > li > ul > li > a:before {
   content: "- "; }
 
 .td-sidebar-nav {
@@ -12949,5 +12949,32 @@ assets/scss/_styles_project.scss
 
 .info {
   margin-top: 100px; }
+
+/* Background first page */
+.firstbg {
+  background-image: url(../img/background_large.png); }
+
+@media only screen and (min-width: 1200px) {
+  .firstbg {
+    background-image: url(../img/background_small.png); } }
+
+/* partial repos */
+.card, .td-content .highlight {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
+  -webkit-box-shadow: 2px 2px 5px -1px #757575;
+  -moz-box-shadow: 2px 2px 5px -1px #757575;
+  box-shadow: 2px 2px 5px -1px #757575; }
+
+.btn-dark {
+  border-radius: 2px;
+  background: #fff;
+  border-width: 1px;
+  border-color: #888;
+  margin: 3px; }
 
 /*# sourceMappingURL=main.css.map */
