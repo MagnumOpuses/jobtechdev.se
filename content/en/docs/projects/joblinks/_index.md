@@ -6,6 +6,6 @@ description: "Together with the largest advertising sites in Sweden, we are runn
 
 ---
 
-{{< GetGitlab "/api/gitlab/api/v4/projects/17011290/wikis/home?with_content=1 " >}}
+{{< GetMD "/api/gitlab/api/v4/projects/17011290/wikis/home?with_content=1 " >}}
 
 
