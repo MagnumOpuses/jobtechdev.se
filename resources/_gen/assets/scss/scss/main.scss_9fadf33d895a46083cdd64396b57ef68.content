@@ -12965,10 +12965,7 @@ assets/scss/_styles_project.scss
   float: none;
   /* Added */
   margin-bottom: 10px;
-  /* Added */
-  -webkit-box-shadow: 2px 2px 5px -1px #757575;
-  -moz-box-shadow: 2px 2px 5px -1px #757575;
-  box-shadow: 2px 2px 5px -1px #757575; }
+  /* Added */ }
 
 .btn-dark {
   border-radius: 2px;
