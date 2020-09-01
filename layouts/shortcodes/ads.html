@@ -85,11 +85,13 @@
     </div>
 </div>
 <script>
+    $(function () {
+        var row = document.getElementsByClassName("afTableRow");
 
-    var row = document.getElementsByClassName("afTableRow");
+        if (row.length === 0){
+            document.getElementById("afWidgetContainer").hidden = true;
+            document.getElementById("infoJobs").innerText = "";
+        }
+    })
 
-    if (row.length === 0){
-        document.getElementById("afWidgetContainer").hidden = true;
-        document.getElementById("infoJobs").innerText = "";
-    }
 </script>
