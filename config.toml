@@ -1,6 +1,5 @@
 baseURL = "/"
 title = "JobTech Dev"
-
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
@@ -37,6 +36,13 @@ plainIDAnchors = true
 hrefTargetBlank = true
 angledQuotes = false
 latexDashes = true
+
+[menu]
+    [[menu.main]]
+        ideintifier= "Forum"
+        name = "Forum"
+        url = "https://forum.jobtechdev.se"
+        weight = 21
 
 # Image processing configuration.
 [imaging]
