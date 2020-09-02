@@ -3,115 +3,7 @@ title = "JobTech Dev"
 linkTitle = "JobTech dev"
 
 +++
-<style>
-    .col > .row {
-        padding: 0;
-    }
-    .td-box .row {
-        padding: 0;
-    }
 
-    .fa-chevron-down{
-
-        -webkit-animation: bounce linear 1s;
-        -moz-animation: bounce linear 1s;
-        -o-animation: bounce linear 1s;
-    }
-    @keyframes bounce{
-        0% {
-            transform:  translate(0px,1px);
-        }
-        25% {
-            transform:  translate(0px,-14px);
-        }
-        50% {
-            transform:  translate(0px,0px);
-        }
-        75% {
-            transform:  translate(0px,-10px);
-        }
-        100% {
-            transform:  translate(0px,0px);
-        }
-    }
-
-    @-moz-keyframes bounce{
-        0% {
-            -moz-transform:  translate(0px,1px);
-        }
-        15% {
-            -moz-transform:  translate(0px,-14px);
-        }
-        30% {
-            -moz-transform:  translate(0px,0px);
-        }
-        75% {
-            -moz-transform:  translate(0px,-7px);
-        }
-        100% {
-            -moz-transform:  translate(0px,0px);
-        }
-    }
-
-    @-webkit-keyframes bounce {
-        0% {
-            -webkit-transform:  translate(0px,1px);
-        }
-        15% {
-            -webkit-transform:  translate(0px,-14px);
-        }
-        30% {
-            -webkit-transform:  translate(0px,0px);
-        }
-        75% {
-            -webkit-transform:  translate(0px,-7px);
-        }
-        100% {
-            -webkit-transform:  translate(0px,0px);
-        }
-    }
-
-    @-o-keyframes bounce {
-        0% {
-            -o-transform:  translate(0px,1px);
-        }
-        15% {
-            -o-transform:  translate(0px,-14px);
-        }
-        30% {
-            -o-transform:  translate(0px,0px)  ;
-        }
-        75% {
-            -o-transform:  translate(0px,-13px)  ;
-        }
-        100% {
-            -o-transform:  translate(00px,0px)  ;
-        }
-    }
-
-    @-ms-keyframes bounce {
-        0% {
-            -ms-transform:  translate(0px,1px)  ;
-        }
-        15% {
-            -ms-transform:  translate(0px,-14px)  ;
-        }
-        30% {
-            -ms-transform:  translate(0px,0px)  ;
-        }
-        75% {
-            -ms-transform:  translate(0px,-7px)  ;
-        }
-        100% {
-            -ms-transform:  translate(0px,0px)  ;
-        }
-    }
-    .info{
-        margin-top: 100px;
-
-    }
-
-</style>
 <script>
 
 
@@ -121,21 +13,13 @@ linkTitle = "JobTech dev"
 
 
     });
-/*    $(document).ready(function(){
-        let arrow = $('#scrollArrow').height();
-        $(window).scroll(function() {
-          let scroll = $(window).scrollTop();
-/!*          console.log(scroll+"    "+arrow.height());*!/
-            if (arrow >= scroll) {
-                $('#scrollArrow').show();
-            }else{
-                $('#scrollArrow').hide();
-            }
-        });
-    });*/
+
 </script>
 
-{{< blocks/cover title="" image_anchor="center" height="full" >}}
+
+
+
+{{< blocks/coverfirst title="" image_anchor="center" height="full" >}}
 <div class="row" style="margin-top: 10%">
     <div class="col-lg-12 col-md-12 mx-auto d-lg-none mb-5">
         <img src="weopendata.png" style="width: 75%" alt="we open data">
@@ -143,7 +27,7 @@ linkTitle = "JobTech dev"
     <div class="col-lg-4 col-md-12 d-flex align-items-center">
         <div class="container d-flex align-items-left" style="text-align: left">
         <p>JobTech Development är en utvecklingsenhet inom Arbetsförmedlingen <br><br>
-            Vi erbjuder öppna data och Open Source-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad.</p>
+            Vi erbjuder öppna data och <span lang="en"> Open Source</span>-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad.</p>
         </div>
     </div>
     <div class="col-lg-4 col-md-12 mx-auto d-none d-lg-block">
@@ -161,7 +45,7 @@ linkTitle = "JobTech dev"
 
 
 
-{{< /blocks/cover >}}
+{{< /blocks/coverfirst>}}
 
 
 
@@ -211,25 +95,22 @@ linkTitle = "JobTech dev"
     <div class="row mx-auto">
         <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto"></div>
         <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center"></div>
-        <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto">
-            <h2>Våra fokusområden</h2></div>
+        <div class="col-12 align-items-center text-center mx-auto">
+            <h2>Våra fokusområden</h2>
+        </div>
         <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center"></div>
         <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto"></div>
     </div>
 </div>
 
 <div class="col-12 container-inner mx-auto align-items-center" >
-    <div class="row mr-3 ml-5 pl-5 pr-5 card-group">
+    <div class="row ml-5 card-group mx-auto">
         <div class="col-md-12 col-lg-4 p-0 mb-2" style="background-color: #0A0A0A;color: #fff;">
             <div class="card mx-auto " style="max-width: 30rem;background-color: #0A0A0A;color: #fff;">
                 <div class="card-body">
                     <h5 class="card-title">Arbetsmarknadsdata</h5>
                     <p class="card-text">Vi skapar, samlar och kvalitetssäkrar data för att ge människor och företag bättre förutsättningar att utvecklas på arbetsmarknaden.
                     </p>
-                    <!--
-                    <button>
-                    <a href="/docs/taxonomy/" class="">Arbetsmarknadsdata</a>
-                    </button> -->
                 </div>
             </div>
         </div>
@@ -239,10 +120,6 @@ linkTitle = "JobTech dev"
                     <h5 class="card-title">Språkdata</h5>
                     <p class="card-text">Vi skapar ett gemensamt språk för svensk arbetsmarknad så att människor och företag enklare kan hitta varandra.
                     </p>
-                    <br>
-                    <!--<button>
-                        <a href="/docs/jobsearch" class="">Språkdata</a>
-                    </button> -->
                 </div>
             </div>
         </div>
@@ -252,10 +129,6 @@ linkTitle = "JobTech dev"
                     <h5 class="card-title">Individdata</h5>
                     <p class="card-text">Vi skapar möjlighet för individer på arbetsmarknaden att äga, använda och flytta sin egen data på ett enkelt sätt.
                     </p>
-                    <br>
-                   <!-- <button>
-                        <a href="#" class="">Individdata</a>
-                    </button> -->
                 </div>
             </div>
         </div>

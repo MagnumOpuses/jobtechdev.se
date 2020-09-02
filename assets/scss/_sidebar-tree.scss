@@ -3,10 +3,10 @@
 //#en-docs-apis > ul:nth-child(1) > li   #en-docs > ul:nth-child(1) > li
 
 
-#td-section-nav > ul > ul > li >ul >li > a:before {
+#td-section-nav > ul > li> ul > li >ul >li > a:before {
     content: "• ";
 }
-#td-section-nav > ul > ul > li >ul >ul >li > ul> li> a:before {
+#td-section-nav > ul >li> ul > li >ul >li > ul >li > ul> li> a:before {
     content: "- ";
 }
 .td-sidebar-nav {

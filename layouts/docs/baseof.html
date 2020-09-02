@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="{{ .Site.Language.Lang }}" class="no-js">
+<html lang="{{ .Site.Language.Lang }}" class="no-js" itemscope itemtype="http://schema.org/WebPage">
   <head>
     {{ partial "head.html" . }}
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
   </head>
   <body class="td-{{ .Kind }}">
     <header>
@@ -17,7 +17,7 @@
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
             {{ partial "toc.html" . }}
           </div>
-          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main" id="innerMainContent">
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5"  id="innerMainContent">
             {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
             {{ block "main" . }}{{ end }}
           </main>

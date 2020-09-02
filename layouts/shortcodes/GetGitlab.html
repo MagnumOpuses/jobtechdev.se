@@ -1,6 +1,6 @@
 <script src="/js/marked.min.js"></script>
 
-<div class="gcontent" id="githubcontent" geturl={{.Get 0}} ></div>
+<div class="gcontent" id="githubcontent" data-geturl={{.Get 0}} ></div>
 
 <script>
 
@@ -11,7 +11,7 @@
         }).join(''));
     }
 
-    var url = document.getElementById("githubcontent").getAttribute("geturl");
+    var url = document.getElementById("githubcontent").getAttribute("data-geturl");
 
     var request = new XMLHttpRequest();
 

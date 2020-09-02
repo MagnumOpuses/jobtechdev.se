@@ -59,13 +59,13 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "JobTechdev"
+title = "JobTech Development"
 description = "An open infrastructure for ..."
 languageName ="English"
 # Weight used for sorting.
 weight = 2
 [languages.sv]
-title = "JobTechdev"
+title = "JobTech Development"
 description = "En öppen infrastruktur för arbetsmarknaden"
 languageName ="Svenska"
 contentDir = "content/sv"

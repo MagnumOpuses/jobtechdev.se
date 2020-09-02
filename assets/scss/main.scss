@@ -38,11 +38,6 @@
 .td-box.linkbox {
     padding:1rem;
     padding-top: 5rem;
-    @media only screen and (max-width: 600px) {
-        height: 50%;
-    }
-
-
 }
 .navbar-collapse {
     flex-grow: unset;
@@ -180,4 +175,158 @@ footer {
 .projectLink > a:hover {
     color: #fff !important;
 
+/*partial feedback*/
+}
+.feedback--answer {
+    display: inline-block;
+}
+.feedback--answer-no {
+    margin-left: 1em;
+}
+.feedback--response {
+    display: none;
+    margin-top: 1em;
+}
+.feedback--response__visible {
+    display: block;
+}
+/* ***********/
+:root #header + #content > #left > #rlblock_left{
+    display:none !important;
+}
+
+
+/*index.html*/
+.col > .row {
+    padding: 0;
+}
+.td-box .row {
+    padding: 0;
+}
+
+.fa-chevron-down{
+
+    -webkit-animation: bounce linear 1s;
+    -moz-animation: bounce linear 1s;
+    -o-animation: bounce linear 1s;
+}
+@keyframes bounce{
+    0% {
+        transform:  translate(0px,1px);
+    }
+    25% {
+        transform:  translate(0px,-14px);
+    }
+    50% {
+        transform:  translate(0px,0px);
+    }
+    75% {
+        transform:  translate(0px,-10px);
+    }
+    100% {
+        transform:  translate(0px,0px);
+    }
+}
+
+@-moz-keyframes bounce{
+    0% {
+        -moz-transform:  translate(0px,1px);
+    }
+    15% {
+        -moz-transform:  translate(0px,-14px);
+    }
+    30% {
+        -moz-transform:  translate(0px,0px);
+    }
+    75% {
+        -moz-transform:  translate(0px,-7px);
+    }
+    100% {
+        -moz-transform:  translate(0px,0px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform:  translate(0px,1px);
+    }
+    15% {
+        -webkit-transform:  translate(0px,-14px);
+    }
+    30% {
+        -webkit-transform:  translate(0px,0px);
+    }
+    75% {
+        -webkit-transform:  translate(0px,-7px);
+    }
+    100% {
+        -webkit-transform:  translate(0px,0px);
+    }
+}
+
+@-o-keyframes bounce {
+    0% {
+        -o-transform:  translate(0px,1px);
+    }
+    15% {
+        -o-transform:  translate(0px,-14px);
+    }
+    30% {
+        -o-transform:  translate(0px,0px)  ;
+    }
+    75% {
+        -o-transform:  translate(0px,-13px)  ;
+    }
+    100% {
+        -o-transform:  translate(00px,0px)  ;
+    }
+}
+
+@-ms-keyframes bounce {
+    0% {
+        -ms-transform:  translate(0px,1px)  ;
+    }
+    15% {
+        -ms-transform:  translate(0px,-14px)  ;
+    }
+    30% {
+        -ms-transform:  translate(0px,0px)  ;
+    }
+    75% {
+        -ms-transform:  translate(0px,-7px)  ;
+    }
+    100% {
+        -ms-transform:  translate(0px,0px)  ;
+    }
+}
+.info{
+    margin-top: 100px;
+
+}
+
+/* Background first page */
+
+.firstbg {
+    background-image: url(../img/background_large.png)
+}
+@media only screen and (min-width: 1200px) {
+    .firstbg {
+        background-image: url(../img/background_small.png) ;
+}
+}
+
+/* partial repos */
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+}
+.btn-dark {
+    border-radius: 2px;
+    background: #fff;
+    border-width: 1px;
+    border-color: #888;
+    margin: 3px;
 }
