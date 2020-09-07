@@ -36,7 +36,7 @@ other = "i"
 other = "Gå med i "
 
 [text_develop]
-other = "Om du vill engagera dig och bidra?"
+other = "Om du vill engagera dig, disskutera eller bidra, titta in på Github, Slack eller besök vårat Forum."
 
 [how_to_contribute]
 other = "Du kan se hur du kan bidra i"
@@ -45,7 +45,7 @@ other = "Du kan se hur du kan bidra i"
 other = "Riktlinjer för bidrag"
 
 [using]
-other = "Använder du, eller vill du använda apier från"
+other = "Vill du komma i kontakt med oss eller är du nyfiken på vad som händer inom "
 
 [using_more]
 other = "? Läs mer här:"
@@ -54,7 +54,7 @@ other = "? Läs mer här:"
 other = "är ett Open source projekt som vem som helst i communityn kan använda och förbättra. Vi välkomnar dig i communityn. Här är några sätt att hålla koll på vad som händer, och hur du kan medverka"
 
 [Learn_and_connect]
-other = "Lär dig mer och kom i kontakt med oss"
+other = "Kontakta oss, eller träffa oss på Sociala Medier"
 
 [develop_and_contribute]
 other = "Utveckla och Bidra"

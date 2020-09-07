@@ -1,6 +1,5 @@
 baseURL = "/"
 title = "JobTech Dev"
-
 enableRobotsTXT = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
@@ -37,6 +36,13 @@ plainIDAnchors = true
 hrefTargetBlank = true
 angledQuotes = false
 latexDashes = true
+
+[menu]
+    [[menu.main]]
+        ideintifier= "Forum"
+        name = "Forum"
+        url = "https://forum.jobtechdev.se"
+        weight = 21
 
 # Image processing configuration.
 [imaging]
@@ -167,6 +173,12 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 	name = "Slack"
 	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtODc1MTg3NTc5NjY5LThiNThlMGU4ZTljZTQ3OGQ5ZTA3Mzg1M2JmNzg5ZTdhMjA4YzU3OTRjN2UyY2QzZjBhYTBjMzE4NjUzYzg1YWM"
 	icon = "fab fa-slack"
+        desc = ""
+
+[[params.links.developer]]
+	name = "Forum"
+	url = "https://forum.jobtechdev.se/"
+	icon = "fab fa-discourse"
         desc = ""
 
 

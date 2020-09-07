@@ -17,12 +17,14 @@
     <hr class="panel-line">
         {{ range $pages }}
             {{ if eq .Parent $parent }}
+            {{ if ne .Page.Params.hiddensidemenu true}}
                 <div class="entry">
                     <h5>
                         <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
                     </h5>
                     <p>{{ .Description | markdownify }}</p>
                 </div>
+            {{ end }}
             {{ end }}
         {{ end }}
     {{ end }}
