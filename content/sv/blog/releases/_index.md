@@ -1,8 +1,11 @@
 
 ---
-title: "New Releases"
-linkTitle: "Releases"
-weight: 20
+hiddensidemenu: true
+title: "Fem frågor..."
+linkTitle: "Fem frågor..."
+toc_hide: false
+weight: 30
+
 ---
 
 

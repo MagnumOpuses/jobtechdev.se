@@ -1,6 +1,6 @@
 ---
 title: "JobTech dev"
-linkTitle: "Blogg"
+linkTitle: ""
 
 ---
 
