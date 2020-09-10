@@ -1,5 +1,5 @@
 ---
-title: "JobTech dev"
+title: ""
 linkTitle: ""
 
 ---
