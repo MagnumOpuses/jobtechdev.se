@@ -11,9 +11,11 @@ resources:
     byline: ""
 ---
 **Fem frågor till…**    
-**Mattias Persson, ansvarig utvecklare för JobAdEnrichment – en AI-lösning som automatiskt förbättrar digitala jobbannonser så att arbetssökande och arbetsgivare lättare ska hitta varandra, oavsett vilken plattform som används.**  
-![Mattias Persson utvecklare](mattiasp.jpg)
-{{< imgproc mattiasp Fill "400x360" "float-left m-5" >}}
+**…Mattias Persson, ansvarig utvecklare för AI-lösningen JobAdEnrichments, 
+som automatiskt förbättrar digitala jobbannonser så att arbetssökande och arbetsgivare lättare ska hitta varandra, oavsett plattform.**  
+ 
+
+{{< imgproc mattiasp Fill "400x360" "float-right m-6" >}}
 Mattias Persson
 {{< /imgproc >}}
 
