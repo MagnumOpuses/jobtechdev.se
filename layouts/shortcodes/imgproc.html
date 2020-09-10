@@ -1,6 +1,7 @@
 {{ $original := .Page.Resources.GetMatch (printf "**%s*" (.Get 0)) }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
+{{ $float := .Get 3 }}
 {{ if eq $command "Fit"}}
 {{ .Scratch.Set "image" ($original.Fit $options) }}
 {{ else if eq $command "Resize"}}
@@ -11,7 +12,7 @@
 {{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
-<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: {{ add $image.Width 10 }}px">
+<div class="card {{ $float }} m-5 rounded p-2 td-post-card mb-4 mt-4" style="max-width: {{ add $image.Width 10 }}px">
 	<img class="card-img-top" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
 	{{ with .Inner }}
 	<div class="card-body px-0 pt-2 pb-0">
