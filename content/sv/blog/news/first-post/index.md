@@ -17,7 +17,7 @@ I september 2020 släpper JobTechDevelopment ett nytt API, JobAdEnrichment, som 
 Det kan vara ord som beskriver företaget eller andra yrkesroller på arbetsplatsen, och som inte har direkt koppling till den aktuella tjänsten. För att fånga upp så många sökningar som möjligt som är relevanta för ett utannonserat jobb identifierar API:et även felstavade ord, synonymer och begrepp som inte exakt motsvarar annonstexten.  
 
 ![identifierade ord](JobAd_Enrich.png)
-{{< imgproc JobAd_Enrich Fill "650x360" float-left >}}
+{{< imgproc JobAd_Enrich Fill "400x360" "float-left m-5" >}}
 Norway Spruce Picea abies shoot with foliage buds.
 {{< /imgproc >}}
 
