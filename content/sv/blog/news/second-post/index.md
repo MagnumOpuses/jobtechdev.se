@@ -1,15 +1,19 @@
-
 ---
-title: "Om Enrichment API"
-linkTitle: "Om Enrichment API"
 date: 2020-09-08
-description: 
-
+title: "Fem frågor till"
+linkTitle: "Fem frågor till"
+description: ""
+author: 
+resources:
+- src: "**mattiasp*.jpg"
+  title: "Image #:counter"
+  params:
+    byline: ""
 ---
-
 **Fem frågor till…**    
 **Mattias Persson, ansvarig utvecklare för JobAdEnrichment – en AI-lösning som automatiskt förbättrar digitala jobbannonser så att arbetssökande och arbetsgivare lättare ska hitta varandra, oavsett vilken plattform som används.**  
-![Mattias Persson utvecklare](../../../../static/img/mattiasp.jpg)
+![Mattias Persson utvecklare](mattiasp.jpg)
+
 
 
 <!-- There should be no margin above this first sentence.
@@ -42,4 +46,13 @@ Utan att överdriva kan jag säga att det har varit ett tålamodsprövande arbet
 ### Hur kan JobAdEnrichment bidra till en bättre arbetsmarknad?
 *”Förutom att det effektiviserar matchningen så ger API:et oss helt ny information om arbetsmarknaden, och med den fördjupade kunskapen skapas förutsättningar för nya digitala matchnings- och vägledningstjänster. 
 Det ska bli spännande att se hur API:et tas emot av utvecklare och andra aktörer som följer vårt arbete, och jag hoppas på att få se många innovativa tjänster med JobAdEnrichment som en del i lösningen.”*
+
+
+
+
+
+
+
+
+
 
