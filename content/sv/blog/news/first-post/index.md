@@ -5,7 +5,7 @@ linkTitle: "Ny AI-lösning"
 description: ""
 author: Anna Hansson 
 resources:
-- src: "*JobAd_Enrich*.png"
+- src: "**JobAd_Enrich*.png"
   title: "Image #:counter"
   params:
     byline: ""
@@ -16,7 +16,10 @@ resources:
 I september 2020 släpper JobTechDevelopment ett nytt API, JobAdEnrichment, som bygger på AI-teknik. API:et identifierar automatiskt ord och uttryck i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort. 
 Det kan vara ord som beskriver företaget eller andra yrkesroller på arbetsplatsen, och som inte har direkt koppling till den aktuella tjänsten. För att fånga upp så många sökningar som möjligt som är relevanta för ett utannonserat jobb identifierar API:et även felstavade ord, synonymer och begrepp som inte exakt motsvarar annonstexten.  
 
-![identifierade ord](../../../../../static/img/JobAd_Enrich.png)
+![identifierade ord](JobAd_Enrich.png)
+{{< imgproc JobAd_Enrich Fill "400x450" >}}
+Norway Spruce Picea abies shoot with foliage buds.
+{{< /imgproc >}}
 
 Med hjälp av JobAdEnrichment blir det betydligt lättare att navigera och snabbt hitta rätt bland platsannonser i digitala annonsplattformar. Den arbetssökande slipper lägga tid på att sortera sökträffar och detaljgranska långa annonstexter för att se om de innehåller information som är intressant och relevant.  
 
