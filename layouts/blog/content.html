@@ -1,5 +1,11 @@
 <div class="td-content">
+	{{ if (.Params.articleTitle) }}
+	<h1>{{ .Params.articleTitle }}</h1>
+	{{ else if not (.Params.articleTitle) }}
 	<h1>{{ .Title }}</h1>
+	{{ else }}
+	{{ end }}
+
 	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
 	<div class="td-byline mb-4">
 		{{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
