@@ -34,7 +34,7 @@ API:et kan också användas vid utveckling av digitala tjänster som vänder sig
 *	Vilka begrepp efterfrågas vanligtvis för ett yrke? Saknas viktiga ord i vår annons?  
 *	Hur unik är vår annons jämfört med andra annonser inom samma område? Använder vi ord och uttryck som det går inflation i och därmed inte är så användbara.  
 
-**Är du utvecklare och vill använda vår nya AI-lösning? Här kommer du igång med  [JobAd Enrichments](https://jobtechdev.se/docs/apis/enrich/),som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.
+**Är du utvecklare och vill använda vår nya AI-lösning? Här kommer du igång med  [JobAd Enrichments](https://jobtechdev.se/docs/apis/enrich/),som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.**
 
 **I vårt [forum](https://forum.jobtechdev.se) kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra våra API:er.  
  Välkommen in!** 
