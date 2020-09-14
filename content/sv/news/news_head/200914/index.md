@@ -12,7 +12,7 @@ resources:
 ---
 **Irrelevanta sökträffar och märkliga jobbförslag är något många arbetssökande känner igen – och gärna slipper. Med AI-lösningen JobAd Enrichments, som är fritt för alla matchningsaktörer att använda, kan problemet undvikas, samtidigt som det bidrar till fördjupade insikter om arbetsmarknaden.**
 
-AOI:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort.
+API:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort.
 ![identifierade ord](jobadenrich.png)
 
 
