@@ -1,5 +1,5 @@
 ---
-date: 2020-09-08
+date: 2020-09-07
 articleTitle: "Fem frågor till..."
 title: "Fem frågor till"
 linkTitle: "Fem frågor till..."
