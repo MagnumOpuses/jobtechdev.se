@@ -12,9 +12,7 @@ resources:
 ---
 **Irrelevanta sökträffar och märkliga jobbförslag är något många arbetssökande känner igen – och gärna slipper. Med AI-lösningen JobAd Enrichments, som är fritt för alla matchningsaktörer att använda, kan problemet undvikas, samtidigt som det bidrar till fördjupade insikter om arbetsmarknaden.**
 
-I september 2020 släpper JobTechDevelopment ett nytt API, JobAd Enrichments, som bygger på AI-teknik. API:et identifierar automatiskt ord och uttryck i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort. 
-Det kan vara ord som beskriver företaget eller andra yrkesroller på arbetsplatsen, och som inte har direkt koppling till den aktuella tjänsten. För att fånga upp så många sökningar som möjligt som är relevanta för ett utannonserat jobb identifierar API:et även felstavade ord, synonymer och begrepp som inte exakt motsvarar annonstexten.  
-
+AOI:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort.
 ![identifierade ord](jobadenrich.png)
 
 
@@ -36,8 +34,7 @@ API:et kan också användas vid utveckling av digitala tjänster som vänder sig
 *	Vilka begrepp efterfrågas vanligtvis för ett yrke? Saknas viktiga ord i vår annons?  
 *	Hur unik är vår annons jämfört med andra annonser inom samma område? Använder vi ord och uttryck som det går inflation i och därmed inte är så användbara.  
 
-**Är du utvecklare och vill använda JobAd Enrichments, som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.   
-Här kommer du igång med [JobAd Enrichments](https://jobtechdev.se/docs/apis/enrich/)!**  
+**Är du utvecklare och vill använda vår nya AI-lösning? Här kommer du igång med  [JobAd Enrichments](https://jobtechdev.se/docs/apis/enrich/),som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.
 
 **I vårt [forum](https://forum.jobtechdev.se) kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra våra API:er.  
  Välkommen in!** 
