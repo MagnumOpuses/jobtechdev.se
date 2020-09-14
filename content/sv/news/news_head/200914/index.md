@@ -1,5 +1,5 @@
 ---
-date: 2020-09-08
+date: 2020-09-14
 title: "Ny AI-lösning förbättrar jobbannonser och effektiviserar digitala matchningstjänster"
 linkTitle: "Ny AI-lösning"
 description: ""
