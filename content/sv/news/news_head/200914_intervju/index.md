@@ -1,5 +1,5 @@
 ---
-date: 2020-09-08
+date: 2020-09-07
 articleTitle: "Fem frågor till..."
 title: "Fem frågor till"
 linkTitle: "Fem frågor till..."
@@ -13,18 +13,15 @@ resources:
 ---
   
 **…Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
-
-
 {{< imgproc mattiasp Fill "400x360" "float-right m-6" >}}
-Mattias Persson
+
 {{< /imgproc >}}
 
 
 <!-- There should be no margin above this first sentence.
->
-> Blockquotes should be a lighter gray with a border along the left side in the secondary color.
->
-> There should be no margin below this final sentence.-->
+<!-- Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+
+<!--There should be no margin below this final sentence.-->
 
 ### Vad ligger bakom satsningen på JobAd Enrichments?
 
