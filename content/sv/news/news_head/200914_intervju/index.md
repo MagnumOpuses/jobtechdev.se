@@ -1,5 +1,5 @@
 ---
-date: 2020-09-14
+date: 2020-09-13
 articleTitle: "Fem frågor till..."
 title: "Fem frågor till"
 linkTitle: "Fem frågor till..."
@@ -51,7 +51,12 @@ Utan att överdriva kan jag säga att det har varit ett tålamodsprövande arbet
 Det ska bli spännande att se hur API:et tas emot av utvecklare och andra aktörer som följer vårt arbete, och jag hoppas på att få se många innovativa tjänster med JobAd Enrichments som en del i lösningen.”*
 
 
+**Är du utvecklare och vill använda vår nya AI-lösning? Här kommer du igång med  [JobAd Enrichments](https://jobtechdev.se/docs/apis/enrich/),som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.**
 
+**I vårt [forum](https://forum.jobtechdev.se) kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra våra API:er.  
+ Välkommen in!** 
+ 
+ **Det går även bra att kontakta oss via [Epost](mailto:jobtechdevelopment@arbetsformelingen.se)**
 
 
 
