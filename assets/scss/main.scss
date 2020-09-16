@@ -29,7 +29,10 @@
 @import "section-index";
 @import "pageinfo";
 
-
+.skiplink-text {
+    z-index: 100;
+    position: fixed;
+}
 
 
 @if $td-enable-google-fonts {

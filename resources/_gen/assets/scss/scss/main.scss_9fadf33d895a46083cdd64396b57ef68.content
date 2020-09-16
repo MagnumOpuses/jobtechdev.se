@@ -12742,6 +12742,10 @@ readers do not read off random characters that represent icons */
     border-style: solid;
     border-color: #efefef; }
 
+.skiplink-text {
+  z-index: 100;
+  position: fixed; }
+
 .td-box.linkbox {
   padding: 1rem;
   padding-top: 5rem; }
