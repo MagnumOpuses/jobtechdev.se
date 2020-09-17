@@ -12746,7 +12746,8 @@ readers do not read off random characters that represent icons */
   background: #fff;
   color: #000;
   height: 30px;
-  left: 50%;
+  width: 100%;
+  text-align: center;
   z-index: 100;
   padding: 2px;
   padding-left: 5px;
