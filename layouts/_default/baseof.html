@@ -10,7 +10,7 @@
       {{ partial "navbar.html" . }}
     </header>
     <div class="container-fluid td-default td-outer">
-      <main  class="td-main">
+      <main id="innerMainContent"  class="td-main">
         {{ block "main" . }}{{ end }}
         {{ partial "footer.html" . }}
       </main>
