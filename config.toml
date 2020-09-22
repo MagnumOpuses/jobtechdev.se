@@ -109,7 +109,7 @@ version_menu = "Releases"
 algolia_docsearch =false
 
 # Enable local search
-offlineSearch = true
+offlineSearch = false
 
 # User interface configuration
 [params.ui]
