@@ -27,11 +27,11 @@
 
                     <div class="card-footer text-center">
                         {{if in .Params.link "https://github.com"}}
-                            <a href="{{.Params.link}}" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12"  target="_blank"> Github</a>
+                            <a href="{{.Params.link}}" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Github</a>
                         {{else if in .Params.link "https://gitlab.com/"}}
-                        <a href="{{.Params.link}}" class="fab fa-gitlab fa-1x btn-dark btn out mx-auto col-12"  target="_blank"> Gitlab</a>
+                        <a href="{{.Params.link}}" class="fab fa-gitlab fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Gitlab</a>
                         {{else }}
-                        <a href="{{.Params.link}}" class="btn-dark btn out mx-auto col-12"  target="_blank"> Code</a>
+                        <a href="{{.Params.link}}" class="btn-dark btn out mx-auto col-12" target="_blank"> Code</a>
                         {{end}}
 
                     </div>
