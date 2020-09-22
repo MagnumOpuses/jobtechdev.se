@@ -29,7 +29,7 @@ COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
 RUN npm install
-RUN npm install -D --save autoprefixer && npm install -D --save postcss-cli@7.1.2
+RUN npm install -D --save autoprefixer@9.8.6 && npm install -D --save postcss-cli@7.1.2
 RUN hugo
 #Create Document root
 RUN mkdir /opt/nginx
