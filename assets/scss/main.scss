@@ -30,22 +30,22 @@
 @import "pageinfo";
 
 .skip-to-content-link {
-  background: #fff;
+    background: #fff;
     color:#000;
-  height: 30px;
+    height: 30px;
     width: 100%;
-  text-align: center;
+    text-align: center;
     z-index: 100;
-  padding: 2px;
+    padding: 2px;
     padding-left: 5px;
     padding-right: 5px;
-  position: absolute;
-  transform: translateY(-100%);
-  transition: transform 0.4s;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.4s;
 }
 
 .skip-to-content-link:focus {
-  transform: translateY(0%);
+    transform: translateY(0%);
     text-decoration: underline;
 }
 
