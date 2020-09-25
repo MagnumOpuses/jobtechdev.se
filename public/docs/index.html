@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="sv" class="no-js">
+<html lang="sv" class="no-js" itemscope itemtype="http://schema.org/WebPage">
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,47 +17,136 @@
 <link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
 <link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
 <link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
-<link rel="icon" type="image/png" href="/favicons/android-96x196.png" sizes="96x196">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
-<link rel="icon" type="image/png" href="/favicons/android-192x192.png"sizes="192x192">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>Dokumentation | JobTechdev</title><meta property="og:title" content="Dokumentation" />
-<meta property="og:description" content="En öppen infrastruktur för arbetsmarknaden" />
+<title>docs | JobTech Development</title><meta property="og:title" content="docs" />
+<meta property="og:description" content="her you can find pen by default och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/docs/" />
-<meta property="og:site_name" content="JobTechdev" />
-<meta itemprop="name" content="Dokumentation">
-<meta itemprop="description" content="En öppen infrastruktur för arbetsmarknaden">
+
+<meta property="og:updated_time" content="2018-01-28T21:58:09+01:00" /><meta property="og:site_name" content="JobTech Development" />
+<meta itemprop="name" content="docs">
+<meta itemprop="description" content="her you can find pen by default och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på.">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dokumentation"/>
-<meta name="twitter:description" content="En öppen infrastruktur för arbetsmarknaden"/>
+<meta name="twitter:title" content="docs"/>
+<meta name="twitter:description" content="her you can find pen by default och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på."/>
 
 
 
 
 
-<link rel="preload" href="/scss/main.min.09e7d522d5846094a77df8fe690c2672d05ec6a02218a7463cb37d7c6962580c.css" as="style">
-<link href="/scss/main.min.09e7d522d5846094a77df8fe690c2672d05ec6a02218a7463cb37d7c6962580c.css" rel="stylesheet" integrity="">
+<link rel="preload" href="" as="style">
+<link href="" rel="stylesheet" integrity="">
+
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 
+<script
+  src="https://unpkg.com/lunr@2.3.8/lunr.min.js"
+  integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY"
+  crossorigin="anonymous"></script>
 
-    <title>Dokumentation | JobTechdev</title>
+
+
+
+
+
+
+
+<script src="/js/cookieconsent.min.js"></script>
+
+
+<style >
+    :root #header + #content > #left > #rlblock_left{
+        display:none !important;
+    }
+    
+</style>
+
+
+
+
+<script type="text/javascript">
+    var _mtm = _mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://af.analytics.elx.cloud/js/container_WpJWAlSl.js'; s.parentNode.insertBefore(g,s);
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/cookieconsent.min.css" />
+<script src="/js/cookieconsent.min.js"></script>
+
+
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#ececec"
+                }
+            },
+            "content": {
+                "dismiss": "Got it!",
+                "link": "Cookie Policy",
+                "href": "/docs/apis/cookie_policy"
+            }
+        })});
+
+</script>
+
+
+
   </head>
   <body class="td-section">
     <header>
       
-<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+	<a href="#innerMainContent" class="skip-to-content-link">Hoppa till innehåll</a>
+
+
+
+<nav class="js-navbar-scroll navbar navbar-expand-lg navbar-dark flex-column flex-md-row td-navbar">
         <a class="navbar-brand" href="/">
-		<span class="navbar-logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149v0 0zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.328-2.2733-15.458-6.4032s-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zM197.0804 232.033c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zM197.0839 232.0372c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zM197.0839 232.0372c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><path style="fill:#5b7fc0" d="M198.8952 225.1043h122.6266v13.8671H198.8952z"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.328-2.2733-15.458-6.4032s-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zM197.0804 177.6188c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zM197.0839 177.623c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zM197.0839 177.623c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><path style="fill:#d95140" d="M198.8952 170.69h122.6266v13.8671H198.8952z"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zM197.5309 286.4723c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zM197.5344 286.4765c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zM197.5344 286.4765c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><path style="fill:#56a55c" d="M199.3456 279.5436h122.6266v13.8671H199.3456z"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.328-2.2733-15.458-6.4032-4.13-4.1299-6.4032-9.6186-6.4056-15.4628.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zM197.0804 340.5784c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zM197.0839 340.5826c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zM197.0839 340.5826c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><path style="fill:#f1bc42" d="M198.8952 333.6497h122.6266v13.8671H198.8952z"/></g></g></svg></span><span class="text-uppercase font-weight-bold">JobTechdev</span>
+
+		<span class="navbar-logo" role="img" aria-label="Jobtech logo" ><svg id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="210 237 450 120" style="enable-background:new 0 0 841.89 595.28"><style>.st0{fill:none;stroke:#000;stroke-width:2.2367;stroke-miterlimit:10}</style><g><g><path d="M321.16 240.3v55h209.96v-55H321.16zM362.14 274.97c0 4.78-3.43 7.81-8.41 7.81-4.51.0-7.45-2.47-8.29-6.58l3.67-.76c.52 2.23 1.72 4.03 4.66 4.03 2.87.0 4.51-1.63 4.51-5.1v-16.58h-9.89v-3.31h13.75V274.97zM378.66 282.78c-5.9.0-9.53-4.19-9.53-10.76.0-6.58 3.63-10.76 9.53-10.76 5.9.0 9.53 4.19 9.53 10.76C388.18 278.6 384.56 282.78 378.66 282.78zM404.34 282.78c-2.99.0-5.06-1.4-6.3-3.91h-.2v3.43h-3.71v-29.5h3.71v12.36h.2c1.24-2.51 3.31-3.91 6.3-3.91 4.9.0 7.97 3.91 7.97 10.76C412.32 278.88 409.25 282.78 404.34 282.78zM437.48 257.79h-9.05v24.52h-3.83v-24.52h-9.05v-3.31h21.92V257.79zM459.86 272.94h-14.99v.84c0 3.43 2.27 5.9 6.02 5.9 2.67.0 4.7-1.28 5.82-3.39l2.51 1.95c-1.31 2.63-4.22 4.54-8.37 4.54-6.1.0-9.81-4.19-9.81-10.72.0-6.62 3.87-10.8 9.53-10.8 5.66.0 9.29 4.19 9.29 10.13V272.94zM475.14 282.78c-6.02.0-9.57-4.23-9.57-10.76.0-6.54 3.59-10.76 9.53-10.76 4.07.0 6.58 1.95 7.77 4.78l-2.91 1.6c-.76-2.03-2.39-3.27-4.86-3.27-3.55.0-5.58 2.47-5.58 5.9v3.51c0 3.43 1.99 5.9 5.66 5.9 2.63.0 4.31-1.36 5.34-3.47l2.67 1.75C481.96 280.75 479.33 282.78 475.14 282.78zM506.84 282.31h-3.71v-12.6c0-3.55-1.6-5.3-4.58-5.3-2.43.0-4.82 1.2-4.82 3.79v14.11h-3.71v-29.5h3.71v12.36h.16c.88-2.07 2.51-3.91 5.9-3.91 4.22.0 7.06 2.83 7.06 7.81V282.31z"/><path d="M378.66 264.33c-3.39.0-5.58 2.03-5.58 6.18v3.03c0 4.15 2.19 6.18 5.58 6.18 3.39.0 5.58-2.03 5.58-6.18v-3.03C384.24 266.36 382.05 264.33 378.66 264.33z"/><path d="M450.61 264.21c-3.35.0-5.74 2.47-5.74 5.86v.32h11.12v-.44C455.99 266.52 453.84 264.21 450.61 264.21z"/><path d="M402.83 264.41c-2.67.0-4.98 1.4-4.98 4.03v7.18c0 2.63 2.31 4.02 4.98 4.02 3.51.0 5.54-2.35 5.54-5.9v-3.43C408.37 266.76 406.34 264.41 402.83 264.41z"/></g><g><path d="M424.98 321.88c-3.33.0-5.7 2.46-5.7 5.83v.32h11.05v-.44C430.33 324.18 428.19 321.88 424.98 321.88z"/><path d="M543.89 321.88c-3.33.0-5.7 2.46-5.7 5.83v.32h11.05v-.44C549.24 324.18 547.1 321.88 543.89 321.88z"/><path d="M472.39 322c-3.37.0-5.55 2.02-5.55 6.14v3.01c0 4.12 2.18 6.14 5.55 6.14s5.54-2.02 5.54-6.14v-3.01C477.93 324.02 475.76 322 472.39 322z"/><path d="M496.41 322.08c-2.65.0-4.95 1.39-4.95 4v7.13c0 2.62 2.3 4 4.95 4 3.49.0 5.51-2.34 5.51-5.86v-3.41C501.91 324.42 499.89 322.08 496.41 322.08z"/><path d="M352.88 315.46h-3.96v21.15h3.96c4.2.0 6.38-3.05 6.38-8.36v-4.44C359.26 318.51 357.08 315.46 352.88 315.46z"/><path d="M377.42 321.88c-3.33.0-5.7 2.46-5.7 5.83v.32h11.05v-.44C382.77 324.18 380.63 321.88 377.42 321.88z"/><path d="M321.16 299.67v55h303.08v-55H321.16zM353.08 339.87h-7.96v-27.65h7.96c6.85.0 10.22 4.79 10.22 13.83C363.3 335.07 359.93 339.87 353.08 339.87zM386.61 330.56h-14.89v.83c0 3.41 2.26 5.86 5.98 5.86 2.65.0 4.67-1.27 5.78-3.37l2.5 1.94c-1.31 2.61-4.2 4.52-8.32 4.52-6.06.0-9.74-4.16-9.74-10.66.0-6.58 3.84-10.74 9.47-10.74 5.63.0 9.23 4.16 9.23 10.06V330.56zM403.34 339.87h-4.6l-7.33-20.44h3.76l2.89 8.6 2.93 8.75h.2l2.93-8.75 2.85-8.6h3.68L403.34 339.87zM434.17 330.56h-14.9v.83c0 3.41 2.26 5.86 5.98 5.86 2.65.0 4.67-1.27 5.78-3.37l2.5 1.94c-1.31 2.61-4.2 4.52-8.32 4.52-6.06.0-9.74-4.16-9.74-10.66.0-6.58 3.84-10.74 9.47-10.74 5.63.0 9.23 4.16 9.23 10.06V330.56zM457.4 339.87h-17.59v-3.05h6.93V313.6h-6.93v-3.05h10.62v26.26h6.97V339.87zM472.39 340.34c-5.86.0-9.47-4.16-9.47-10.7.0-6.54 3.6-10.7 9.47-10.7 5.86.0 9.47 4.16 9.47 10.7C481.86 336.18 478.25 340.34 472.39 340.34zM497.91 340.34c-2.97.0-5.03-1.39-6.26-3.88h-.2v11.33h-3.68v-28.36h3.68v3.41h.2c1.23-2.49 3.29-3.88 6.26-3.88 4.87.0 7.92 3.88 7.92 10.7C505.84 336.46 502.79 340.34 497.91 340.34zM529.93 339.87h-3.29v-13.75c0-3.17-.63-4.24-2.38-4.24-1.5.0-2.65 1.03-2.65 3.05v14.93h-3.29v-13.75c0-3.17-.63-4.24-2.34-4.24-1.58.0-2.69 1.03-2.69 3.05v14.93h-3.29v-20.44h3.29v2.49h.2c.63-1.62 1.66-2.97 3.88-2.97 2.26.0 3.49 1.31 3.76 3.25h.16c.71-1.86 1.98-3.25 4.4-3.25 3.25.0 4.24 2.34 4.24 6.65V339.87zM553.08 330.56h-14.89v.83c0 3.41 2.26 5.86 5.98 5.86 2.65.0 4.67-1.27 5.78-3.37l2.5 1.94c-1.31 2.61-4.2 4.52-8.32 4.52-6.06.0-9.74-4.16-9.74-10.66.0-6.58 3.84-10.74 9.47-10.74 5.63.0 9.23 4.16 9.23 10.06V330.56zM575.99 339.87h-3.68v-12.52c0-3.53-1.59-5.27-4.56-5.27-2.42.0-4.79 1.19-4.79 3.76v14.03h-3.68v-20.44h3.68v3.41h.16c.87-2.06 2.5-3.88 5.86-3.88 4.2.0 7.01 2.81 7.01 7.76V339.87zM600.29 322.47h-9.07v14.34h9.07v3.05h-7.88c-3.33.0-4.87-2.02-4.87-4.91v-12.48H581v-3.05h4.75c1.43.0 1.98-.52 1.98-1.98v-5.23h3.49v7.21h9.07V322.47z"/></g></g><g><path class="st0" d="M258.92 290.47v-27.11h.01v-5.69h-.01-5.69-28.81v-7.13h14.56c1.11 2.67 3.75 4.55 6.82 4.55 4.08.0 7.39-3.31 7.39-7.39s-3.31-7.39-7.39-7.39c-3.08.0-5.71 1.88-6.82 4.55h-14.56-5.69v5.69 7.13 5.69h5.69 28.81v27.11c-2.67 1.11-4.55 3.75-4.55 6.82.0 4.08 3.31 7.39 7.39 7.39 4.08.0 7.39-3.31 7.39-7.39C263.47 294.22 261.59 291.58 258.92 290.47z"/><path class="st0" d="M301.75 244.85h-28.83-5.69-.04v5.69h.04c0 12.87.0 44.97.0 68.77.0 16.73-7.17 22.03-15.37 23.7-1.34-1.89-3.54-3.12-6.03-3.12-4.08.0-7.39 3.31-7.39 7.39.0 4.08 3.31 7.39 7.39 7.39 3.27.0 6.04-2.13 7.02-5.07 12.65-2.44 20.04-9.59 20.07-30.47.04-28.22.01-46.51.0-68.6h28.83v7.13h-14.69-5.69-.02v5.69h.02v77.1c-2.67 1.11-4.55 3.75-4.55 6.83.0 4.08 3.31 7.39 7.39 7.39 4.08.0 7.39-3.31 7.39-7.39.0-3.08-1.88-5.71-4.55-6.82v-77.1h14.69 5.69v-5.69-7.13-5.69H301.75z"/></g></svg></span>
 	</a>
-	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+	<button class="navbar-toggler position-fixed" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="td-navbar-nav-scroll ml-md-auto navbar-collapse collapse"  id="main_navbar">
+		<div class="navbar-nav-s-s">
 		<ul class="navbar-nav mt-2 mt-lg-0">
 			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/docs/apis/" ><span>API:er</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/docs/projects/" ><span>Projekt</span></a>
+			</li>
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
 				
@@ -76,48 +165,56 @@
 				
 				
 				
-				<a class="nav-link active" href="/docs/" ><span class="active">Dokumentation</span></a>
-			</li>
-			
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-				
-				
-				
-				
-				
-				
-				<a class="nav-link" href="/blog/" ><span>Blogg</span></a>
-			</li>
-			
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-				
-				
-				
-				
-				
-				
 				<a class="nav-link" href="/community/" ><span>Community</span></a>
 			</li>
 			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="https://forum.jobtechdev.se" target="_blank" ><span>Forum</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/repo/" ><span>Källkod</span></a>
+			</li>
 			
 			
-			<li class="nav-item dropdown d-none d-lg-block">
+			
+			<li class="nav-item dropdown  d-lg-block">
 				
 
 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	Svenska
 </a>
-<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	
 	<a class="dropdown-item" href="/en/docs/">English</a>
 	
 </div>
 			</li>
+
 			
 		</ul>
-	</div>
+		</div>	</div>
 	<div class="navbar-nav d-none d-lg-block">
- <input type="search" class="form-control td-search-input" placeholder="&#xf002 Sök på sidan" aria-label="Sök på sidan" autocomplete="off">
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; Sök på sidan"
+  aria-label="Sök på sidan"
+  autocomplete="off"
+  data-offline-search-index-json-url="/offline-search-index.af3e242a7e548b466e034378f7a93f24c5abcbedb2a4eb7ca7fc4c491dfc683f3461b94ace31a052c88d241b6f3bd7a55f005bd0e0f2d0e7dba690d6ee2cb1e8.json"
+>
 </div>
 </nav>
 
@@ -133,27 +230,9 @@
 
 <div id="td-sidebar-menu" class="td-sidebar__inner">
   
-  <form class="td-sidebar__search d-flex align-items-center">
-    
- <input type="search" class="form-control td-search-input" placeholder="&#xf002 Sök på sidan" aria-label="Sök på sidan" autocomplete="off">
-
-    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
-    </button>
-  </form>
-  
   <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
     
     <div class="nav-item dropdown d-block d-lg-none">
-      
-
-<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	Svenska
-</a>
-<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	
-	<a class="dropdown-item" href="/en/docs/">English</a>
-	
-</div>
     </div>
     
     
@@ -165,15 +244,16 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Dokumentation</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse show" id="docs">
-      
-      
-      
-      
-      
+      <li class=" collapse show" id="docs">
+        
+        
+        
+        
+        
 
 
 
@@ -182,21 +262,18 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/overview/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Introduktion</a>
+    
+    <a  href="/docs/apis/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">API:er</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-overview">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
+      <li class=" collapse " id="docs-apis">
+        
+        
+        
+        
+        
 
 
 
@@ -205,21 +282,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/apis/license/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Licens</a>
+    
+    <a  href="/docs/apis/jobsearch/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Job Search</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="apis-license">
-      
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-apis-jobsearch">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -228,15 +309,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Öppna data</a>
+    
+    <a  href="/docs/apis/enrich/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">JobAd Enrichments</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-apis-enrich">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -245,21 +336,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/examples/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Exempel Tjänster</a>
+    
+    <a  href="/docs/apis/jobstream/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Job Stream</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-examples">
-      
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-apis-jobstream">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -268,15 +363,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Apier</a>
+    
+    <a  href="/docs/apis/occupations/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Yrkesinfo</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-apis-occupations">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -285,15 +390,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/occupations/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Af Yrkes info</a>
+    
+    <a  href="/docs/apis/ontology/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Ontologi</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-occupations">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-apis-ontology">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -302,33 +417,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/apis/af-occupation-info/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting started</a>
+    
+    <a  href="/docs/apis/historical/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Historical Jobs</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="apis-af-occupation-info">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-opendata-apis-occupations-getting-started-example-page" href="/docs/opendata/apis/occupations/getting-started/example-page/">Example Page</a>
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-apis-historical">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -337,15 +444,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/forecasts/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Af Yrkesprognoser</a>
+    
+    <a  href="/docs/apis/taxonomy/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Taxonomi</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-forecasts">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-apis-taxonomy">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -354,33 +471,32 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/forecasts/getting-started/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+    
+    <a  href="/docs/apis/forecasts/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Yrkesprognoser</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-forecasts-getting-started">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-opendata-apis-forecasts-getting-started-example-page" href="/docs/opendata/apis/forecasts/getting-started/example-page/">Example Page</a>
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-apis-forecasts">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-    </li>
-  </ul>
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -389,15 +505,18 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/jobsearch/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Job Search</a>
+    
+    <a  href="/docs/projects/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Projekt</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-jobsearch">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-projects">
+        
+        
+        
+        
+        
 
 
 
@@ -406,33 +525,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/jobsearch/getting-started/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+    
+    <a  href="/docs/projects/af_connect/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Af Connect</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-jobsearch-getting-started">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-opendata-apis-jobsearch-getting-started-example-page" href="/docs/opendata/apis/jobsearch/getting-started/example-page/">Example Page</a>
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-projects-af-connect">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -441,15 +552,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/jobstream/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Job Stream</a>
+    
+    <a  href="/docs/projects/alljobads/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">AllJobAds</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-jobstream">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-projects-alljobads">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -458,33 +579,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/jobstream/getting-started/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+    
+    <a  href="/docs/projects/datauniverse/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Data Universe</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-jobstream-getting-started">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-opendata-apis-jobstream-getting-started-example-page" href="/docs/opendata/apis/jobstream/getting-started/example-page/">Example Page</a>
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-projects-datauniverse">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -493,15 +606,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/ontology/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Ontologi</a>
+    
+    <a  href="/docs/projects/egendata/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">EgenData</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-ontology">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-projects-egendata">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -510,33 +633,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/apis/ontology/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+    
+    <a  href="/docs/projects/joblinks/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Joblinks</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="apis-ontology">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-opendata-apis-ontology-getting-started-example-page" href="/docs/opendata/apis/ontology/getting-started/example-page/">Example Page</a>
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-projects-joblinks">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -545,15 +660,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/taxonomy/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Taxonomi</a>
+    
+    <a  href="/docs/projects/jobscanner/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">JobScanner</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-taxonomy">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-projects-jobscanner">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -562,39 +687,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/apis/taxonomy/getting-started/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Getting Started</a>
+    
+    <a  href="/docs/projects/jobtech-store/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">JobTech Store</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-apis-taxonomy-getting-started">
-      
-      
-      
-      
-      
-      
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-opendata-apis-taxonomy-getting-started-example-page" href="/docs/opendata/apis/taxonomy/getting-started/example-page/">Example Page</a>
-      
-      
-    </li>
-  </ul>
+      <li class=" collapse " id="docs-projects-jobtech-store">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
+        
+        
+        
+        
 
 
 
@@ -603,15 +714,25 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/datasets/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Dataset</a>
+    
+    <a  href="/docs/projects/kunskapsdelning/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Kunskapsdelning</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-datasets">
-      
-      
-      
-      
-      
+      <li class=" collapse " id="docs-projects-kunskapsdelning">
+        
+        
+        
+      </li>
+    </ul>
+  </li>
+</ul>
+
+        
+        
+        
+        
 
 
 
@@ -620,79 +741,33 @@
 
 <ul class="td-sidebar-nav__section pr-md-3">
   <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/opendata/datasets/historical/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Historical Jobs</a>
+    
+    <a  href="/docs/projects/taxonomyviewer/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Taxonomy Viewer</a>
+    
   </li>
+  <li>
     <ul>
-    <li class="collapse " id="docs-opendata-datasets-historical">
-      
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-      
-      
-
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/open_projects/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Öppna Projekt</a>
+      <li class=" collapse " id="docs-projects-taxonomyviewer">
+        
+        
+        
+      </li>
+    </ul>
   </li>
-    <ul>
-    <li class="collapse " id="docs-open-projects">
-      
-      
-      
-      
-      
+</ul>
 
-
-
-
-
-
-<ul class="td-sidebar-nav__section pr-md-3">
-  <li class="td-sidebar-nav__section-title">
-    <a  href="/docs/open_projects/gravity/" class="align-left pl-0 pr-2 collapsed td-sidebar-link td-sidebar-link__section">Gravity</a>
+        
+        
+      </li>
+    </ul>
   </li>
-    <ul>
-    <li class="collapse " id="docs-open-projects-gravity">
-      
-      
-      
-    </li>
-  </ul>
 </ul>
 
-      
-      
-    </li>
-  </ul>
-</ul>
-
-      
-      
-    </li>
-  </ul>
+        
+        
+      </li>
+    </ul>
+  </li>
 </ul>
 
   </nav>
@@ -708,27 +783,13 @@
 
 
 
-<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
-
-
-
-
-
-<a href="https://github.com/google/docsy-example/edit/master/content/sv/docs%5c_index.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Ändra sidan</a>
-<a href="https://github.com/google/docsy-example/issues/new?title=Dokumentation" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
-
-
-<a href="https://github.com/google/docsy/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
-
-</div>
-
 
 
 
 
 
           </div>
-          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5"  id="innerMainContent">
             <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
 	<ol class="breadcrumb spb-1">
 		
@@ -737,7 +798,7 @@
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="/docs/">Dokumentation</a>
+	<a href="/docs/">docs</a>
 </li>
 
 	</ol>
@@ -745,8 +806,8 @@
 
             
 <div class="td-content">
-	<h1>Dokumentation</h1>
-	
+	<h1>docs</h1>
+	<div class="lead">her you can find pen by default och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på.</div>
 	
         <div class="section-index">
     
@@ -756,12 +817,7 @@
     <hr class="panel-line">
         
             
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/overview/">Introduktion</a>
-                    </h5>
-                    <p>Nyttan med en gemensan plattform.  Vi ser att det finns företag som inte hittar sin arbetskraft och arbetssökande som inte hittar ett jobb. Detta vill vi råda bot på.</p>
-                </div>
+        
             
         
             
@@ -800,73 +856,44 @@
         
             
         
+            
             
                 <div class="entry">
                     <h5>
-                        <a href="/apis/license/">Licens</a>
+                        <a href="/docs/apis/">API:er</a>
                     </h5>
-                    <p></p>
+                    <p>Här presenterar vi all den öppna data som du kan använda helt fritt. Öppna data är information som finns tillgänglig för vem som helst att använda, återanvända och dela med sig av, så att andra kan utveckla den och skapa nytta för fler. Hör gärna av dig med synpunkter och förslag på information som du vill att Arbetsförmedlingen publicerar som öppna data till <a href="mailto:jobtechdev@arbetsformedlingen.se" target="_blank">JobTech Development</a>.</p>
                 </div>
             
+            
         
+            
+        
+            
             
                 <div class="entry">
                     <h5>
-                        <a href="/docs/opendata/">Öppna Data</a>
+                        <a href="/docs/projects/">Projekt</a>
                     </h5>
-                    <p>Vi vill bidra med Öppna data</p>
+                    <p>Här kan du hitta projekt vi jobbar med just nu. Vi är “open by default” och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på.</p>
                 </div>
             
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/docs/open_projects/">Öppna Projekt</a>
-                    </h5>
-                    <p>Open by default, vi välkomnar collaboration</p>
-                </div>
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
             
         
     
 </div>
 
 	
-		<style>
-  .feedback--answer {
-    display: inline-block;
-  }
-  .feedback--answer-no {
-    margin-left: 1em;
-  }
-  .feedback--response {
-    display: none;
-    margin-top: 1em;
-  }
-  .feedback--response__visible {
-    display: block;
-  }
-</style>
+		
 <h2 class="feedback--title">Feedback</h2>
 <p class="feedback--question">Blev du hjälpt av denna sida?</p>
 <button class="feedback--answer feedback--answer-yes">Ja</button>
 <button class="feedback--answer feedback--answer-no">Nej</button>
 <p class="feedback--response feedback--response-yes">
-  Glad to hear it! Please <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">tell us how we can improve</a>.
+  Perfekt! Ge oss gärna <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">feedback</a> på hur vi kan bli ännu bättre
 </p>
 <p class="feedback--response feedback--response-no">
-  Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
+  Tråkigt att höra! Ge oss gärna <a href="https://github.com/MagnumOpuses/jobtechdev.se/issues/new/choose">feedback</a> på hur vi kan bli bättre.
 </p>
 <script>
   const yesButton = document.querySelector('.feedback--answer-yes');
@@ -904,14 +931,13 @@
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Senast ändrad 01.01.0001
+	<div class="text-muted mt-5 pt-3 border-top">
 </div>
 </div>
 
           </main>
         </div>
-      </div>
-      
+        
 <footer class="bg-dark py-5 row d-print-none">
   <div class="container-fluid mx-sm-5">
     <div class="row">
@@ -921,15 +947,27 @@
         
 <ul class="list-inline mb-0">
   
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Email " aria-label="Email ">
-    <a class="text-white" target="_blank" href="mailto:community@jobtechdev.se">
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Email " >
+    <a class="text-black" target="_blank" href="mailto:jobtechdev@arbetsformedlingen.se" aria-label="Email ">
       <i class="fa fa-envelope"></i>
     </a>
   </li>
   
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
-    <a class="text-white" target="_blank" href="https://twitter.com/jobtechdev">
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" >
+    <a class="text-black" target="_blank" href="https://twitter.com/jobtechdev" aria-label="Twitter">
       <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="LinkedIn" >
+    <a class="text-black" target="_blank" href="https://www.linkedin.com/company/jobtech-sweden" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Facebook" >
+    <a class="text-black" target="_blank" href="https://www.facebook.com/jobtechdevelopment" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
     </a>
   </li>
   
@@ -944,15 +982,21 @@
         
 <ul class="list-inline mb-0">
   
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
-    <a class="text-white" target="_blank" href="https://github.com/jobtechswe">
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" >
+    <a class="text-black" target="_blank" href="https://github.com/jobtechswe" aria-label="GitHub">
       <i class="fab fa-github"></i>
     </a>
   </li>
   
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack" aria-label="Slack">
-    <a class="text-white" target="_blank" href="https://jobtechdevelopment.slack.com/join/shared_invite/enQtNzg0NTk3OTE2NjQyLTcyZTZjMjhlYmVlMzA5YjFmNTdiMTM1MzJkZDk5M2UwMjFlNGI2ZjI0Nzc4MmZhNzgxMGViNmRlNzczNjQ4M2M">
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack" >
+    <a class="text-black" target="_blank" href="https://jobtechdevelopment.slack.com/join/shared_invite/enQtODc1MTg3NTc5NjY5LThiNThlMGU4ZTljZTQ3OGQ5ZTA3Mzg1M2JmNzg5ZTdhMjA4YzU3OTRjN2UyY2QzZjBhYTBjMzE4NjUzYzg1YWM" aria-label="Slack">
       <i class="fab fa-slack"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Forum" >
+    <a class="text-black" target="_blank" href="https://forum.jobtechdev.se/" aria-label="Forum">
+      <i class="fab fa-discourse"></i>
     </a>
   </li>
   
@@ -962,16 +1006,15 @@
         
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <small class="text-white">&copy; 2019 JobTech dev All Rights Reserved</small>
-        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></small>
-	
-		<p class="mt-2"><a href="/about/">Om JobTech</a></p>
-	
+        <img src=" /img/Af_logo.svg " style="width: 256px" alt="Logo Arbetsförmedlingen">
       </div>
     </div>
   </div>
 </footer>
 
+
+
+      </div>
 
     </div>
     
@@ -983,7 +1026,10 @@
 
 
 
-<script src="/js/main.min.29b0315468c00226fa6f4556a9cebc0ac4fe1ce1457a01b22c0a06b329877383.js" integrity="sha256-KbAxVGjAAib6b0VWqc68CsT&#43;HOFFegGyLAoGsymHc4M=" crossorigin="anonymous"></script>
+
+
+
+<script src="/js/main.min.edc998831d323afac58a6fcd7ac921a719dac5ac1fc47738aaaf074ffd76d855.js" integrity="sha256-7cmYgx0yOvrFim/NeskhpxnaxawfxHc4qq8HT/122FU=" crossorigin="anonymous"></script>
 
 
 

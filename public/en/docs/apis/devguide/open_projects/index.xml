@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JobTech Development – </title>
-    <link>uild/en/docs/apis/devguide/open_projects/</link>
+    <link>/en/docs/apis/devguide/open_projects/</link>
     <description>Recent content on JobTech Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
     
-	  <atom:link href="uild/en/docs/apis/devguide/open_projects/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/en/docs/apis/devguide/open_projects/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,21 +16,21 @@
     
     <item>
       <title>Docs: Gravity</title>
-      <link>uild/en/docs/apis/devguide/open_projects/gravity/</link>
+      <link>/en/docs/apis/devguide/open_projects/gravity/</link>
       <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
       
-      <guid>uild/en/docs/apis/devguide/open_projects/gravity/</guid>
+      <guid>/en/docs/apis/devguide/open_projects/gravity/</guid>
       <description>
         
         
         
-&lt;script src=&#34;uild/js/marked.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; geturl=https://api.github.com/repos/MagnumOpuses/gravity/contents/jobtechdev.md?ref&amp;#61;master &gt;&lt;/div&gt;
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=https://api.github.com/repos/MagnumOpuses/gravity/contents/jobtechdev.md?ref&amp;#61;master &gt;&lt;/div&gt;
 
 
-&lt;script src=&#34;uild/js/getMD.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
 
 
 
