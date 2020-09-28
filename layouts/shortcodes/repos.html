@@ -20,14 +20,14 @@
                     </h5>
                 </div>
 
-                    <div class="card-body">
+                    <div tabindex="0" class="card-body">
 
                         <p class="card-text">{{ .Description }}</p>
                     </div>
 
                     <div class="card-footer text-center">
                         {{if in .Params.link "https://github.com"}}
-                            <a href="{{.Params.link}}" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Github</a>
+                            <a tabindex="0" href="{{.Params.link}}" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Github</a>
                         {{else if in .Params.link "https://gitlab.com/"}}
                         <a href="{{.Params.link}}" class="fab fa-gitlab fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Gitlab</a>
                         {{else }}
