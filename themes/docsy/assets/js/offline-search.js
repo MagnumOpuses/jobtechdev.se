@@ -39,6 +39,7 @@
                 idx = lunr(function() {
                     this.ref('ref');
                     this.field('title');
+                    this.field('description');
                     this.field('body');
 
                     data.forEach(doc => {
@@ -46,7 +47,8 @@
 
                         resultDetails.set(doc.ref, {
                             title: doc.title,
-                            excerpt: doc.excerpt
+                            description: doc.description
+
                         });
                     });
                 });
@@ -146,10 +148,10 @@
                     $cardBody.append(
                         $('<p>')
                             .addClass('card-text text-muted')
-                            .text(doc.excerpt)
+                            .text(doc.description)
                     );
 
-                    const $card = $('<div>').addClass('card');
+                    const $card = $('<div>').addClass('card text-muted');
                     $card.append($cardHeader).append($cardBody);
 
                     $searchResultBody.append($card);
