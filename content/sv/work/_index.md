@@ -3,6 +3,7 @@ title: Jobba hos oss
 linkTitle: Jobba hos oss
 disableToc: true
 toc_hide: true
+description: "Lediga tjänster hos JobTech Development"
 ---
 
 {{< blocks/cover title="Jobba hos oss" image_anchor="bottom" height="min" >}}

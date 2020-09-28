@@ -1,12 +1,12 @@
-﻿<?xml version="1.0"?>
+﻿.<?xml version="1.0"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcat="http://www.w3.org/ns/dcat#"
-  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:adms="http://www.w3.org/ns/adms#"
-  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-  xmlns:schema="http://schema.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:adms="http://www.w3.org/ns/adms#"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:schema="http://schema.org/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#catalog">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
     <dcterms:title xml:lang="en">Arbetsförmedlingens öppna data</dcterms:title>
@@ -23,73 +23,72 @@
     <dcterms:publisher rdf:resource="http://arbetsformedlingen.se/datasets/dcat#agent1"/>
     <dcterms:issued>2018-04-05</dcterms:issued>
     <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/se"/>
-    <dcterms:modified>2018-04-05</dcterms:modified>
-    <foaf:homepage>https://jobtechdev.se/devguide/apis.html</foaf:homepage>
+    <dcterms:modified>2020-03-05</dcterms:modified>
+    <foaf:homepage>https://jobtechdev.se/docs/</foaf:homepage>
     <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
   </rdf:Description>
-   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
+  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="en">Taxonomy</dcterms:title>
+    <dcterms:title xml:lang="sv">Taxonomi</dcterms:title>
     <dcterms:description>
-      Taxonomy Service contains data commonly used by Arbetsförmedlingen.
-      For example you can find all occupation names, all Unemployment Benefit Societies (a-kassor), local groups (SSYK), and much more.
+      JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen.
+      Datan består av strukturerade listor, som är relevanta för matchning av lediga jobb och arbetssökande.
+
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/devguide/apis/taxonomy.html"/>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcterms:modified>2020-03-05</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/apis/taxonomy.html"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/devguide/apis/taxonomy.html"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Job Market Ontology</dcterms:title>
+    <dcterms:title xml:lang="sv">Ontologi</dcterms:title>
     <dcterms:description>
-      The Job market ontology is a project which uses modern technology to describe the job market for making more effective matching and better user experiences.
-      The ontology is created by automatically analyzing 6.3 millions ads and extracting mentioned competences. With intelligent algorithms the ontology knows how the competences is related to each other.
-      The first version of the Job market ontology consists of a limited set of competences. Here you can explore them and see how they relates to each other. The state of the ontology is beta and it is changing to continuously get improved every day.
+      Ontologi är ett projekt som använder modern teknik för att beskriva arbetsmarknaden för att göra effektivare matchning och bättre användarupplevelser.
+             Ontologin skapas genom att automatiskt analysera 6,3 miljoner annonser och extrahera nämnda kompetenser. Med intelligenta algoritmer vet ontologin hur kompetenserna är relaterade till varandra.
+             Den första versionen av jobbmarknadsantologin består av en begränsad uppsättning kompetenser. Här kan du utforska dem och se hur de förhåller sig till varandra. Ontologins tillstånd är beta och det förändras för att kontinuerligt förbättras varje dag.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>ontology</dcat:keyword>
-    <dcat:keyword>terminology</dcat:keyword>
-    <dcat:keyword>definitions</dcat:keyword>
-    <dcat:keyword>descriptions</dcat:keyword>
-    <dcat:keyword>competences</dcat:keyword>
-    <dcat:keyword>job titles</dcat:keyword>
-    <dcat:keyword>occupations</dcat:keyword>
+    <dcat:keyword>ontologi</dcat:keyword>
+    <dcat:keyword>terminologi</dcat:keyword>
+    <dcat:keyword>definitioner</dcat:keyword>
+    <dcat:keyword>beskrivningar</dcat:keyword>
+    <dcat:keyword>kompetenser</dcat:keyword>
+    <dcat:keyword>yrkes titlar</dcat:keyword>
+    <dcat:keyword>yrken</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcterms:modified>2020-03-05</dcterms:modified>
     <dcat:accessURL rdf:resource="http://ontologi.arbetsformedlingen.se/ontology/v1/?url=swagger.json"/>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/apis/ontology/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/apis/ontology/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/ontology/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/ontology/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds4">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="en">Historical Jobs</dcterms:title>
+    <dcterms:title xml:lang="en">Historiska annonser</dcterms:title>
     <dcterms:description>
-      This dataset consists of about 4.2M job postings (7.7M job positions) published on Platsbanken from the year 2006 up to and including 2017.
-      Each listing contains metadata on location, dates, employer name, job type and any additional job details. Texts have been anonymized and names, telephone numbers and email addresses have been removed removed.
-      Each line in a file contains a job listing in a JSON Lines format.
+      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2017
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>Historical jobs</dcat:keyword>
+    <dcat:keyword>historiska annonser</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcat:keyword>dataset</dcat:keyword>
-    <dcat:keyword>historical jobs</dcat:keyword>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/devguide/datasets/historical.html/"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/datasets/historical.html/"/>
+    <dcat:keyword>historska annonser</dcat:keyword>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcterms:modified>2020-03-05</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
@@ -102,27 +101,26 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="_n6">
     <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
-    <vcard:street-address>Hälsingegatan 38</vcard:street-address>
-    <vcard:postal-code>10099</vcard:postal-code>
+    <vcard:street-address></vcard:street-address>
+    <vcard:postal-code></vcard:postal-code>
     <vcard:locality>Stockholm</vcard:locality>
     <vcard:country-name>Sweden</vcard:country-name>
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds5">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="en">Occupations Forecast</dcterms:title>
+    <dcterms:title xml:lang="en">Yrkesprognoser</dcterms:title>
     <dcterms:description>
-      API Occupation Forecasts contains 1 and 5 years forecasts for different occupations in Sweden.
-      The Forecasts were made and published in February 2018 and are based on the standard SSYK (Swedish standard occupation classification - http://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/). To find SSYK for a specific job go to SCBs page (https://www.h5.scb.se/yreg/ssyk2012.asp).
+      Yrkesprognos APIet innehåller 1 och 5 åriga prognoser.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>Job forecast</dcat:keyword>
-    <dcat:keyword>occupation forecast</dcat:keyword>
+    <dcat:keyword>yrkesprognoser</dcat:keyword>
+    <dcat:keyword></dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcat:accessURL rdf:resource="http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/apis/forecasts.html/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/forecasts/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
+    <dcterms:modified>2020-03-05</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
@@ -130,8 +128,8 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">Job Search</dcterms:title>
     <dcterms:description>
-      API for searching among all job ads showing in Arbetsförmedlingens Platsbank. This service used by Platsbanken is available for anyone who wishes to build applications with a search function.
-      If you only like to collect ads, you should use the JobStream API.
+      Job Search API är en sökmotor för alla nuvarande jobbannonser från Platsbanken.
+      Målet är att skapa ett enkelt men ändå mångsidigt API som ska passa alla som bygger alla slags applikationer som innehåller data från jobbannonser.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>jobs</dcat:keyword>
@@ -141,11 +139,11 @@
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/devguide/apis/jobsearch.html"/>
+    <dcterms:modified>2020-03-05</dcterms:modified>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/jobsearch.html"/>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/apis/jobsearch.html"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/devguide/apis/jobsearch.html"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/jobsearch/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/jobsearch/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
@@ -153,9 +151,8 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">Job Stream</dcterms:title>
     <dcterms:description>
-      JobStream an API for building applications with all job ads stored locally.
-      With API JobStream you can fetch changes in the ads at Platsbanken, once a minute.
-      New, removed or updated ads.
+      JobStream API är för er som bygger applikationer och behöver förvara alla annonser lokalt.
+      Med JobStream kan du hämta alla förändringar i annonserna en gång/minut. Nya, borttagna eller uppdaterade annonser
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>jobs</dcat:keyword>
@@ -165,42 +162,34 @@
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/devguide/apis/jobstream.html"/>
+    <dcterms:modified>2020-03-05</dcterms:modified>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/jobstream/"/>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/devguide/apis/jobstream.html"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/devguide/apis/jobstream.html"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/jobstream/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/jobstream/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
-    <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds8">
+  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds8">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Occupation Info</dcterms:title>
+    <dcterms:title xml:lang="sv">Yrkes info</dcterms:title>
     <dcterms:description>
-      AF Occupation info is an API, containing descriptions of nearly 350 different occupations.
-      The API is supposed to be used by anyone who wants to download texts and descriptions of one or more professions from the Swedish Public Employment Service Profession A-Ö application.
+      APIiet Yrkesinfo innehåller beskrivningar av cirka 350 olika yrken.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>Occupation description</dcat:keyword>
+    <dcat:keyword>Yrkesinfo</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2019-03-04</dcterms:modified>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/apis/af-occupation-info/"/>
+    <dcterms:modified>2020-03-05</dcterms:modified>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/apis/af-occupation-info/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/apis/af-occupation-info/"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#dist1">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <dcterms:title xml:lang="en">Platsbanken endpoint</dcterms:title>
-    <dcterms:description xml:lang="en">swagger description</dcterms:description>
-    <dcat:accessURL rdf:resource="http://jobtechdev.se/swagger/#/platsannonser/"/>
-    <dcterms:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-    <dcterms:format>application/rdf+json</dcterms:format>
-  </rdf:Description>
+
   <rdf:Description rdf:nodeID="_n7">
     <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
     <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-03-01</schema:startDate>
