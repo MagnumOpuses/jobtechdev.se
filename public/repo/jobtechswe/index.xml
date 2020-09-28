@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JobTech Development – </title>
-    <link>uild/repo/jobtechswe/</link>
+    <link>/repo/jobtechswe/</link>
     <description>Recent content on JobTech Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 19 Jan 2019 20:06:16 +0100</lastBuildDate>
     
-	  <atom:link href="uild/repo/jobtechswe/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/repo/jobtechswe/index.xml" rel="self" type="application/rss+xml" />
     
     
       

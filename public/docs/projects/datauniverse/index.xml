@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JobTech Development – Data Universe</title>
-    <link>uild/docs/projects/datauniverse/</link>
+    <link>/docs/projects/datauniverse/</link>
     <description>Recent content in Data Universe on JobTech Development</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="uild/docs/projects/datauniverse/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/docs/projects/datauniverse/index.xml" rel="self" type="application/rss+xml" />
     
     
       

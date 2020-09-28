@@ -4,15 +4,15 @@
 <section class="row td-box td-box--1 td-box--gradient td-box--height-auto">
 	<div class="container text-center">
 
-<h1 class="display-1">{{T "join"}} {{ .Site.Title }} community</h1>
+<h1 tabindex="0" class="display-1">{{T "join"}} {{ .Site.Title }} community</h1>
 
-<h4>{{ .Site.Title }} {{T "text_community"}}</h4>
+<h4 tabindex="0">{{ .Site.Title }} {{T "text_community"}}</h4>
 
 	</div>
 </section>
 {{ partial "community_links.html" . }}
 
-<div class="td-content">
+<div tabindex="0" class="td-content">
 {{ .Content }}
 </div>
 

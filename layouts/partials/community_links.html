@@ -3,19 +3,19 @@
 
 <section  class="row td-box  td-box--gradient td-box--height-auto linkbox col-lg-8 col-md-10 col-sm-12 mx-auto">
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ba">
-<h2 class="display-3">{{T "Learn_and_connect"}}</h2>
-<p>{{T "using"}} {{ .Site.Title }}?
+<h2 tabindex="0" class="display-3">{{T "Learn_and_connect"}}</h2>
+<p tabindex="0">{{T "using"}} {{ .Site.Title }}?
 {{ with index $links "user"}}
 {{ template "community-links-list"  . }}
 {{ end }}
 </div>
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<h2 class="display-3">{{T "develop_and_contribute"}}</h2>
-<p>{{T "text_develop"}}
+<h2 tabindex="0" class="display-3">{{T "develop_and_contribute"}}</h2>
+<p tabindex="0">{{T "text_develop"}}
 {{ with index $links "developer"}}
 {{ template "community-links-list"  . }}
 {{ end }}
-<p>{{T "how_to_contribute"}} <a class="link-underline" href="https://github.com/MagnumOpuses/project-meta/blob/master/CONTRIBUTING_TEMPLATE.md">{{T "guidelines"}}</a>.
+<p tabindex="0">{{T "how_to_contribute"}} <a class="link-underline" href="https://github.com/MagnumOpuses/project-meta/blob/master/CONTRIBUTING_TEMPLATE.md">{{T "guidelines"}}</a>.
 </div>
 </section>
 

@@ -1,7 +1,8 @@
 :root{
-    --MAIN-BACKGROUND-color:#191919;
-    --MAIN-TEXT-color:#ccc; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #ccc; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-BACKGROUND-color:#f0f0f0;
+    --MAIN-TEXT-color:#323232; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#1C90F3; /* Color of links */
     --MAIN-LINK-color:#1C90F3; /* Color of links */
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
@@ -15,19 +16,49 @@
 
     --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its childs */
     --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
-    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
+    --MENU-SECTIONS-LINK-color: #e6e6e6; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #fff;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #f0f0f0; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
 
 }
 
+@media (max-width: 978px) {
+
+}
+-webkit-scrollbar-track
+{
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #f0f0f0; /*Fallback for IE*/
+    background-color: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
+}
+
+::-webkit-scrollbar
+{
+
+    width: 15px;
+    background-color: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
+    background-color: #777; /*Fallback for IE*/
+}
+
+::-webkit-scrollbar-thumb
+{
+
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #f0f0f0; /*Fallback for IE*/
+    background-color: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
+}
+
 body {
-    color: #ccc !important; /*Fallback for IE*/
-    background-color: #191919; /*Fallback for IE*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    color: #323232 !important; /*Fallback for IE*/
+    background-color: #f0f0f0; /*Fallback for IE*/
     color: var(--MAIN-TEXT-color) !important;
     background-color:var(--MAIN-BACKGROUND-color);
 }
@@ -38,7 +69,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 h1, h2, h3, h4, h5 {
-    color: #ccc; /* Fallback for IE */
+    color: #323232; /* Fallback for IE */
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
@@ -70,9 +101,7 @@ a:hover {
     transition: width 0.5s ease;
     background-color: var(--MAIN-LINK-HOVER-color);
 }
-#top-bar {
-    background-color: #000000;
-}
+
 #sidebar {
   background-color: #000000;
   /*	background-color: var(--MENU-SECTIONS-BG-color);  */
@@ -93,7 +122,9 @@ a:hover {
     }
 }
 .menu-arrow{
-    position: absolute;
+    float: right;
+    position: relative;
+    margin-top: 5px;
     right: 20px;
 }
 #sidebar .searchbox {
@@ -114,6 +145,14 @@ a:hover {
 #sidebar a:hover {
     color: var(--MENU-SECTIONS-LINK-HOVER-color);
 }
+#sidebar ul li a{
+    transform-origin: 10% 50%;
+    transition: transform .4s;
+}
+#sidebar ul li a:hover {
+    transform: scale(1.1);
+}
+
 
 #sidebar ul li.active > a {
     background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
