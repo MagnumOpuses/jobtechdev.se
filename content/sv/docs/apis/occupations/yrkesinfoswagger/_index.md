@@ -5,6 +5,7 @@ menuTitle: "swagger "
 weight: 4
 description: " "
 toc_hide: true
+exclude_search: true
               
 
 

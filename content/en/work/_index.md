@@ -3,6 +3,7 @@ title: Work with us
 linkTitle: Work with us
 disableToc: true
 toc_hide: true
+description: "Vacancies at JobTech Development "
 ---
 
 {{< blocks/cover title="Work with us" image_anchor="bottom" height="min" >}}
