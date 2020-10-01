@@ -112,7 +112,7 @@ algolia_docsearch = false
 
 
 
-offlineSearch = true
+offlineSearch = false
 
 
 # User interface configuration
