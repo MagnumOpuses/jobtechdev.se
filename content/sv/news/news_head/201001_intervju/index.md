@@ -53,7 +53,7 @@ Ett annat bidrag från vår sida är förstås också att vi visar upp för andr
 **”Nätverket för Kunskapsdelning kring Öppna Data”** ”hålls första tisdagen i varje månad och är öppet för alla som vill delta. 
 [Läs mer och anmäl dig till nästa träff den 6 oktober](https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Digital-Workshopserie#kommande)
  
- **OBS! Antalet platser i workshopen är begränsat**
+ **OBS! Antalet platser i workshopen är begränsat.**
 
 
 
