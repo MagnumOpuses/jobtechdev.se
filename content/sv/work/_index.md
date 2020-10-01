@@ -21,7 +21,7 @@ description: "Lediga tjänster hos JobTech Development"
 {{< blocks/section color ="white">}}
 
 <div class="col-12 mx-auto">
-<!--<h1 class="text-center">This is hhhhh section</h1>-->
+
 
 <h1>Lediga tjänster / spontanansökan </h1>
 <p>Vi letar efter dig som vill hjälpa Jobtechdev att skapa det digitala ekosystemet för arbetsmarknaden.<br>
