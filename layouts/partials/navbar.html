@@ -1,4 +1,7 @@
 
+	<a href="#innerMainContent" class="skip-to-content-link">{{T "skip-to-text"}}</a>
+
+
 {{ $cover := .HasShortcode "blocks/coverfirst" }}
 <nav class="js-navbar-scroll navbar navbar-expand-lg navbar-dark {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar">
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">

@@ -1,3 +1,7 @@
+# skip to
+[skip-to-text]
+other = "Skip to content"
+
 # Cookies
 [cookie-message]
 other = "This website uses cookies to ensure you get the best experience on our website."
