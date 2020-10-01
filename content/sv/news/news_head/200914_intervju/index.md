@@ -3,7 +3,7 @@ date: 2020-09-13
 articleTitle: "Fem frågor till..."
 title: "Fem frågor till ..."
 linkTitle: "Fem frågor till..."
-description: "Fem frågor till Mattias Persson utvecklare av JobAd Enrichments"
+description: ""
 author: 
 resources:
 - src: "**mattiasp*.jpg"
