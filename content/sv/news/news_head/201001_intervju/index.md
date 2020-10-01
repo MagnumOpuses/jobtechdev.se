@@ -1,9 +1,9 @@
 ---
 date: 2020-10-01
-articleTitle: "Fem frågor till..."
-title: "Fem frågor till ..."
+articleTitle: "”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”"
+title: "”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”"
 linkTitle: "Fem frågor till..."
-description: "Fem frågor till Mattias Persson utvecklare av JobAd Enrichments"
+description: "Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data”"
 author: 
 resources:
 - src: "**jonas*.jpg"
@@ -12,7 +12,7 @@ resources:
     byline: ""
 ---
   
-**…Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data” som samlar deltagare från Sveriges alla myndigheter för att arbeta gränsöverskridande och praktiskt med öppna data.** 
+**Fem frågor till…Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data” som samlar deltagare från Sveriges alla myndigheter för att arbeta gränsöverskridande och praktiskt med öppna data.** 
 {{< imgproc jonas Fill "400x360" "float-right m-6" >}}
 
 {{< /imgproc >}}
