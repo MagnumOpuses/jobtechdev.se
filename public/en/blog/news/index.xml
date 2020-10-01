@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JobTech Development – News About Docsy</title>
-    <link>uild/en/blog/news/</link>
+    <link>/en/blog/news/</link>
     <description>Recent content in News About Docsy on JobTech Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="uild/en/blog/news/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/en/blog/news/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Blog: The changing of the Public Sector - Stockholm 4th of December</title>
-      <link>uild/en/blog/2019/11/25/the-changing-of-the-public-sector-stockholm-4th-of-december/</link>
+      <link>/en/blog/2019/11/25/the-changing-of-the-public-sector-stockholm-4th-of-december/</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/blog/2019/11/25/the-changing-of-the-public-sector-stockholm-4th-of-december/</guid>
+      <guid>/en/blog/2019/11/25/the-changing-of-the-public-sector-stockholm-4th-of-december/</guid>
       <description>
         
         
@@ -37,10 +37,10 @@ The event is in Swedish&lt;br /&gt;
     
     <item>
       <title>Blog: The second blog post</title>
-      <link>uild/en/blog/2019/10/06/the-second-blog-post/</link>
+      <link>/en/blog/2019/10/06/the-second-blog-post/</link>
       <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/blog/2019/10/06/the-second-blog-post/</guid>
+      <guid>/en/blog/2019/10/06/the-second-blog-post/</guid>
       <description>
         
         

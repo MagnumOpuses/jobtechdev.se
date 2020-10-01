@@ -3,6 +3,7 @@ title: Jobba hos oss
 linkTitle: Jobba hos oss
 disableToc: true
 toc_hide: true
+description: "Lediga tjänster hos JobTech Development"
 ---
 
 {{< blocks/cover title="Jobba hos oss" image_anchor="bottom" height="min" >}}
@@ -20,7 +21,7 @@ toc_hide: true
 {{< blocks/section color ="white">}}
 
 <div class="col-12 mx-auto">
-<!--<h1 class="text-center">This is hhhhh section</h1>-->
+
 
 <h1>Lediga tjänster / spontanansökan </h1>
 <p>Vi letar efter dig som vill hjälpa Jobtechdev att skapa det digitala ekosystemet för arbetsmarknaden.<br>

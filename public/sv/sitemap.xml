@@ -3,81 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/docs/overview/</loc>
+    <loc>/docs/apis/jobsearch/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/overview/"
+                href="/en/docs/apis/jobsearch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/overview/"
+                href="/docs/apis/jobsearch/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/apis/jobsearch/getting-started/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+    <loc>/docs/apis/enrich/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/apis/jobsearch/getting-started/"
+                href="/en/docs/apis/enrich/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/apis/jobsearch/getting-started/"
+                href="/docs/apis/enrich/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/apis/jobstream/getting-started/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+    <loc>/docs/apis/jobstream/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/apis/jobstream/getting-started/"
+                href="/en/docs/apis/jobstream/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/apis/jobstream/getting-started/"
+                href="/docs/apis/jobstream/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/examples/</loc>
+    <loc>/docs/apis/occupations/yrkesinfoswagger/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/examples/"
+                href="/en/docs/apis/occupations/yrkesinfoswagger/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/examples/"
+                href="/docs/apis/occupations/yrkesinfoswagger/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/apis/forecasts/getting-started/</loc>
-    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/forecasts/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/forecasts/getting-started/"
-                />
-  </url>
-  
-  <url>
-    <loc>/apis/af-occupation-info/</loc>
-    <lastmod>2019-01-19T20:06:16+01:00</lastmod>
+    <loc>/docs/apis/occupations/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -86,197 +68,274 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/apis/af-occupation-info/"
+                href="/docs/apis/occupations/"
                 />
   </url>
   
   <url>
-    <loc>/docs/open_projects/gravity/</loc>
+    <loc>/docs/apis/ontology/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/apis/ontology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/apis/ontology/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/apis/historical/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/apis/historical/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/apis/historical/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/ontologiutforskaren/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/ontologiutforskaren/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/ontologiutforskaren/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/af_connect/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/af_connect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/af_connect/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/alljobads/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/alljobads/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/alljobads/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/datauniverse/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/datauniverse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/datauniverse/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/egendata/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/egendata/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/egendata/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/joblinks/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/joblinks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/joblinks/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/jobscanner/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/jobscanner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/jobscanner/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/jobtech-store/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/jobtech-store/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/jobtech-store/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/kunskapsdelning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/kunskapsdelning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/kunskapsdelning/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/apis/taxonomy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/apis/taxonomy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/apis/taxonomy/"
+                />
+  </url>
+  
+  <url>
+    <loc>/docs/projects/taxonomyviewer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/docs/projects/taxonomyviewer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/docs/projects/taxonomyviewer/"
+                />
+  </url>
+  
+  <url>
+    <loc>/repo/jobtechswe/</loc>
     <lastmod>2019-01-19T20:06:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/open_projects/gravity/"
+                href="/en/repo/jobtechswe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/open_projects/gravity/"
+                href="/repo/jobtechswe/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/datasets/historical/</loc>
+    <loc>/repo/magnumopuses/</loc>
     <lastmod>2019-01-19T20:06:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/datasets/historical/"
+                href="/en/repo/magnumopuses/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/datasets/historical/"
+                href="/repo/magnumopuses/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/apis/occupations/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/occupations/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/occupations/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/forecasts/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/forecasts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/forecasts/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/jobsearch/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/jobsearch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/jobsearch/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/jobstream/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/jobstream/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/jobstream/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/ontology/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/ontology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/ontology/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/taxonomy/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/taxonomy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/taxonomy/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/events/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/news/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/apis/ontology/</loc>
+    <loc>/repo/taxonomi/</loc>
     <lastmod>2019-01-19T20:06:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/apis/ontology/"
+                href="/en/repo/taxonomi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/apis/ontology/"
+                href="/repo/taxonomi/"
                 />
   </url>
   
   <url>
-    <loc>/blog/releases/</loc>
-    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/</loc>
+    <loc>/docs/apis/forecasts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/"
+                href="/en/docs/apis/forecasts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/"
+                href="/docs/apis/forecasts/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/apis/taxonomy/getting-started/</loc>
+    <loc>/news/news_head/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docs/apis/cookie_policy/</loc>
     <lastmod>2019-01-19T20:06:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/apis/taxonomy/getting-started/"
+                href="/en/docs/apis/cookie_policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/apis/taxonomy/getting-started/"
+                href="/docs/apis/cookie_policy/"
                 />
-  </url>
-  
-  <url>
-    <loc>/blog/2019/11/25/the-changing-of-the-public-sector-stockholm-4th-of-december/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -290,177 +349,62 @@
   </url>
   
   <url>
-    <loc>/blog/2019/11/25/the-changing-of-the-public-sector-stockholm-4th-of-december/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+    <loc>/news/news_head/200914/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2019/10/06/the-second-blog-post/</loc>
-    <lastmod>2019-10-06T00:00:00+00:00</lastmod>
+    <loc>/news/news_head/200914_intervju/</loc>
+    <lastmod>2020-09-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/opendata/apis/</loc>
+    <loc>/docs/apis/</loc>
     <lastmod>2018-01-28T21:58:09+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/apis/"
+                href="/en/docs/apis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/apis/"
+                href="/docs/apis/"
                 />
   </url>
   
   <url>
-    <loc>/docs/opendata/datasets/</loc>
+    <loc>/docs/</loc>
     <lastmod>2018-01-28T21:58:09+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/datasets/"
+                href="/en/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/datasets/"
+                href="/docs/"
                 />
   </url>
   
   <url>
-    <loc>/apis/license/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/</loc>
+    <loc>/docs/projects/</loc>
     <lastmod>2018-01-28T21:58:09+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/docs/opendata/"
+                href="/en/docs/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sv"
-                href="/docs/opendata/"
+                href="/docs/projects/"
                 />
   </url>
   
   <url>
-    <loc>/docs/open_projects/</loc>
-    <lastmod>2018-01-28T21:58:09+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/open_projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/open_projects/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/2018/01/04/another-great-release/</loc>
-    <lastmod>2018-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/forecasts/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/forecasts/getting-started/example-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/forecasts/getting-started/example-page/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/jobsearch/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/jobsearch/getting-started/example-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/jobsearch/getting-started/example-page/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/jobstream/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/jobstream/getting-started/example-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/jobstream/getting-started/example-page/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/occupations/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/occupations/getting-started/example-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/occupations/getting-started/example-page/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/ontology/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/ontology/getting-started/example-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/ontology/getting-started/example-page/"
-                />
-  </url>
-  
-  <url>
-    <loc>/docs/opendata/apis/taxonomy/getting-started/example-page/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/docs/opendata/apis/taxonomy/getting-started/example-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="sv"
-                href="/docs/opendata/apis/taxonomy/getting-started/example-page/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
+    <loc>/news/</loc>
   </url>
   
   <url>
@@ -474,6 +418,34 @@
                 rel="alternate"
                 hreflang="sv"
                 href="/community/"
+                />
+  </url>
+  
+  <url>
+    <loc>/work/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/work/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/work/"
+                />
+  </url>
+  
+  <url>
+    <loc>/repo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/repo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="sv"
+                href="/repo/"
                 />
   </url>
   
@@ -503,6 +475,10 @@
                 hreflang="sv"
                 href="/search/"
                 />
+  </url>
+  
+  <url>
+    <loc>/accessibility/</loc>
   </url>
   
 </urlset>

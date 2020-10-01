@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JobTech Development – Historical Jobs</title>
-    <link>uild/docs/apis/historical/</link>
+    <link>/docs/apis/historical/</link>
     <description>Recent content in Historical Jobs on JobTech Development</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="uild/docs/apis/historical/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/docs/apis/historical/index.xml" rel="self" type="application/rss+xml" />
     
     
       

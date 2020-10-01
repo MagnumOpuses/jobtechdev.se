@@ -2,13 +2,13 @@
   "swagger": "2.0",
   "info": {
     "title": "YrkesInfo RAF DMZ",
-    "description": "Yrkesinfo \u00E4r en webbtj\u00E4nst som beskriver ca 350 yrken.",
+    "description": "Reference material when assessing work ability (RAF) contains groupings of the professions that are expected to make similar demands on ability from a medical perspective. These requirements are called activity requirements and are described on the basis of common tasks within the group..",
     "version": "v1"
   },
   "host": "apier.arbetsformedlingen.se",
   "basePath": "/yrkesinfo-raf/v1/",
   "schemes": [
-    "HTTPS"
+    "https"
   ],
   "paths": {
     "/yrken": {

@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JobTech Development – APIs</title>
-    <link>uild/en/docs/apis/</link>
+    <link>/en/docs/apis/</link>
     <description>Recent content in APIs on JobTech Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
     
-	  <atom:link href="uild/en/docs/apis/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/en/docs/apis/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,22 +15,22 @@
     
     
     <item>
-      <title>Docs: </title>
-      <link>uild/en/docs/apis/enrich/</link>
+      <title>Docs: Job Search</title>
+      <link>/en/docs/apis/jobsearch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/docs/apis/enrich/</guid>
+      <guid>/en/docs/apis/jobsearch/</guid>
       <description>
         
         
         
-&lt;script src=&#34;uild/js/marked.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobAdEnrichments.md?ref&amp;#61;master &gt;&lt;/div&gt;
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref&amp;#61;master &gt;&lt;/div&gt;
 
 
-&lt;script src=&#34;uild/js/getMD.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
 
 
 
@@ -38,22 +38,22 @@
     </item>
     
     <item>
-      <title>Docs: Job Search</title>
-      <link>uild/en/docs/apis/jobsearch/</link>
+      <title>Docs: JobAd Enrichments</title>
+      <link>/en/docs/apis/enrich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/docs/apis/jobsearch/</guid>
+      <guid>/en/docs/apis/enrich/</guid>
       <description>
         
         
         
-&lt;script src=&#34;uild/js/marked.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref&amp;#61;master &gt;&lt;/div&gt;
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobAdEnrichments.md?ref&amp;#61;master &gt;&lt;/div&gt;
 
 
-&lt;script src=&#34;uild/js/getMD.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
 
 
 
@@ -62,21 +62,21 @@
     
     <item>
       <title>Docs: Job Stream</title>
-      <link>uild/en/docs/apis/jobstream/</link>
+      <link>/en/docs/apis/jobstream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/docs/apis/jobstream/</guid>
+      <guid>/en/docs/apis/jobstream/</guid>
       <description>
         
         
         
-&lt;script src=&#34;uild/js/marked.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref&amp;#61;master &gt;&lt;/div&gt;
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref&amp;#61;master &gt;&lt;/div&gt;
 
 
-&lt;script src=&#34;uild/js/getMD.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
 
 
 
@@ -85,10 +85,10 @@
     
     <item>
       <title>Docs: Yrkesinfo</title>
-      <link>uild/apis/af-occupation-info/</link>
+      <link>/apis/af-occupation-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>uild/apis/af-occupation-info/</guid>
+      <guid>/apis/af-occupation-info/</guid>
       <description>
         
         
@@ -111,7 +111,7 @@ The API is supposed to be used by anyone who wants to download texts and descrip
 
 &lt;h3 id=&#34;short-introduction&#34;&gt;Short introduction&lt;/h3&gt;
 
-&lt;p&gt;Try out the API &lt;a href=&#34;uild/swagger/index.html&#34;&gt;swagger&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Try out the API &lt;a href=&#34;/swagger/index.html&#34;&gt;swagger&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;authentication&#34;&gt;Authentication&lt;/h3&gt;
 
@@ -148,10 +148,10 @@ These are required on all requests. Below is a sample of how query parameters ar
     
     <item>
       <title>Docs: Ontologi</title>
-      <link>uild/en/docs/apis/ontology/</link>
+      <link>/en/docs/apis/ontology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/docs/apis/ontology/</guid>
+      <guid>/en/docs/apis/ontology/</guid>
       <description>
         
         
@@ -173,7 +173,7 @@ These are required on all requests. Below is a sample of how query parameters ar
 
 &lt;p&gt;The Jobmarket Ontology will be merged with the JobTech Taxonomy, and all identifiers will be replaced.&lt;/p&gt;
 
-&lt;p&gt;See the &lt;a href=&#34;{{}}&#34; target=&#34;_blank&#34;&gt;Taxonomy documentation&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&#34;../taxonomy&#34;&gt;Taxonomy documentation&lt;/a&gt; for more information.&lt;/p&gt;
 
 &lt;h4 id=&#34;endpoint&#34;&gt;Endpoint&lt;/h4&gt;
 
@@ -191,21 +191,21 @@ These are required on all requests. Below is a sample of how query parameters ar
     
     <item>
       <title>Docs: Historical Jobs</title>
-      <link>uild/en/docs/apis/historical/</link>
+      <link>/en/docs/apis/historical/</link>
       <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
       
-      <guid>uild/en/docs/apis/historical/</guid>
+      <guid>/en/docs/apis/historical/</guid>
       <description>
         
         
         
-&lt;script src=&#34;uild/js/marked.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedHistoricalJobs.md?ref&amp;#61;master &gt;&lt;/div&gt;
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/JobtechSwe/docs/contents/GettingStartedHistoricalJobs.md?ref&amp;#61;master &gt;&lt;/div&gt;
 
 
-&lt;script src=&#34;uild/js/getMD.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
 
 
 
@@ -214,21 +214,21 @@ These are required on all requests. Below is a sample of how query parameters ar
     
     <item>
       <title>Docs: Taxonomi</title>
-      <link>uild/en/docs/apis/taxonomy/</link>
+      <link>/en/docs/apis/taxonomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>uild/en/docs/apis/taxonomy/</guid>
+      <guid>/en/docs/apis/taxonomy/</guid>
       <description>
         
         
         
-&lt;script src=&#34;uild/js/marked.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; geturl=/api/gitlab/api/v4/projects/17049723/repository/files/GETTINGSTARTED.md?ref&amp;#61;develop &gt;&lt;/div&gt;
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/gitlab/api/v4/projects/17049723/repository/files/GETTINGSTARTED.md?ref&amp;#61;develop &gt;&lt;/div&gt;
 
 
-&lt;script src=&#34;uild/js/getMD.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
 
 
 
@@ -237,10 +237,10 @@ These are required on all requests. Below is a sample of how query parameters ar
     
     <item>
       <title>Docs: Yrkesprognoser</title>
-      <link>uild/en/docs/apis/forecasts/</link>
+      <link>/en/docs/apis/forecasts/</link>
       <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
       
-      <guid>uild/en/docs/apis/forecasts/</guid>
+      <guid>/en/docs/apis/forecasts/</guid>
       <description>
         
         
@@ -249,7 +249,7 @@ These are required on all requests. Below is a sample of how query parameters ar
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;COVID 19: Covid-19 has changed the labour market situation for some professions. The forecasts that should be interpreted with caution are marked in the file &lt;a href=&#34;uild/files/covid.csv&#34;&gt;Bedömmningar att flagga&lt;/a&gt;. New forecasts are published in early 2021.&lt;/th&gt;
+&lt;th&gt;COVID 19: Covid-19 has changed the labour market situation for some professions. The forecasts that should be interpreted with caution are marked in the file &lt;a href=&#34;/files/covid.csv&#34;&gt;Bedömmningar att flagga&lt;/a&gt;. New forecasts are published in early 2021.&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -362,10 +362,10 @@ Get short and medium long term prognosis per occupational group (&amp;lsquo;yrke
     
     <item>
       <title>Docs: </title>
-      <link>uild/en/docs/apis/cookie_policy/</link>
+      <link>/en/docs/apis/cookie_policy/</link>
       <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
       
-      <guid>uild/en/docs/apis/cookie_policy/</guid>
+      <guid>/en/docs/apis/cookie_policy/</guid>
       <description>
         
         
@@ -429,15 +429,16 @@ Get short and medium long term prognosis per occupational group (&amp;lsquo;yrke
     </item>
     
     <item>
-      <title>Docs: Dev Guide</title>
-      <link>uild/en/docs/apis/devguide/</link>
+      <title>Docs: </title>
+      <link>/en/docs/apis/devguide/open_projects/</link>
       <pubDate>Sun, 28 Jan 2018 21:58:09 +0100</pubDate>
       
-      <guid>uild/en/docs/apis/devguide/</guid>
+      <guid>/en/docs/apis/devguide/open_projects/</guid>
       <description>
         
         
-        
+        &lt;p&gt;Here you can find projects we are working on right now. We are “open by default” and you can, as an individual or company, help us develop or give feedback on every development project.&amp;rdquo;&lt;/p&gt;
+
       </description>
     </item>
     

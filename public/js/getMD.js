@@ -10,7 +10,7 @@
         }).join(''));
     }
 
-    var url = document.getElementById("githubcontent").getAttribute("geturl");
+    var url = document.getElementById("githubcontent").getAttribute("data-geturl");
 
     var request = new XMLHttpRequest();
 

@@ -39,6 +39,7 @@
                 idx = lunr(function() {
                     this.ref('ref');
                     this.field('title');
+                    this.field('description');
                     this.field('body');
 
                     data.forEach(doc => {
@@ -46,7 +47,8 @@
 
                         resultDetails.set(doc.ref, {
                             title: doc.title,
-                            excerpt: doc.excerpt
+                            description: doc.description
+
                         });
                     });
                 });
@@ -132,28 +134,59 @@
                     $('<p>').text(`No results found for query "${searchQuery}"`)
                 );
             } else {
-                results.forEach(r => {
-                    const $cardHeader = $('<div>').addClass('card-header');
-                    const doc = resultDetails.get(r.ref);
+                if (document.documentElement.lang === "en") {
+                    results.forEach(r => {
+                        let regex = /\/en\//g;
+                        if (r.ref.match(regex)){
+                            const $cardHeader = $('<div>').addClass('card-header');
+                            const doc = resultDetails.get(r.ref);
+                            console.log(r.ref)
+                            $cardHeader.append(
+                                $('<a>')
+                                    .attr('href', r.ref)
+                                    .text(doc.title)
+                            );
 
-                    $cardHeader.append(
-                        $('<a>')
-                            .attr('href', r.ref)
-                            .text(doc.title)
-                    );
+                            const $cardBody = $('<div>').addClass('card-body');
+                            $cardBody.append(
+                                $('<p>')
+                                    .addClass('card-text text-muted')
+                                    .text(doc.description)
+                            );
 
-                    const $cardBody = $('<div>').addClass('card-body');
-                    $cardBody.append(
-                        $('<p>')
-                            .addClass('card-text text-muted')
-                            .text(doc.excerpt)
-                    );
+                            const $card = $('<div>').addClass('card text-muted');
+                            $card.append($cardHeader).append($cardBody);
 
-                    const $card = $('<div>').addClass('card');
-                    $card.append($cardHeader).append($cardBody);
+                            $searchResultBody.append($card);
+                        }
+                    });
+                }else{
+                    results.forEach(r => {
+                        let regex = /\/en\//g;
+                        if (!r.ref.match(regex)){
+                            const $cardHeader = $('<div>').addClass('card-header');
+                            const doc = resultDetails.get(r.ref);
+                            console.log(r.ref)
+                            $cardHeader.append(
+                                $('<a>')
+                                    .attr('href', r.ref)
+                                    .text(doc.title)
+                            );
 
-                    $searchResultBody.append($card);
-                });
+                            const $cardBody = $('<div>').addClass('card-body');
+                            $cardBody.append(
+                                $('<p>')
+                                    .addClass('card-text text-muted')
+                                    .text(doc.description)
+                            );
+
+                            const $card = $('<div>').addClass('card text-muted');
+                            $card.append($cardHeader).append($cardBody);
+
+                            $searchResultBody.append($card);
+                        }
+                    });
+                }
             }
 
             $targetSearchInput.on('shown.bs.popover', () => {
