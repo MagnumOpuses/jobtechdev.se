@@ -30,7 +30,7 @@ När vi insåg att många sitter med exakt samma utmaningar så föddes idén om
 
 ### Vilka är med? 
 
-*”Vi från JobTech Development/Arbetsförmedlingen har bildat en planeringsgrupp tillsammans med Samtrafiken, Digg, Sveriges Kommuner och Regioner, Internetstiftelsen och Patent- och Registreringsverket. Men på de workshops som vi har anordnat hittills har det varit deltagare från XXX myndigheter och offentliga aktörer i Sverige. 
+*”Vi från JobTech Development/Arbetsförmedlingen har bildat en planeringsgrupp tillsammans med Samtrafiken, Digg, Sveriges Kommuner och Regioner, Internetstiftelsen och Patent- och Registreringsverket. Men på de workshops som vi har anordnat hittills har det varit deltagare från över hundra organisationer, varav de flesta myndigheter och andra offentliga aktörer. 
 Det har varit ett enormt intresse med fullsatta workshops vid båda tillfällena, och det känns väldigt roligt!”*
 
 ### Konkret, vad händer på nätverksträffarna?
