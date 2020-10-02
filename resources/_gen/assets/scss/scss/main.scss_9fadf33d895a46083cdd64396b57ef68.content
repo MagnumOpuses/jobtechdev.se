@@ -12742,6 +12742,14 @@ readers do not read off random characters that represent icons */
     border-style: solid;
     border-color: #efefef; }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important; }
+
 .skip-to-content-link {
   background: #fff;
   color: #000;
@@ -12770,7 +12778,7 @@ readers do not read off random characters that represent icons */
 .navbar-toggler {
   position: fixed;
   z-index: 1;
-  right: 5px;
+  right: 7px;
   top: 15px; }
 
 .link-underline {
@@ -12778,8 +12786,9 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 991.98px) {
   .navbar-nav-s-s {
+    border-radius: 0 0 5px 5px;
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 200px;
     float: right;
     top: 15px;
@@ -12802,8 +12811,9 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 767.98px) {
   .navbar-nav-s-s {
+    border-radius: 0 0 5px 5px;
     text-align: left;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 200px;
     float: right;
     top: 15px;

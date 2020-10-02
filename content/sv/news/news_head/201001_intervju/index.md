@@ -3,7 +3,7 @@ date: 2020-10-01
 articleTitle: "”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”"
 title: "”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”"
 linkTitle: "Fem frågor till..."
-description: ""
+description: "dsadsadsa"
 author: 
 resources:
 - src: "**jonas*.jpg"
