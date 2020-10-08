@@ -20,6 +20,7 @@
     <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds6"/>
     <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds7"/>
     <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds8"/>
+    <dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds9"/>
     <dcterms:publisher rdf:resource="http://arbetsformedlingen.se/datasets/dcat#agent1"/>
     <dcterms:issued>2018-04-05</dcterms:issued>
     <dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/se"/>
@@ -77,7 +78,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Historiska annonser</dcterms:title>
     <dcterms:description>
-      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2017
+      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2019
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>historiska annonser</dcat:keyword>
@@ -88,7 +89,7 @@
     <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2020-03-05</dcterms:modified>
+    <dcterms:modified>2020-10-08</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
@@ -188,6 +189,25 @@
     <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcterms:title xml:lang="sv">JobAd Enrichments</dcterms:title>
+    <dcterms:description>
+      JobAd Enrichments API extraherar relevant arbetsmarknadsdata från platsannonstexter,
+      vilket gör det möjligt att automatiskt se vad arbetsgivarna behöver eller efterfrågar hos arbetssökande.
+
+    </dcterms:description>
+    <adms:contactPoint rdf:nodeID="_n4"/>
+    <dcterms:publisher rdf:nodeID="_n5"/>
+    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
+    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/enrich/"/>
+    <dcterms:issued>2020-09-30</dcterms:issued>
+    <dcterms:modified>2020-09-30</dcterms:modified>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/enrich/"/>
+    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/enrich/"/>
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
 
   <rdf:Description rdf:nodeID="_n7">
