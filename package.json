@@ -10,6 +10,7 @@
     "build:preview": "npm run build -- -D -F"
   },
   "dependencies": {
+    "@popperjs/core": "^2.5.3",
     "counterup2": "^1.0.4"
   },
   "devDependencies": {
