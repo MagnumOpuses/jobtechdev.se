@@ -64,6 +64,7 @@
     <dcat:keyword>kompetenser</dcat:keyword>
     <dcat:keyword>yrkes titlar</dcat:keyword>
     <dcat:keyword>yrken</dcat:keyword>
+    <dcat:keyword>jobtech</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
@@ -83,6 +84,7 @@
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>historiska annonser</dcat:keyword>
+    <dcat:keyword>jobtech</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcat:keyword>dataset</dcat:keyword>
@@ -116,7 +118,7 @@
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>yrkesprognoser</dcat:keyword>
-    <dcat:keyword></dcat:keyword>
+    <dcat:keyword>jobtech</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcat:accessURL rdf:resource="http://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/"/>
@@ -138,6 +140,7 @@
     <dcat:keyword>job ads</dcat:keyword>
     <dcat:keyword>vacancies</dcat:keyword>
     <dcat:keyword>platsannonser</dcat:keyword>
+    <dcat:keyword>jobtech</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
@@ -161,6 +164,7 @@
     <dcat:keyword>job ads</dcat:keyword>
     <dcat:keyword>vacancies</dcat:keyword>
     <dcat:keyword>platsannonser</dcat:keyword>
+    <dcat:keyword>jobtech</dcat:keyword>
     <dcterms:publisher rdf:nodeID="_n5"/>
     <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
