@@ -40,7 +40,6 @@
                     this.ref('ref');
                     this.field('title');
                     this.field('description');
-                    this.field('body');
 
                     data.forEach(doc => {
                         this.add(doc);
@@ -72,6 +71,7 @@
             const searchQuery = $targetSearchInput.val();
             if (searchQuery === '') {
                 return;
+
             }
 
             const results = idx
@@ -140,7 +140,7 @@
                         if (r.ref.match(regex)){
                             const $cardHeader = $('<div>').addClass('card-header');
                             const doc = resultDetails.get(r.ref);
-                            console.log(r.ref)
+
                             $cardHeader.append(
                                 $('<a>')
                                     .attr('href', r.ref)
@@ -166,7 +166,7 @@
                         if (!r.ref.match(regex)){
                             const $cardHeader = $('<div>').addClass('card-header');
                             const doc = resultDetails.get(r.ref);
-                            console.log(r.ref)
+                            
                             $cardHeader.append(
                                 $('<a>')
                                     .attr('href', r.ref)
