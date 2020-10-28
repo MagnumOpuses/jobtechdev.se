@@ -1,7 +1,7 @@
 ---
 date: 2020-10-01
-articleTitle: "”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”"
-title: "”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”"
+articleTitle: "Vi ser att det finns ett uppdämt behov av samverkan kring öppna data"
+title: "Fem frågor till..."
 linkTitle: "Fem frågor till..."
 description: "dsadsadsa"
 author: 
@@ -10,8 +10,7 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
----
-**Fem frågor till...**   
+---  
 **…Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data” som samlar deltagare från Sveriges myndigheter för att arbeta gränsöverskridande och praktiskt med öppna data.** 
 {{< imgproc jonas Fill "300x260" "float-right m-6" >}}
 
