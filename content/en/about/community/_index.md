@@ -1,8 +1,7 @@
 ---
 title: Community
-menu:
-  main:
-    weight: 20        
+disableToc: true
+   
 description: "JobTech Community"
 ---
 

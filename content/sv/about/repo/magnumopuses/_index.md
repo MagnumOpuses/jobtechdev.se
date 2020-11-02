@@ -1,6 +1,8 @@
 ---
+hiddensidemenu: true
 ptitle: "MagnumOpuses"
 title: ""
+toc_hide: true
 disableToc: true
 menuTitle: ""
 weight: 10

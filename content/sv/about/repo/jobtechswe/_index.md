@@ -9,6 +9,8 @@ description: "För källkod för arbetsmarknadsdata. Exempel är Job Search api:
 type: "github"
 link: "https://github.com/jobtechswe"
 hidden: true
+hiddensidemenu: true
+toc_hide: true
 
 
 
