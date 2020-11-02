@@ -8,7 +8,9 @@
         <ul>
             {{ range $pages }}
                 {{ if eq .Parent $parent }}
+                {{ if ne .Page.Params.hiddensidemenu true}}
                     <li><a href="{{ .RelPermalink }}">{{- .Title -}}</a></li>
+                {{ end }}
                 {{ end }}
             {{ end }}
         </ul>

@@ -9,7 +9,7 @@
 
 <div class="card-deck col-sm-12 col-md-12 col-lg-12 col-xl-8 mx-auto">
 
-        {{ range where .Site.Pages "Section" "repo"}}
+        {{ range where .Site.Pages "Section" "about"}}
         {{if or (eq .Parent.Title "Källkod") (eq .Parent.Title "Source code")}}
         <div tabindex="0" class="col-sm-12 col-md-8 col-lg-6 mb-5 mx-auto">
             <div  class="card " style="height: 100%">
