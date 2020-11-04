@@ -12393,6 +12393,20 @@ readers do not read off random characters that represent icons */
           white-space: nowrap;
           -webkit-overflow-scrolling: touch; } }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10%); }
+  85% {
+    transform: translateX(1%); }
+  100% {
+    transform: translateX(0); } }
+
+.collapse.show .collapse.show {
+  animation: 0.5s ease-out 0s 1 slideInFromLeft; }
+
+.collapse.show .collapse.show a {
+  margin-left: 15px; }
+
 #td-section-nav > ul > li > ul > li > ul > li > a:before {
   content: "• "; }
 
