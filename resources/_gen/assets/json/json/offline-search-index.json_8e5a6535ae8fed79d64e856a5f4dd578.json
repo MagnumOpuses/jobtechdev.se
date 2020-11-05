@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"Target":"offline-search-index.2126847d6e47145f171cd39d5c392da0628cc8dccb34b934d0892b1aef6bb339f788b7ff974cf0403c06d6f0dcc413b4fbdb2e20cb0a0c95ff0fa6d29244a2dd.json","MediaType":"application/json","Data":{"Integrity":"sha512-ISaEfW5HFF8XHNOdXDktoGKMyNzLNLk00IkrGu9rszn3iLf/l0zwQDwG1vDcxBO0+9suIMsKDJX/D6bSkkSi3Q=="}}
-=======
-{"Target":"offline-search-index.43b02a91b5eed49639a2e2f5a0c44814f4cc30cf15eceb717f048f0ae69d329a12aa78bb7a2b42bd86a7cb37a22ee6c2d4b3fdb035ef41008f60e1b28a18295f.json","MediaType":"application/json","Data":{"Integrity":"sha512-Q7AqkbXu1JY5ouL1oMRIFPTMMM8V7OtxfwSPCuadMpoSqni7eitCvYanyzeiLubC1LP9sDXvQQCPYOGyihgpXw=="}}
->>>>>>> 38b0d793629585cc10c61cb07e112f9f75ad72e4
+{"Target":"offline-search-index.fe25d190cd5a9a90ae5bc123811e1d8638a361dedce9b5c8603397a467d47cdfcdedfd1670621139e4542345e1f7691648b491e0629f1f055d84d8747a38ca94.json","MediaType":"application/json","Data":{"Integrity":"sha512-/iXRkM1ampCuW8EjgR4dhjijYd7c6bXIYDOXpGfUfN/N7f0WcGIROeRUI0Xh92kWSLSR4GKfHwVdhNh0ejjKlA=="}}
