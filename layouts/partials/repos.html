@@ -1,0 +1,51 @@
+<!-- Using bootstrap for grid behavior (compatible with IE11)-->
+
+
+
+<!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
+
+
+
+
+<div class="card-deck col-sm-12 col-md-12 col-lg-12 col-xl-8 mx-auto">
+
+    {{ $matches := .Resources.Match "*code_*" }}
+    {{ range $matches }}
+   
+
+        <div tabindex="0" class="col-sm-12 col-md-8 col-lg-6 mb-5 mx-auto">
+            <div  class="card " style="height: 100%">
+                <div class="card-header">
+                    <h5 class="card-title">
+                        {{ .Params.Ptitle}}
+
+                    </h5>
+                </div>
+
+                    <div  class="card-body">
+
+                        <p class="card-text">{{ .Description }}</p>
+                    </div>
+
+                    <div  class="card-footer text-center">
+                        {{if in .Params.link "https://github.com"}}
+
+                           <a  href="{{.Params.link}}" role="link" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Github</a>
+                        {{else if in .Params.link "https://gitlab.com/"}}
+                        <a href="{{.Params.link}}"  class="fab fa-gitlab fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Gitlab</a>
+                        {{else }}
+                        <a href="{{.Params.link}}" class="btn-dark btn out mx-auto col-12" target="_blank"> Code</a>
+                        {{end}}
+
+                    </div>
+
+                </div>
+
+
+
+        </div>
+
+
+
+        {{ end }}
+</div>
