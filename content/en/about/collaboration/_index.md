@@ -1,8 +1,8 @@
 ---
-title: "Sammarbeten"
+title: "Collaborations"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
-menuTitle: "Sammarbeten"
+menuTitle: "Collaborations"
 weight: 3
 
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus lacus at erat rutrum, in interdum nisi sagittis. Sed pellentesque, velit ac aliquam pellentesque, metus odio accumsan ligula, ut pretium justo felis sit amet elit. "
