@@ -1,6 +1,6 @@
 ---
-title: "Individ data"
-menuTitle: "Individ Data"
+title: "Individdata"
+menuTitle: "Individdata"
 weight: 2
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus lacus at erat rutrum, in interdum nisi sagittis. Sed pellentesque, velit ac aliquam pellentesque, metus odio accumsan ligula, ut pretium justo felis sit amet elit. "
 
