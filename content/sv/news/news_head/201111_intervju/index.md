@@ -3,10 +3,10 @@ date: 2020-11-11
 articleTitle: ”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus”
 title: "Fem frågor till..."
 linkTitle: "Fem frågor till..."
-description: "dsadsadsa"
+description: ""
 author: 
 resources:
-- src: "**jonas*.jpg"
+- src: "**greg*.jpg"
   title: "Image #:counter"
   params:
     byline: ""
@@ -14,7 +14,9 @@ resources:
 **… Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november 
 för att prata om samarbeten mellan offentliga och privata aktörer, och hur det kan bidra till en bättre arbetsmarknad.**   
     
+{{< imgproc greg Fill "300x460" "float-right m-6" >}}
 
+{{< /imgproc >}}
 
 <!-- There should be no margin above this first sentence.
 <!-- Blockquotes should be a lighter gray with a border along the left side in the secondary color.
