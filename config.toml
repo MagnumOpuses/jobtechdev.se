@@ -178,11 +178,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/MagnumOpuses/jobtec
 	url = "https://github.com/jobtechswe"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
-# [[params.links.developer]]
-	#name = "Slack"
-	#url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtODc1MTg3NTc5NjY5LThiNThlMGU4ZTljZTQ3OGQ5ZTA3Mzg1M2JmNzg5ZTdhMjA4YzU3OTRjN2UyY2QzZjBhYTBjMzE4NjUzYzg1YWM"
-	#icon = "fab fa-slack"
-     #   desc = ""
+[[params.links.developer]]
+	name = "Slack"
+	url = "https://jobtechdevelopment.slack.com/join/shared_invite/enQtODc1MTg3NTc5NjY5LThiNThlMGU4ZTljZTQ3OGQ5ZTA3Mzg1M2JmNzg5ZTdhMjA4YzU3OTRjN2UyY2QzZjBhYTBjMzE4NjUzYzg1YWM"
+	icon = "fab fa-slack"
+        desc = ""
 
 [[params.links.developer]]
 	name = "Forum"
