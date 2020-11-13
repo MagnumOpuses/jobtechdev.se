@@ -10,9 +10,6 @@
 		{{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
 		<time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
 	</div>
-	{{ if (.Params.articleTitle) }}
-	<strong> {{.Page.Title}} </strong>
-	{{end}}
 	{{ .Content }}
 	{{ if (.Site.DisqusShortname) }}
 		<br />
