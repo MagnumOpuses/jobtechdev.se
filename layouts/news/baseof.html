@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" class="no-js" itemscope itemtype="http://schema.org/WebPage">
-
   <head>
     {{ partial "head.html" . }}
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
@@ -16,7 +15,7 @@
             {{ partial "sidebar.html" . }}
           </div>
           <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
-            {{ partial "toc.html" . }}
+
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" >
             {{ with .CurrentSection.OutputFormats.Get "rss" -}}

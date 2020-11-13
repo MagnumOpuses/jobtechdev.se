@@ -1,4 +1,4 @@
-<div class="td-content">
+<main tabindex="0" class="td-content">
 	{{ if (.Params.articleTitle) }}
 	<h1>{{ .Params.articleTitle }}</h1>
 	{{ else if not (.Params.articleTitle) }}
@@ -21,4 +21,4 @@
 	{{ end }}
 
 	{{ partial "pager.html" . }}
-</div>
+</main>
