@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}" class="no-js" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
+    {{ partial "head.html" . }}
+
+  </head>
+  <body class="td-{{ .Kind }}">
+    <header>
+      {{ partial "navbar.html" . }}
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main" onload="resizeIframe(this)">
+        <iframe src="https://statping.jobtechdev.se/" style="height: -webkit-fill-available;position: relative;margin-top:75px;" width="100%" ></iframe>
+        {{ partial "footer.html" . }}
+      </div>
+
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
