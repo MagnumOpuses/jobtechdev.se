@@ -1,6 +1,6 @@
 ---
-ptitle: "Taxonomy"
-title: ""
+ptitle: ""
+title: "Taxonomy"
 disableToc: true
 toc_hide: true
 menuTitle: ""

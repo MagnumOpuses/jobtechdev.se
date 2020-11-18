@@ -1,6 +1,6 @@
 ---
-ptitle: "JobTech Swe"
-title: ""
+ptitle: ""
+title: "JobTech Swe"
 disableToc: true
 menuTitle: ""
 weight: 10

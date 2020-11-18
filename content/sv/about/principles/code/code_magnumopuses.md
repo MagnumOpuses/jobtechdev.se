@@ -1,7 +1,7 @@
 ---
 hiddensidemenu: true
-ptitle: "MagnumOpuses"
-title: ""
+ptitle: ""
+title: "MagnumOpuses"
 toc_hide: true
 disableToc: true
 menuTitle: ""
