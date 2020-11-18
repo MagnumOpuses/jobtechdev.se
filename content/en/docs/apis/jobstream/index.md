@@ -1,6 +1,7 @@
 ---
 title: "Job Stream"
 menuTitle: "Job Stream"
+category: "Labor Market Data"
 description: "JobStream API for those who are building applications and needs to store all ads locally.
               With JobStream you can fetch all changes in ads once a minute. New, removed or updated ads."
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"

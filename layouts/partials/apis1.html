@@ -1,43 +1,45 @@
-<!-- Using bootstrap for grid behavior (compatible with IE11)-->
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/css/apis.css">
-<link rel="stylesheet" type="text/css" href="/css/showcase.css">
-<style>
-    body {
-        background-color: #fff;
-        --MAIN-TITLES-TEXT-color: #000;
-    }
-</style>
 
 
-<div class="container-fluid">
-    <div class="row">
-        {{ range where .Site.Pages "Section" "docs"}}
-        {{if eq .Parent.Title "API:er" }}
-            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="padding:16px">
-                <div class="showcase-item">
-                    <div class="title col-12">
-                    {{ .Title}}
+<div class="card-deck col-sm-12 col-md-12 col-lg-12 col-xl-8 mx-auto">
 
-                    </div>
+    {{ range where .Site.Pages "Section" "docs"}}
 
-                    <div class="description">
-                    <p>{{ .Description }}</p>
-                    </div>
-                    <footer class="">
-                        <div class="row">
-                        <a href="{{.RelPermalink}}" class="showcasebtn align-self-end">Read more</a>
-                    </div>
-                        {{ if isset .Params "consoleurl"  }}
-                    <div class="row">
-                        <a href="{{ .Params.consoleurl}}" class="showcasebtn align-self-end">Console</a>
-                    </div>
-                        {{end}}
-                    </footer>
-                </div>
+
+
+    {{if or ( and (eq .Parent.Title "API:er") (eq .Params.category $.Page.Params.title)) ( and (eq .Parent.Title "Projekt") (eq .Params.category $.Page.Params.title)) }}
+    <div tabindex="0" class="col-sm-12 col-md-8 col-lg-6 mb-5 mx-auto">
+        <div  class="card " style="height: 100%">
+            <div class="card-header">
+                <h5 class="card-title">
+                    {{ .Params.title}}
+
+                </h5>
             </div>
-        {{ end }}
-        {{ end }}
-    </div>
-</div>
 
+            <div  class="card-body">
+
+                <p class="card-text">{{ .Description }}</p>
+            </div>
+
+            <div  class="card-footer text-center">
+                {{if in .Params.link "https://github.com"}}
+
+                <a  href="{{.Params.link}}" role="link" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Github</a>
+                {{else if in .Params.link "https://gitlab.com/"}}
+                <a href="{{.Params.link}}"  class="fab fa-gitlab fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Gitlab</a>
+                {{else }}
+                <a href="{{.Params.link}}" class="btn-dark btn out mx-auto col-12" target="_blank"> Code</a>
+                {{end}}
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    {{ end }}{{ end }}
+</div>

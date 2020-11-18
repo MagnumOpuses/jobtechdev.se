@@ -1,6 +1,7 @@
 ---
 title: "Taxonomy Viewer"
 menuTitle: "Taxonomy Viewer "
+category: "Language Data"
 weight: 7
 description: "A site where you can browse JobTech Taxonomy data."
 

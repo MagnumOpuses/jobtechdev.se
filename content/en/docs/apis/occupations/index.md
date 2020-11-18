@@ -1,6 +1,7 @@
 ---
 title: "Yrkesinfo"
 menuTitle: "Af Yrkesinfo "
+category: "Labor Market Data"
 weight: 4
 description: "AF Occupation info is an API, containing descriptions of nearly 350 different occupations."
 

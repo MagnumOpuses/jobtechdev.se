@@ -1,6 +1,6 @@
 ---
 title: "Yrkesinfo"
-
+category: "Arbetsmarknadsdata"
 menuTitle: "Af Yrkesinfo "
 weight: 4
 description: "API:et Yrkesinfo innehåller beskrivningar av cirka 350 olika yrken."
