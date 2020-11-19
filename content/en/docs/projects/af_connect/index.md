@@ -1,6 +1,7 @@
 ---
 title: "Af Connect"
 menuTitle: "Af Connect "
+category: "Personal data"
 weight: 7
 description: "This API allows individual cv data stored in Arbetsförmedlingen’s MinProfil to be transfer to another service upon user consent"
 
