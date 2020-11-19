@@ -1,6 +1,7 @@
 ---
 title: "Taxonomy Viewer"
 menuTitle: "Taxonomy Viewer "
+cardtitle: "Projekt "
 category: "Språkdata"
 weight: 7
 description: "Ett gränssnitt som visar den data som finns i produkten JobTech Taxonomy."

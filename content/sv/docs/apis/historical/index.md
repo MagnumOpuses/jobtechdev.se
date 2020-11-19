@@ -1,5 +1,6 @@
 ---
-title: "Historical Jobs"
+title: "Historiska Annonser"
+cardtitle: "Dataset"
 menuTitle: "Historical Jobs "
 category: "Arbetsmarknadsdata"
 weight: 6

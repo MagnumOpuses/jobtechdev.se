@@ -2,6 +2,7 @@
 title: "Taxonomi"
 menuTitle: "Taxonomi "
 category: "Språkdata"
+cardtitle: "API"
 weight: 7
 description: "JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. Datan består av begrepp som bedöms vara relevanta för matchning mellan lediga jobb och arbetssökande."
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
