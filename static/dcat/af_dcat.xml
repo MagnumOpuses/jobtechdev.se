@@ -187,29 +187,6 @@
     <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds8">
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Yrkes info</dcterms:title>
-    <dcterms:description>
-      APIiet Yrkesinfo innehåller beskrivningar av cirka 350 olika yrken.
-    </dcterms:description>
-    <adms:contactPoint rdf:nodeID="_n4"/>
-    <dcat:keyword>Yrkesinfo</dcat:keyword>
-    <dcat:keyword>jobtech</dcat:keyword>
-    <dcat:keyword>beskrivning</dcat:keyword>
-    <dcat:keyword>yrken</dcat:keyword>
-    <dcat:keyword>arbetsmarknad</dcat:keyword>
-    <dcterms:publisher rdf:nodeID="_n5"/>
-    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/>
-    <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2020-03-05</dcterms:modified>
-    <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
-    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
-    <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
-    <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/occupations/"/>
-    <dcterms:spatial rdf:resource="http://www.geonames.org/countries/SE/sweden.html"/>
-    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds9">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">JobAd Enrichments</dcterms:title>
