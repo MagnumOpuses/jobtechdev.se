@@ -2,7 +2,6 @@
 title: "AllJobAds"
 menuTitle: "AllJobAds "
 category: "Arbetsmarknadsdata"
-link: "/docs/projects/af_connect"
 weight: 7
 description: "En widget som ger tillgång till jobbannonser från Arbetsförmedlingen. Den låter dig filtrera efter yrke och / eller område."
 
