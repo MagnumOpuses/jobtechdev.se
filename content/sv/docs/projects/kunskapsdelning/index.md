@@ -1,5 +1,6 @@
 ---
 title: "Kunskapsdelning"
+link: "/docs/projects/kunskapsdelning"
 menuTitle: " "
 weight: 7
 description: "Öppna dataplattformarna Jobtechdev.se och Trafiklab, tillsammans med Lunds universitet samlar och delar kunskap, insikter och verktyg för att bedriva operativ verksamhet kring öppna data, öppna data-plattformar och öppen källkod.             

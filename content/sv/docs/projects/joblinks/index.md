@@ -2,6 +2,7 @@
 title: "Joblinks"
 menuTitle: "Joblinks "
 category: "Arbetsmarknadsdata"
+link: "/docs/projects/joblinks"
 weight: 7
 description: "Vi driver tillsammans med de största annonssajterna i Sverige i ett pilotprojekt kring att samla alla jobb på ett ställe."
 

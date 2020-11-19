@@ -2,6 +2,7 @@
 title: "Yrkesprognoser"
 menuTitle: "Yrkesprognoser "
 category: "Arbetsmarknadsdata"
+link: "/docs/apis/forecasts"
 weight: 19
 description: "Yrkesprognos APIet innehåller 1 och 5 åriga prognoser."
 
