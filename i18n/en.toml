@@ -105,3 +105,14 @@ other = "Create documentation issue"
 other = "Create project issue"
 [post_posts_in]
 other = "Posts in"
+
+# Used in partial apicards
+[header_focusareas]
+other = "Open data and open source code within the area  "
+
+[card_title]
+other = "Project - "
+
+[card_title1]
+other = "API - "
+

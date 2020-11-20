@@ -107,3 +107,13 @@ other = "Create project issue"
 [post_posts_in]
 other = "Inlägg från"
 
+# Used in partial apicards
+[header_focusareas]
+other = "Öppen data och källkod inom området  "
+
+[card_title]
+other = "Projekt - "
+
+[card_title1]
+other = "API - "
+

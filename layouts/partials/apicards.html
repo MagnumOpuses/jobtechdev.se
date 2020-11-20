@@ -1,51 +1,34 @@
-<!-- Using bootstrap for grid behavior (compatible with IE11)-->
 
-
-
-<!--<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">-->
-
-
-
+<h4 style="text-align: center">{{ T "header_focusareas"}}{{.Title}}</h4> <br>
 
 <div class="card-deck col-sm-12 col-md-12 col-lg-12 col-xl-8 mx-auto">
 
-    {{ $matches := .Resources.Match "*apis*" }}
-    {{ range $matches }}
-   
 
-        <div tabindex="0" class="col-sm-12 col-md-8 col-lg-6 mb-5 mx-auto">
-            <div  class="card " style="height: 100%">
-                <div class="card-header">
-                    <h5 class="card-title">
-                        {{ .Params.title}}
-
-                    </h5>
-                </div>
-
-                    <div  class="card-body">
-
-                        <p class="card-text">{{ .Description }}</p>
-                    </div>
-
-                    <div  class="card-footer text-center">
-                        {{if in .Params.link "https://github.com"}}
-
-                           <a  href="{{.Params.link}}" role="link" class="fab fa-github fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Github</a>
-                        {{else if in .Params.link "https://gitlab.com/"}}
-                        <a href="{{.Params.link}}"  class="fab fa-gitlab fa-1x btn-dark btn out mx-auto col-12" target="_blank"> Gitlab</a>
-                        {{else }}
-                        <a href="{{.Params.link}}" class="btn-dark btn out mx-auto col-12" target="_blank"> Code</a>
-                        {{end}}
-
-                    </div>
-
-                </div>
+    {{ range where .Site.Pages "Section" "docs"}}
 
 
-
+    {{if or ( and (eq .Parent.Title "API:er") (eq .Params.category $.Page.Params.title)) ( and (eq .Parent.Title "Projekt") (eq .Params.category $.Page.Params.title)) ( or (eq .Parent.Title "Projects") (eq .Params.category $.Page.Params.title)) }}
+    <div tabindex="0" class="col-sm-12 col-md-8 col-lg-6 mb-5 mx-auto">
+        <div class="card " style="height: 100%">
+            <div class="card-header">
+                {{if  in .Parent.Title "API"}}
+                <h5 class="card-title"> {{ T "card_title1"}} {{ .Params.title}} </h5>
+                {{ else}}
+                <h5 class="card-title">{{ T "card_title"}} {{ .Params.title}} </h5>
+                {{ end }}
+            </div>
+            <div  class="card-body">
+                <p class="card-text">{{ .Description }}</p>
+            </div>
+            <div  class="card-footer text-center">
+                {{if in .File.Lang "en"}}
+               <a href="{{ .Permalink }}" class="btn-dark btn out mx-auto col-12" target="_blank"> Documentation</a>
+                {{ else }}
+                <a href="{{ .Permalink }}" class="btn-dark btn out mx-auto col-12" target="_blank"> Dokumentation</a>
+               {{ end }}
+               </div>
         </div>
-
-
-
-        {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
 </div>
