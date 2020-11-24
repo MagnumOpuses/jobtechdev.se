@@ -18,7 +18,7 @@
                 {{ end }}
             </div>
             <div  class="card-body">
-                <p class="card-text">{{ .Description }}</p>
+                <p class="card-text">{{.Description | markdownify}}</p>
             </div>
             <div  class="card-footer text-center">
                 {{if in .File.Lang "en"}}
