@@ -4,7 +4,12 @@ menuTitle: "Yrkesprognoser "
 cardtitle: "API"
 category: "Arbetsmarknadsdata"
 weight: 19
-description: "Yrkesprognos APIet innehåller 1 och 5 åriga prognoser."
+description: "**Forecast gör det möjligt att visa prognoser över rekryteringsbehovet inom olika yrken/yrkesgrupper på ett respektive fem års sikt. Prognoserna bygger på intervjuer med arbetsgivare som genomförs två gånger per år av Statistiska Centralbyrån/Arbetsförmedlingen. 
+             API:et ger även information om vilken konkurrenssituation en arbetssökande kan vänta sig inom olika yrken/yrkesgrupper.**            
+            <br/><br/>
+            API:et är särskilt användbart för företag och organisationer som erbjuder tjänster inom yrkes- och studievägledning och vill hjälpa sina kunder/målgrupper att fatta välgrundade beslut inför yrkes- och studieval. 
+            Det är också användbart för andra aktörer som vill ha fördjupade insikter om utvecklingen på arbetsmarknaden.<br/><br/>
+            **API:et är fritt tillgängligt.** " 
 
 
 ---

@@ -4,7 +4,10 @@ menuTitle: "Taxonomi "
 category: "Språkdata"
 cardtitle: "API"
 weight: 7
-description: "JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. Datan består av begrepp som bedöms vara relevanta för matchning mellan lediga jobb och arbetssökande."
+description: "**JobTech Taxonomy ger tillgång till begrepp och uttryck som används på arbetsmarknaden samt information om hur dessa är kopplade till varandra. Det gäller exempelvis yrkesbenämningar, kompetensbegrepp eller kopplingen mellan yrken och kompetenser. 
+              Yrkesbenämningarna är strukturerade enligt Standard för svensk yrkesklassificering (SSYK).** <br/> <br/>             
+              API:et är användbart för alla företag och organisationer som utvecklar och erbjuder digitala matchningstjänster men som inte har möjlighet att bygga upp en informationsstruktur på egen hand. Även aktörer som studerar och analyserar utvecklingen på arbetsmarknaden har nytta av API:et.<br/><br/>
+              **API:et är fritt tillgängligt.** " 
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
 ---
 
