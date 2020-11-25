@@ -3,14 +3,14 @@
 
 <section  class="td-content ba">
     <div tabindex="0" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-        <h4 class="display-4">{{T "Learn_and_connect"}}</h4>
+        <h5 class="display-5">{{T "Learn_and_connect"}}</h5>
         <p >{{T "using"}} {{ .Site.Title }}?
             {{ with index $links "user"}}
             {{ template "community-links-list"  . }}
             {{ end }}
     </div>
     <div tabindex="0" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h4 class="display-4">{{T "develop_and_contribute"}}</h4>
+        <h5 class="display-5">{{T "develop_and_contribute"}}</h5>
         <p >{{T "text_develop"}}
             {{ with index $links "developer"}}
             {{ template "community-links-list"  . }}
