@@ -1,7 +1,7 @@
 ---
 date: 2020-11-26
-title: "Webinnar 2/12: Kom igång med JobAd Enrichments!"
-linkTitle: "Webinnar 2/12"
+title: "Webinar: Kom igång med JobAd Enrichments!"
+linkTitle: "Webinar JobAd Enrichments"
 description: "API:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort."
 author: 
 resources:
