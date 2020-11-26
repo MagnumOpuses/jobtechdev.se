@@ -10,6 +10,8 @@ resources:
   params:
     byline: ""
 ---
+![identifierade ord](jobadenrich.png)
+
 **Den 2 december bjuder JobTech Development in till webinar om JobAd Enrichments – en AI-lösning som ger bättre sökträffar i annonsplattformar och kan användas för utveckling av nya innovativa digitala tjänster för arbetsmarknaden. 
 JobTech Developments Mattias Persson, ansvarig utvecklare, berättar om hur API:et fungerar och hur du kommer igång och använder det.**
 
