@@ -11,8 +11,7 @@ description: "Här presenterar vi all den öppna data som du kan använda helt f
 ---      
 ### JobTechs policy om öppenhet
   Denna policy omfattar alla projekt som bedrivs av enheten JobTech som är en del av Arbetsförmedlingen. JobTech tillgängliggör öppna data och möjliggöra användande av denna data.
-  Policyn beskriver övergripande de anställda på enheten JobTech ställningstagande om öppenhet gentemot sina användare. Inspiration kommer från Debian Social Contract. Kommentarer är välkomna.
-  Ni hittar våran <a href="/community/"> communitysida</a> här.
+  Policyn beskriver övergripande de anställda på enheten JobTech ställningstagande om öppenhet gentemot sina användare. Inspiration kommer från [Debian Social Contract.](https://www.debian.org/social_contract) Kommentarer är välkomna.
   Vi förbinder oss vidare att göra det enkelt att bidra och använda den öppna infrastrukturen.
 
 ### Skattefinansiering förpliktigar delning

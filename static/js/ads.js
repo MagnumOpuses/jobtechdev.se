@@ -1,5 +1,5 @@
 $(function () {
-    var row = document.getElementsByClassName("afTableRow");
+    var row = document.getElementsById("afTableRow");
 
     if (row.length === 0){
         document.getElementById("afWidgetContainer").hidden = true;
