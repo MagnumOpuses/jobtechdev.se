@@ -1,12 +1,18 @@
 ---
-title: "Yrkesprognoser"
+title: "Occupation Forecasts"
 disableToc: true
-menuTitle: "Yrkesprognoser"
+menuTitle: "Occupation Forecasts"
 category: "Labor Market Data"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: "API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations."
-type: "github"
+description: "**Forecast makes it possible to show forecasts of the need for recruitment in different occupations / occupational groups in one and five years' time, respectively. The forecasts are based on interviews with employers conducted twice a year by Statistics Sweden / Arbetsförmedlingen.
+                          The API also provides information on what competitive situation a jobseeker can expect in different professions / occupational groups.**
+                         <br/> <br/>
+                         The API is particularly useful for companies and organizations that offer services in vocational and study guidance and want to help their customers / target groups make informed decisions before career and study choices.
+                         It is also useful for other actors who want in-depth insights into developments in the labor market. <br/> <br/>
+                         **The API is freely available.** "
+
+
 
 ---
 | COVID 19: Covid-19 has changed the labour market situation for some professions. The forecasts that should be interpreted with caution are marked in the file [Bedömmningar att flagga](/files/covid.csv). New forecasts are published in early 2021.   |

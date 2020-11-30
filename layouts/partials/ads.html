@@ -56,6 +56,7 @@
 
 
 <div >
+
      <div
         id="afWidgetContainer"
         data-limit="5"
@@ -66,7 +67,11 @@
         data-modal ="true"
 >
         <div style="padding: 10px;">
+            {{if in .File.Lang "en"}}
+            <div style="text-align: center;">There are</div>
+            {{ else }}
             <div style="text-align: center;">Det finns</div>
+            {{ end }}
             <div
                     id="afJobCount"
                     style="
@@ -80,7 +85,11 @@
 
                   "
             ></div>
-        <div style="text-align: center; font-size: 13px"> tjänster hos <strong>JobTech</strong> att söka  </div>
+            {{if in .File.Lang "en"}}
+             <div style="text-align: center; font-size: 13px">vacancies at <strong>JobTech</strong>  </div>
+            {{ else }}
+            <div style="text-align: center; font-size: 13px">tjänster hos <strong>JobTech</strong>  </div>
+            {{ end }}
      </div>
     </div>
 </div>
