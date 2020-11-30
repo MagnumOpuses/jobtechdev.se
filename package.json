@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "hugo server -p 3000 -d dist -wv --disableFastRender",
+    "start": "hugo server -p 3000 -d dist -wv ",
     "start:preview": "npm run start -- -D -F",
     "build": "hugo -d dist ",
     "build:preview": "npm run build -- -D -F"
