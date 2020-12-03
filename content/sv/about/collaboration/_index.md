@@ -1,8 +1,8 @@
 ---
-title: "Sammarbeten"
+title: "Samarbeten"
 date: 2018-01-28T21:58:09+01:00
 disableToc: true
-menuTitle: "Sammarbeten"
+menuTitle: "Samarbeten"
 weight: 3
 
 description: "Hela vår verksamhetsidé och bygger på samverkan och samarbete, och det är också en förutsättning för att verksamheten ska fungera "
