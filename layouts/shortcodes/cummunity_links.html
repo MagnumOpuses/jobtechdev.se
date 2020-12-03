@@ -4,7 +4,7 @@
 <section  class="td-content ba">
     <div tabindex="0" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
         <h5 class="display-5">{{T "Learn_and_connect"}}</h5>
-        <p >{{T "using"}} {{ .Site.Title }}?
+        <p >{{T "using"}}
             {{ with index $links "user"}}
             {{ template "community-links-list"  . }}
             {{ end }}
