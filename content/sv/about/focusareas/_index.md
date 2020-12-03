@@ -10,10 +10,6 @@ description: "Vi fokuserar vårt arbete inom 3 områden, språkdata, arbetsmarkn
              
 ---   
   
-**Språkdata:** Vi skapar ett gemensamt språk för svensk arbetsmarknad så att människor och företag enklare kan hitta varandra.
-**Arbetsmarknadsdata:** Vi skapar, samlar och kvalitetssäkrar data för att ge människor och företag bättre förutsättningar att utvecklas på arbetsmarknaden.  
-**Individdata:** Vi skapar möjlighet för individer på arbetsmarknaden att äga, använda och flytta sin egna data på ett enkelt sätt.
-
 
             
 

@@ -36,6 +36,7 @@ plainIDAnchors = true
 hrefTargetBlank = false
 angledQuotes = false
 latexDashes = true
+extensions = ["hardLineBreak"]
 
 [menu]
     [[menu.main]]

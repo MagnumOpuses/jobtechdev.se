@@ -2,8 +2,7 @@
 title: "Arbetsmarknadsdata"
 menuTitle: "Arbetsmarknadsdata"
 weight: 2
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus lacus at erat rutrum, in interdum nisi sagittis. Sed pellentesque, velit ac aliquam pellentesque, metus odio accumsan ligula, ut pretium justo felis sit amet elit. "
-
+description: "Vi skapar, samlar och kvalitetssäkrar data för att ge människor och företag bättre förutsättningar att utvecklas på arbetsmarknaden."
 
 
   

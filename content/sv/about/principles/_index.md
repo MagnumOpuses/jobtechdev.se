@@ -18,13 +18,6 @@ Det innebär bland annat att vi är en virtuell, autonom, platt organisation, vi
 Resultatet vår verksamhet kommer flera till gagn om vårt arbete är tillgängligt och öppet. Öppen källkod är bra för de som vill bidra till bättre tjänster och för de som vill granska vår verksamhet. 
 Där det finns skäl att begränsa öppenhet ska inte mer än nödvändigt undantas delning.  
 
-### All källkod från oss delas och inget döljs.  
- * Definitionen av öppen källkod kommer från <a class="link-underline" href="https://opensource.org/osd" >Opensource.org.</a>
- * Källkoden ska kunna laddas ner, användas, spridas och förändras utan motprestation av alla. 
- * Källkoden distribueras under en licens som är godkänd av <a href="https://opensource.org/licenses">Open Source Initiative.</a>
- * Alla våra initiativ är öppna för vem som helst att bidra till, antingen med källkod eller andra förbättringsförslag.  
-  Läs gärna våra <a href="https://github.com/MagnumOpuses/project-meta/blob/master/CONTRIBUTING_TEMPLATE.md">Riktlinjer för bidrag</a>  här.
-
 
     
 
