@@ -84,6 +84,7 @@ time_format_blog = "02.01.2006"
 
 [params]
 
+
 logo_foot="/img/Af_logo.svg"
 # Order sections in menu by "weight" or "title". Default to "weight"
 ordersectionsby = "weight"
