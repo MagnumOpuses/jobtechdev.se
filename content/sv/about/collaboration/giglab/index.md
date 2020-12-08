@@ -9,5 +9,5 @@ description: "Giglab Sverige är ett nationellt policylabb och ett samarbete mel
 ---
 
 
- På [JobTechGig.se](https://jobtechgig.se/) finns mer information 
+ På [GigLab Sverige](https://www.giglabsverige.se/) finns mer information 
 
