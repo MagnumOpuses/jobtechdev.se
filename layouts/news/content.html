@@ -1,4 +1,4 @@
-<div class="td-content">
+<main tabindex="0" class="td-content">
 	{{ if (.Params.articleTitle) }}
 	<h1>{{ .Params.articleTitle }}</h1>
 	{{ else if not (.Params.articleTitle) }}
@@ -10,6 +10,9 @@
 		{{ with .Params.author }}{{ T "post_byline_by" }} <b>{{ . | markdownify }}</b> |{{ end}}
 		<time datetime="{{  $.Date.Format "2006-01-02" }}" class="text-muted">{{ $.Date.Format $.Site.Params.time_format_blog  }}</time>
 	</div>
+	{{ if (.Params.articleTitle) }}
+	<strong> {{.Page.Title}} </strong>
+	{{end}}
 	{{ .Content }}
 	{{ if (.Site.DisqusShortname) }}
 		<br />
@@ -18,7 +21,4 @@
 	{{ end }}
 
 	{{ partial "pager.html" . }}
-</div>
-
-
-
+</main>
