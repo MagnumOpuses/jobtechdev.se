@@ -27,10 +27,10 @@ På webinaret den 2 december berättar vår utvecklare Mattias Persson om API:et
 
 **Tid: 2 december kl 10:00 – 11:00** 
  
-**Plats: https://jitsi.jobtechdev.se/yggdrasil/jobadenrichments**
+**Plats: **
  
 **Anmälan:**  
-Anmäl dig genom att skicka ett mail med texten "JobAd Enrichments Webinar - Ja tack" i ämnesfältet till [JobTech Development](mailto:jobtechdevelopment@arbetsformedlingen.se)
+
 
 **I vårt [forum](https://forum.jobtechdev.se) kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra API:er.  
  Välkommen in!** 
