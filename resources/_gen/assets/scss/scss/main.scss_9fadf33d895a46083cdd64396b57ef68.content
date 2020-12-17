@@ -13002,4 +13002,12 @@ assets/scss/_styles_project.scss
   border-color: #888;
   margin: 3px; }
 
+.numbers {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit;
+  font-family: "Abril Fatface";
+  font-size: 100px; }
+
 /*# sourceMappingURL=main.css.map */
