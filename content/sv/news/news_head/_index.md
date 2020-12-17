@@ -7,7 +7,7 @@ menuTitle: "Nyheter"
 menu:
   main:
     weight: 
-metadescription: " På vår nyhetssida hittar du information om händelser inom JobTech, webinar om hur du använde vår öppna data. Läs mer här
+metadescription: " På vår nyhetssida hittar du information om händelser inom JobTech, webinar om hur du använde vår öppna data. Läs mer här"
 ---
 
 
