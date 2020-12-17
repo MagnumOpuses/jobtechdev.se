@@ -2,10 +2,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 {{ hugo.Generator }}
-{{ if eq (getenv "HUGO_ENV") "production" }}
-<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-{{ else }}
+{{ if eq (getenv "buildName") "stage" }}
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+{{ else }}
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 {{ end }}
 {{ range .AlternativeOutputFormats -}}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
