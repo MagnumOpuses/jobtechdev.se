@@ -27,7 +27,7 @@ På webinaret den 2 december berättar vår utvecklare Mattias Persson om API:et
 
 **Tid: 2 december kl 10:00 – 11:00** 
  
-**Plats: **
+**Plats:**
  
 **Anmälan:**  
 
