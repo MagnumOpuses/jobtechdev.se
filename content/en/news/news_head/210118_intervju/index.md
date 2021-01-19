@@ -1,6 +1,6 @@
 ---
 date: 2021-01-18
-articleTitle: ”JobTech Development är ett spjutspetsprojekt som många kan lära av”
+articleTitle: ”JobTech Development is a cutting-edge project that many can learn from”
 title: "Five questions to..."
 linkTitle: "Five questions to..."
 description: ""
