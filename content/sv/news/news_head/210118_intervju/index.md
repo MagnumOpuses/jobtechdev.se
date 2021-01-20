@@ -32,7 +32,7 @@ resources:
 
 *”Som följeforskare har jag två olika hattar. Med ”samverkanshatten” hjälper jag JobTech Development att bygga ett hållbart ekosystem. Jag stöttar, coachar och ger input från forskningen om hur man kan samverka kring öppna data och öppen programvara. Med ”forskarhatten” följer jag hur ekosystemet utvecklas och jämför med andra exempel i omvärlden och återkopplar till JobTech. Jag har till exempel jämfört med Trafiklab, som är Samtrafikens plattform för öppna data kopplat till kollektivtrafiken. Jag har även tittat närmare på öppna dataekosystem i Finland och USA. Därutöver jobbar jag med att sprida kunskap om hur myndigheter kan använda och samverka kring öppna data och öppen programvara. Ett konkret resultat är nybildade Nätverket för Öppen Programvara och Data (NOSAD.se) där vi arrangerar workshops och samlar material som kan hjälpa myndigheter i deras arbete med dessa frågor.”*
 
-### Du har följt JobTech Development i ungefär ett år, och har kommit halvvägs in i ditt arbete. Vad har du kommit fram till hittills?
+### Du har kommit halvvägs in i ditt arbete. Vad har du kommit fram till hittills?
 
 *”En insikt är att myndigheter kan samverka kring datan man öppnar upp på många olika sätt. JobTech Development utgör ett exempel, Trafiklab ett annat. Vad som passar bäst beror på det enskilda fallet. Det har även varit kul att se den starka synergieffekt som finns mellan öppen programvara och öppendata. Dels som ett sätt att inspirera till hur datan kan användas och förenkla för utvecklare, dels för att skapa transparens kring hur datan används, och dels för att möjliggöra tillhandahållandet av datan. Om en kommun sitter på ett stängt system kan det vara så illa att de inte ens äger tillgång till datan.”*
 
@@ -42,7 +42,9 @@ resources:
 
 
 ### Hur kan den som är intresserad ta del av ditt arbete?
-*”Ett tips är att gå in på Nosad.se. Där kan man ta del av forskningsartiklar, open source-policies, rapporter och utbildningsmaterial. Jag delar även material via mina Twitter- och LinkedIn-konton.”*
+*”Ett tips är att gå in på [NOSAD](https://nosad.se/) Där kan man ta del av forskningsartiklar, open source-policies, rapporter och utbildningsmaterial. Jag delar även material via mina Twitter- och LinkedIn-konton.(@johanlinaker).”*
+
+I vårt [forum](https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod) kan du följa det som sker inom NOSAD och delta i diskussioner inom jobtech-området.
 
 
 
