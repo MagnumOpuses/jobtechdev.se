@@ -1,5 +1,5 @@
 ---
-date: 2021-01-18
+date: 2021-01-20
 articleTitle: ”JobTech Development är ett spjutspetsprojekt som många kan lära av”
 title: "Fem frågor till..."
 linkTitle: "Fem frågor till..."
