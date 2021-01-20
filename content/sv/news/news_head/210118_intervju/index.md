@@ -42,7 +42,9 @@ resources:
 
 
 ### Hur kan den som är intresserad ta del av ditt arbete?
-*”Ett tips är att gå in på Nosad.se. Där kan man ta del av forskningsartiklar, open source-policies, rapporter och utbildningsmaterial. Jag delar även material via mina Twitter- och LinkedIn-konton.”*
+*”Ett tips är att gå in på [NOSAD](https://nosad.se/) Där kan man ta del av forskningsartiklar, open source-policies, rapporter och utbildningsmaterial. Jag delar även material via mina Twitter- och LinkedIn-konton.(@johanlinaker).  
+I vårt [forum](https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod) kan du följa det som sker inom Nosad och delta i diskussioner inom jobtech-området.
+”*
 
 
 
