@@ -32,7 +32,7 @@ resources:
 
 *”As a companion researcher, I have two roles. First is to help JobTech Development to build a sustainable ecosystem. I support, coach and provide input from research on how to collaborate on open data and open source software. Second, I follow how the ecosystem develops and compare with other examples in the outside world and give feedback to JobTech. I have, for example, compared with Trafiklab, which is Samtrafiken's platform for open data connected to public transport in Sweden. I have also taken a closer look at open data ecosystems in Finland and the US. In addition, I work to spread knowledge about how authorities can use and collaborate on open data and open source software. One outcome is the newly formed Network for Open Source and Data (NOSAD.se) where we arrange workshops and gather materials that can help authorities in their work with these issues.”*
 
-### You have been following JobTech Development for about a year, and have come halfway into your work. What have you come up with so far?
+### You have come halfway into your work. What have you come up with so far?
 
 *”One insight is that authorities can collaborate on the data they open up in many different ways. JobTech Development is one example, Trafiklab another. What works best depends on the case. It has also been fun to see the strong synergy effect that exists between open source software and open data. Partly as a way to inspire how the data can be used and support developers implementing their solutions, partly to create transparency about how the data is used, and partly to enable the provision of the data. If a municipality is on a closed system, it can be so bad that they do not even have access to the data. ”*
 
@@ -42,8 +42,9 @@ resources:
 
 
 ### How can those who are interested take part in your work?
-*”A tip is to go to [NOSAD](https://Nosad.se.) There you can take part in research articles, open source policies, reports and training materials. I also share material via my Twitter and LinkedIn accounts (@johanlinaker).  
-In our[forum](https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod) You can follow what happens in NOSAD and join discussions within the JobTech area.”*
+*”A tip is to go to [NOSAD](https://Nosad.se.) There you can take part in research articles, open source policies, reports and training materials. I also share material via my Twitter and LinkedIn accounts (@johanlinaker).”*  
+
+In our[forum](https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod) You can follow what happens in NOSAD and join discussions within the JobTech area.
 
 
 
