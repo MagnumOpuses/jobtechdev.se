@@ -44,7 +44,7 @@ resources:
 ### How can those who are interested take part in your work?
 *”A tip is to go to [NOSAD](https://Nosad.se.) There you can take part in research articles, open source policies, reports and training materials. I also share material via my Twitter and LinkedIn accounts (@johanlinaker).”*  
 
-In our[forum](https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod) You can follow what happens in NOSAD and join discussions within the JobTech area.
+In our [forum](https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod) You can follow what happens in NOSAD and join discussions within the JobTech area.
 
 
 
