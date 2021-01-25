@@ -8,4 +8,4 @@ metadescription: "Job Search is a search engine, which is currently used by, for
 Now you who want to create services for labor market data can use the search engine. read more "
 ---
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobSearch.md?ref=master">}}
+{{< getMD "/api/github/repos/Jobtechdev-content/Jobsearch-content/contents/GettingStartedJobSearchEN.md?ref=master" >}}

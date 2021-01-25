@@ -13,5 +13,5 @@ metadescription: "With the API Occupation Forecasts, you get access to the Swedi
 | --- |
 
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedOccupationForecast_en.md?ref=master" >}}
+{{< getMD "/api/github/repos/Jobtechdev-content/Yrkesprognoser-content/contents/GettingStartedOccupationForecastEN.md?ref=master" >}}
 
