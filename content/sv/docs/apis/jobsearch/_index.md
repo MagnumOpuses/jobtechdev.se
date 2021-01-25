@@ -11,5 +11,5 @@ Nu kan du som vill skapa tjänster för arbetsmarknadsdata använda sökmotorn. 
 ---
 
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobSearch_sv.md?ref=master" >}}
+{{< getMD "/api/github/repos/Jobtechdev-content/Jobsearch-content/contents/GettingStartedJobSearchSE.md?ref=master" >}}
 
