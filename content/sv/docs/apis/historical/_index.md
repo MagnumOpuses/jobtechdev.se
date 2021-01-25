@@ -7,4 +7,4 @@ metadescription: "Datasetet Historiska annonser innehåller annonser från 2006 
 ---
 
 
-{{< getMD "/api/github/repos/Jobtechdev-content/Yrkesprognoser-content/contents/GettingStartedHistoricalJobsSE.md?ref=master" >}}
+{{< getMD "/api/github/repos/Jobtechdev-content/HistoricalJobs-content/contents/GettingStartedHistoricalJobsSE.md?ref=master" >}}
