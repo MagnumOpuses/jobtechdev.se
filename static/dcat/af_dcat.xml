@@ -51,6 +51,12 @@
     <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
+  <dcat:DataService rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
+    <dcterms:title xml:lang="sv">Taxonomi API</dcterms:title>
+    <dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:endpointURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
+    <dcat:endpointDescription rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
+  </dcat:DataService>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">Ontologi</dcterms:title>
