@@ -10,7 +10,7 @@ metadescription: "Med APIet Yrkesprognoser får du tillgång till Arbetsförmedl
 | COVID 19: Covid-19 har förändrat arbetsmarknadsläget för vissa yrken. De prognoser som ska tolkas med försiktighet har markerats i filen [Bedömmningar att flagga](/files/covid.csv). Nya prognoser publiceras i början av 2021.   |
 | --- |
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedOccupationForecast_sv.md?ref=master" >}}
+{{< getMD "/api/github/repos/Jobtechdev-content/Yrkesprognoser-content/contents/GettingStartedOccupationForecastSE.md?ref=master" >}}
 
 
 
