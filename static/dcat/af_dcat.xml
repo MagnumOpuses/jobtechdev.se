@@ -31,7 +31,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Taxonomi</dcterms:title>
+    <dcterms:title xml:lang="sv">Taxonomi API</dcterms:title>
     <dcterms:description>
       JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen.
       Datan består av strukturerade listor, som är relevanta för matchning av lediga jobb och arbetssökande.
@@ -50,7 +50,13 @@
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+    <dcat:DataService rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">    
+    <dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:endpointURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
+    <dcat:endpointDescription rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
+  </dcat:DataService>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">Ontologi</dcterms:title>
@@ -84,7 +90,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Historiska annonser</dcterms:title>
     <dcterms:description>
-      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2019
+      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och framåt.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>historiska annonser</dcat:keyword>
