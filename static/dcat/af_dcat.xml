@@ -90,7 +90,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Historiska annonser</dcterms:title>
     <dcterms:description>
-      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2019
+      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och framåt.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>historiska annonser</dcat:keyword>
