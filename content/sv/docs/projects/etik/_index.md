@@ -6,4 +6,4 @@ description: "Projektet syftar till att lyfta frågor om etik och hållbarhet ko
 
 ---
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/EtikMatchningJobtechDev.md?ref=master" >}} 
+{{< getMD "/api/github/repos/Jobtechdev-content/Etik/contents/EtikMatchningJobtechDevSE.md?ref=master" >}}
