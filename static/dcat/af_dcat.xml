@@ -49,12 +49,7 @@
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
-    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
-    <dcat:DataService rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">    
-    <dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:endpointURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
-    <dcat:endpointDescription rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
-  </dcat:DataService>
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>   
   </rdf:Description>
   
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
