@@ -103,9 +103,19 @@
     <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2020-10-08</dcterms:modified>
+    <dcterms:modified>2021-01-27</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+    <dcat:distribution>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+      <dcterms:title xml:lang="sv">Historiska annonser</dcterms:title>
+      <dcterms:format>application/json</dcterms:format>
+      <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
+      <dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2020.rar"/>
+      <dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2020.rar"/>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+    </dcat:distribution>
   </rdf:Description>
   <rdf:Description rdf:nodeID="_n4">
     <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
