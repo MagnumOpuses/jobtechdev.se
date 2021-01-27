@@ -49,7 +49,8 @@
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
-    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>   
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+   
   </rdf:Description>
   
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
@@ -101,7 +102,15 @@
     <dcterms:modified>2021-01-27</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+    
   </rdf:Description>
+  <dcat:Distribution rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds4">
+      <dcterms:description xml:lang="sv">Jobbannonser publicerade 2020</dcterms:description>
+      <dcterms:format>ZIP</dcterms:format>
+      <dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
+      <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+      <dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2020.rar"/>
+	</dcat:Distribution>
   <rdf:Description rdf:nodeID="_n4">
     <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
     <vcard:fn>Arbetsförmedlingen Jobtech community team</vcard:fn>
