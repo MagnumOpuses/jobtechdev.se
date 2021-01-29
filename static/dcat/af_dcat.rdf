@@ -201,13 +201,15 @@
 <dcat:Distribution rdf:about="https://example.com/distribution_taxo0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
 	<dcterms:description xml:lang="sv">Kom igång med APIet, begäran av APInyckel</dcterms:description>
-	<dcterms:format>text/html</dcterms:format>
+	<dcterms:format>text/html</dcterms:format>	
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 </dcat:Distribution>
 
 <dcat:Distribution rdf:about="https://example.com/distribution_taxo1">
-	<dcterms:description xml:lang="sv">Swagger för Taxonomi API</dcterms:description>
+	<dcterms:title xml:lang="sv">Swagger för Taxonomi API</dcterms:title>
+	<dcterms:description xml:lang="sv">Här hittar du både länken för att begära en API nyckel, men också länken till Swagger.</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
+	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
@@ -215,7 +217,7 @@
 
 <dcat:Distribution rdf:about="https://example.com/distribution_taxo2">
 	<dcterms:description xml:lang="sv"> Swagger Taxonomi API (JSON)</dcterms:description>
-	<dcterms:format>application/json</dcterms:format>
+	<dcterms:format></dcterms:format>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
@@ -233,7 +235,7 @@
 
 <dcat:Distribution rdf:about="https://example.com/distribution_hist1">
 	<dcterms:title xml:lang="sv">Alla historiska annonser från 2006 och framåt.</dcterms:title>
-	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser som publicerats mellan 2006 och framåt.</dcterms:description>
+	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser som publicerats från 2006 och framåt.</dcterms:description>
 	<dcterms:format>text/csv</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -287,12 +289,14 @@
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
 	<dcterms:description xml:lang="sv">Kom igång med APIet, begäran av APInyckel</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
+	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/jobsearch/"/>
 </dcat:Distribution>
 
 <dcat:Distribution rdf:about="https://example.com/distribution_jobse1">
 	<dcterms:description xml:lang="sv"> Swagger Job Search</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
+	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
 	<dcat:accessURL rdf:resource="https://jobsearch.api.jobtechdev.se/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 	<!--<dcat:accessService rdf:resource="https://example.com/dataservice1"/>-->
@@ -341,5 +345,14 @@
 </dcat:DataService> -->
 
 <!--Dataservice Taxonomi-->
+
+<foaf:Organization rdf:about="http://arbetsformedlingen.se/">
+	<foaf:name xml:lang="sv">Arbetsförmedlingen</foaf:name>
+	<foaf:name xml:lang="en">Swedish Public Employment Service</foaf:name>
+	<foaf:mbox rdf:resource="mailto:jobtechdev@arbetsformedlingen.se"/>
+	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+	<foaf:homepage rdf:resource="https://arbetsförmedlingen.se/"/>
+</foaf:Organization>
+
 
 </rdf:RDF>
