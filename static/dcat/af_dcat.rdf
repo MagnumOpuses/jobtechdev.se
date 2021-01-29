@@ -257,6 +257,14 @@
 	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2009.rar"/>
 </dcat:Distribution>
 
+<dcat:Distribution rdf:about="https://example.com/distribution_hist4">
+	<dcterms:description xml:lang="sv">Alla historiska annonser mellan 2006 - 2020</dcterms:description>
+	<dcterms:format>text/csv</dcterms:format>
+	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+	<dcat:downloadURL rdf:resource="https://simonbe.blob.core.windows.net/afhistorik/pb_2006_2020.rar"/>
+</dcat:Distribution>
+
 <!--Distribution Yrkesprognoser (yrke)-->
 <dcat:Distribution rdf:about="https://example.com/distribution_yrke0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
@@ -322,14 +330,14 @@
 </dcat:Distribution>
 
 
-<!--Dataservice exempel -->
+<!--Dataservice exempel 
 <dcat:DataService rdf:about="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/dataservice1">
 	<dcterms:title xml:lang="sv">Taxonomi swagger</dcterms:title>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcat:endpointURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
 	<dcat:endpointDescription rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
-</dcat:DataService>
+</dcat:DataService> -->
 
 <!--Dataservice Taxonomi-->
 
