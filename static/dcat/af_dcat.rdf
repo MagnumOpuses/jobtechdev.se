@@ -12,7 +12,7 @@
 	<dcterms:title xml:lang="sv">Arbetsförmedlingens öppna data</dcterms:title>
 	<dcterms:description xml:lang="sv">Öppna data från arbetsförmedlingen</dcterms:description>
 	<dcterms:publisher rdf:resource="http://arbetsformedlingen.se/"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds1"/>
+	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat.rdf#ds1"/>
 	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds2"/>
 	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds3"/>
 	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds4"/>
@@ -32,7 +32,7 @@
 	<rdfs:label xml:lang="en">Sweden</rdfs:label>
 </rdf:Description>
 <!--Dataset Taxonomi-->
-<dcat:Dataset rdf:about=<dcat:Dataset rdf:about="https://example.com/dataset1">
+<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds1">
 	<dcterms:title xml:lang="sv">Taxonomi API</dcterms:title>
 	<dcterms:title xml:lang="en">Taxonomy API</dcterms:title>
 	<dcterms:description xml:lang="sv">JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. 
@@ -49,7 +49,7 @@
 	<dcat:keyword xml:lang="en">Language</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://www.jobtechdev.se/dcat/contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -57,7 +57,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset Historiska annonser -->
-<dcat:Dataset rdf:about=<dcat:Dataset rdf:about="https://example.com/dataset2">
+<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
 	<dcterms:title xml:lang="sv">Historiska annonser</dcterms:title>
 	<dcterms:title xml:lang="en">Historical ads</dcterms:title>
 	<dcterms:description xml:lang="sv"> Ett dataset innehållande jobbannonser publicerade på Platsbanken från 2006 och framåt.</dcterms:description>
@@ -350,13 +350,6 @@
 
 <!--Dataservice Taxonomi-->
 
-<foaf:Organization rdf:about="http://arbetsformedlingen.se/">
-	<foaf:name xml:lang="sv">Arbetsförmedlingen</foaf:name>
-	<foaf:name xml:lang="en">Swedish Public Employment Service</foaf:name>
-	<foaf:mbox rdf:resource="mailto:jobtechdev@arbetsformedlingen.se"/>
-	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
-	<foaf:homepage rdf:resource="https://arbetsförmedlingen.se/"/>
-</foaf:Organization>
 
 
 </rdf:RDF>
