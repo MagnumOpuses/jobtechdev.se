@@ -49,7 +49,7 @@
 	<dcat:keyword xml:lang="en">Language</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://www.jobtechdev.se/dcat/contactpoint1"/>
+		<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
