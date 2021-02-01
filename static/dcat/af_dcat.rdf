@@ -32,7 +32,7 @@
 	<rdfs:label xml:lang="en">Sweden</rdfs:label>
 </rdf:Description>
 <!--Dataset Taxonomi-->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds1">
+<dcat:Dataset rdf:about=<dcat:Dataset rdf:about="https://example.com/dataset1">
 	<dcterms:title xml:lang="sv">Taxonomi API</dcterms:title>
 	<dcterms:title xml:lang="en">Taxonomy API</dcterms:title>
 	<dcterms:description xml:lang="sv">JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. 
@@ -57,7 +57,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset Historiska annonser -->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
+<dcat:Dataset rdf:about=<dcat:Dataset rdf:about="https://example.com/dataset2">
 	<dcterms:title xml:lang="sv">Historiska annonser</dcterms:title>
 	<dcterms:title xml:lang="en">Historical ads</dcterms:title>
 	<dcterms:description xml:lang="sv"> Ett dataset innehållande jobbannonser publicerade på Platsbanken från 2006 och framåt.</dcterms:description>
@@ -216,7 +216,6 @@
 </dcat:Distribution>
 
 <dcat:Distribution rdf:about="https://example.com/distribution_taxo2">
-	<dcterms:title xml:lang="sv">Swagger (json) för Taxonomi API</dcterms:title>
 	<dcterms:description xml:lang="sv"> Swagger Taxonomi API (JSON)</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
