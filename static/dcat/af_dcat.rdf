@@ -67,6 +67,8 @@
 	<dcat:distribution rdf:resource="https://example.com/distribution_hist2"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Historiska annonser</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
 	<dcat:keyword xml:lang="en">Historical ads</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
@@ -216,6 +218,7 @@
 </dcat:Distribution>
 
 <dcat:Distribution rdf:about="https://example.com/distribution_taxo2">
+	<dcterms:title xml:lang="sv"> Taxonomi API -JSON</dcterms:title>
 	<dcterms:description xml:lang="sv"> Swagger Taxonomi API (JSON)</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
