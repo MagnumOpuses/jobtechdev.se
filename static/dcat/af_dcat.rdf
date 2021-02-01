@@ -12,7 +12,7 @@
 	<dcterms:title xml:lang="sv">Arbetsförmedlingens öppna data</dcterms:title>
 	<dcterms:description xml:lang="sv">Öppna data från arbetsförmedlingen</dcterms:description>
 	<dcterms:publisher rdf:resource="http://arbetsformedlingen.se/"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat.rdf#ds1"/>
+	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds1"/>
 	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds2"/>
 	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds3"/>
 	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds4"/>
@@ -236,7 +236,7 @@
 <dcat:Distribution rdf:about="https://example.com/distribution_hist1">
 	<dcterms:title xml:lang="sv">Alla historiska annonser från 2006 och framåt.</dcterms:title>
 	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser som publicerats från 2006 och framåt.</dcterms:description>
-	<dcterms:format>text/csv</dcterms:format>
+	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 	<dcat:downloadURL rdf:resource="https://simonbe.blob.core.windows.net/afhistorik/pb_2006_2020.rar"/>
@@ -246,7 +246,7 @@
 <dcat:Distribution rdf:about="https://example.com/distribution_hist2">
 	<dcterms:title xml:lang="sv">Historiska annonser år för år</dcterms:title>
 	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser år för år.</dcterms:description>
-	<dcterms:format>text/csv</dcterms:format>
+	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>	
 	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2006.rar"/>
