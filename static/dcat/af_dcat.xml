@@ -31,7 +31,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dcterms:title xml:lang="sv">Taxonomi</dcterms:title>
+    <dcterms:title xml:lang="sv">Taxonomi API</dcterms:title>
     <dcterms:description>
       JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen.
       Datan består av strukturerade listor, som är relevanta för matchning av lediga jobb och arbetssökande.
@@ -50,7 +50,9 @@
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+   
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">Ontologi</dcterms:title>
@@ -84,7 +86,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Historiska annonser</dcterms:title>
     <dcterms:description>
-      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och med 2019
+      Detta dataset innehåller 4.2M jobbannonser som publiserats på Platsbanken från 2006 till och framåt.
     </dcterms:description>
     <adms:contactPoint rdf:nodeID="_n4"/>
     <dcat:keyword>historiska annonser</dcat:keyword>
@@ -97,10 +99,18 @@
     <dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcat:landingPage rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
     <dcterms:issued>2019-03-04</dcterms:issued>
-    <dcterms:modified>2020-10-08</dcterms:modified>
+    <dcterms:modified>2021-01-27</dcterms:modified>
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+    <dcat:Distribution rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds4">
+      <dcterms:description xml:lang="sv">Jobbannonser publicerade 2020</dcterms:description>
+      <dcterms:format>ZIP</dcterms:format>
+      <dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
+      <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+      <dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2020.rar"/>
+  	</dcat:Distribution>
   </rdf:Description>
+  
   <rdf:Description rdf:nodeID="_n4">
     <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
     <vcard:fn>Arbetsförmedlingen Jobtech community team</vcard:fn>
@@ -115,6 +125,7 @@
     <vcard:locality>Stockholm</vcard:locality>
     <vcard:country-name>Sweden</vcard:country-name>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds5">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="en">Yrkesprognoser</dcterms:title>
@@ -135,6 +146,7 @@
     <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
     <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
   </rdf:Description>
+  
   <rdf:Description rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds6">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <dcterms:title xml:lang="sv">Job Search</dcterms:title>
