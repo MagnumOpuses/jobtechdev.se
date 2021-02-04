@@ -234,7 +234,7 @@
 	<dcterms:title xml:lang="sv"> Taxonomi API - swagger JSON</dcterms:title>
 	<dcterms:title xml:lang="en"> Taxonomy API - swagger JSON</dcterms:title>
 	<dcterms:description xml:lang="sv"> Taxonomi API swagger (JSON)</dcterms:description>
-	<dcterms:description xml:lang="sv"> Taxonomy API swagger (JSON)</dcterms:description>
+	<dcterms:description xml:lang="en"> Taxonomy API swagger (JSON)</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -295,7 +295,7 @@
 <!--Distribution Yrkesprognoser (yrke)-->
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
-	<dcterms:title xml:lang="sv">API-documentation</dcterms:title>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
 	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
 	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
