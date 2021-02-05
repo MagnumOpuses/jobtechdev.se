@@ -11,36 +11,37 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-28</dcterms:modified>
 	<dcterms:title xml:lang="sv">Arbetsförmedlingens öppna data</dcterms:title>
 	<dcterms:description xml:lang="sv">Öppna data från arbetsförmedlingen</dcterms:description>
-	<dcterms:publisher rdf:resource="http://arbetsformedlingen.se/"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds1"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds2"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds3"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds4"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds5"/>
-	<dcat:dataset rdf:resource="http://arbetsformedlingen.se/datasets/dcat#ds6"/>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognoser"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#jobsearch"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#jobstream"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#jobadenrichments"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 	<foaf:homepage rdf:resource="https://jobtechdev.se/"/>
 	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-28</dcterms:issued>
 	<dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
 </dcat:Catalog>
-<foaf:Agent rdf:about="https://example.com/publisher1">
+<foaf:Agent rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1">
 	<foaf:name>Arbetsförmedlingen</foaf:name>
 	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/NonProfitOrganisation"/>
 </foaf:Agent>
 <rdf:Description rdf:about="http://sws.geonames.org/2661886">
 	<rdfs:label xml:lang="en">Sweden</rdfs:label>
 </rdf:Description>
-<!--Dataset Taxonomi-->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds1">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Taxonomi API</dcterms:title>
 	<dcterms:title xml:lang="en">Taxonomy API</dcterms:title>
 	<dcterms:description xml:lang="sv">JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. 
 	Datan består av begrepp som bedöms vara relevanta för matchning mellan lediga jobb och arbetssökande. </dcterms:description>
-	<dcterms:publisher rdf:resource="https://example.com/publisher1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_taxo0"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_taxo1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_taxo2"/>
+	<dcterms:description xml:lang="en">JobTech Taxonomy contains data used by the Swedish labour market. 
+	The data consists of structured lists of concepts that are relevant when matching vacancies with job seekers.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo2"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>	
 	<dcat:keyword xml:lang="sv">Språk</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
@@ -49,7 +50,7 @@
 	<dcat:keyword xml:lang="en">Language</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-		<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -57,14 +58,15 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset Historiska annonser -->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds2">
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser">
 	<dcterms:title xml:lang="sv">Historiska annonser</dcterms:title>
 	<dcterms:title xml:lang="en">Historical ads</dcterms:title>
 	<dcterms:description xml:lang="sv"> Ett dataset innehållande jobbannonser publicerade på Platsbanken från 2006 och framåt.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://example.com/publisher1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_hist0"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_hist1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_hist2"/>
+	<dcterms:description xml:lang="en"> This dataset consists of jobpostings published on Platsbanken from the year 2006 and forward.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist2"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Historiska annonser</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
@@ -72,7 +74,7 @@
 	<dcat:keyword xml:lang="en">Historical ads</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -80,13 +82,14 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset Yrkesprognoser -->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds3">
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognos">
 	<dcterms:title xml:lang="sv">Yrkesprognoser</dcterms:title>
 	<dcterms:title xml:lang="en">Occupation forecast</dcterms:title>
 	<dcterms:description xml:lang="sv"> Yrkesprognos APIet innehåller 1 och 5 åriga prognoser.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://example.com/publisher1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_yrke0"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_yrke1"/>	
+	<dcterms:description xml:lang="en"> API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Yrkesprognoser</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -94,7 +97,7 @@
 	<dcat:keyword xml:lang="en">Occpation forecast</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -102,14 +105,16 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset Job Search-->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds4">
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#jobsearch">
 	<dcterms:title xml:lang="sv">Job Search</dcterms:title>
 	<dcterms:title xml:lang="en">Job Search</dcterms:title>
 	<dcterms:description xml:lang="sv">Job Search API är en sökmotor för alla nuvarande jobbannonser från Platsbanken.
       Målet är att skapa ett enkelt men ändå mångsidigt API som ska passa alla som bygger alla slags applikationer som innehåller data från jobbannonser.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://example.com/publisher1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_jobse0"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_jobse1"/>	
+	<dcterms:description xml:lang="en"> Our job search API is a search engine for all the current job ads from Platsbanken. The aim is to make a simple yet versatile API 
+	that should suit anyone building any kind of application involving data from job ads.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobse0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobse1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Jobbannonser</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -117,7 +122,7 @@
 	<dcat:keyword xml:lang="en">job ads</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -125,14 +130,16 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset Job stream -->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds5">
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#jobstream">
 	<dcterms:title xml:lang="sv">Job Stream</dcterms:title>
 	<dcterms:title xml:lang="en">Job Stream</dcterms:title>
 	<dcterms:description xml:lang="sv">JobStream API är för er som bygger applikationer och behöver förvara alla annonser lokalt.
       Med JobStream kan du hämta alla förändringar i annonserna en gång/minut. Nya, borttagna eller uppdaterade annonser</dcterms:description>
-	<dcterms:publisher rdf:resource="https://example.com/publisher1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_jobst0"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_jobst1"/>	
+	<dcterms:description xml:lang="en"> JobStream API for those who are building applications and needs to store all ads locally. 
+	With JobStream you can fetch all changes in ads once a minute. New, removed or updated ads.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Jobbannonser</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -140,7 +147,7 @@
 	<dcat:keyword xml:lang="en">job ads</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -148,14 +155,16 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <!--Dataset JobAd Enrichments -->
-<dcat:Dataset rdf:about="http://arbetsformedlingen.se/datasets/dcat#ds6">
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#jobadenrichments">
 	<dcterms:title xml:lang="sv">JobAd Enrichments</dcterms:title>
 	<dcterms:title xml:lang="en">JobAd Enrichments</dcterms:title>
 	<dcterms:description xml:lang="sv"> JobAd Enrichments API extraherar relevant arbetsmarknadsdata från platsannonstexter,
-      vilket gör det möjligt att automatiskt se vad arbetsgivarna behöver eller efterfrågar hos arbetssökande. </dcterms:description>
-	<dcterms:publisher rdf:resource="https://example.com/publisher1"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_joba0"/>
-	<dcat:distribution rdf:resource="https://example.com/distribution_joba1"/>	
+	vilket gör det möjligt att automatiskt se vad arbetsgivarna behöver eller efterfrågar hos arbetssökande. </dcterms:description>
+	<dcterms:description xml:lang="en"> JobAd Enrichments API extracts relevant labor market data from job ad texts, making it possible to automatically 
+	see what the employers need or request from the job seekers.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Jobbannonser</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -163,7 +172,7 @@
 	<dcat:keyword xml:lang="en">Job ads</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://example.com/contactpoint1"/>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
 	<dcterms:temporal>
 		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
 			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
@@ -171,7 +180,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 
-<vcard:Organization rdf:about="https://example.com/contactpoint1">
+<vcard:Organization rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1">
 	<vcard:fn>Jobtech Development Arbetsförmedlingen</vcard:fn>
 	<vcard:hasEmail rdf:resource="mailto:jobtechdev@arbetsformedlingen.se"/>
 	<vcard:hasTelephone rdf:nodeID="node1e07tikr4x2"/>
@@ -200,16 +209,20 @@
 
 <!--Distribution Taxonomi (taxo) -->
 
-<dcat:Distribution rdf:about="https://example.com/distribution_taxo0">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
-	<dcterms:description xml:lang="sv">Kom igång med APIet, begäran av APInyckel</dcterms:description>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>	
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 </dcat:Distribution>
 
-<dcat:Distribution rdf:about="https://example.com/distribution_taxo1">
-	<dcterms:title xml:lang="sv">Swagger för Taxonomi API</dcterms:title>
-	<dcterms:description xml:lang="sv">Här hittar du både länken för att begära en API nyckel, men också länken till Swagger.</dcterms:description>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1">
+	<dcterms:title xml:lang="sv">Swagger gränsnitt - Taxonomi API</dcterms:title>
+	<dcterms:title xml:lang="en">Taxonomi API - swagger UI</dcterms:title>
+	<dcterms:description xml:lang="sv">Testa apiet i swagger, begär en API nyckel på apirequest@jobtechdev.se</dcterms:description>
+	<dcterms:description xml:lang="en">Try out Taxonomi API in swagger, request API key at apirequest.jobtechdev.se</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
@@ -217,9 +230,11 @@
 	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
 </dcat:Distribution>
 
-<dcat:Distribution rdf:about="https://example.com/distribution_taxo2">
-	<dcterms:title xml:lang="sv"> Taxonomi API -JSON</dcterms:title>
-	<dcterms:description xml:lang="sv"> Swagger Taxonomi API (JSON)</dcterms:description>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo2">
+	<dcterms:title xml:lang="sv"> Taxonomi API - swagger JSON</dcterms:title>
+	<dcterms:title xml:lang="en"> Taxonomy API - swagger JSON</dcterms:title>
+	<dcterms:description xml:lang="sv"> Taxonomi API swagger (JSON)</dcterms:description>
+	<dcterms:description xml:lang="en"> Taxonomy API swagger (JSON)</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -228,17 +243,21 @@
 
 <!--distribution Historiska annonser  (hist)-->
 
-<dcat:Distribution rdf:about="https://example.com/distribution_hist0">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist0">
 	<dcterms:title xml:lang="sv">Dokumentation</dcterms:title>
-	<dcterms:description xml:lang="sv">Kom igång!</dcterms:description>
+	<dcterms:title xml:lang="en">Documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
 </dcat:Distribution>
 
 
-<dcat:Distribution rdf:about="https://example.com/distribution_hist1">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist1">
 	<dcterms:title xml:lang="sv">Alla historiska annonser från 2006 och framåt.</dcterms:title>
+	<dcterms:title xml:lang="en">All historical job ads from 2006 and forward.</dcterms:title>
 	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser som publicerats från 2006 och framåt.</dcterms:description>
+	<dcterms:description xml:lang="en">Download all historical job ads from 2006 and forward.</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -246,9 +265,11 @@
 </dcat:Distribution>
 
 
-<dcat:Distribution rdf:about="https://example.com/distribution_hist2">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist2">
 	<dcterms:title xml:lang="sv">Historiska annonser år för år</dcterms:title>
+	<dcterms:title xml:lang="en">Historical job ads, year by year</dcterms:title>
 	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser år för år.</dcterms:description>
+	<dcterms:description xml:lang="en">Download historical ads, year by year.</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>	
@@ -272,16 +293,20 @@
 
 
 <!--Distribution Yrkesprognoser (yrke)-->
-<dcat:Distribution rdf:about="https://example.com/distribution_yrke0">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
 	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/forecasts/"/>
 </dcat:Distribution>
 
-<dcat:Distribution rdf:about="https://example.com/distribution_yrke1">
-	<dcterms:title xml:lang="sv">Swagger Yrkesprognoser</dcterms:title>
-	<dcterms:description xml:lang="sv"> Prova APIet i Swagger </dcterms:description>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke1">
+	<dcterms:title xml:lang="sv">Swagger gränsnitt Yrkesprognoser (Occupation forecast)</dcterms:title>
+	<dcterms:title xml:lang="en">Swagger UI Occupation forecast (Yrkesprognoser)</dcterms:title>
+	<dcterms:description xml:lang="sv"> Prova APIet i Swagger gränsnitt</dcterms:description>
+	<dcterms:description xml:lang="en"> Try the API in swagger UI </dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://api.arbetsformedlingen.se/af/v2/forecasts/api/#!/forecasts/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -289,17 +314,21 @@
 </dcat:Distribution>
 
 <!--Distribution Job Search (jobse)-->
-<dcat:Distribution rdf:about="https://example.com/distribution_jobse0">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobse0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
-	<dcterms:description xml:lang="sv">Kom igång med APIet, begäran av APInyckel</dcterms:description>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
+	<dcterms:description xml:lang="sv">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/jobsearch/"/>
 </dcat:Distribution>
 
-<dcat:Distribution rdf:about="https://example.com/distribution_jobse1">
-	<dcterms:title xml:lang="sv">Swagger Job Search</dcterms:title>
-	<dcterms:description xml:lang="sv"> Prova APIet i Swagger </dcterms:description>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobse1">
+	<dcterms:title xml:lang="sv">Swagger gränsnitt - Job Search</dcterms:title>
+	<dcterms:title xml:lang="sv">Job Search - swagger UI</dcterms:title>
+	<dcterms:description xml:lang="sv">Testa apiet i swagger, begär en API nyckel på apirequest@jobtechdev.se</dcterms:description>
+	<dcterms:description xml:lang="en">Try out Jobsearch API in swagger, request API key at apirequest.jobtechdev.se</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
 	<dcat:accessURL rdf:resource="https://jobsearch.api.jobtechdev.se/"/>
@@ -308,16 +337,20 @@
 </dcat:Distribution>
 
 <!--Distribution Job Stream (jobst)-->
-<dcat:Distribution rdf:about="https://example.com/distribution_jobst0">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
-	<dcterms:description xml:lang="sv">Kom igång med APIet, begäran av APInyckel</dcterms:description>
+	<dcterms:title xml:lang="sv">API-documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/jobstream/"/>
 </dcat:Distribution>
 
-<dcat:Distribution rdf:about="https://example.com/distribution_jobst1">
-	<dcterms:title xml:lang="sv">Swagger Job Stream</dcterms:title>
-	<dcterms:description xml:lang="sv">Prova APIet i Swagger. </dcterms:description>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst1">
+	<dcterms:title xml:lang="sv">Swagger gränsnitt - Job Stream</dcterms:title>
+	<dcterms:title xml:lang="en">Job Stream - Swagger UI</dcterms:title>
+	<dcterms:description xml:lang="sv">Testa apiet i swagger, begär en API nyckel på apirequest@jobtechdev.se</dcterms:description>
+	<dcterms:description xml:lang="en">Try out Jobsearch API in swagger, request API key at apirequest.jobtechdev.se</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobstream.api.jobtechdev.se/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -325,16 +358,20 @@
 </dcat:Distribution>
 
 <!--Distribution JobAd Enrichments (joba)-->
-<dcat:Distribution rdf:about="https://example.com/distribution_joba0">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba0">
 	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
-	<dcterms:description xml:lang="sv">Kom igång med APIet, begäran av APInyckel</dcterms:description>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång med APIet</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/enrich/"/>
 </dcat:Distribution>
 
-<dcat:Distribution rdf:about="https://example.com/distribution_joba1">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba1">
 	<dcterms:title xml:lang="sv">Swagger JobAd Enrichments</dcterms:title>
-	<dcterms:description xml:lang="sv"> Prova APIet JobAd Enrichments i swagger.</dcterms:description>
+	<dcterms:title xml:lang="en">JobAd Enrichments - Swagger UI</dcterms:title>
+	<dcterms:description xml:lang="sv">Testa apiet i swagger, begär en API nyckel på apirequest@jobtechdev.se</dcterms:description>
+	<dcterms:description xml:lang="en">Try out Jobsearch API in swagger, request API key at apirequest.jobtechdev.se</dcterms:description>
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobad-enrichments-api.jobtechdev.se/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
