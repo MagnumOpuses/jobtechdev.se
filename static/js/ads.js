@@ -1,4 +1,4 @@
-$(function () {
+/* $(function () {
     var row = document.getElementsByClassName("afTableRow");
 
     if (row.length === 0){
@@ -11,4 +11,4 @@ $(function () {
             adsElement.innerText = "Tyvärr finns det inga lediga tjänster för tillfället";
         }
     }
-})
+}) */
