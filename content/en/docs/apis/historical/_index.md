@@ -9,3 +9,5 @@ metadescription: "The Historical Ads dataset contains job ads from 2006 onwards.
 ---
 
 {{< getMD "/api/github/repos/Jobtechdev-content/HistoricalJobs-content/contents/GettingStartedHistoricalJobsEN.md?ref=master" >}}
+
+{{<test text="Help us improve by answering our survey (It takes 2 min)">}}
