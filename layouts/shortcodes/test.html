@@ -2,8 +2,14 @@
     .hidden {
         display:none;
     }
+    @keyframes fadeinright {
+    from {right:-150px;}
+    to { right:20px;}
+    }
+
     .webro {
-        
+    animation: fadeinright;
+    animation-duration: 2s;
     bottom: 20px;
     z-index: 10;
     right:20px;
@@ -15,8 +21,7 @@
     padding: 10px;
     border-radius: 15px 0px 15px 15px;
     width: 170px;
-    
-    
+      
     
     }
     
@@ -46,6 +51,8 @@
         text-decoration: none;
 
     }
+
+    
     
     
 
