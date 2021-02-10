@@ -16,6 +16,4 @@ metadescription: "Are you looking for open data in the labor market? Then you ha
 
 Our APIs are open for anyone to use and develop against, but we would like you to apply for an API key. The main reason for this is, we would like to be able to contact you if we have operational problems or need to inform about something else. How to apply for API key varies a bit depending on which API you want to use, but you will always find the information under each API. 
               
-{{<survey text="Help us improve our work with open data and APIs, by answering our survey! (It takes 2 min)">}}
-
-
+{{<survey text="Help us improve our work with open data and APIs by answering our survey!" bottomtext="(It takes 2 min)">}}
