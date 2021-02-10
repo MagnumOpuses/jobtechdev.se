@@ -10,7 +10,7 @@
     .webro {
     animation: fadeinright;
     animation-duration: 2s;
-    bottom: 20px;
+    top: 100px;
     z-index: 10;
     right:20px;
     border: 2px;
@@ -20,7 +20,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
     padding: 10px;
     border-radius: 15px 0px 15px 15px;
-    width: 170px;
+    width: 240px;
       
     
     }
@@ -62,7 +62,7 @@
 <div id="webropolpopup" class="webro position-fixed hidden ">
     <div id="survey-close" class="close-popup"><i class="fas fa-times"></i></div>   
     <a href=" https://link.webropolsurveys.com/S/C1F32BE6730E1171">
-    <p>{{.Get "text"}}  
+    <p>{{.Get "text"}} <br>{{.Get "bottomtext"}} </p>
     </a>
 </div>
 
