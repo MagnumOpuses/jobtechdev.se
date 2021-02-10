@@ -17,3 +17,4 @@ Våra APIer är öppna för alla att använda och utveckla emot, men vi vill att
             
 
 
+{{<survey text="Hjälp oss i vårt arbete med öppna data och API:er, genom att svara på vår enkät!" bottomtext="(Det tar 2 min)">}}
