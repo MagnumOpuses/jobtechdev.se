@@ -12,7 +12,7 @@ resources:
     byline: ""
 ---  
 **…Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data” som samlar deltagare från Sveriges myndigheter för att arbeta gränsöverskridande och praktiskt med öppna data.** 
-{{< imgproc jonas Fill "300x260" "float-right m-6" >}}
+{{< imgproc jonas Fill "300x400" "float-right m-6" >}}
 
 {{< /imgproc >}}
 
