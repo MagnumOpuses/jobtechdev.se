@@ -3,12 +3,13 @@ date: 2021-02-16
 title: ”Ingen kan lösa problemet på egen hand, därför gör vi det tillsammans”
 linkTitle: "Ekosystem för annonser"
 description: ""
+social_image_path: "adelborg3"
 author: 
 resources:
 - src: "**adelborg3*.png"
   title: "Image #:counter"
   params:
-    byline: ""
+    byline: ""    
 ---
 **Genom ett samarbete mellan Sveriges största annons- och matchningsaktörer, initierat av JobTech Development, ska det bli möjligt att visa upp en heltäckande bild av marknadens alla jobbannonser – och arbetssökande slipper oroa sig för att ha missat jobbmöjligheter. Den tekniska lösningen testas nu genom en pilot i Platsbanken.**
 
