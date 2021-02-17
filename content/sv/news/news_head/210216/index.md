@@ -12,7 +12,7 @@ resources:
 ---
 **Genom ett samarbete mellan Sveriges största annons- och matchningsaktörer, initierat av JobTech Development, ska det bli möjligt att visa upp en heltäckande bild av marknadens alla jobbannonser – och arbetssökande slipper oroa sig för att ha missat jobbmöjligheter. Den tekniska lösningen testas nu genom en pilot i Platsbanken.**
 
-{{< imgproc adelborg3 Fill "200x300" "float-right m-6" >}}
+{{< imgproc adelborg Fill "300x460" "float-right m-6" >}}
 Matilda Adelborg, Blocket Jobb
 {{< /imgproc >}}
 
