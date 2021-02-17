@@ -4,7 +4,7 @@ title: ”Ingen kan lösa problemet på egen hand, därför gör vi det tillsamm
 linkTitle: "Ekosystem för annonser"
 description: ""
 images:
-- social.jpg
+- //jobtechdev.se/news/news_head/210216/social.jpg
 author: 
 resources:
 - src: "**adelborg2*.png"
