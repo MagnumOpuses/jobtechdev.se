@@ -105,5 +105,5 @@ other = "Create documentation issue"
 [post_create_project_issue]
 other = "Create project issue"
 [post_posts_in]
-other = "Inlägg från"
+other = "Nyheter från"
 
