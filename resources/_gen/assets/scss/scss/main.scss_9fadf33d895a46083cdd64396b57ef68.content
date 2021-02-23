@@ -12467,9 +12467,9 @@ readers do not read off random characters that represent icons */
   .td-sidebar__inner {
     order: 0; }
     @media (min-width: 768px) {
-      @supports (position: solid) {
+      @supports (position: fixed) {
         .td-sidebar__inner {
-          position: solid;
+          position: fixed;
           top: 4rem;
           z-index: 10;
           height: calc(100vh - 6rem); } } }

@@ -1,6 +1,6 @@
 ---
-title: "Taxonomy Viewer"
-menuTitle: "Taxonomy Viewer "
+title: "JobTech Atlas"
+menuTitle: "JobTech Atlas "
 weight: 7
 description: "A site where you can browse JobTech Taxonomy data."
 
