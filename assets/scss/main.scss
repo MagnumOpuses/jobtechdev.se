@@ -81,29 +81,30 @@
 @include media-breakpoint-down(md) {
     .navbar-nav-s-s {
         border-radius: 0 0 5px 5px ;
+        border: 2PX black solid;
         text-align: left;
-        background-color: rgba(0, 0, 0, 0.95);
+        background-color: rgb(239, 239, 239);
         width: 200px;
         float: right;
         top: 15px;
 
         right: 5px;
         padding-top: 60px;
-        color: #fff;
+        color: #000000;
         padding-left: 15px;
     }
     .td-navbar-cover .nav-link {
-        text-shadow: 1px 1px 2px #333;
+        
     }
     .navbar-dark .navbar-nav .nav-link{
-        color: #d9d9d9;
+        color: #000000;
+        font-weight: lighter;
     }
     .navbar-dark .navbar-nav .nav-link.active{
-        color: #fff;
+        color: #000000;
+        font-weight: bolder;
     }
-    .navbar-dark .navbar-nav .nav-link:hover{
-        color: #fff;
-    }
+    
     #main_navbar{
         position: fixed;
         top:11px;
@@ -114,25 +115,26 @@
 @include media-breakpoint-down(sm) {
     .navbar-nav-s-s {
         border-radius: 0 0 5px 5px ;
+        border: 2PX black solid;
         text-align: left;
-        background-color: rgba(0, 0, 0, 0.95);
+        background-color: rgb(239, 239, 239);
         width: 200px;
         float: right;
         top: 15px;
 
         right: 5px;
         padding-top: 60px;
-        color: #fff;
+        color: #000000;
         padding-left: 15px;
     }
-    .td-navbar-cover .nav-link {
-        text-shadow: 1px 1px 2px #333;
-    }
+    
     .navbar-dark .navbar-nav .nav-link{
-        color: #d9d9d9;
+        color: #000000;
+        font-weight: lighter;
     }
     .navbar-dark .navbar-nav .nav-link.active{
-        color: #fff;
+        color: #000000;
+        font-weight: bolder;
     }
     #main_navbar{
         position: fixed;
