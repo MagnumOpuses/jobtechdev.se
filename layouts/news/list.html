@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+
 {{ if .Parent.IsHome }}
 {{ $.Scratch.Set "blog-pages" (where .Site.RegularPages "Section" .Section) }}
 {{ else }}
@@ -9,22 +11,46 @@
 {{ if eq $pag.PageNumber 1 }}
 {{ end }}
 <div class="row">
-	<div class="col-12">
-		{{ range $pageGroups }}	
-		<h2>{{ T "post_posts_in" }} {{ .Key }}</h2>
+<<<<<<< HEAD
+	<div class="col-12 mr-0">
+		{{ range $pageGroups }}
 		<ul class="list-unstyled mt-4">
-			{{ range .Pages }}
-			{{ if ne .Params.hiddenmainmenu true}}
+			{{ range $index, $element := .Pages }}
+			{{ $myString := "" }}
+			{{ $myStringGarbage := "" }}
+			{{ $myArrayNewLine := split .RawContent "\n"}}
+			{{ range $myArrayNewLine}}
+				{{ if or (hasPrefix . "![") (hasPrefix . "{{<") }}
+					
+				{{ else }}
+					{{ $myString = (print $myString . )}}
+				{{ end }}
+			{{end}}
+			{{ $myArray := split $myString ""}}
+			{{ $myInt := 1}}
+
+				<a href="{{ .RelPermalink }}">
+			{{ if modBool $index 2 }}
+				<li class="media mb-4 bg-secondary">
+			{{else}}
 				<li class="media mb-4">
-					<div class="media-body">
-						<h5 class="mt-0 mb-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
-						<p class="mb-2 mb-md-3"><small class="text-muted">{{ .Date.Format ($.Param "time_format_blog") }} {{ T "ui_in"}} {{ .CurrentSection.LinkTitle }}</small></p>
-						{{ partial "featured-image.html" (dict "p" . "w" 250 "h" 125 "class" "float-left mr-3 pt-1 d-none d-md-block") }}
-						<p class="pt-0 mt-0">{{ .Plain | safeHTML | truncate 250 }}</p>
-						<p class="pt-0"><a href="{{ .RelPermalink }}">{{ T "ui_read_more"}}</a></p>
-					</div>
-				</li>
-			{{ end }}
+			{{end}}
+			{{ if modBool $index 2 }}
+				<div class="media-body shadow-sm border rounded">
+			{{else}}
+				<div class="media-body shadow-sm rounded border">
+			{{end}}
+					<h2 class="mt-0 mb-1">{{ .LinkTitle }}</h2>
+					<p class="mb-2 mb-md-3"><small class="text-muted">{{ .Date.Format ($.Param "time_format_blog") }} {{ T "ui_in"}} {{ .CurrentSection.LinkTitle }}</small></p>
+					{{ if modBool $index 2 }}
+						{{ partial "featured-image.html" (dict "p" . "w" 225 "h" 300 "class" "float-left mr-3 pt-1 d-none d-md-block") }}
+					{{else}}
+						{{ partial "featured-image.html" (dict "p" . "w" 225 "h" 300 "class" "float-right ml-3 pt-1 d-none d-md-block") }}
+					{{end}}
+						<p class="pt-0 mt-0 mx-4">{{ $myString | markdownify | truncate 650 }}</p>					
+				</div>
+			</li>
+		</a>
 			{{ end }}
 		</ul>
 		{{ end }}

@@ -6,7 +6,7 @@ linkTitle: "Fem frågor till..."
 description: ""
 author: 
 resources:
-- src: "**jonas*.jpg"
+- src: "**featured*.jpg"
   title: "Image #:counter"
   params:
     byline: ""
