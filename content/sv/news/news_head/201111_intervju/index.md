@@ -1,12 +1,11 @@
 ---
 date: 2020-11-11
-articleTitle: ”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus”
-title: "Fem frågor till..."
-linkTitle: "Fem frågor till..."
+title: ”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus”
+linkTitle: ""
 description: ""
 author: 
 resources:
-- src: "**greg*.jpg"
+- src: "**featured*.jpg"
   title: "Image #:counter"
   params:
     byline: ""
