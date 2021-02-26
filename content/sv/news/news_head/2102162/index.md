@@ -7,15 +7,16 @@ images:
 - https://jobtechdev.se/news/news_head/2102162/social1.jpg
 author: 
 resources:
-- src: "**adelborg2*.png"
+- src: "**featured.jpg"
   title: "Image #:counter"
+  type: "image"
   params:
-    byline: ""    
+    byline: "Matilda Adelborg, Blocket Jobb"  
+    type: "image"  
 ---
 **Genom ett samarbete mellan Sveriges största annons- och matchningsaktörer, initierat av JobTech Development, ska det bli möjligt att visa upp en heltäckande bild av marknadens alla jobbannonser – och arbetssökande slipper oroa sig för att ha missat jobbmöjligheter. Den tekniska lösningen testas nu genom en pilot i Platsbanken.**
 
-{{< imgproc adelborg2 Fill "300x430" "float-right m-6" >}}
-Matilda Adelborg, Blocket Jobb
+{{< imgproc featured Fill "300x430" "float-right m-6" >}}
 {{< /imgproc >}}
 
 Samarbetet ”Ekosystem för annonser” innebär att annons- och matchningsaktörer öppnar upp och delar med sig av jobbannonsdata i ett gemensamt digitalt ekosystem. Målsättningen är dels att göra det lättare för arbetssökande att navigera bland platsannonser och hitta jobb, oavsett plattform, dels att skapa ett större underlag till SCB:s arbetsmarknadsstatistik.  
