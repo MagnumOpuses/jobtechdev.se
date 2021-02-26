@@ -7,7 +7,7 @@
     {{ with $image }}
     <div>
     <figure class="{{ $class }}" style="width:100%">
-    <img src="{{ $image.RelPermalink }}" class="shadow-sm bg-white rounded" alt="Featured Image for {{ $p.Title }}" width="100%" height="200px ">
+    <img src="{{ $image.RelPermalink }}" class="shadow-sm bg-white rounded" alt="Featured Image for {{ $p.Title }}" width="100%" height="200px">
     {{ with $image.Params.byline }}
     <figcaption class="mt-2 mt-md-0 mx-2"><small class="text-muted">{{ . | html }}</small></figcaption>
     {{ end }}
