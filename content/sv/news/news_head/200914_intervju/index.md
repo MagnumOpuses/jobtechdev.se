@@ -11,8 +11,8 @@ resources:
   params:
     byline: ""
 ---
-  
-**…Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
+ **Fem frågor till...**   
+**Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
 {{< imgproc mattiasp Fill "400x360" "float-right m-6" >}}
 
 {{< /imgproc >}}

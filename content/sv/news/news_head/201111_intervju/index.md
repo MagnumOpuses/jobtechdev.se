@@ -10,7 +10,8 @@ resources:
   params:
     byline: ""
 ---  
-**… Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november 
+**Fem frågor till...**  
+**Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november 
 för att prata om samarbeten mellan offentliga och privata aktörer, och hur det kan bidra till en bättre arbetsmarknad.**   
     
 {{< imgproc greg Fill "300x460" "float-right m-6" >}}
