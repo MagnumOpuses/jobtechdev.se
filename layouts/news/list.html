@@ -11,7 +11,7 @@
 {{ if eq $pag.PageNumber 1 }}
 {{ end }}
 <div class="row">
-<<<<<<< HEAD
+
 	<div class="col-12 mr-0">
 		{{ range $pageGroups }}
 		<ul class="list-unstyled mt-4">
@@ -21,7 +21,6 @@
 			{{ $myArrayNewLine := split .RawContent "\n"}}
 			{{ range $myArrayNewLine}}
 				{{ if or (hasPrefix . "![") (hasPrefix . "{{<") }}
-					
 				{{ else }}
 					{{ $myString = (print $myString . )}}
 				{{ end }}

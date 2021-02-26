@@ -2,13 +2,29 @@
 {{ $h := .h | default 180 }}
 {{ $p := .p }}
 {{ $class := .class | default "ml-3" }}
+{{ if ($p.Resources.ByType "image").GetMatch "**letterbox*" }}
+    {{ $image := ($p.Resources.ByType "image").GetMatch "**letterbox*" }}
+    {{ with $image }}
+    <div>
+    <figure class="{{ $class }}" style="width:100%">
+    <img src="{{ $image.RelPermalink }}" class="shadow-sm bg-white rounded" alt="Featured Image for {{ $p.Title }}" width="100%" height="200px ">
+    {{ with $image.Params.byline }}
+    <figcaption class="mt-2 mt-md-0 mx-2"><small class="text-muted">{{ . | html }}</small></figcaption>
+    {{ end }}
+    </figure>
+    </div>
+    
+    {{ end }}
+{{ else }}
 {{ $image := ($p.Resources.ByType "image").GetMatch "**featured*" }}
 {{ with $image }}
 {{ $image := .Fill (printf "%dx%d" $w $h ) }}
-<figure class="{{ $class }}" style="width: {{ $image.Width }}">
-<img src="{{ $image.RelPermalink }}" class="shadow-sm bg-white rounded" alt="Featured Image for {{ $p.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    <figure class="{{ $class }}" style="width: {{ $image.Width }}">
+    <img src="{{ $image.RelPermalink }}" class="shadow-sm bg-white rounded" alt="Featured Image for {{ $p.Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
 {{ with $image.Params.byline }}
- <figcaption class="mt-2 mt-md-0 mx-2"><small class="text-muted">{{ . | html }}</small></figcaption>
+<figcaption class="mt-2 mt-md-0 mx-2"><small class="text-muted">{{ . | html }}</small></figcaption>
 {{ end }}
 </figure>
+
 {{ end }}
+{{ end }}    

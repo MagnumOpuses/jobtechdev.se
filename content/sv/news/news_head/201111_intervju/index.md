@@ -1,17 +1,17 @@
 ---
 date: 2020-11-11
-articleTitle: ”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus”
-title: "Fem frågor till..."
-linkTitle: "Fem frågor till..."
+title: ”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus”
+linkTitle: ""
 description: ""
 author: 
 resources:
-- src: "**greg*.jpg"
+- src: "**featured*.jpg"
   title: "Image #:counter"
   params:
-    byline: ""
+    byline: "Gregory Golding JobTech Development"
 ---  
-**… Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november 
+**Fem frågor till...**  
+**Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november 
 för att prata om samarbeten mellan offentliga och privata aktörer, och hur det kan bidra till en bättre arbetsmarknad.**   
     
 {{< imgproc greg Fill "300x460" "float-right m-6" >}}
