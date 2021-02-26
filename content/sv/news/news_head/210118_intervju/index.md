@@ -9,11 +9,8 @@ resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
   params:
-    byline: "Johan Linåker"
-- src: "**johanl*.jpg"
-  title: "Image #:counter"
-  params:
-    byline: ""
+    byline: "Johan Linåker Lunds Universitet"
+
 
 ---
 **Fem frågor till...**  

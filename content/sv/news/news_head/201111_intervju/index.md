@@ -8,7 +8,7 @@ resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
   params:
-    byline: ""
+    byline: "Gregory Golding JobTech Development"
 ---  
 **Fem frågor till...**  
 **Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november 
