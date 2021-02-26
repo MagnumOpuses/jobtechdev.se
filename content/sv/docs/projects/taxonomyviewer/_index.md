@@ -1,6 +1,6 @@
 ---
-title: "Taxonomy Viewer"
-menuTitle: "Taxonomy Viewer "
+title: "JobTech Atlas"
+menuTitle: "JobTech Atlas "
 weight: 7
 description: "Ett gränssnitt som visar den data som finns i produkten JobTech Taxonomy."
 
