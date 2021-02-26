@@ -1,6 +1,5 @@
 ---
 date: 2021-01-20
-articleTitle:
 title:  ”JobTech Development är ett spjutspetsprojekt som många kan lära av”
 linkTitle: ""
 description: ""
