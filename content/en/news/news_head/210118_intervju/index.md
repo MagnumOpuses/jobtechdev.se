@@ -1,15 +1,14 @@
 ---
 date: 2021-01-20
-articleTitle: ”JobTech Development is a cutting-edge project that many can learn from”
-title: "Five questions for..."
-linkTitle: "Five questions for..."
+title:  ”JobTech Development is a cutting-edge project that more people can learn from” 
+linkTitle: ""
 description: ""
 author: 
 resources:
-- src: "**johanl*.jpg"
+- src: "**featured*.jpg"
   title: "Image #:counter"
   params:
-    byline: ""
+    byline: "Johan Linåker Lunds Universitet"
 
 ---
   
