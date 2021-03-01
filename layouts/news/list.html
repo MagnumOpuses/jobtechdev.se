@@ -22,7 +22,7 @@
 			{{ range $myArrayNewLine}}
 				{{ if or (hasPrefix . "![") (hasPrefix . "{{<") }}
 				{{ else }}
-					{{ $myString = (print $myString . "\n" )}}
+					{{ $myString = (print $myString . "\n")}}
 				{{ end }}
 			{{end}}
 			{{ $myArray := split $myString ""}}
