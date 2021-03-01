@@ -46,7 +46,7 @@
 					{{else}}
 						{{ partial "featured-image.html" (dict "p" . "w" 225 "h" 300 "class" "float-right ml-3 pt-1 d-none d-md-block") }}
 					{{end}}
-						<p class="pt-0 mt-0 mx-4">{{ $myString | markdownify | truncate 650 }}</p>					
+						<p class="pt-0 mt-0 mx-4">{{ $myString | markdownify | truncate 650 }} </p>					
 				</div>
 			</li>
 		</a>
