@@ -9,10 +9,10 @@ resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
   params:
-    byline: ""
+    byline: "Mattias Persson, JobTech Development"
 ---
-  
-**…Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
+ **Fem frågor till...**   
+**Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
 {{< imgproc mattiasp Fill "400x360" "float-right m-6" >}}
 
 {{< /imgproc >}}
