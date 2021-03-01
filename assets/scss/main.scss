@@ -35,9 +35,14 @@
 @if $td-enable-google-fonts {
     @import url($web-font-path);
 }
+
 .row {
     margin-left: 0px;
     margin-right: 0px;
+}
+.media-body {
+    padding:20px;
+    color: #000;
 }
 .container-fluid {
     padding-right: 0px !important;

@@ -1,11 +1,11 @@
 ---
 date: 2020-09-14
-title: "Ny AI-lösning förbättrar jobbannonser och effektiviserar digitala matchningstjänster"
+title: ”Ny AI-lösning förbättrar jobbannonser och effektiviserar digitala matchningstjänster”
 linkTitle: "Ny AI-lösning"
 description: "API:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort."
 author: 
 resources:
-- src: "**jobadenrich*.png"
+- src: "**letterbox*.png"
   title: "Image #:counter"
   params:
     byline: ""
@@ -13,7 +13,7 @@ resources:
 **Irrelevanta sökträffar och märkliga jobbförslag är något många arbetssökande känner igen – och gärna slipper. Med AI-lösningen JobAd Enrichments, som är fritt för alla matchningsaktörer att använda, kan problemet undvikas, samtidigt som det bidrar till fördjupade insikter om arbetsmarknaden.**
 
 API:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort.
-![identifierade ord](jobadenrich.png)
+![identifierade ord](letterbox.png)
 
 
 
