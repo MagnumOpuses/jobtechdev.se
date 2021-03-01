@@ -1,16 +1,16 @@
 ---
 date: 2020-10-01
-articleTitle: "We see that there is an unfulfilled demand for open data collaboration"
-title: "Five questions for..."
-linkTitle: "Five questions for..."
+title: ”We see that there is an unfulfilled demand for open data collaboration”
+linkTitle: ""
 description: ""
 author: 
 resources:
-- src: "**jonas*.jpg"
+- src: "**featured*.jpg"
   title: "Image #:counter"
   params:
-    byline: ""
----  
+    byline: "Jonas Södergren, JobTech Development"
+--- 
+**Five questions for...**   
 **…Jonas Södergren, Technical Manager at JobTech Development, and one of the initiators of “The Network for Open Data and Knowledge Sharing” which assembles participants from Swedish authorities for cross-border collaboration and practical sharing of open data.** 
 {{< imgproc jonas Fill "300x400" "float-right m-6" >}}
 
