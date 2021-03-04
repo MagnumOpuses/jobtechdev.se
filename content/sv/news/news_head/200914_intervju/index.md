@@ -16,6 +16,7 @@ socialshare: true
 ---
  
 **Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
+
 {{< imgproc featured Fill "300x400" "float-right m-6" >}}
 
 {{< /imgproc >}}

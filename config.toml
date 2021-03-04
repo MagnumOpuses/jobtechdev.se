@@ -71,7 +71,7 @@ description = "En öppen infrastruktur för arbetsmarknaden"
 languageName ="Svenska"
 contentDir = "content/sv"
 time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
+time_format_blog = "2006-01-02"
 
 
 
