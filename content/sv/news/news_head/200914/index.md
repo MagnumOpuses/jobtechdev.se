@@ -9,6 +9,7 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
+socialshare: true
 ---
 **Irrelevanta sökträffar och märkliga jobbförslag är något många arbetssökande känner igen – och gärna slipper. Med AI-lösningen JobAd Enrichments, som är fritt för alla matchningsaktörer att använda, kan problemet undvikas, samtidigt som det bidrar till fördjupade insikter om arbetsmarknaden.**
 

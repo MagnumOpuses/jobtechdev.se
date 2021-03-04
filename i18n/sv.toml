@@ -19,7 +19,7 @@ other = "Läs mer om våra kakor här"
 # UI strings. Buttons and similar.
 
 [ui_pager_prev]
-other = "Tillbaka"
+other = "Föregående"
 
 [ui_pager_next]
 other = "Nästa"
@@ -107,3 +107,6 @@ other = "Create project issue"
 [post_posts_in]
 other = "Nyheter från"
 
+# socialshare
+[share]
+other = "Dela artikeln på sociala medier."

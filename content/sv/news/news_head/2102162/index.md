@@ -1,8 +1,9 @@
 ---
+socialshare: true
 date: 2021-02-16
 title: Ingen kan lösa problemet på egen hand, därför gör vi det tillsammans
 linkTitle: "Ekosystem för annonser"
-description: ""
+description: "Ingen kan lösa problemet på egen hand, därför gör vi det tillsammans"
 images:
 - https://jobtechdev.se/news/news_head/2102162/social1.jpg
 author: 
