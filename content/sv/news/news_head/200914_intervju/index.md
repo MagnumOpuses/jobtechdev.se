@@ -12,7 +12,7 @@ images:
   title: "Image #:counter"
   params:
     byline: "Mattias Persson, JobTech Development"
-socialshare: true
+socialshare: false
 ---
  
 **Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 

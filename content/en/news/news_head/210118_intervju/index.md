@@ -9,7 +9,7 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Johan Linåker Lunds Universitet"
-socialshare: true
+socialshare: false
 
 ---
   
