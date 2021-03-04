@@ -16,18 +16,15 @@
 		{{ range $pageGroups }}
 		<ul class="list-unstyled mt-4">
 			{{ range $index, $element := .Pages }}
-			{{ $myString := "" }}
-			{{ $myStringGarbage := "" }}
-			{{ $myArrayNewLine := split .RawContent "\n"}}
-			{{ range $myArrayNewLine}}
+			{{ $resultString := "" }}
+			{{ $arrayNewLine := split .RawContent "\n"}}
+			{{ range $arrayNewLine}}
 				{{ if or (hasPrefix . "![") (hasPrefix . "{{<") }}
 				{{ else }}
-					{{ $myString = (print $myString . "\n" )}}
+					{{ $resultString = (print $resultString . "\n" )}}
 				{{ end }}
 			{{end}}
-			{{ $myArray := split $myString ""}}
-			{{ $myInt := 1}}
-
+			{{ $myArray := split $resultString ""}}
 				<a href="{{ .RelPermalink }}">
 			{{ if modBool $index 2 }}
 				<li class="media mb-4 bg-secondary">
@@ -40,13 +37,13 @@
 				<div class="media-body shadow-sm rounded border">
 			{{end}}
 					<h2 class="mt-0 mb-1">{{ .LinkTitle }}</h2>
-					<p class="mb-2 mb-md-3"><small class="text-muted">{{ .Date.Format ($.Param "time_format_blog") }} {{ T "ui_in"}} {{ .CurrentSection.LinkTitle }}</small></p>
+					<p class="mb-2 mb-md-3"><small class="text-muted">{{ .Date.Format ($.Param "time_format_blog") }}</small></p>
 					{{ if modBool $index 2 }}
 						{{ partial "featured-image.html" (dict "p" . "w" 225 "h" 300 "class" "float-left mr-3 pt-1 d-none d-md-block") }}
 					{{else}}
 						{{ partial "featured-image.html" (dict "p" . "w" 225 "h" 300 "class" "float-right ml-3 pt-1 d-none d-md-block") }}
 					{{end}}
-						<p class="pt-0 mt-0 mx-4">{{ $myString | markdownify | truncate 650 }} </p>					
+						<p class="pt-0 mt-0 mx-4">{{ $resultString | markdownify | truncate 650 }} </p>					
 				</div>
 			</li>
 		</a>
