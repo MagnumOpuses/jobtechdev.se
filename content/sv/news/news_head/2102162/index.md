@@ -1,5 +1,5 @@
 ---
-socialshare: true
+socialshare: false
 date: 2021-02-16
 title: Ingen kan lösa problemet på egen hand, därför gör vi det tillsammans
 linkTitle: "Ekosystem för annonser"
