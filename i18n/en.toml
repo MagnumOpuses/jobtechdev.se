@@ -105,3 +105,7 @@ other = "Create documentation issue"
 other = "Create project issue"
 [post_posts_in]
 other = "News"
+
+# socialshare
+[share]
+other = "Share the article in social media."

@@ -2,7 +2,7 @@
 title: "Yrkesprognoser"
 menuTitle: "Yrkesprognoser "
 weight: 19
-description: "Forecast gör det möjligt att visa prognoser över rekryteringsbehovet inom olika yrken/yrkesgrupper på ett respektive fem års sikt. Prognoserna bygger på intervjuer med arbetsgivare som genomförs två gånger per år av Statistiska Centralbyrån/Arbetsförmedlingen. API:et ger även information om vilken konkurrenssituation en arbetssökande kan vänta sig inom olika yrken/yrkesgrupper."
+description: "Yrkesprognoser (Occupation Forecast) gör det möjligt att visa prognoser över rekryteringsbehovet inom olika yrken/yrkesgrupper på ett respektive fem års sikt. Prognoserna bygger på intervjuer med arbetsgivare som genomförs två gånger per år av Statistiska Centralbyrån/Arbetsförmedlingen. API:et ger även information om vilken konkurrenssituation en arbetssökande kan vänta sig inom olika yrken/yrkesgrupper."
 
 metadescription: "Med APIet Yrkesprognoser får du tillgång till Arbetsförmedlingens prognoser för olika yrken.Läs mer här"
 
