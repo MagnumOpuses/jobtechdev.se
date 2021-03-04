@@ -27,9 +27,9 @@
 			{{ $myArray := split $resultString ""}}
 				<a href="{{ .RelPermalink }}">
 			{{ if modBool $index 2 }}
-				<li class="media mb-4 bg-secondary">
+				<li class="media mb-4 bg-primary">
 			{{else}}
-				<li class="media mb-4">
+				<li class="media mb-4 bg-secondary">
 			{{end}}
 			{{ if modBool $index 2 }}
 				<div class="media-body shadow-sm border rounded">
