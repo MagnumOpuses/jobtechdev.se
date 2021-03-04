@@ -10,6 +10,10 @@ resources:
   params:
     byline: "Johan Linåker Lunds Universitet"
 
+socialshare: true
+
+
+
 
 ---
 **Fem frågor till...**  
