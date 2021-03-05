@@ -109,14 +109,13 @@
   {{ $url := absLangURL ( slicestr .URL 1 )}}
   {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
 
-  <section class="social-share">
-    <div> {{ $url }}</div>
+  <section class="social-share">    
     <h6>{{T "share"}}</h6>
     <ul class="share-icons">
       <!-- Twitter -->
       {{ if .Site.Params.social.share.twitter }}
       <li>
-        <a href="https://twitter.com/intent/tweet?hashtags=JobTech Development&amp;url={{ $url  }}&amp;text={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
+        <a href="https://twitter.com/intent/tweet?hashtags=JobTech Development&amp;url=https://jobtechdev.se{{ $url  }}&amp;text={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
           {{ partial "svg/twitter.svg" (dict "class" "widget-social__link-icon") }}
           <p>Twitter</p>
           </a>
@@ -137,7 +136,7 @@
       <!-- LinkedIn -->
       {{ if .Site.Params.social.share.linkedin }}
       <li>
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ $url }}" target="_blank" rel="noopener" aria-label="Share on LinkedIn" class="share-btn linkedin">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=htpps://jobtechdev.se{{ $url }}" target="_blank" rel="noopener" aria-label="Share on LinkedIn" class="share-btn linkedin">
           {{ partial "svg/linkedin.svg" (dict "class" "widget-social__link-icon") }}
             <p>LinkedIn</p>
           </a>
