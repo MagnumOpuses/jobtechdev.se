@@ -4,6 +4,8 @@ title:  ”JobTech Development är ett spjutspetsprojekt som många kan lära av
 linkTitle: ""
 description: ""
 author: 
+images:
+- https://jobtechdev.se/news/news_head/210118/social.jpg
 resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
@@ -14,7 +16,7 @@ socialshare: true
 
 
 
-
+gi
 ---
 **Fem frågor till...**  
 **Johan Linåker, Lunds universitet, som är följeforskare till JobTech Development och har kommit halvvägs i sitt arbete med att studera hur vi, genom samverkan och öppna data, bygger ett digitalt ekosystem för svensk arbetsmarknad** 
