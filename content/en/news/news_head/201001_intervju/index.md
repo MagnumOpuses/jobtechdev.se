@@ -9,7 +9,7 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Jonas Södergren, JobTech Development"
-socialshare: false
+socialshare: true
 --- 
 **Five questions for...**   
 **…Jonas Södergren, Technical Manager at JobTech Development, and one of the initiators of “The Network for Open Data and Knowledge Sharing” which assembles participants from Swedish authorities for cross-border collaboration and practical sharing of open data.** 

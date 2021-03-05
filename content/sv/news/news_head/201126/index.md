@@ -9,7 +9,7 @@ resources:
   title: "Image #:counter"
   params:
     byline: ""
-socialshare: false
+socialshare: true
 ---
 ![identifierade ord](letterbox.png)
 
