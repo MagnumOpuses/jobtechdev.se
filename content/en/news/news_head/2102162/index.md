@@ -27,7 +27,7 @@ The collaboration project ”Ecosystem for advertisements” means that advertis
 
 The actors who have entered the collaboration and thereby chosen to share their advertisement data are Blocket, CareerBuilder, Jobbdirekt, Monster, NetJobs, Offentliga Jobb, OnePartnerGroup and Studentjob. Together with the advertisements that are already presented in Platsbanken, this amounts to about 80 percent of the job advertisements on the market.  
 
-*””The pandemic has meant that we have more people looking for work at the same time as there are fewer job advertisements. Right now, it is more important than ever before to facilitate job-seeking, and as one of the largest commercial players in this field, it felt completely natural for us to be part of the collaboration”*, says **Matilda Adelborg**, , press officer at Blocket Jobb.
+*””The pandemic has meant that we have more people looking for work at the same time as there are fewer job advertisements. Right now, it is more important than ever before to facilitate job-seeking, and as one of the largest commercial players in this field, it felt completely natural for us to be part of the collaboration”*, says **Matilda Adelborg**, press officer at Blocket Jobb.
 
 *”At Monster, we are looking forward to this collaboration which is going to make it much easier for job-seekers to find a new and exciting job. This is completely in line with Monster’s goal which is to match up job-seekers and employers in the best possible way*, says **Per Wadell**, country manager på Monster.
 
