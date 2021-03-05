@@ -16,7 +16,7 @@ socialshare: true
 
 
 
-gi
+
 ---
 **Fem frågor till...**  
 **Johan Linåker, Lunds universitet, som är följeforskare till JobTech Development och har kommit halvvägs i sitt arbete med att studera hur vi, genom samverkan och öppna data, bygger ett digitalt ekosystem för svensk arbetsmarknad** 
