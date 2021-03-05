@@ -106,11 +106,11 @@
 <!-- Social Share Button HTML -->
 {{- if .Param "socialshare" }}  
   {{ $title := .Title }}
-  {{ $url := printf "%s" .URL | absLangURL }}
+  {{ $url := printf "%s" ( slicestr .URL 1 ) | absLangURL }}
   {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
 
   <section class="social-share">
-    <div> {{ absLangURL .URL }}</div>
+    <div> {{ $url}}</div>
     <h6>{{T "share"}}</h6>
     <ul class="share-icons">
       <!-- Twitter -->
