@@ -4,6 +4,8 @@ title:  ”JobTech Development är ett spjutspetsprojekt som många kan lära av
 linkTitle: ""
 description: ""
 author: 
+images:
+- https://jobtechdev.se/news/news_head/210118/social.jpg
 resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
