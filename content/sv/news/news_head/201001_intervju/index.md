@@ -9,7 +9,7 @@ resources:
   title: "Image #:counter"
   params:
     byline: "Jonas Södergren, JobTech Development"
-socialshare: false
+socialshare: true
 --- 
 **Fem frågor till...**  
 **Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data” som samlar deltagare från Sveriges myndigheter för att arbeta gränsöverskridande och praktiskt med öppna data.** 
