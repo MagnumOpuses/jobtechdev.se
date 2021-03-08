@@ -1,15 +1,44 @@
+<style>
+    .main {
+        width: 75%;
 
+        background-color: #efefef;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+    label {
+    font-family: abril fatface;
+    
+    }
 
-<div id="form">
+    button {
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+</style>
+
+<div id="form" class="main">
     <form action="/api/form" id="idForm">
         <fieldset>          
-                
                 <input type="checkbox" id="Enrich" name="Enrich" >
-                <label for="Enrich">Enrich</label><br>
-                
-                <input type="checkbox" id="Jobsearch" name="Jobsearch" checked=true>
+                <label for="Enrich">Enrich</label><br>                
+                <input type="checkbox" id="Jobsearch" name="Jobsearch" >
                 <label for="Jobsearch">Job Search / Job Stream</label><br>
-                
+                <label for="date">Välj datum (Håll nere CTRL om du vill välja flera)</label><br>
+                        <select  size="3" name="datum" id="date" multiple >
+                            <option value="mars1">26 mars kl 10:00 – 10:30 on-boarding för nya api användare</option>
+                            <option value="mars2">26 mars kl 10:30 – 11:30 öppet forum för Q&A </option>
+                            <option value="april1">23 april kl 10:00 – 10:30 on-boarding för nya api användare</option>
+                            <option value="april2">23 april kl 10:30 – 11:30 öppet forum för Q&A </option>
+                            <option value="maj1">28 maj kl 10:00 – 10:30 on-boarding för nya api användare </option>
+                            <option value="maj2">28 maj kl 10:30 – 11:30 öppet forum för Q&A </option>
+                            <option value="juni1">18 juni kl 10:00 – 10:30 on-boarding för nya api avändare </option>
+                            <option value="juni2">18 juni kl 10:30 – 11:30 öppet forum för Q&A</option>
+                        </select><br>           
+                              
                 <label for="namn">Namn:</label><br>       
                 <input type="text" name="namn" id="namn" placeholder="" autofocus  required oninvalid="this.setCustomValidity('Ange namn')" oninput="setCustomValidity('')"><br>
                 
@@ -35,7 +64,7 @@
                    data: form.serialize(), // serializes the form's elements.
                    success: function(data)
                    {
-                      $("#form").html("<div> <p>Tack" +data.namn+"för din anmälan <br>Du har anmält dig till "+data.Jobsearch+" <br> En bekräftelse har skickats till "+data.email+"</p></div>")
+                      $("#form").html("<div> <p>Tack" +data.namn+"för din anmälan <br>Du har anmält dig till "+data.date+" <br> En bekräftelse har skickats till "+data.email+"</p></div>")
                    }
                  });
         
