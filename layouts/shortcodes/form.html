@@ -32,8 +32,7 @@
                    data: form.serialize(), // serializes the form's elements.
                    success: function(data)
                    {
-                      $("#form").html("<div> <p>Tack"+data.namn+"för din anmälan <br> Du är anmäld till Onboarding mötet för "+data.Jobsearch+" <br>En bekräftelse har skickats till "+data.e-post+"
-         </P></div>")
+                      $("#form").html("<div> <p>Tack"+data.namn+"för din anmälan <br> Du är anmäld till Onboarding mötet för "+data.Jobsearch+" <br>En bekräftelse har skickats till "+data.e-post+"</p></div>")
                    }
                  });
         
