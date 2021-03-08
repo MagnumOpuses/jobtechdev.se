@@ -32,7 +32,7 @@
                    data: form.serialize(), // serializes the form's elements.
                    success: function(data)
                    {
-                      $("#form").html("<div>"+JSON.parse(data).namn+"</div>")
+                      $("#form").html("<div>"+JSON.parse(form).namn+"</div>")
                    }
                  });
         
