@@ -5,9 +5,9 @@ title: "Fem frågor till ..."
 linkTitle: "Fem frågor till..."
 description: ""
 author: 
-resources:
 images:
 - https://jobtechdev.se/news/news_head/200914/social.jpg
+resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
   params:
