@@ -6,10 +6,13 @@
                 
                 <input type="checkbox" id="Enrich" name="Enrich" >
                 <label for="Enrich">Enrich</label><br>
-                <input type="checkbox" id="Jobsearch" name="Jobsearch" >
+                
+                <input type="checkbox" id="Jobsearch" name="Jobsearch" checked=true>
                 <label for="Jobsearch">Job Search / Job Stream</label><br>
+                
                 <label for="namn">Namn:</label><br>       
                 <input type="text" name="namn" id="namn" placeholder="" autofocus  required oninvalid="this.setCustomValidity('Ange namn')" oninput="setCustomValidity('')"><br>
+                
                 <label for="email">E-mail:</label><br>
                 <input type="email" name="email" id="email" placeholder=""  required oninvalid="this.setCustomValidity('E-postadress')" oninput="setCustomValidity('')"><br>            
                 <button type="submit" name="skicka" value="Submit">Skicka</button>
@@ -32,7 +35,7 @@
                    data: form.serialize(), // serializes the form's elements.
                    success: function(data)
                    {
-                      $("#form").html("<div> <p>Tack"+data.namn+"för din anmälan <br>En bekräftelse har skickats till "+data.email+"</p></div>")
+                      $("#form").html("<div> <p>Tack" +data.namn+"för din anmälan <br>Du har anmält dig till "+data.Jobsearch+" <br> En bekräftelse har skickats till "+data.email+"</p></div>")
                    }
                  });
         
