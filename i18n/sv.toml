@@ -106,6 +106,9 @@ other = "Create documentation issue"
 other = "Create project issue"
 [post_posts_in]
 other = "Nyheter från"
+[article]
+other = "Läs hela artikeln"
+
 
 # socialshare
 [share]
