@@ -91,7 +91,7 @@ only screen and (max-width: 760px),
                    data: form.serialize(), // serializes the form's elements.
                    success: function(data)
                    {
-                      $("#form").html("<div> <p>Tack "+ data.namn+", för din anmälan <br>Du har anmält dig till "+data.date+" <br> En bekräftelse har skickats till "+data.email+"</p></div>")
+                      $("#form").html("<div> <p>Tack "+ data.namn+", för din anmälan <br>Du har anmält dig till "+data.id+" <br> En bekräftelse har skickats till "+data.email+"</p></div>")
                    }
                  });
         
