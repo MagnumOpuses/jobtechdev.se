@@ -11,6 +11,7 @@
     }
     label {
     font-family: abril fatface;
+    margin-bottom: 0px;
     
     }
 
@@ -18,6 +19,20 @@
         margin-top: 20px;
         border-radius: 3px;
     }
+    select {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        text-align: left;
+    }
+
+    @media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    select {
+        width: 400px;
+    }
+}
+
 </style>
 
 <div id="form" class="main">
@@ -26,18 +41,19 @@
                 <input type="checkbox" id="Enrich" name="Enrich" >
                 <label for="Enrich">Enrich</label><br>                
                 <input type="checkbox" id="Jobsearch" name="Jobsearch" >
-                <label for="Jobsearch">Job Search / Job Stream</label><br>
+                <label for="Jobsearch">Job Search / Job Stream</label><br><br>
                 <label for="date">Välj datum (Håll nere CTRL om du vill välja flera)</label><br>
                         <select  size="3" name="datum" id="date" multiple >
-                            <option value="mars1">26 mars kl 10:00 – 10:30 on-boarding för nya api användare</option>
-                            <option value="mars2">26 mars kl 10:30 – 11:30 öppet forum för Q&A </option>
-                            <option value="april1">23 april kl 10:00 – 10:30 on-boarding för nya api användare</option>
-                            <option value="april2">23 april kl 10:30 – 11:30 öppet forum för Q&A </option>
-                            <option value="maj1">28 maj kl 10:00 – 10:30 on-boarding för nya api användare </option>
-                            <option value="maj2">28 maj kl 10:30 – 11:30 öppet forum för Q&A </option>
-                            <option value="juni1">18 juni kl 10:00 – 10:30 on-boarding för nya api avändare </option>
-                            <option value="juni2">18 juni kl 10:30 – 11:30 öppet forum för Q&A</option>
-                        </select><br>           
+                            <option value="mars1">26 mars kl 10:00 – 10:30 on-boarding</option>
+                            <option value="mars2">26 mars kl 10:30 – 11:30 forum för Q&A </option>
+                            <option value="april1">23 april kl 10:00 – 10:30 on-boarding</option>
+                            <option value="april2">23 april kl 10:30 – 11:30 forum för Q&A </option>
+                            <option value="maj1">28 maj kl 10:00 – 10:30 on-boarding </option>
+                            <option value="maj2">28 maj kl 10:30 – 11:30 forum för Q&A </option>
+                            <option value="juni1">18 juni kl 10:00 – 10:30 on-boarding </option>
+                            <option value="juni2">18 juni kl 10:30 – 11:30 forum för Q&A</option>
+                         </select><br>  
+        </fieldset>                        
                               
                 <label for="namn">Namn:</label><br>       
                 <input type="text" name="namn" id="namn" placeholder="" autofocus  required oninvalid="this.setCustomValidity('Ange namn')" oninput="setCustomValidity('')"><br>
@@ -46,7 +62,7 @@
                 <input type="email" name="email" id="email" placeholder=""  required oninvalid="this.setCustomValidity('E-postadress')" oninput="setCustomValidity('')"><br>            
                 <button type="submit" name="skicka" value="Submit">Skicka</button>
                 <button type="reset" >Rensa</button>
-        </fieldset>
+        
     </form>
 </div>
 
