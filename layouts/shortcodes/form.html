@@ -42,7 +42,7 @@ only screen and (max-width: 760px),
                 <input type="checkbox" id="26 mars kl 10:00 - 10:30 " name="options[]" value="26 mars kl 10:00 - 10:30 On - boarding" >
                 <label for="21032610">26 mars kl 10:00 - 10:30 On - boarding</label><br>                
                 
-                <input type="checkbox" id="2103261030" name="options[]"value="26 mars kl 10:30 - 11:30 On - boarding" >
+                <input type="checkbox" id="2103261030" name="options[]"value="26 mars kl 10:30 - 11:30 forum för Q&A" >
                 <label for="2103261030">26 mars kl 10:30 – 11:30 forum för Q&A</label><br><br>
                 
                 <input type="checkbox" id="21042310" name="options[]" value="23 april kl 10:00 - 10:30 On - boarding">
@@ -51,17 +51,17 @@ only screen and (max-width: 760px),
                 <input type="checkbox" id="2104231030" name="options[]" value="23 april kl 10:30 – 11:30 forum för Q&A">
                 <label for="2104231030">23 april kl 10:30 – 11:30 forum för Q&A</label><br><br>
 
-                <input type="checkbox" id="2100528610" name="options[]" >
-                <label for="Enrich">28 maj kl 10:00 - 10:30 On - boarding</label><br>                
+                <input type="checkbox" id="21052810" name="options[]"value="28 maj kl 10:00 - 10:30 On - boarding" >
+                <label for="21052810">28 maj kl 10:00 - 10:30 On - boarding</label><br>                
                 
-                <input type="checkbox" id="2105281030" name="options[]" >
-                <label for="Jobsearch">28 maj kl 10:30 – 11:30 forum för Q&A</label><br><br>
+                <input type="checkbox" id="2105281030" name="options[]"value="28 maj kl 10:30 – 11:30 forum för Q&A" >
+                <label for="2105281030">28 maj kl 10:30 – 11:30 forum för Q&A</label><br><br>
 
-                <input type="checkbox" id="210061810" name="options[]" >
-                <label for="Enrich">18 juni kl 10:00 - 10:30 On - boarding</label><br>                
+                <input type="checkbox" id="210061810" name="options[]"value="18 juni kl 10:00 - 10:30 On - boarding" >
+                <label for="31061810">18 juni kl 10:00 - 10:30 On - boarding</label><br>                
                 
-                <input type="checkbox" id="2106181030" name="options[]" >
-                <label for="Jobsearch">18 juni kl 10:30 – 11:30 forum för Q&A</label><br><br>  
+                <input type="checkbox" id="2106181030" name="options[]"value="18 juni kl 10:30 – 11:30 forum för Q&A" >
+                <label for="2106181030">18 juni kl 10:30 – 11:30 forum för Q&A</label><br><br>  
                
                               
         </fieldset>                        
@@ -93,9 +93,7 @@ only screen and (max-width: 760px),
                    {    
                         let result=data.options[0];
                         for (i=1;data.options.length > i;i++){
-                            console.log(i == data.options.length)
-                            console.log(i)
-                            console.log(data.options.length)
+                            
                            result += (i == data.options.length-1) ? " och "+data.options[i]:", "+data.options[i]
                         }
                         
