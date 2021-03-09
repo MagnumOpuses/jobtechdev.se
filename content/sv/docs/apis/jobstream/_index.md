@@ -14,6 +14,6 @@ API:et är särskilt användbart för företag och organisationer som har en ege
 
 
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobStream.md?ref=master" >}}
+{{< getMD "/api/github/repos/Jobtechdev-content/Jobstream-content/contents/GettingStartedJobStreamSE.md?ref=master" >}}
 
 
