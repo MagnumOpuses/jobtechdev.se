@@ -93,6 +93,7 @@ only screen and (max-width: 760px),
                    {    
                         let result=data.options[0];
                         for (i=1;data.options.length > i;i++){
+                            console.log(i == data.options.length)
                            result += (i == data.options.length) ? " och "+data.options[i]:", "+data.options[i]
                         }
                         
