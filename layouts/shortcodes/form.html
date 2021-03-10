@@ -80,6 +80,8 @@ only screen and (max-width: 760px),
                 <input type="email" name="email" id="email" placeholder=""  required oninvalid="this.setCustomValidity('E-postadress')" oninput="setCustomValidity('')"><br>            
                 <button type="submit" name="skicka" value="Submit">{{T "send_form"}}</button>
                 <button type="reset" >{{T "clear_form"}}</button>
+               
+                <input type="hidden" id="language">
         
     </form>
 </div>
@@ -91,7 +93,8 @@ only screen and (max-width: 760px),
         
             var form = $(this);
             var url = form.attr('action');
-            form.lang = document.documentElement.lang;
+            document.getElementById ("language").value = document.documentElement.lang;
+            console.log( form )
             $.ajax({
                    type: "POST",
                    url: url,
