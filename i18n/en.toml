@@ -111,3 +111,19 @@ other = "Read the article"
 # socialshare
 [share]
 other = "Share the article in social media."
+
+#form
+[send_form]
+other="Send"
+[clear_form]
+other= "Clear"
+[name_form]
+other= "Name:"
+[june]
+other="June"
+[may]
+other="May"
+[april]
+other="April"
+[mars]
+other="Mars"

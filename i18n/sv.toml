@@ -113,3 +113,20 @@ other = "Läs hela artikeln"
 # socialshare
 [share]
 other = "Dela artikeln på sociala medier."
+
+
+#form
+[send_form]
+other="Skicka"
+[clear_form]
+other= "Rensa"
+[name_form]
+other= "Namn:"
+[june]
+other="juni"
+[may]
+other="maj"
+[april]
+other="april"
+[mars]
+other="mars"
