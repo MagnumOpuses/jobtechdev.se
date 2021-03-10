@@ -91,20 +91,15 @@ only screen and (max-width: 760px),
         
             var form = $(this);
             var url = form.attr('action');
-            
+            form.lang = document.documentElement.lang;
             $.ajax({
                    type: "POST",
                    url: url,
                    data: form.serialize(), // serializes the form's elements.
                    success: function(data)
                    {    
-                        let result=data.options[0];
-                        for (i=1;data.options.length > i;i++){
-                            
-                           result += (i == data.options.length-1) ? " och "+data.options[i]:", "+data.options[i]
-                        }
-                        
-                      $("#form").html("<div> <p>Tack "+ data.namn+", för din anmälan <br>Du har anmält dig till "+result+" <br> En bekräftelse har skickats till: <br> "+data.email+"</p></div>")
+                                              
+                      $("#form").html(data.textString)
                    }
                  });
         
