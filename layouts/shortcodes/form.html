@@ -37,8 +37,6 @@ only screen and (max-width: 760px),
         width: 100%;
     }
     
-    .email{
-        word-break :break-all;
     }
 
 
@@ -106,7 +104,7 @@ only screen and (max-width: 760px),
                            result += (i == data.options.length-1) ? " och "+data.options[i]:", "+data.options[i]
                         }
                         
-                      $("#form").html("<div class="email"> <p>Tack "+ data.namn+", för din anmälan <br>Du har anmält dig till "+result+" <br> En bekräftelse har skickats till: <br> "+data.email+"</p></div>")
+                      $("#form").html("<div> <p>Tack "+ data.namn+", för din anmälan <br>Du har anmält dig till "+result+" <br> En bekräftelse har skickats till: <br> "+data.email+"</p></div>")
                    }
                  });
         
