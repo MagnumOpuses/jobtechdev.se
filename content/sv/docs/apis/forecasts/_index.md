@@ -15,7 +15,7 @@ API:et är särskilt användbart för företag och organisationer som erbjuder t
 | --- |
 
 
-| COVID 19: Covid-19 har förändrat arbetsmarknadsläget för vissa yrken. De prognoser som ska tolkas med försiktighet har markerats i filen [Bedömmningar att flagga](/files/covid.csv). Nya prognoser publiceras i början av 2021.   |
+| COVID 19: Covid-19 har förändrat arbetsmarknadsläget för vissa yrken. De prognoser som ska tolkas med försiktighet har markerats i filen [Bedömmningar att flagga](/files/covid.csv).   |
 | --- |
 
 {{< getMD "/api/github/repos/Jobtechdev-content/Yrkesprognoser-content/contents/GettingStartedOccupationForecastSE.md?ref=master" >}}
