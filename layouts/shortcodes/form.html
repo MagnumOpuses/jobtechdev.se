@@ -19,11 +19,8 @@
         margin-top: 20px;
         border-radius: 3px;
     }
-    select {
-        margin-bottom: 20px;
-        border-radius: 4px;
-        text-align: left;
-    }
+
+    
     input[type=text]{
         margin-bottom: 10px;
 
@@ -38,14 +35,20 @@ only screen and (max-width: 760px),
     }
     
     }
+    .modal-body{
+        height: 200px;
 
+        overflow: auto;
+    }
 
 </style>
 
 <div id="form" class="main">
     <form action="/api/form" id="idForm">
+        <h6>Jag anmäler mig till...</p>
    
-        <fieldset>          
+        <fieldset>  
+                   
                 <input type="checkbox" id="26 mars kl 10:00 - 10:30 " name="options[]" value="26 mars kl 10:00 - 10:30 On - boarding" >
                 <label for="21032610">26 {{T "mars"}} kl 10:00 - 10:30 On - boarding</label><br>                
                 
@@ -68,23 +71,68 @@ only screen and (max-width: 760px),
                 <label for="31061810">18 {{T "june"}} kl 10:00 - 10:30 On - boarding</label><br>                
                 
                 <input type="checkbox" id="2106181030" name="options[]"value="18 juni kl 10:30 – 11:30 forum för Q&A" >
-                <label for="2106181030">18 {{T "june"}} kl 10:30 – 11:30 forum Q&A</label><br><br>  
+                <label for="2106181030">18 {{T "june"}} kl 10:30 – 11:30 forum Q&A</label><br><br>                
+                              
+        </fieldset> 
+        
+        <fieldset>
                
-                              
-        </fieldset>                        
-                              
                 <label for="namn">{{T "name_form"}}</label><br>       
                 <input type="text" name="namn" id="namn" placeholder="" autofocus  required oninvalid="this.setCustomValidity('Ange namn')" oninput="setCustomValidity('')"><br>
                 
                 <label for="email">E-mail:</label><br>
-                <input type="email" name="email" id="email" placeholder=""  required oninvalid="this.setCustomValidity('E-postadress')" oninput="setCustomValidity('')"><br>            
+                <input type="email" name="email" id="email" placeholder=""  required oninvalid="this.setCustomValidity('E-mail')" oninput="setCustomValidity('')"><br><br> 
+                
+                <input type="checkbox" id="consent" name="consent"id="consent" value="1" required oninvalid="this.setCustomValidity('Du måste läsa och godkänna avtalet')">
+                <label for="consent">Jag har läst och ger mitt   <a class="btn-link" href="" data-toggle="modal" data-target="#licence"> samtycke </a>till hur mina personuppgifter hanteras. </label><br><br>                
+
                 <button type="submit" name="skicka" value="Submit">{{T "send_form"}}</button>
                 <button type="reset" >{{T "clear_form"}}</button>
                
                 
                 <input type="hidden" id="language" name="lang">
-        
+        </fieldset>   
     </form>
+</div>
+
+<div class="modal fade" id="licence" tabindex="-1" role="dialog" aria-labelledby="licenceLable" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="licenceLable">Samtycke personuppgifter</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalLicence" onscroll="console.log(this.scrollTop);if(this.scrollTop+this.offsetHeight>=this.scrollHeight){$('#agree').removeAttr('disabled')}">
+                <div class="format">
+
+
+                    
+                    <h3>Samtycke JobTech Development   </h3>
+                    <p>Jag samtycker härmed till att Arbetsförmedlingen, JobTech Development får spara och lagra mina personuppgifter.
+                        Personuppgifter i form av namn och e-postadresser samlas in. <br><br>
+                        Syftet med insamlingen är att kunna skicka inbjudan och ta emot anmälningar till event.<br>
+                        Personuppgifter lämnas inte vidare till tredje part.
+                        
+                        Jag kan när som helst återkalla mitt samtycke genom att kontakta Arbetsförmedlingen via <a href="mailto:jobtechdevelopment@arbetsformedlingen.se">jobtech Development</a>.<br> 
+                        
+                        
+                       
+                    </p>
+                    
+                   
+                
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+
+                <button onclick="document.getElementById('consent').removeAttribute('disabled'); if (!document.getElementById('consent').checked){document.getElementById('consent').click()};document.getElementById('consent').setCustomValidity('')" id="agree" type="button" class="btn btn-primary" disabled data-dismiss="modal">Jag godkänner</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -110,3 +158,4 @@ only screen and (max-width: 760px),
             
         });
 </script>
+
