@@ -1,25 +1,32 @@
 ---
 date: 2021-03-08
-title: Onboarding / open-space möte för API användare
-linkTitle: "Onboarding / open-space möte för API användare"
+title: Kom igång med JobTech Developments API:er
+linkTitle: "Kom igång med JobTech Developments API:er"
 description: ""
 author: 
-resources:
-- src: "**"
-  title: "Image #:counter"
-  params:
-    byline: ""
+images:
+- https://jobtechdev.se/news/news_head/test/social.jpg
 socialshare: true
 ---
 
-Vi vill göra det enkelt att använda våra apier, därför bjuder vi in dig och andra nya användare till ett on-boarding möte med ett efterföljande open-space möte för alla användare. 
+![identifierade ord](letterbox.jpg)
 
-Första halvtimmen ägnar vi oss åt att få ombord alla er som är nya api användare, därefter bjuder vi in dig som redan använder våra apier för frågestund och diskussion. Ett muntligt forum helt enkelt. Ta tillfället i akt och träffa våra utvecklare online. 
+**Under våren arrangerar JobTech Development öppna webbinarier för alla som vill ha hjälp att komma igång med våra API:er. Första tillfället är fredagen den 26 mars.**  
 
-Tidpunkter för dessa sammankomster är sista fredagen i månaden. 
-Välj vilket/vilka tillfällen som passar din agenda. 
- 
 
+För att göra det ännu enklare att använda våra API:er anordnar vi fyra webbinarier under våren där vi ger en teknisk introduktion och möjlighet att ställa frågor direkt till våra utvecklare. Webbinarierna vänder sig i första hand till nya och befintliga användare, men är öppna för alla som vill veta mer om hur våra API:er kan användas för utveckling av digitala tjänster för arbetsmarknaden.
+
+På webbinarierna kommer vårt utvecklingsteam, representerat av **Johan Brymér Dahlhielm** och **Henrik Suzuki**, att ge information och praktisk vägledning för API:er som ”JobSearch”, ”JobStream” och ”JobTech Taxonomy”. Därefter följer ett öppet samtal med möjlighet att ställa frågor, ge feedback samt framföra idéer och önskemål för nya tekniska lösningar från JobTech Development.
+
+*”Vi ser fram emot att kunna hjälpa och inspirera nya användare genom vårens webbinarier. Genom mer dialog och feedback får vi dessutom större möjlighet att förbättra våra produkter och bli mer träffsäkra när vi utvecklar nya tekniska lösningar för arbetsmarknaden”*, säger **Henrik Suzuki**.
+
+Samtliga webbinarier kommer att hållas enligt ”open space”-modell, som innebär att agenda och samtalsämnen i hög grad styrs utifrån deltagarnas specifika intressen och behov. 
+
+Datum och anmälan:
 {{<form>}}
+
+
+
+
 
 

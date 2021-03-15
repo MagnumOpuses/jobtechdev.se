@@ -130,3 +130,7 @@ other="maj"
 other="april"
 [mars]
 other="mars"
+[consent]
+other= "Samtycke JobTech Development "
+[consent_text]
+other= "Jag samtycker härmed till att Arbetsförmedlingen, JobTech Development får spara och lagra mina personuppgifter. \n \n Personuppgifter i form av namn och e-postadresser samlas in. Syftet med insamlingen är att kunna skicka inbjudan och ta emot anmälningar till event. \n \n Personuppgifter lämnas inte vidare till tredje part. \n Jag kan när som helst återkalla mitt samtycke genom att kontakta Arbetsförmedlingen via " 
