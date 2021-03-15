@@ -5,7 +5,7 @@ linkTitle: "Kom igång med JobTech Developments API:er"
 description: ""
 author: 
 images:
-- https://jobtechdev.se/news/news_head/test/social.jpg
+- https://jobtechdev.se/news/news_head/210316/social.jpg
 socialshare: true
 ---
 
