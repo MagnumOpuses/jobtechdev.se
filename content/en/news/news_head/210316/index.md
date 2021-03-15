@@ -7,6 +7,7 @@ author:
 images:
 - https://jobtechdev.se/news/news_head/210316/social.jpg
 socialshare: true
+draft: true
 ---
 
 ![identifierade ord](letterbox.jpg)
