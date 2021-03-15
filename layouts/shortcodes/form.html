@@ -10,7 +10,7 @@
         border-radius: 8px;
     }
     label {
-    font-family: abril fatface;
+    font-family: IBM plex sans;
     margin-bottom: 0px;
     
     }
@@ -36,10 +36,16 @@ only screen and (max-width: 760px),
     
     }
     .modal-body{
-        height: 200px;
+        height: 300px;
 
         overflow: auto;
+       
     }
+    .modal-content{
+        white-space: pre-line;
+    }
+    
+
 
 </style>
 
@@ -47,31 +53,31 @@ only screen and (max-width: 760px),
     <form action="/api/form" id="idForm">
         <h6>Jag anmäler mig till...</p>
    
-        <fieldset>  
-                   
+        <fieldset >  
+                   <p class="text-danger" id="message"></p>
                 <input type="checkbox" id="26 mars kl 10:00 - 10:30 " name="options[]" value="26 mars kl 10:00 - 10:30 On - boarding" >
-                <label for="21032610">26 {{T "mars"}} kl 10:00 - 10:30 On - boarding</label><br>                
+                <label for="21032610">26 {{T "mars"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
                 
                 <input type="checkbox" id="2103261030" name="options[]"value="26 mars kl 10:30 - 11:30 forum för Q&A" >
-                <label for="2103261030">26 {{T "mars"}} kl 10:30 – 11:30 forum  Q&A</label><br><br>
+                <label for="2103261030">26 {{T "mars"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>
                 
                 <input type="checkbox" id="21042310" name="options[]" value="23 april kl 10:00 - 10:30 On - boarding">
-                <label for="21042310">23 {{T "april"}} kl 10:00 - 10:30 On - boarding</label><br>                
+                <label for="21042310">23 {{T "april"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
                 
                 <input type="checkbox" id="2104231030" name="options[]" value="23 april kl 10:30 – 11:30 forum för Q&A">
-                <label for="2104231030">23{{T "april"}} kl 10:30 – 11:30 forum  Q&A</label><br><br>
+                <label for="2104231030">23{{T "april"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>
 
                 <input type="checkbox" id="21052810" name="options[]"value="28 maj kl 10:00 - 10:30 On - boarding" >
-                <label for="21052810">28 {{T "may"}} kl 10:00 - 10:30 On - boarding</label><br>                
+                <label for="21052810">28 {{T "may"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
                 
                 <input type="checkbox" id="2105281030" name="options[]"value="28 maj kl 10:30 – 11:30 forum för Q&A" >
-                <label for="2105281030">28 {{T "may"}} kl 10:30 – 11:30 forum  Q&A</label><br><br>
+                <label for="2105281030">28 {{T "may"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>
 
                 <input type="checkbox" id="210061810" name="options[]"value="18 juni kl 10:00 - 10:30 On - boarding" >
-                <label for="31061810">18 {{T "june"}} kl 10:00 - 10:30 On - boarding</label><br>                
+                <label for="31061810">18 {{T "june"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
                 
                 <input type="checkbox" id="2106181030" name="options[]"value="18 juni kl 10:30 – 11:30 forum för Q&A" >
-                <label for="2106181030">18 {{T "june"}} kl 10:30 – 11:30 forum Q&A</label><br><br>                
+                <label for="2106181030">18 {{T "june"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>                
                               
         </fieldset> 
         
@@ -105,28 +111,10 @@ only screen and (max-width: 760px),
                 </button>
             </div>
             <div class="modal-body" id="modalLicence" onscroll="console.log(this.scrollTop);if(this.scrollTop+this.offsetHeight>=this.scrollHeight){$('#agree').removeAttr('disabled')}">
-                <div class="format">
-
-
-                    
-                    <h3>Samtycke JobTech Development   </h3>
-                    <p>Jag samtycker härmed till att Arbetsförmedlingen, JobTech Development får spara och lagra mina personuppgifter.
-                        Personuppgifter i form av namn och e-postadresser samlas in. <br><br>
-                        Syftet med insamlingen är att kunna skicka inbjudan och ta emot anmälningar till event.<br>
-                        Personuppgifter lämnas inte vidare till tredje part.
-                        
-                        Jag kan när som helst återkalla mitt samtycke genom att kontakta Arbetsförmedlingen via <a href="mailto:jobtechdevelopment@arbetsformedlingen.se">jobtech Development</a>.<br> 
-                        
-                        
-                       
-                    </p>
-                    
-                   
-                
-
+                <div class="format">                    
+                    <h3>{{T "consent"}}  </h3>
+                    <p>{{ T "consent_text"}} <a href="mailto:jobtechdevelopment@arbetsformedlingen.se">Jobtech Development</a>.<br>      </p>              
                 </div>
-
-            </div>
             <div class="modal-footer">
 
                 <button onclick="document.getElementById('consent').removeAttribute('disabled'); if (!document.getElementById('consent').checked){document.getElementById('consent').click()};document.getElementById('consent').setCustomValidity('')" id="agree" type="button" class="btn btn-primary" disabled data-dismiss="modal">Jag godkänner</button>
@@ -134,28 +122,36 @@ only screen and (max-width: 760px),
         </div>
     </div>
 </div>
+</div>
 
 <script>
     $("#idForm").submit(function(e) {
-
             e.preventDefault(); // avoid to execute the actual submit of the form.
-        
             var form = $(this);
             var url = form.attr('action');
             document.getElementById ("language").value = document.documentElement.lang;
-            console.log( form )
-            $.ajax({
-                   type: "POST",
-                   url: url,
-                   data: form.serialize(), // serializes the form's elements.
-                   success: function(data)
-                   {    
-                                              
-                      $("#form").html(data.textString)
-                   }
-                 });
+            if (isAtLeastOneChecked("options[]")){
+                    $.ajax({
+                               type: "POST",
+                               url: url,
+                               data: form.serialize(), // serializes the form's elements.
+                               success: function(data)
+                               {    
+                                                          
+                                  $("#form").html(data.textString)
+                               }
+                         });
+            }else{
+                $("#message").html("du måste välja minst ettt tillfälle")
+            }
+
         
             
         });
+         function isAtLeastOneChecked(name) {
+                        let checkboxes = Array.from(document.getElementsByName(name));
+                        return checkboxes.some(e => e.checked); 
+        }
 </script>
 
+ 
