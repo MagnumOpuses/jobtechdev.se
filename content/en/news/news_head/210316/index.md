@@ -7,23 +7,23 @@ author:
 images:
 - https://jobtechdev.se/news/news_head/210316/social.jpg
 socialshare: true
-draft: true
+draft: false
 ---
 
 ![identifierade ord](letterbox.jpg)
 
-**Under våren arrangerar JobTech Development öppna webbinarier för alla som vill ha hjälp att komma igång med våra API:er. Första tillfället är fredagen den 26 mars.**  
+**During the spring, JobTech Development will arrange open webinars for anyone who wants help getting started with our APIs. The first opportunity is Friday, March 26.**
 
 
-För att göra det ännu enklare att använda våra API:er anordnar vi fyra webbinarier under våren där vi ger en teknisk introduktion och möjlighet att ställa frågor direkt till våra utvecklare. Webbinarierna vänder sig i första hand till nya och befintliga användare, men är öppna för alla som vill veta mer om hur våra API:er kan användas för utveckling av digitala tjänster för arbetsmarknaden.
+To make it even easier to use our APIs, we will organize four webinars in the spring where we provide a technical introduction and the opportunity to ask questions directly to our developers. The webinars are primarily aimed at new and existing users, but are open to anyone who wants to know more about how our APIs can be used for the development of digital services for the labor market.
 
-På webbinarierna kommer vårt utvecklingsteam, representerat av **Johan Brymér Dahlhielm** och **Henrik Suzuki**, att ge information och praktisk vägledning för API:er som ”JobSearch”, ”JobStream” och ”JobTech Taxonomy”. Därefter följer ett öppet samtal med möjlighet att ställa frågor, ge feedback samt framföra idéer och önskemål för nya tekniska lösningar från JobTech Development.
+At the webinars, our development team, represented by **Johan Brymér Dahlhielm** and **Henrik Suzuki**, will provide information and practical guidance for APIs such as "JobSearch", "JobStream" and "JobTech Taxonomy". This is followed by an open conversation with the opportunity to ask questions, give feedback and present ideas and wishes for new technical solutions from JobTech Development.
 
-*”Vi ser fram emot att kunna hjälpa och inspirera nya användare genom vårens webbinarier. Genom mer dialog och feedback får vi dessutom större möjlighet att förbättra våra produkter och bli mer träffsäkra när vi utvecklar nya tekniska lösningar för arbetsmarknaden”*, säger **Henrik Suzuki**.
+*“We look forward to helping and inspiring new users through this spring's webinars. Through more dialogue and feedback, we also get a greater opportunity to improve our products and become more accurate when we develop new technical solutions for the labor market"*, says **Henrik Suzuki**.
 
-Samtliga webbinarier kommer att hållas enligt ”open space”-modell, som innebär att agenda och samtalsämnen i hög grad styrs utifrån deltagarnas specifika intressen och behov. 
+All webinars will be held according to the "open space" model, which means that the agenda and topics of conversation are largely governed by the participants' specific interests and needs.
 
-Datum och anmälan:
+Date and registration:
 {{<form>}}
 
 

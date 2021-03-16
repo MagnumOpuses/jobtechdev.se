@@ -51,33 +51,33 @@ only screen and (max-width: 760px),
 
 <div id="form" class="main">
     <form action="/api/form" id="idForm">
-        <h6>Jag anmäler mig till...</p>
+        <h6>{{T "signup"}}</p>
    
         <fieldset >  
                    <p class="text-danger" id="message"></p>
-                <input type="checkbox" id="26 mars kl 10:00 - 10:30 " name="options[]" value="26 mars kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)" >
-                <label for="21032610">26 {{T "mars"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
+                <input type="checkbox" id="26 mars kl 10:00 - 10:30 " name="options[]" value='{{T "intro" }}'>
+                <label for="21032610">26 {{T "mars"}} {{T "intro"}}</label><br>                
                 
-                <input type="checkbox" id="2103261030" name="options[]"value="26 mars kl 10:30 - 11:30 Frågor, feedback och diskussion (öppet för alla)" >
-                <label for="2103261030">26 {{T "mars"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>
+                <input type="checkbox" id="2103261030" name="options[]"value='{{T "qa" }}' >
+                <label for="2103261030">26 {{T "mars"}} {{T "qa" }} </label><br><br>
                 
-                <input type="checkbox" id="21042310" name="options[]" value="23 april kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)">
-                <label for="21042310">23 {{T "april"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
+                <input type="checkbox" id="21042310" name="options[]" value='{{T "intro" }}'>
+                <label for="21042310">23 {{T "april"}} {{T "intro" }}</label><br>                
                 
-                <input type="checkbox" id="2104231030" name="options[]" value="23 april kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)">
-                <label for="2104231030">23{{T "april"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>
+                <input type="checkbox" id="2104231030" name="options[]" value='{{T "qa" }}' >
+                <label for="2104231030">23{{T "april"}} {{T "qa" }}</label><br><br>
 
-                <input type="checkbox" id="21052810" name="options[]"value="28 maj kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)" >
-                <label for="21052810">28 {{T "may"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
+                <input type="checkbox" id="21052810" name="options[]"value='{{T "intro" }}' >
+                <label for="21052810">28 {{T "may"}} {{T "intro" }}</label><br>                
                 
-                <input type="checkbox" id="2105281030" name="options[]"value="28 maj kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)" >
-                <label for="2105281030">28 {{T "may"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>
+                <input type="checkbox" id="2105281030" name="options[]"value='{{T "qa" }}' >
+                <label for="2105281030">28 {{T "may"}} {{T "qa" }})</label><br><br>
 
-                <input type="checkbox" id="210061810" name="options[]"value="18 juni kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)" >
-                <label for="31061810">18 {{T "june"}} kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)</label><br>                
+                <input type="checkbox" id="210061810" name="options[]"value='{{T "intro" }}' >
+                <label for="31061810">18 {{T "june"}} {{T "intro" }}</label><br>                
                 
-                <input type="checkbox" id="2106181030" name="options[]"value="18 juni kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)" >
-                <label for="2106181030">18 {{T "june"}} kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)</label><br><br>                
+                <input type="checkbox" id="2106181030" name="options[]"value='{{T "qa" }}'  >
+                <label for="2106181030">18 {{T "june"}} {{T "qa" }} </label><br><br>                
                               
         </fieldset> 
         
@@ -90,7 +90,7 @@ only screen and (max-width: 760px),
                 <input type="email" name="email" id="email" placeholder=""  required oninvalid="this.setCustomValidity('E-mail')" oninput="setCustomValidity('')"><br><br> 
                 
                 <input type="checkbox" id="consent" name="consent" value="1" required oninvalid="this.setCustomValidity('Du måste läsa och godkänna samtycket')">
-                <label for="consent">Jag har läst och ger mitt   <a class="btn-link" href="" data-toggle="modal" data-target="#licence"> samtycke </a>till hur mina personuppgifter hanteras. </label><br><br>                
+                <label for="consent">{{T "consent_checkbox1"}}   <a class="btn-link" href="" data-toggle="modal" data-target="#licence"> {{T "consent_checkbox2"}} </a>{{T "consent_checkbox3"}} </label><br><br>                
 
                 <button type="submit" name="skicka" value="Submit">{{T "send_form"}}</button>
                 <button type="reset" >{{T "clear_form"}}</button>
@@ -105,7 +105,7 @@ only screen and (max-width: 760px),
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="licenceLable">Samtycke personuppgifter</h5>
+                <h5 class="modal-title" id="licenceLable">{{ T "consent_header"}}</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
