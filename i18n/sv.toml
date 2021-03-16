@@ -134,3 +134,17 @@ other="mars"
 other= "Samtycke JobTech Development "
 [consent_text]
 other= "Jag samtycker härmed till att Arbetsförmedlingen, JobTech Development får spara och lagra mina personuppgifter. \n \n Personuppgifter i form av namn och e-postadresser samlas in. Syftet med insamlingen är att kunna skicka inbjudan och ta emot anmälningar till event. \n \n Personuppgifter lämnas inte vidare till tredje part. \n Jag kan när som helst återkalla mitt samtycke genom att kontakta Arbetsförmedlingen via " 
+[consent_checkbox1]
+other="Jag har läst och ger mitt"
+[consent_checkbox2]
+other= "samtycke"
+[consent_checkbox3]
+other= "till hur mina personuppgifter hanteras."
+[consent_header]
+other = "Samtycke personuppgifter"
+[signup]
+other="Jag anmäler mig till..."
+[intro]
+other="kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)"
+[qa]
+other="kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)"
