@@ -130,7 +130,7 @@ other="Mars"
 [consent]
 other= "Consent JobTech Development "
 [consent_text]
-other= " I hereby agree that Arbetsförmedlingen, JobTech Development may save and store my personal information. Personal information in the form of names and e-mail addresses is collected. \n The purpose of the fundraiser is to be able to send invitations and receive registrations for events. \n Personal information is not passed on to third parties. I can revoke my consent at any time by contacting the Swedish Public Employment Service via"
+other= " I hereby agree that Arbetsförmedlingen, JobTech Development may save and store my personal information. \n \n Personal information in the form of name and e-mail addresses is collected. The purpose of storing information, is to be able to send invitations and receive registrations for events. \n \n Personal information is not passed on to third parties. \n I can revoke my consent at any time by contacting the Swedish Public Employment Service via"
 [consent_aprove]
 other="I approve"
 [consent_checkbox1]
