@@ -142,9 +142,23 @@ other= "samtycke"
 other= "till hur mina personuppgifter hanteras."
 [consent_header]
 other = "Samtycke personuppgifter"
+[consent_aprove]
+other="Jag godkänner"
 [signup]
 other="Jag anmäler mig till..."
 [intro]
 other="kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)"
 [qa]
 other="kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)"
+[placeholder_name]
+other="Namn ( Obligtorisk)"
+[msg_name]
+other= "Ange ditt namn"
+[msg_email]
+other= "Ange din epostadress"
+[placeholder_email]
+other="E-post adress (Obligatorisk)"
+[msg_consent]
+other= "Du måste läsa och godkänna samtycket"
+[msg_checkbox]
+other= "Du måste välja minst ett tillfälle"

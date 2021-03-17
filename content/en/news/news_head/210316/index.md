@@ -1,7 +1,7 @@
 ---
 date: 2021-03-08
-title: Kom igång med JobTech Developments API:er
-linkTitle: "Kom igång med JobTech Developments API:er"
+title: Get started with JobTech Development APIs
+linkTitle: "Get started with JobTech Development APIs"
 description: ""
 author: 
 images:
