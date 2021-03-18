@@ -11,7 +11,8 @@ API:et är särskilt användbart för företag och organisationer som erbjuder t
 
 **API:et är fritt tillgängligt.**  
 
-
+| Yrkesprognoser(Occupation Forecast) API avvecklas, inga nya prognoser kommer att publiceras genom detta API. Yrkesprognoser för år 2021 tillgängliggörs som nedladdningsbar fil (nedladdningslänk kommer snart).  |
+| --- |
 
 
 | COVID 19: Covid-19 har förändrat arbetsmarknadsläget för vissa yrken. De prognoser som ska tolkas med försiktighet har markerats i filen [Bedömmningar att flagga](/files/covid.csv). Nya prognoser publiceras i början av 2021.   |

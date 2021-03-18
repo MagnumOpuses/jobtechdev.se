@@ -1,0 +1,161 @@
+<style>
+    .main {
+        width: 80%;
+
+        background-color: #efefef;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+    label {
+    font-family: IBM plex sans;
+    margin-bottom: 0px;
+    
+    }
+    input{
+    font-family: IBM plex sans ;
+    }
+
+    button {
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+
+    
+    input[type=text]{
+        margin-bottom: 10px;
+
+    }
+    
+
+    @media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    #form {
+        width: 100%;
+    }
+   
+    
+    }
+    .modal-body{
+        height: 300px;
+
+        overflow: auto;
+       
+    }
+    .modal-content{
+        white-space: pre-line;
+    }
+    
+
+
+</style>
+
+<div id="form" class="main">
+    <form action="/api/form" id="idForm">
+        <h6>{{T "signup"}}</p>
+   
+        <fieldset >  
+                   <p class="text-danger" id="message"></p>
+                <input type="checkbox" id="21032610" name="options[]" value='{{T "intro" }}'>
+                <label for="21032610">26 {{T "mars"}} {{T "intro"}}</label><br>                
+                
+                <input type="checkbox" id="2103261030" name="options[]"value='{{T "qa" }}' >
+                <label for="2103261030">26 {{T "mars"}} {{T "qa" }} </label><br><br>
+                
+                <input type="checkbox" id="21042310" name="options[]" value='{{T "intro" }}'>
+                <label for="21042310">23 {{T "april"}} {{T "intro" }}</label><br>                
+                
+                <input type="checkbox" id="2104231030" name="options[]" value='{{T "qa" }}' >
+                <label for="2104231030">23{{T "april"}} {{T "qa" }}</label><br><br>
+
+                <input type="checkbox" id="21052810" name="options[]"value='{{T "intro" }}' >
+                <label for="21052810">28 {{T "may"}} {{T "intro" }}</label><br>                
+                
+                <input type="checkbox" id="2105281030" name="options[]"value='{{T "qa" }}' >
+                <label for="2105281030">28 {{T "may"}} {{T "qa" }})</label><br><br>
+
+                <input type="checkbox" id="210061810" name="options[]"value='{{T "intro" }}' >
+                <label for="31061810">18 {{T "june"}} {{T "intro" }}</label><br>                
+                
+                <input type="checkbox" id="2106181030" name="options[]"value='{{T "qa" }}'  >
+                <label for="2106181030">18 {{T "june"}} {{T "qa" }} </label><br><br>                
+                              
+        </fieldset> 
+        
+        <fieldset>
+               
+                <label for="namn">{{T "name_form"}}</label><br>       
+                <input type="text" name="namn" id="namn" placeholder='{{T "placeholder_name" }}' autofocus  required oninvalid="this.setCustomValidity({{T "msg_name" }})" oninput="setCustomValidity('')"><br>
+                
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" placeholder='{{T "placeholder_email" }}'   required oninvalid="this.setCustomValidity({{T "msg_email" }})" oninput="setCustomValidity('')"><br><br> 
+                
+                <input type="checkbox" id="consent" name="consent" value="1" required oninvalid="this.setCustomValidity({{T "msg_consent" }})">
+                <label for="consent">{{T "consent_checkbox1"}}   <a class="btn-link" href="" data-toggle="modal" data-target="#licence"> {{T "consent_checkbox2"}} </a>{{T "consent_checkbox3"}} </label><br><br>                
+
+                <button type="submit" name="skicka" value="Submit">{{T "send_form"}}</button>
+                <button type="reset" >{{T "clear_form"}}</button>
+               
+                
+                <input type="hidden" id="language" name="lang">
+        </fieldset>   
+    </form>
+</div>
+
+<div class="modal fade" id="licence" tabindex="-1" role="dialog" aria-labelledby="licenceLable" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="licenceLable">{{ T "consent_header"}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalLicence" onscroll="console.log(this.scrollTop);if(this.scrollTop+this.offsetHeight>=this.scrollHeight){$('#agree').removeAttr('disabled')}">
+                <div class="format">                    
+                    <h3>{{T "consent"}}  </h3>
+                    <p>{{ T "consent_text"}} <a href="mailto:jobtechdevelopment@arbetsformedlingen.se">Jobtech Development</a>.<br>      </p>              
+                </div>
+            <div class="modal-footer">
+
+                <button onclick="document.getElementById('consent').removeAttribute('disabled'); if (!document.getElementById('consent').checked){document.getElementById('consent').click()};document.getElementById('consent').setCustomValidity('')" id="agree" type="button" class="btn btn-primary" disabled data-dismiss="modal">{{T "consent_aprove"}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    $("#idForm").submit(function(e) {
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+            var form = $(this);
+            var url = form.attr('action');
+            document.getElementById ("language").value = document.documentElement.lang;
+            if (isAtLeastOneChecked("options[]")){
+                    $.ajax({
+                               type: "POST",
+                               url: url,
+                               data: form.serialize(), // serializes the form's elements.
+                               success: function(data)
+                               {    
+                                                          
+                                  $("#form").html(data.textString)
+                               }
+                         });
+            }else{
+                $("#message").html({{T "msg_checkbox" }})
+            }
+
+        
+            
+        });
+         function isAtLeastOneChecked(name) {
+                        let checkboxes = Array.from(document.getElementsByName(name));
+                        return checkboxes.some(e => e.checked); 
+        }
+</script>
+
+ 

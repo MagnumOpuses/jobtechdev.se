@@ -1,0 +1,151 @@
+<style>
+  .social-share {
+    position: relative;
+    top: 1em;
+
+
+  }
+   
+  .social-share ul {
+    margin: 0;
+  }
+   
+  .social-share ul li p {
+    display: none;
+  }
+   
+  .social-share .share-icons li {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+  }
+   
+  .social-share .share-btn {
+    padding: 0.25em;
+    width: 3em;
+  }
+   
+  .social-share-nav .share-btn h3{
+    color: #ffffff;
+  }
+  
+  ul.share-icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+  }
+  
+  ul.share-icons li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+  }
+  
+  ul.share-icons li:last-child {
+    padding-right: 0;
+  }
+  
+  ul.share-icons li > * {
+    text-decoration: none;
+    border: 0;
+  }
+  
+  ul.share-icons li > *:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+  }
+  
+  ul.share-icons li > * .label {
+    display: none;
+  }
+   
+  .share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+  }
+   
+  .share-btn:hover {
+    color: #ffffff !important;
+  }
+  
+  .share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+  }
+  .share-btn .widget-social__link-icon {
+    margin: 0;
+  }
+   
+  .share-btn.twitter     { background: #efefefef; }
+  .share-btn.facebook    { background: #efefefef; }
+  .share-btn.linkedin    { background: #efefefef; }
+  .share-btn.email       { background: #efefefef; }
+    
+  /*
+  .share-btn.twitter:hover     { background: #4c9ad6; }
+  .share-btn.facebook:hover    { background: #2f4779; }
+  .share-btn.linkedin:hover    { background: #4069a2; }
+  .share-btn.email:hover       { background: #363636; } */
+
+  
+</style>
+
+<div class="xx">
+<!-- Social Share Button HTML -->
+{{- if .Param "socialshare" }}  
+  {{ $title := .Title }}
+  {{ $url := absLangURL ( slicestr .URL 1 )}}
+  {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
+
+  <section class="social-share">    
+    <h6>{{T "share"}}</h6>
+    <ul class="share-icons">
+      <!-- Twitter -->
+      {{ if .Site.Params.social.share.twitter }}
+      <li>
+        <a href="https://twitter.com/intent/tweet?hashtags=JobTech Development&amp;url=https://jobtechdev.se{{ $url  }}&amp;text={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Twitter" class="share-btn twitter">
+          {{ partial "svg/twitter.svg" (dict "class" "widget-social__link-icon") }}
+          <p>Twitter</p>
+          </a>
+      </li>
+      {{ end }}
+
+      <!-- Facebook 
+      {{ if .Site.Params.social.share.facebook }}
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u={{ $url }}" target="_blank" rel="noopener" aria-label="Share on Facebook" class="share-btn facebook">
+          {{ partial "svg/facebook.svg" (dict "class" "widget-social__link-icon") }}
+          <p>Facebook</p>
+          </a>
+      </li>
+      {{ end }}
+    -->
+
+      <!-- LinkedIn -->
+      {{ if .Site.Params.social.share.linkedin }}
+      <li>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://jobtechdev.se{{ $url }}" target="_blank" rel="noopener" aria-label="Share on LinkedIn" class="share-btn linkedin">
+          {{ partial "svg/linkedin.svg" (dict "class" "widget-social__link-icon") }}
+            <p>LinkedIn</p>
+          </a>
+      </li>
+      
+
+      
+    </ul>
+  </section>
+  {{ end }}
+{{- end }}
+</div>

@@ -5,15 +5,19 @@ title: "Fem frågor till ..."
 linkTitle: "Fem frågor till..."
 description: ""
 author: 
+images:
+- https://jobtechdev.se/news/news_head/200914/social.jpg
 resources:
 - src: "**featured*.jpg"
   title: "Image #:counter"
   params:
     byline: "Mattias Persson, JobTech Development"
+socialshare: true
 ---
- **Fem frågor till...**   
+ 
 **Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.** 
-{{< imgproc featured Fill "400x360" "float-right m-6" >}}
+
+{{< imgproc featured Fill "300x400" "float-right m-6" >}}
 
 {{< /imgproc >}}
 

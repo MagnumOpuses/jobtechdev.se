@@ -105,3 +105,57 @@ other = "Create documentation issue"
 other = "Create project issue"
 [post_posts_in]
 other = "News"
+[article]
+other = "Read the article"
+
+# socialshare
+[share]
+other = "Share the article in social media."
+
+#form
+[send_form]
+other="Send"
+[clear_form]
+other= "Clear"
+[name_form]
+other= "Name:"
+[june]
+other="June"
+[may]
+other="May"
+[april]
+other="April"
+[mars]
+other="Mars"
+[consent]
+other= "Consent JobTech Development "
+[consent_text]
+other= " I hereby agree that Arbetsförmedlingen, JobTech Development may save and store my personal information. \n \n Personal information in the form of name and e-mail addresses is collected. The purpose of storing information, is to be able to send invitations and receive registrations for events. \n \n Personal information is not passed on to third parties. \n I can revoke my consent at any time by contacting the Swedish Public Employment Service via"
+[consent_aprove]
+other="I approve"
+[consent_checkbox1]
+other="I have read and I give my"
+[consent_checkbox2]
+other= "consent"
+[consent_checkbox3]
+other= "to how my personal data will be handled."
+[consent_header]
+other = "Consent personal data"
+[signup]
+other="I sign up for..."
+[intro]
+other="kl 10:00 - 10:30 Introduction + Getting started (user)"
+[qa]
+other="kl 10:30 – 11:30 Questions, feedback and discussion (open to everyone)"
+[placeholder_name]
+other="Name (a-ö 2-45 characters)"
+[msg_name]
+other= "Please enter your name"
+[msg_email]
+other= "Please enter your email"
+[placeholder_email]
+other="Email address (Required)"
+[msg_consent]
+other= "You need to approve the consent"
+[msg_checkbox]
+other= "You need to choose at least one occation"
