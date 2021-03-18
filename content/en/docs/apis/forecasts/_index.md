@@ -15,8 +15,11 @@ The API is especially useful for companies and organisations that offer professi
 | Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. The forcasts for 2021 will be avaliable by downloading (a link fo download will show later).  |
 | --- |
 
+| Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. The forcasts for 2021 will be avaliable by downloading (a link fo download will show later).  |
+| --- |
 
-| COVID 19: Covid-19 has changed the labour market situation for some professions. The forecasts that should be interpreted with caution are marked in the file [Bedömmningar att flagga](/files/covid.csv). New forecasts are published in early 2021.   |
+
+| COVID 19: Covid-19 has changed the labour market situation for some professions. The forecasts that should be interpreted with caution are marked in the file [Bedömmningar att flagga](/files/covid.csv).   |
 | --- |
 
 
