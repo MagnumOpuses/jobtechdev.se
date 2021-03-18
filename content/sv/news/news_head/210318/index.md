@@ -1,5 +1,5 @@
 ---
-date: 2021-03-08
+date: 2021-03-18
 title: Kom igång med JobTech Developments API:er
 linkTitle: "Kom igång med JobTech Developments API:er"
 description: ""
