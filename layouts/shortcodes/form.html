@@ -88,10 +88,10 @@ only screen and (max-width: 760px),
         <fieldset>
                
                 <label for="namn">{{T "name_form"}}</label><br>       
-                <input type="text" name="namn" id="namn" placeholder='{{T "placeholder_name" }}' autofocus  required oninvalid="this.setCustomValidity({{T "msg_name" }})" oninput="setCustomValidity('')"><br>
+                <input type="text" name="namn" id="namn" pattern="[a-zA-ZåäöÅÄÖ -]" placeholder='{{T "placeholder_name" }}' autofocus  required oninvalid="this.setCustomValidity({{T "msg_name" }})" oninput="setCustomValidity('')"><br>
                 
                 <label for="email">E-mail:</label><br>
-                <input type="email" name="email" id="email" placeholder='{{T "placeholder_email" }}'   required oninvalid="this.setCustomValidity({{T "msg_email" }})" oninput="setCustomValidity('')"><br><br> 
+                <input type="email" name="email" id="email" pattern="[^\s@]+@[^\s@]" placeholder='{{T "placeholder_email" }}'   required oninvalid="this.setCustomValidity({{T "msg_email" }})" oninput="setCustomValidity('')"><br><br> 
                 
                 <input type="checkbox" id="consent" name="consent" value="1" required oninvalid="this.setCustomValidity({{T "msg_consent" }})">
                 <label for="consent">{{T "consent_checkbox1"}}   <a class="btn-link" href="" data-toggle="modal" data-target="#licence"> {{T "consent_checkbox2"}} </a>{{T "consent_checkbox3"}} </label><br><br>                
