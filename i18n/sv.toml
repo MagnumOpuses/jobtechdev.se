@@ -151,7 +151,7 @@ other="kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)"
 [qa]
 other="kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)"
 [placeholder_name]
-other="Namn ( Obligtorisk)"
+other="Namn (a-ö 2-45 tecken)"
 [msg_name]
 other= "Ange ditt namn"
 [msg_email]
