@@ -148,7 +148,7 @@ other="kl 10:00 - 10:30 Introduction + Getting started (user)"
 [qa]
 other="kl 10:30 – 11:30 Questions, feedback and discussion (open to everyone)"
 [placeholder_name]
-other="Name (obligatorisk)"
+other="Name (Required)"
 [msg_name]
 other= "Please enter your name"
 [msg_email]
