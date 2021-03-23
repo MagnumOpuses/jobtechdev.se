@@ -12,8 +12,7 @@ metadescription: "With the API Occupation Forecasts, you get access to the Swedi
 The API is especially useful for companies and organisations that offer professional and study guidance services and wish to help their customers/target groups make informed decisions for career and study choices. It is also useful for other actors who want in-depth insights into developments in the labour market.
 
 **The API is freely available.**
-| Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. The forcasts for 2021 will be avaliable by downloading (a link fo download will show later).  |
-| --- |
+
 
 | Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. The forcasts for 2021 will be avaliable by downloading (a link fo download will show later).  |
 | --- |

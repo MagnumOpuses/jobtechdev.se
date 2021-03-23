@@ -1,10 +1,10 @@
 ---
-title: "Job Stream"
-menuTitle: "Job Stream"
-description: "Job Stream provides access to all job advertisements that are published in Platsbanken, including real-time information about any changes that occur around or in these advertisements. For example, the changes could be the publishing/unpublishing of advertisements or changes to the advertisement text."
+title: "JobStream"
+menuTitle: "JobStream"
+description: "JobStream provides access to all job advertisements that are published in Platsbanken, including real-time information about any changes that occur around or in these advertisements. For example, the changes could be the publishing/unpublishing of advertisements or changes to the advertisement text."
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 weight: 3
-metadescription: "Job Stream provides access to all job advertisements published in Platsbanken, including real-time information about all changes that take place around or in these advertisements. The changes can be, for example, publishing / unpublishing of ads or changes in the ad text. Read more"
+metadescription: "JobStream provides access to all job advertisements published in Platsbanken, including real-time information about all changes that take place around or in these advertisements. The changes can be, for example, publishing / unpublishing of ads or changes in the ad text. Read more"
 ---
 
 
