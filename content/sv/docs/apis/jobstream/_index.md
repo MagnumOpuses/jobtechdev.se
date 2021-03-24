@@ -1,10 +1,10 @@
 ---
-title: "Job Stream"
-menuTitle: "Job Stream"
+title: "JobStream"
+menuTitle: "JobStream"
 weight: 3
-description: "Job Stream ger tillgång till alla jobbannonser som är publicerade i Platsbanken, inklusive realtidsinformation om alla förändringar som sker runt eller i dessa annonser. Förändringarna kan till exempel vara publiceringar/avpubliceringar av annonser eller ändringar i annonstexten."
+description: "JobStream ger tillgång till alla jobbannonser som är publicerade i Platsbanken, inklusive realtidsinformation om alla förändringar som sker runt eller i dessa annonser. Förändringarna kan till exempel vara publiceringar/avpubliceringar av annonser eller ändringar i annonstexten."
 
-metadescription: "Job Stream ger tillgång till alla jobbannonser som är publicerade i Platsbanken, inklusive realtidsinformation om alla förändringar som sker runt eller i dessa annonser. Förändringarna kan till exempel vara publiceringar/avpubliceringar av annonser eller ändringar i annonstexten. Läs mer här."
+metadescription: "JobStream ger tillgång till alla jobbannonser som är publicerade i Platsbanken, inklusive realtidsinformation om alla förändringar som sker runt eller i dessa annonser. Förändringarna kan till exempel vara publiceringar/avpubliceringar av annonser eller ändringar i annonstexten. Läs mer här."
      
 # consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobStream"
 ---
