@@ -1,10 +1,10 @@
 ---
-title: "Job Search"
-menuTitle: "Job Search "
+title: "JobSearch"
+menuTitle: "JobSearch "
 weight: 2
-description: "Job Search gör det möjligt att söka och filtrera bland jobbannonser som är publicerade i Arbetsförmedlingens annonsplattform Platsbanken."
+description: "JobSearch gör det möjligt att söka och filtrera bland jobbannonser som är publicerade i Arbetsförmedlingens annonsplattform Platsbanken."
 
-metadescription: "Job Search är en sökmotor, som idag används av tillexempel Arbetsförmedlingens Platsbanken för att söka jobbannonser. 
+metadescription: "JobSearch är en sökmotor, som idag används av tillexempel Arbetsförmedlingens Platsbanken för att söka jobbannonser. 
 Nu kan du som vill skapa tjänster för arbetsmarknadsdata använda sökmotorn. Läs mer här"
   
 ---

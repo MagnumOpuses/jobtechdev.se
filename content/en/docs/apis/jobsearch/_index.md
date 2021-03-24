@@ -1,10 +1,10 @@
 ---
-title: "Job Search"
-menuTitle: "Job Search "
-description: "Job Search makes it possible to search and filter among job advertisements published in the Swedish Public Employment Service's advertising platform Platsbanken."
+title: "JobSearch"
+menuTitle: "JobSearch "
+description: "JobSearch makes it possible to search and filter among job advertisements published in the Swedish Public Employment Service's advertising platform Platsbanken."
 
 weight: 2  
-metadescription: "Job Search is a search engine, which is currently used by, for example, Arbetsförmedlingen's Platsbanken to search for job advertisements.
+metadescription: "JobSearch is a search engine, which is currently used by, for example, Arbetsförmedlingen's Platsbanken to search for job advertisements.
 Now you who want to create services for labor market data can use the search engine. read more "
 ---
 
