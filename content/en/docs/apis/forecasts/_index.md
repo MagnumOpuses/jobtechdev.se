@@ -14,7 +14,7 @@ The API is especially useful for companies and organisations that offer professi
 **The API is freely available.**
 
 
-| Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. There is ongoing work in order to make occupation forecasts for 2021. Date for publication are not set. The forecasts for 2021 will be avaliable by downloading (a download link will be published here).  |
+| Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. There is ongoing work in order to make occupation forecasts for 2021. Date for publication is not set. The forecasts for 2021 will be avaliable by downloading (a download link will be published here).  |
 | --- |
 
 
