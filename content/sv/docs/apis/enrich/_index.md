@@ -12,5 +12,6 @@ API:et är användbart för alla företag och organisationer som erbjuder en dig
 **API:et är fritt tillgängligt.**
 
 
-{{< getMD "/api/github/repos/JobtechSwe/docs/contents/GettingStartedJobAdEnrichments.md?ref=master" >}} 
+{{< getMD "/api/github/repos/Jobtechdev-content/Jobsearch-content/contents/GettingstartedJobAdEnrichmentsSE.md?ref=master" >}} 
+GettingStartedJobSearchSE.md
 
