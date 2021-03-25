@@ -16,6 +16,6 @@ The API is useful for all companies and organisations that offer a digital match
 **The API is freely available.**
 
 
-{{< getMD "/api/github/repos/Jobtechdev-content/Jobsearch-content/contents/GettingstartedJobAdEnrichmentsEN.md?ref=master" >}} 
-GettingStartedJobSearchSE.md
+{{< getMD "/api/github/repos/Jobtechdev-content/JobAdEnrichments-content/contents/GettingstartedJobAdEnrichmentsEN.md?ref=master" >}} 
+
 
