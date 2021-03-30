@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTech Development – Af Connect</title>
+    <link>/docs/projects/af_connect/</link>
+    <description>Recent content in Af Connect on JobTech Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/projects/af_connect/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

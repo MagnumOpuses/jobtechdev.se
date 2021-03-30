@@ -1,0 +1,27 @@
+.tab-set {
+    background-color: #191919;
+    --MAIN-TITLES-TEXT-color: #fff;
+}
+.tab-btn {
+    background-color: #333;
+    color: #ccc;
+    padding: 0px 16px;
+    font-size: 14pt;
+    font-weight: 400;
+}
+.tab-btn:focus {
+    outline:0;
+}
+.tab-btn-active {
+    background-color: #555;
+    color: #ccc;
+    border-bottom: 2px solid #733ACA;
+    margin-bottom: -2px;
+}
+.tab-content {
+    background-color: #272822;
+    padding: 16px;
+}
+.tab-content > .highlight > pre {
+    margin: 0px 0px;
+}
