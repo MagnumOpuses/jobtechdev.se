@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: https://github.com/MagnumOpuses/jobtechdev.se
+
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
