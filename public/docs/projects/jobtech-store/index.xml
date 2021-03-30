@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTech Development – JobTech Store</title>
+    <link>/docs/projects/jobtech-store/</link>
+    <description>Recent content in JobTech Store on JobTech Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/projects/jobtech-store/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

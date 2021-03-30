@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="sv" class="no-js" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta name="description" content="Vi erbjuder öppna data i form av apier, dataset och öppen källkod till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad. Läs mer här">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="generator" content="Hugo 0.57.1" />
+
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+<link rel="alternate" type="application/rss&#43;xml" href="/index.xml">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>JobTech Development</title><meta property="og:title" content="JobTech Dev" />
+<meta property="og:description" content="Vi erbjuder öppna data och Open Source-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" />
+
+<meta property="og:updated_time" content="2021-03-18T00:00:00+00:00" /><meta property="og:site_name" content="JobTech Development" />
+<meta itemprop="name" content="JobTech Dev">
+<meta itemprop="description" content="Vi erbjuder öppna data och Open Source-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad.">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="JobTech Dev"/>
+<meta name="twitter:description" content="Vi erbjuder öppna data och Open Source-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad."/>
+
+
+
+
+
+<link rel="preload" href="/" as="style">
+<link href="/" rel="stylesheet" integrity="">
+
+
+<script
+  src="/js/jquery-3.3.1.min.js"></script>
+
+<script
+  src="https://unpkg.com/lunr@2.3.8/lunr.min.js"
+  integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY"
+  crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+<script src="/js/cookieconsent.min.js"></script>
+
+
+<style>
+    :root #header + #content > #left > #rlblock_left{
+        display:none !important;
+    }
+    
+</style>
+
+
+
+
+<script type="text/javascript">
+    var _mtm = _mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://af.analytics.elx.cloud/js/container_WpJWAlSl.js'; s.parentNode.insertBefore(g,s);
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/cookieconsent.min.css" />
+<script src="/js/cookieconsent.min.js"></script>
+
+
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#ececec"
+                }
+            },
+            "content": {
+                "dismiss": "Got it!",
+                "link": "Cookie Policy",
+                "href": "/docs/apis/cookie_policy"
+            }
+        })});
+
+</script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script>
+
+
+        $(window).scroll(function(){
+            $("#scrollArrow").css("opacity", 1 - $(window).scrollTop() / 400);
+            $("#scrollArrow").css("bottom", 1 - $(window).scrollTop());
+
+
+        });
+
+
+    </script>
+
+  </head>
+  <body class="td-home">
+    <header>
+      
+	<a href="#innerMainContent" class="skip-to-content-link">Hoppa till innehåll</a>
+
+
+
+<nav class="js-navbar-scroll navbar navbar-expand-lg navbar-dark  td-navbar-cover flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+
+		<span class="navbar-logo" role="img" aria-label="Jobtech logo" ><svg id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="210 237 450 120" style="enable-background:new 0 0 841.89 595.28"><style>.st0{fill:none;stroke:#000;stroke-width:2.2367;stroke-miterlimit:10}</style><g><g><path d="M321.16 240.3v55h209.96v-55H321.16zM362.14 274.97c0 4.78-3.43 7.81-8.41 7.81-4.51.0-7.45-2.47-8.29-6.58l3.67-.76c.52 2.23 1.72 4.03 4.66 4.03 2.87.0 4.51-1.63 4.51-5.1v-16.58h-9.89v-3.31h13.75V274.97zM378.66 282.78c-5.9.0-9.53-4.19-9.53-10.76.0-6.58 3.63-10.76 9.53-10.76 5.9.0 9.53 4.19 9.53 10.76C388.18 278.6 384.56 282.78 378.66 282.78zM404.34 282.78c-2.99.0-5.06-1.4-6.3-3.91h-.2v3.43h-3.71v-29.5h3.71v12.36h.2c1.24-2.51 3.31-3.91 6.3-3.91 4.9.0 7.97 3.91 7.97 10.76C412.32 278.88 409.25 282.78 404.34 282.78zM437.48 257.79h-9.05v24.52h-3.83v-24.52h-9.05v-3.31h21.92V257.79zM459.86 272.94h-14.99v.84c0 3.43 2.27 5.9 6.02 5.9 2.67.0 4.7-1.28 5.82-3.39l2.51 1.95c-1.31 2.63-4.22 4.54-8.37 4.54-6.1.0-9.81-4.19-9.81-10.72.0-6.62 3.87-10.8 9.53-10.8 5.66.0 9.29 4.19 9.29 10.13V272.94zM475.14 282.78c-6.02.0-9.57-4.23-9.57-10.76.0-6.54 3.59-10.76 9.53-10.76 4.07.0 6.58 1.95 7.77 4.78l-2.91 1.6c-.76-2.03-2.39-3.27-4.86-3.27-3.55.0-5.58 2.47-5.58 5.9v3.51c0 3.43 1.99 5.9 5.66 5.9 2.63.0 4.31-1.36 5.34-3.47l2.67 1.75C481.96 280.75 479.33 282.78 475.14 282.78zM506.84 282.31h-3.71v-12.6c0-3.55-1.6-5.3-4.58-5.3-2.43.0-4.82 1.2-4.82 3.79v14.11h-3.71v-29.5h3.71v12.36h.16c.88-2.07 2.51-3.91 5.9-3.91 4.22.0 7.06 2.83 7.06 7.81V282.31z"/><path d="M378.66 264.33c-3.39.0-5.58 2.03-5.58 6.18v3.03c0 4.15 2.19 6.18 5.58 6.18 3.39.0 5.58-2.03 5.58-6.18v-3.03C384.24 266.36 382.05 264.33 378.66 264.33z"/><path d="M450.61 264.21c-3.35.0-5.74 2.47-5.74 5.86v.32h11.12v-.44C455.99 266.52 453.84 264.21 450.61 264.21z"/><path d="M402.83 264.41c-2.67.0-4.98 1.4-4.98 4.03v7.18c0 2.63 2.31 4.02 4.98 4.02 3.51.0 5.54-2.35 5.54-5.9v-3.43C408.37 266.76 406.34 264.41 402.83 264.41z"/></g><g><path d="M424.98 321.88c-3.33.0-5.7 2.46-5.7 5.83v.32h11.05v-.44C430.33 324.18 428.19 321.88 424.98 321.88z"/><path d="M543.89 321.88c-3.33.0-5.7 2.46-5.7 5.83v.32h11.05v-.44C549.24 324.18 547.1 321.88 543.89 321.88z"/><path d="M472.39 322c-3.37.0-5.55 2.02-5.55 6.14v3.01c0 4.12 2.18 6.14 5.55 6.14s5.54-2.02 5.54-6.14v-3.01C477.93 324.02 475.76 322 472.39 322z"/><path d="M496.41 322.08c-2.65.0-4.95 1.39-4.95 4v7.13c0 2.62 2.3 4 4.95 4 3.49.0 5.51-2.34 5.51-5.86v-3.41C501.91 324.42 499.89 322.08 496.41 322.08z"/><path d="M352.88 315.46h-3.96v21.15h3.96c4.2.0 6.38-3.05 6.38-8.36v-4.44C359.26 318.51 357.08 315.46 352.88 315.46z"/><path d="M377.42 321.88c-3.33.0-5.7 2.46-5.7 5.83v.32h11.05v-.44C382.77 324.18 380.63 321.88 377.42 321.88z"/><path d="M321.16 299.67v55h303.08v-55H321.16zM353.08 339.87h-7.96v-27.65h7.96c6.85.0 10.22 4.79 10.22 13.83C363.3 335.07 359.93 339.87 353.08 339.87zM386.61 330.56h-14.89v.83c0 3.41 2.26 5.86 5.98 5.86 2.65.0 4.67-1.27 5.78-3.37l2.5 1.94c-1.31 2.61-4.2 4.52-8.32 4.52-6.06.0-9.74-4.16-9.74-10.66.0-6.58 3.84-10.74 9.47-10.74 5.63.0 9.23 4.16 9.23 10.06V330.56zM403.34 339.87h-4.6l-7.33-20.44h3.76l2.89 8.6 2.93 8.75h.2l2.93-8.75 2.85-8.6h3.68L403.34 339.87zM434.17 330.56h-14.9v.83c0 3.41 2.26 5.86 5.98 5.86 2.65.0 4.67-1.27 5.78-3.37l2.5 1.94c-1.31 2.61-4.2 4.52-8.32 4.52-6.06.0-9.74-4.16-9.74-10.66.0-6.58 3.84-10.74 9.47-10.74 5.63.0 9.23 4.16 9.23 10.06V330.56zM457.4 339.87h-17.59v-3.05h6.93V313.6h-6.93v-3.05h10.62v26.26h6.97V339.87zM472.39 340.34c-5.86.0-9.47-4.16-9.47-10.7.0-6.54 3.6-10.7 9.47-10.7 5.86.0 9.47 4.16 9.47 10.7C481.86 336.18 478.25 340.34 472.39 340.34zM497.91 340.34c-2.97.0-5.03-1.39-6.26-3.88h-.2v11.33h-3.68v-28.36h3.68v3.41h.2c1.23-2.49 3.29-3.88 6.26-3.88 4.87.0 7.92 3.88 7.92 10.7C505.84 336.46 502.79 340.34 497.91 340.34zM529.93 339.87h-3.29v-13.75c0-3.17-.63-4.24-2.38-4.24-1.5.0-2.65 1.03-2.65 3.05v14.93h-3.29v-13.75c0-3.17-.63-4.24-2.34-4.24-1.58.0-2.69 1.03-2.69 3.05v14.93h-3.29v-20.44h3.29v2.49h.2c.63-1.62 1.66-2.97 3.88-2.97 2.26.0 3.49 1.31 3.76 3.25h.16c.71-1.86 1.98-3.25 4.4-3.25 3.25.0 4.24 2.34 4.24 6.65V339.87zM553.08 330.56h-14.89v.83c0 3.41 2.26 5.86 5.98 5.86 2.65.0 4.67-1.27 5.78-3.37l2.5 1.94c-1.31 2.61-4.2 4.52-8.32 4.52-6.06.0-9.74-4.16-9.74-10.66.0-6.58 3.84-10.74 9.47-10.74 5.63.0 9.23 4.16 9.23 10.06V330.56zM575.99 339.87h-3.68v-12.52c0-3.53-1.59-5.27-4.56-5.27-2.42.0-4.79 1.19-4.79 3.76v14.03h-3.68v-20.44h3.68v3.41h.16c.87-2.06 2.5-3.88 5.86-3.88 4.2.0 7.01 2.81 7.01 7.76V339.87zM600.29 322.47h-9.07v14.34h9.07v3.05h-7.88c-3.33.0-4.87-2.02-4.87-4.91v-12.48H581v-3.05h4.75c1.43.0 1.98-.52 1.98-1.98v-5.23h3.49v7.21h9.07V322.47z"/></g></g><g><path class="st0" d="M258.92 290.47v-27.11h.01v-5.69h-.01-5.69-28.81v-7.13h14.56c1.11 2.67 3.75 4.55 6.82 4.55 4.08.0 7.39-3.31 7.39-7.39s-3.31-7.39-7.39-7.39c-3.08.0-5.71 1.88-6.82 4.55h-14.56-5.69v5.69 7.13 5.69h5.69 28.81v27.11c-2.67 1.11-4.55 3.75-4.55 6.82.0 4.08 3.31 7.39 7.39 7.39 4.08.0 7.39-3.31 7.39-7.39C263.47 294.22 261.59 291.58 258.92 290.47z"/><path class="st0" d="M301.75 244.85h-28.83-5.69-.04v5.69h.04c0 12.87.0 44.97.0 68.77.0 16.73-7.17 22.03-15.37 23.7-1.34-1.89-3.54-3.12-6.03-3.12-4.08.0-7.39 3.31-7.39 7.39.0 4.08 3.31 7.39 7.39 7.39 3.27.0 6.04-2.13 7.02-5.07 12.65-2.44 20.04-9.59 20.07-30.47.04-28.22.01-46.51.0-68.6h28.83v7.13h-14.69-5.69-.02v5.69h.02v77.1c-2.67 1.11-4.55 3.75-4.55 6.83.0 4.08 3.31 7.39 7.39 7.39 4.08.0 7.39-3.31 7.39-7.39.0-3.08-1.88-5.71-4.55-6.82v-77.1h14.69 5.69v-5.69-7.13-5.69H301.75z"/></g></svg></span>
+	</a>
+	<button class="navbar-toggler position-fixed" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="td-navbar-nav-scroll ml-md-auto navbar-collapse collapse"  id="main_navbar">
+		<div class="navbar-nav-s-s">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/docs/apis/" ><span>API:er</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/docs/projects/" ><span>Projekt</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/about/" ><span>Om JobTech</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				<a class="nav-link" href="https://forum.jobtechdev.se"  ><span>Forum</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/repo/" ><span>Källkod</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/news/news_head/" ><span>Nyheter</span></a>
+			</li>
+			
+			
+			
+			<li class="nav-item dropdown  d-lg-block">
+				
+
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	Svenska
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	
+	<a class="dropdown-item" href="/en/">English</a>
+	
+</div>
+			</li>
+
+			
+		</ul>
+		</div>	</div>
+	<div class="navbar-nav d-none d-lg-block">
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; Sök på sidan"
+  aria-label="Sök på sidan"
+  autocomplete="off"
+  data-offline-search-index-json-url="/offline-search-index.21f41d560e2fc282653da902c2c625adb6a1513285e2e224c6d58a4ad1ea808cb32ec30428ebf1e6cdd91207df30035e958b7db83b9325ea055a2acb8baaa728.json"
+>
+</div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-default td-outer">
+      <main id="innerMainContent"  class="td-main">
+        
+
+
+
+<style>
+    .hidden {
+        display:none;
+    }
+    @keyframes fadeinright {
+    from {right:-150px;}
+    to { right:20px;}
+    }
+
+    .webro {
+    animation: fadeinright;
+    animation-duration: 2s;
+    top: 100px;
+    z-index: 10;
+    right:20px;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+    padding: 10px;
+    border-radius: 15px 0px 15px 15px;
+    width: 240px;
+      
+    
+    }
+    
+    .close-popup {
+        z-index: 101;
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        right: -8px;
+        top:-3px;
+        
+            
+    }
+    .fa-times:hover {
+        opacity: 1;
+        
+
+    }
+    .fa-times {
+        background-color: #fff;
+        margin-left: 3px !important;
+        top: -3px !important;
+        opacity: 0.3;
+        cursor: pointer;
+    }
+    a:link {
+        text-decoration: none;
+
+    }
+
+    
+    
+    
+
+</style>
+<script src="/js/survey.js"></script>
+
+<div id="webropolpopup" class="webro position-fixed hidden ">
+    <div id="survey-close" class="close-popup"><i class="fas fa-times"></i></div>   
+    <a href=" https://link.webropolsurveys.com/S/C1F32BE6730E1171">
+    <p>Hjälp oss i vårt arbete med öppna data och API:er genom att svara på vår enkät! <br>(Det tar 2 min) </p>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="td-cover-block-1" class="row td-cover-block td-cover-block--height-full js-td-cover td-overlay td-overlay--dark -bg-dark firstbg">
+  <div class="container td-overlay__inner">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          
+          
+          <div class="pt-3 lead">
+            <div tabindex="0"class="row" style="margin-top: 10%">
+    <div class="col-lg-12 col-md-12 mx-auto d-lg-none mb-5">
+        <img src="weopendata.png" style="width: 75%" alt="We open data">
+    </div>
+    <div class="col-lg-4 col-md-12 d-flex align-items-center">
+        <div  class="container align-items-left" style="text-align: left">
+        <h1 class="h1">JobTech Development är en utvecklingsenhet inom Arbetsförmedlingen </h1>
+            <br>
+           <h2 class="h1">Vi erbjuder öppna data och <span lang="en"> Open Source</span>-teknologi till de som, tillsammans med oss, vill bidra till en väl fungerande arbetsmarknad.</h2>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-12 mx-auto d-none d-lg-block">
+        <img src="weopendata.png" style="width: 100%" alt="We Open Data">
+    </div>
+    <div class="col-lg-4"></div>
+</div>
+<div id="scrollArrow" class="row fixed-bottom" >
+    <div class="col-12" >
+        <a href="#td-block-1"  aria-label="Pil ner">
+            <em class="fas fa-chevron-down fa-4x d-none d-lg-block" ></em>
+        </a>
+    </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+ 
+<a id="td-block-2" class="td-offset-anchor"></a>
+<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
+	<div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+		<div class="row ">
+			<div  class="col-md-8 col-sm-12 mx-auto">
+    <div class="row mx-auto">
+        <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto"></div>
+        <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center"></div>
+        <div class="col-12 align-items-center text-center mx-auto">
+            <h2 tabindex="0" >Kom igång!</h2>
+        </div>
+        <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center"></div>
+        <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto"></div>
+    </div>
+</div>
+
+<div  class="col-md-8 col-sm-12 mx-auto">
+    <div class="row mx-auto">
+    <div tabindex="0" class="col-md-12 col-lg-3 align-items-center text-center mx-auto">
+        <p class="numbers">1</p>
+        <p class="d-lg-block">Välj vilket API du vill använda.</p>
+    </div>
+    <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center">
+        <p class="numbers">-</p>
+    </div>
+    <div tabindex="0" class="col-md-12 col-lg-3 align-items-center text-center mx-auto">
+        <p class="numbers">2</p>
+        <p class="d-lg-block">Läs dokumentationen för önskat <a href="/docs/">API</a> och begär en API nyckel om det behövs.</p>
+    </div>
+    <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center">
+        <p class="numbers">-</p>
+    </div>
+    <div tabindex="0" class="col-md-12 col-lg-3 align-items-center text-center mx-auto">
+        <p class="numbers">3</p>
+        <p class="d-lg-block">Börja utveckla och skapa värde för Sveriges arbetsmarknad.</p>
+    </div>
+    </div>
+</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+ 
+<a id="td-block-3" class="td-offset-anchor"></a>
+<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
+	<div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+		<div class="row ">
+			<div  class="col-md-8 col-sm-12 mx-auto">
+    <div class="row mx-auto">
+        <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto"></div>
+        <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center"></div>
+        <div class="col-12 align-items-center text-center mx-auto">
+            <h2 tabindex="0" >Våra fokusområden</h2>
+        </div>
+        <div class="col-md-1 col-lg-1 d-none d-lg-block align-items-center text-center"></div>
+        <div class="col-md-12 col-lg-3 align-items-center text-center mx-auto"></div>
+    </div>
+</div>
+
+<div  class="col-12 container-inner mx-auto align-items-center" >
+    <div class="row ml-5 card-group mx-auto">
+        <div class="col-md-12 col-lg-4 p-0 mb-2" style="background-color: #0A0A0A;color: #fff;">
+            <div class="card mx-auto " style="max-width: 30rem;background-color: #0A0A0A;color: #fff;">
+                <div tabindex="0" class="card-body">
+                    <h5 class="card-title">Arbetsmarknadsdata</h5>
+                    <p class="card-text">Vi skapar, samlar och kvalitetssäkrar data för att ge människor och företag bättre förutsättningar att utvecklas på arbetsmarknaden.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div  class="col-md-12 col-lg-4 p-0 mb-2" style="background-color: #0A0A0A;color: #fff;">
+            <div class="card mx-auto " style="max-width: 30rem;background-color: #0A0A0A;color: #fff;">
+                <div tabindex="0" class="card-body">
+                    <h5 class="card-title">Språkdata</h5>
+                    <p class="card-text">Vi skapar ett gemensamt språk för svensk arbetsmarknad så att människor och företag enklare kan hitta varandra.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div tabindex="0" class="col-md-12 col-lg-4 p-0 mb-2" style="background-color: #0A0A0A;color: #fff;">
+            <div class="card mx-auto " style="max-width: 30rem;background-color: #0A0A0A;color: #fff;">
+                <div class="card-body">
+                    <h5 class="card-title">Individdata</h5>
+                    <p class="card-text">Vi skapar möjlighet för individer på arbetsmarknaden att äga, använda och flytta sin egen data på ett enkelt sätt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+        
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Email " >
+    <a class="text-black" target="_blank" href="mailto:jobtechdev@arbetsformedlingen.se" aria-label="Email ">
+      <i class="fa fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" >
+    <a class="text-black" target="_blank" href="https://twitter.com/jobtechdev" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="LinkedIn" >
+    <a class="text-black" target="_blank" href="https://www.linkedin.com/company/jobtech-sweden" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Facebook" >
+    <a class="text-black" target="_blank" href="https://www.facebook.com/jobtechdevelopment" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" >
+    <a class="text-black" target="_blank" href="https://github.com/jobtechswe" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Forum" >
+    <a class="text-black" target="_blank" href="https://forum.jobtechdev.se/" aria-label="Forum">
+      <i class="fab fa-discourse"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div tabindex="0" class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <img src=" /img/Af_logo.svg " style="width: 256px" alt="Logo Arbetsförmedlingen">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+      </main>
+
+    </div>
+
+    
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+<script src="/js/main.min.95b9289063574b6c1037639edc80ffd84cd8a6c2ffdf2b46b28057595c595aa5.js" integrity="sha256-lbkokGNXS2wQN2Oe3ID/2EzYpsL/3ytGsoBXWVxZWqU=" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
