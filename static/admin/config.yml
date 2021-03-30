@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/MagnumOpuses/jobtechdev.se
+  repo: MagnumOpuses/jobtechdev.se
 
 
 # This line should *not* be indented
