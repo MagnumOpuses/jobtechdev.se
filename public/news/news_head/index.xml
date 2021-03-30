@@ -1,0 +1,628 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTech Development – Nyheter</title>
+    <link>/news/news_head/</link>
+    <description>Recent content in Nyheter on JobTech Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="/news/news_head/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>News: Kom igång med JobTech Developments API:er</title>
+      <link>/news/news_head/210316/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/210316/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/news/news_head/210316/featured_huea7838d5243b29c93f010c56ccf8b795_102938_640x0_resize_q75_catmullrom.jpg" width="640" height="466"/>]]>
+        
+        &lt;p&gt;&lt;img src=&#34;letterbox.jpg&#34; alt=&#34;identifierade ord&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Under våren arrangerar JobTech Development öppna webbinarier för alla som vill ha hjälp att komma igång med våra API:er. Första tillfället är fredagen den 26 mars.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;För att göra det ännu enklare att använda våra API:er anordnar vi fyra webbinarier under våren där vi ger en teknisk introduktion och möjlighet att ställa frågor direkt till våra utvecklare. Webbinarierna vänder sig i första hand till nya och befintliga användare, men är öppna för alla som vill veta mer om hur våra API:er kan användas för utveckling av digitala tjänster för arbetsmarknaden.&lt;/p&gt;
+
+&lt;p&gt;På webbinarierna kommer vårt utvecklingsteam, representerat av &lt;strong&gt;Johan Brymér Dahlhielm&lt;/strong&gt; och &lt;strong&gt;Henrik Suzuki&lt;/strong&gt;, att ge information och praktisk vägledning för API:er som ”JobSearch”, ”JobStream” och ”JobTech Taxonomy”. Därefter följer ett öppet samtal med möjlighet att ställa frågor, ge feedback samt framföra idéer och önskemål för nya tekniska lösningar från JobTech Development.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi ser fram emot att kunna hjälpa och inspirera nya användare genom vårens webbinarier. Genom mer dialog och feedback får vi dessutom större möjlighet att förbättra våra produkter och bli mer träffsäkra när vi utvecklar nya tekniska lösningar för arbetsmarknaden”&lt;/em&gt;, säger &lt;strong&gt;Henrik Suzuki&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Samtliga webbinarier kommer att hållas enligt ”open space”-modell, som innebär att agenda och samtalsämnen i hög grad styrs utifrån deltagarnas specifika intressen och behov.&lt;/p&gt;
+
+&lt;p&gt;Datum och anmälan:
+&lt;style&gt;
+    .main {
+        width: 80%;
+
+        background-color: #efefef;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+    label {
+    font-family: IBM plex sans;
+    margin-bottom: 0px;
+    
+    }
+    input{
+    font-family: IBM plex sans ;
+    }
+
+    button {
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+
+    
+    input[type=text]{
+        margin-bottom: 10px;
+
+    }
+    
+
+    @media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    #form {
+        width: 100%;
+    }
+   
+    
+    }
+    .modal-body{
+        height: 300px;
+
+        overflow: auto;
+       
+    }
+    .modal-content{
+        white-space: pre-line;
+    }
+    
+
+
+&lt;/style&gt;
+
+&lt;div id=&#34;form&#34; class=&#34;main&#34;&gt;
+    &lt;form action=&#34;/api/form&#34; id=&#34;idForm&#34;&gt;
+        &lt;h6&gt;Jag anmäler mig till...&lt;/p&gt;
+   
+        &lt;fieldset &gt;  
+                   &lt;p class=&#34;text-danger&#34; id=&#34;message&#34;&gt;&lt;/p&gt;
+               
+                
+                &lt;input type=&#34;checkbox&#34; id=&#34;21042310&#34; name=&#34;options[]&#34; value=&#34;23 april kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)&#34;&gt;
+                &lt;label for=&#34;21042310&#34;&gt;23 april kl 10:00 - 10:30 Introduktion &amp;#43; Kom igång-tips (för användare)&lt;/label&gt;&lt;br&gt;                
+                
+                &lt;input type=&#34;checkbox&#34; id=&#34;2104231030&#34; name=&#34;options[]&#34; value=&#34;23 april kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)&#34; &gt;
+                &lt;label for=&#34;2104231030&#34;&gt;23april kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)&lt;/label&gt;&lt;br&gt;&lt;br&gt;
+
+                &lt;input type=&#34;checkbox&#34; id=&#34;21052810&#34; name=&#34;options[]&#34;value=&#34;28 maj kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)&#34; &gt;
+                &lt;label for=&#34;21052810&#34;&gt;28 maj kl 10:00 - 10:30 Introduktion &amp;#43; Kom igång-tips (för användare)&lt;/label&gt;&lt;br&gt;                
+                
+                &lt;input type=&#34;checkbox&#34; id=&#34;2105281030&#34; name=&#34;options[]&#34;value=&#34;28 maj kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)&#34; &gt;
+                &lt;label for=&#34;2105281030&#34;&gt;28 maj kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla))&lt;/label&gt;&lt;br&gt;&lt;br&gt;
+
+                &lt;input type=&#34;checkbox&#34; id=&#34;210061810&#34; name=&#34;options[]&#34;value=&#34;18 juni kl 10:00 - 10:30 Introduktion + Kom igång-tips (för användare)&#34; &gt;
+                &lt;label for=&#34;31061810&#34;&gt;18 juni kl 10:00 - 10:30 Introduktion &amp;#43; Kom igång-tips (för användare)&lt;/label&gt;&lt;br&gt;                
+                
+                &lt;input type=&#34;checkbox&#34; id=&#34;2106181030&#34; name=&#34;options[]&#34;value=&#34;18 juni kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla)&#34;  &gt;
+                &lt;label for=&#34;2106181030&#34;&gt;18 juni kl 10:30 – 11:30 Frågor, feedback och diskussion (öppet för alla) &lt;/label&gt;&lt;br&gt;&lt;br&gt;                
+                              
+        &lt;/fieldset&gt; 
+        
+        &lt;fieldset&gt;
+               
+                &lt;label for=&#34;namn&#34;&gt;Namn:&lt;/label&gt;&lt;br&gt;       
+                &lt;input type=&#34;text&#34; name=&#34;namn&#34; id=&#34;namn&#34; pattern=&#34;^[a-zA-ZåäöÅÄÖ -]+$&#34; placeholder=&#39;Namn (Obligatorisk)&#39; autofocus  required oninvalid=&#34;this.setCustomValidity(&amp;#34;Ange ditt namn&amp;#34;)&#34; oninput=&#34;setCustomValidity(&#39;&#39;)&#34;&gt;&lt;br&gt;
+                
+                &lt;label for=&#34;email&#34;&gt;E-mail:&lt;/label&gt;&lt;br&gt;
+                &lt;input type=&#34;email&#34; name=&#34;email&#34; id=&#34;email&#34; pattern=&#34;^[^\s@]+@[^\s@]+$&#34; placeholder=&#39;E-post adress (Obligatorisk)&#39;   required oninvalid=&#34;this.setCustomValidity(&amp;#34;Ange din epostadress&amp;#34;)&#34; oninput=&#34;setCustomValidity(&#39;&#39;)&#34;&gt;&lt;br&gt;&lt;br&gt; 
+                
+                &lt;input type=&#34;checkbox&#34; id=&#34;consent&#34; name=&#34;consent&#34; value=&#34;1&#34; required oninvalid=&#34;this.setCustomValidity(&amp;#34;Du måste läsa och godkänna samtycket&amp;#34;)&#34;&gt;
+                &lt;label for=&#34;consent&#34;&gt;Jag har läst och ger mitt   &lt;a class=&#34;btn-link&#34; href=&#34;&#34; data-toggle=&#34;modal&#34; data-target=&#34;#licence&#34;&gt; samtycke &lt;/a&gt;till hur mina personuppgifter hanteras. &lt;/label&gt;&lt;br&gt;&lt;br&gt;                
+
+                &lt;button type=&#34;submit&#34; name=&#34;skicka&#34; value=&#34;Submit&#34;&gt;Skicka&lt;/button&gt;
+                &lt;button type=&#34;reset&#34; &gt;Rensa&lt;/button&gt;
+               
+                
+                &lt;input type=&#34;hidden&#34; id=&#34;language&#34; name=&#34;lang&#34;&gt;
+        &lt;/fieldset&gt;   
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;modal fade&#34; id=&#34;licence&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-labelledby=&#34;licenceLable&#34; aria-hidden=&#34;true&#34;&gt;
+    &lt;div class=&#34;modal-dialog modal-lg&#34; role=&#34;document&#34;&gt;
+        &lt;div class=&#34;modal-content&#34;&gt;
+            &lt;div class=&#34;modal-header&#34;&gt;
+                &lt;h5 class=&#34;modal-title&#34; id=&#34;licenceLable&#34;&gt;Samtycke personuppgifter&lt;/h5&gt;
+                &lt;button type=&#34;button&#34; class=&#34;close&#34; data-dismiss=&#34;modal&#34; aria-label=&#34;Close&#34;&gt;
+                    &lt;span aria-hidden=&#34;true&#34;&gt;&amp;times;&lt;/span&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;modal-body&#34; id=&#34;modalLicence&#34; onscroll=&#34;console.log(this.scrollTop);if(this.scrollTop+this.offsetHeight&gt;=this.scrollHeight){$(&#39;#agree&#39;).removeAttr(&#39;disabled&#39;)}&#34;&gt;
+                &lt;div class=&#34;format&#34;&gt;                    
+                    &lt;h3&gt;Samtycke JobTech Development   &lt;/h3&gt;
+                    &lt;p&gt;Jag samtycker härmed till att Arbetsförmedlingen, JobTech Development får spara och lagra mina personuppgifter. 
+ 
+ Personuppgifter i form av namn och e-postadresser samlas in. Syftet med insamlingen är att kunna skicka inbjudan och ta emot anmälningar till event. 
+ 
+ Personuppgifter lämnas inte vidare till tredje part. 
+ Jag kan när som helst återkalla mitt samtycke genom att kontakta Arbetsförmedlingen via  &lt;a href=&#34;mailto:jobtechdevelopment@arbetsformedlingen.se&#34;&gt;Jobtech Development&lt;/a&gt;.&lt;br&gt;      &lt;/p&gt;              
+                &lt;/div&gt;
+            &lt;div class=&#34;modal-footer&#34;&gt;
+
+                &lt;button onclick=&#34;document.getElementById(&#39;consent&#39;).removeAttribute(&#39;disabled&#39;); if (!document.getElementById(&#39;consent&#39;).checked){document.getElementById(&#39;consent&#39;).click()};document.getElementById(&#39;consent&#39;).setCustomValidity(&#39;&#39;)&#34; id=&#34;agree&#34; type=&#34;button&#34; class=&#34;btn btn-primary&#34; disabled data-dismiss=&#34;modal&#34;&gt;Jag godkänner&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    $(&#34;#idForm&#34;).submit(function(e) {
+            e.preventDefault(); 
+            var form = $(this);
+            var url = form.attr(&#39;action&#39;);
+            document.getElementById (&#34;language&#34;).value = document.documentElement.lang;
+            if (isAtLeastOneChecked(&#34;options[]&#34;)){
+                    $.ajax({
+                               type: &#34;POST&#34;,
+                               url: url,
+                               data: form.serialize(), 
+                               success: function(data)
+                               {    
+                                                          
+                                  $(&#34;#form&#34;).html(data.textString)
+                               }
+                         });
+            }else{
+                $(&#34;#message&#34;).html(&#34;Du måste välja minst ett tillfälle&#34;)
+            }
+
+        
+            
+        });
+         function isAtLeastOneChecked(name) {
+                        let checkboxes = Array.from(document.getElementsByName(name));
+                        return checkboxes.some(e =&gt; e.checked); 
+        }
+&lt;/script&gt;
+&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: Ingen kan lösa problemet på egen hand, därför gör vi det tillsammans</title>
+      <link>/news/news_head/2102162/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/2102162/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/news/news_head/2102162/featured_huc73ae0280b9b6516759b25b34a1cebd4_87401_640x0_resize_q75_catmullrom.jpg" width="640" height="688"/>]]>
+        
+        &lt;p&gt;&lt;strong&gt;Genom ett samarbete mellan Sveriges största annons- och matchningsaktörer, initierat av JobTech Development, ska det bli möjligt att visa upp en heltäckande bild av marknadens alla jobbannonser – och arbetssökande slipper oroa sig för att ha missat jobbmöjligheter. Den tekniska lösningen testas nu genom en pilot i Platsbanken.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card float-right m-6 m-5 rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 310px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/news/news_head/2102162/featured_huc73ae0280b9b6516759b25b34a1cebd4_87401_300x430_fill_q75_catmullrom_smart1.jpg&#34; width=&#34;300&#34; height=&#34;430&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Matilda Adelborg, Blocket Jobb&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;p&gt;Samarbetet ”Ekosystem för annonser” innebär att annons- och matchningsaktörer öppnar upp och delar med sig av jobbannonsdata i ett gemensamt digitalt ekosystem. Målsättningen är dels att göra det lättare för arbetssökande att navigera bland platsannonser och hitta jobb, oavsett plattform, dels att skapa ett större underlag till SCB:s arbetsmarknadsstatistik.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi måste möta den digitala omstruktureringen, som bland annat innebär att människor just nu tvingas navigera bland en mängd olika annonsplattformar när de söker jobb, utan att veta om de har hela utbudet. Varken Arbetsförmedlingen eller någon annan aktör kan lösa problemet på egen hand eftersom ingen har tillgång till alla jobbannonser, därför gör vi det tillsammans”&lt;/em&gt;, säger &lt;strong&gt;Maria Dalhage&lt;/strong&gt;, projektledare på &lt;strong&gt;JobTech Development / Arbetsförmedlingen&lt;/strong&gt; som står för de tekniska lösningar som krävs för gemensam hantering av annonsdata.&lt;/p&gt;
+
+&lt;p&gt;De aktörer som har anslutit sig till samarbetet och därmed valt att dela sin annonsdata är Blocket, CareerBuilder, Jobbdirekt, Monster, NetJobs, Offentliga Jobb, OnePartnerGroup och Studentjob. Tillsammans med de annonser som redan visas upp i Platsbanken utgör detta cirka 80 procent av marknadens jobbannonser.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;”Pandemin har gjort att vi har fler kandidater som söker jobb - samtidigt som det finns det färre annonser ute. Just nu är det viktigare än någonsin att underlätta arbetssökandet, och som en av de största kommersiella jobbaktörerna känns det självklart att vara med i det här samarbetet”&lt;/em&gt;, säger &lt;strong&gt;Matilda Adelborg&lt;/strong&gt;, pressansvarig på Blocket Jobb.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi på Monster ser fram emot detta samarbete som kommer att göra det så mycket enklare för arbetssökande att hitta ett nytt och spännande jobb. Det här ligger helt i linje med Monsters mål som är att skapa rätt matchning mellan kandidater och arbetsgivare”&lt;/em&gt;, säger &lt;strong&gt;Per Wadell&lt;/strong&gt;, country manager på Monster.&lt;/p&gt;
+
+&lt;p&gt;Den tekniska lösningen, API:et ”JobTech Links”, testas inledningsvis som en pilot i Platsbanken.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;”Med piloten ska vi studera hur API:et fungerar i praktiken och utvärdera hur användarna uppfattar gränssnittet. Vi kommer också att följa hur våra partners upplever samarbetet och säkerställa att vi har en hållbar modell som gynnar alla parter. Förhoppningen är att fler aktörer ska ansluta eftersom vi eftersträvar att ha hundra procent av annonserna”&lt;/em&gt;, säger &lt;strong&gt;Maria Dalhage&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;På sikt kan lösningen komma att bli ett öppet API som vem som helst kan använda för att få tillgång till alla annonslänkar.
+&lt;em&gt;”Vår avsikt är att skapa ett öppet API, men huvudfokus just nu är att hitta ett framgångsrikt samarbete och en hållbar modell som vi kan skala upp”&lt;/em&gt;, avslutar &lt;strong&gt;Maria Dalhage&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vill du/ditt företag veta mer om ”Ekosystem för annonser” och hur ni ansluter till samarbetet?&lt;br /&gt;
+&lt;a href=&#34;mailto:maria.dalhage@arbetsformedlingen.se&#34;&gt;Kontakta projektledare Maria Dalhage&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: ”JobTech Development är ett spjutspetsprojekt som många kan lära av”</title>
+      <link>/news/news_head/210118_intervju/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/210118_intervju/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/news/news_head/210118_intervju/featured_hu72887ccae3cae8df8e93d7f019869ac0_108711_640x0_resize_q75_catmullrom.jpg" width="640" height="855"/>]]>
+        
+        
+
+&lt;p&gt;&lt;strong&gt;Fem frågor till&amp;hellip;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Johan Linåker, Lunds universitet, som är följeforskare till JobTech Development och har kommit halvvägs i sitt arbete med att studera hur vi, genom samverkan och öppna data, bygger ett digitalt ekosystem för svensk arbetsmarknad&lt;/strong&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card float-right m-6 m-5 rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/news/news_head/210118_intervju/johanl_hudd885c4ea623352118e8e3d88f3da424_637175_400x360_fill_q75_catmullrom_smart1.jpg&#34; width=&#34;400&#34; height=&#34;360&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;!-- There should be no margin above this first sentence.
+&lt;!-- Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+
+&lt;!--There should be no margin below this final sentence.--&gt;
+
+&lt;h3 id=&#34;varför-är-det-intressant-att-följa-jobtech-development&#34;&gt;Varför är det intressant att följa JobTech Development?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Det är väldigt spännande att följa hur man arbetar med öppna data och öppen programvara, och framför allt hur man samverkar med aktörer inom ett och samma ekosystem kring både datan och programvaran. Med forskningshatten på kan jag säga att det är unikt och framåt, och hittills finns det lite rapporterat och skrivet inom området. Den generella debatten inom offentlig sektor handlar om att man ska öppna upp och publicera sin data, men det är väldigt lite fokus på samverkan och kopplingen till just öppen programvara. Därför är JobTech Development och det ekosystem man bygger upp ett spjutspetsprojekt som många kan lära av.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vad-gör-du-i-din-roll-som-följeforskare&#34;&gt;Vad gör du i din roll som följeforskare?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Som följeforskare har jag två olika hattar. Med ”samverkanshatten” hjälper jag JobTech Development att bygga ett hållbart ekosystem. Jag stöttar, coachar och ger input från forskningen om hur man kan samverka kring öppna data och öppen programvara. Med ”forskarhatten” följer jag hur ekosystemet utvecklas och jämför med andra exempel i omvärlden och återkopplar till JobTech. Jag har till exempel jämfört med Trafiklab, som är Samtrafikens plattform för öppna data kopplat till kollektivtrafiken. Jag har även tittat närmare på öppna dataekosystem i Finland och USA. Därutöver jobbar jag med att sprida kunskap om hur myndigheter kan använda och samverka kring öppna data och öppen programvara. Ett konkret resultat är nybildade Nätverket för Öppen Programvara och Data (NOSAD.se) där vi arrangerar workshops och samlar material som kan hjälpa myndigheter i deras arbete med dessa frågor.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;du-har-kommit-halvvägs-in-i-ditt-arbete-vad-har-du-kommit-fram-till-hittills&#34;&gt;Du har kommit halvvägs in i ditt arbete. Vad har du kommit fram till hittills?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”En insikt är att myndigheter kan samverka kring datan man öppnar upp på många olika sätt. JobTech Development utgör ett exempel, Trafiklab ett annat. Vad som passar bäst beror på det enskilda fallet. Det har även varit kul att se den starka synergieffekt som finns mellan öppen programvara och öppendata. Dels som ett sätt att inspirera till hur datan kan användas och förenkla för utvecklare, dels för att skapa transparens kring hur datan används, och dels för att möjliggöra tillhandahållandet av datan. Om en kommun sitter på ett stängt system kan det vara så illa att de inte ens äger tillgång till datan.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vad-ska-ditt-arbete-som-följeforskare-leda-till&#34;&gt;Vad ska ditt arbete som följeforskare leda till?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Jag hoppas att det bidrar till ett starkare ekosystem, att fler aktörer tillkommer och att datan kommer i användning, och att det i sin tur leder till bättre matchning mellan arbetsgivare och arbetssökande. Jag hoppas också att arbetet och forskningen kan hjälpa myndigheter, både i Sverige och internationellt, att förbättra sitt arbete med öppna data och öppen programvara.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hur-kan-den-som-är-intresserad-ta-del-av-ditt-arbete&#34;&gt;Hur kan den som är intresserad ta del av ditt arbete?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Ett tips är att gå in på &lt;a href=&#34;https://nosad.se/&#34;&gt;NOSAD&lt;/a&gt; Där kan man ta del av forskningsartiklar, open source-policies, rapporter och utbildningsmaterial. Jag delar även material via mina Twitter- och LinkedIn-konton.(@johanlinaker).”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I vårt &lt;a href=&#34;https://forum.jobtechdev.se/c/natverket-oppna-data-oppen-kallkod&#34;&gt;forum&lt;/a&gt; kan du följa det som sker inom NOSAD och delta i diskussioner inom jobtech-området.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: Webinar: Kom igång med JobAd Enrichments!</title>
+      <link>/news/news_head/201126/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/201126/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;letterbox.png&#34; alt=&#34;identifierade ord&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Den 2 december bjuder JobTech Development in till webinar om JobAd Enrichments – en AI-lösning som ger bättre sökträffar i annonsplattformar och kan användas för utveckling av nya innovativa digitala tjänster för arbetsmarknaden.
+JobTech Developments Mattias Persson, ansvarig utvecklare, berättar om hur API:et fungerar och hur du kommer igång och använder det.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I september lanserades API:et JobAd Enrichments, som förbättrar jobbannonser och effektiviserar digitala matchningstjänster. Lösningen, som är fritt tillgänglig, identifierar automatiskt ord och uttryck som är relevanta i en söksituation, samtidigt som överflödig information filtreras bort. Därmed blir det lättare att navigera och snabbt hitta rätt bland platsannonser i digitala annonsplattformar.
+Den arbetssökande slipper lägga tid på att sortera sökträffar och detaljgranska långa annonstexter för att se om de innehåller information som är intressant och relevant.&lt;/p&gt;
+
+&lt;p&gt;På webinaret den 2 december berättar vår utvecklare Mattias Persson om API:et och hur du kommer igång och använder det. Vi visar också hur API:et har effektiviserat sökningarna i Platsbanken, där det redan används.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Varmt välkommen!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tid: 2 december kl 10:00 – 11:00&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Plats:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Anmälan:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I vårt &lt;a href=&#34;https://forum.jobtechdev.se&#34;&gt;forum&lt;/a&gt; kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra API:er.&lt;br /&gt;
+ Välkommen in!&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: ”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus”</title>
+      <link>/news/news_head/201111_intervju/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/201111_intervju/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/news/news_head/201111_intervju/featured_hua7611d0100ef0d70ae7151a43513056a_137355_640x0_resize_q75_catmullrom.jpg" width="640" height="1583"/>]]>
+        
+        
+
+&lt;p&gt;&lt;strong&gt;Fem frågor till&amp;hellip;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Gregory Golding från JobTech Development som medverkar på Internetdagarna den 24 november
+för att prata om samarbeten mellan offentliga och privata aktörer, och hur det kan bidra till en bättre arbetsmarknad.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card float-right m-6 m-5 rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 310px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/news/news_head/201111_intervju/greg_hua7611d0100ef0d70ae7151a43513056a_137355_300x460_fill_q75_catmullrom_smart1.jpg&#34; width=&#34;300&#34; height=&#34;460&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;!-- There should be no margin above this first sentence.
+&lt;!-- Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+
+&lt;!--There should be no margin below this final sentence.--&gt;
+
+&lt;h4 id=&#34;innovation-i-samhällets-tjänst-är-temat-för-jobtech-developments-medverkan-på-internetdagarna-vad-handlar-det-om&#34;&gt;&amp;ldquo;Innovation i samhällets tjänst” är temat för JobTech Developments medverkan på Internetdagarna. Vad handlar det om?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi från JobTech Development kommer att prata om hur man, med hjälp av skattemedel,
+kan skapa bättre förutsättningar på arbetsmarknaden genom satsningar på nya, innovativa digitala lösningar.
+Vi kommer också att prata om varför det är viktigt att myndigheter jobbar mer utåtriktat och blir bättre på att stötta och facilitera andra aktörer, både privata och offentliga, genom olika typer av samarbeten.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;på-vilket-sätt-uppstår-innovation-när-myndigheter-och-privata-aktörer-jobbar-tillsammans&#34;&gt;På vilket sätt uppstår innovation när myndigheter och privata aktörer jobbar tillsammans?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi får in olika perspektiv, blir mer snabbfotade och har alltid kunden i fokus. Det handlar om att skapa lösningar för hela samhället, men vi delar upp kostnaden och insatsen så att alla får göra det de är bäst på.
+Det blir bättre användning av de resurser som finns tillgängliga.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;jobtech-development-har-stor-erfarenhet-inom-det-här-området-kan-du-ge-något-exempel&#34;&gt;Jobtech Development har stor erfarenhet inom det här området, kan du ge något exempel?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Ett väldigt lyckat exempel är vårt samarbete med ett av världens största försäkringsbolag, AXA. Vi skapade en blockchain-lösning som underlättar för försäkringstagare i deras kontakter med Arbetsförmedlingen, och samtidigt gav vi enskilda individer ökad makt och kontroll över sina egna data.
+Tillsammans med AXA har vi tacklat ett gemensamt problem, och vårt samarbete har gynnat båda våra kundgrupper.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vad-ser-du-som-den-största-utmaningen-inom-det-här-området-rent-generellt&#34;&gt;Vad ser du som den största utmaningen inom det här området, rent generellt?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Regelverk som inte hänger med i den snabba utvecklingen är den största utmaningen. Digitaliseringen beskrivs som den nya industrialiseringen, men det blir svårt att skapa strukturella förändringar när de befintliga regelverken inte hänger med.
+Jag ser detta som ett stort hinder för innovation och nya samarbeten mellan offentliga och privata aktörer.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;till-sist-vad-blir-ditt-viktigaste-budskap-till-åhörarna-på-internetdagarna-den-24-november&#34;&gt;Till sist, vad blir ditt viktigaste budskap till åhörarna på Internetdagarna den 24 november?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Politiken och juridiken måste ge oss bättre förutsättningar för innovativa lösningar som privata och offentliga aktörer tar fram, tillsammans.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Läs mer och anmäl dig till &lt;a href=&#34;https://internetdagarna.se/program/innovation-i-samhallets-tjanst/&#34;&gt;Internetdagarna&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: ”Vi ser att det finns ett uppdämt behov av samverkan kring öppna data”</title>
+      <link>/news/news_head/201001_intervju/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/201001_intervju/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/news/news_head/201001_intervju/featured_hu3f49752e89907e69d9bf1bbc2b4bd005_900205_640x0_resize_q75_catmullrom.jpg" width="640" height="758"/>]]>
+        
+        
+
+&lt;p&gt;&lt;strong&gt;Fem frågor till&amp;hellip;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;Jonas Södergren, tekniskt ansvarig på JobTech Development och en av initiativtagarna till ”Nätverket för Kunskapsdelning kring Öppna Data” som samlar deltagare från Sveriges myndigheter för att arbeta gränsöverskridande och praktiskt med öppna data.&lt;/strong&gt;
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card float-right m-6 m-5 rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 310px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/news/news_head/201001_intervju/jonas_hu3f49752e89907e69d9bf1bbc2b4bd005_900205_300x400_fill_q75_catmullrom_smart1.jpg&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;!-- There should be no margin above this first sentence.
+&lt;!-- Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+
+&lt;!--There should be no margin below this final sentence.--&gt;
+
+&lt;h4 id=&#34;varför-behövs-det-här-nätverket&#34;&gt;Varför behövs det här nätverket?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”I våra kontakter med andra myndigheter har vi förstått att många har funderingar och utmaningar kring öppna data. Det handlar om allt från licenser och lagstiftning till hur man löser praktiska problem. Samtidigt trycker man från regeringshåll mer och mer på att Sveriges ska satsa på öppna data och att vi måste återanvända resurser inom staten. Så vi ringde runt till alla myndigheter för att få höra hur andra jobbar för att nå ut till användare, vilka utmaningar som finns, hur man mäter satsningar och säkerställer nytta.
+När vi insåg att många sitter med exakt samma utmaningar så föddes idén om att skapa ett nätverk, där vi hjälper och inspirerar varandra att komma vidare i arbetet.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vilka-är-med&#34;&gt;Vilka är med?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi från JobTech Development/Arbetsförmedlingen har bildat en planeringsgrupp tillsammans med Samtrafiken, Digg, Sveriges Kommuner och Regioner, Internetstiftelsen och Patent- och Registreringsverket. Men på de workshops som vi har anordnat hittills har det varit deltagare från över hundra organisationer, varav de flesta myndigheter och andra offentliga aktörer.
+Det har varit ett enormt intresse med fullsatta workshops vid båda tillfällena, och det känns väldigt roligt!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;konkret-vad-händer-på-nätverksträffarna&#34;&gt;Konkret, vad händer på nätverksträffarna?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”I vår första workshop handlade samtalen till stor del om vilka licensförhållanden som ska gälla för myndigheternas öppna data i Sverige. Det är en officiell policy kring detta på gång, som Patent- och Registreringsverket ska ta fram, och vi blev alla inbjudna att delta i diskussionen. I övrigt så handlar träffarna mycket om hur vi kan samverka, dela kunskap och inspirera varandra, till exempel genom att visa upp praktiska exempel.
+Vi har också en särskild delningssida på gång, där alla får konkret möjlighet att dela sin data.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vad-blir-jobtech-development-arbetsförmedlingens-viktigaste-bidrag-i-detta&#34;&gt;Vad blir JobTech Development /Arbetsförmedlingens viktigaste bidrag i detta?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi samordnar och koordinerar och driver på utvecklingen, eftersom vi ser att det finns ett uppdämt behov av samverkan. Det är viktigt att vi börjar jobba konkret med det som finns här och nu, och inte sitter och inväntar en ny lag eller liknande.
+Ett annat bidrag från vår sida är förstås också att vi visar upp för andra myndigheter vad vi gör inom området öppna data och öppen källkod, både våra framgångar och de utmaningar vi står inför.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;vad-hoppas-du-att-nätverksträffarna-ska-leda-till&#34;&gt;Vad hoppas du att nätverksträffarna ska leda till?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;”Jag hoppas att respektive myndighet ska börja dela med sig av resurser och erfarenheter i betydligt större utsträckning än vad som görs idag. Många är vana vid att dela data när någon frågar efter det, men vi behöver bli mycket mer proaktiva. Tyvärr ser vi i internationella mätningar att Sverige halkar efter när det gäller innovation baserat på öppna data, så där finns det onekligen ett stort jobb att göra. Vi måste se till att ta oss upp i de mätningarna, och ytterst handlar det om att bidra till att skapa en bättre livssituation för invånare i Sverige.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VILL DU DELTA?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;”Nätverket för Kunskapsdelning kring Öppna Data”&lt;/strong&gt; ”hålls första tisdagen i varje månad och är öppet för alla som vill delta.
+&lt;a href=&#34;https://gitlab.com/open-data-knowledge-sharing/wiki/-/wikis/Digital-Workshopserie#kommande&#34;&gt;Läs mer och anmäl dig till nästa träff den 6 oktober&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OBS! Antalet platser i workshopen är begränsat.&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: ”Ny AI-lösning förbättrar jobbannonser och effektiviserar digitala matchningstjänster”</title>
+      <link>/news/news_head/200914/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/200914/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;Irrelevanta sökträffar och märkliga jobbförslag är något många arbetssökande känner igen – och gärna slipper. Med AI-lösningen JobAd Enrichments, som är fritt för alla matchningsaktörer att använda, kan problemet undvikas, samtidigt som det bidrar till fördjupade insikter om arbetsmarknaden.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;API:et JobAd Enrichments, som bygger på AI-teknik, identifierar automatiskt ord i annonser som har verklig betydelse i en söksituation, samtidigt som överflödig information filtreras bort.
+&lt;img src=&#34;letterbox.png&#34; alt=&#34;identifierade ord&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Med hjälp av JobAd Enrichments blir det betydligt lättare att navigera och snabbt hitta rätt bland platsannonser i digitala annonsplattformar. Den arbetssökande slipper lägga tid på att sortera sökträffar och detaljgranska långa annonstexter för att se om de innehåller information som är intressant och relevant.&lt;/p&gt;
+
+&lt;p&gt;API:et har testats sedan drygt ett år tillbaka i Arbetsförmedlingens egen plattform Platsbanken. Nu är det dessutom fritt tillgängligt för alla aktörer som vill förbättra söktjänster eller annonsplattformar.&lt;/p&gt;
+
+&lt;p&gt;Utöver förbättrad matchning kan JobAd Enrichment användas för att få fördjupade insikter om arbetsmarknaden och för att vägleda arbetssökande. Genom att sammanställa och analysera strukturerad annonsdata blir det till exempel möjligt att identifiera:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kompetenser och förmågor som efterfrågas för olika yrkesroller.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Yrken som är lämpliga för den som har vissa kompetenser/förmågor, eller vilka kompetenser man bör satsa på för att bli mer efterfrågad inom ett visst yrke.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Om vissa kompetenser/förmågor överhuvudtaget efterfrågas, och huruvida intresset för dem ökar eller minskar.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;API:et kan också användas vid utveckling av digitala tjänster som vänder sig till arbetsgivare. Det kan till exempel vara tjänster som analyserar och förbättrar innehåll i platsannonser:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hur stor del av annonsen består egentligen av relevanta och efterfrågade ord?&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Vilka begrepp efterfrågas vanligtvis för ett yrke? Saknas viktiga ord i vår annons?&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Hur unik är vår annons jämfört med andra annonser inom samma område? Använder vi ord och uttryck som det går inflation i och därmed inte är så användbara.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Är du utvecklare och vill använda vår nya AI-lösning? Här kommer du igång med  &lt;a href=&#34;https://jobtechdev.se/docs/apis/enrich/&#34;&gt;JobAd Enrichments&lt;/a&gt;,som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I vårt &lt;a href=&#34;https://forum.jobtechdev.se&#34;&gt;forum&lt;/a&gt; kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra våra API:er.&lt;br /&gt;
+ Välkommen in!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Det går även bra att kontakta oss via &lt;a href=&#34;mailto:jobtechdevelopment@arbetsformelingen.se&#34;&gt;Epost&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: Fem frågor till ...</title>
+      <link>/news/news_head/200914_intervju/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/news/news_head/200914_intervju/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="/news/news_head/200914_intervju/featured_hu76957d1c5b4f6a620eebe8f256f91422_84968_640x0_resize_q75_catmullrom.jpg" width="640" height="487"/>]]>
+        
+        
+
+&lt;p&gt;&lt;strong&gt;Mattias Persson, ansvarig utvecklare för AI-lösningen JobAd Enrichments.&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;card float-right m-6 m-5 rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 310px&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;/news/news_head/200914_intervju/featured_hu76957d1c5b4f6a620eebe8f256f91422_84968_300x400_fill_q75_catmullrom_smart1.jpg&#34; width=&#34;300&#34; height=&#34;400&#34;&gt;
+	
+	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+		&lt;p class=&#34;card-text&#34;&gt;
+
+&lt;small class=&#34;text-muted&#34;&gt;&lt;br/&gt;Mattias Persson, JobTech Development&lt;/small&gt;&lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;!-- There should be no margin above this first sentence.
+&lt;!-- Blockquotes should be a lighter gray with a border along the left side in the secondary color.
+
+&lt;!--There should be no margin below this final sentence.--&gt;
+
+&lt;h3 id=&#34;vad-ligger-bakom-satsningen-på-jobad-enrichments&#34;&gt;Vad ligger bakom satsningen på JobAd Enrichments?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Den som letar jobb via digitala annonsplattformar idag stöter ofta på problem med irrelevanta sökträffar och jobbförslag, eller sökträffar som bara delvis matchar det man letar efter. Det leder till frustration och till att man tvingas lägga tid på att granska texter för att se om de verkligen innehåller något intressant.
+Med JobAd Enrichments gör vi det enklare för arbetssökande att navigera och snabbt hitta rätt bland jobbannonser. API:et bygger på en AI-lösning som automatiskt identifierar relevanta ord i jobbannonser, och filtrerar bort information som inte har direkt koppling till själva tjänsten.
+Det finns även en synonymfunktion som gör att man får relevanta träffar även om nyckelord i annonsen eller sökfrågan är felstavade.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vem-eller-vilka-kommer-att-kunna-dra-nytta-av-jobad-enrichments&#34;&gt;Vem eller vilka kommer att kunna dra nytta av JobAd Enrichments?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Alla matchningsaktörer, privata som offentliga, som vill extrahera strukturerad data från annonstexter för att förbättra tjänster eller bygga nya innovativa lösningar kommer att kunna dra nytta av det. Det i sin tur kommer att gynna arbetssökande och arbetsgivare som använder dessa tjänster.
+Under det senaste året har JobAd Enrichments testats i Platsbanken för att höja kvaliteten i sökresultaten och underlätta för de arbetssökande att hitta rätt annonser, så det är ett konkret exempel på att API:et redan används och gör nytta.
+Andra som kommer att kunna ha nytta av att kunna extrahera strukturerad annonsdata är forskare och experter som vill lära sig mer om hur arbetsmarknaden fungerar.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hur-har-själva-utvecklingen-gått-till&#34;&gt;Hur har själva utvecklingen gått till?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Vi började att bygga upp en ordlista med de faktiska termer som används i annonserna, för att sedan kunna identifiera dessa när vi automatiskt tolkar annonstexterna. För att kunna bedöma om exempelvis en kompetens är efterfrågad eller inte av arbetsgivaren använde vi Deep learning/AI.
+För att skapa AI-modellerna tillverkade vi träningsdata med hjälp av ramverket Snorkel och därefter tränade vi AI-modellerna med Googles Tensorflow.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vad-har-varit-den-största-utmaningen&#34;&gt;Vad har varit den största utmaningen?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Att hitta den optimala konfigurationen för att AI-modellerna skulle fungera. Det tog lång tid och många misslyckade försök att hitta en optimal lösning.
+Utan att överdriva kan jag säga att det har varit ett tålamodsprövande arbete.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hur-kan-jobad-enrichments-bidra-till-en-bättre-arbetsmarknad&#34;&gt;Hur kan JobAd Enrichments bidra till en bättre arbetsmarknad?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”Förutom att det effektiviserar matchningen så ger API:et oss helt ny information om arbetsmarknaden, och med den fördjupade kunskapen skapas förutsättningar för nya digitala matchnings- och vägledningstjänster.
+Det ska bli spännande att se hur API:et tas emot av utvecklare och andra aktörer som följer vårt arbete, och jag hoppas på att få se många innovativa tjänster med JobAd Enrichments som en del i lösningen.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Är du utvecklare och vill använda vår nya AI-lösning? Här kommer du igång med  &lt;a href=&#34;https://jobtechdev.se/docs/apis/enrich/&#34;&gt;JobAd Enrichments&lt;/a&gt;,som är ett komplement till vårt övriga utbud av öppna API:er för språk-, individ- och arbetsmarknadsdata.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I vårt &lt;a href=&#34;https://forum.jobtechdev.se&#34;&gt;forum&lt;/a&gt; kan du ställa frågor och delta i diskussioner om JobAd Enrichments eller någon av våra andra våra API:er.&lt;br /&gt;
+ Välkommen in!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Det går även bra att kontakta oss via &lt;a href=&#34;mailto:jobtechdevelopment@arbetsformelingen.se&#34;&gt;Epost&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

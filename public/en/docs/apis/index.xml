@@ -1,0 +1,270 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JobTech Development – APIs</title>
+    <link>/en/docs/apis/</link>
+    <description>Recent content in APIs on JobTech Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Jan 2018 21:58:09 +0100</lastBuildDate>
+    
+	  <atom:link href="/en/docs/apis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: JobAd Enrichments</title>
+      <link>/en/docs/apis/enrich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docs/apis/enrich/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The API is useful for all companies and organisations that offer a digital matching service or advertising platform and wish to improve it. It is also useful for those who want in-depth insights into the labour market, as well as developers who wish to build new innovative digital services for the labour market.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The API is freely available.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/Jobtechdev-content/JobAdEnrichments-content/contents/GettingstartedJobAdEnrichmentsEN.md?ref&amp;#61;master &gt;&lt;/div&gt;
+
+
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: JobSearch</title>
+      <link>/en/docs/apis/jobsearch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docs/apis/jobsearch/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The API is especially useful for companies and organisations that don&amp;rsquo;t have their own search engine, but want to use job advertisements from Platsbanken. It is also useful for those who have access to large quantities of structured data and who wish to be able to offer special search features and niche advertising platforms to their target groups.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The API is freely available.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/Jobtechdev-content/Jobsearch-content/contents/GettingStartedJobSearchEN.md?ref&amp;#61;master &gt;&lt;/div&gt;
+
+
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: JobStream</title>
+      <link>/en/docs/apis/jobstream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docs/apis/jobstream/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The API is especially useful for companies and organisations that have their own search engine and wish to improve their service with advertisement data updated in real time. It is also useful for those who wish to be able to identify and analyse trends in the labour market with the aid of advertisement data. Developers who need access to large quantities of advertisement data for algorithm training will also benefit from the API.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The API is freely available.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/Jobtechdev-content/Jobstream-content/contents/GettingStartedJobStreamEN.md?ref&amp;#61;master &gt;&lt;/div&gt;
+
+
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Historical Jobs</title>
+      <link>/en/docs/apis/historical/</link>
+      <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
+      
+      <guid>/en/docs/apis/historical/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Historical Jobs is especially useful for companies and organisations that need large quantities of advertisement data for statistics and analyses in the labour market area. This large data base can also be used to build and/or train algorithms in connection with machine learning and for the development of new digital matching services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The API is freely available.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/Jobtechdev-content/HistoricalJobs-content/contents/GettingStartedHistoricalJobsEN.md?ref&amp;#61;master &gt;&lt;/div&gt;
+
+
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Taxonomi</title>
+      <link>/en/docs/apis/taxonomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docs/apis/taxonomy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The API is useful for all companies and organisations that develop and offer digital matching services but are unable to build an information structure on their own. Actors who study and analyse developments in the labour market will also benefit from the API.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The API is freely available.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/gitlab/api/v4/projects/17049723/repository/files/GETTINGSTARTED.md?ref&amp;#61;develop &gt;&lt;/div&gt;
+
+
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Yrkesprognoser</title>
+      <link>/en/docs/apis/forecasts/</link>
+      <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
+      
+      <guid>/en/docs/apis/forecasts/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The API is especially useful for companies and organisations that offer professional and study guidance services and wish to help their customers/target groups make informed decisions for career and study choices. It is also useful for other actors who want in-depth insights into developments in the labour market.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The API is freely available.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. There is ongoing work in order to make occupation forecasts for 2021. Date for publication is not set. The forecasts for 2021 will be avaliable by downloading (a download link will be published here).&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;COVID 19: Covid-19 has changed the labour market situation for some professions. The forecasts that should be interpreted with caution are marked in the file &lt;a href=&#34;/files/covid.csv&#34;&gt;Bedömmningar att flagga&lt;/a&gt;.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;script src=&#34;/js/marked.min.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;gcontent&#34; id=&#34;githubcontent&#34; data-geturl=/api/github/repos/Jobtechdev-content/Yrkesprognoser-content/contents/GettingStartedOccupationForecastEN.md?ref&amp;#61;master &gt;&lt;/div&gt;
+
+
+&lt;script src=&#34;/js/getMD.js&#34;&gt;&lt;/script&gt;
+
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: </title>
+      <link>/en/docs/apis/cookie_policy/</link>
+      <pubDate>Sat, 19 Jan 2019 20:06:16 +0100</pubDate>
+      
+      <guid>/en/docs/apis/cookie_policy/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;Arbetsförmedlingen, The Swedish Public Employment Service, organization number: 202100-2114, is responsible for the jobtechdev.se website.&lt;/p&gt;
+
+&lt;p&gt;The following describes how the jobtechdev.se handles web cookies.&lt;/p&gt;
+
+&lt;p&gt;The policy covers all users of the jobtechdev.se website.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-does-it-mean-that-a-website-uses-cookies&#34;&gt;What does it mean that a website uses cookies?&lt;/h3&gt;
+
+&lt;p&gt;Anyone who visits a website that uses cookies must by law receive information that the site contains cookies, what they are used for and how you can opt out of them.&lt;/p&gt;
+
+&lt;p&gt;A cookie is a small text file that is stored on the user&amp;rsquo;s computer and contains information. Cookies are normally used to improve the site for you as a visitor. There are two types of cookies:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A permanent cookie that remains on your computer for a pre-determined amount of time.&lt;/li&gt;
+&lt;li&gt;A session-cookie which is temporarily store in memory for a certain duration or until the web browser is closed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More information about cookies and the new law about electronic communication is available on &lt;a href=&#34;http://www.pts.se&#34;&gt;Post och Telestyrelsens website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;approval-of-the-use-of-cookies-on-the-jobtechdev-se-website&#34;&gt;Approval of the use of cookies on the jobtechdev.se website&lt;/h3&gt;
+
+&lt;p&gt;The use of cookies on Jobtechdev.se requires the consent of the user. By your explicit consent, you consent to the use of cookies on the website and the processing of personal data saved through the use of cookies. There is no possibility of denying consent to any or any cookies without the use being approved in its entirety.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-happens-if-you-deny-the-use-of-cookies-on-jobtechdev-se&#34;&gt;What happens if you deny the use of cookies on jobtechdev.se?&lt;/h3&gt;
+
+&lt;p&gt;The Swedish Public Employment Service uses cookies for the website to function properly. If you choose to decline cookies through your browser settings, some services and features on the site may be affected.&lt;/p&gt;
+
+&lt;p&gt;If you do not want cookies to be used on your computer, you can change the setting in the browser security settings. In that case no cookies will be stored, but some functionality on the site might be unavailable to you. Important to keep in mind is that you cannot use the services that require login.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-cookies-are-used-when-you-visit-jobtechdev-se&#34;&gt;What cookies are used when you visit jobtechdev.se?&lt;/h3&gt;
+
+&lt;p&gt;We use cookies for the following purposes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;To improve the use of Jobtechdev.se. Cookies used for this purpose are exclusively so-called session cookies. The purpose of these cookies is to make the application work properly, for example, to know if a user is logged in and to keep the session running or to remember that the user has approved the cookie use or to enable a secure login to the software. These cookies may contain personal data (for example, for login cookies, the user&amp;rsquo;s user name, normally his e-mail address, is written down in the temporary cookie and stands there as long as the person is logged in).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In addition, there are a number of cookies when Jobtechdev.se is active, but which we do not create or use ourselves:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;When using third-party software (Youtube, Minio etc.), so-called third-party cookies are used of both the permanent cookies and session cookies. They are used, for example, to enable storing logos about logged in companies who choose to publish logos at Jobtechdev.se. They are also used for linking to social media if a company chooses to present their service via such media.&lt;/li&gt;
+&lt;li&gt;For advertising purposes. Google (not jobtechdev.se) use cookies that are usually of a permanent nature.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;processing-of-personal-data-at-jobtechdev-se&#34;&gt;Processing of personal data at jobtechdev.se&lt;/h3&gt;
+
+&lt;p&gt;jobtechdev.se process the information stored in cookies when you visit jobtechdev.se. It is information such as your partially masked IP address.&lt;/p&gt;
+
+&lt;p&gt;Your personal data is processed by jobtechdev.se for the purpose of providing the jobtechdev.se website in a functional and intended way, and to develop Jobtechdev.se. We process your personal data saved through the use of cookies based on your explicit consent.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-is-the-data-protection-officer-responsible-the-processing-of-your-personal-data-when-using-cookies&#34;&gt;Who is the Data Protection Officer responsible the processing of your personal data when using cookies?&lt;/h3&gt;
+
+&lt;p&gt;Arbetsförmedlingen, The Swedish Public Employment Service, organisation number 202100-2114, Hälsingegatan 38, 113 99 Stockholm, is responsible for the processing of your personal data.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
