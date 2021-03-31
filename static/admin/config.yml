@@ -8,7 +8,7 @@ backend:
 # This line should *not* be indented
 publish_mode: editorial_workflow
 
-logo_url: /static/img/logo.svg
+
 
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
