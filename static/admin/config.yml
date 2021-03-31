@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: MagnumOpuses/jobtechdev.se
-  site_domain: jobtechdev.se
+  site_domain: stage.jobtechdev.se
   branch: stage
 
 
