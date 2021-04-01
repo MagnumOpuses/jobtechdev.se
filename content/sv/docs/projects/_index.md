@@ -9,9 +9,9 @@ menu:
     weight: 9
 
 
-description: "Här kan du hitta projekt vi jobbar med just nu. Vi är “open by default” och alla utvecklingsprojekt kan du som individ eller företag hjälpa till att utveckla eller ge oss synpunkter på."
+description: "Här hittar du aktuella projekt inom JobTech Development. All verksamhet är “open by default” och vi tar gärna emot synpunkter och idéer."
 
-metadescription: " Här kan du hitta påbörjade projekt med öppen källkod, som du själv kan vidareutveckla. Läs mer"
+metadescription: " Här hittar du aktuella projekt inom JobTech Development. All verksamhet är “open by default” och vi tar gärna emot synpunkter och idéer. Läs mer"
 
 
 ---
