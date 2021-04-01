@@ -4,7 +4,7 @@ disableToc: true
 menuTitle: "Yrkesprognoser"
 weight: 10
 date: 2019-01-19T20:06:16+01:00
-description: "Yrkesprognoser (Occupation Forecast) makes it possible to show forecasts of recruitment needs in different professions/professional groups for one and five years respectively. The forecasts are based on interviews with employers that are conducted twice a year by Statistics Sweden/the Swedish Public Employment Service. The API also provides information on the competitive situation a job seeker can expect in different professions/professional groups."
+description: "Yrkesprognoser makes it possible to show forecasts of recruitment needs in different professions/professional groups for one and five years respectively. The forecasts are based on interviews with employers that are conducted twice a year by Statistics Sweden/the Swedish Public Employment Service. The API also provides information on the competitive situation a job seeker can expect in different professions/professional groups."
 
 metadescription: "With the API Occupation Forecasts, you get access to the Swedish Public Employment Service's forecasts for various occupations. Read more"
 
@@ -14,7 +14,7 @@ The API is especially useful for companies and organisations that offer professi
 **The API is freely available.**
 
 
-| Yrkesprognoser(Occupation Forecast) will be deprecated, new prognosis will not be published. There is ongoing work in order to make occupation forecasts for 2021. Date for publication is not set. The forecasts for 2021 will be avaliable by downloading (a download link will be published here).  |
+| Yrkesprognoser will be deprecated, new prognosis will not be published. There is ongoing work in order to make occupation forecasts for 2021. Date for publication is not set. The forecasts for 2021 will be avaliable by downloading (a download link will be published here).  |
 | --- |
 
 

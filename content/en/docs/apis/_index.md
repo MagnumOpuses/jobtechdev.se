@@ -8,8 +8,8 @@ menu:
     weight: 1
 
 description: "Here we present all the open data you can use completely freely. 
-              Open data is information that is available to anyone to use, reuse and share, so that others can develop it and create benefits for more.              
-              Feel free to contact us with comments and suggestions on information that you want Arbetsförmedlingen to publish as open data at [JobTech Development](mailto:jobtechdev@arbetsformedlingen.se). "
+              Open data is information that is available to anyone to use, reuse and share, so that others can develop it and create benefits for more. "      
+               
 exclude_search: true        
 metadescription: "Are you looking for open data in the labor market? Then you have come to the right place. Here you will find files, datasets from JobTechDevelopment and the Swedish Public Employment Service. Read more "
 ---
