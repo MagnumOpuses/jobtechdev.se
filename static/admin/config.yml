@@ -29,7 +29,7 @@ collections:
         name: "thumbnail", 
         widget: "image",
         default: "/letterbox.jpg",
-        media_folder: "/{{year}}-{{month}}-{{day}}-{{slug}}/"
+        media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
 
