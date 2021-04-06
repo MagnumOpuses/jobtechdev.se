@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: "12"
+title: "13"
 date: 2021-04-06T10:38:20.934Z
-thumbnail: /content/sv/news/news_head/2021-04-06-12/letterbox.jpg
+thumbnail: /content/sv/news/news_head/2021-04-06-13/letterbox.jpg
 ---
 jghghlglhjö
 
@@ -10,4 +10,4 @@ hghgög
 
 uihuihäå
 
-![mm](/images/uploads/letterbox.jpg "lll")
+![ggg](/images/uploads/letterbox.jpg "lllggg")
