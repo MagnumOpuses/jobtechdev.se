@@ -18,6 +18,7 @@ collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheter" # Used in the UI
     folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
