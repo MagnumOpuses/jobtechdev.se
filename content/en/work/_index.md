@@ -26,16 +26,7 @@ description: "Vacancies at JobTech Development "
 <!--<h1 class="text-center"></h1>-->
 
 <h1>Available jobs / spontaneous application </h1>
-<p>We are looking for you who want to help Jobtechdev create the digital ecosystem for the labor market.<br>
-You have knowledge, experience and passion in ex. systems development, programming, data analysis and AI or some other
-competens that will be useful to the ecosystem.</p>
-<p>Send an registration of interest now to <a href="mailto:recruitment-jobtech@arbetsformedlingen.se">recruitment-jobtech</a>, with a brief description of you and what you can do to contribute, and we will contact you when needs exists.</p>
-<h6 id="infoJobs">
-You can se available jobs here: 
-</h6>
-
-<br><br>
- {{< ads >}}
+<p>Right now we have no vacancies, but feel free to send <a href="mailto:recruitment-jobtech@arbetsformedlingen.se">an application </a>with a short description of yourself and what you can do, and we will contact you when needed.</p>
 
 </div>
 

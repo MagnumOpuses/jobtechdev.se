@@ -24,16 +24,10 @@ description: "Lediga tjänster hos JobTech Development"
 
 
 <h1>Lediga tjänster / spontanansökan </h1>
-<p>Vi letar efter dig som vill hjälpa Jobtechdev att skapa det digitala ekosystemet för arbetsmarknaden.<br>
-   Du har kunskap, erfarenhet och passion inom ex. systemutveckling, programmering, dataanalys och AI eller andra kompetenser som kan vara av nytta i ekosystemet.</p>
-  <p> <a href="mailto:recruitment-jobtech@arbetsformedlingen.se">Skicka en intresseanmälan </a>till oss med en kort beskrivning av dig och vad du kan bidra med, så kontaktar vi dig när behov finns. </p>
-<h6 id="infoJobs">
-Här kan du kan se våra lediga jobb just nu: 
-</h6>
-<br><br>
- 
- {{< ads >}}  
-</div>
+<p>Just nu har vi inga lediga tjänster, men skicka gärna en <a href="mailto:recruitment-jobtech@arbetsformedlingen.se">spontanansökan </a>
+   med en kort beskrivning av dig själv och vad du kan, så kontaktar vi dig när behov finns.</p>
+  
+
 
 {{< /blocks/section >}}
 
