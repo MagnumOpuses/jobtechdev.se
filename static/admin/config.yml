@@ -28,7 +28,7 @@ collections:
         label: "Featured Image",
         name: "thumbnail", 
         widget: "image",
-        default: "{{year}}-{{month}}-{{day}}-{{slug}}/letterbox.jpg"
+        default: "/{{year}}-{{month}}-{{day}}-{{slug}}/letterbox.jpg"
       }
       - {label: "Body", name: "body", widget: "markdown"}
 
