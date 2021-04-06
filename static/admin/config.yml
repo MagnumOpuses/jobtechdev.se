@@ -11,8 +11,8 @@ publish_mode: editorial_workflow
 
 
 # These lines should *not* be indented
-media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "./" # Media files will be stored in the repo under static/images/uploads
+public_folder: "./" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
