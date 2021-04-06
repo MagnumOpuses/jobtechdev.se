@@ -27,8 +27,7 @@ collections:
       - {
         label: "Featured Image",
         name: "thumbnail", 
-        widget: "image",
-        default: "/letterbox.jpg",
+        widget: "image",       
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
