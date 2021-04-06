@@ -1,6 +1,6 @@
 ---
-title: "Joblinks"
-menuTitle: "Joblinks "
+title: "Ekosystem för annonser"
+menuTitle: "Ekosystem för annonser "
 weight: 7
 description: "Vi driver tillsammans med de största annonssajterna i Sverige i ett pilotprojekt kring att samla alla jobb på ett ställe."
 

@@ -1,9 +1,9 @@
 ---
-title: "Taxonomi"
-menuTitle: "Taxonomi "
+title: "JobTech Taxonomy"
+menuTitle: "Taxonomy "
 weight: 7
 description: "JobTech Taxonomy ger tillgång till begrepp och uttryck som används på arbetsmarknaden samt information om hur dessa är kopplade till varandra. Det gäller exempelvis yrkesbenämningar, kompetensbegrepp eller kopplingen mellan yrken och kompetenser. Yrkesbenämningarna är strukturerade enligt Standard för svensk yrkesklassificering (SSYK)."
-# consoleurl: "/devguide/apiconsole.html?urls.primaryName=JobSearch"/
+
 metadescription: "Taxonomi som innehåller språk som vanligtvis används inom arbetsmarknaden, för bättre matchning mellan jobb och arbetssökande."
 ---
 
