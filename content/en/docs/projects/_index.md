@@ -8,7 +8,7 @@ menu:
     weight: 9
 
 description: "
-Here you can find projects we are working on right now. We are “open by default” and all development projects you as an individual or company can help develop or give us feedback on."
+Here you will find current projects within JobTech Development. All activities are  “open by default” and we welcome comments and ideas."
 
 
 ---

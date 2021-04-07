@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: MagnumOpuses/jobtechdev.se
-  site_domain: jobtechdev.se
+  site_domain: stage.jobtechdev.se
   branch: stage
 
 
@@ -11,19 +11,29 @@ publish_mode: editorial_workflow
 
 
 # These lines should *not* be indented
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+media_folder: "/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "Nyheter" # Used in the UI
+    folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
+    allow_nesting: true
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/_index" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {
+        label: "Featured Image",
+        name: "thumbnail", 
+        widget: "image",       
+        media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
+      }
       - {label: "Body", name: "body", widget: "markdown"}
+
+     
+
+
+
