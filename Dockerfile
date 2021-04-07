@@ -28,7 +28,6 @@ RUN ls
 COPY . /tmp/hugo
 WORKDIR /tmp/hugo
 RUN apk update && apk add --update nodejs npm
-RUN npm clean
 RUN npm install
 RUN npm install -D --save autoprefixer@9.8.6 && npm install -D --save postcss-cli@7.1.2
 RUN hugo
