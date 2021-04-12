@@ -32,22 +32,22 @@ collections:
       }
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
-    label: "Nyheters" # Used in the UI
-    allow_nesting: true
-    folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {
-        label: "Featured Image",
-        name: "thumbnail", 
-        widget: "image",       
-        media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
-      }
-      - {label: "Body", name: "body", widget: "markdown"}
+label: "Nyheters" # Used in the UI
+allow_nesting: true
+folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
+create: true # Allow users to create new documents in this collection
+slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+fields: # The fields for each document, usually in front matter
+  - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+  - {label: "Title", name: "title", widget: "string"}
+  - {label: "Publish Date", name: "date", widget: "datetime"}
+  - {
+    label: "Featured Image",
+    name: "thumbnail", 
+    widget: "image",       
+    media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
+  }
+  - {label: "Body", name: "body", widget: "markdown"}
 
 
      
