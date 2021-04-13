@@ -26,7 +26,7 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SSYK-strukturen-med-yrkesbenämningar"/>
     <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#ISCO-nivå-fyra"/>
     <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-ISCO-nivå-fyra"/>
-    <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Anställningsform"/>
+    <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
      <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
       <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
@@ -688,7 +688,7 @@
  </dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains employment type concepts with associated descriptions. The employment type concepts are based on  terminology found in  LAS (Law on employment protection.)</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax15"/>	
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
