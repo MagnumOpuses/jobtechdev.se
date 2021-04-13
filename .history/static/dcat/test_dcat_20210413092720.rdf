@@ -14,8 +14,7 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesbenämningar"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesområden-med-relationer-till-SSYK-nivå-fyra-och-yrkesbenämningar"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Släktskap-mellan-yrkesbenämningar"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesområden-med relationer till SSYK nivå fyra och yrkesbenämningar"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognoser"/>
@@ -122,7 +121,7 @@
 	</dcat:Distribution>
 
 <!--Yrkesområden med relationer till SSYK nivå fyra och yrkesbenämningar-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesområden-med-relationer-till-SSYK-nivå-fyra-och-yrkesbenämningar" >
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Yrkesområden med relationer till SSYK nivå fyra och yrkesbenämningar</dcterms:title>
 	<dcterms:title xml:lang="en">Occupation fields with related SSYK level 4 groups and occupations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller yrkesbenämningar med relationer till SSYK nivå 4-grupper och relationer mellan SSYK nivå 4-grupperna och yrkesområden.
@@ -163,7 +162,7 @@
 	</dcat:Distribution>
 
 <!--Släktskap mellan yrkesbenämningar-->
-<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#Släktskap-mellan-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Släktskap mellan yrkesbenämningar</dcterms:title>
 	<dcterms:title xml:lang="en">Substitutability relations between occupations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden beskriver släktskap mellan yrkesbenämningar.
@@ -173,7 +172,7 @@
 	<dcterms:description xml:lang="en">The data set describes substitutability relations between occupations. A substitutability relation can be expressed between two occupation concepts and on two levels, high (75) and low (25). A high substitutability means that there is great similarity in the work tasks between the two occupations. A low substitutability means that some of the tasks may be similar and that some kind of training program would be required to move from one occupation to the other.
 	Occupations and the relations described above are created and continuously updated in consultation with stakeholders in the labor market.
 	They are categorized according to SSYK, Swedish Standard Classification of Occupations, which is based on ISCO, the International Standard Classification of Occupation. The current version is SSYK 2012.. The occupation fields are produced by the Swedish Employment Service (Arbetsförmedlingen).</dcterms:description>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax4"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -194,10 +193,13 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax4">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1">
 		<dcterms:title xml:lang="sv">Datamängden innehåller yrkesbenämningar med relationer till SSYK nivå 4-grupper.. </dcterms:title>
-		<dcterms:title xml:lang="en">SSYK level 4 groups with related occupations </dcterms:title>		
-		<dcterms:format>application/json</dcterms:format>		
+		<dcterms:title xml:lang="en">SSYK level 4 groups with related occupations </dcterms:title>
+		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
+		<dcterms:description xml:lang="en">Download all historical.</dcterms:description>
+		<dcterms:format>application/json</dcterms:format>
+		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20substituted_by%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%20%20substitutes%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
@@ -250,7 +252,7 @@
 
 <!--SSYK nivå fyra med relationer till kompetensbegrepp-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till kompetensbegrepp</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 groups with related skills</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper. Ett kompetensbegrepp är i regel kopplat till minst en SSYK nivå 4-grupp.
@@ -292,7 +294,7 @@
 
 <!--Kompetensbegrepp och relationer till kompetensrubrik och nivå fyra i SSYK-strukturen-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Kompetensbegrepp och relationer till kompetensrubrik och nivå fyra i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">Skills with related skill headlines and SSYK level 4 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp efter kompetensrubrik och till vilka SSYK nivå 4-grupper de är kopplade. Ett kompetensbegrepp är kopplat till en kompetensrubrik och i regel  till minst en SSYK nivå 4-grupp.
@@ -334,7 +336,7 @@
 
 <!--SSYK nivå fyra med relationer till kompetensbegrepp och yrkesbenämningar-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till kompetensbegrepp och yrkesbenämningar</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 with related skills and occupations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp och yrkesbenämningar och till vilka SSYK nivå 4-grupper de är kopplade.
@@ -377,7 +379,7 @@
 
 <!--Nivå fyra i SSYK-strukturen-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Nivå fyra i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller grupperna i nivå fyra (fyrställiga) av SSYK-strukturen.
@@ -423,7 +425,7 @@
 
 <!--Nivå tre i SSYK-strukturen-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Nivå tre i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 3 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller grupperna i nivå tre (treställiga) av SSYK-strukturen.
@@ -467,7 +469,7 @@
 
 <!--Nivå två i SSYK-strukturen-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Nivå två i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 2 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller grupperna i nivå två (tvåställiga) av SSYK-strukturen.
@@ -512,7 +514,7 @@
 
 <!--SSYK level 1 groups-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Nivå ett i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 1 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller grupperna i nivå ett (enställiga) av SSYK-strukturen.
@@ -554,7 +556,7 @@
 </dcat:Distribution>
 
 <!--Hela SSYK-strukturen med yrkesbenämningar-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Hela SSYK-strukturen med yrkesbenämningar</dcterms:title>
 	<dcterms:title xml:lang="en">The SSYK hierarchy with occupations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller hela SSYK-strukturen och kopplingar mellan yrkesbenämningar och SSYK nivå 4.
@@ -594,7 +596,7 @@
 </dcat:Distribution>
 
 <!--ISCO nivå fyra-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">ISCO nivå fyra</dcterms:title>
 	<dcterms:title xml:lang="en">ISCO level 4 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller grupperna i nivå fyra (fyrställiga) av ISCO-strukturen.
@@ -638,7 +640,7 @@
 
 
 <!--SSYK nivå fyra med relationer till ISCO nivå fyra-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till ISCO nivå fyra</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 with related ISCO level 4 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden visar grupperna i nivå fyra (fyrställiga) av ISCO- och SSYK-strukturerna och hur de är relaterade till varandra.
@@ -680,7 +682,7 @@
 
 
 <!--Anställningsform-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Anställningsform</dcterms:title>
 	<dcterms:title xml:lang="en">Employment type concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller anställningsformer och tillhörande beskrivningar. Anställningsformerna baserar sig på terminologi från LAS (Lagen om anställningskydd.) 
@@ -716,7 +718,7 @@
 
 
 <!--Egenföretagandetyp-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Egenföretagandetyp</dcterms:title>
 	<dcterms:title xml:lang="en">Self employment type concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller concept för egenföretagande och tillhörande beskrivningar.</dcterms:description>
@@ -749,7 +751,7 @@
 </dcat:Distribution>
 
 <!--Anställningsvaraktighet-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Anställningsvaraktighet</dcterms:title>
 	<dcterms:title xml:lang="en">Employment length concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller concept som beskriver en anställnings längd.</dcterms:description>
@@ -782,14 +784,14 @@
 </dcat:Distribution>
 
 <!--Länder-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Länder</dcterms:title>
 	<dcterms:title xml:lang="en">Countries</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller länder med tillhörande ISO 3166-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains countries with their ISO 3166 codes.</dcterms:description>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo17"/>	
 	<dcterms:creator rdf:resource="https://www.iso.org/iso-3166-country-codes.html"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+		<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
@@ -815,7 +817,7 @@
 </dcat:Distribution>
 
 <!--EU-regioner-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">EU-regioner</dcterms:title>
 	<dcterms:title xml:lang="en">EU regions</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller EU-regioner med tillhörande NUTS nivå 3-koder.</dcterms:description>
@@ -850,7 +852,7 @@
 </dcat:Distribution>
 
 <!--Språk-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Språk</dcterms:title>
 	<dcterms:title xml:lang="en">Languages</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller språk med tillhörande ISO 639-1 och ISO 639-2-koder.</dcterms:description>
@@ -858,7 +860,7 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+		<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
@@ -883,7 +885,7 @@
 </dcat:Distribution>
 
 <!--Sökbegrepp med relation till andra concept-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset>
 	<dcterms:title xml:lang="sv">Sökbegrepp med relation till andra concept</dcterms:title>
 	<dcterms:title xml:lang="en">Keyword concepts with relations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller keyword-concept med relationer till concept som de refererar till. </dcterms:description>
@@ -919,23 +921,15 @@
 </dcat:Distribution>
 
 <!--Handelsrådets kompetenser med relation till yrke-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Handelsrådets-kompetenser-med-relation-till-yrke">
-	<dcterms:title xml:lang="sv">Handelsrådets kompetenser med relation till yrke</dcterms:title>
-	<dcterms:title xml:lang="en">Swedish Retail and Wholesale Council skills</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller Handelsrådets kompetensbegrepp med relationer till yrkesbenämningar eller SSYK nivå 4-grupper.
-	De här kompetensbegreppen är ett exempel på hur man kan synliggöra kraven på kompetens och vad kraven innebär i olika yrken. 
-	Kompetensbegreppen är tänkta att vara till hjälp för arbetsgivare i formulering av annonser för lediga jobb och för arbetssökande för att skapa förståelse för vad som krävs i olika yrkesroller.
-	Källan till kompetensbegreppen är Yrkeskartan som Handelsrådet har tagit fram i samarbete med bemannings- och rekryteringsföretaget Poolia.
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains the Swedish Retail and Wholesale Council skill concepts with relations to occupations or SSYK level 4 groups.
-	These concepts are an example of how the skill requirements can be made visible and what they mean in different occupations.
-	The skills described here are intended to be helpful for employers in formulating advertisements for job vacancies and for jobseekers to create an understanding of what is required in different professional roles.
-	The source of the skills is Yrkeskartan, produced by the Swedish Retail and Wholesale Council in collaboration with the staffing and recruitment company Poolia.
-</dcterms:description>
+<dcat:Dataset>
+	<dcterms:title xml:lang="sv">Språk</dcterms:title>
+	<dcterms:title xml:lang="en">Languages</dcterms:title>
+	<dcterms:description xml:lang="sv">Datamängden innehåller språk med tillhörande ISO 639-1 och ISO 639-2-koder.</dcterms:description>
+	<dcterms:description xml:lang="en">The data set contains languages with associated ISO 639-1 and ISO 639-2 codes.</dcterms:description>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+		<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
