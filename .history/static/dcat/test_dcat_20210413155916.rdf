@@ -945,7 +945,7 @@
 	The skills described here are intended to be helpful for employers in formulating advertisements for job vacancies and for jobseekers to create an understanding of what is required in different professional roles.
 	The source of the skills is Yrkeskartan, produced by the Swedish Retail and Wholesale Council in collaboration with the staffing and recruitment company Poolia.
 </dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>

@@ -728,7 +728,6 @@
 	<dcterms:title xml:lang="en">Self employment type concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller concept för egenföretagande och tillhörande beskrivningar.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains self-employment type concepts with associated descriptions.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo15"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -762,7 +761,6 @@
 	<dcterms:title xml:lang="en">Employment length concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller concept som beskriver en anställnings längd.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains employment length concepts.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo16"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -796,7 +794,6 @@
 	<dcterms:title xml:lang="en">Countries</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller länder med tillhörande ISO 3166-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains countries with their ISO 3166 codes.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo17"/>	
 	<dcterms:creator rdf:resource="https://www.iso.org/iso-3166-country-codes.html"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -830,7 +827,6 @@
 	<dcterms:title xml:lang="en">EU regions</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller EU-regioner med tillhörande NUTS nivå 3-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains EU regions with associated NUTS level 3 codes.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo18"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://ec.europa.eu/eurostat/web/nuts/background"/>
@@ -866,7 +862,6 @@
 	<dcterms:title xml:lang="en">Languages</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller språk med tillhörande ISO 639-1 och ISO 639-2-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains languages with associated ISO 639-1 and ISO 639-2 codes.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
@@ -900,7 +895,6 @@
 	<dcterms:title xml:lang="en">Keyword concepts with relations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller keyword-concept med relationer till concept som de refererar till. </dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains keyword-concepts with relations to concepts, of other types, that they refer to.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo20"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -945,7 +939,6 @@
 	The skills described here are intended to be helpful for employers in formulating advertisements for job vacancies and for jobseekers to create an understanding of what is required in different professional roles.
 	The source of the skills is Yrkeskartan, produced by the Swedish Retail and Wholesale Council in collaboration with the staffing and recruitment company Poolia.
 </dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
