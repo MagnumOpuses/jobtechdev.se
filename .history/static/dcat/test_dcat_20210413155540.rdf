@@ -24,7 +24,6 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Nivå-två-i-SSYK-strukturen"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
-
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognoser"/>
@@ -214,7 +213,7 @@
 
 <!--Kompetensbegrepp-->
 
-<dcat:Dataset>
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#Kompetensbegrepp">
 	<dcterms:title xml:lang="sv">Kompetensbegrepp</dcterms:title>
 	<dcterms:title xml:lang="en">Skills</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp utan några kopplingar till andra concept.
@@ -247,7 +246,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo3">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax5">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp utan några kopplingar till andra concept. </dcterms:title>
 		<dcterms:title xml:lang="en">The data set contains skill concepts without any relations to other concepts.</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -261,7 +260,7 @@
 
 <!--SSYK nivå fyra med relationer till kompetensbegrepp-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-kompetensbegrepp">
 	<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till kompetensbegrepp</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 groups with related skills</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper. Ett kompetensbegrepp är i regel kopplat till minst en SSYK nivå 4-grupp.
@@ -292,11 +291,9 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo4">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax6">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper</dcterms:title>
-		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download all historical.</dcterms:description>
+		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>		
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
@@ -304,7 +301,7 @@
 
 <!--Kompetensbegrepp och relationer till kompetensrubrik och nivå fyra i SSYK-strukturen-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Kompetensbegrepp-och-relationer-till-kompetensrubrik-och-nivå-fyra-i-SSYK-strukturen">
 	<dcterms:title xml:lang="sv">Kompetensbegrepp och relationer till kompetensrubrik och nivå fyra i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">Skills with related skill headlines and SSYK level 4 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp efter kompetensrubrik och till vilka SSYK nivå 4-grupper de är kopplade. Ett kompetensbegrepp är kopplat till en kompetensrubrik och i regel  till minst en SSYK nivå 4-grupp.
@@ -335,11 +332,9 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo5">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax7">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper</dcterms:title>
-		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download all historical.</dcterms:description>
+		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>		
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20broader%28type%3A%20%22skill-headline%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
@@ -347,7 +342,7 @@
 
 <!--SSYK nivå fyra med relationer till kompetensbegrepp och yrkesbenämningar-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-kompetensbegrepp-och-yrkesbenämningar">
 	<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till kompetensbegrepp och yrkesbenämningar</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 with related skills and occupations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp och yrkesbenämningar och till vilka SSYK nivå 4-grupper de är kopplade.
@@ -379,11 +374,9 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo6">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax8">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper</dcterms:title>
-		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download all historical.</dcterms:description>
+		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>		
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20narrower%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
@@ -391,7 +384,7 @@
 
 <!--Nivå fyra i SSYK-strukturen-->
 
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
+<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Nivå-fyra-i-SSYK-strukturen">
 	<dcterms:title xml:lang="sv">Nivå fyra i SSYK-strukturen</dcterms:title>
 	<dcterms:title xml:lang="en">SSYK level 4 groups</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller grupperna i nivå fyra (fyrställiga) av SSYK-strukturen.
@@ -407,9 +400,7 @@
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>	
-	<dcat:keyword xml:lang="en">skill</dcat:keyword>
-	<dcat:keyword xml:lang="sv">Kompetens</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Yrke</dcat:keyword>
@@ -426,11 +417,9 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo7">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax8">
 		<dcterms:title xml:lang="sv">Datamängden innehåller grupperna i nivå fyra (fyrställiga) av SSYK-strukturen.</dcterms:title>
-		<dcterms:title xml:lang="en">The dataset contains the SSYK level 4 groups. </dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download all historical.</dcterms:description>
+		<dcterms:title xml:lang="en">The dataset contains the SSYK level 4 groups. </dcterms:title>		
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
@@ -491,7 +480,6 @@
 	<dcterms:description xml:lang="en">The dataset contains the SSYK level 2 groups.
 	SSYK, Swedish Standard Classification of Occupations, is based on ISCO, the International Standard Classification of Occupation. 
 	The current version is SSYK 2012.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax10"/>
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
@@ -534,7 +522,6 @@
  </dcterms:description>
 	<dcterms:description xml:lang="en">The dataset contains the SSYK level 1 groups.SSYK, Swedish Standard Classification of Occupations, is based on ISCO, the International Standard Classification of Occupation. 
 	The current version is SSYK 2012.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo10"/>
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
@@ -577,7 +564,6 @@
 	<dcterms:description xml:lang="en">The data set contains the entire SSYK structure and occupations with relations to their SSYK level 4 groups.
 	Occupations in the data set are created and continuously updated in consultation with stakeholders in the labor market. 
 	They are categorized according SSYK, Swedish Standard Classification of Occupations based on ISCO, the International Standard Classification of Occupation. The current version is SSYK 2012.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo11"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -619,7 +605,6 @@
 	<dcterms:description xml:lang="en">The data set contains the ISCO level 4 groups.
 	SSYK, Swedish Standard Classification of Occupations is based on the international classification of occupations ISCO, the International Standard Classification of Occupation.
 	The current versions are SSYK 2012 and ISCO 08.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo12"/>	
 	<dcterms:creator rdf:resource="https://www.ilo.org/public/english/bureau/stat/isco/"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
@@ -662,7 +647,6 @@
  </dcterms:description>
 	<dcterms:description xml:lang="en">The dataset contains the SSYK level 4 groups and the ISCO level 4 groups with relations between the two standards.
 	SSYK, Swedish Standard Classification of Occupations is based on the international classification of occupations ISCO, the International Standard Classification of Occupation. The current versions are SSYK 2012 and ISCO 08.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo13"/>	
 	<dcterms:creator rdf:resource="https://www.ilo.org/public/english/bureau/stat/isco/"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
@@ -704,7 +688,6 @@
 
  </dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains employment type concepts with associated descriptions. The employment type concepts are based on  terminology found in  LAS (Law on employment protection.)</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo14"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -739,7 +722,6 @@
 	<dcterms:title xml:lang="en">Self employment type concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller concept för egenföretagande och tillhörande beskrivningar.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains self-employment type concepts with associated descriptions.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo15"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -773,7 +755,6 @@
 	<dcterms:title xml:lang="en">Employment length concepts</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller concept som beskriver en anställnings längd.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains employment length concepts.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo16"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -807,7 +788,6 @@
 	<dcterms:title xml:lang="en">Countries</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller länder med tillhörande ISO 3166-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains countries with their ISO 3166 codes.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo17"/>	
 	<dcterms:creator rdf:resource="https://www.iso.org/iso-3166-country-codes.html"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -841,7 +821,6 @@
 	<dcterms:title xml:lang="en">EU regions</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller EU-regioner med tillhörande NUTS nivå 3-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains EU regions with associated NUTS level 3 codes.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo18"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://ec.europa.eu/eurostat/web/nuts/background"/>
@@ -877,7 +856,6 @@
 	<dcterms:title xml:lang="en">Languages</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller språk med tillhörande ISO 639-1 och ISO 639-2-koder.</dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains languages with associated ISO 639-1 and ISO 639-2 codes.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
@@ -911,7 +889,6 @@
 	<dcterms:title xml:lang="en">Keyword concepts with relations</dcterms:title>
 	<dcterms:description xml:lang="sv">Datamängden innehåller keyword-concept med relationer till concept som de refererar till. </dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains keyword-concepts with relations to concepts, of other types, that they refer to.</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo20"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -956,7 +933,6 @@
 	The skills described here are intended to be helpful for employers in formulating advertisements for job vacancies and for jobseekers to create an understanding of what is required in different professional roles.
 	The source of the skills is Yrkeskartan, produced by the Swedish Retail and Wholesale Council in collaboration with the staffing and recruitment company Poolia.
 </dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
