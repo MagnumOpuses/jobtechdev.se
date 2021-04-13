@@ -87,19 +87,19 @@
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
-	<!--SSYK nivå fyra med relationer till yrkesbenämningar -->
+	<!--yrkesbenämningar-->
 <dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar">
 	<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till yrkesbenämningar</dcterms:title>
-	<dcterms:title xml:lang="en">SSYK level 4 groups with related occupations</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller yrkesbenämningar med relationer till SSYK nivå 4-grupper.
-	Yrkesbenämningarna i datamängden är skapade och uppdateras kontinuerligt i samråd med aktörerna på arbetsmarknaden.
+	<dcterms:title xml:lang="en">Occupations</dcterms:title>
+	<dcterms:description xml:lang="sv">Datamängden innehåller yrkesbenämningar utan några kopplingar till andra concept. 
+	Yrkesbenämningarna i datamängden är skapade och uppdateras kontinuerligt i samråd med aktörerna på arbetsmarknaden. 
 	De är kategoriserade enligt SSYK, Svensk standard för yrkesklassificering som bygger på den internationella yrkesklassificeringen ISCO, International Standard Classification of Occupation. Den nuvarande versionen är SSYK-2012.
  </dcterms:description>
-	<dcterms:description xml:lang="en">The dataset contains occupations with relations to SSYK level 4 groups.
-	Occupations in the data set are created and continuously updated in consultation with stakeholders in the labor market.
-	They are categorized according to SSYK, Swedish Standard Classification of Occupations, which is based on ISCO, the International Standard Classification of Occupation. The current version is SSYK 2012..</dcterms:description>
+	<dcterms:description xml:lang="en">The dataset contains occupations without any connections to other concepts.
+	Occupations in the data set are created and continuously updated in consultation with stakeholders in the labor market. 
+	They are categorized according to SSYK, Swedish Standard Classification of Occupations, which is based on ISCO, the International Standard Classification of Occupation. The current version is SSYK 2012.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax2"/>	
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>	
@@ -120,7 +120,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-	<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax2">
+	<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax1">
 		<dcterms:title xml:lang="sv">Yrkesbenämningar </dcterms:title>
 		<dcterms:title xml:lang="en">Occupations </dcterms:title>		
 		<dcterms:format>application/json</dcterms:format>		
@@ -128,7 +128,48 @@
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
-	
+	<!--SSYK nivå fyra med relationer till yrkesbenämningar -->
+
+
+	<dcterms:title xml:lang="en">SSYK level 4 groups with related occupations</dcterms:title>
+	<dcterms:description xml:lang="sv">Datamängden innehåller yrkesbenämningar med relationer till SSYK nivå 4-grupper.
+	Yrkesbenämningarna i datamängden är skapade och uppdateras kontinuerligt i samråd med aktörerna på arbetsmarknaden.
+	De är kategoriserade enligt SSYK, Svensk standard för yrkesklassificering som bygger på den internationella yrkesklassificeringen ISCO, International Standard Classification of Occupation. Den nuvarande versionen är SSYK-2012.
+ </dcterms:description>
+	<dcterms:description xml:lang="en">The dataset contains occupations with relations to SSYK level 4 groups.
+	Occupations in the data set are created and continuously updated in consultation with stakeholders in the labor market.
+	They are categorized according to SSYK, Swedish Standard Classification of Occupations, which is based on ISCO, the International Standard Classification of Occupation. The current version is SSYK 2012.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax2"/>	
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
+	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Yrke</dcat:keyword>
+	<dcat:keyword xml:lang="en">Occuaption</dcat:keyword>
+	<dcat:keyword xml:lang="en">SSYK</dcat:keyword>
+	<dcat:keyword xml:lang="en">Arbetsmarknad</dcat:keyword>
+	<dcat:keyword xml:lang="en">Matchning</dcat:keyword>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
+	<dcterms:temporal>
+		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
+			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
+		</dcterms:PeriodOfTime>
+	</dcterms:temporal>
+</dcat:Dataset>
+
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax2">
+		<dcterms:title xml:lang="sv">Datamängden innehåller yrkesbenämningar med relationer till SSYK nivå 4-grupper.. </dcterms:title>
+		<dcterms:title xml:lang="en">SSYK level 4 groups with related occupations </dcterms:title>		
+		<dcterms:format>application/json</dcterms:format>
+		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%20%20narrower%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+	</dcat:Distribution>
+
 <!--Yrkesområden med relationer till SSYK nivå fyra och yrkesbenämningar-->
 <dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesområden-med-relationer-till-SSYK-nivå-fyra-och-yrkesbenämningar" >
 	<dcterms:title xml:lang="sv">Yrkesområden med relationer till SSYK nivå fyra och yrkesbenämningar</dcterms:title>
