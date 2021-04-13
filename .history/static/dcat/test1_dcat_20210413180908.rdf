@@ -26,7 +26,7 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SSYK-strukturen-med-yrkesbenämningar"/>
     <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#ISCO-nivå-fyra"/>
     <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-ISCO-nivå-fyra"/>
-    <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Anställningsform"/>
+    <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
      <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
       <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
@@ -688,7 +688,7 @@
  </dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains employment type concepts with associated descriptions. The employment type concepts are based on  terminology found in  LAS (Law on employment protection.)</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax15"/>	
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo14"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -705,12 +705,14 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax15">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo14">
 		<dcterms:title xml:lang="sv">Anställningsform</dcterms:title>
-		<dcterms:title xml:lang="en">Employment type concepts</dcterms:title>		
+		<dcterms:title xml:lang="en">Employment type concepts</dcterms:title>
+		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
+		<dcterms:description xml:lang="en">Download </dcterms:description>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22employment-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22isco-level-4%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20isco_code_08%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
