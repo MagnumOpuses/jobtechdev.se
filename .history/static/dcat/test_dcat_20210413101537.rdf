@@ -15,7 +15,7 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesbenämningar"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-yrkesbenämningar"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesområden-med-relationer-till-SSYK-nivå-fyra-och-yrkesbenämningar"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Släktskap-mellan-yrkesbenämningar"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Yrkesområden med relationer till SSYK nivå fyra och yrkesbenämningar"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognoser"/>
