@@ -19,7 +19,7 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Kompetensbegrepp"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-kompetensbegrepp"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Kompetensbegrepp-och-relationer-till-kompetensrubrik-och-nivå-fyra-i-SSYK-strukturen"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Nivå-fyra-i-SSYK-strukturen"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognoser"/>
@@ -412,7 +412,7 @@
 		<dcterms:title xml:lang="en">The dataset contains the SSYK level 4 groups. </dcterms:title>		
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource=""/>
 	</dcat:Distribution>
 
 <!--Nivå tre i SSYK-strukturen-->
