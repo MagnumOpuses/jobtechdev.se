@@ -26,7 +26,7 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SSYK-strukturen-med-yrkesbenämningar"/>
     <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#ISCO-nivå-fyra"/>
     <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SSYK-nivå-fyra-med-relationer-till-ISCO-nivå-fyra"/>
-    <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Anställningsform"/>
+    <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
      <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
       <dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#taxonomi"/>
