@@ -43,14 +43,10 @@
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SUN-inriktning-nivå-tre"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SUN-inriktning-nivå-fyra"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SUN-nivå-(nivå-ett)"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SUN-nivå-(nivå-två)"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SUN-nivå-(nivå-tre)"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SUN-inriktningsstrukturen"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SUN-nivåstrukturen"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Löneform"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Körkort"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Arbetstid"/>
-	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#tid-i-yrke"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#SUN-nivå-(nivå-ett)"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognoser"/>
 	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#jobsearch"/>
@@ -1422,295 +1418,6 @@
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
-<!--SUN nivå (nivå två)-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SUN-nivå-(nivå-två)">
-	<dcterms:title xml:lang="sv">SUN nivå (nivå två)</dcterms:title>
-	<dcterms:title xml:lang="en">SUN level hierarchy level 2</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller nivå två (2 siffror) av SUN-strukturens nivåstruktur med tillhörande beskrivningstexter och SUN2020-koder.
-	SUN , Svensk utbildningsnomenklatur, används bland annat för att klassificera utbildningar och beskriva individers utbildning. SUN är indelad i två strukturer, en för utbildningsinriktning och en för utbildningsnivå. Den nuvarande versionen är SUN 2020. 
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains the second level (2 digits) of the SUN level structure with associated descriptions and SUN 2020 codes.
-	SUN, the Swedish education nomenclature, is used for classifying education programs and to descbribe individuals' education. SUN is divided into two structures, one for education field descriptions and one for education level descriptions. The current version is SUN 2020.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax34"/>
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
-	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:keyword xml:lang="sv">utbildning</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax34	">
-		<dcterms:title xml:lang="sv">SUN nivå (nivå två)</dcterms:title>
-		<dcterms:title xml:lang="en">SUN level hierarchy level 2</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-<!--SUN nivå (nivå tre)-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#SUN-nivå-(nivå-tre)">
-	<dcterms:title xml:lang="sv">SUN nivå (nivå tre)</dcterms:title>
-	<dcterms:title xml:lang="en">SUN level hierarchy level 3</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller nivå tre (3 siffror) av SUN-strukturens nivåstruktur med tillhörande beskrivningstexter och SUN2020-koder.
-	SUN, Svensk utbildningsnomenklatur, används bland annat för att klassificera utbildningar och beskriva individers utbildning. SUN är indelad i två strukturer, en för utbildningsinriktning och en för utbildningsnivå. Den nuvarande versionen är SUN 2020. 
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains the third level (3 digits) of the SUN level structure with associated descriptions and SUN 2020 codes.
-	SUN, the Swedish education nomenclature, is used for classifying education programs and to descbribe individuals' education. SUN is divided into two structures, one for education field descriptions and one for education level descriptions. The current version is SUN 2020.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax35"/>
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
-	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:keyword xml:lang="sv">utbildning</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax35	">
-		<dcterms:title xml:lang="sv">SUN nivå (nivå tre)</dcterms:title>
-		<dcterms:title xml:lang="en">SUN level hierarchy level 3</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-<!--Hela SUN-inriktningsstrukturen-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SUN-inriktningsstrukturen">
-	<dcterms:title xml:lang="sv">Hela SUN-inriktningsstrukturen</dcterms:title>
-	<dcterms:title xml:lang="en">SUN field hierarchy</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller hela SUN-inriktningsstrukturen med tillhörande beskrivningstexter och SUN2020-koder.
-	SUN, Svensk utbildningsnomenklatur, används bland annat för att klassificera utbildningar och beskriva individers utbildning. SUN är indelad i två strukturer, en för utbildningsinriktning och en för utbildningsnivå. Den nuvarande versionen är SUN 2020. 
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains the entire SUN field structure with associated description texts and SUN 2020 codes.
-	SUN, the Swedish education nomenclature, is used for classifying education programs and to descbribe individuals' education. SUN is divided into two structures, one for education field descriptions and one for education level descriptions. The current version is SUN 2020.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax36"/>
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
-	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:keyword xml:lang="sv">utbildning</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax36	">
-		<dcterms:title xml:lang="sv">Hela SUN-inriktningsstrukturen</dcterms:title>
-		<dcterms:title xml:lang="en">SUN field hierarchy</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-<!--Hela SUN-nivåstrukturen-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Hela-SUN-nivåstrukturen">
-	<dcterms:title xml:lang="sv">Hela SUN-nivåstrukturen</dcterms:title>
-	<dcterms:title xml:lang="en">SUN level hierarchy</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller hela SUN-nivåstrukturen med tillhörande beskrivningstexter och SUN2020-koder.
-	SUN , Svensk utbildningsnomenklatur, används bland annat för att klassificera utbildningar och beskriva individers utbildning. SUN är indelad i två strukturer, en för utbildningsinriktning och en för utbildningsnivå. Den nuvarande versionen är SUN 2020. 
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains the entire SUN level structure with associated description texts and SUN 2020 codes.
-	SUN, the Swedish education nomenclature, is used for classifying education programs and to descbribe individuals' education. SUN is divided into two structures, one for education field descriptions and one for education level descriptions. The current version is SUN 2020.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax37"/>
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
-	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:keyword xml:lang="sv">utbildning</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax37	">
-		<dcterms:title xml:lang="sv">Hela SUN-nivåstrukturen</dcterms:title>
-		<dcterms:title xml:lang="en">>SUN level hierarchy</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-<!--Löneform-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Löneform">
-	<dcterms:title xml:lang="sv">Löneform</dcterms:title>
-	<dcterms:title xml:lang="en">Wage type concepts</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden listar concept för löneform.
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains concepts describing wage type.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax38"/>		
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax38	">
-		<dcterms:title xml:lang="sv">Löneform</dcterms:title>
-		<dcterms:title xml:lang="en">Wage type concepts</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22wage-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-<!--Körkort-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Körkort">
-	<dcterms:title xml:lang="sv">Körkort</dcterms:title>
-	<dcterms:title xml:lang="en">Driving licences</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller körkort med tillhörande beskrivningar. 
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains driving licences with associated descriptions.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax39"/>	
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
-	<dcterms:creator rdf:resource="https://transportstyrelsen.se/"/>	
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax39	">
-		<dcterms:title xml:lang="sv">Körkort</dcterms:title>
-		<dcterms:title xml:lang="en">driving licences</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22driving-licence%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20short_description%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-
-<!--Arbetstid-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Arbetstid">
-	<dcterms:title xml:lang="sv">Arbetstid</dcterms:title>
-	<dcterms:title xml:lang="en">Concepts describing working hours</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller concept som beskriver en anställnings omfattning i tid.
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains concepts descsribing the type of working hours that can be associated with a certain job. 
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax40"/>	
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax40	">
-		<dcterms:title xml:lang="sv">Arbetstid</dcterms:title>
-		<dcterms:title xml:lang="en">Concepts describing working hours</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22worktime-extent%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
-<!--tid i yrke-->
-<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#tid-i-yrke">
-	<dcterms:title xml:lang="sv">tid i yrke</dcterms:title>
-	<dcterms:title xml:lang="en">Concepts describing occupation experience in years</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller concept som kan beskriva hur länge en person varit verksam inom ett visst yrke. 
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains concepts describing the length of time in which a person has been engaged with specific occupation.
-</dcterms:description>
-	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax41"/>	
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
-	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
-	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
-	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
-	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
-	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
-	<dcterms:temporal>
-		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
-			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
-		</dcterms:PeriodOfTime>
-	</dcterms:temporal>
-</dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax41	">
-		<dcterms:title xml:lang="sv">Tid i yrke</dcterms:title>
-		<dcterms:title xml:lang="en">Concepts describing occupation experience in years</dcterms:title>
-		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
-		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcterms:format>application/json</dcterms:format>		
-		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-experience-year%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
-</dcat:Distribution>
-
 
 <!--Dataset Historiska annonser -->
 <dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#historiska-annonser">
@@ -1736,8 +1443,39 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-
-
+<dcat:Dataset>
+	<dcterms:title xml:lang="sv">Kompetensbegrepp</dcterms:title>
+	<dcterms:title xml:lang="en">Taxonomy API</dcterms:title>
+	<dcterms:description xml:lang="sv">JobTech Taxonomy innehåller data som vanligtvis används inom arbetsmarknaden och Arbetsförmedlingen. 
+	Datan består av begrepp som bedöms vara relevanta för matchning mellan lediga jobb och arbetssökande. </dcterms:description>
+	<dcterms:description xml:lang="en">JobTech Taxonomy contains data used by the Swedish labour market. 
+	The data consists of structured lists of concepts that are relevant when matching vacancies with job seekers.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo0"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo2"/>
+	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
+	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Yrke</dcat:keyword>
+	<dcat:keyword xml:lang="en">Occuaption</dcat:keyword>
+	<dcat:keyword xml:lang="sv">SSYK</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Arbetsmarknad</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Matchning</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Kompetens</dcat:keyword>
+	<dcat:keyword xml:lang="en">Skill</dcat:keyword>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
+	<dcterms:temporal>
+		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
+			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
+		</dcterms:PeriodOfTime>
+	</dcterms:temporal>
+</dcat:Dataset>
 <!--Dataset Yrkesprognoser -->
 <dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#yrkesprognos">
 	<dcterms:title xml:lang="sv">Yrkesprognoser</dcterms:title>
@@ -1761,7 +1499,6 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-
 <!--Dataset Job Search-->
 <dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#jobsearch">
 	<dcterms:title xml:lang="sv">Job Search</dcterms:title>
@@ -1867,7 +1604,37 @@
 
 <!--Distribution Taxonomi (taxo) -->
 
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo0">
+	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
+	<dcterms:format>text/html</dcterms:format>	
+	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
+</dcat:Distribution>
 
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1">
+	<dcterms:title xml:lang="sv">Swagger gränsnitt - Taxonomi API</dcterms:title>
+	<dcterms:title xml:lang="en">Taxonomi API - swagger UI</dcterms:title>
+	<dcterms:description xml:lang="sv">Testa apiet i swagger, begär en API nyckel på apirequest@jobtechdev.se</dcterms:description>
+	<dcterms:description xml:lang="en">Try out Taxonomi API in swagger, request API key at apirequest.jobtechdev.se</dcterms:description>
+	<dcterms:format>application/json</dcterms:format>
+	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
+	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
+</dcat:Distribution>
+
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo2">
+	<dcterms:title xml:lang="sv"> Taxonomi API - swagger JSON</dcterms:title>
+	<dcterms:title xml:lang="en"> Taxonomy API - swagger JSON</dcterms:title>
+	<dcterms:description xml:lang="sv"> Taxonomi API swagger (JSON)</dcterms:description>
+	<dcterms:description xml:lang="en"> Taxonomy API swagger (JSON)</dcterms:description>
+	<dcterms:format>application/json</dcterms:format>
+	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
+</dcat:Distribution>
 
 <!--distribution Historiska annonser  (hist)-->
 
