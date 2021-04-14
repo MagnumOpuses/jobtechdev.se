@@ -936,7 +936,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax21">
-		<dcterms:title xml:lang="sv">Sökbegrepp med relation till andra concept </dcterms:title>
+		<dcterms:title xml:lang="sv">Sökbegrepp med relation till andra concept</dcterms:title>
 		<dcterms:title xml:lang="en">Keyword concepts with relations</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>

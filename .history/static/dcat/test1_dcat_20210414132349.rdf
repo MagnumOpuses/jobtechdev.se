@@ -936,7 +936,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax21">
-		<dcterms:title xml:lang="sv">Sökbegrepp med relation till andra concept</dcterms:title>
+		<dcterms:title xml:lang="sv"Sökbegrepp med relation till andra concept</dcterms:title>
 		<dcterms:title xml:lang="en">Keyword concepts with relations</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
@@ -1261,7 +1261,7 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax29">
 		<dcterms:title xml:lang="sv">SUN inriktning nivå ett</dcterms:title>
-		<dcterms:title xml:lang="en">SUN field hierarchy level 1</dcterms:title>
+		<dcterms:title xml:lang="en">SUN field hierarchy level 1<</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
 		<dcterms:format>application/json</dcterms:format>		
@@ -1299,7 +1299,7 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax30">
 		<dcterms:title xml:lang="sv">SUN inriktning nivå två</dcterms:title>
-		<dcterms:title xml:lang="en">SUN field hierarchy level 2</dcterms:title>
+		<dcterms:title xml:lang="en">SUN field hierarchy level 2<</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
 		<dcterms:format>application/json</dcterms:format>		
@@ -1336,7 +1336,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax31">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax31	">
 		<dcterms:title xml:lang="sv">SUN inriktning nivå tre</dcterms:title>
 		<dcterms:title xml:lang="en">SUN field hierarchy level 3</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1375,7 +1375,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax32">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax32	">
 		<dcterms:title xml:lang="sv">SUN inriktning nivå fyra</dcterms:title>
 		<dcterms:title xml:lang="en">SUN field hierarchy level 4</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1413,7 +1413,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax33">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax33	">
 		<dcterms:title xml:lang="sv">SUN nivå (nivå ett)</dcterms:title>
 		<dcterms:title xml:lang="en">SUN level hierarchy level 1</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1451,7 +1451,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax34">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax34	">
 		<dcterms:title xml:lang="sv">SUN nivå (nivå två)</dcterms:title>
 		<dcterms:title xml:lang="en">SUN level hierarchy level 2</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1489,7 +1489,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax35">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax35	">
 		<dcterms:title xml:lang="sv">SUN nivå (nivå tre)</dcterms:title>
 		<dcterms:title xml:lang="en">SUN level hierarchy level 3</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>

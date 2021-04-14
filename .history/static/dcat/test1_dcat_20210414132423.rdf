@@ -936,7 +936,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax21">
-		<dcterms:title xml:lang="sv">Sökbegrepp med relation till andra concept</dcterms:title>
+		<dcterms:title xml:lang="sv"Sökbegrepp med relation till andra concept</dcterms:title>
 		<dcterms:title xml:lang="en">Keyword concepts with relations</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
@@ -1261,7 +1261,7 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax29">
 		<dcterms:title xml:lang="sv">SUN inriktning nivå ett</dcterms:title>
-		<dcterms:title xml:lang="en">SUN field hierarchy level 1</dcterms:title>
+		<dcterms:title xml:lang="en">SUN field hierarchy level 1<</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
 		<dcterms:format>application/json</dcterms:format>		
@@ -1299,7 +1299,7 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax30">
 		<dcterms:title xml:lang="sv">SUN inriktning nivå två</dcterms:title>
-		<dcterms:title xml:lang="en">SUN field hierarchy level 2</dcterms:title>
+		<dcterms:title xml:lang="en">SUN field hierarchy level 2<</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
 		<dcterms:format>application/json</dcterms:format>		
