@@ -1867,7 +1867,37 @@
 
 <!--Distribution Taxonomi (taxo) -->
 
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo0">
+	<dcterms:title xml:lang="sv">API-dokumentation</dcterms:title>
+	<dcterms:title xml:lang="en">API-documentation</dcterms:title>
+	<dcterms:description xml:lang="sv">Kom igång med APIet.</dcterms:description>
+	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
+	<dcterms:format>text/html</dcterms:format>	
+	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
+</dcat:Distribution>
 
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo1">
+	<dcterms:title xml:lang="sv">Swagger gränsnitt - Taxonomi API</dcterms:title>
+	<dcterms:title xml:lang="en">Taxonomi API - swagger UI</dcterms:title>
+	<dcterms:description xml:lang="sv">Testa apiet i swagger, begär en API nyckel på apirequest@jobtechdev.se</dcterms:description>
+	<dcterms:description xml:lang="en">Try out Taxonomi API in swagger, request API key at apirequest.jobtechdev.se</dcterms:description>
+	<dcterms:format>application/json</dcterms:format>
+	<dcat:accessURL rdf:resource="https://apirequest.jobtechdev.se/"/>
+	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger-ui/"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
+</dcat:Distribution>
+
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxo2">
+	<dcterms:title xml:lang="sv"> Taxonomi API - swagger JSON</dcterms:title>
+	<dcterms:title xml:lang="en"> Taxonomy API - swagger JSON</dcterms:title>
+	<dcterms:description xml:lang="sv"> Taxonomi API swagger (JSON)</dcterms:description>
+	<dcterms:description xml:lang="en"> Taxonomy API swagger (JSON)</dcterms:description>
+	<dcterms:format>application/json</dcterms:format>
+	<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/swagger.json"/>
+	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+	<dcat:accessService rdf:resource="https://example.com/dataservice1"/>
+</dcat:Distribution>
 
 <!--distribution Historiska annonser  (hist)-->
 
