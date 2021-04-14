@@ -1644,18 +1644,15 @@
 </dcat:Distribution>
 
 
-
-<!--Arbetstid-->
+<!--Arb-->
 <dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Arbetstid">
 	<dcterms:title xml:lang="sv">Arbetstid</dcterms:title>
 	<dcterms:title xml:lang="en">Concepts describing working hours</dcterms:title>
-	<dcterms:description xml:lang="sv">Datamängden innehåller concept som beskriver en anställnings omfattning i tid.
-</dcterms:description>
-	<dcterms:description xml:lang="en">The data set contains concepts descsribing the type of working hours that can be associated with a certain job. 
-</dcterms:description>
+	<dcterms:description xml:lang="sv">Datamängden innehåller concept som beskriver en anställnings omfattning i tid.</dcterms:description>
+	<dcterms:description xml:lang="en">The data set contains concepts descsribing the type of working hours that can be associated with a certain job.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax40"/>	
-	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
+	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1669,7 +1666,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax40	">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax18">
 		<dcterms:title xml:lang="sv">Arbetstid</dcterms:title>
 		<dcterms:title xml:lang="en">Concepts describing working hours</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1678,6 +1675,8 @@
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22worktime-extent%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
+
+
 
 <!--tid i yrke-->
 <dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#tid-i-yrke">

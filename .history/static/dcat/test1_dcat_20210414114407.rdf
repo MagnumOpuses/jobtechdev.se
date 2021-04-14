@@ -1644,7 +1644,6 @@
 </dcat:Distribution>
 
 
-
 <!--Arbetstid-->
 <dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Arbetstid">
 	<dcterms:title xml:lang="sv">Arbetstid</dcterms:title>
