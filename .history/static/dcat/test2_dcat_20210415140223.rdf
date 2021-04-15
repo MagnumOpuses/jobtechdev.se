@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<dcat:Catalog rdf:about="http://arbetsformedlingen.se/datasets/dcat#catalog">
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-28</dcterms:modified>
+	<dcterms:title xml:lang="sv">Arbetsförmedlingens öppna data</dcterms:title>
+	<dcterms:description xml:lang="sv">Öppna data från arbetsförmedlingen</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>	
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Länder"/>	
+	<dcat:dataset rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#Körkort"/>	
+	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+	<foaf:homepage rdf:resource="https://jobtechdev.se/"/>
+	<dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-28</dcterms:issued>
+	<dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+</dcat:Catalog>
+
+<foaf:Agent rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1">
+	<foaf:name>Arbetsförmedlingen</foaf:name>
+	<dcterms:type rdf:resource="http://purl.org/adms/publishertype/NonProfitOrganisation"/>
+</foaf:Agent>
+
+<rdf:Description rdf:about="http://sws.geonames.org/2661886">
+	<rdfs:label xml:lang="en">Sweden</rdfs:label>
+</rdf:Description>
+
+
+
+<!--Länder-->
+<dcat:Dataset rdf:about= "https://jobtechdev.se/dcat/af_dcat.rdf#Länder">
+	<dcterms:title xml:lang="sv">Länder</dcterms:title>
+	<dcterms:title xml:lang="en">Countries</dcterms:title>
+	<dcterms:description xml:lang="sv">Datamängden innehåller länder med tillhörande ISO 3166-koder.</dcterms:description>
+	<dcterms:description xml:lang="en">The data set contains countries with their ISO 3166 codes.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax18"/>	
+	<dcterms:creator rdf:resource="https://www.iso.org/iso-3166-country-codes.html"/>
+	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
+	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
+	<dcat:keyword xml:lang="en">Matchning</dcat:keyword>
+	<dcat:keyword xml:lang="en">Geografi</dcat:keyword>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
+	<dcterms:temporal>
+		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
+			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
+		</dcterms:PeriodOfTime>
+	</dcterms:temporal>
+</dcat:Dataset>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax18">
+		<dcterms:title xml:lang="sv">Länder</dcterms:title>
+		<dcterms:title xml:lang="en">Countries</dcterms:title>
+		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
+		<dcterms:description xml:lang="en">Download </dcterms:description>
+		<dcterms:format>application/json</dcterms:format>		
+		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22country%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20iso_3166_1_alpha_2_2013%20%20%20%20%20iso_3166_1_alpha_3_2013%20%20%20%7D%20%7D"/>
+</dcat:Distribution>
+
+
+<!--Körkort-->
+<dcat:Dataset rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#Körkort">
+	<dcterms:title xml:lang="sv">Körkort</dcterms:title>
+	<dcterms:title xml:lang="en">Driving licences</dcterms:title>
+	<dcterms:description xml:lang="sv">Datamängden innehåller körkort med tillhörande beskrivningar. </dcterms:description>
+	<dcterms:description xml:lang="en">The data set contains driving licences with associated descriptions.</dcterms:description>
+	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax39"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
+	<dcterms:creator rdf:resource="https://transportstyrelsen.se/"/>
+	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
+	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
+	<dcat:keyword xml:lang="en">Matchning</dcat:keyword>
+	<dcat:keyword xml:lang="en">Geografi</dcat:keyword>
+	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
+	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
+	<dcterms:temporal>
+		<dcterms:PeriodOfTime rdf:nodeID="node1e07u274fx1">
+			<dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</dcat:startDate>
+		</dcterms:PeriodOfTime>
+	</dcterms:temporal>
+</dcat:Dataset>
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax39">
+		<dcterms:title xml:lang="sv">Körkort</dcterms:title>
+		<dcterms:title xml:lang="en">Driving licences</dcterms:title>
+		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
+		<dcterms:description xml:lang="en">Download </dcterms:description>
+		<dcterms:format>application/json</dcterms:format>		
+		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22driving-licence%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20short_description%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+</dcat:Distribution>
+
+
+
+
+
+
+</rdf:RDF>
