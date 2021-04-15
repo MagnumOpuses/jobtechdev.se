@@ -1489,7 +1489,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxe">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax35">
 		<dcterms:title xml:lang="sv">SUN nivå (nivå tre)</dcterms:title>
 		<dcterms:title xml:lang="en">SUN level hierarchy level 3</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1510,7 +1510,7 @@
 	SUN, the Swedish education nomenclature, is used for classifying education programs and to descbribe individuals' education. SUN is divided into two structures, one for education field descriptions and one for education level descriptions. The current version is SUN 2020.
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxf"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax36"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -1527,7 +1527,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxf">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax36">
 		<dcterms:title xml:lang="sv">Hela SUN-inriktningsstrukturen</dcterms:title>
 		<dcterms:title xml:lang="en">SUN field hierarchy</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1548,7 +1548,7 @@
 	SUN, the Swedish education nomenclature, is used for classifying education programs and to descbribe individuals' education. SUN is divided into two structures, one for education field descriptions and one for education level descriptions. The current version is SUN 2020.
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxg"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax37"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -1565,7 +1565,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxg">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax37">
 		<dcterms:title xml:lang="sv">Hela SUN-nivåstrukturen</dcterms:title>
 		<dcterms:title xml:lang="en">>SUN level hierarchy</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1584,7 +1584,7 @@
 	<dcterms:description xml:lang="en">The data set contains concepts describing wage type.
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxh"/>		
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax38"/>		
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1598,7 +1598,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxh">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax38">
 		<dcterms:title xml:lang="sv">Löneform</dcterms:title>
 		<dcterms:title xml:lang="en">Wage type concepts</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1615,7 +1615,7 @@
 	<dcterms:description xml:lang="sv">Datamängden innehåller körkort med tillhörande beskrivningar. </dcterms:description>
 	<dcterms:description xml:lang="en">The data set contains driving licences with associated descriptions.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxi"/>
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax39"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
 	<dcterms:creator rdf:resource="https://transportstyrelsen.se/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
@@ -1633,7 +1633,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxi">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax39">
 		<dcterms:title xml:lang="sv">Körkort</dcterms:title>
 		<dcterms:title xml:lang="en">Driving licences</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1654,7 +1654,7 @@
 	<dcterms:description xml:lang="en">The data set contains concepts descsribing the type of working hours that can be associated with a certain job. 
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxj"/>	
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax40"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1669,7 +1669,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxj">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax40">
 		<dcterms:title xml:lang="sv">Arbetstid</dcterms:title>
 		<dcterms:title xml:lang="en">Concepts describing working hours</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
@@ -1688,7 +1688,7 @@
 	<dcterms:description xml:lang="en">The data set contains concepts describing the length of time in which a person has been engaged with specific occupation.
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxk"/>	
+	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax41"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1703,7 +1703,7 @@
 		</dcterms:PeriodOfTime>
 	</dcterms:temporal>
 </dcat:Dataset>
-<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxk">
+<dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax41">
 		<dcterms:title xml:lang="sv">Tid i yrke</dcterms:title>
 		<dcterms:title xml:lang="en">Concepts describing occupation experience in years</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
