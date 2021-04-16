@@ -296,9 +296,7 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax5">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp utan några kopplingar till andra concept. </dcterms:title>
-		<dcterms:title xml:lang="en">The data set contains skill concepts without any relations to other concepts.</dcterms:title>
-		<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp utan några kopplingar till andra concept. </dcterms:description>
-		<dcterms:description xml:lang="en">The data set contains skill concepts without any relations to other concepts.</dcterms:description>				
+		<dcterms:title xml:lang="en">The data set contains skill concepts without any relations to other concepts.</dcterms:title>		
 		<dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -344,11 +342,7 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax6">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper</dcterms:title>
-		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>
-		<dcterms:description xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper. 
-		Ett kompetensbegrepp är i regel kopplat till minst en SSYK nivå 4-grupp.</dcterms:description>
-		<dcterms:description xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. 
-		A skills is typically related to at least one SSYK level 4 group.</dcterms:description>				
+		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>		
 		<dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
