@@ -738,7 +738,7 @@
 	</dcterms:temporal>
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax14">
-		<dcterms:title xml:lang="sv">SSYK nivå fyra med relationer till ISCO nivå fyra</dcterms:title>
+		<dcterms:title xml:lang="sv">>SSYK nivå fyra med relationer till ISCO nivå fyra</dcterms:title>
 		<dcterms:title xml:lang="en">SSYK level 4 with related ISCO level 4 groups </dcterms:title>			
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
