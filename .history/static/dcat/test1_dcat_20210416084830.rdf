@@ -131,7 +131,7 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax2"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
+	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"	/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>	
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -173,7 +173,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax3"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -216,7 +215,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax4"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -258,7 +256,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax5"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="en">skill</dcat:keyword>
@@ -302,7 +299,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax6"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="en">skill</dcat:keyword>
@@ -344,7 +340,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax7"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="en">skill</dcat:keyword>
@@ -386,7 +381,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax8"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Yrkesmall</dcat:keyword>
@@ -433,7 +427,6 @@
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -477,7 +470,6 @@
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -521,7 +513,6 @@
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -565,7 +556,6 @@
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/standard-for-svensk-yrkesklassificering-ssyk/"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -605,7 +595,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax12"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -647,7 +636,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax13"/>	
 	<dcterms:creator rdf:resource="https://www.ilo.org/public/english/bureau/stat/isco/"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -688,7 +676,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax14"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -728,7 +715,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax15"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -762,7 +748,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax16"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -797,7 +782,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax17"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/TRIENNIAL"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
@@ -832,7 +816,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax18"/>	
 	<dcterms:creator rdf:resource="https://www.iso.org/iso-3166-country-codes.html"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -868,8 +851,7 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax19"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://ec.europa.eu/eurostat/web/nuts/background"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
-	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
+		<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
@@ -905,7 +887,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax20"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIENNIAL"/>		
 	<dcterms:creator rdf:resource="http://www.iso639-3.sil.org/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -939,7 +920,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax21"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -986,7 +966,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax22"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>		
 	<dcterms:creator rdf:resource="https://karriarihandeln.se/yrkeskartan/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1031,7 +1010,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax23"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1071,7 +1049,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax24"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1112,7 +1089,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax25"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1153,7 +1129,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax26"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1194,7 +1169,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax27"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1235,7 +1209,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax28"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1275,7 +1248,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax29"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1314,7 +1286,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax30"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1354,7 +1325,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxa"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1394,7 +1364,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxb"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1433,7 +1402,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxc"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1472,7 +1440,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxd"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1511,7 +1478,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxe"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1550,7 +1516,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxf"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1589,7 +1554,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxg"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1624,7 +1588,6 @@
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxh"/>		
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1658,7 +1621,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxi"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
 	<dcterms:creator rdf:resource="https://transportstyrelsen.se/"/>
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1697,7 +1659,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxj"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
@@ -1732,7 +1693,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxk"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
