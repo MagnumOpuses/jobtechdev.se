@@ -1179,7 +1179,7 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax26"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+	
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1221,7 +1221,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax27"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1263,7 +1262,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax28"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="http://www.sni2007.scb.se/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1304,7 +1302,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax29"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1344,7 +1341,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax30"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1385,7 +1381,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxa"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1426,7 +1421,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxb"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1466,7 +1460,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxc"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1506,7 +1499,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxd"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1546,7 +1538,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxe"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1586,7 +1577,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxf"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1626,7 +1616,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxg"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>		
 	<dcterms:creator rdf:resource="https://www.scb.se/dokumentation/klassifikationer-och-standarder/svensk-utbildningsnomenklatur-sun/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1662,7 +1651,6 @@
 </dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxh"/>		
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1697,7 +1685,6 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxi"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
 	<dcterms:creator rdf:resource="https://transportstyrelsen.se/"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1737,7 +1724,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxj"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1773,7 +1759,6 @@
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_taxk"/>	
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>	
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy/"/>
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
@@ -1805,7 +1790,6 @@
 	<dcterms:title xml:lang="en">Historical ads</dcterms:title>
 	<dcterms:description xml:lang="sv"> Ett dataset innehållande jobbannonser publicerade på Platsbanken från 2006 och framåt.</dcterms:description>
 	<dcterms:description xml:lang="en"> This dataset consists of jobpostings published on Platsbanken from the year 2006 and forward.</dcterms:description>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist1"/>
@@ -1832,7 +1816,6 @@
 	<dcterms:title xml:lang="en">Occupation forecast</dcterms:title>
 	<dcterms:description xml:lang="sv"> Yrkesprognos APIet innehåller 1 och 5 åriga prognoser.</dcterms:description>
 	<dcterms:description xml:lang="en"> API Af Occupation Forecasts contains 1 and 5 years forecasts for different occupations.</dcterms:description>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke1"/>	
@@ -1860,7 +1843,6 @@
 	<dcterms:description xml:lang="en"> Our job search API is a search engine for all the current job ads from Platsbanken. The aim is to make a simple yet versatile API 
 	that should suit anyone building any kind of application involving data from job ads.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobse0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobse1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
@@ -1886,7 +1868,6 @@
 	<dcterms:description xml:lang="en"> JobStream API for those who are building applications and needs to store all ads locally. 
 	With JobStream you can fetch all changes in ads once a minute. New, removed or updated ads.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
@@ -1912,7 +1893,6 @@
 	<dcterms:description xml:lang="en"> JobAd Enrichments API extracts relevant labor market data from job ad texts, making it possible to automatically 
 	see what the employers need or request from the job seekers.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
