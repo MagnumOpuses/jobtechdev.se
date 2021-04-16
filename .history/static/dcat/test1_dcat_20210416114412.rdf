@@ -2010,6 +2010,7 @@
 	<dcterms:title xml:lang="en">Documentation</dcterms:title>
 	<dcterms:description xml:lang="sv">Kom igång</dcterms:description>
 	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
+	<dcat:availability>stable</dcat:availability>
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
 </dcat:Distribution>
@@ -2020,6 +2021,7 @@
 	<dcterms:title xml:lang="en">All historical job ads from 2006 and forward.</dcterms:title>
 	<dcterms:description xml:lang="sv">Här kan du ladda ner alla historiska annonser som publicerats från 2006 och framåt.</dcterms:description>
 	<dcterms:description xml:lang="en">Download all historical job ads from 2006 and forward.</dcterms:description>
+	
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
