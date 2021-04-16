@@ -344,7 +344,8 @@
 </dcat:Dataset>
 <dcat:Distribution rdf:about="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_tax6">
 		<dcterms:title xml:lang="sv">Datamängden innehåller kompetensbegrepp med relationer till SSYK nivå 4-grupper</dcterms:title>
-		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>		
+		<dcterms:title xml:lang="en">The data set contains skill concepts with relations to SSYK level 4 groups. </dcterms:title>
+		
 		A skills is typically related to at least one SSYK level 4 group.</dcterms:description>				
 		<dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
