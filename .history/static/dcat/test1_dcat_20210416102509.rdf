@@ -1886,7 +1886,7 @@
 	<dcterms:description xml:lang="en"> JobStream API for those who are building applications and needs to store all ads locally. 
 	With JobStream you can fetch all changes in ads once a minute. New, removed or updated ads.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+	
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_jobst1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
@@ -1912,7 +1912,6 @@
 	<dcterms:description xml:lang="en"> JobAd Enrichments API extracts relevant labor market data from job ad texts, making it possible to automatically 
 	see what the employers need or request from the job seekers.</dcterms:description>
 	<dcterms:publisher rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#publisher1"/>
-	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba0"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_joba1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
