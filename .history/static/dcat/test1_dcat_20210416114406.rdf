@@ -2010,6 +2010,7 @@
 	<dcterms:title xml:lang="en">Documentation</dcterms:title>
 	<dcterms:description xml:lang="sv">Kom igång</dcterms:description>
 	<dcterms:description xml:lang="en">Getting started.</dcterms:description>
+	
 	<dcterms:format>text/html</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/docs/apis/historical/"/>
 </dcat:Distribution>
