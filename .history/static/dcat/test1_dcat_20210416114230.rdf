@@ -1643,7 +1643,6 @@
 		<dcterms:title xml:lang="en">SUN field hierarchy</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcat:availability>stable</dcat:availability>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
@@ -1684,7 +1683,6 @@
 		<dcterms:title xml:lang="en">>SUN level hierarchy</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcat:availability>stable</dcat:availability>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
@@ -1720,7 +1718,6 @@
 		<dcterms:title xml:lang="en">Wage type concepts</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcat:availability>stable</dcat:availability>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22wage-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
@@ -1758,7 +1755,6 @@
 		<dcterms:title xml:lang="en">Driving licences</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcat:availability>stable</dcat:availability>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22driving-licence%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20short_description%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
@@ -1797,7 +1793,6 @@
 		<dcterms:title xml:lang="en">Concepts describing working hours</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcat:availability>stable</dcat:availability>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22worktime-extent%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
@@ -1834,7 +1829,6 @@
 		<dcterms:title xml:lang="en">Concepts describing occupation experience in years</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcat:availability>stable</dcat:availability>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-experience-year%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
