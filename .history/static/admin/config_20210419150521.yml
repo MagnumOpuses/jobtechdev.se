@@ -43,7 +43,7 @@ collections:
     - label: Drafts
       field: draft
       pattern: true
-
+  Collections:
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheters" # Used in the UI
     allow_nesting: true
