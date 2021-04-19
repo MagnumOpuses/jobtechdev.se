@@ -37,7 +37,7 @@ collections:
       - label: "Alice's and Bob's Posts"
         field: author
         pattern: 'Alice|Bob'
-      - label: 'Posts published in 2021'
+      - label: 'Posts published in 2020'
         field: date
         pattern: '21'
       - label: Drafts
