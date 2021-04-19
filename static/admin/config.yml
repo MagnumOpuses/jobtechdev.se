@@ -32,17 +32,16 @@ collections:
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
-  collections:
     view_filters:
-    - label: "Alice's and Bob's Posts"
-      field: author
-      pattern: 'Alice|Bob'
-    - label: 'Posts published in 2020'
-      field: date
-      pattern: '2020'
-    - label: Drafts
-      field: draft
-      pattern: true
+      - label: "Alice's and Bob's Posts"
+        field: author
+        pattern: 'Alice|Bob'
+      - label: 'Posts published in 2020'
+        field: date
+        pattern: '20'
+      - label: Drafts
+        field: draft
+        pattern: true
   Collections:
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheters" # Used in the UI
