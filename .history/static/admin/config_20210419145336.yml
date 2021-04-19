@@ -32,7 +32,9 @@ collections:
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
+<<<<<<< HEAD
   collections:
+=======
     view_filters:
     - label: "Alice's and Bob's Posts"
       field: author
@@ -43,7 +45,7 @@ collections:
     - label: Drafts
       field: draft
       pattern: true
-  Collections:
+>>>>>>> st
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheters" # Used in the UI
     allow_nesting: true
