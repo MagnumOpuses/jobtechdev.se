@@ -1787,6 +1787,7 @@
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>		
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>		
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>	
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
 	<dcat:contactPoint rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#contactpoint1"/>
@@ -1801,7 +1802,7 @@
 		<dcterms:title xml:lang="en">Concepts describing occupation experience in years</dcterms:title>
 		<dcterms:description xml:lang="sv">Här kan du ladda ner</dcterms:description>
 		<dcterms:description xml:lang="en">Download </dcterms:description>
-		<dcatap:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
+		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-experience-year%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
@@ -1820,7 +1821,8 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist1"/>
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_hist2"/>
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
-	<dcat:keyword xml:lang="sv">Historiska annonser</dcat:keyword>    
+	<dcat:keyword xml:lang="sv">Historiska annonser</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
 	<dcat:keyword xml:lang="en">Historical ads</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
@@ -1846,7 +1848,8 @@
 	<dcat:distribution rdf:resource="https://jobtechdev.se/dcat/af_dcat.rdf#distribution_yrke1"/>	
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcat:keyword xml:lang="sv">Yrkesprognoser</dcat:keyword>
-	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>	
+	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>
+	<dcat:keyword xml:lang="sv">Arbetsförmedlingen</dcat:keyword>
 	<dcat:keyword xml:lang="en">Occpation forecast</dcat:keyword>
 	<dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
 	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-01</dcterms:issued>
