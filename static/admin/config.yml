@@ -36,7 +36,7 @@ collections:
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
-collections:
+
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheters" # Used in the UI
     allow_nesting: true
