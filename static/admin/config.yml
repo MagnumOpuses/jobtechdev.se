@@ -42,11 +42,7 @@ collections:
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
-
     view_filters:
-      - label: "Alice's and Bob's Posts"
-        field: author
-        pattern: 'Alice|Bob'
       - label: 'Posts published in 2020'
         field: date
         pattern: '20'
