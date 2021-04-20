@@ -1,0 +1,72 @@
+backend:
+  name: github
+  repo: MagnumOpuses/jobtechdev.se
+  site_domain: stage.jobtechdev.se
+  branch: stage
+
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+
+
+# These lines should *not* be indented
+media_folder: "/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "Nyheter" # Used in the UI
+    description: "Publicera på nyhetssidan"
+    folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md        
+    view_filters:
+      - label: 'Posts published in 2021'
+        field: date
+        pattern: '20'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {
+        label: "Featured Image",
+        name: "thumbnail", 
+        widget: "image",       
+        media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
+      }
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
+      label: "Nyheters" # Used in the UI
+      allow_nesting: true
+      folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+      fields: # The fields for each document, usually in front matter
+        - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {
+          label: "Featured Image",
+          name: "thumbnail", 
+          widget: "image",       
+          media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
+        }
+        - {label: "Body", name: "body", widget: "markdown"}
+        - label: "Blog in English"
+          name: "english_posts"
+          folder: "_posts"
+          create: true
+          slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+          filter: {field: "language", value: "en"}
+          fields:
+            - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Content", name: "body", widget: "markdown"}
+
+
+        
+
+
+
