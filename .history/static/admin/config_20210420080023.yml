@@ -42,16 +42,7 @@ collections:
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
-
-    view_filters:
-      - label: "Alice's and Bob's Posts"
-        field: author
-        pattern: 'Alice|Bob'
-      - label: 'Posts published in 2020'
-        field: date
-        pattern: '20'
-        allow_nested: true
-  Collections:
+ 
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheters" # Used in the UI
     allow_nesting: true
