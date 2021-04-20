@@ -39,8 +39,6 @@ collections:
       - label: 'Posts published in 2020'
         field: date
         pattern: '20'
-      - label: Drafts
-        field: draft
         pattern: true
   Collections:
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
