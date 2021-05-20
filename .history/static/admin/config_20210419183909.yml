@@ -20,11 +20,18 @@ collections:
     description: "Publicera på nyhetssidan"
     folder: "/content/sv/news/news_head/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md        
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+    summary: "{{title
     view_filters:
+      - label: "Alice's and Bob's Posts"
+        field: author
+        pattern: 'Alice|Bob'
       - label: 'Posts published in 2021'
         field: date
-        pattern: '20'
+        pattern: '2021'
+      - label: Drafts
+        field: draft
+        pattern: true
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
@@ -36,7 +43,7 @@ collections:
         media_folder: "/content/sv/news/news_head/{{year}}-{{month}}-{{day}}-{{slug}}/"
       }
       - {label: "Body", name: "body", widget: "markdown"}
-
+ 
   - name: "news tes t" # Used in routes, e.g., /admin/collections/blog
     label: "Nyheters" # Used in the UI
     allow_nesting: true
@@ -64,9 +71,9 @@ collections:
           - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
-          
-    
 
+
+        
 
 
 

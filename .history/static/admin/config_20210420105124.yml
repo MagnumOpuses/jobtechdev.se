@@ -64,9 +64,9 @@ collections:
           - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
-          
-    
 
+
+        
 
 
 
