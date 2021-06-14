@@ -161,7 +161,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 	
@@ -208,7 +208,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20substituted_by%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%20%20substitutes%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20substituted_by%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%20%20substitutes%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--Släktskap mellan yrkesbenämningar-->
@@ -254,7 +254,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20substituted_by%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%20%20substitutes%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20substituted_by%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%20%20substitutes%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20substitutability_percentage%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--Kompetensbegrepp-->
@@ -302,7 +302,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 
@@ -348,7 +348,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--Kompetensbegrepp och relationer till kompetensrubrik och nivå fyra i SSYK-strukturen-->
@@ -392,7 +392,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20broader%28type%3A%20%22skill-headline%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20broader%28type%3A%20%22skill-headline%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--SSYK nivå fyra med relationer till kompetensbegrepp och yrkesbenämningar-->
@@ -437,7 +437,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20narrower%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20narrower%28type%3A%20%22occupation-name%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%20%20related%28type%3A%20%22skill%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--Nivå fyra i SSYK-strukturen-->
@@ -483,7 +483,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--Nivå tre i SSYK-strukturen-->
@@ -529,7 +529,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 <!--Nivå två i SSYK-strukturen-->
@@ -575,7 +575,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 	</dcat:Distribution>
 
 
@@ -621,7 +621,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Hela SSYK-strukturen med yrkesbenämningar-->
@@ -663,7 +663,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20narrower%28type%3A%20%22ssyk-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20narrower%28type%3A%20%22ssyk-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20%20%20narrower%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20%20%20narrower%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20narrower%28type%3A%20%22ssyk-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20narrower%28type%3A%20%22ssyk-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20%20%20narrower%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20%20%20narrower%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--ISCO nivå fyra-->
@@ -690,6 +690,7 @@
 	<dcat:keyword xml:lang="sv">Yrke</dcat:keyword>
 	<dcat:keyword xml:lang="sv">ISCO</dcat:keyword>
 	<dcat:keyword xml:lang="en">Occuaption</dcat:keyword>
+
 	<dcat:keyword xml:lang="sv">SSYK</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Arbetsmarknad</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Matchning</dcat:keyword>
@@ -708,7 +709,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22isco-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20isco_code_08%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22isco-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20isco_code_08%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -751,7 +752,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22isco-level-4%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20isco_code_08%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22ssyk-level-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20ssyk_code_2012%20%20%20%20%20definition%20%20%20%20%20related%28type%3A%20%22isco-level-4%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20isco_code_08%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -789,7 +790,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22employment-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22employment-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -827,7 +828,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>		
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22self-employment-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22self-employment-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Anställningsvaraktighet-->
@@ -864,7 +865,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22employment-duration%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22employment-duration%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Länder-->
@@ -901,7 +902,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22country%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20iso_3166_1_alpha_2_2013%20%20%20%20%20iso_3166_1_alpha_3_2013%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22country%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20iso_3166_1_alpha_2_2013%20%20%20%20%20iso_3166_1_alpha_3_2013%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--EU-regioner-->
@@ -940,7 +941,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22region%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20nuts_level_3_code_2013%20%20%20%20%20national_nuts_level_3_code_2019%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22region%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20nuts_level_3_code_2013%20%20%20%20%20national_nuts_level_3_code_2019%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Språk-->
@@ -977,7 +978,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22language%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20iso_639_1_2002%20%20%20%20%20iso_639_2_1998%20%20%20%20%20iso_639_3_2007%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22language%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20iso_639_1_2002%20%20%20%20%20iso_639_2_1998%20%20%20%20%20iso_639_3_2007%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Sökbegrepp med relation till andra concept-->
@@ -1017,7 +1018,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22swedish-retail-and-wholesale-council-skill%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22swedish-retail-and-wholesale-council-skill%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Handelsrådets kompetenser med relation till yrke-->
@@ -1068,7 +1069,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22swedish-retail-and-wholesale-council-skill%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22swedish-retail-and-wholesale-council-skill%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20related%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20ssyk_code_2012%20%20%20%20%20%20%20definition%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Nivå ett i SNI-strukturen-->
@@ -1110,7 +1111,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-1%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-1%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Nivå två i SNI-strukturen-->
@@ -1152,7 +1153,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-1%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-1%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1195,7 +1196,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-3%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-3%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1238,7 +1239,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-4%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-4%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1281,7 +1282,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-5%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-5%22%29%20%7B%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1324,7 +1325,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%20%20narrower%28type%3A%20%22sni-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20narrower%28type%3A%20%22sni-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sni-level-4%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sni-level-5%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sni-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20sni_level_code_2007%20%20%20%20%20narrower%28type%3A%20%22sni-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20narrower%28type%3A%20%22sni-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sni-level-4%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sni-level-5%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20%20%20sni_level_code_2007%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--SUN inriktning nivå ett-->
@@ -1365,7 +1366,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--SUN inriktning nivå två-->
@@ -1406,7 +1407,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-2%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-2%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1448,7 +1449,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1490,7 +1491,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--SUN nivå (nivå ett)-->
@@ -1531,7 +1532,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--SUN nivå (nivå två)-->
@@ -1572,7 +1573,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--SUN nivå (nivå tre)-->
@@ -1613,7 +1614,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Hela SUN-inriktningsstrukturen-->
@@ -1654,7 +1655,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-field-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-field-4%22%29%20%7B%20%20%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20%20%20sun_education_field_code_2020%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Hela SUN-nivåstrukturen-->
@@ -1695,7 +1696,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22sun-education-level-1%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20definition%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-2%22%29%20%7B%20%20%20%20%20%20%20id%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20type%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20narrower%28type%3A%20%22sun-education-level-3%22%29%20%7B%20%20%20%20%20%20%20%20%20id%20%20%20%20%20%20%20%20%20preferred_label%20%20%20%20%20%20%20%20%20type%20%20%20%20%20%20%20%20%20definition%20%20%20%20%20%20%20%20%20sun_education_level_code_2020%20%20%20%20%20%20%20%7D%20%20%20%20%20%7D%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Löneform-->
@@ -1731,7 +1732,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22wage-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22wage-type%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--Körkort-->
@@ -1769,7 +1770,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22driving-licence%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20short_description%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22driving-licence%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%20%20short_description%20%20%20%20%20definition%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -1808,7 +1809,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22worktime-extent%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22worktime-extent%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 <!--tid i yrke-->
@@ -1845,7 +1846,7 @@
 		<dcat:availability rdf:resource="http://data.europa.eu/r5r/availability/stable"/>
 		<dcterms:format>application/json</dcterms:format>		
 		<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-		<dcat:accessURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-experience-year%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
+		<dcat:downloadURL rdf:resource="https://taxonomy.api.jobtechdev.se/v1/taxonomy/graphql?query=query%20MyQuery%20%7B%20%20%20concepts%28type%3A%20%22occupation-experience-year%22%29%20%7B%20%20%20%20%20id%20%20%20%20%20preferred_label%20%20%20%20%20type%20%20%20%7D%20%7D"/>
 </dcat:Distribution>
 
 
@@ -2031,7 +2032,7 @@
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-	<dcat:accessURL rdf:resource="https://simonbe.blob.core.windows.net/afhistorik/pb_2006_2020.rar"/>
+	<dcat:downloadURL rdf:resource="https://simonbe.blob.core.windows.net/afhistorik/pb_2006_2020.rar"/>
 </dcat:Distribution>
 
 
@@ -2043,21 +2044,21 @@
 	<dcterms:format>application/json</dcterms:format>
 	<dcat:accessURL rdf:resource="https://jobtechdev.se/en/docs/apis/historical/"/>
 	<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>	
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2006.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2007.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2008.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2009.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2010.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2011.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2012.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2013.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2014.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2015.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2016.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2017.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2018.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2019.rar"/>
-	<dcat:accessURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2020.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2006.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2007.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2008.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2009.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2010.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2011.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2012.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2013.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2014.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2015.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2016.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2017.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2018.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2019.rar"/>
+	<dcat:downloadURL rdf:resource="https://minio.arbetsformedlingen.se/historiska-annonser/2020.rar"/>
 </dcat:Distribution>
 
 
