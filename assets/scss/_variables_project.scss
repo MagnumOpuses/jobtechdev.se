@@ -155,4 +155,14 @@ $yiq-contrasted-threshold: 200 !default;
   position: relative;
   margin-top: -231px;
 }
-
+.gcontent th, td, tr{
+  border:1px solid gray
+  
+ }
+ 
+table {
+  overflow: auto;
+  width: max-content;
+  max-width: 100%;
+  display: block;
+}

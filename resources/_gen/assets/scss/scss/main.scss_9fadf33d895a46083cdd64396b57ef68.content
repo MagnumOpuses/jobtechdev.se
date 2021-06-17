@@ -24,6 +24,15 @@ See https://github.com/twbs/bootstrap/pull/23260
   position: relative;
   margin-top: -231px; }
 
+.gcontent th, td, tr {
+  border: 1px solid gray; }
+
+table {
+  overflow: auto;
+  width: max-content;
+  max-width: 100%;
+  display: block; }
+
 /*
 
 Bootstrap variables overrides for theme.
