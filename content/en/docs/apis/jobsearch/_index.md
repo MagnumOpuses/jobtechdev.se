@@ -13,4 +13,4 @@ The API is especially useful for companies and organisations that don't have the
 **The API is freely available.**
 
 
-{{< getMD "https://api.github.com/repos/Jobtechdev-content/Jobsearch-content/contents/GettingStartedJobSearchEN.md?ref=master" >}}
+{{< getMD "/api/github/repos/Jobtechdev-content/Jobsearch-content/contents/GettingStartedJobSearchEN.md?ref=master" >}}
