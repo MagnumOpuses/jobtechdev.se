@@ -89,7 +89,7 @@
 	<dcterms:spatial rdf:resource="http://sws.geonames.org/2661886"/>
 	<dcterms:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/MONTHLY"/>
 	<dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>	
-	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy"/>
+	<foaf:page rdf:resource="https://jobtechdev.se/docs/apis/taxonomy"/>	
 	<dcat:landingPage rdf:resource="https://atlas.jobtechdev.se/page/taxonomy.html"/>	
 	<dcat:keyword xml:lang="sv">Taxonomi</dcat:keyword>
 	<dcat:keyword xml:lang="sv">Jobtech</dcat:keyword>	
